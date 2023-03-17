@@ -41,7 +41,7 @@ const Navbar = () => {
                  <li className='mar'><a className='sar' href="">services</a></li>
                  <li className='mar'><a className='sar' href="">Our portfolio</a></li>
                  <li className='mar'><a className='sar' href="">Blog</a></li>
-                 <li className='mar'><a className='sar' href="">cAREER</a></li>
+                 <li className='mar'><NavLink to="/staff" className='sar' href="">cAREER</NavLink></li>
                  <li className='mar'>
                    <NavLink to="/contact"><button className='sar'>Contact Us</button></NavLink>
                  </li>
