@@ -4,6 +4,7 @@ import mail from '../images/mail.png';
 import phone from '../images/phone.png';
 import timer from '../images/timer.png';
 import logo from '../images/logo.png';
+import { NavLink } from 'react-router-dom';
 const Navbar = () => {
   return (
     <>
@@ -31,9 +32,9 @@ const Navbar = () => {
            </div>
       </header>
         <nav className='navbar'>
-           <div className="logo">
+          <NavLink to="/"> <div className="logo">
               <img src={logo} alt="logo" />
-           </div>
+           </div></NavLink>
            <div className='navbar-text'>
                <ul >
                  <li><a href="">about us</a></li>
@@ -42,7 +43,7 @@ const Navbar = () => {
                  <li className='mar'><a className='sar' href="">Blog</a></li>
                  <li className='mar'><a className='sar' href="">cAREER</a></li>
                  <li className='mar'>
-                    <button className='sar'>Contact Us</button>
+                   <NavLink to="/contact"><button className='sar'>Contact Us</button></NavLink>
                  </li>
                </ul>
            </div>
