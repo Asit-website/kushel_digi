@@ -8,21 +8,21 @@ const Contact = () => {
   const tabAnother = (e) => {
     e.preventDefault();
     setTab(1);
-    document.getElementById("abc").style.color="#1C6BFF";
-    document.getElementById("def").style.color="#0E2B3D";
+    document.getElementById("abc").style.color = "#1C6BFF";
+    document.getElementById("def").style.color = "#0E2B3D";
 
-    document.getElementById("abc").style.borderBottom="3px solid #1C6BFF";
-    document.getElementById("def").style.borderBottom="none";
+    document.getElementById("abc").style.borderBottom = "3px solid #1C6BFF";
+    document.getElementById("def").style.borderBottom = "none";
   };
 
   const tabAnother1 = (e) => {
     e.preventDefault();
     setTab(2);
-    document.getElementById("abc").style.color="#0E2B3D";
-    document.getElementById("def").style.color="#1C6BFF";
+    document.getElementById("abc").style.color = "#0E2B3D";
+    document.getElementById("def").style.color = "#1C6BFF";
 
-    document.getElementById("abc").style.borderBottom="none";
-    document.getElementById("def").style.borderBottom="3px solid #1C6BFF";
+    document.getElementById("abc").style.borderBottom = "none";
+    document.getElementById("def").style.borderBottom = "3px solid #1C6BFF";
   };
   return (
     <>
@@ -82,42 +82,42 @@ const Contact = () => {
           </div>
           <div className="hr-line"></div>
           <div className="map-locate">
-          {
-            tab === 1 && (
-              <div className="location-section">
-              <div className="loc-section">
-                <img src={loc} alt="loc" />
-                <div className="loc-para">
-                  <h3>OUR LOCATION</h3>
-                  <p>g-9,first Floor, Sector 63, Noida</p>
+            {
+              tab === 1 && (
+                <div className="location-section">
+                  <div className="loc-section">
+                    <img src={loc} alt="loc" />
+                    <div className="loc-para">
+                      <h3>OUR LOCATION</h3>
+                      <p>g-9,first Floor, Sector 63, Noida</p>
+                    </div>
+                  </div>
+                  <div className="loc-section loc-section1">
+                    <img src={email} alt="email" />
+                    <div className="loc-para">
+                      <h3>sEND US MAIL</h3>
+                      <p>shubham@kusheldigi.com</p>
+                    </div>
+                  </div>
+                  <div className="loc-section loc-section1">
+                    <img src={call} alt="call" />
+                    <div className="loc-para">
+                      <h3>CALL US</h3>
+                      <p>+91 9045301702</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div className="loc-section loc-section1">
-                <img src={email} alt="email" />
-                <div className="loc-para">
-                  <h3>sEND US MAIL</h3>
-                  <p>shubham@kusheldigi.com</p>
+              )
+            }
+
+            {
+              tab === 2 && (
+                <div className="mpas">
+                  <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=kushel&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
-              </div>
-              <div className="loc-section loc-section1">
-                <img src={call} alt="call" />
-                <div className="loc-para">
-                  <h3>CALL US</h3>
-                  <p>+91 9045301702</p>
-                </div>
-              </div>
-            </div>
-            )
-          }
-          
-          {
-            tab === 2 && (
-              <div className="mpas">
-              <iframe  id="gmap_canvas" src="https://maps.google.com/maps?q=kushel&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-              </div>
-            )
-          }
-             
+              )
+            }
+
           </div>
         </div>
       </div>

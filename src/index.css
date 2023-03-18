@@ -1,100 +1,125 @@
-*{
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap');
-.header{
+
+.header {
   background-color: #3C83CB;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 12px 100px;
 }
-.first-header{
+
+.first-header {
   display: flex;
 }
-.first-header span{
+
+.first-header span {
   margin-left: 10px;
-  font-family: 'Prompt', sans-serif ;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   text-transform: capitalize;
   font-size: 18px;
 }
-.noida{
+
+.noida {
   display: flex;
   align-items: center;
 }
-.noida p{
+
+.noida p {
   color: #ffffff;
-  font-family: 'Prompt', sans-serif ;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   text-transform: capitalize;
   font-size: 18px;
   margin-left: 10px;
 }
-.noida img{
+
+.noida img {
   width: 24px;
 }
-.email{
+
+.email {
   display: flex;
   align-items: center;
   margin-left: 20px;
 }
-.email p{
+
+.email p {
   color: #ffffff;
-  font-family: 'Prompt', sans-serif ;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   text-transform: capitalize;
   font-size: 18px;
   margin-left: 10px;
 }
-.email img{
+
+.email img {
   width: 24px;
 }
-.phone{
+
+.phone {
   display: flex;
   align-items: center;
   margin-left: 20px;
 }
-.phone img{
+
+.phone img {
   width: 24px;
 }
-.phone p{
+
+.phone p {
   color: #ffffff;
-  font-family: 'Prompt', sans-serif ;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   text-transform: capitalize;
   font-size: 18px;
   margin-left: 10px;
 }
-.timer{
+
+.timer {
   display: flex;
   align-items: center;
 }
-.timer p{
+
+.timer p {
   font-family: "Medium";
   font-size: 18px;
   color: #ffffff;
   margin-left: 15px;
 }
-.navbar{
+
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 12px 100px;
 }
-.navbar-text ul{
+
+.navbar-text ul {
   display: flex;
   align-items: center;
 }
-.navbar ul li{
+
+.navbar ul li {
   list-style: none;
 }
-.navbar ul .sar{
+
+.navbar ul .sar {
   margin-left: 40px;
 }
-.navbar ul li a{
+
+.navbar ul li a {
   text-decoration: none;
   color: #101010;
   font-family: 'Montserrat', sans-serif;
@@ -103,7 +128,8 @@
   font-weight: 600;
   opacity: .8;
 }
-.navbar ul li button{
+
+.navbar ul li button {
   width: 200px;
   height: 50px;
   background-color: #3C83CB;
@@ -116,13 +142,15 @@
   font-weight: 600;
   color: #ffffff;
 }
-.logo img{
+
+.logo img {
   width: 240px;
   max-width: 100%;
 }
-.contact-back{
+
+.contact-back {
   background-image: url("./images/contact.png"),
-  linear-gradient(93.1deg, #060B06 10.41%, rgba(6, 11, 6, 0.94258) 2.89%, rgba(6, 11, 6, 0) 60.61%);
+    linear-gradient(93.1deg, #060B06 10.41%, rgba(6, 11, 6, 0.94258) 2.89%, rgba(6, 11, 6, 0) 60.61%);
   background-blend-mode: darken;
   width: 100%;
   height: 70vh;
@@ -133,20 +161,22 @@
   padding: 0 100px;
 }
 
-.contact-sect{
+.contact-sect {
   position: absolute;
   top: 50%;
   color: #ffffff;
-  transform: translate(-0%,-50%);
+  transform: translate(-0%, -50%);
 }
-.contact-sect h2{
+
+.contact-sect h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 55px;
   text-transform: uppercase
 }
-.contact-sect p{
+
+.contact-sect p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-transform: capitalize;
@@ -155,69 +185,80 @@
   line-height: 35px;
   margin-top: 15px;
 }
-.need-help{
+
+.need-help {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   padding: 80px 100px;
   background-color: #F3F3F3;
 }
-.first-need h2{
-  font-family: 'Prompt', sans-serif ;
+
+.first-need h2 {
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 500;
   font-size: 38px;
   color: #0E2B3D;
   font-style: normal;
   text-transform: capitalize;
 }
-.first-need p{
-  font-family: 'Prompt', sans-serif ;
+
+.first-need p {
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   color: #666B6B;
   font-size: 22.5px;
   text-transform: capitalize;
 }
-.first-need form{
+
+.first-need form {
   width: 100%;
   margin-top: 20px;
 }
-.input-group{
+
+.input-group {
   display: flex;
   align-items: center;
   width: 100%;
 }
+
 .input-group input,
-.input-group textarea{
+.input-group textarea {
   width: 100%;
   outline: none;
-   border: none;
-   background-color: #FFFFFF;
-   padding: 12px 15px;
-   font-family: 'Prompt', sans-serif ;
+  border: none;
+  background-color: #FFFFFF;
+  padding: 12px 15px;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   font-size: 15px;
   color: #6C7591;
   font-style: normal;
 }
-.input-group textarea{
+
+.input-group textarea {
   height: 240px;
   resize: none;
 }
+
 .input-group input::placeholder,
-.input-group textarea::placeholder{
+.input-group textarea::placeholder {
   color: #6C7591;
 }
-.inp{
+
+.inp {
   margin-left: 20px;
 }
-.input-group1{
+
+.input-group1 {
   margin-top: 22px;
 }
-form button{
+
+form button {
   background-color: #086AD8;
   cursor: pointer;
   outline: none;
-  font-family: 'Prompt', sans-serif ;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 600;
   font-size: 17px;
   width: 290px;
@@ -228,28 +269,32 @@ form button{
   border-radius: 3px;
   margin-top: 22px;
 }
-.second-need{
+
+.second-need {
   width: 100%;
   margin-left: 75px;
   margin-top: 25px;
 }
-.first-need{
+
+.first-need {
   width: 100%;
   margin-right: 75px;
 }
-.diff-section{
+
+.diff-section {
   display: flex;
   align-items: center;
   width: 100%;
 }
-.hr-line{
+
+.hr-line {
   border: 1px solid #000000;
   width: 100%;
   opacity: .2;
   /* margin-top: 5px; */
 }
 
-.diff-section .address{
+.diff-section .address {
   color: #1C6BFF;
   border-bottom: 3px solid #1C6BFF;
   font-family: 'Montserrat', sans-serif;
@@ -261,7 +306,8 @@ form button{
   top: 3px;
   cursor: pointer;
 }
-.diff-section .maps{
+
+.diff-section .maps {
   color: #0E2B3D;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -273,22 +319,26 @@ form button{
   top: 3px;
   cursor: pointer;
 }
-.loc-section{
+
+.loc-section {
   display: flex;
   align-items: center;
 }
-.loc-section img{
+
+.loc-section img {
   width: 88px;
   max-width: 100%;
 }
-.loc-section h3{
+
+.loc-section h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 22px;
   text-transform: uppercase;
   color: #0E2B3D;
 }
-.loc-section p{
+
+.loc-section p {
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -296,21 +346,26 @@ form button{
   text-transform: capitalize;
   margin-top: 8.5px;
 }
-.loc-para{
+
+.loc-para {
   margin-left: 12px;
 }
-.map-locate{
+
+.map-locate {
   margin-top: 45px;
 }
-.loc-section1{
+
+.loc-section1 {
   margin-top: 45px;
 }
-.mpas iframe{
+
+.mpas iframe {
   width: 100%;
   height: 640px;
   max-height: 100%;
 }
-.foot{
+
+.foot {
   background-image: url('./images/footer.png');
   width: 100%;
   height: 100%;
@@ -320,114 +375,136 @@ form button{
   background-size: cover;
   background-blend-mode: lighten;
 }
-.footer{
+
+.footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.first-footer img{
+
+.first-footer img {
   width: 240px;
   max-width: 100%;
 }
-.second-footer{
+
+.second-footer {
   display: flex;
   align-items: center;
 }
-.second-footer p{
+
+.second-footer p {
   color: #FFFFFF;
-  font-family: 'Prompt', sans-serif ;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   font-size: 21.5px;
   margin-left: 15px;
   text-transform: capitalize;
 }
-.second-footer img{
+
+.second-footer img {
   width: 45px;
 }
-.third-footer{
+
+.third-footer {
   display: flex;
   align-items: center;
 }
-.third-footer .maa{
+
+.third-footer .maa {
   color: #FFFFFF;
-  font-family: 'Prompt', sans-serif ;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   font-size: 21.5px;
   margin-left: 15px;
   text-transform: lowercase;
 }
-.third-footer img{
+
+.third-footer img {
   width: 45px;
 }
-.fourth-footer{
+
+.fourth-footer {
   display: flex;
   align-items: center;
 }
-.fourth-footer p{
+
+.fourth-footer p {
   color: #FFFFFF;
-  font-family: 'Prompt', sans-serif ;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   font-size: 21.5px;
   margin-left: 15px;
   text-transform: capitalize;
 }
-.fourth-footer img{
+
+.fourth-footer img {
   width: 45px;
 }
-.information{
+
+.information {
   display: flex;
   align-items: center;
   margin-top: 30px;
 }
-.information p{
+
+.information p {
   color: #ffffff;
-  font-family: 'Prompt', sans-serif ;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   font-size: 18px;
 }
-.information span{
+
+.information span {
   margin-left: 7px;
 }
-.ins{
+
+.ins {
   margin-left: 14px;
 }
-.lower-footer{
+
+.lower-footer {
   margin-top: 50px;
   display: flex;
   align-items: center;
 }
-.second-lower{
+
+.second-lower {
   margin-left: 110px;
 }
-.second-lower h3{
+
+.second-lower h3 {
   color: #ffffff;
-  font-family: 'Prompt', sans-serif ;
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 600;
   font-style: italic;
   font-size: 18px;
 }
-.first-lower .atthe{
-  font-family: 'Prompt', sans-serif ;
+
+.first-lower .atthe {
+  font-family: 'Prompt', sans-serif !important;
   font-weight: 600;
   font-style: italic;
   color: #FFFFFF;
   font-size: 18px;
   opacity: .95;
 }
-.social-links{
+
+.social-links {
   display: flex;
   align-items: center;
   margin-top: 15px;
 }
-.social-links img{
+
+.social-links img {
   width: 20px;
 }
-.fb{
+
+.fb {
   margin-left: 15px;
 }
 
 /* =============staff argumention css start================== */
-.staff-back{
+.staff-back {
   background-image: url('./images/staff.png');
   width: 100%;
   height: 70vh;
@@ -437,24 +514,28 @@ form button{
   padding: 0 100px;
   position: relative;
 }
-.staff-sect{
+
+.staff-sect {
   position: absolute;
   top: 50%;
-  transform: translate(0%,-50%);
+  transform: translate(0%, -50%);
 }
-.staff-sect h2{
+
+.staff-sect h2 {
   color: #101010;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 50px;
 }
-.staff-sect span{
+
+.staff-sect span {
   color: #3C83CB;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 50px;
 }
-.staff-sect p{
+
+.staff-sect p {
   color: #000000;
   font-size: 22px;
   font-family: 'Montserrat', sans-serif;
@@ -462,4 +543,5 @@ form button{
   width: 29em;
   margin-top: 15px;
 }
+
 /* ==================staff argumention css end===================== */
