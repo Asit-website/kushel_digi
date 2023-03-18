@@ -142,11 +142,11 @@ const StafArgu = () => {
              <div className="list mt-7">
             <div className="check">
               <img src={check} alt="" />
-              <p>Industry-leading junior, mid-level, and senior talent</p>
+              <p>Currently working with various clients in the US and Canada</p>
             </div>
             <div className="check mt-5">
               <img src={check} alt="" />
-              <p>Motivated, productive, and talented resources</p>
+              <p>Team working across multiple time zones.</p>
             </div>
           </div>
           </div>
