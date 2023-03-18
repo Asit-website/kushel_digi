@@ -59,7 +59,7 @@
   color: #ffffff;
   font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   font-size: 18px;
   margin-left: 10px;
 }
@@ -525,6 +525,7 @@ form button {
   color: #101010;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
+  line-height: 62px;
   font-size: 50px;
 }
 
