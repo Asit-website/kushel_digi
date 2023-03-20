@@ -548,14 +548,25 @@ form button {
 /* ==================staff argumention css end===================== */
 
 /* =============== Home Css Start =============== */
-
+.home1{
+  background-color: #e8f0f7;;
+}
 .home1111 h2{
-  font-size: 45px;
+  font-size: 50px;
   line-height: 56px;
-  font-family: 'Prompt', sans-serif !important;
+  font-weight: 700 !important;
+  width: 18em;
+  font-family: 'Montserrat', sans-serif ;
+  color: #000000;
+  margin-top: 10px;
+}
+.home1{
+  height: 39rem;
 }
 .home1111 p{
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 .home111{
   width: 60%;
@@ -572,7 +583,7 @@ form button {
   bottom: 30px;
 }
 .home1{
-  height: 33rem;
+  height: 42rem;
 }
 .home11{
   height: 100%;
@@ -581,6 +592,9 @@ form button {
   list-style: disc;
   margin: 0px 15px;
   opacity: 0.7;
+  font-weight: 600;
+  font-size: 21px;
+  color: #000000;
 }
 .home211{
   width: 60%;
@@ -596,11 +610,19 @@ form button {
   font-size: 70px;
 }
 .home211 h5{
-  font-size: 24px;
+  font-size: 22px;
+  font-weight: 500;
 }
 .home211 h3{
-  font-size: 30px;
+  font-size: 32.5px;
   line-height: 38px;
+  font-weight: 500;
+}
+.home211 p{
+  color: #404040;
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 .btn{
   display: flex;
@@ -609,20 +631,57 @@ form button {
   border: none;
   outline: none;
   justify-content: center;
+  
 }
 .btn1{
   background-color: #3C83CB;
   color: white;
-  padding: 12px 34px;
+  /* padding: 12px 34px; */
+  width: 285px;
+  height: 70px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 35px;
+}
+.btn2{
+  width: 160px;
+  height: 55px;
+  font-size: 17.5px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+.s-card1 p{
+  color: #101010;
+  font-size: 21.5px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.s-card1 h5{
+  color: #101010;
+  font-weight: bold;
+  font-size: 29.5px;
+  line-height: 36px;
 }
 .home311 h1{
-  font-size: 35px;
+  font-size: 43px;
   width: fit-content;
+  font-weight: 500;
   margin: auto;
+  color: #010C1E;
+}
+.home312{
+  margin-top: 40px;
+}
+.home311 span{
+  font-weight: 700;
+  color: #010C1E;
 }
 .home311 p{
   width: 60%;
   margin: auto;
+  font-weight: 500;
+  font-size: 21px;
+  color: #404040;
 }
 .splide__arrow--next{
   top: 465px !important;
@@ -644,28 +703,47 @@ form button {
   background: #3C83CB !important;
 }
 .home411 h1{
-  font-size: 35px;
+  font-size: 43px;
+  font-weight: 500;
+}
+.home411 span{
+  font-weight: 700;
 }
 .home411 p{
   width: 50%;
   margin: auto;
+  font-size: 21px;
+  color: #404040;
 }
 .home4121{
   background-color: white;
   padding: 17px;
   padding-bottom: 8px;
   border-radius: 8px;
+  width: 190px;
+  max-width: 100%;
 }
 .home4121 p{
   margin-top: 10px;
   text-align: center;
+  font-size: 17.5px;
+  font-weight: 500;
+}
+.home511 .portfolio {
+  display: block;
+  margin: auto;
 }
 .home511 h1{
-  font-size: 35px;
+  font-size: 40px;
+  color: #101010;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  opacity: .8;
 }
 .home511 p{
   width: 40%;
   margin: auto;
+  font-size: 21px;
 }
 .port-card{
   width: 47%;
@@ -677,8 +755,8 @@ form button {
 .port-card1 button{
   background-color: #3C83CB;
   color: white;
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -699,7 +777,13 @@ form button {
   margin-right: 143px;
 }
 .home711 h1{
-  font-size: 35px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #101010;
+  opacity: .8;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  line-height: 50px;
 }
 .d-card{
   border: 1px solid #D9DDE2;
@@ -710,13 +794,33 @@ form button {
   width: 30px;
   height: 35px;
 }
+.d-card11 h5{
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 22px;
+}
+.d-card12 p{
+  font-weight: 500;
+  font-size: 21px;
+  color: #404040;
+  margin-top: 30px;
+}
+.home712{
+  margin-top: 40px;
+}
 .home811 h2{
-  font-size: 35px;
+  font-size: 40px;
+  font-weight: bold;
+  opacity: .8;
+  color: #101010;
+  letter-spacing: 0.15em;
 }
 .home811 h1{
-  font-size: 52px;
+  font-size: 80px;
   color: #404040;
-  opacity: 0.2;
+  opacity: 0.1;
+  line-height: 100px;
+  margin-top: 20px;
 }
 .home8121{
   width: 40%;
@@ -732,6 +836,9 @@ form button {
 }
 .accordion__button{
   background-color: transparent !important;
+  font-size: 23px;
+  font-weight: 500;
+  color: #404040 !important;
 }
 .accordion{
   border: none !important;
@@ -743,7 +850,16 @@ form button {
   margin-left: 40px;
 }
 .home1011 h2{
-  font-size: 30px;
+  font-size: 31px;
+  color: #101010;
+  font-weight: 700 !important;
+  opacity: .8;
+}
+.home1011 h5{
+  color: #101010;
+  font-weight: 700;
+  font-size: 22px;
+  opacity: .5;
 }
 .home101212 h5{
   font-size: 20px;
@@ -758,6 +874,9 @@ form button {
   background-color: #001D4C;
   color: white;
 }
+.home10{
+  background-color: #EBF3FA;
+}
 .home-0111 h2{
   font-size: 35px;
 }
@@ -766,4 +885,23 @@ form button {
   border-radius: 4px;
   padding: 6px 10px;
   font-weight: 800;
+}
+.home611 h1{
+  font-size: 40px;
+  opacity: .8;
+  color: #101010;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+}
+.home7{
+  padding: 30px 0px;
+}
+.home612 p{
+  font-weight: 600;
+  color: #000000;
+  font-size: 21px;
+}
+.serviceCard{
+  height: 520px;
+  max-height: 100%;
 }

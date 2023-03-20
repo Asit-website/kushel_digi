@@ -4,6 +4,7 @@ import PortCard from './Cards/PortCard';
 import { SplideTrack } from '@splidejs/react-splide';
 import ServiceCard from './Cards/ServiceCard';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+import about from '../images/about.png';
 import '@splidejs/react-splide/css';
 import {
   Accordion,
@@ -14,16 +15,83 @@ import {
 } from 'react-accessible-accordion';
 
 import 'react-accessible-accordion/dist/fancy-example.css';
-
+import react from '../images/react.png'
+import kotlin from '../images/kotlin.png'
+import apple from '../images/apple.png'
+import fluter from '../images/fluter.png'
+import android from '../images/android.png'
+import app1 from '../images/app1.png'
+import web from '../images/web.png';
+import php from '../images/php.png';
+import wordpress from '../images/wordpress.png'
+import drupal from '../images/drupal.png'
+import laravel from '../images/laravel.png'
+import kart from '../images/kart.png'
+import Big from '../images/Big.png';
+import shopify from '../images/shopify.png';
+import woo from '../images/woo.png'
+import Magento from '../images/magento.png'
+import ui from '../images/ui.png';
+import figma from '../images/figma.png';
+import xd from '../images/xd.png'
+import sketch1 from '../images/sketch.png'
+import illustrator from '../images/illustrator.png'
+import Photoshop from '../images/photoshop.png'
+import portfolio from '../images/portfolio.png'
+import pads from '../images/pads.png';
+import bds from '../images/bds.png'
+import jones from '../images/jones.png'
+import major from '../images/major.png'
+import solenoid from '../images/solenoid.png'
+import a9 from '../images/a9.png'
+import mesr from '../images/mesr.jpg';
+import girl from '../images/girl.png'
 const Home = () => {
+  let dev = "App"
+  let dev1 = "Development"
+  let dev2 = "Web"
+  let dev3 = "Development"
+
+  let dev4 = "Ecommerce"
+  let dev5 = "Development"
+
+  let dev6 ="UI & UX"
+
+  let a = "Android App"
+  let b = "IOS App"
+  let c = "Flutter"
+  let d = "React Native"
+  let e = "Kotlin"
+
+  let php1 = "PHP"
+  let wordpress1 = "Wordpress"
+  let drupal1 = "Drupal"
+  let laravel1 = "Laravel"
+
+  let big = "Bigcommerce"
+  let shop = "Shopify"
+  let commerce = "Woo Commerce"
+  let mag = "Magento"
+
+  let figma1 = "Figma"
+  let adobe1 = "Adobe XD"
+  let sketch = "Sketch"
+  let adobe2 = "Adobe illustrator"
+  let adobe3 = "Adobe Photoshop"
+
+  let tag = "Mobile-Friendly"
+  let tag1 = "Scalable"
+  let tag2 = "Superior UI/UX"
+  let tag3 = "Smooth Deployment"
+  let tag4 = "Technologically Advanced"
   return (
     <>
       <div className="home1 mb-20">
-        <div className="home11 flex px-20 pt-12 items-center relative">
+        <div className="home11 flex px-24 pt-12 items-center relative">
           <div className="home111">
             <div className="home1111">
               <p>Welcome to Kushel Digi</p>
-              <h2 className='mt-0 mb-2 font-bold'>Revolutionising your business through Technology.</h2>
+              <h2 className='mt-0 mb-2'>Revolutionising your business through Technology.</h2>
               <p>We Are E-commerce  Expert.</p>
             </div>
             <div className="home1112 absolute">
@@ -36,17 +104,18 @@ const Home = () => {
             </div>
           </div>
           <div className="home112">
-            <img src="/static/images/a20.png" alt="" />
+            <img src={girl} alt="" />
           </div>
         </div>
       </div>
 
       <div className="home2 mb-8">
-        <div className="home21 px-20 flex">
+        <div className="home21 px-24 flex">
           <div className="home211 mr-14">
-            <h1 className='mb-0 font-bold'>ABOUT US</h1>
-            <h5 className='text-blue-500'>Who are we?</h5>
-            <h3 className='mb-2'>We are your digital partner for innovative design and reliable Web, Mobile, and Marketing solutions.</h3>
+            {/* <h1 className='mb-0 font-bold'>ABOUT US</h1> */}
+            <img src={about} alt="about" />
+            <h5 className='text-blue-500 mt-8'>Who are we?</h5>
+            <h3 className='mb-2'>We are your digital partner for innovative design and reliable Web, Mobile, and Marketing <br /> solutions.</h3>
             <p className='mb-3'>The top-notch and preeminent Web and Mobile App Development Company of India with its global presence in USA, Mind Inventory is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to developing highly intriguing apps that strictly meet the business requirements and catering a wide spectrum of projects.</p>
             <button className='btn btn1'>
               <span className='mr-2'>Contact Us</span>
@@ -62,7 +131,7 @@ const Home = () => {
       </div>
 
       <div className="home3 pb-20 bg-gray-100 relative">
-        <div className="home31 py-8 px-16">
+        <div className="home31 py-8 px-24">
           <div className="home311 text-center mb-4">
             <h1 className='mb-3'><span className='font-bold'>OUR</span> SERVICES</h1>
             <p>We employ quality design and development techniques as a foundation for the structured and systematic rapid development of cutting-edge technology solutions.</p>
@@ -73,20 +142,32 @@ const Home = () => {
               perMove: 1
             }} >
               <SplideSlide>
-                <ServiceCard />
+                <ServiceCard react={react} android={android} apple={apple} kotlin={kotlin}
+                  fluter={fluter} app1={app1} dev={dev} dev1 = {dev1}
+                  a={a} b = {b} c={c} d={d} e={e}
+                />
               </SplideSlide>
               <SplideSlide>
-                <ServiceCard />
+                <ServiceCard app1={web} dev={dev2} dev1={dev3} 
+                  android={php} apple={wordpress} react={drupal} fluter={laravel}
+                  a={php1} b={wordpress1} c ={drupal1} d={laravel1}
+                />
               </SplideSlide>
               <SplideSlide>
-                <ServiceCard />
+                <ServiceCard dev={dev4} dev1={dev5} app1 ={kart}
+                   android={Big} apple={shopify} react={woo} fluter={Magento}
+                   a={big} b={shop} c={commerce} d ={mag}
+                />
               </SplideSlide>
               <SplideSlide>
-                <ServiceCard />
+                <ServiceCard app1={ui} dev={dev6} a={figma1}
+                  b={adobe1} c ={sketch} d={adobe2} e ={adobe3}
+                  android={figma} apple={xd}  fluter={sketch1} react={illustrator} kotlin={Photoshop}
+                />
               </SplideSlide>
-              <SplideSlide>
+              {/* <SplideSlide>
                 <ServiceCard />
-              </SplideSlide>
+              </SplideSlide> */}
             </Splide>
           </div>
         </div>
@@ -100,19 +181,19 @@ const Home = () => {
           </div>
           <div className="home412 flex justify-center items-center">
             <div className="home4121 mx-8">
-              <img src="/static/images/a5.png" alt="" />
+              <img className=' block m-auto' src="/static/images/a5.png" alt="" />
               <p>Woo Commerce</p>
             </div>
             <div className="home4121 mx-8">
-              <img src="/static/images/a6.png" alt="" />
+              <img className=' block m-auto' src="/static/images/a6.png" alt="" />
               <p>Big Commerce</p>
             </div>
             <div className="home4121 mx-8">
-              <img src="/static/images/a7.png" alt="" />
+              <img className=' block m-auto' src="/static/images/a7.png" alt="" />
               <p>Shopify</p>
             </div>
             <div className="home4121 mx-8">
-              <img src="/static/images/a8.png" alt="" />
+              <img className=' block m-auto' src="/static/images/a8.png" alt="" />
               <p>Magento</p>
             </div>
           </div>
@@ -120,16 +201,17 @@ const Home = () => {
       </div>
 
       <div className="home5 pb-10 mb-12 bg-gray-100">
-        <div className="home51 px-16">
+        <div className="home51 px-24">
           <div className="home511 text-center mb-8">
-            <h1 className='font-bold mb-2'>OUR PORTFOLIO</h1>
+             <img className='portfolio' src={portfolio} alt="portfolio" />
+            <h1 className='font-bold mb-2 mt-4'>OUR PORTFOLIO</h1>
             <p>We design project designed with <span className="font-semibold">passion</span> on time, within <span className="font-semibold">budget</span> of full value</p>
           </div>
           <div className="home512 flex flex-wrap justify-center">
-            <PortCard />
-            <PortCard />
-            <PortCard />
-            <PortCard />
+            <PortCard pads={a9} />
+            <PortCard pads={pads} />
+            <PortCard pads={bds} />
+            <PortCard pads={jones}/>
           </div>
         </div>
         <div className="home52 w-full text-center">
@@ -143,7 +225,7 @@ const Home = () => {
       </div>
 
       <div className="home6 mb-16">
-        <div className="home61 px-16">
+        <div className="home61 px-24">
           <div className="home611 mb-8 text-center">
             <h1 className="font-bold text-gray-700">OUR WORKING PROCESS</h1>
           </div>
@@ -156,7 +238,7 @@ const Home = () => {
               <p className='mr-5'>Testing & Maintenance</p>
             </div>
             <div className="home6122">
-              <img className='w-full h-full' src="/static/images/a1.png" alt="" />
+              <img className='w-full h-full' src={mesr} alt="mesr" />
             </div>
             <div className="home6121 flex justify-between items-center mt-4">
               <p></p>
@@ -172,23 +254,23 @@ const Home = () => {
       <div className="home7 mb-20">
         <div className="home71 px-44">
           <div className="home711 text-center mb-4">
-            <h1 className='font-bold text-gray-700'>Benefits of Our e-commerce development</h1>
+            <h1 className=''>Benefits of Our e-commerce <br /> development</h1>
           </div>
           <div className="home712 flex flex-wrap justify-center">
-            <DevCard imgSrc={'/static/images/a10.png'} />
-            <DevCard imgSrc={'/static/images/a11.png'} />
-            <DevCard imgSrc={'/static/images/a12.png'} />
-            <DevCard imgSrc={'/static/images/a13.png'} />
-            <DevCard imgSrc={'/static/images/a14.png'} />
+            <DevCard heading={tag} imgSrc={'/static/images/a10.png'} />
+            <DevCard heading={tag1} imgSrc={'/static/images/a11.png'} />
+            <DevCard heading={tag2} imgSrc={'/static/images/a12.png'} />
+            <DevCard heading={tag3} imgSrc={'/static/images/a13.png'} />
+            <DevCard heading={tag4} imgSrc={'/static/images/a14.png'} />
           </div>
         </div>
       </div>
 
-      <div className="home8 mb-20">
+      <div className="home8 mb-20 px-24">
         <div className="home81 flex justify-between px-16">
           <div className="home811">
             <h2>OUR ESTEEMED CLIENTS</h2>
-            <h1 className='font-bold'>Pleasure to work with</h1>
+            <h1 className='font-bold'>Pleasure to <br /> work with</h1>
           </div>
           <div className="home812 flex flex-wrap justify-between">
             <div className="home8121">
@@ -252,7 +334,7 @@ const Home = () => {
         <div className="home101 px-16 py-20">
           <div className="home1011 text-center">
             <h5 className='text-gray-600'>TESTIMONIALS</h5>
-            <h2 className='font-semibold'>OUR HAPPY CLIENT SAY</h2>
+            <h2 className=''>OUR HAPPY CLIENT SAY</h2>
           </div>
           <div className="home1012 flex">
             <div className="home10121">
@@ -261,12 +343,12 @@ const Home = () => {
                   <img src="/static/images/a18.png" alt="" />
                 </div>
                 <div className="home-11 flex items-center">
-                  <button className='h-10 w-10 rounded-full bg-gray-400 p-3 mr-3'>
+                  <button className='h-10 w-10 rounded-full bg-gray-400 p-3 mr-3 text-white'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                     </svg>
                   </button>
-                  <button className='h-10 w-10 rounded-full bg-blue-500 p-3 ml-3'>
+                  <button className='h-10 w-10 rounded-full bg-blue-500 p-3 ml-3 text-white'>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                       <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                     </svg>

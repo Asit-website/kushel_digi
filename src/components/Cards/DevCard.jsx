@@ -1,12 +1,12 @@
 import React from 'react'
 
-const DevCard = ({imgSrc}) => {
+const DevCard = ({imgSrc,heading}) => {
     return (
         <>
             <div className="d-card py-5 px-5 mx-2 my-2">
                 <div className="d-card1">
                     <div className="d-card11 flex justify-between items-center mb-3">
-                        <h5 className='font-semibold'>MOBILE-FRIENDLY</h5>
+                        <h5 className='font-semibold'>{heading}</h5>
                         <img src={imgSrc} alt={imgSrc} />
                     </div>
                     <div className="d-card12">
