@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import DevCard from './Cards/DevCard';
 import PortCard from './Cards/PortCard';
 import { SplideTrack } from '@splidejs/react-splide';
@@ -46,6 +46,7 @@ import solenoid from '../images/solenoid.png'
 import a9 from '../images/a9.png'
 import mesr from '../images/mesr.jpg';
 import girl from '../images/girl.png'
+
 const Home = () => {
   let dev = "App"
   let dev1 = "Development"
@@ -55,7 +56,7 @@ const Home = () => {
   let dev4 = "Ecommerce"
   let dev5 = "Development"
 
-  let dev6 ="UI & UX"
+  let dev6 = "UI & UX"
 
   let a = "Android App"
   let b = "IOS App"
@@ -84,6 +85,17 @@ const Home = () => {
   let tag2 = "Superior UI/UX"
   let tag3 = "Smooth Deployment"
   let tag4 = "Technologically Advanced"
+
+  const [perPage, setPerPage] = useState(3);
+
+  useEffect(()=>{
+    if(window.matchMedia("(max-width: 750px)").matches)
+    {
+      setPerPage(1);
+      console.log('yes');
+    }
+  },[]);
+
   return (
     <>
       <div className="home1 mb-20">
@@ -119,8 +131,8 @@ const Home = () => {
             <p className='mb-3'>The top-notch and preeminent Web and Mobile App Development Company of India with its global presence in USA, Mind Inventory is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to developing highly intriguing apps that strictly meet the business requirements and catering a wide spectrum of projects.</p>
             <button className='btn btn1'>
               <span className='mr-2'>Contact Us</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
               </svg>
             </button>
           </div>
@@ -138,31 +150,31 @@ const Home = () => {
           </div>
           <div className="home312">
             <Splide aria-label="Our Services" options={{
-              perPage: 3,
+              perPage,
               perMove: 1
             }} >
               <SplideSlide>
                 <ServiceCard react={react} android={android} apple={apple} kotlin={kotlin}
-                  fluter={fluter} app1={app1} dev={dev} dev1 = {dev1}
-                  a={a} b = {b} c={c} d={d} e={e}
+                  fluter={fluter} app1={app1} dev={dev} dev1={dev1}
+                  a={a} b={b} c={c} d={d} e={e}
                 />
               </SplideSlide>
               <SplideSlide>
-                <ServiceCard app1={web} dev={dev2} dev1={dev3} 
+                <ServiceCard app1={web} dev={dev2} dev1={dev3}
                   android={php} apple={wordpress} react={drupal} fluter={laravel}
-                  a={php1} b={wordpress1} c ={drupal1} d={laravel1}
+                  a={php1} b={wordpress1} c={drupal1} d={laravel1}
                 />
               </SplideSlide>
               <SplideSlide>
-                <ServiceCard dev={dev4} dev1={dev5} app1 ={kart}
-                   android={Big} apple={shopify} react={woo} fluter={Magento}
-                   a={big} b={shop} c={commerce} d ={mag}
+                <ServiceCard dev={dev4} dev1={dev5} app1={kart}
+                  android={Big} apple={shopify} react={woo} fluter={Magento}
+                  a={big} b={shop} c={commerce} d={mag}
                 />
               </SplideSlide>
               <SplideSlide>
                 <ServiceCard app1={ui} dev={dev6} a={figma1}
-                  b={adobe1} c ={sketch} d={adobe2} e ={adobe3}
-                  android={figma} apple={xd}  fluter={sketch1} react={illustrator} kotlin={Photoshop}
+                  b={adobe1} c={sketch} d={adobe2} e={adobe3}
+                  android={figma} apple={xd} fluter={sketch1} react={illustrator} kotlin={Photoshop}
                 />
               </SplideSlide>
               {/* <SplideSlide>
@@ -203,7 +215,7 @@ const Home = () => {
       <div className="home5 pb-10 mb-12 bg-gray-100">
         <div className="home51 px-24">
           <div className="home511 text-center mb-8">
-             <img className='portfolio' src={portfolio} alt="portfolio" />
+            <img className='portfolio' src={portfolio} alt="portfolio" />
             <h1 className='font-bold mb-2 mt-4'>OUR PORTFOLIO</h1>
             <p>We design project designed with <span className="font-semibold">passion</span> on time, within <span className="font-semibold">budget</span> of full value</p>
           </div>
@@ -211,14 +223,14 @@ const Home = () => {
             <PortCard pads={a9} />
             <PortCard pads={pads} />
             <PortCard pads={bds} />
-            <PortCard pads={jones}/>
+            <PortCard pads={jones} />
           </div>
         </div>
         <div className="home52 w-full text-center">
           <button className='btn btn1 m-auto'>
             <span className='mr-2'>View All Projects</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+              <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
             </svg>
           </button>
         </div>
@@ -266,20 +278,22 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="home8 mb-20 px-24">
-        <div className="home81 flex justify-between px-16">
+      <div className="home8 mb-20 px-16">
+        <div className="home81 flex justify-between px-12">
           <div className="home811">
             <h2>OUR ESTEEMED CLIENTS</h2>
             <h1 className='font-bold'>Pleasure to <br /> work with</h1>
           </div>
-          <div className="home812 flex flex-wrap justify-between">
-            <div className="home8121">
-              <img src="/static/images/a15.png" alt="" />
+          <div className="home812 justify-between">
+            <div className="home8120 flex justify-between items-center">
+              <div className="home8121 home81211">
+                <img src="/static/images/a15.png" alt="" />
+              </div>
+              <div className="home8121 home81212">
+                <img src="/static/images/a16.png" alt="" />
+              </div>
             </div>
-            <div className="home8121">
-              <img src="/static/images/a16.png" alt="" />
-            </div>
-            <div className="home8121">
+            <div className="home8121 home81213">
               <img src="/static/images/a17.png" alt="" />
             </div>
           </div>
@@ -344,13 +358,13 @@ const Home = () => {
                 </div>
                 <div className="home-11 flex items-center">
                   <button className='h-10 w-10 rounded-full bg-gray-400 p-3 mr-3 text-white'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
+                      <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
                     </svg>
                   </button>
                   <button className='h-10 w-10 rounded-full bg-blue-500 p-3 ml-3 text-white'>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                     </svg>
                   </button>
                 </div>
@@ -378,7 +392,7 @@ const Home = () => {
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
 export default Home;

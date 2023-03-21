@@ -129,7 +129,7 @@ const StafArgu = () => {
           <p>
             No wasted interviews - talk to the best qualified candidates only
           </p>
-          <button>Send Your Request <i class="fa-solid fa-arrow-right"></i></button>
+          <button>Send Your Request <i className="fa-solid fa-arrow-right"></i></button>
         </div>
         <div className="staff-service-second">
            <img src={staf} alt="staf" />
