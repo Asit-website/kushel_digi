@@ -127,7 +127,7 @@ const Home = () => {
             {/* <h1 className='mb-0 font-bold'>ABOUT US</h1> */}
             <img src={about} alt="about" />
             <h5 className='text-blue-500 mt-8'>Who are we?</h5>
-            <h3 className='mb-2'>We are your digital partner for innovative design and reliable Web, Mobile, and Marketing <br /> solutions.</h3>
+            <h3 className='mb-2'>We are your digital partner for innovative design and reliable Web, Mobile, and Marketing  solutions.</h3>
             <p className='mb-3'>The top-notch and preeminent Web and Mobile App Development Company of India with its global presence in USA, Mind Inventory is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to developing highly intriguing apps that strictly meet the business requirements and catering a wide spectrum of projects.</p>
             <button className='btn btn1'>
               <span className='mr-2'>Contact Us</span>
@@ -227,7 +227,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home52 w-full text-center">
-          <button className='btn btn1 m-auto'>
+          <button className='btn btn1 m-auto btn3'>
             <span className='mr-2'>View All Projects</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
               <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />

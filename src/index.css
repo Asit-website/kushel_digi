@@ -525,20 +525,20 @@ form button {
   color: #101010;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  line-height: 62px;
-  font-size: 50px;
+  line-height: 60px;
+  font-size: 45px;
 }
 
 .staff-sect span {
   color: #3C83CB;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 45px;
 }
 
 .staff-sect p {
   color: #000000;
-  font-size: 22px;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   width: 29em;
@@ -554,7 +554,7 @@ form button {
 }
 
 .home1111 h2 {
-  font-size: 50px;
+  font-size: 45px;
   line-height: 56px;
   font-weight: 700 !important;
   /* width: 18em; */
@@ -564,9 +564,9 @@ form button {
 }
 
 .home1111 p {
-  font-size: 22px;
+  font-size: 21px;
   font-weight: 500;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .home111 {
@@ -588,7 +588,7 @@ form button {
 }
 
 .home1 {
-  height: 35rem;
+  height: 38rem;
 }
 
 .home11 {
@@ -600,7 +600,7 @@ form button {
   margin: 0px 15px;
   opacity: 0.7;
   font-weight: 600;
-  font-size: 21px;
+  font-size: 19.5px;
   color: #000000;
 }
 
@@ -629,18 +629,21 @@ form button {
 }
 
 .home211 h3 {
-  font-size: 32.5px;
+  font-size: 31px;
   line-height: 38px;
   font-weight: 500;
 }
 
 .home211 p {
   color: #404040;
-  font-size: 21px;
+  font-size: 19.5px;
   font-weight: 500;
   margin-top: 10px;
 }
-
+.home211 img{
+  width: 600px;
+  max-width: 100%;
+}
 .btn {
   display: flex;
   flex-direction: row;
@@ -665,27 +668,28 @@ form button {
 .btn2 {
   width: 160px;
   height: 55px;
-  font-size: 17.5px;
+  font-size: 16px;
   font-weight: 500;
   border-radius: 3px;
 }
 
 .s-card1 p {
   color: #101010;
-  font-size: 21.5px;
+  font-size: 20px;
   font-weight: 500;
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .s-card1 h5 {
   color: #101010;
   font-weight: bold;
-  font-size: 29.5px;
-  line-height: 36px;
+  font-size: 25px;
+  line-height: 34px;
+  margin-left: 10px;
 }
 
 .home311 h1 {
-  font-size: 43px;
+  font-size: 40px;
   width: fit-content;
   font-weight: 500;
   margin: auto;
@@ -705,7 +709,7 @@ form button {
   width: 60%;
   margin: auto;
   font-weight: 500;
-  font-size: 21px;
+  font-size: 19.5px;
   color: #404040;
 }
 
@@ -744,7 +748,7 @@ form button {
 }
 
 .home411 h1 {
-  font-size: 43px;
+  font-size: 40px;
   font-weight: 500;
 }
 
@@ -755,8 +759,9 @@ form button {
 .home411 p {
   width: 50%;
   margin: auto;
-  font-size: 21px;
+  font-size: 19.5px;
   color: #404040;
+  font-weight: 500;
 }
 
 .home4121 {
@@ -778,10 +783,12 @@ form button {
 .home511 .portfolio {
   display: block;
   margin: auto;
+  width: 550px;
+  max-width: 100%;
 }
 
 .home511 h1 {
-  font-size: 40px;
+  font-size: 36px;
   color: #101010;
   font-weight: bold;
   letter-spacing: 0.15em;
@@ -791,9 +798,11 @@ form button {
 .home511 p {
   width: 40%;
   margin: auto;
-  font-size: 21px;
+  font-size: 19.5px;
 }
-
+.btn3{
+  font-size: 16px;
+}
 .port-card {
   width: 46%;
 }
@@ -833,7 +842,7 @@ form button {
 }
 
 .home711 h1 {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
   color: #101010;
   opacity: .8;
@@ -871,7 +880,7 @@ form button {
 }
 
 .home811 h2 {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
   opacity: .8;
   color: #101010;
@@ -879,7 +888,7 @@ form button {
 }
 
 .home811 h1 {
-  font-size: 80px;
+  font-size: 75px;
   color: #404040;
   opacity: 0.1;
   line-height: 100px;
@@ -905,7 +914,7 @@ form button {
 
 .accordion__button {
   background-color: transparent !important;
-  font-size: 23px;
+  font-size: 21px;
   font-weight: 500;
   color: #404040 !important;
 }
@@ -922,7 +931,7 @@ form button {
 }
 
 .home1011 h2 {
-  font-size: 31px;
+  font-size: 28px;
   color: #101010;
   font-weight: 700 !important;
   opacity: .8;
@@ -931,12 +940,19 @@ form button {
 .home1011 h5 {
   color: #101010;
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   opacity: .5;
+  letter-spacing: 0.15em;
 }
 
 .home101212 h5 {
   font-size: 20px;
+}
+.home101212 p{
+  font-size: 19.5px;
+  color: #404040;
+  font-weight: 500;
+  width: 70%;
 }
 
 .home10122 img {
@@ -950,7 +966,11 @@ form button {
   background-color: #001D4C;
   color: white;
 }
-
+.home-011 p{
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
 .home10 {
   background-color: #EBF3FA;
 }
@@ -962,12 +982,13 @@ form button {
 .home-0111 button {
   border: 1px solid white;
   border-radius: 4px;
-  padding: 6px 10px;
+  padding: 12px 16px;
   font-weight: 800;
+  margin-top: 18px;
 }
 
 .home611 h1 {
-  font-size: 40px;
+  font-size: 36px;
   opacity: .8;
   color: #101010;
   font-weight: bold;
@@ -981,7 +1002,7 @@ form button {
 .home612 p {
   font-weight: 600;
   color: #000000;
-  font-size: 21px;
+  font-size: 19.5px;
 }
 
 .serviceCard {
