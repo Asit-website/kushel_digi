@@ -8,7 +8,7 @@ const ServiceCard = (props) => {
                     <div className="s-card0">
                         <div className="s-card1 s-card11 flex items-center mb-6">
                             <img src={props.app1} alt="" />
-                            <h5 className="text-2xl  ml-2">{props.dev} <br />{props.dev1}</h5>
+                            <h5 className="  ml-2">{props.dev} <br />{props.dev1}</h5>
                         </div>
                         <div className="s-card1 flex items-center mb-3">
                             <img src={props.android} alt="" />
