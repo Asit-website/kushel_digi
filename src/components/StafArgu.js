@@ -64,7 +64,7 @@ const StafArgu = () => {
           </div>
           <div className="box">
             <div className="sard">
-              <h3>E-Commerce</h3>
+              <h3 className="e-com">E-Commerce</h3>
               <img src={cart} alt="cart" />
             </div>
             <div className="staff-para">

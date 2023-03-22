@@ -41,7 +41,7 @@
   font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 16.5px;
   margin-left: 10px;
 }
 
@@ -60,7 +60,7 @@
   font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   /* text-transform: capitalize; */
-  font-size: 18px;
+  font-size: 16.5px;
   margin-left: 10px;
 }
 
@@ -83,7 +83,7 @@
   font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   text-transform: capitalize;
-  font-size: 18px;
+  font-size: 16.5px;
   margin-left: 10px;
 }
 
@@ -94,7 +94,7 @@
 
 .timer p {
   font-family: "Medium";
-  font-size: 18px;
+  font-size: 16.5px;
   color: #ffffff;
   margin-left: 15px;
 }
@@ -130,21 +130,20 @@
 }
 
 .navbar ul li button {
-  width: 200px;
+  width: 190px;
   height: 50px;
   background-color: #3C83CB;
   cursor: pointer;
   outline: none;
   border-radius: 3px;
   border: none;
-  font-size: 21px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
   font-weight: 600;
   color: #ffffff;
 }
 
 .logo img {
-  width: 240px;
+  width: 220px;
   max-width: 100%;
 }
 
@@ -172,7 +171,7 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 55px;
+  font-size: 50px;
   text-transform: uppercase
 }
 
@@ -180,9 +179,9 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   text-transform: capitalize;
-  font-size: 21px;
+  font-size: 19px;
   width: 34em;
-  line-height: 35px;
+  line-height: 33px;
   margin-top: 15px;
 }
 
@@ -197,7 +196,7 @@
 .first-need h2 {
   font-family: 'Prompt', sans-serif !important;
   font-weight: 500;
-  font-size: 38px;
+  font-size: 36px;
   color: #0E2B3D;
   font-style: normal;
   text-transform: capitalize;
@@ -207,7 +206,7 @@
   font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
   color: #666B6B;
-  font-size: 22.5px;
+  font-size: 20px;
   text-transform: capitalize;
 }
 
@@ -300,7 +299,7 @@ form button {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 36px;
   position: relative;
   top: 3px;
@@ -312,8 +311,8 @@ form button {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 22px;
-  margin-left: 30px;
+  font-size: 20px;
+  margin-left: 40px;
   line-height: 36px;
   position: relative;
   top: 3px;
@@ -333,14 +332,14 @@ form button {
 .loc-section h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 21px;
   text-transform: uppercase;
   color: #0E2B3D;
 }
 
 .loc-section p {
   font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 400;
   color: #0E2B3D;
   text-transform: capitalize;
@@ -383,7 +382,7 @@ form button {
 }
 
 .first-footer img {
-  width: 240px;
+  width: 220px;
   max-width: 100%;
 }
 
@@ -396,7 +395,7 @@ form button {
   color: #FFFFFF;
   font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
-  font-size: 21.5px;
+  font-size: 20px;
   margin-left: 15px;
   text-transform: capitalize;
 }
@@ -414,7 +413,7 @@ form button {
   color: #FFFFFF;
   font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
-  font-size: 21.5px;
+  font-size: 20px;
   margin-left: 15px;
   text-transform: lowercase;
 }
@@ -432,7 +431,7 @@ form button {
   color: #FFFFFF;
   font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
-  font-size: 21.5px;
+  font-size: 20px;
   margin-left: 15px;
   text-transform: capitalize;
 }
@@ -451,15 +450,15 @@ form button {
   color: #ffffff;
   font-family: 'Prompt', sans-serif !important;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .information span {
-  margin-left: 7px;
+  margin-left: 6px;
 }
 
 .ins {
-  margin-left: 14px;
+  margin-left: 12px;
 }
 
 .lower-footer {
@@ -485,7 +484,7 @@ form button {
   font-weight: 600;
   font-style: italic;
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 17px;
   opacity: .95;
 }
 
@@ -1120,7 +1119,7 @@ form button {
   }
 
   .foot {
-    padding: 70px 65px;
+    padding: 70px 64px;
   }
 
   .first-footer img {
@@ -1177,6 +1176,30 @@ form button {
 
   .timer p {
     font-size: 15px;
+  }
+  .contact-back{
+    padding: 0px 64px;
+  }
+  .need-help{
+    padding: 80px 64px;
+  }
+  .staff-back{
+    padding: 0 64px;
+  }
+  .staff-cap{
+    padding: 70px 64px !important;
+  }
+  .staff-process{
+    padding: 60px 64px !important;
+  }
+  .benifits{
+    padding: 100px 64px !important;
+  }
+  .staff-service{
+    padding: 20px 64px !important;
+  }
+  .staff-market{
+    padding: 100px 64px !important;
   }
 }
 
@@ -1499,6 +1522,12 @@ form button {
   .fourth-footer p{
     font-size: 15px;
   }
+  .contact-sect h2{
+    font-size: 40px;
+  }
+  .first-need h2{
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -1720,6 +1749,25 @@ form button {
   .second-lower {
     margin-left: 0px;
     margin-top: 1rem;
+  }
+  .contact-back{
+    padding: 0px 40px;
+  }
+  .need-help{
+    padding: 80px 40px;
+  }
+  .first-need{
+    margin-right: 0px;
+  }
+  .second-need{
+    margin-left: 0px;
+  }
+  .need-help{
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact-sect p{
+    width: 100%;
   }
 }
 
