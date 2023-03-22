@@ -28,9 +28,12 @@ const StafArgu = () => {
         <div className="card">
           <div className="box">
             <div className="sard">
+            <div>
               <h3>
-                Digital Product <br /> <span>Engineering</span>
+                Digital Product
               </h3>
+              <h2>Engineering</h2>
+              </div>
               <img src={digital} alt="digital" />
             </div>
             <div className="staff-para">
@@ -39,9 +42,12 @@ const StafArgu = () => {
           </div>
           <div className="box">
             <div className="sard">
+            <div>
               <h3>
-                Digital <br /> <span>Transformation</span>{" "}
+                Digital
               </h3>
+              <h2>Transformation</h2>
+              </div>
               <img src={digital2} alt="digital2" />
             </div>
             <div className="staff-para">
@@ -53,9 +59,12 @@ const StafArgu = () => {
           </div>
           <div className="box">
             <div className="sard">
+            <div>
               <h3>
-                Quality <br /> <span>Engineering</span>
+                Quality
               </h3>
+              <h2>Engineering</h2>
+              </div>
               <img src={quality} alt="quality" />
             </div>
             <div className="staff-para">
