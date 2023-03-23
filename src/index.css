@@ -1216,13 +1216,76 @@ form button {
   .staff-market {
     padding: 100px 64px !important;
   }
+
 }
 
 @media screen and (max-width: 1100px) {
   .header {
     padding: 12px 30px;
   }
-
+  .check p{
+    font-size: 16px !important;
+  }
+  .staff-sect h2{
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+  .staff-sect span{
+    font-size: 40px !important;
+  }
+  .staff-sect p{
+    font-size: 19px !important;
+  }
+  .staff-cap .sta{
+    font-size: 40px !important;
+  }
+  .staff-cap .cab{
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
+  .staff-process .aug{
+    font-size: 40px !important;
+  }
+  .staff-process .pro{
+    font-size: 40px !important;
+    line-height: 40px !important;
+  }
+  .benifits h2{
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+  .benifits span{
+    font-size: 30px !important;
+  }
+  .staff-service h2{
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+  .staff-service span{
+    font-size: 40px !important;
+  }
+  .staff-service p{
+    font-size: 18px !important;
+  }
+  .staff-service button{
+    font-size: 17px !important;
+  }
+  .staff-market1 h2{
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+  .staff-market1 span{
+    font-size: 30px !important;
+  }
+.card{
+  flex-direction: column !important;
+}
+.box{
+   margin: 15px 0px !important;
+   width: 500px !important;
+   max-width: 100% !important;
+   height: 250px !important;
+}
   .noida p {
     font-size: 13px;
     margin-left: 8px;
@@ -1867,6 +1930,78 @@ form button {
   .home101212 {
     text-align: center;
   }
+  .staff-back{
+    padding: 0px 40px !important;
+  }
+  .staff-cap{
+    padding: 70px 40px !important;
+  }
+  .staff-process{
+    padding: 60px 40px !important;
+  }
+  .benifits{
+    padding: 60px 40px !important;
+  }
+  .staff-service{
+    padding: 20px 40px !important;
+  }
+  .staff-market{
+    padding: 60px 40px !important;
+  }
+  .benifits{
+    flex-direction: column !important;
+  }
+  .benifits2 img{
+    margin-top: 30px !important;
+  }
+  .staff-service{
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .staff-market{
+    flex-direction: column !important;
+    justify-content: center !important;
+  }
+  .staff-market2 img{
+    margin-top: 30px !important;
+  }
+  .staff-sect h2{
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+  .staff-sect span{
+    font-size: 30px !important;
+  }
+  .staff-sect p{
+    font-size: 16px !important;
+  }
+  .staff-cap .sta{
+    font-size: 30px !important;
+  }
+  .staff-cap .cab{
+    font-size: 30px !important;
+    line-height: 32px !important;
+  }
+  .staff-process .pro{
+   font-size: 30px !important;
+   line-height: 32px !important;
+  }
+  .staff-process .aug{
+    font-size: 30px !important;
+  }
+  .staff-service h2{
+    font-size: 30px !important;
+    line-height: 32px !important;
+  }
+  .staff-service span{
+    font-size: 30px !important;
+  }
+  .staff-service p{
+    font-size: 16px !important;
+  }
+  .staff-service button{
+    font-size: 16px !important;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -1874,6 +2009,18 @@ form button {
     width: 75%;
   }
 
+  .staff-sect P{
+    width: 100% !important;
+  }
+  .staff-service p{
+    width: 100% !important;
+  }
+  .staff-service-second img{
+    top: 26px !important;
+  }
+  .box{
+    height: 100% !important;
+  }
   .home11 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -2151,7 +2298,7 @@ form button {
 
   .home211 h3 {
     font-size: 13.5px;
-    line-height: 25px;
+    line-height: 18px;
   }
 
   .home211 p {
@@ -2348,14 +2495,149 @@ form button {
   .social-links img {
     width: 15px !important;
   }
+  .contact-sect h2{
+    font-size: 30px;
+  }
+  .contact-sect p{
+    font-size: 14px;
+    line-height: 22px;
+    width: 95%;
+  }
+
+  .first-need h2{
+    font-size: 25px;
+  }
+  .first-need p{
+    font-size: 14px;
+  }
+  form button{
+    font-size: 14px;
+  }
+  .input-group input, .input-group textarea{
+    font-size: 14px;
+  }
+  .loc-section h3{
+    font-size:18px;
+  }
+  
+  .loc-section p{
+    font-size: 14px;
+  }
+  .contact-back{
+    padding: 0 20px;
+  }
+  .need-help{
+    padding: 60px 20px;
+  }
+  .staff-back{
+    padding: 0px 20px !important;
+  }
+  .staff-sect h2{
+    font-size: 25px !important;
+    line-height: 32px !important;
+  }
+  .staff-sect p{
+    font-size: 14px !important;
+    width: 95% !important;
+  }
+  .staff-sect span{
+    font-size: 25px !important;
+  }
+  .staff-cap .sta{
+    font-size: 25px !important;
+  }
+  .staff-cap .cab{
+    font-size: 25px !important;
+  }
+  .sard h3{
+    line-height: 32px !important;
+  }
+  .staff-para p{
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+  .staff-process .pro{
+    font-size: 25px !important;
+  }
+  .staff-process .aug{
+    font-size: 25px !important;
+  }
+  .benifits h2{
+    font-size: 25px !important;
+    line-height: 32px !important;
+  }
+  .benifits span{
+    font-size: 25px !important;
+  }
+  .check p{
+    font-size: 14px !important;
+  }
+  .check img{
+    width: 18px !important;
+  }
+  .staff-cap{
+    padding: 70px 20px !important;
+  }
+  .staff-process{
+    padding: 60px 20px !important;
+  }
+  .benifits{
+    padding: 60px 20px !important;
+  }
+  .staff-service{
+    padding: 20px 20px !important;
+  }
+  .staff-service button{
+    width: 200px !important;
+    height: 50px !important;
+  }
+  .staff-service h2{
+    font-size: 25px !important;
+  }
+  .staff-service span{
+    font-size: 25px !important;
+  }
+  .staff-service p{
+    font-size: 14px !important;
+  }
+  .staff-service button{
+    font-size: 14px !important;
+  }
+  .staff-market1 h2{
+    font-size: 25px !important;
+    line-height: 32px !important;
+  }
+  .staff-market1 span{
+    font-size: 25px !important;
+  }
+  .staff-back {
+    height: 60vh !important;
+  }
+  .sard{
+    flex-direction: row !important;
+  }
+  .sard img{
+    margin-top: 0px !important;
+  }
+  .sard h2{
+    font-size: 20px !important;
+  }
+  .sard h3{
+    font-size: 20px !important;
+  }
+  .contact-back{
+    height: 60vh !important;
+  }
 }
 
 @media screen and (max-width: 360px) {
-  .information {
+  .information span{
     display: none;
   }
-
   .header {
     width: 260vw;
+  }
+  .loc-section img{
+    width: 60px;
   }
 }
