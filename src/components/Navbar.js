@@ -7,13 +7,17 @@ import logo from '../images/logo.png';
 import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
-  const toggleMenu=()=>{
+  const toggleMenu = () => {
     document.querySelector('.mob-nav2').classList.toggle('mob-nav2-active');
   }
 
+  const toggleService = () => {
+    document.querySelector('.ser-nav').classList.toggle('hidden');
+  };
+
   return (
     <>
-      <div className='overflow-auto w-full'>
+      <div id="header1" className='overflow-auto w-full'>
         <header className='header'>
           <div className='first-header'>
             <div className="noida">
@@ -44,11 +48,41 @@ const Navbar = () => {
           </div></NavLink>
           <div className='navbar-text desk-nav'>
             <ul>
-              <li><a href="">about us</a></li>
-              <li className='mar'><a className='sar' href="">services</a></li>
-              <li className='mar'><a className='sar' href="">Our portfolio</a></li>
-              <li className='mar'><a className='sar' href="">Blog</a></li>
-              <li className='mar'><NavLink to="/staff" className='sar' href="">cAREER</NavLink></li>
+              <li><NavLink to="">about us</NavLink></li>
+              <li className='mar'>
+                <div className="flex items-center">
+                  <p onClick={toggleService} className='sar cursor-pointer' to="">services</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="opg ml-2 bi bi-caret-down-fill" viewBox="0 0 16 16">
+                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                  </svg>
+                </div>
+                <div className="ser-nav hidden">
+                  <div className="ser-nav1 flex flex-col">
+                    <NavLink to="#">Ecommerce Solutions</NavLink>
+                    <NavLink to="#">Website Design & Development</NavLink>
+                    <NavLink to="#">Web Application Development</NavLink>
+                    <NavLink to="#">UI/UX Design</NavLink>
+                    <NavLink to="#">Mobile App Development</NavLink>
+                    <div className='p-2'>
+                      <div onClick={()=>{
+                        document.getElementById("digi-nav").classList.toggle("hidden");
+                      }} className="flex items-center cursor-pointer">
+                        <p>Digital Marketing</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="opg ml-2 bi bi-caret-down-fill" viewBox="0 0 16 16">
+                          <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                      </div>
+                      <div id="digi-nav" className='hidden py-2'>
+                        <NavLink to="#">Lorem, ipsum.</NavLink>
+                      </div>
+                    </div>
+                    <NavLink to="#">Graphic Design</NavLink>
+                  </div>
+                </div>
+              </li>
+              <li className='mar'><NavLink className='sar' to="">Our portfolio</NavLink></li>
+              <li className='mar'><NavLink className='sar' to="">Blog</NavLink></li>
+              <li className='mar'><NavLink to="/staff" className='sar'>cAREER</NavLink></li>
               <li className='mar'>
                 <NavLink to="/contact"><button className='sar'>Contact Us</button></NavLink>
               </li>
@@ -63,11 +97,11 @@ const Navbar = () => {
             </div>
             <div className="mob-nav2">
               <ul>
-                <li><a href="">about us</a></li>
-                <li className='mar'><a className='sar' href="">services</a></li>
-                <li className='mar'><a className='sar' href="">Our portfolio</a></li>
-                <li className='mar'><a className='sar' href="">Blog</a></li>
-                <li className='mar'><NavLink to="/staff" className='sar' href="">cAREER</NavLink></li>
+                <li><NavLink to="">about us</NavLink></li>
+                <li className='mar'><NavLink className='sar' to="">services</NavLink></li>
+                <li className='mar'><NavLink className='sar' to="">Our portfolio</NavLink></li>
+                <li className='mar'><NavLink className='sar' to="">Blog</NavLink></li>
+                <li className='mar'><NavLink to="/staff" className='sar'>CAREER</NavLink></li>
                 <li className='mar'>
                   <NavLink to="/contact"><button className='sar'>Contact Us</button></NavLink>
                 </li>

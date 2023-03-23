@@ -129,6 +129,53 @@
   opacity: .8;
 }
 
+.ser-nav1 a{
+  padding: 10px 10px;
+}
+
+.ser-nav{
+  position: fixed;
+  z-index: 999;
+  background: white;
+  padding: 10px 20px;
+  padding-top: 40px;
+}
+.ser-nav a{
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+.ser-nav p{
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+#header1{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.navigation{
+  position: fixed;
+  width: 100%;
+  background: white;
+  z-index: 99;
+  top: 50px;
+}
+.home-main{
+  padding-top: 8rem;
+}
+
+.navbar ul li p {
+  text-decoration: none;
+  color: #101010;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: .8;
+}
+
 .navbar ul li button {
   width: 190px;
   height: 50px;
@@ -1053,6 +1100,60 @@ form button {
   display: block;
 }
 
+.ser-main{
+  padding-top: 8rem;
+}
+.opg{
+  opacity: 0.65;
+}
+.ser1{
+  background: url(../public/static/images/b2.png) no-repeat center center/cover;
+}
+.ser111{
+  width: 60%;
+}
+.ser111 h1{
+  font-size: 45px;
+}
+.blue{
+  color: #3C83CB;
+  font-weight: 700;
+}
+.ser112{
+  width: 40%;
+}
+.ser112 img{
+  width: 100%;
+}
+.ser21{
+  padding: 1.5rem;
+}
+.ser2{
+  background-color: #F3F3F3;
+}
+.ser2 .home4121{
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-right: 0rem;
+  margin-left: 0rem;
+  justify-content: center;
+}
+.ser2 .home4121 img{
+  width: 50px;
+  height: 50px;
+  margin: unset;
+  margin-right: 5px;
+}
+.ser2 .home4121 p{
+  color: #070707;
+  margin-top: 0;
+  margin-left: 4px;
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 1300px) {
   .navbar {
     padding: 12px 60px;
@@ -1658,7 +1759,7 @@ form button {
   }
 
   .mob-nav2-active {
-    right: 0;
+    right: 0;top: 127px;
   }
 
   .header {
