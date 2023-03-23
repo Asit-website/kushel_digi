@@ -639,10 +639,12 @@ form button {
   font-weight: 500;
   margin-top: 10px;
 }
-.home211 img{
+
+.home211 img {
   width: 600px;
   max-width: 100%;
 }
+
 .btn {
   display: flex;
   flex-direction: row;
@@ -799,9 +801,11 @@ form button {
   margin: auto;
   font-size: 19.5px;
 }
-.btn3{
+
+.btn3 {
   font-size: 16px;
 }
+
 .port-card {
   width: 46%;
 }
@@ -947,7 +951,8 @@ form button {
 .home101212 h5 {
   font-size: 20px;
 }
-.home101212 p{
+
+.home101212 p {
   font-size: 19.5px;
   color: #404040;
   font-weight: 500;
@@ -965,11 +970,13 @@ form button {
   background-color: #001D4C;
   color: white;
 }
-.home-011 p{
+
+.home-011 p {
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
 }
+
 .home10 {
   background-color: #EBF3FA;
 }
@@ -1177,28 +1184,36 @@ form button {
   .timer p {
     font-size: 15px;
   }
-  .contact-back{
+
+  .contact-back {
     padding: 0px 64px;
   }
-  .need-help{
+
+  .need-help {
     padding: 80px 64px;
   }
-  .staff-back{
+
+  .staff-back {
     padding: 0 64px;
   }
-  .staff-cap{
+
+  .staff-cap {
     padding: 70px 64px !important;
   }
-  .staff-process{
+
+  .staff-process {
     padding: 60px 64px !important;
   }
-  .benifits{
+
+  .benifits {
     padding: 100px 64px !important;
   }
-  .staff-service{
+
+  .staff-service {
     padding: 20px 64px !important;
   }
-  .staff-market{
+
+  .staff-market {
     padding: 100px 64px !important;
   }
 }
@@ -1507,25 +1522,32 @@ form button {
   .home-0111 h2 {
     font-size: 30px;
   }
+
   .foot {
     padding: 70px 25px;
   }
+
   .first-footer img {
     width: 190px;
   }
-  .second-footer p{
+
+  .second-footer p {
     font-size: 15px;
   }
-  .third-footer .maa{
+
+  .third-footer .maa {
     font-size: 15px;
   }
-  .fourth-footer p{
+
+  .fourth-footer p {
     font-size: 15px;
   }
-  .contact-sect h2{
+
+  .contact-sect h2 {
     font-size: 40px;
   }
-  .first-need h2{
+
+  .first-need h2 {
     font-size: 32px;
   }
 }
@@ -1539,7 +1561,7 @@ form button {
     display: block;
   }
 
-  .mob-nav2{
+  .mob-nav2 {
     height: 100%;
     background: white;
     position: fixed;
@@ -1548,234 +1570,301 @@ form button {
     z-index: 999;
     transition: right 0.17s linear;
   }
-  .mob-nav2 ul{
+
+  .mob-nav2 ul {
     text-align: center;
   }
+
   .mob-nav2 ul li a {
     font-size: 20px;
     padding: 5px;
     margin-bottom: 20px;
   }
+
   .mob-nav2 ul li {
     margin-bottom: 20px;
   }
+
   .mob-nav2 ul .sar {
     margin-left: 0;
   }
-  .mob-nav1 svg{
+
+  .mob-nav1 svg {
     width: 30px;
     height: 30px;
   }
-  .mob-nav2-active{
+
+  .mob-nav2-active {
     right: 0;
   }
-  .header{
+
+  .header {
     width: 110vw;
   }
-  .home11{
+
+  .home11 {
     flex-direction: column-reverse;
     padding-top: 1rem;
     padding-bottom: 5rem;
   }
-  .home1{
+
+  .home1 {
     height: 100%;
   }
-  .home112{
+
+  .home112 {
     width: 50%;
     margin-bottom: 2rem;
   }
-  .home111{
+
+  .home111 {
     width: 100%;
     text-align: center;
   }
-  .home1112{
+
+  .home1112 {
     left: 13%;
   }
-  .home21{
+
+  .home21 {
     flex-direction: column-reverse;
   }
-  .home211{
+
+  .home211 {
     width: 100%;
     margin-top: 2rem;
     text-align: center;
   }
-  .home211 img{
+
+  .home211 img {
     margin: auto;
     height: 60px;
   }
-  .home212{
+
+  .home212 {
     width: 65%;
     margin: auto;
   }
-  .btn1{
+
+  .btn1 {
     margin: auto;
     margin-top: 20px;
   }
-  .home311 p{
+
+  .home311 p {
     width: 100%;
   }
-  .s-card0{
+
+  .s-card0 {
     width: fit-content;
     margin: auto;
   }
-  .s-card2{
+
+  .s-card2 {
     display: flex;
     width: 100%;
     justify-content: center;
   }
-  .splide__arrow--prev{
+
+  .splide__arrow--prev {
     right: 62% !important;
   }
-  .splide__arrow--next{
+
+  .splide__arrow--next {
     right: 33% !important;
   }
-  .splide__pagination{
+
+  .splide__pagination {
     right: 44% !important;
   }
+
   .home411 p {
     width: 100%;
   }
-  .home412{
+
+  .home412 {
     flex-direction: column;
   }
-  .home4121{
+
+  .home4121 {
     height: 100%;
     width: 30vw;
     margin-bottom: 1rem;
   }
-  .home4121 img{
+
+  .home4121 img {
     width: 100%;
   }
+
   .home511 p {
     width: 100%;
   }
+
   .port-card {
     width: 90%;
   }
+
   .home6121 .p4 {
     margin-right: 84px;
   }
+
   .home6121 .p2 {
     margin-left: 16px;
   }
+
   .home61 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .home711 h1 {
     font-size: 22px;
   }
-  .home711{
+
+  .home711 {
     margin-bottom: 0;
   }
+
   .home712 {
     margin-top: 15px;
   }
-  .d-card{
+
+  .d-card {
     width: 43%;
   }
-  .home7{
+
+  .home7 {
     margin-bottom: 1.5rem;
   }
-  .home81{
+
+  .home81 {
     flex-direction: column;
   }
-  .home811{
+
+  .home811 {
     text-align: center;
     margin-bottom: 3rem;
     margin-right: 0;
   }
-  .home811 br{
+
+  .home811 br {
     display: none;
   }
-  .home811 h1{
+
+  .home811 h1 {
     margin-top: 0;
   }
-  .home91{
+
+  .home91 {
     flex-direction: column;
   }
-  .home911{
+
+  .home911 {
     width: 100%;
     text-align: center;
   }
-  .home911 h2{
+
+  .home911 h2 {
     text-align: center;
   }
+
   .home912 {
     width: 100%;
   }
-  .home91{
+
+  .home91 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  .home1012{
+
+  .home1012 {
     flex-direction: column;
   }
-  .home101{
+
+  .home101 {
     padding: 1.5rem;
   }
-  .home10121{
+
+  .home10121 {
     margin-right: 0;
     margin-bottom: 1.8rem;
   }
-  .home-01{
+
+  .home-01 {
     margin-bottom: 2rem;
   }
+
   .home-011 {
     width: 90%;
   }
-  .footer{
+
+  .footer {
     flex-direction: column;
     align-items: flex-start;
     padding-left: 2rem;
   }
-  .first-footer{
+
+  .first-footer {
     margin-bottom: 1rem;
   }
-  .second-footer{
+
+  .second-footer {
     margin-bottom: 1rem;
   }
-  .third-footer{
+
+  .third-footer {
     margin-bottom: 1rem;
   }
-  .fourth-footer{
+
+  .fourth-footer {
     margin-bottom: 1rem;
   }
-  .lower-footer{
+
+  .lower-footer {
     padding-left: 2rem;
     flex-direction: column;
     align-items: flex-start;
   }
+
   .second-lower {
     margin-left: 0px;
     margin-top: 1rem;
   }
-  .contact-back{
+
+  .contact-back {
     padding: 0px 40px;
   }
-  .need-help{
+
+  .need-help {
     padding: 80px 40px;
   }
-  .first-need{
+
+  .first-need {
     margin-right: 0px;
   }
-  .second-need{
+
+  .second-need {
     margin-left: 0px;
   }
-  .need-help{
+
+  .need-help {
     flex-direction: column;
     align-items: center;
   }
-  .contact-sect p{
+
+  .contact-sect p {
     width: 100%;
   }
-  .home101211{
+
+  .home101211 {
     justify-content: center;
   }
-  .home101212 p{
+
+  .home101212 p {
     width: 100%;
   }
-  .home101212{
+
+  .home101212 {
     text-align: center;
   }
 }
@@ -1784,170 +1873,221 @@ form button {
   .home112 {
     width: 75%;
   }
+
   .home11 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .home1111 h2 {
     font-size: 23px;
     line-height: 25px;
   }
+
   .home1112 ul li {
     font-size: 14px;
   }
+
   .home1112 {
     left: 10%;
   }
+
   .home21 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .home212 {
     width: 75%;
   }
-  .home211 img{
+
+  .home211 img {
     width: 60%;
   }
+
   .home211 h3 {
     font-size: 18.5px;
     line-height: 25px;
   }
+
   .home211 p {
     font-size: 13px;
   }
+
   .btn1 {
     width: 125px;
     height: 35px;
     font-size: 13px;
   }
+
   .home31 {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
   }
+
   .home311 h1 {
     font-size: 23px;
   }
+
   .home311 p {
     font-size: 13px;
   }
-  .home311{
+
+  .home311 {
     margin-bottom: 0;
   }
+
   .home411 h1 {
     font-size: 23px;
   }
+
   .home411 p {
     font-size: 13px;
   }
-  .home4121 p{
+
+  .home4121 p {
     font-size: 15.5px;
   }
+
   .home511 h1 {
     font-size: 23px;
   }
+
   .home511 p {
     font-size: 13px;
   }
+
   .port-card2 b {
     font-size: 17px;
   }
+
   .port-card2 p {
     font-size: 13px;
   }
+
   .home52 button {
     width: 160px;
     height: 37px;
   }
-  .home5{
+
+  .home5 {
     margin-bottom: 1rem;
   }
+
   .home611 h1 {
     font-size: 23px;
   }
+
   .home612 p {
     font-size: 10px;
   }
+
   .home711 h1 {
     line-height: 28px;
   }
+
   .home71 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .d-card12 p {
     font-size: 11px;
     margin-top: 10px;
   }
+
   .home7 {
     padding: 10px 0px;
   }
+
   .home811 h2 {
     font-size: 23px;
   }
+
   .home811 h1 {
     font-size: 36px;
     line-height: 45px;
   }
+
   .home911 h2 {
     font-size: 23px;
   }
+
   .accordion__button {
     font-size: 13px;
   }
+
   .home9121 {
     font-size: 13px;
   }
+
   .home101212 p {
     font-size: 13px;
     margin-bottom: 12px;
   }
+
   .home101212 h5 {
     font-size: 16px;
   }
+
   .home-0111 h2 {
     font-size: 20px;
   }
+
   .home-011 p {
     font-size: 13px;
   }
+
   .home-011 button {
     font-size: 13px;
     padding: 6px 13px;
   }
+
   .home-011 {
     width: 95%;
   }
+
   .second-footer p {
     font-size: 13px;
   }
+
   .third-footer .maa {
     font-size: 13px;
   }
+
   .fourth-footer p {
     font-size: 13px;
   }
+
   .second-footer img {
     width: 27px;
   }
+
   .third-footer img {
     width: 27px;
   }
+
   .fourth-footer img {
     width: 27px;
   }
-  .first-lower .atthe{
+
+  .first-lower .atthe {
     font-size: 13px;
   }
-  .information p{
+
+  .information p {
     font-size: 13px;
   }
-  .second-lower h3{
+
+  .second-lower h3 {
     font-size: 16px;
   }
+
   .header {
     width: 160vw;
   }
+
   .home51 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -1958,13 +2098,16 @@ form button {
   .header {
     width: 190vw;
   }
+
   .home211 img {
     width: 70%;
     height: 40px;
   }
+
   .splide__pagination {
     right: 41.6% !important;
   }
+
   .d-card {
     width: 85%;
   }
@@ -1974,188 +2117,244 @@ form button {
   .header {
     width: 240vw;
   }
+
   .home1111 h2 {
     font-size: 16px;
     line-height: 25px;
   }
+
   .home1112 ul li {
     font-size: 11px;
   }
+
   .home211 img {
     width: 80%;
     height: 30px;
   }
+
   .home1112 {
     left: 10%;
   }
+
   .home21 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .home212 {
     width: 75%;
   }
-  .home211 img{
+
+  .home211 img {
     width: 60%;
   }
+
   .home211 h3 {
     font-size: 13.5px;
     line-height: 25px;
   }
+
   .home211 p {
     font-size: 11px;
   }
+
   .btn1 {
     width: 125px;
     height: 35px;
     font-size: 11px;
   }
+
   .home31 {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 1rem;
   }
+
   .home311 h1 {
     font-size: 16px;
   }
+
   .home311 p {
     font-size: 11px;
   }
-  .home311{
+
+  .home311 {
     margin-bottom: 0;
   }
+
   .home411 h1 {
     font-size: 16px;
   }
+
   .home411 p {
     font-size: 11px;
   }
-  .home4121 p{
+
+  .home4121 p {
     font-size: 11.5px;
   }
+
   .home511 h1 {
     font-size: 16px;
   }
+
   .home511 p {
     font-size: 11px;
   }
+
   .port-card2 b {
     font-size: 17px;
   }
+
   .port-card2 p {
     font-size: 11px;
   }
+
   .home52 button {
     width: 160px;
     height: 37px;
   }
-  .home5{
+
+  .home5 {
     margin-bottom: 1rem;
   }
+
   .home611 h1 {
     font-size: 16px;
   }
+
   .home612 p {
     font-size: 10px;
   }
+
   .home711 h1 {
     line-height: 28px;
   }
+
   .home71 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .d-card12 p {
     font-size: 11px;
     margin-top: 10px;
   }
+
   .home7 {
     padding: 10px 0px;
   }
+
   .home811 h2 {
     font-size: 16px;
   }
+
   .home811 h1 {
     font-size: 36px;
     line-height: 45px;
   }
+
   .home911 h2 {
     font-size: 16px;
   }
+
   .accordion__button {
     font-size: 11px;
   }
+
   .home9121 {
     font-size: 11px;
   }
+
   .home101212 p {
     font-size: 11px;
     margin-bottom: 12px;
   }
+
   .home101212 h5 {
     font-size: 16px;
   }
+
   .home-0111 h2 {
     font-size: 20px;
   }
+
   .home411 h1 {
     font-size: 16px;
   }
-  .home4121{
+
+  .home4121 {
     width: 60vw;
   }
-  .home4121 img{
+
+  .home4121 img {
     width: 50%;
   }
-  .home4{
+
+  .home4 {
     padding-bottom: 1rem;
   }
+
   .home511 .portfolio {
     height: 30px;
   }
+
   .port-card2 b {
     font-size: 14px;
   }
-  .home6{
+
+  .home6 {
     display: none;
   }
+
   .home711 h1 {
     font-size: 16px;
     line-height: 23px;
   }
+
   .d-card11 h5 {
     font-size: 1.1vmax;
   }
+
   .home811 h1 {
     font-size: 33px;
     line-height: 33px;
   }
+
   .home1011 h5 {
     font-size: 16px;
   }
+
   .home1011 h2 {
     font-size: 18px;
   }
+
   .foot {
     padding: 70px 8px;
   }
-  .footer{
+
+  .footer {
     padding-left: 10px;
   }
-  .lower-footer{
+
+  .lower-footer {
     padding-left: 10px;
   }
+
   .information p {
     font-size: 11px;
   }
-  .social-links img{
+
+  .social-links img {
     width: 15px !important;
   }
 }
+
 @media screen and (max-width: 360px) {
-  .information{
+  .information {
     display: none;
   }
+
   .header {
     width: 260vw;
   }
