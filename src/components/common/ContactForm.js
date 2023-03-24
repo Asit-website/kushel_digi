@@ -6,7 +6,7 @@ const ContactForm = () => {
            <div className="discusion-form">
             <h3>Let’s Discuss your Project</h3>
             <form action="">
-                <div className=" flex items-start">
+                <div className=" flex items-start common-form">
                      <div className="first-form">  
                          <div className="form-field">
                             <input type="text" placeholder="Name*" />

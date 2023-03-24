@@ -9,7 +9,9 @@
   font-family: 'Montserrat', sans-serif !important;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap');
 
 .header {
   background-color: #3C83CB;
@@ -132,7 +134,11 @@
 }
 
 .ser-nav1 a{
-  padding: 10px 10px;
+  padding: 13px 10px;
+  color: #070707 !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
 }
 
 .ser-nav{
@@ -1476,14 +1482,36 @@ form button {
 .mob-app11121{
   background-color: #C0EEE1;
 }
+.mob-app111 h1{
+  color: #101010;
+  font-size: 36px;
+  text-transform: uppercase;
+  opacity: .8;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  line-height: 50px;
+}
 .mob-app111211{
-  width: 50%;
+  /* width: 50%; */
+}
+.mob-app111211 .sara{
+  font-size: 19.5px;
+  width: 26em;
+  font-weight: 600;
+  color: #010C1E;
+}
+.mob-app111211 .dara {
+  color: #404040;
+  font-weight: 500;
+  font-size: 19.5px;
+  width: 26em;
 }
 .mob-app111212{
-  width: 50%;
+  /* width: 50%; */
 }
 .mob-app111212 img{
-  width: 100%;
+ max-width: 430px;
+ width: 100%;
 }
 .mob-a{
   padding: 2px;
@@ -1496,7 +1524,7 @@ form button {
   text-align: center;
 }
 .mob-app112{
-  width: 70%;
+  width: 76%;
   margin: auto;
 }
 .mob-app1{
@@ -1565,8 +1593,8 @@ form button {
   }
 
   .home51 {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .home61 {
@@ -1688,12 +1716,36 @@ form button {
   .staff-market {
     padding: 100px 64px !important;
   }
-
+  .ser11{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .ser21{
+    padding: 0.5rem 0rem;
+  }
+  .ecommerce-solution{
+    padding: 50px 64px;
+  }
+  .segment{
+    padding: 60px 64px;
+  }
+  .discusion-form{
+    padding: 70px 64px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
   .header {
     padding: 12px 30px;
+  }
+  .navbar ul li p{
+    font-size: 13px;
+  }
+  .mob-nav2 ul .sar{
+    font-size: 13px;
+  }
+  .mob-nav2 ul li a{
+    font-size: 13px !important;
   }
   .check p{
     font-size: 16px !important;
@@ -2085,6 +2137,54 @@ form button {
   .first-need h2 {
     font-size: 32px;
   }
+  .ser2 .home4121 p{
+    font-size: 16px;
+  }
+  .ecomm{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .first-ecom .serv{
+    display: block;
+    margin: auto;
+  }
+  .first-ecom h1{
+    text-align: center;
+  }
+  .first-ecom p{
+    text-align: center;
+    font-size: 19px;
+  }
+  .first-ecom .com{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .second-ecom img{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .ecommerce-solution .solution{
+    display: block;
+    margin: auto;
+  }
+  .ser111 h1{
+    font-size: 40px;
+  }
+  .segment h2{
+    font-size: 30px;
+  }
+  .segment p{
+    font-size: 16px;
+  }
+  .img-section{
+    flex-wrap: wrap;
+  }
+  .img-filter{
+    margin: 10px 20px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -2474,6 +2574,56 @@ form button {
   .staff-service button{
     font-size: 16px !important;
   }
+  .ser2 .home4121{
+    justify-content: flex-start;
+  }
+  .common-form{
+    flex-direction: column-reverse;
+  }
+  .second-form{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .form-field input{
+    width: 100%;
+  }
+  .first-form{
+    width: 100%;
+    margin-right: 0px;
+    margin-top: 1.25rem;
+  }
+  .ser111  h1{
+    font-size: 30px;
+    line-height: 36px;
+  }
+  .ser11{
+    padding: 0px 40px;
+    flex-direction: column-reverse;
+  }
+  .ser112 img{
+    margin-top: 30px;
+  }
+  .ser111{
+    margin-top: 30px;
+  }
+  .ser111 h1{
+    text-align: center;
+  }
+  .serv{
+    font-size: 19px;
+  }
+  .ecommerce-solution{
+    padding: 50px 40px;
+  }
+  .segment{
+    padding: 60px 40px;
+  }
+  .discusion-form{
+    padding: 70px 40px;
+  }
+  .home51{
+    padding: 20px 40px;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -2710,6 +2860,15 @@ form button {
   .home51 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+  .serv{
+    font-size: 16px;
+  }
+  .first-ecom p{
+    font-size: 16px;
+  }
+  .first-ecom .com{
+    font-size: 16px;
   }
 }
 
@@ -3100,8 +3259,69 @@ form button {
   .contact-back{
     height: 60vh !important;
   }
+  .ser11{
+    padding: 0px 20px;
+  }
+  .ser11 h1{
+    font-size: 25px;
+    line-height: 28px;
+  }
+  .ser2 .home4121 p{
+    font-size: 14px;
+  }
+  .ser2 .home4221 img{
+    width: 40px;
+    height: 40px;
+  }
+  .first-ecom .serv{
+    font-size: 14px;
+  }
+  .first-ecom h1{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .first-ecom p{
+    font-size: 14px;
+  }
+  .first-ecom .com{
+    font-size: 14px;
+  }
+  .ecommerce-solution{
+    padding: 50px 20px;
+  }
+  .segment{
+    padding: 60px 20px;
+  }
+  .segment h2{
+     font-size: 25px;
+  }
+  .segment p{
+    font-size: 14px;
+  }
+  .discusion-form h3{
+    font-size: 25px;
+  }
+  .form-filed1 textarea{
+    font-size: 14px;
+  }
+  .form-field input{
+    font-size: 14px;
+  }
+  .discusion-form{
+    padding: 70px 20px;
+  }
 }
-
+@media only screen and (max-width:1200px){
+  .first-ecom p{
+    width: 100%;
+  }
+  .first-ecom{
+    width: 100%;
+  }
+  .second-ecom{
+    width: 100%;
+  }
+}
 @media screen and (max-width: 360px) {
   .information span{
     display: none;
