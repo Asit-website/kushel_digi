@@ -39,7 +39,7 @@ const MobileApp = () => {
           </div>
         </div>
         <div className="ser2 ser-vertical">
-          <div className="ser21">
+          <div className="ser21 ser23">
             <div className="home412 flex justify-center items-center">
               <div className="home4121">
                 <img className=" block m-auto" src={reactjs} alt="" />
@@ -156,7 +156,8 @@ const MobileApp = () => {
         <div className="mob-app1">
           <div className="mob-app11">
             <div className="mob-app111">
-              <h1>How Our Custom Developed Apps Helped These Companies</h1>
+              <h1>How Our Custom Developed Apps</h1>
+              <h1>Helped These Companies</h1>
             </div>
             <div className="mob-app112">
               <Splide aria-label="Our Services" options={{
