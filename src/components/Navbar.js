@@ -12,7 +12,13 @@ const Navbar = () => {
   }
 
   const toggleService = () => {
+    console.log('yes');
     document.querySelector('.ser-nav').classList.toggle('hidden');
+  };
+
+  const toggleService1 = () => {
+    console.log('yes');
+    document.querySelector('.ser-nav-mob').classList.toggle('hidden');
   };
 
   return (
@@ -58,13 +64,13 @@ const Navbar = () => {
                 </div>
                 <div className="ser-nav hidden">
                   <div className="ser-nav1 flex flex-col">
-                    <NavLink to="/service">Ecommerce Solutions</NavLink>
-                    <NavLink to="#">Website Design & Development</NavLink>
-                    <NavLink to="#">Web Application Development</NavLink>
-                    <NavLink to="#">UI/UX Design</NavLink>
-                    <NavLink to="/mobileApp">Mobile App Development</NavLink>
+                    <NavLink onClick={toggleService} to="/service">Ecommerce Solutions</NavLink>
+                    <NavLink onClick={toggleService} to="#">Website Design & Development</NavLink>
+                    <NavLink onClick={toggleService} to="#">Web Application Development</NavLink>
+                    <NavLink onClick={toggleService} to="#">UI/UX Design</NavLink>
+                    <NavLink onClick={toggleService} to="/mobileApp">Mobile App Development</NavLink>
                     <div className='p-2'>
-                      <div onClick={()=>{
+                      <div onClick={() => {
                         document.getElementById("digi-nav").classList.toggle("hidden");
                       }} className="flex items-center cursor-pointer">
                         <p>Digital Marketing</p>
@@ -73,10 +79,10 @@ const Navbar = () => {
                         </svg>
                       </div>
                       <div id="digi-nav" className='hidden py-2'>
-                        <NavLink to="#">Lorem, ipsum.</NavLink>
+                        <NavLink onClick={toggleService} to="#">Lorem, ipsum.</NavLink>
                       </div>
                     </div>
-                    <NavLink to="#">Graphic Design</NavLink>
+                    <NavLink onClick={toggleService} to="#">Graphic Design</NavLink>
                   </div>
                 </div>
               </li>
@@ -98,7 +104,37 @@ const Navbar = () => {
             <div className="mob-nav2">
               <ul>
                 <li><NavLink to="">about us</NavLink></li>
-                <li className='mar'><NavLink className='sar' to="">services</NavLink></li>
+                <li className='mar'>
+                  <div className='flex justify-center items-center'>
+                    <p onClick={toggleService1} className='sar'>services</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="opg ml-2 bi bi-caret-down-fill" viewBox="0 0 16 16">
+                      <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                    </svg>
+                  </div>
+                  <div className="ser-nav-mob hidden">
+                    <div className="ser-nav1 flex flex-col">
+                      <NavLink onClick={toggleService1} to="/service">Ecommerce Solutions</NavLink>
+                      <NavLink onClick={toggleService1} to="#">Website Design & Development</NavLink>
+                      <NavLink onClick={toggleService1} to="#">Web Application Development</NavLink>
+                      <NavLink onClick={toggleService1} to="#">UI/UX Design</NavLink>
+                      <NavLink onClick={toggleService1} to="/mobileApp">Mobile App Development</NavLink>
+                      <div className='pb-3'>
+                        <div onClick={() => {
+                          document.getElementById("digi-nav1").classList.toggle("hidden");
+                        }} className="flex justify-center items-center cursor-pointer">
+                          <p>Digital Marketing</p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="opg ml-2 bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                          </svg>
+                        </div>
+                        <div id="digi-nav1" className='hidden py-2'>
+                          <NavLink onClick={toggleService1} to="#">Lorem, ipsum.</NavLink>
+                        </div>
+                      </div>
+                      <NavLink onClick={toggleService1} to="#">Graphic Design</NavLink>
+                    </div>
+                  </div>
+                </li>
                 <li className='mar'><NavLink className='sar' to="">Our portfolio</NavLink></li>
                 <li className='mar'><NavLink className='sar' to="">Blog</NavLink></li>
                 <li className='mar'><NavLink to="/staff" className='sar'>CAREER</NavLink></li>
