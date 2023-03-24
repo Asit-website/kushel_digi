@@ -12,14 +12,18 @@ import appdev from "../images/appdev.png";
 import webm from "../images/webm.png";
 import webdev1 from "../images/webdev1.png";
 import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-  } from 'react-accessible-accordion';
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from 'react-accessible-accordion';
 import ContactForm from "./common/ContactForm";
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import MobCard from "./Cards/MobCard";
+
 const MobileApp = () => {
+
   return (
     <>
       <div className="ser-main">
@@ -143,11 +147,33 @@ const MobileApp = () => {
                 </div>
               </div>
               <p className="develop">
-              Cognitive, conversational, and contextual application development to provide a superior CX by integrating data-driven insights into the application ecosystem. Offer immersive experiences that include AR, VR, and Mixed Reality capabilities.
+                Cognitive, conversational, and contextual application development to provide a superior CX by integrating data-driven insights into the application ecosystem. Offer immersive experiences that include AR, VR, and Mixed Reality capabilities.
               </p>
             </div>
           </div>
         </div>
+
+        <div className="mob-app1">
+          <div className="mob-app11">
+            <div className="mob-app111">
+              <h1>How Our Custom Developed Apps Helped These Companies</h1>
+            </div>
+            <div className="mob-app112">
+              <Splide aria-label="Our Services" options={{
+                perPage: 1,
+                perMove: 1
+              }} >
+                <SplideSlide>
+                  <MobCard />
+                </SplideSlide>
+                <SplideSlide>
+                  <MobCard />
+                </SplideSlide>
+              </Splide>
+            </div>
+          </div>
+        </div>
+
         <div className="home9 mb-12 home278">
           <div className="home91 flex px-24">
             <div className="home911 text-center">
@@ -158,7 +184,7 @@ const MobileApp = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    How long does it take to build a mobile app?
+                      How long does it take to build a mobile app?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -173,7 +199,7 @@ const MobileApp = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What are the different mobile app development services you offer?
+                      What are the different mobile app development services you offer?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -187,7 +213,7 @@ const MobileApp = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Is Expand My Business a mobile app development company?
+                      Is Expand My Business a mobile app development company?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -201,7 +227,7 @@ const MobileApp = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    For what businesses do you offer mobile app development services?
+                      For what businesses do you offer mobile app development services?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -215,7 +241,7 @@ const MobileApp = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    How long does a App take to build?
+                      How long does a App take to build?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -233,7 +259,7 @@ const MobileApp = () => {
             </div>
           </div>
         </div>
-        <ContactForm/>
+        <ContactForm />
       </div>
     </>
   );

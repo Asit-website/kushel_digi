@@ -150,6 +150,23 @@
   font-weight: 500 !important;
   font-size: 14px !important;
 }
+.ser-nav-mob{
+  position: fixed;
+  z-index: 999;
+  background: white;
+  padding: 10px 20px;
+  padding-top: 17px;
+  left: 0;
+  right: 0;
+}
+.ser-nav-mob a{
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+.ser-nav-mob p{
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
 #header1{
   position: fixed;
   width: 100%;
@@ -1455,6 +1472,56 @@ form button {
   font-weight: 400;
   font-size: 19.5px;
   margin-top: 12px;
+}
+.mob-app11121{
+  background-color: #C0EEE1;
+}
+.mob-app111211{
+  width: 50%;
+}
+.mob-app111212{
+  width: 50%;
+}
+.mob-app111212 img{
+  width: 100%;
+}
+.mob-a{
+  padding: 2px;
+  border-bottom: 2px solid #3C83CB;
+}
+.mob-app111{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.mob-app112{
+  width: 70%;
+  margin: auto;
+}
+.mob-app1{
+  margin: 5rem 0rem;
+}
+.mob-app112 .splide__arrow{
+  height: 60px;
+  width: 60px;
+}
+.mob-app112 .splide__arrow--next {
+  right: -6em;
+  top: 256px !important;
+}
+.mob-app112 .splide__arrow--prev {
+  top: 256px !important;
+  left: -6em !important;
+  right: auto !important;
+}
+.mob-app112 .splide__pagination{
+  left: 0 !important;
+  right: 0 !important;
+}
+.mob-nav2 ul li p {
+  font-size: 20px;
+  padding: 5px;
 }
 /* ================mobile-app css end===================== */
 
