@@ -58,11 +58,11 @@ const Navbar = () => {
                 </div>
                 <div className="ser-nav hidden">
                   <div className="ser-nav1 flex flex-col">
-                    <NavLink to="#">Ecommerce Solutions</NavLink>
+                    <NavLink to="/service">Ecommerce Solutions</NavLink>
                     <NavLink to="#">Website Design & Development</NavLink>
                     <NavLink to="#">Web Application Development</NavLink>
                     <NavLink to="#">UI/UX Design</NavLink>
-                    <NavLink to="#">Mobile App Development</NavLink>
+                    <NavLink to="/mobileApp">Mobile App Development</NavLink>
                     <div className='p-2'>
                       <div onClick={()=>{
                         document.getElementById("digi-nav").classList.toggle("hidden");

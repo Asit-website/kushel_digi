@@ -11,6 +11,7 @@ import market from '../images/market.png';
 const StafArgu = () => {
   return (
     <>
+    <div className="home-main">
       <div className="staff-back">
         <div className="staff-sect">
           <h2>
@@ -162,6 +163,7 @@ const StafArgu = () => {
           <div className="staff-market2">
               <img src={market} alt="market" />
           </div>
+      </div>
       </div>
     </>
   );

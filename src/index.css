@@ -77,7 +77,9 @@
 .phone img {
   width: 24px;
 }
-
+.home412{
+  padding: 0 40px;
+}
 .phone p {
   color: #ffffff;
   font-family: 'Prompt', sans-serif !important;
@@ -163,7 +165,7 @@
   top: 50px;
 }
 .home-main{
-  padding-top: 8rem;
+  padding-top: 9rem;
 }
 
 .navbar ul li p {
@@ -964,9 +966,12 @@ form button {
 
 .accordion__button {
   background-color: transparent !important;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 500;
   color: #404040 !important;
+}
+.home278{
+  padding-top: 30px;
 }
 
 .accordion {
@@ -1101,7 +1106,7 @@ form button {
 }
 
 .ser-main{
-  padding-top: 8rem;
+  padding-top: 9rem;
 }
 .opg{
   opacity: 0.65;
@@ -1109,24 +1114,40 @@ form button {
 .ser1{
   background: url(../public/static/images/b2.png) no-repeat center center/cover;
 }
+.serji{
+  background: url('./images/mobile.png') no-repeat center center/cover ;
+  background-blend-mode: darken;
+  
+}
+.serji img{
+  max-width: 450px;
+  width: 100%;
+}
 .ser111{
   width: 60%;
 }
 .ser111 h1{
   font-size: 45px;
+  line-height: 58px;
+  font-weight: 400;
+}
+.ser-vertical .home4121 img{
+  width: 45px !important;
+  height: 45px !important;
 }
 .blue{
   color: #3C83CB;
-  font-weight: 700;
+  font-weight: 600 !important;
+
 }
 .ser112{
-  width: 40%;
+  /* width: 40%; */
 }
 .ser112 img{
   width: 100%;
 }
 .ser21{
-  padding: 1.5rem;
+  padding: 0.5rem 1.5rem;
 }
 .ser2{
   background-color: #F3F3F3;
@@ -1152,7 +1173,290 @@ form button {
   margin-top: 0;
   margin-left: 4px;
   opacity: 0.8;
+  font-weight: 600;
+  font-size: 19px;
+  text-transform: uppercase;
 }
+
+/* ========================Ecommerce solution css start==================== */
+.ecommerce-solution{
+  padding: 50px 100px;
+}
+.ecommerce-solution .solution{
+  max-width: 820px;
+  width: 100%;
+}
+.ecomm{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.second-ecom img{
+  max-width: 550px;
+  width: 100%;
+}
+.serv{
+  background-color: #3C83CB;
+  width: 520px;
+  max-width: 100%;
+  height: 65px;
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 19.5px;
+  border-radius: 30px;
+}
+.first-ecom h1{
+  color: #010C1E;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.first-ecom p{
+  color: #404040;
+  font-size: 19.5px;
+  font-weight: 500;
+  width: 35em;
+  margin-top: 20px;
+}
+.first-ecom .com{
+  width: 270px;
+  height: 70px;
+  background-color:#3C83CB ;
+  color:#FFFFFF;
+  font-size: 18.5px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.poty{
+  background-color: #F3F3F3 !important;
+}
+.poty p{
+  color: #010C1E;
+  font-size: 28px;
+  font-weight: 500;
+  width: 45%;
+}
+.segment{
+ background-color: #175788;
+ padding: 60px 100px;
+}
+.segment h2{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.segment p{
+  text-align: center;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 19.5px;
+}
+.img-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.img-filter img{
+  width: 62px;
+  height: 62px;
+}
+.img-filter{
+  background-color: #FFFFFF;
+  padding: 32px 42px;
+  margin: 0px 20px;
+  border-radius: 12px;
+}
+.discusion-form{
+  padding: 70px 100px;
+  background-color: #F2F2F2;
+}
+.discusion-form h3{
+  color: #0E2B3D;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 26px;
+}
+.discusion-form form{
+  width: 100%;
+  margin-top: 30px;
+}
+.form-field{
+  width: 100%;
+}
+.form-field input{
+  width: 480px;
+  max-width: 100%;
+  background-color: #FFFFFF;
+  border: none;
+  outline: none;
+  padding: 14px;
+  font-family: 'Prompt', sans-serif !important;
+  font-size: 16px;
+  color: #6C7591;
+}
+.form-filed1{
+  width: 100%;
+}
+.form-filed1 textarea{
+ width: 100%;
+ max-width: 100%;
+ resize: none;
+ height: 290px;
+ max-height: 100%;
+ background-color: #FFFFFF;
+ border: none;
+ outline: none;
+ padding: 14px;
+ font-family: 'Prompt', sans-serif !important;
+ font-size: 16px;
+ color: #6C7591;
+}
+.first-form{
+  margin-right: 20px;
+}
+.second-form{
+  width: 100%;
+  margin-left: 20px;
+}
+.first-form button{
+  width: 275px;
+  background-color: #3C83CB;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+  height: 66px;
+}
+.tih{
+  display: inline;
+  width: 12px;
+  margin-left: 3px;
+}
+/* =============================Ecommerce solution css end=================== */
+
+/* ===============mobile-app css start================== */
+.mobile-app{
+  padding: 50px 100px;
+  background-color: #ffffff;
+}
+.mobile-app .app{
+  max-width: 830px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.mobile-app h2{
+  color: #010C1E;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 25px;
+  opacity: .9;
+}
+.mobile-app .part{
+  color: #404040;
+  font-size: 19.5px;
+  font-weight: 500;
+  text-align: center;
+}
+.deliver{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.first-delivery h3{
+  font-size: 35px;
+  font-weight: 600;
+  color: #010C1E;
+  opacity: .9;
+}
+.deliver-order{
+  display: flex;
+  align-items: center;
+}
+.deliver-order img{
+  width: 22px;
+}
+.deliver-order p{
+  color: #404040;
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.deivery-date{
+  margin-top: 15px;
+}
+.second-delivery img{
+  max-width: 570px;
+  width: 100;
+}
+.help-business{
+  background-color: #F3F3F3;
+  padding: 50px 100px;
+}
+.help-business h3{
+  color: #010C1E;
+  font-weight: 600;
+  font-size: 26px;
+  text-align: center;
+}
+.business-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+}
+.business-box{
+  max-width: 420px;
+  width: 100%;
+  margin: 0px 15px;
+  background-color: #ffffff;
+  height: 350px;
+  padding: 30px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+/* .business-box:hover{
+  background-color: #3C83CB;
+} */
+/* .business-box:hover .business-set p{
+  color: #ffffff;
+} */
+/* .business-box:hover .develop{
+  color: #FFFFFF;
+}
+.business-box:hover .business-set img{
+  filter: invert(1);
+} */
+.business-set p{
+  color: #101010;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 19.5px;
+  margin-left: 10px;
+}
+.business-set .appdev{
+  width: 26px;
+}
+.business-set .webdev{
+  width: 46px;
+}
+.business-set .webm{
+  width: 42px;
+}
+.business-box .develop{
+  color: #404040;
+  font-weight: 400;
+  font-size: 19.5px;
+  margin-top: 12px;
+}
+/* ================mobile-app css end===================== */
 
 @media screen and (max-width: 1300px) {
   .navbar {
