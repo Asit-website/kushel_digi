@@ -1156,6 +1156,18 @@ form button {
   line-height: 58px;
   font-weight: 400;
 }
+.ser111 .ac{
+  color: #404040;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.ser111 p{
+  font-size: 25px;
+  color: #404040;
+  font-weight: 500;
+  margin-top: 6px;
+}
 .ser-vertical .home4121 img{
   width: 45px !important;
   height: 45px !important;
@@ -2222,14 +2234,19 @@ form button {
   .mob-app111211{
     width: 100%;
   }
-
+ 
 }
 
 @media screen and (max-width: 900px) {
   .desk-nav {
     display: none;
   }
-
+  .home-main{
+    padding-top: 8rem;
+  }
+  .ser-main{
+    padding-top: 8rem;
+  }
   .mob-nav {
     display: block;
   }
@@ -2711,6 +2728,17 @@ form button {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+  .ser111 .ac{
+    font-size: 19px;
+    text-align: center;
+  }
+  .ser111 p{
+    font-size: 22px;
+    text-align: center;
+  }
+  .serji{
+    padding: 20px 0px;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -2988,7 +3016,13 @@ form button {
   .mob-a{
     font-size: 16px;
   }
-
+ .ser111 .ac{
+  font-size: 16px;
+  line-height: 20px;
+ }
+ .ser111 p{
+  font-size: 19px;
+ }
 }
 
 @media screen and (max-width: 520px) {
@@ -3022,7 +3056,7 @@ form button {
   }
 
   .home1112 ul li {
-    font-size: 11px;
+    font-size: 9px;
   }
 
   .home211 img {
@@ -3497,6 +3531,13 @@ form button {
   }
   .home412{
     padding: 0 20px;
+  }
+  .ser111 p{
+    font-size: 16px;
+  }
+  .ser111 .ac{
+    font-size: 14px;
+    line-height: 18px;
   }
 }
 @media only screen and (max-width:1200px){

@@ -32,6 +32,8 @@ const MobileApp = () => {
             <div className="ser111">
               <h1 className="">Services</h1>
               <h1 className="blue">Mobile App Development</h1>
+              <p className="ac">Accelerate your business with an app</p>
+              <p>Faster | Better | Easier</p>
             </div>
             <div className="ser112">
               <img src="/static/images/b4.png" alt="" />
