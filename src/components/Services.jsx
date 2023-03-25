@@ -7,7 +7,7 @@ import pads from "../images/pads.png";
 import bds from "../images/bds.png";
 import jones from "../images/jones.png";
 import ContactForm from "./common/ContactForm";
-
+import arrow1 from '../images/arrow1.png';
 const Services = () => {
   return (
     <>
@@ -84,7 +84,7 @@ const Services = () => {
                 from across the globe.
               </p>
               <button className="com">
-                Contact Us <i className="fa-regular fa-arrow-right"></i>
+                Contact Us <img className="tih" src={arrow1} alt="" />
               </button>
             </div>
             <div className="second-ecom">
