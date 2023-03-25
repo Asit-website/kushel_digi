@@ -154,6 +154,8 @@
 }
 .ser-nav p{
   font-weight: 500 !important;
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 500 !important;
   font-size: 14px !important;
 }
 .ser-nav-mob{
@@ -2689,6 +2691,26 @@ form button {
   .mob-app111 h1{
     font-size: 30px;
   }
+  .mob-app112 .splide__arrow--next{
+    right: -6% !important;
+  }
+  .mob-app112 .splide__arrow--prev{
+    left: -6% !important;
+  }
+  .mob-app111211 .sara{
+    font-size: 19px;
+  }
+  .mob-app111211 .dara{
+    font-size: 19px;
+  }
+  .mob-app111 h1{
+    font-size: 25px;
+    line-height: 32px;
+  }
+  .mob-app11121{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -2949,6 +2971,24 @@ form button {
     max-width: 500px;
     width: 100%;
   }
+  .mob-app111211 .sara{
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  .mob-app111211 .dara{
+    font-size: 16px;
+  }
+  .mob-app11121{
+    flex-direction: column-reverse;
+  }
+  .mob-app111212 img{
+    max-width: 300px;
+    width: 100%;
+  }
+  .mob-a{
+    font-size: 16px;
+  }
+
 }
 
 @media screen and (max-width: 520px) {
@@ -2968,6 +3008,7 @@ form button {
   .d-card {
     width: 85%;
   }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -3354,6 +3395,7 @@ form button {
   }
   .first-ecom .serv{
     font-size: 14px;
+    margin-top: -30px;
   }
   .first-ecom h1{
     font-size: 25px;
@@ -3417,6 +3459,45 @@ form button {
   .help-business{
     padding: 50px 20px;
   }
+  .mob-app112 .splide__arrow{
+    width: 40px;
+    height: 40px;
+  }
+  .mob-app112 .splide__arrow--next{
+    top: 300px !important;
+    right: -10% !important;
+  }
+  .mob-app112 .splide__arrow--prev{
+    top: 300px !important ;
+    left: -10% !important;
+  }
+  .mob-app111211 .dara{
+    text-align: center;
+    font-size: 14px;
+  }
+  .mob-app111211 .sara{
+    text-align: center;
+    font-size: 14px;
+  }
+  .mob-a{
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-60%);
+  }
+  .mob-app112{
+    width: 80%;
+  }
+  .mob-app11121{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .mob-app111 h1{
+    font-size: 22px;
+  }
+  .home412{
+    padding: 0 20px;
+  }
 }
 @media only screen and (max-width:1200px){
   .first-ecom p{
@@ -3464,5 +3545,8 @@ form button {
     margin: 10px 0px;
     height: 300px;
   }
+}
+@media only screen and (max-width:915px){
+
 }
 
