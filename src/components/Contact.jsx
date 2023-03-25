@@ -26,6 +26,7 @@ const Contact = () => {
   };
   return (
     <>
+    <div className="ser-main">
       <div className="contact-back">
         <div className="contact-sect">
           <h2>Let's Talk.</h2>
@@ -120,6 +121,7 @@ const Contact = () => {
 
           </div>
         </div>
+      </div>
       </div>
     </>
   );
