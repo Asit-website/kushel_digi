@@ -1516,6 +1516,12 @@ form button {
 .mob-a{
   padding: 2px;
   border-bottom: 2px solid #3C83CB;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-weight: bold !important;
+  color: #101010;
+  opacity: 0.8;
+  letter-spacing: 0.1em;
 }
 .mob-app111{
   font-size: 30px;
@@ -1557,7 +1563,12 @@ form button {
   .navbar {
     padding: 12px 60px;
   }
-
+  .business-box .develop{
+    font-size: 16px;
+  }
+  .help-business{
+    padding: 50px 64px;
+  }
   .navbar ul .sar {
     margin-left: 30px;
   }
@@ -1732,11 +1743,20 @@ form button {
   .discusion-form{
     padding: 70px 64px;
   }
+  .mobile-app{
+    padding: 50px 64px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
   .header {
     padding: 12px 30px;
+  }
+  .mob-app111 h1{
+    font-size: 35px;
+  }
+  .help-business h3{
+    font-size: 25px;
   }
   .navbar ul li p{
     font-size: 13px;
@@ -2185,6 +2205,22 @@ form button {
   .img-filter{
     margin: 10px 20px;
   }
+  .deliver-order p{
+    font-size: 19px;
+  }
+  .first-delivery h3{
+    line-height: 45px;
+  }
+  .mob-app111211 .sara{
+    width: 95%;
+  }
+  .mob-app111211 .dara{
+    width: 95%;
+  }
+  .mob-app111211{
+    width: 100%;
+  }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -2624,6 +2660,35 @@ form button {
   .home51{
     padding: 20px 40px;
   }
+  .deliver{
+    flex-direction: column;
+  }
+  .mobile-app h2{
+    font-size: 30px;
+  }
+  .first-delivery h3{
+    font-size: 30px;
+  }
+  .mobile-app .part{
+    font-size: 19px;
+  }
+  .second-delivery img{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .help-business h3{
+    font-size: 25px;
+  }
+  .mobile-app{
+    padding: 50px 40px;
+  }
+  .help-business{
+    padding: 50px 40px;
+  }
+  .mob-app111 h1{
+    font-size: 30px;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -2869,6 +2934,20 @@ form button {
   }
   .first-ecom .com{
     font-size: 16px;
+  }
+  .business-set p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .mobile-app .part{
+    font-size: 16px;
+  }
+  .deliver-order p{
+    font-size: 16px;
+  }
+  .second-delivery img{
+    max-width: 500px;
+    width: 100%;
   }
 }
 
@@ -3310,6 +3389,34 @@ form button {
   .discusion-form{
     padding: 70px 20px;
   }
+  .mobile-app{
+    padding: 50px 20px;
+  }
+  .mobile-app h2{
+    font-size: 25px;
+  }
+  .first-delivery h3{
+    font-size: 25px;
+  }
+  .mobile-app .part{
+    font-size: 14px;
+  }
+  .deliver-order p{
+    font-size: 14px;
+  }
+  .help-business h3{
+    font-size: 20px;
+  }
+  .business-box .develop{
+    font-size: 14px;
+  }
+  .business-set p{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .help-business{
+    padding: 50px 20px;
+  }
 }
 @media only screen and (max-width:1200px){
   .first-ecom p{
@@ -3333,3 +3440,29 @@ form button {
     width: 60px;
   }
 }
+
+@media only screen and (max-width:1424px){
+  .business-box{
+    height: 400px;
+    max-height: 100%;
+  }
+}
+.help-business .host{
+  display: none;
+}
+@media only screen and (max-width:1050px){
+  .help-business h3{
+    display: none;
+  }
+  .help-business .host{
+    display: block !important;
+  }
+  .business-card{
+    flex-direction: column;
+  }
+  .business-box{
+    margin: 10px 0px;
+    height: 300px;
+  }
+}
+

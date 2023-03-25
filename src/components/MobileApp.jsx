@@ -108,6 +108,7 @@ const MobileApp = () => {
             Custom Applications using the Latest Advances in Technology with our
           </h3>
           <h3>Industry-leading App Development Services</h3>
+          <h3 className="host"> We Help Businesses Around the Globe to Build, Manage, and Modernize Custom Applications using the Latest Advances in Technology with our Industry-leading App Development Services</h3>
           <div className="business-card">
             <div className="business-box">
               <div className="business-set flex items-center">
