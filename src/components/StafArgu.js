@@ -8,6 +8,7 @@ import hath from "../images/hath.png";
 import check from "../images/check.png";
 import staf from '../images/staf.png';
 import market from '../images/market.png';
+import arrow1 from '../images/arrow1.png';
 const StafArgu = () => {
   return (
     <>
@@ -139,7 +140,7 @@ const StafArgu = () => {
           <p>
             No wasted interviews - talk to the best qualified candidates only
           </p>
-          <button>Send Your Request <i className="fa-solid fa-arrow-right"></i></button>
+          <button>Send Your Request <img width={12} className=" inline ml-1" src={arrow1} alt="" /></button>
         </div>
         <div className="staff-service-second">
            <img src={staf} alt="staf" />

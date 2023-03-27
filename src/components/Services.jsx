@@ -97,7 +97,7 @@ const Services = () => {
           <div className="home51 px-24 py-10">
             <div className="home511 text-center mb-8">
               <h1 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h1>
-              <p>View Our Custom Online Ecommerce Solutions And Get Amazed</p>
+              <p className="view">View Our Custom Online Ecommerce Solutions And Get Amazed</p>
             </div>
             <div className="home512 flex flex-wrap justify-center mt-14">
               <PortCard pads={a9} />
