@@ -46,6 +46,8 @@ import solenoid from '../images/solenoid.png'
 import a9 from '../images/a9.png'
 import mesr from '../images/mesr.jpg';
 import girl from '../images/girl.png'
+import star from '../images/star.png';
+import star1 from '../images/star1.png';
 
 const Home = () => {
   let dev = "App"
@@ -104,7 +106,7 @@ const Home = () => {
             <div className="home111">
               <div className="home1111">
                 <p>Welcome to Kushel Digi</p>
-                <h2 className='mt-0 mb-2'>Revolutionising your business through Technology.</h2>
+                <h2 className='mt-0 mb-2'>Revolutionising your business <br /> through Technology.</h2>
                 <p>We Are E-commerce  Expert.</p>
               </div>
               <div className="home1112 absolute">
@@ -113,6 +115,7 @@ const Home = () => {
                   <li>WOO COMMERCE</li>
                   <li>BIG COMMERCE</li>
                   <li>MAGENTO</li>
+                  <li>WORDPRESS</li>
                 </ul>
               </div>
             </div>
@@ -127,7 +130,7 @@ const Home = () => {
             <div className="home211 mr-14">
               {/* <h1 className='mb-0 font-bold'>ABOUT US</h1> */}
               <img src={about} alt="about" />
-              <h5 className='text-blue-500 mt-8'>Who are we?</h5>
+              <h5 className='text-blue-500 mt-16'>Who are we?</h5>
               <h3 className='mb-2'>We are your digital partner for innovative design and reliable Web, Mobile, and Marketing  solutions.</h3>
               <p className='mb-3'>The top-notch and preeminent Web and Mobile App Development Company of India with its global presence in USA, Mind Inventory is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to developing highly intriguing apps that strictly meet the business requirements and catering a wide spectrum of projects.</p>
               <button className='btn btn1'>
@@ -146,7 +149,7 @@ const Home = () => {
         <div className="home3 pb-20 bg-gray-100 relative">
           <div className="home31 py-8 px-24">
             <div className="home311 text-center mb-4">
-              <h1 className='mb-3'><span className='font-bold'>OUR</span> SERVICES</h1>
+              <h1 className='mb-3'><span className='font-bold m-1'>OUR</span> SERVICES</h1>
               <p>We employ quality design and development techniques as a foundation for the structured and systematic rapid development of cutting-edge technology solutions.</p>
             </div>
             <div className="home312">
@@ -218,9 +221,17 @@ const Home = () => {
             <div className="home511 text-center mb-8">
               <img className='portfolio' src={portfolio} alt="portfolio" />
               <h1 className='font-bold mb-2 mt-4'>OUR PORTFOLIO</h1>
-              <p>We design project designed with <span className="font-semibold">passion</span> on time, within <span className="font-semibold">budget</span> of full value</p>
+              <p>We design project designed with passion on time,</p>
+              <p>within budget of full value</p>
+
             </div>
-            <div className="home512 flex flex-wrap justify-center">
+            <div className=' flex-thing flex items-center justify-center'>
+               <p className='inline all'>all</p>
+               <p>WEBSITE DESIGN</p>
+               <p>E-COMMERCE SOLUTION</p>
+               <p>MOBILE APPLICATION</p>
+            </div>
+            <div className="home512 flex flex-wrap justify-center mt-12">
               <PortCard pads={a9} />
               <PortCard pads={pads} />
               <PortCard pads={bds} />
@@ -229,7 +240,7 @@ const Home = () => {
           </div>
           <div className="home52 w-full text-center">
             <button className='btn btn1 m-auto btn3'>
-              <span className='mr-2'>View All Projects</span>
+              <span className='mr-2'>VIEW ALL </span>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
                 <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
               </svg>
@@ -279,30 +290,21 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="home8 mb-20 px-16">
-          <div className="home81 flex justify-between px-12">
-            <div className="home811">
-              <h2>OUR ESTEEMED CLIENTS</h2>
-              <h1 className='font-bold'>Pleasure to <br /> work with</h1>
-            </div>
-            <div className="home812 justify-between">
-              <div className="home8120 flex justify-between items-center">
-                <div className="home8121 home81211">
-                  <img src="/static/images/a15.png" alt="" />
-                </div>
-                <div className="home8121 home81212">
-                  <img src="/static/images/a16.png" alt="" />
-                </div>
-              </div>
-              <div className="home8121 home81213">
-                <img src="/static/images/a17.png" alt="" />
-              </div>
-            </div>
-          </div>
+        <div className="home8 mb-20 px-8">
+           <h2 className='text-center'>Our esteemed clients</h2>
+           <p className='text-center'>Pleasure to work with</p>
+           <div className='home8-img px-4'>
+              <img className='chetri' src="/static/images/a15.png" alt="" />
+              <img className='chetri1' src="/static/images/a17.png" alt="" />
+              <img className='chetri2' src="/static/images/a16.png" alt="" />
+              <img className='chetri' src="/static/images/a15.png" alt="" />
+              <img className='chetri1' src="/static/images/a17.png" alt="" />
+              <img className='chetri2' src="/static/images/a16.png" alt="" />
+           </div>
         </div>
 
         <div className="home9 mb-12">
-          <div className="home91 flex px-16">
+          <div className="home91 flex px-20">
             <div className="home911 text-center">
               <h2 className='font-bold text-gray-700'>JUST THE FAQs</h2>
             </div>
@@ -345,7 +347,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="home10 mb-8 bg-blue-100">
+        {/* <div className="home10 mb-8 bg-blue-100">
           <div className="home101 px-16 py-20">
             <div className="home1011 text-center">
               <h5 className='text-gray-600'>TESTIMONIALS</h5>
@@ -381,9 +383,77 @@ const Home = () => {
               </div>
             </div>
           </div>
+        </div> */}
+
+        <div className="testimonials">
+            <div className="first-testimonials">
+            <h3 className='tas'>testimonials</h3>
+               <h2 className='happy'>oUR HAPPY CLIENT SAY</h2>
+               <div className='testi-sec'>
+                  <h2>4.7<span>/5</span></h2>
+                  <div className='star flex items-center'>
+                     <div className="first-star flex items-center ">
+                        <img src={star} alt="star" />
+                        <img className='ml-1' src={star} alt="" />
+                        <img className='ml-1' src={star} alt="star" />
+                        <img className='ml-1' src={star} alt="" />
+                        <img className='ml-1' src={star1} alt="" />
+                     </div>
+                     <div className="second-star ml-3">
+                         <p>200 reviews</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div className="second-testimonials">
+                <div className="excellent">
+                    <h2>EXCELLENT WORK</h2>
+                    <div className="ex mt-1">
+                        <div className="first-ex flex">
+                           <img src={star} alt="" />
+                           <img className='ml-1' src={star} alt="" />
+                           <img className='ml-1' src={star} alt="" />
+                           <img className='ml-1' src={star} alt="" />
+                           <img className='ml-1' src={star} alt="" />
+                        </div>
+                        <div className="second-ex">
+                           <p>Matt Reeder</p>
+                        </div>
+                        <div className="third-ex">
+                           <p>United States. 03/23/2023</p>
+                        </div>
+                    </div>
+                    <div className="para-ex">
+                        <p>Lorem ipsum is simply dummy text of the printing & Typesetting industry. lorem ipsum has been the industry’s standard dummy text ever since the 1500s, an unknown printer took a gallery.</p>
+                    </div>
+                </div>
+
+                <div className="excellent mt-3">
+                    <h2>EXCELLENT WORK</h2>
+                    <div className="ex mt-1">
+                        <div className="first-ex flex">
+                           <img src={star} alt="" />
+                           <img className='ml-1' src={star} alt="" />
+                           <img className='ml-1' src={star} alt="" />
+                           <img className='ml-1' src={star} alt="" />
+                           <img className='ml-1' src={star} alt="" />
+                        </div>
+                        <div className="second-ex">
+                           <p>Matt Reeder</p>
+                        </div>
+                        <div className="third-ex">
+                           <p>United States. 03/23/2023</p>
+                        </div>
+                    </div>
+                    <div className="para-ex">
+                        <p>Lorem ipsum is simply dummy text of the printing & Typesetting industry. lorem ipsum has been the industry’s standard dummy text ever since the 1500s, an unknown printer took a gallery.</p>
+                    </div>
+                </div>
+
+            </div>
         </div>
 
-        <div className="home-01 flex justify-center items-center mb-20">
+        <div className="home-01 flex justify-center items-center py-12 mb-16 ">
           <div className="home-011 py-12 px-12">
             <div className="home-0111 text-center">
               <h2 className='uppercase font-bold'>Let’s Create Big Stories Together</h2>
