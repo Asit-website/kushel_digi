@@ -20,7 +20,11 @@
   justify-content: space-between;
   padding: 12px 100px;
 }
-
+.lorem{
+  font-size: 23px;
+  color: #404040;
+  font-family: 'Value Sans Pro' !important;
+}
 .first-header {
   display: flex;
 }
@@ -3495,7 +3499,8 @@ form button {
   }
 
   .port-card2 p {
-    font-size: 11px;
+    font-size: 14px;
+    margin-top: 4px;
   }
 
   .home52 button {
@@ -3593,7 +3598,8 @@ form button {
   }
 
   .port-card2 b {
-    font-size: 14px;
+    font-size: 17px;
+    line-height: 5px;
   }
 
   .home6 {
