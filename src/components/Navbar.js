@@ -5,8 +5,11 @@ import phone from '../images/phone.png';
 import timer from '../images/timer.png';
 import logo from '../images/logo.png';
 import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
 
 const Navbar = () => {
+  const [cont, setCont] = useState(1);
+
   const toggleMenu = () => {
     document.querySelector('.mob-nav2').classList.toggle('mob-nav2-active');
   }
@@ -19,6 +22,14 @@ const Navbar = () => {
   const toggleService1 = () => {
     console.log('yes');
     document.querySelector('.ser-nav-mob').classList.toggle('hidden');
+  };
+
+  const shFunc = (index) => {
+    setCont(index);
+  };
+
+  const toggleCont=()=>{
+    document.querySelector('.sh').classList.toggle('hidden');
   };
 
   return (
@@ -39,10 +50,36 @@ const Navbar = () => {
               <p>9045301702</p>
             </div>
           </div>
-          <div className='second-header'>
-            <div className="timer">
-              <img src={timer} alt="timer" />
-              <p>Office Hours 24 Hours</p>
+          <div className='second-header flex items-center'>
+            <div className="second-header1">
+              {cont === 1 ? <div onClick={toggleCont} id="cont1" className="flex items-center cursor-pointer">
+                <img src="/static/images/c1.png" alt="" />
+                <p className='ml-2 text-white text-lg'>United States</p>
+              </div> : cont === 2 ? <div onClick={toggleCont} id="cont2" className="flex items-center cursor-pointer">
+                <img src="/static/images/c1.png" alt="" />
+                <p className='ml-2 text-white text-lg'>India</p>
+              </div> : null}
+            </div>
+            <div className='ml-1.5'>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-white bi bi-chevron-down" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+              </svg>
+            </div>
+            <div className="sh fixed hidden">
+              <div onClick={() => {
+                shFunc(1);
+                toggleCont();
+              }} className={`flex items-center cursor-pointer py-1.5 my-1.5 px-2 sh1 sh2 ${cont === 1 ? 'sh-active' : ''}`}>
+                <img src="/static/images/c1.png" alt="" />
+                <p className='ml-2 text-white text-lg'>United States</p>
+              </div>
+              <div onClick={() => {
+                shFunc(2);
+                toggleCont();
+              }} className={`flex items-center cursor-pointer py-1.5 my-1.5 px-2 sh1 sh2 ${cont === 2 ? 'sh-active' : ''}`}>
+                <img src="/static/images/c1.png" alt="" />
+                <p className='ml-2 text-white text-lg'>India</p>
+              </div>
             </div>
           </div>
         </header>

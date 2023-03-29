@@ -150,6 +150,25 @@
   padding: 10px 20px;
   padding-top: 40px;
 }
+.sh{
+  top: 65px;
+  right: 29px;
+  background-color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+}
+.sh p{
+  color: black;
+}
+.sh1{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+}
+/* .sh2{
+  padding: 4px 10px;
+} */
+.sh-active{
+  border: 1px solid #3c84cb60;
+}
 .ser-nav a{
   font-weight: 500 !important;
   font-size: 14px !important;
