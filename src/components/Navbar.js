@@ -6,7 +6,7 @@ import timer from '../images/timer.png';
 import logo from '../images/logo.png';
 import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
-
+import india from '../images/india.png';
 const Navbar = () => {
   const [cont, setCont] = useState(1);
 
@@ -56,7 +56,7 @@ const Navbar = () => {
                 <img src="/static/images/c1.png" alt="" />
                 <p className='ml-2 text-white text-lg'>United States</p>
               </div> : cont === 2 ? <div onClick={toggleCont} id="cont2" className="flex items-center cursor-pointer">
-                <img src="/static/images/c1.png" alt="" />
+                <img src={india} alt="india" />
                 <p className='ml-2 text-white text-lg'>India</p>
               </div> : null}
             </div>
@@ -77,7 +77,7 @@ const Navbar = () => {
                 shFunc(2);
                 toggleCont();
               }} className={`flex items-center cursor-pointer py-1.5 my-1.5 px-2 sh1 sh2 ${cont === 2 ? 'sh-active' : ''}`}>
-                <img src="/static/images/c1.png" alt="" />
+                <img src={india} alt="" />
                 <p className='ml-2 text-white text-lg'>India</p>
               </div>
             </div>

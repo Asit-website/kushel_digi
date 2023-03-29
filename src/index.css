@@ -226,14 +226,15 @@
 .navbar ul li button {
   width: 190px;
   height: 50px;
-  background-color: #3C83CB;
+  background: #0464c6;
   cursor: pointer;
   outline: none;
   border-radius: 3px;
   border: none;
   font-size: 19px;
-  font-weight: 600;
+  /* font-weight: 600; */
   color: #ffffff;
+  font-family: 'Value Sans Pro';
 }
 
 .logo img {
@@ -702,9 +703,19 @@ form button {
 
 .home212 img {
   width: 100%;
-  height: 85%;
+  max-width: 540px;
+  /* height: 85%; */
 }
-
+.home212 .jit{
+  max-width: 450px;
+  width: 100%;
+  top: 80px;
+  left: 90px;
+  z-index: -1;
+}
+.home212 .jit1{
+  z-index: 1;
+}
 .home211 h1 {
   font-size: 70px;
 }
@@ -714,7 +725,9 @@ form button {
   font-weight: 500;
   font-family: 'Value Sans Medium' !important;
 }
-
+.home2{
+  padding: 40px 0px;
+}
 .home211 h3 {
   font-size: 29px;
   line-height: 38px;
@@ -1092,12 +1105,24 @@ form button {
 }
 
 .home9121 {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #404040;
   padding: 1px;
   cursor: pointer;
   margin-left: 40px;
+  font-size: 22px;
+  color: #404040;
+  margin-top: 10px;
 }
-
+.read-sec{
+  margin-top: 20px;
+}
+.read-sec p{
+  color: #404040;
+  font-weight: 600;
+  font-size: 22px;
+  border-bottom: 2px solid #404040;
+  display: inline;
+}
 .home1011 h2 {
   font-size: 28px;
   color: #101010;
@@ -3327,6 +3352,9 @@ form button {
 @media screen and (max-width: 450px) {
   .header {
     width: 240vw;
+  }
+  .read-sec p{
+    font-size: 16px;
   }
   .home8 h2{
     font-size: 20px;

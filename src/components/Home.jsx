@@ -48,6 +48,7 @@ import mesr from '../images/mesr.jpg';
 import girl from '../images/girl.png'
 import star from '../images/star.png';
 import star1 from '../images/star1.png';
+import eli from '../images/eli.png';
 
 const Home = () => {
   let dev = "App"
@@ -140,8 +141,9 @@ const Home = () => {
                 </svg>
               </button>
             </div>
-            <div className="home212 ml-14">
-              <img src="/static/images/a2.png" alt="" />
+            <div className="home212 ml-14 relative">
+              {/* <img className=' absolute jit' src={eli} alt="" /> */}
+              <img className='jit1' src="/static/images/a2.png" alt="" />
             </div>
           </div>
         </div>
@@ -309,11 +311,11 @@ const Home = () => {
               <h2 className='font-bold text-gray-700'>JUST THE FAQs</h2>
             </div>
             <div className="home912">
-              <Accordion allowZeroExpanded>
+            <Accordion allowZeroExpanded>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                      What harsh truths do you prefer to ignore?
+                      How long does it take to build a mobile app?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -328,7 +330,49 @@ const Home = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                      Is free will real or just an illusion?
+                      What are the different mobile app development services you offer?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      In ad velit in ex nostrud dolore cupidatat consectetur
+                      ea in ut nostrud velit in irure cillum tempor laboris
+                      sed adipisicing eu esse duis nulla non.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      Is Expand My Business a mobile app development company?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      In ad velit in ex nostrud dolore cupidatat consectetur
+                      ea in ut nostrud velit in irure cillum tempor laboris
+                      sed adipisicing eu esse duis nulla non.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      For what businesses do you offer mobile app development services?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      In ad velit in ex nostrud dolore cupidatat consectetur
+                      ea in ut nostrud velit in irure cillum tempor laboris
+                      sed adipisicing eu esse duis nulla non.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                      How long does a App take to build?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -449,7 +493,9 @@ const Home = () => {
                         <p>Lorem ipsum is simply dummy text of the printing & Typesetting industry. lorem ipsum has been the industry’s standard dummy text ever since the 1500s, an unknown printer took a gallery.</p>
                     </div>
                 </div>
-
+                 <div className="read-sec">
+                     <p>Read All 200 Reviews</p>
+                 </div>
             </div>
         </div>
 
