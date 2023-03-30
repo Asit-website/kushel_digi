@@ -857,7 +857,13 @@ form button {
 .splide__pagination__page.is-active {
   background: #3C83CB !important;
 }
-
+.home4{
+  background-color: #FFFFFF;
+  padding: 60px 0px;
+}
+.home5{
+  padding: 60px 0px;
+}
 .home411 h1 {
   font-size: 40px;
   font-weight: 400;
@@ -1002,8 +1008,11 @@ form button {
   color: #FFFFFF;
 }
 .d-card11 img {
-  width: 35px;
-  height: 40px;
+  width: 40px;
+  /* height: 40px; */
+}
+.d-card11 .the{
+  width: 24px;
 }
 
 .d-card11 h5 {

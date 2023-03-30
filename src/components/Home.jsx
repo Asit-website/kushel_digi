@@ -48,7 +48,11 @@ import mesr from '../images/mesr.jpg';
 import girl from '../images/girl.png'
 import star from '../images/star.png';
 import star1 from '../images/star1.png';
-import eli from '../images/eli.png';
+// import eli from '../images/eli.png';
+import finch from '../images/finch.png';
+import pay1 from '../images/pay1.png';
+import pay2 from '../images/pay2.png';
+import pay3 from '../images/pay3.png';
 
 const Home = () => {
   let dev = "App"
@@ -88,6 +92,13 @@ const Home = () => {
   let tag2 = "Superior UI/UX"
   let tag3 = "Smooth Deployment"
   let tag4 = "Technologically Advanced"
+
+  let seo = "SEO"
+  let seo1 = "SMO"
+  let seo2 = "PPC"
+
+  let digital = "Digital"
+  let digital1 = "Marketing"
 
   const [perPage, setPerPage] = useState(3);
 
@@ -183,6 +194,12 @@ const Home = () => {
                     android={figma} apple={xd} fluter={sketch1} react={illustrator} kotlin={Photoshop}
                   />
                 </SplideSlide>
+                <SplideSlide>
+                  <ServiceCard app1={app1} dev={digital} dev1={digital1} a={seo}
+                    b={seo1} c={seo2} 
+                    android={pay1} apple={pay2} fluter={pay3} 
+                  />
+                </SplideSlide>
                 {/* <SplideSlide>
                   <ServiceCard />
                 </SplideSlide> */}
@@ -264,7 +281,7 @@ const Home = () => {
                 <p className='mr-5'>Testing & Maintenance</p>
               </div>
               <div className="home6122">
-                <img className='w-full h-full' src={mesr} alt="mesr" />
+                <img className='w-full h-full' src={finch} alt="mesr" />
               </div>
               <div className="home6121 flex justify-between items-center mt-4">
                 <p></p>
@@ -283,7 +300,7 @@ const Home = () => {
               <h1 className=''>Benefits of Our e-commerce <br /> development</h1>
             </div>
             <div className="home712 flex flex-wrap justify-center">
-              <DevCard heading={tag} imgSrc={'/static/images/a10.png'} />
+              <DevCard heading={tag} classji="the" imgSrc={'/static/images/a10.png'} />
               <DevCard heading={tag1} imgSrc={'/static/images/a11.png'} />
               <DevCard heading={tag2} imgSrc={'/static/images/a12.png'} />
               <DevCard heading={tag3} imgSrc={'/static/images/a13.png'} />
