@@ -28,7 +28,7 @@ const Navbar = () => {
     setCont(index);
   };
 
-  const toggleCont=()=>{
+  const toggleCont = () => {
     document.querySelector('.sh').classList.toggle('hidden');
   };
 
@@ -62,7 +62,7 @@ const Navbar = () => {
             </div>
             <div className='ml-1.5'>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="text-white bi bi-chevron-down" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
               </svg>
             </div>
             <div className="sh fixed hidden">
@@ -93,10 +93,10 @@ const Navbar = () => {
             <ul>
               <li><NavLink to="">about us</NavLink></li>
               <li className='mar'>
-                <div className="flex items-center">
-                  <p onClick={toggleService} className='sar cursor-pointer' to="">services</p>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="opg ml-2 bi bi-caret-down-fill" viewBox="0 0 16 16">
-                    <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                <div onClick={toggleService} className="flex items-center cursor-pointer">
+                  <p className='sar' to="">services</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="ml-1 bi bi-chevron-down" viewBox="0 0 16 16">
+                    <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                   </svg>
                 </div>
                 <div className="ser-nav hidden">
@@ -111,8 +111,8 @@ const Navbar = () => {
                         document.getElementById("digi-nav").classList.toggle("hidden");
                       }} className="flex items-center cursor-pointer">
                         <p>Digital Marketing</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="opg ml-2 bi bi-caret-down-fill" viewBox="0 0 16 16">
-                          <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="opg ml-1 bi bi-chevron-down" viewBox="0 0 16 16">
+                          <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                         </svg>
                       </div>
                       <div id="digi-nav" className='hidden py-2'>

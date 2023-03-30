@@ -101,14 +101,14 @@ const Home = () => {
   let digital1 = "Marketing"
 
   const [perPage, setPerPage] = useState(3);
+  const [perPage1, setPerPage1] = useState(5);
 
-  useEffect(()=>{
-    if(window.matchMedia("(max-width: 750px)").matches)
-    {
+  useEffect(() => {
+    if (window.matchMedia("(max-width: 750px)").matches) {
       setPerPage(1);
-      console.log('yes');
+      setPerPage1(1);
     }
-  },[]);
+  }, []);
 
   return (
     <>
@@ -196,8 +196,8 @@ const Home = () => {
                 </SplideSlide>
                 <SplideSlide>
                   <ServiceCard app1={app1} dev={digital} dev1={digital1} a={seo}
-                    b={seo1} c={seo2} 
-                    android={pay1} apple={pay2} fluter={pay3} 
+                    b={seo1} c={seo2}
+                    android={pay1} apple={pay2} fluter={pay3}
                   />
                 </SplideSlide>
                 {/* <SplideSlide>
@@ -208,29 +208,104 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="home4 pb-20 bg-gray-100">
+        <div className="home4 home-04 pb-20 bg-gray-100">
           <div className="home41">
             <div className="home411 text-center mb-10">
               <h1 className='mb-2'><span className='font-bold'>TECHNOLOGIES</span> WE WORK WITH</h1>
               <p>Kusheldigi is evolving into an international contender in software engineering, with broad expertise in all areas required for credible software development.</p>
             </div>
             <div className="home412 flex justify-center items-center">
-              <div className="home4121 mx-8">
-                <img className=' block m-auto' src="/static/images/a5.png" alt="" />
-                <p>Woo Commerce</p>
-              </div>
-              <div className="home4121 mx-8">
-                <img className=' block m-auto' src="/static/images/a6.png" alt="" />
-                <p>Big Commerce</p>
-              </div>
-              <div className="home4121 mx-8">
-                <img className=' block m-auto' src="/static/images/a7.png" alt="" />
-                <p>Shopify</p>
-              </div>
-              <div className="home4121 mx-8">
-                <img className=' block m-auto' src="/static/images/a8.png" alt="" />
-                <p>Magento</p>
-              </div>
+              <Splide aria-label="Our Services" options={{
+                perPage: perPage1,
+                perMove: 1,
+                loop: true,
+                // autoplay: true
+              }} >
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/a5.png" alt="" />
+                    <p>Woo Commerce</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/a6.png" alt="" />
+                    <p>Big Commerce</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/a7.png" alt="" />
+                    <p>Shopify</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/a8.png" alt="" />
+                    <p>Magento</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b3.png" alt="" />
+                    <p>Wordpress</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b6.png" alt="" />
+                    <p>Vue Js</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b7.png" alt="" />
+                    <p>Php</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b8.png" alt="" />
+                    <p>HTML 5</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b9.png" alt="" />
+                    <p>Swift</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b10.png" alt="" />
+                    <p>Python</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b11.png" alt="" />
+                    <p>Java</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b12.png" alt="" />
+                    <p>Node Js</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b13.png" alt="" />
+                    <p>Flutter</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b14.png" alt="" />
+                    <p>React Native</p>
+                  </div>
+                </SplideSlide>
+              </Splide>
             </div>
           </div>
         </div>
@@ -245,10 +320,10 @@ const Home = () => {
 
             </div>
             <div className=' flex-thing flex items-center justify-center'>
-               <p className='inline all'>all</p>
-               <p>WEBSITE DESIGN</p>
-               <p>E-COMMERCE SOLUTION</p>
-               <p>MOBILE APPLICATION</p>
+              <p className='inline all'>all</p>
+              <p>WEBSITE DESIGN</p>
+              <p>E-COMMERCE SOLUTION</p>
+              <p>MOBILE APPLICATION</p>
             </div>
             <div className="home512 flex flex-wrap justify-center mt-12">
               <PortCard pads={a9} />
@@ -310,16 +385,16 @@ const Home = () => {
         </div>
 
         <div className="home8 mb-20 px-8">
-           <h2 className='text-center'>Our esteemed clients</h2>
-           <p className='text-center'>Pleasure to work with</p>
-           <div className='home8-img px-4'>
-              <img className='chetri' src="/static/images/a15.png" alt="" />
-              <img className='chetri1' src="/static/images/a17.png" alt="" />
-              <img className='chetri2' src="/static/images/a16.png" alt="" />
-              <img className='chetri' src="/static/images/a15.png" alt="" />
-              <img className='chetri1' src="/static/images/a17.png" alt="" />
-              <img className='chetri2' src="/static/images/a16.png" alt="" />
-           </div>
+          <h2 className='text-center'>Our esteemed clients</h2>
+          <p className='text-center'>Pleasure to work with</p>
+          <div className='home8-img px-4'>
+            <img className='chetri' src="/static/images/a15.png" alt="" />
+            <img className='chetri1' src="/static/images/a17.png" alt="" />
+            <img className='chetri2' src="/static/images/a16.png" alt="" />
+            <img className='chetri' src="/static/images/a15.png" alt="" />
+            <img className='chetri1' src="/static/images/a17.png" alt="" />
+            <img className='chetri2' src="/static/images/a16.png" alt="" />
+          </div>
         </div>
 
         <div className="home9 mb-12">
@@ -328,7 +403,7 @@ const Home = () => {
               <h2 className='font-bold text-gray-700'>JUST THE FAQs</h2>
             </div>
             <div className="home912">
-            <Accordion allowZeroExpanded>
+              <Accordion allowZeroExpanded>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
@@ -447,76 +522,76 @@ const Home = () => {
         </div> */}
 
         <div className="testimonials">
-            <div className="first-testimonials">
+          <div className="first-testimonials">
             <h3 className='tas'>testimonials</h3>
-               <h2 className='happy'>oUR HAPPY CLIENT SAY</h2>
-               <div className='testi-sec'>
-                  <h2>4.7<span>/5</span></h2>
-                  <div className='star flex items-center'>
-                     <div className="first-star flex items-center ">
-                        <img src={star} alt="star" />
-                        <img className='ml-1' src={star} alt="" />
-                        <img className='ml-1' src={star} alt="star" />
-                        <img className='ml-1' src={star} alt="" />
-                        <img className='ml-1' src={star1} alt="" />
-                     </div>
-                     <div className="second-star ml-3">
-                         <p>200 reviews</p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div className="second-testimonials">
-                <div className="excellent">
-                    <h2>EXCELLENT WORK</h2>
-                    <div className="ex mt-1">
-                        <div className="first-ex flex">
-                           <img src={star} alt="" />
-                           <img className='ml-1' src={star} alt="" />
-                           <img className='ml-1' src={star} alt="" />
-                           <img className='ml-1' src={star} alt="" />
-                           <img className='ml-1' src={star} alt="" />
-                        </div>
-                        <div className="second-ex">
-                           <p>Matt Reeder</p>
-                        </div>
-                        <div className="third-ex">
-                           <p>United States. 03/23/2023</p>
-                        </div>
-                    </div>
-                    <div className="para-ex">
-                        <p>Lorem ipsum is simply dummy text of the printing & Typesetting industry. lorem ipsum has been the industry’s standard dummy text ever since the 1500s, an unknown printer took a gallery.</p>
-                    </div>
+            <h2 className='happy'>oUR HAPPY CLIENT SAY</h2>
+            <div className='testi-sec'>
+              <h2>4.7<span>/5</span></h2>
+              <div className='star flex items-center'>
+                <div className="first-star flex items-center ">
+                  <img src={star} alt="star" />
+                  <img className='ml-1' src={star} alt="" />
+                  <img className='ml-1' src={star} alt="star" />
+                  <img className='ml-1' src={star} alt="" />
+                  <img className='ml-1' src={star1} alt="" />
                 </div>
+                <div className="second-star ml-3">
+                  <p>200 reviews</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="second-testimonials">
+            <div className="excellent">
+              <h2>EXCELLENT WORK</h2>
+              <div className="ex mt-1">
+                <div className="first-ex flex">
+                  <img src={star} alt="" />
+                  <img className='ml-1' src={star} alt="" />
+                  <img className='ml-1' src={star} alt="" />
+                  <img className='ml-1' src={star} alt="" />
+                  <img className='ml-1' src={star} alt="" />
+                </div>
+                <div className="second-ex">
+                  <p>Matt Reeder</p>
+                </div>
+                <div className="third-ex">
+                  <p>United States. 03/23/2023</p>
+                </div>
+              </div>
+              <div className="para-ex">
+                <p>Lorem ipsum is simply dummy text of the printing & Typesetting industry. lorem ipsum has been the industry’s standard dummy text ever since the 1500s, an unknown printer took a gallery.</p>
+              </div>
+            </div>
 
-                <div className="excellent mt-3">
-                    <h2>EXCELLENT WORK</h2>
-                    <div className="ex mt-1">
-                        <div className="first-ex flex">
-                           <img src={star} alt="" />
-                           <img className='ml-1' src={star} alt="" />
-                           <img className='ml-1' src={star} alt="" />
-                           <img className='ml-1' src={star} alt="" />
-                           <img className='ml-1' src={star} alt="" />
-                        </div>
-                        <div className="second-ex">
-                           <p>Matt Reeder</p>
-                        </div>
-                        <div className="third-ex">
-                           <p>United States. 03/23/2023</p>
-                        </div>
-                    </div>
-                    <div className="para-ex">
-                        <p>Lorem ipsum is simply dummy text of the printing & Typesetting industry. lorem ipsum has been the industry’s standard dummy text ever since the 1500s, an unknown printer took a gallery.</p>
-                    </div>
+            <div className="excellent mt-3">
+              <h2>EXCELLENT WORK</h2>
+              <div className="ex mt-1">
+                <div className="first-ex flex">
+                  <img src={star} alt="" />
+                  <img className='ml-1' src={star} alt="" />
+                  <img className='ml-1' src={star} alt="" />
+                  <img className='ml-1' src={star} alt="" />
+                  <img className='ml-1' src={star} alt="" />
                 </div>
-                 <div className="read-sec">
-                     <p>Read All 200 Reviews</p>
-                 </div>
+                <div className="second-ex">
+                  <p>Matt Reeder</p>
+                </div>
+                <div className="third-ex">
+                  <p>United States. 03/23/2023</p>
+                </div>
+              </div>
+              <div className="para-ex">
+                <p>Lorem ipsum is simply dummy text of the printing & Typesetting industry. lorem ipsum has been the industry’s standard dummy text ever since the 1500s, an unknown printer took a gallery.</p>
+              </div>
             </div>
+            <div className="read-sec">
+              <p>Read All 200 Reviews</p>
+            </div>
+          </div>
         </div>
 
-        <div className="home-01 flex justify-center items-center py-12 mb-16 ">
+        {/* <div className="home-01 flex justify-center items-center py-12 mb-16 ">
           <div className="home-011 py-12 px-12">
             <div className="home-0111 text-center">
               <h2 className='uppercase font-bold'>Let’s Create Big Stories Together</h2>
@@ -524,7 +599,35 @@ const Home = () => {
               <button>GET A QUOTE</button>
             </div>
           </div>
+        </div> */}
+
+        <div className="home-year">
+          <div className="home-year1 flex items-center">
+            <div className="home-year11">
+              <h1>Over <span>5 Years</span> of
+                Experience in the Online
+                Design Industry</h1>
+            </div>
+            <div className="home-year12 flex items-center justify-center flex-wrap">
+              <div className="home-year121">
+                <img src="/static/images/b17.png" alt="" />
+              </div>
+              <div className="home-year121">
+                <img src="/static/images/b18.png" alt="" />
+              </div>
+              <div className="home-year121">
+                <img src="/static/images/b19.png" alt="" />
+              </div>
+              <div className="home-year121">
+                <img src="/static/images/b20.png" alt="" />
+              </div>
+              <div className="home-year121">
+                <img src="/static/images/b21.png" alt="" />
+              </div>
+            </div>
+          </div>
         </div>
+
       </div>
     </>
   );
