@@ -53,7 +53,22 @@ import finch from '../images/finch.png';
 import pay1 from '../images/pay1.png';
 import pay2 from '../images/pay2.png';
 import pay3 from '../images/pay3.png';
-
+import box2 from '../images/box2.png';
+import aboutji from '../images/aboutji.png';
+import box3 from '../images/box3.png';
+import box4 from '../images/box4.png';
+import box5 from '../images/box5.png';
+import box6 from '../images/box6.png';
+import box7 from '../images/box7.png';
+import box8 from '../images/box8.png';
+import box9 from '../images/box9.png';
+import box10 from '../images/box10.png';
+import box11 from '../images/box11.png';
+import box12 from '../images/box12.png';
+import box13 from '../images/box13.png';
+import box14 from '../images/box14.png';
+import box15 from '../images/box15.png';
+import box16 from '../images/box16.png';
 const Home = () => {
   let dev = "App"
   let dev1 = "Development"
@@ -141,7 +156,7 @@ const Home = () => {
           <div className="home21 px-24 flex">
             <div className="home211 mr-14">
               {/* <h1 className='mb-0 font-bold'>ABOUT US</h1> */}
-              <img src={about} alt="about" />
+              <img src={aboutji} alt="about" />
               <h5 className='text-blue-500 mt-16'>Who are we?</h5>
               <h3 className='mb-2'>We are your digital partner for innovative design and reliable Web, Mobile, and Marketing  solutions.</h3>
               <p className='mb-3'>The top-notch and preeminent Web and Mobile App Development Company of India with its global presence in USA, Mind Inventory is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to developing highly intriguing apps that strictly meet the business requirements and catering a wide spectrum of projects.</p>
@@ -219,91 +234,112 @@ const Home = () => {
                 perPage: perPage1,
                 perMove: 1,
                 loop: true,
-                // autoplay: true
+                autoplay: true
               }} >
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/a5.png" alt="" />
                     <p>Woo Commerce</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box2} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/a6.png" alt="" />
                     <p>Big Commerce</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box3} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/a7.png" alt="" />
                     <p>Shopify</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box4} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/a8.png" alt="" />
                     <p>Magento</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box5} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b3.png" alt="" />
                     <p>Wordpress</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box6} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b6.png" alt="" />
                     <p>Vue Js</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box7} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b7.png" alt="" />
                     <p>Php</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box8} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b8.png" alt="" />
                     <p>HTML 5</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box9} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b9.png" alt="" />
                     <p>Swift</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box10} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b10.png" alt="" />
                     <p>Python</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box11} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b11.png" alt="" />
                     <p>Java</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box12} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b12.png" alt="" />
                     <p>Node Js</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box13} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b13.png" alt="" />
                     <p>Flutter</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box14} alt="" />
                 </SplideSlide>
                 <SplideSlide>
-                  <div className="home4121">
+                  {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b14.png" alt="" />
                     <p>React Native</p>
-                  </div>
+                  </div> */}
+                  <img className='so' src={box15} alt="" />
+                </SplideSlide>
+                <SplideSlide>
+                  {/* <div className="home4121">
+                    <img className=' block m-auto' src="/static/images/b14.png" alt="" />
+                    <p>React Native</p>
+                  </div> */}
+                  <img className='so' src={box16} alt="" />
                 </SplideSlide>
               </Splide>
             </div>
@@ -604,9 +640,9 @@ const Home = () => {
         <div className="home-year">
           <div className="home-year1 flex items-center">
             <div className="home-year11">
-              <h1>Over <span>5 Years</span> of
-                Experience in the Online
-                Design Industry</h1>
+              <h1>Over <span>5 Years</span> of</h1>
+                <h1> Experience in the Online </h1>
+                <h1>Design Industry</h1>
             </div>
             <div className="home-year12 flex items-center justify-center flex-wrap">
               <div className="home-year121">

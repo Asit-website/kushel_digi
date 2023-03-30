@@ -54,10 +54,10 @@ const Navbar = () => {
             <div className="second-header1">
               {cont === 1 ? <div onClick={toggleCont} id="cont1" className="flex items-center cursor-pointer">
                 <img src="/static/images/c1.png" alt="" />
-                <p className='ml-2 text-white text-lg'>United States</p>
+                <p className='ml-2 text-white text-lg united'>United States</p>
               </div> : cont === 2 ? <div onClick={toggleCont} id="cont2" className="flex items-center cursor-pointer">
                 <img src={india} alt="india" />
-                <p className='ml-2 text-white text-lg'>India</p>
+                <p className='ml-2 text-white text-lg united'>India</p>
               </div> : null}
             </div>
             <div className='ml-1.5'>
@@ -71,14 +71,14 @@ const Navbar = () => {
                 toggleCont();
               }} className={`flex items-center cursor-pointer py-1.5 my-1.5 px-2 sh1 sh2 ${cont === 1 ? 'sh-active' : ''}`}>
                 <img src="/static/images/c1.png" alt="" />
-                <p className='ml-2 text-white text-lg'>United States</p>
+                <p className='ml-2 text-white text-lg united'>United States</p>
               </div>
               <div onClick={() => {
                 shFunc(2);
                 toggleCont();
               }} className={`flex items-center cursor-pointer py-1.5 my-1.5 px-2 sh1 sh2 ${cont === 2 ? 'sh-active' : ''}`}>
                 <img src={india} alt="" />
-                <p className='ml-2 text-white text-lg'>India</p>
+                <p className='ml-2 text-white text-lg united'>India</p>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Navbar = () => {
               <li className='mar'>
                 <div onClick={toggleService} className="flex items-center cursor-pointer">
                   <p className='sar' to="">services</p>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="ml-1 bi bi-chevron-down" viewBox="0 0 16 16">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" className="ml-1 bi bi-chevron-down" viewBox="0 0 16 16">
                     <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                   </svg>
                 </div>
@@ -111,7 +111,7 @@ const Navbar = () => {
                         document.getElementById("digi-nav").classList.toggle("hidden");
                       }} className="flex items-center cursor-pointer">
                         <p>Digital Marketing</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="opg ml-1 bi bi-chevron-down" viewBox="0 0 16 16">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" className="opg ml-1 bi bi-chevron-down" viewBox="0 0 16 16">
                           <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                         </svg>
                       </div>
