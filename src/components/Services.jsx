@@ -17,6 +17,7 @@ const Services = () => {
             <div className="ser111">
               <h1 className="">Services</h1>
               <h1 className="blue">Ecommerce Solutions</h1>
+              <p className="ac">Website & Application Development Services</p>
             </div>
             <div className="ser112">
               <img src="/static/images/b1.png" alt="" />
