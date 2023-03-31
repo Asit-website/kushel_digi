@@ -69,6 +69,7 @@ import box13 from '../images/box13.png';
 import box14 from '../images/box14.png';
 import box15 from '../images/box15.png';
 import box16 from '../images/box16.png';
+import { NavLink } from 'react-router-dom';
 const Home = () => {
   let dev = "App"
   let dev1 = "Development"
@@ -160,12 +161,12 @@ const Home = () => {
               <h5 className='text-blue-500 mt-16'>Who are we?</h5>
               <h3 className='mb-2'>We are your digital partner for innovative design and reliable Web, Mobile, and Marketing  solutions.</h3>
               <p className='mb-3'>The top-notch and preeminent Web and Mobile App Development Company of India with its global presence in USA, Mind Inventory is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to developing highly intriguing apps that strictly meet the business requirements and catering a wide spectrum of projects.</p>
-              <button className='btn btn1'>
+             <NavLink to="/contact"> <button className='btn btn1'>
                 <span className='mr-2'>Contact Us</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
                   <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                 </svg>
-              </button>
+              </button></NavLink>
             </div>
             <div className="home212 ml-14 relative">
               {/* <img className=' absolute jit' src={eli} alt="" /> */}

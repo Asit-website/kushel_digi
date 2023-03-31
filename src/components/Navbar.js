@@ -102,7 +102,7 @@ const Navbar = () => {
                 <div className="ser-nav hidden">
                   <div className="ser-nav1 flex flex-col">
                     <NavLink onClick={toggleService} to="/service">Ecommerce Solutions</NavLink>
-                    <NavLink onClick={toggleService} to="#">Website Design & Development</NavLink>
+                    <NavLink onClick={toggleService} to="/website">Website Design & Development</NavLink>
                     <NavLink onClick={toggleService} to="#">Web Application Development</NavLink>
                     <NavLink onClick={toggleService} to="#">UI/UX Design</NavLink>
                     <NavLink onClick={toggleService} to="/mobileApp">Mobile App Development</NavLink>

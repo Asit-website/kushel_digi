@@ -1473,12 +1473,36 @@ form button {
   background-blend-mode: darken;
 
 }
-
+.serji1{
+  background: url('./images/website1.png') no-repeat center center/cover;
+  background-blend-mode: darken;
+}
+.serji1 img{
+  max-width: 460px;
+  width: 100%;
+}
+.ser2 .sis1 .nodejs1{
+  width: 125px !important ;
+  height: 34px !important;
+}
+.ser2 .sis .phpos{
+  width: 90px !important;
+}
 .serji img {
   max-width: 450px;
   width: 100%;
 }
-
+.deivery-date .ensure{
+  color: #404040;
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  width: 28em;
+}
+.mobile-app1 .app{
+  max-width: 1150px !important;
+  width: 100% !important;
+}
 .ser111 {
   width: 60%;
 }
@@ -1787,6 +1811,9 @@ form button {
   justify-content: space-between;
   margin-top: 30px;
 }
+.delivery1{
+  margin-top: 50px !important;
+}
 
 .first-delivery h3 {
   font-size: 35px;
@@ -1816,7 +1843,7 @@ form button {
 }
 
 .second-delivery img {
-  max-width: 570px;
+  max-width: 560px;
   width: 100;
 }
 
@@ -2224,7 +2251,9 @@ form button {
   .header {
     padding: 12px 30px;
   }
-
+   .deivery-date .ensure{
+    font-size: 19px;
+   }
   .home8 h2 {
     font-size: 35px;
   }
@@ -2796,7 +2825,9 @@ form button {
   .desk-nav {
     display: none;
   }
-
+  .deivery-date .ensure{
+    font-size: 16px;
+  }
   .home8 h2 {
     font-size: 30px;
   }
@@ -3770,7 +3801,15 @@ form button {
   .header {
     width: 240vw;
   }
-
+  .deivery-date .ensure{
+    font-size: 14px;
+  }
+  .first-delivery{
+    text-align: center;
+  }
+  .delivery1{
+    margin-top: 30px !important;
+  }
   .read-sec p {
     font-size: 16px;
   }
@@ -4528,5 +4567,10 @@ form button {
 
   .testi-sec {
     margin-top: 10px;
+  }
+}
+@media only screen and (max-width:1250px){
+  .deivery-date .ensure{
+    width: 100%;
   }
 }
