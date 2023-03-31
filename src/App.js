@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import StafArgu from "./components/StafArgu";
 import Services from "./components/Services";
 import MobileApp from "./components/MobileApp";
+import WebsiteDev from "./components/WebsiteDev";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
            <Route path="/staff" element={<StafArgu/>}/>
            <Route path="/service" element={<Services/>}/>
            <Route path="/mobileApp" element={<MobileApp/>}/>
+           <Route path="/website" element={<WebsiteDev/>}/>
         </Routes>
         <Footer />
       </Router>
