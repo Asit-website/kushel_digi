@@ -1,7 +1,8 @@
 /* =========staff css start============== */
 .staff-cap{
     padding: 70px 100px;
-    background-color: #F3F3F3;
+    /* background-color: #F3F3F3; */
+    background-color: #fafafa;
 }
 .staff-cap .sta{
     color: #000000;
@@ -13,12 +14,15 @@
 }
 .staff-cap .cab{
     color: #000000;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 45px;
-    font-family: 'Value Sans Pro' !important;
+    font-family: 'Value Sans Medium' !important;
     text-align: center;
     opacity: .95;
     line-height: 52px;
+}
+.home480{
+    padding: 65px 0px;
 }
 .card{
     display: flex;
@@ -107,7 +111,7 @@
     line-height: 50px;
 }
 .process-img img{
-    max-width: 1250px;
+    max-width: 1180px;
     width: 100%;
     display: block;
     margin: auto;
@@ -151,7 +155,7 @@
     margin-left: 8px;
 }
 .benifits2 img{
-    max-width: 450px;
+    max-width: 513px;
     width: 100%;
 }
 .staff-service{

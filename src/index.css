@@ -285,7 +285,7 @@
   background-image: url("./images/contact.png");
   background-blend-mode: darken;
   width: 100%;
-  height: 53vh;
+  height: 70vh;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -325,7 +325,7 @@
   text-transform: capitalize;
   font-size: 20px;
   width: 30em;
-  line-height: 33px;
+  line-height: 18px;
   margin-top: 15px;
 }
 
@@ -408,7 +408,15 @@ form button {
   border-radius: 3px;
   margin-top: 22px;
 }
-
+.call{
+  background-color: #3C83CB;
+  color: #FFFFFF;
+  width: 280px;
+  height: 68px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 40px;
+}
 .second-need {
   width: 100%;
   margin-left: 75px;
@@ -1730,11 +1738,23 @@ form button {
   color: #0E2B3D;
   font-family: 'Value Sans Medium' !important;
   text-transform: capitalize;
-  text-align: center;
   font-weight: 700;
   font-size: 26px;
 }
-
+.looking p{
+  color: #404040;
+  font-size: 20px;
+  font-weight: 400;
+}
+.looking button{
+  width: 275px;
+  background-color: #3C83CB;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  height: 66px;
+  margin-top: 25px;
+}
 .discusion-form form {
   width: 100%;
   margin-top: 30px;
@@ -1745,7 +1765,7 @@ form button {
 }
 
 .form-field input {
-  width: 480px;
+  width: 320px;
   max-width: 100%;
   background-color: #FFFFFF;
   border: none;
@@ -1761,7 +1781,7 @@ form button {
 }
 
 .form-filed1 textarea {
-  width: 100%;
+  width: 360px;
   max-width: 100%;
   resize: none;
   height: 290px;
@@ -1787,8 +1807,8 @@ form button {
 .first-form button {
   width: 275px;
   background-color: #3C83CB;
-  font-weight: 600;
-  font-size: 15px;
+  font-weight: 500;
+  font-size: 16px;
   color: #ffffff;
   height: 66px;
 }
@@ -2069,7 +2089,9 @@ form button {
   .navbar {
     padding: 12px 60px;
   }
-
+.form-filed1 textarea{
+  width: auto;
+}
   .business-box .develop {
     font-size: 16px;
   }
@@ -2276,8 +2298,20 @@ form button {
   .header {
     padding: 12px 30px;
   }
+  .form-filed1 textarea{
+    width: 100%;
+  }
    .deivery-date .ensure{
     font-size: 19px;
+   }
+   .discusion-form{
+    flex-direction: column;
+   }
+   .looking{
+    margin-left: 0px;
+   }
+   .mrs{
+    margin-right: 0px;
    }
   .home8 h2 {
     font-size: 35px;
@@ -2299,7 +2333,9 @@ form button {
   .navbar ul li p {
     font-size: 13px;
   }
-
+  .looking p{
+    font-size: 19px;
+  }
   .mob-nav2 ul .sar {
     font-size: 13px;
   }
@@ -2850,6 +2886,9 @@ form button {
   .desk-nav {
     display: none;
   }
+  .looking p{
+    font-size: 16px;
+  }
   .deivery-date .ensure{
     font-size: 16px;
   }
@@ -3233,13 +3272,15 @@ form button {
   }
 
   .benifits {
-    flex-direction: column !important;
+    flex-direction: column-reverse !important;
   }
 
-  .benifits2 img {
+  /* .benifits2 img {
     margin-top: 30px !important;
-  }
-
+  } */
+ .benifits1{
+  margin-top: 40px !important;
+ }
   .staff-service {
     flex-direction: column !important;
     align-items: center !important;
@@ -3829,6 +3870,10 @@ form button {
   .deivery-date .ensure{
     font-size: 14px;
   }
+  .looking p{
+    font-size: 14px;
+    line-height: 26px;
+  }
   .first-delivery{
     text-align: center;
   }
@@ -4378,7 +4423,7 @@ form button {
   }
 
   .discusion-form {
-    padding: 70px 20px;
+    padding: 50px 20px;
   }
 
   .mobile-app {

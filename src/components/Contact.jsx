@@ -31,10 +31,10 @@ const Contact = () => {
         <div className="contact-sect">
           <h2>Let's Talk.</h2>
           <p>
-            Get in touch with us for all your staffing requirements and hire our
-            optimal services for getting the project developments done with your
-            budget estimate. We believe in building business partnerships that
-            go long-term
+          Interested in working together?
+          </p>
+          <p>
+          Fill in form below to get started.
           </p>
         </div>
       </div>
