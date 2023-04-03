@@ -114,10 +114,12 @@
     margin-top: 45px;
 }
 .benifits{
+    background: url(../public/static/images/c2.png) no-repeat center center/cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 100px 100px;
+    padding: 0px 100px;
+    padding-top: 30px;
 }
 .benifits h2{
     color: #101010;
