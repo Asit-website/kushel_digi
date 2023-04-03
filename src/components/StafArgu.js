@@ -128,7 +128,8 @@ const StafArgu = () => {
           </div>
         </div>
         <div className="benifits2">
-          <img src={hath} alt="hath" />
+          {/* <img src={hath} alt="hath" /> */}
+          <img src={'/static/images/c3.png'} alt="hath" />
         </div>
       </div>
 
