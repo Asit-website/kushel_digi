@@ -11,23 +11,23 @@ const ServiceCard = (props) => {
                             <h5 className="ml-4">{props.dev} <br />{props.dev1}</h5>
                         </div>
                         <div className="s-card1 flex items-center mb-3">
-                            <img src={props.android} alt="" />
+                            <img width={27} height={27} src={props.android} alt="" />
                             <p className="ml-2">{props.a}</p>
                         </div>
                         <div className="s-card1 flex items-center mb-3">
-                            <img src={props.apple} alt="" />
+                            <img width={27} height={27} src={props.apple} alt="" />
                             <p className="ml-2">{props.b}</p>
                         </div>
                         <div className="s-card1 flex items-center mb-3">
-                            <img src={props.fluter} alt="" />
+                            <img width={27} height={27} src={props.fluter} alt="" />
                             <p className="ml-2">{props.c}</p>
                         </div>
                         <div className="s-card1 flex items-center mb-3">
-                            <img src={props.react} alt="" />
+                            <img width={27} height={27} src={props.react} alt="" />
                             <p className="ml-2">{props.d}</p>
                         </div>
                         <div className="s-card1 flex items-center mb-3">
-                            <img src={props.kotlin} alt="" />
+                            <img width={27} height={27} src={props.kotlin} alt="" />
                             <p className="ml-2">{props.e}</p>
                         </div>
                     </div>

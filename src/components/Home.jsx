@@ -69,6 +69,9 @@ import box13 from '../images/box13.png';
 import box14 from '../images/box14.png';
 import box15 from '../images/box15.png';
 import box16 from '../images/box16.png';
+import re from '../images/re.png';
+import re1 from '../images/re1.png'
+import arrow from '../images/arrow.png'
 import { NavLink } from 'react-router-dom';
 const Home = () => {
   let dev = "App"
@@ -80,6 +83,8 @@ const Home = () => {
   let dev5 = "Development"
 
   let dev6 = "UI & UX"
+
+  let node1 = "Node js";
 
   let a = "Android App"
   let b = "IOS App"
@@ -116,6 +121,13 @@ const Home = () => {
   let digital = "Digital"
   let digital1 = "Marketing"
 
+  let heading = "www.2ndAmendment.com";
+  let heading1 = "www.kickeez.com";
+  let heading2 = "www.protrucks.com";
+  let heading3 = "www.jonesbuilt.com";
+  let heading4 = "www.Majorhospital.com";
+  let heading5 = "www.solenoidninja.com";
+
   const [perPage, setPerPage] = useState(3);
   const [perPage1, setPerPage1] = useState(5);
 
@@ -125,6 +137,108 @@ const Home = () => {
       setPerPage1(1);
     }
   }, []);
+
+  const [tab,setTab] = useState(1);
+
+  const  tabAnother = (e) =>{
+    e.preventDefault();
+    setTab(1);
+    document.getElementById("one").style.background="#3C83CB";
+    document.getElementById("two").style.background="none";
+    document.getElementById("three").style.background="none";
+    document.getElementById("fourth").style.background="none";
+
+    document.getElementById("one").style.padding="5px 22px";
+    document.getElementById("two").style.padding="0px 0px";
+    document.getElementById("three").style.padding="0px 0px";
+    document.getElementById("fourth").style.padding="0px 0px";
+
+    document.getElementById("one").style.color="#ffffff";
+    document.getElementById("two").style.color="#000000";
+    document.getElementById("three").style.color="#000000";
+    document.getElementById("fourth").style.color="#000000";
+
+    document.getElementById("one").style.borderRadius="20px";
+    document.getElementById("two").style.borderRadius="0px";
+    document.getElementById("three").style.borderRadius="0px";
+    document.getElementById("fourth").style.borderRadius="0px";
+  }
+
+  const tabAnother1 = (e) =>{
+    e.preventDefault();
+    setTab(2);
+    document.getElementById("one").style.background="none";
+    document.getElementById("two").style.background="#3C83CB";
+    document.getElementById("three").style.background="none";
+    document.getElementById("fourth").style.background="none";
+
+    document.getElementById("one").style.padding="0px 0px";
+    document.getElementById("two").style.padding="5px 22px";
+    document.getElementById("three").style.padding="0px 0px";
+    document.getElementById("fourth").style.padding="0px 0px";
+
+    document.getElementById("one").style.color="#000000";
+    document.getElementById("two").style.color="#ffffff";
+    document.getElementById("three").style.color="#000000";
+    document.getElementById("fourth").style.color="#000000";
+
+    document.getElementById("one").style.borderRadius="0px";
+    document.getElementById("two").style.borderRadius="20px";
+    document.getElementById("three").style.borderRadius="0px";
+    document.getElementById("fourth").style.borderRadius="0px";
+
+   
+  }
+
+  const tabAnother2 = (e) =>{
+    e.preventDefault();
+    setTab(3);
+
+    document.getElementById("one").style.background="none";
+    document.getElementById("two").style.background="none";
+    document.getElementById("three").style.background="#3C83CB";
+    document.getElementById("fourth").style.background="none";
+
+    document.getElementById("one").style.padding="0px 0px";
+    document.getElementById("two").style.padding="0px 0px";
+    document.getElementById("three").style.padding="5px 22px";
+    document.getElementById("fourth").style.padding="0px 0px";
+
+    document.getElementById("one").style.color="#000000";
+    document.getElementById("two").style.color="#000000";
+    document.getElementById("three").style.color="#ffffff";
+    document.getElementById("fourth").style.color="#000000";
+
+    document.getElementById("one").style.borderRadius="0px";
+    document.getElementById("two").style.borderRadius="0px";
+    document.getElementById("three").style.borderRadius="20px";
+    document.getElementById("fourth").style.borderRadius="0px";
+  }
+
+  const tabAnother3 = (e) =>{
+    e.preventDefault();
+    setTab(4);
+
+    document.getElementById("one").style.background="none";
+    document.getElementById("two").style.background="none";
+    document.getElementById("three").style.background="none";
+    document.getElementById("fourth").style.background="#3C83CB";
+
+    document.getElementById("one").style.padding="0px 0px";
+    document.getElementById("two").style.padding="0px 0px";
+    document.getElementById("three").style.padding="0px 0px";
+    document.getElementById("fourth").style.padding="5px 22px";
+
+    document.getElementById("one").style.color="#000000";
+    document.getElementById("two").style.color="#000000";
+    document.getElementById("three").style.color="#000000";
+    document.getElementById("fourth").style.color="#ffffff";
+
+    document.getElementById("one").style.borderRadius="0px";
+    document.getElementById("two").style.borderRadius="0px";
+    document.getElementById("three").style.borderRadius="0px";
+    document.getElementById("fourth").style.borderRadius="20px";
+  }
 
   return (
     <>
@@ -186,28 +300,28 @@ const Home = () => {
                 perPage,
                 perMove: 1
               }} >
-                <SplideSlide>
-                  <ServiceCard react={react} android={android} apple={apple} kotlin={kotlin}
-                    fluter={fluter} app1={app1} dev={dev} dev1={dev1}
-                    a={a} b={b} c={c} d={d} e={e}
-                  />
-                </SplideSlide>
-                <SplideSlide>
-                  <ServiceCard app1={web} dev={dev2} dev1={dev3}
-                    android={php} apple={wordpress} react={drupal} fluter={laravel}
-                    a={php1} b={wordpress1} c={drupal1} d={laravel1}
+              <SplideSlide>
+                  <ServiceCard app1={ui} dev={dev6} a={figma1}
+                    b={adobe1} c={sketch} d={adobe2} e={adobe3}
+                    android={figma} apple={xd} fluter={sketch1} react={illustrator} kotlin={Photoshop}
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <ServiceCard dev={dev4} dev1={dev5} app1={kart}
-                    android={Big} apple={shopify} react={woo} fluter={Magento}
-                    a={big} b={shop} c={commerce} d={mag}
+                    android={Big} apple={shopify} react={Magento} fluter={woo} kotlin={laravel}
+                    a={big} b={shop} c={commerce} d={mag} e ={laravel1}
                   />
                 </SplideSlide>
                 <SplideSlide>
-                  <ServiceCard app1={ui} dev={dev6} a={figma1}
-                    b={adobe1} c={sketch} d={adobe2} e={adobe3}
-                    android={figma} apple={xd} fluter={sketch1} react={illustrator} kotlin={Photoshop}
+                  <ServiceCard app1={web} dev={dev2} dev1={dev3}
+                    android={php} apple={laravel} react={re1} fluter={wordpress} kotlin={re}
+                    a={php1} b={laravel1} c={wordpress1} d={node1} e ={"React js"}
+                  />
+                </SplideSlide>
+                <SplideSlide>
+                  <ServiceCard react={react} android={android} apple={apple} kotlin={kotlin}
+                    fluter={fluter} app1={app1} dev={dev} dev1={dev1}
+                    a={a} b={b} c={c} d={d} e={e}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -230,7 +344,7 @@ const Home = () => {
               <h1 className='mb-2'><span className='font-bold'>TECHNOLOGIES</span> WE WORK WITH</h1>
               <p>Kusheldigi is evolving into an international contender in software engineering, with broad expertise in all areas required for credible software development.</p>
             </div>
-            <div className="home412 flex justify-center items-center">
+            <div className="home412 home456 flex justify-center items-center">
               <Splide aria-label="Our Services" options={{
                 perPage: perPage1,
                 perMove: 1,
@@ -345,6 +459,9 @@ const Home = () => {
               </Splide>
             </div>
           </div>
+          <button className="home-btns">
+             Lets Together <img width={13} height={13} className='inline ml-1' src={arrow} alt="arrow"/>
+          </button>
         </div>
 
         <div className="home5 pb-10 mb-12 bg-gray-100">
@@ -357,17 +474,62 @@ const Home = () => {
 
             </div>
             <div className=' flex-thing flex items-center justify-center'>
-              <p className='inline all'>all</p>
-              <p>WEBSITE DESIGN</p>
-              <p>E-COMMERCE SOLUTION</p>
-              <p>MOBILE APPLICATION</p>
+              <p id='one' onClick={tabAnother} className='inline all cursor-pointer'>all</p>
+              <p id='two' onClick={tabAnother1} className=' cursor-pointer'>WEBSITE DESIGN</p>
+              <p id="three" onClick={tabAnother2} className=' cursor-pointer'>E-COMMERCE SOLUTION</p>
+              <p id='fourth' onClick={tabAnother3} className=' cursor-pointer'>MOBILE APPLICATION</p>
             </div>
-            <div className="home512 flex flex-wrap justify-center mt-12">
-              <PortCard pads={a9} />
-              <PortCard pads={pads} />
-              <PortCard pads={bds} />
-              <PortCard pads={jones} />
+            {
+              tab === 1 && (
+                <div className="home512 flex flex-wrap justify-center mt-12">
+              <PortCard heading={heading} pads={a9} />
+              <PortCard heading={heading1} pads={pads} />
+              <PortCard heading={heading2} pads={bds} />
+              <PortCard heading={heading3} pads={jones} />
+              <PortCard heading={heading4} pads={major} />
+              <PortCard heading={heading5} pads={solenoid} />
             </div>
+              )
+            }
+
+            {
+              tab === 2 && (
+                <div className="home512 flex flex-wrap justify-center mt-12">
+              <PortCard heading={heading} pads={a9} />
+              <PortCard heading={heading1} pads={pads} />
+              {/* <PortCard heading={heading2} pads={bds} />
+              <PortCard heading={heading3} pads={jones} />
+              <PortCard heading={heading4} pads={major} />
+              <PortCard heading={heading5} pads={solenoid} /> */}
+            </div>
+              )
+            }
+
+            {
+              tab === 3 && (
+                <div className="home512 flex flex-wrap justify-center mt-12">
+              {/* <PortCard heading={heading} pads={a9} />
+              <PortCard heading={heading1} pads={pads} /> */}
+              <PortCard heading={heading2} pads={bds} />
+              <PortCard heading={heading3} pads={jones} />
+              {/* <PortCard heading={heading4} pads={major} />
+              <PortCard heading={heading5} pads={solenoid} /> */}
+            </div>
+              )
+            }
+           
+           {
+            tab === 4 && (
+              <div className="home512 flex flex-wrap justify-center mt-12">
+              {/* <PortCard heading={heading} pads={a9} />
+              <PortCard heading={heading1} pads={pads} />
+              <PortCard heading={heading2} pads={bds} />
+              <PortCard heading={heading3} pads={jones} /> */}
+              <PortCard heading={heading4} pads={major} />
+              <PortCard heading={heading5} pads={solenoid} />
+            </div>
+            )
+           }
           </div>
           <div className="home52 w-full text-center">
             <button className='btn btn1 m-auto btn3'>
