@@ -6,13 +6,16 @@ import kotlinjs from "../images/kotlinjs.png";
 import java from "../images/java.png";
 import python from "../images/python.png";
 import app from "../images/app.png";
-import appdev from "../images/appdev.png";
-import webm from "../images/webm.png";
-import webdev1 from "../images/webdev1.png";
 import tripleMob from '../images/tripleMob.png';
 import doubleMob from '../images/doubleMob.png';
 import { NavLink } from "react-router-dom";
-import arrow1 from '../images/arrow1.png'
+import arrow1 from '../images/arrow1.png';
+import process from '../images/process.jpg';
+import unlock from '../images/unlock.png';
+import unlock1 from '../images/unlock1.png';
+import unlock2 from '../images/unlock2.png';
+import unlock3 from '../images/unlock3.png';
+import unlock4 from '../images/unlock4.png';
 import {
   Accordion,
   AccordionItem,
@@ -23,6 +26,7 @@ import {
 import ContactForm from "./common/ContactForm";
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import MobCard from "./Cards/MobCard";
+import Certified from "./common/Certified";
 
 const MobileApp = () => {
 
@@ -161,11 +165,72 @@ const MobileApp = () => {
           </div>
         </div>
 
+        <div className="unlock">
+          <h2>How Mobile Apps Unlock</h2>
+          <h2>Your Business Potential</h2>
+          <img src={process} alt="" />
+        </div>
+
+        <div className="why-choose">
+            <h2>Why choose our custom application</h2>
+            <h2>development service?</h2>
+            <div className="chose-card chose-card1 mt-10">
+                <div className="chose-box">
+                    <img src={unlock} alt="" />
+                    <div className="chose-head">
+                        <h3>Our Strong Talent Pool</h3>
+                        <p>
+                        We have a team of highly qualified and experienced app developers with deep domain knowledge in app development.
+                        </p>
+                    </div>
+                </div>
+                <div className="chose-box">
+                    <img src={unlock1} alt="" />
+                    <div className="chose-head">
+                        <h3>Collaborative Approach</h3>
+                        <p>
+                        We believe in a client-first approach & collaborative approach & creative discussions while focusing on understanding client requirements.
+                        </p>
+                    </div>
+                </div>
+                <div className="chose-box">
+                    <img src={unlock2} alt="" />
+                    <div className="chose-head">
+                        <h3>Project Analysis, Planning <br /> & Strategy</h3>
+                        <p>
+                        Our experienced team carefully studies all the project details before development & provides a full status report at all times during the development process.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div className="chose-card mt-5">
+                <div className="chose-box">
+                    <img src={unlock3} alt="" />
+                    <div className="chose-head">
+                        <h3>Robust Architecture & <br /> Monitoring</h3>
+                        <p>
+                        We have a team of highly qualified and experienced app developers with deep domain knowledge in app development.
+                        </p>
+                    </div>
+                </div>
+                <div className="chose-box">
+                    <img src={unlock4} alt="" />
+                    <div className="chose-head">
+                        <h3>Rich Features</h3>
+                        <p>
+                        Apart from an excellent UI, our developers make powerful and feature-rich apps to trigger your business productivity manifold.
+                        </p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
         <div className="mob-app1">
           <div className="mob-app11">
             <div className="mob-app111">
-              <h1>How Our Custom Developed Apps</h1>
-              <h1>Helped These Companies</h1>
+              <h1>explore our portfolio</h1>
+              <p className="custom">View Our Custom Online EcommerceSolutions And Get Amazed</p>
             </div>
             <div className="mob-app112">
               <Splide aria-label="Our Services" options={{
@@ -182,6 +247,8 @@ const MobileApp = () => {
             </div>
           </div>
         </div>
+
+        <Certified/>
 
         <div className="home9 mb-12 home278">
           <div className="home91 flex px-24">

@@ -1998,16 +1998,18 @@ form button {
 }
 
 .help-business {
-  background-color: #F3F3F3;
+  background-color: #f7f7f7;
   padding: 50px 100px;
 }
 
 .help-business h3 {
   color: #010C1E;
-  font-weight: 600;
-  font-size: 26px;
+  font-weight: 700;
+  font-size: 36px;
   text-align: center;
   margin-bottom: 65px;
+  font-style: normal;
+  font-family: 'Value Sans Medium' !important;
 }
 
 .business-card {
@@ -2205,10 +2207,14 @@ form button {
   background: white;
   border-radius: 50%;
 }
+.business-card-img img{
+  width: 30px;
+}
 .business-box h5{
   margin-bottom: 13px;
   font-weight: 700;
-  font-size: 19.5px;
+  font-size: 21px;
+  font-family: 'Value Sans Medium' !important;
 }
 .business-box p{
   font-size: 19.5px;
@@ -2228,12 +2234,130 @@ form button {
 .business-box:hover img{
   filter: invert(1);
 }
-
+.unlock{
+  background-color: #ffffff;
+  padding: 50px 100px;
+}
+.unlock h2{
+  color: #010C1E;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+  text-align: center;
+  line-height: 46px;
+}
+.unlock img{
+  max-width: 1200px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+.why-choose{
+  padding: 60px 100px;
+  background-color: #F7F7F7;
+}
+.why-choose h2{
+  font-size: 36px;
+  color: #010C1E;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+  text-align: center;
+  line-height: 46px;
+}
+.chose-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chose-box{
+  max-width: 420px;
+  width: 100%;
+  height: 480px;
+  max-height: 100%;
+  margin: 0px 8px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.chose-box:hover {
+  background-color: #3C83CB;
+}
+.chose-box:hover .chose-head h3,
+.chose-box:hover .chose-head p{
+  color: #FFFFFF;
+}
+.chose-box img{
+  max-width: 420px;
+  width: 100%;
+}
+.chose-head{
+  text-align: center;
+  padding: 20px;
+}
+.chose-head h3{
+  font-size: 23px;
+  font-family: 'Value Sans Medium';
+  font-weight: 700;
+  color: #010C1E;
+  line-height: 30px;
+  text-align: center;
+}
+.chose-head p{
+  font-size: 19.5px;
+  color: #010C1E;
+  font-weight: 400;
+  opacity: .95;
+  line-height: 28px;
+  margin-top: 5px;
+  text-align: center;
+  width: 100%;
+}
+.custom{
+  font-size: 28px;
+  color: #010C1E;
+  font-weight: 400;
+}
+.certified{
+  padding: 65px 100px;
+  position: relative;
+  z-index: 2;
+}
+.certified h2{
+  color: #000000;
+  font-family: 'Value Sans Medium' !important;
+  font-size: 42px;
+  text-align: center;
+}
+.certified::before{
+  background-color: #D9D9D9;
+  opacity: 0.3;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
 /* ================mobile-app css end===================== */
 
 @media screen and (max-width: 1300px) {
   .navbar {
     padding: 12px 60px;
+  }
+  .why-choose{
+    padding: 60px 64px;
+  }
+  .unlock{
+    padding: 50px 64px;
+  }
+  .unified{
+    padding: 60px 64px;
+  }
+  .customize{
+    padding: 50px 64px;
   }
 .form-filed1 textarea{
   width: auto;
@@ -2444,6 +2568,17 @@ form button {
   .header {
     padding: 12px 30px;
   }
+  .why-choose h2{
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .unlock h2{
+    font-size: 30px;
+  }
+  .unified-heading,
+  .unified-heading1{
+    font-size: 30px;
+  }
   .form-filed1 textarea{
     width: 100%;
   }
@@ -2475,7 +2610,9 @@ form button {
   .help-business h3 {
     font-size: 25px;
   }
-
+.customize h2{
+  font-size: 30px;
+}
   .navbar ul li p {
     font-size: 13px;
   }
@@ -3031,6 +3168,18 @@ form button {
 @media screen and (max-width: 900px) {
   .desk-nav {
     display: none;
+  }
+  .why-choose{
+    padding: 60px 40px;
+  }
+  .unlock{
+    padding: 50px 40px;
+  }
+  .unified{
+    padding: 60px 40px;
+  }
+  .customize{
+    padding: 50px 40px;
   }
   .serji .fitor{
     margin-top: 0px;
@@ -4023,8 +4172,65 @@ form button {
   .header {
     width: 240vw;
   }
+  .why-choose h2{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .why-choose{
+    padding: 50px 20px;
+  }
+  .chose-box{
+    height: 400px;
+  }
+  .chose-head h3{
+    font-size: 20px;
+  }
+  .chose-head p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .unlock{
+    padding: 50px 20px;
+  }
+  .unlock h2{
+    font-size: 25px;
+    line-height: 34px;
+  }
+  .unified{
+    padding: 40px 20px;
+  }
+  .unified-heading,
+  .unified-heading1{
+    font-size: 25px;
+  }
+  .customize{
+    padding: 50px 20px;
+  }
+  .customize h2{
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .customized-card1{
+    margin-top: 30px !important;
+  }
+  .customized-box{
+    height: auto;
+    /* height: 500px; */
+  }
   .deivery-date .ensure{
     font-size: 14px;
+  }
+  .custo-head h3{
+    line-height: 26px;
+    font-size: 20px;
+  }
+  .custo-head p{
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .custo-head{
+    padding: 10px 10px;
   }
   .looking p{
     font-size: 14px;
@@ -4787,6 +4993,30 @@ form button {
 
   .testi-sec {
     margin-top: 10px;
+  }
+  .chose-card{
+    flex-wrap: wrap;
+    margin-top: 0px;
+  }
+  .chose-box{
+    margin: 10px 0px;
+  }
+  .chose-card1{
+    margin-top: 30px !important;
+  }
+}
+@media only screen and (max-width:750px){
+  .customized-card{
+    flex-wrap: wrap;
+  }
+  .customized-card1{
+    margin-top: 30px !important;
+  }
+  .customized-box{
+    margin: 10px 0px;
+  }
+  .customized-card{
+    margin-top: 0px;
   }
 }
 @media only screen and (max-width:1250px){

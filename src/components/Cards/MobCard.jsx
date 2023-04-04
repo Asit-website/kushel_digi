@@ -12,7 +12,7 @@ const MobCard = () => {
                     <p className="mt-3 mb-9 dara">We have a wide variety of certified partners and a
                         customer-centric team to manage your projects
                         end-to-end.</p>
-                    <NavLink to="/" className="mob-a">Read More</NavLink>
+                    <NavLink to="/" className="mob-a">VIEW CASE STUDY</NavLink>
                 </div>
                 <div className="mob-app111212">
                     <img src="/static/images/b5.png" alt="" />
