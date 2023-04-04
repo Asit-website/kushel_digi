@@ -6,11 +6,13 @@ import kotlinjs from "../images/kotlinjs.png";
 import java from "../images/java.png";
 import python from "../images/python.png";
 import app from "../images/app.png";
-import thir from "../images/thir.png";
-import delivery from "../images/delivery.png";
 import appdev from "../images/appdev.png";
 import webm from "../images/webm.png";
 import webdev1 from "../images/webdev1.png";
+import tripleMob from '../images/tripleMob.png';
+import doubleMob from '../images/doubleMob.png';
+import { NavLink } from "react-router-dom";
+import arrow1 from '../images/arrow1.png'
 import {
   Accordion,
   AccordionItem,
@@ -32,11 +34,12 @@ const MobileApp = () => {
             <div className="ser111">
               <h1 className="">Services</h1>
               <h1 className="blue">Mobile App Development</h1>
-              <p className="ac">Accelerate your business with an app</p>
+              <p className="ac">Mobile app development agency focused on designing the best <br />
+experience for your users</p>
               <p>Faster | Better | Easier</p>
             </div>
-            <div className="ser112">
-              <img src="/static/images/b4.png" alt="" />
+            <div className="ser112 fitor">
+              <img src={tripleMob} alt="tripleMob" />
             </div>
           </div>
         </div>
@@ -72,32 +75,27 @@ const MobileApp = () => {
         </div>
         <div className="mobile-app">
           <img className="app" src={app} alt="app" />
-          <h2>Why choose us?</h2>
+          {/* <h2>Why choose us?</h2>
           <p className="part mt-1">
             We have a wide variety of certified partners and a customer-centric
-          </p>
-          <p className="part">team to manage your projects end-to-end.</p>
+          </p> */}
+          {/* <p className="part">team to manage your projects end-to-end.</p> */}
           <div className="deliver">
+
             <div className="first-delivery">
-              <h3>Delivery Management</h3>
+              <h3>Top Custom App Development And <br /> Design Company</h3>
               <div className="deivery-date">
-                <div className="deliver-order">
-                  <img src={thir} alt="" />
-                  <p>Assurance of timely delivery</p>
-                </div>
-                <div className="deliver-order mt-2">
-                  <img src={thir} alt="" />
-                  <p>End - to end support</p>
-                </div>
-                <div className="deliver-order mt-2">
-                  <img src={thir} alt="" />
-                  <p>Choose what suits your needs.</p>
-                </div>
+                 <p className="ensure ensure1">
+                 Our dedicated App development professionals are known for cutting-edge technologies, most intuitive, native, and interactive apps. We believe in collaborative work to bring out the best innovative and advanced mobile apps. We deliver apps that are supported on modern platforms like android wearable, TV, or the web.
+                 </p>
               </div>
+              <NavLink to="/contact"><button className="com">
+                Contact Us <img className="tih" src={arrow1} alt="" />
+              </button></NavLink>
             </div>
             <div className="second-delivery">
               <div className="delivery-img">
-                <img src={delivery} alt="" />
+                <img src={doubleMob} alt="doubleMob" />
               </div>
             </div>
           </div>
