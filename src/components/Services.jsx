@@ -21,6 +21,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from 'react-accessible-accordion';
+import Certified from "./common/Certified";
 const Services = () => {
   return (
     <>
@@ -115,7 +116,7 @@ const Services = () => {
 
         <div className="customize">
            <h2>Customizing the platform of your choice to fit <br /> your goals</h2>
-           <div className="customized-card mt-10">
+           <div className="customized-card  customized-card1 mt-10">
               <div className="customized-box">
                   <img src={customized} alt="customized" />
                   <div className="custo-head">
@@ -184,7 +185,7 @@ const Services = () => {
             </button>
           </div>
         </div>
-
+        <Certified/>
         <div className="home9 mb-12 home278 home480 home481">
           <div className="home91 flex px-24">
             <div className="home911 text-center">
