@@ -35,7 +35,7 @@ const MobileApp = () => {
               <h1 className="">Services</h1>
               <h1 className="blue">Mobile App Development</h1>
               <p className="ac">Mobile app development agency focused on designing the best <br />
-experience for your users</p>
+                experience for your users</p>
               <p>Faster | Better | Easier</p>
             </div>
             <div className="ser112 fitor">
@@ -85,9 +85,9 @@ experience for your users</p>
             <div className="first-delivery">
               <h3>Top Custom App Development And <br /> Design Company</h3>
               <div className="deivery-date">
-                 <p className="ensure ensure1">
-                 Our dedicated App development professionals are known for cutting-edge technologies, most intuitive, native, and interactive apps. We believe in collaborative work to bring out the best innovative and advanced mobile apps. We deliver apps that are supported on modern platforms like android wearable, TV, or the web.
-                 </p>
+                <p className="ensure ensure1">
+                  Our dedicated App development professionals are known for cutting-edge technologies, most intuitive, native, and interactive apps. We believe in collaborative work to bring out the best innovative and advanced mobile apps. We deliver apps that are supported on modern platforms like android wearable, TV, or the web.
+                </p>
               </div>
               <NavLink to="/contact"><button className="com">
                 Contact Us <img className="tih" src={arrow1} alt="" />
@@ -101,55 +101,62 @@ experience for your users</p>
           </div>
         </div>
         <div className="help-business">
-          <h3>
-            We Help Businesses Around the Globe to Build, Manage, and Modernize
-          </h3>
-          <h3>
-            Custom Applications using the Latest Advances in Technology with our
-          </h3>
-          <h3>Industry-leading App Development Services</h3>
-          <h3 className="host"> We Help Businesses Around the Globe to Build, Manage, and Modernize Custom Applications using the Latest Advances in Technology with our Industry-leading App Development Services</h3>
-          <div className="business-card">
-            <div className="business-box">
-              <div className="business-set flex items-center">
-                <img className="appdev" src={appdev} alt="" />
-                <div>
-                  <p>Native App</p>
-                  <p>Development Services</p>
-                </div>
+          <h3 className="text-center">Our Custom App Development Services</h3>
+
+          <div className="business-card flex-wrap">
+            <div className="business-box relative text-center cursor-pointer">
+              <div className="business-card-img">
+                <img src="/static/images/c5.png" alt="" />
               </div>
-              <p className="develop">
-                Develop native web and mobile applications using custom
-                frameworks. Our engineering teams have delivered award winning
-                applications and have deep hands-on knowledge of popular open
-                source technology, such as react native.
-              </p>
+              <h5>Native App Development</h5>
+              <p>Our native app development services
+                include designing and developing native applications for iOS, Android and
+                wearables.</p>
             </div>
-            <div className="business-box">
-              <div className="business-set flex items-center">
-                <img className="webdev" src={webdev1} alt="" />
-                <div>
-                  <p>Progressive Web Application</p>
-                  <p>Development</p>
-                </div>
+            <div className="business-box relative text-center cursor-pointer">
+              <div className="business-card-img">
+                <img src="/static/images/c5.png" alt="" />
               </div>
-              <p className="develop">
-                A native app like experience, no matter what device you are
-                using. Built using an API ecosystem, PWAs deliver a standard
-                user experience on a singular codebase.
-              </p>
+              <h5>Web Application Development</h5>
+              <p>Our native app development services
+                include designing and developing native applications for iOS, Android and
+                wearables.</p>
             </div>
-            <div className="business-box">
-              <div className="business-set flex items-center">
-                <img className="webm" src={webm} alt="" />
-                <div>
-                  <p>Smart Web & Mobile </p>
-                  <p>Application Development</p>
-                </div>
+            <div className="business-box relative text-center cursor-pointer">
+              <div className="business-card-img">
+                <img src="/static/images/c6.png" alt="" />
               </div>
-              <p className="develop">
-                Cognitive, conversational, and contextual application development to provide a superior CX by integrating data-driven insights into the application ecosystem. Offer immersive experiences that include AR, VR, and Mixed Reality capabilities.
-              </p>
+              <h5>Blockchain App Development</h5>
+              <p>Our native app development services
+                include designing and developing native applications for iOS, Android and
+                wearables.</p>
+            </div>
+            <div className="business-box relative text-center cursor-pointer">
+              <div className="business-card-img">
+                <img src="/static/images/c5.png" alt="" />
+              </div>
+              <h5>Progressive Web App Development</h5>
+              <p>Our native app development services
+                include designing and developing native applications for iOS, Android and
+                wearables.</p>
+            </div>
+            <div className="business-box relative text-center cursor-pointer">
+              <div className="business-card-img">
+                <img src="/static/images/c7.png" alt="" />
+              </div>
+              <h5>Hybrid & Cross-Platform App Development</h5>
+              <p>Our native app development services
+                include designing and developing native applications for iOS, Android and
+                wearables.</p>
+            </div>
+            <div className="business-box relative text-center cursor-pointer">
+              <div className="business-card-img">
+                <img src="/static/images/c8.png" alt="" />
+              </div>
+              <h5>Flutter App Development</h5>
+              <p>Our native app development services
+                include designing and developing native applications for iOS, Android and
+                wearables.</p>
             </div>
           </div>
         </div>

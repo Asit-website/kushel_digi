@@ -2007,6 +2007,7 @@ form button {
   font-weight: 600;
   font-size: 26px;
   text-align: center;
+  margin-bottom: 65px;
 }
 
 .business-card {
@@ -2017,12 +2018,12 @@ form button {
 }
 
 .business-box {
-  max-width: 420px;
+  max-width: 26vw;
   width: 100%;
   margin: 0px 15px;
   background-color: #ffffff;
-  height: 350px;
-  padding: 30px 20px;
+  height: 100%;
+  padding: 50px 20px;
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 }
@@ -2186,6 +2187,46 @@ form button {
 .home-year12{
   width: 40rem;
   margin-left: 2rem;
+}
+
+.business-box{
+  margin-bottom: 45px;
+}
+.business-card-img{
+  position: absolute;
+  padding: 17px;
+  left: 0;
+  right: 0;
+  top: -39px;
+  width: fit-content;
+  border: 1px solid #3c84cb3a;
+  margin: auto;
+  z-index: 10;
+  background: white;
+  border-radius: 50%;
+}
+.business-box h5{
+  margin-bottom: 13px;
+  font-weight: 700;
+  font-size: 19.5px;
+}
+.business-box p{
+  font-size: 19.5px;
+  color: #404040;
+}
+.business-box:hover{
+  background-color: #3C83CB;
+  color: white;
+}
+.business-box:hover p{
+  color: white;
+}
+.business-box:hover .business-card-img{
+  background-color: #3C83CB;
+  border: 1px solid white;
+}
+.business-box:hover img{
+  filter: invert(1);
 }
 
 /* ================mobile-app css end===================== */
@@ -3614,6 +3655,9 @@ form button {
     margin-top: 2rem;
     margin-left: 0;
   }
+  .business-box{
+
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -3928,6 +3972,10 @@ form button {
   .home-year12 {
     width: 24rem;
     margin-top: 1rem;
+  }
+  .business-box {
+    max-width: unset !important;
+    margin-bottom: 65px;
   }
 }
 
@@ -4682,7 +4730,6 @@ form button {
 
 @media only screen and (max-width:1424px) {
   .business-box {
-    height: 400px;
     max-height: 100%;
   }
 }
@@ -4693,20 +4740,15 @@ form button {
 
 @media only screen and (max-width:1050px) {
   .help-business h3 {
-    display: none;
+    /* display: none; */
   }
 
   .help-business .host {
     display: block !important;
   }
 
-  .business-card {
-    flex-direction: column;
-  }
-
   .business-box {
-    margin: 10px 0px;
-    height: 300px;
+    max-width: 39vw;
   }
 }
 
