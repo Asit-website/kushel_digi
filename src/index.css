@@ -1504,7 +1504,7 @@ form button {
 .serji {
   background: url('./images/mobile.png') no-repeat center center/cover;
   background-blend-mode: darken;
-
+ /* height: 500px; */
 }
 .serji1{
   background: url('./images/website1.png') no-repeat center center/cover;
@@ -1522,8 +1522,11 @@ form button {
   width: 90px !important;
 }
 .serji img {
-  max-width: 450px;
+  max-width: 510px;
   width: 100%;
+}
+.serji .fitor{
+  margin-top: 100px;
 }
 .deivery-date .ensure{
   color: #404040;
@@ -1531,6 +1534,9 @@ form button {
   font-weight: 400;
   font-style: normal;
   width: 28em;
+}
+.deivery-date .ensure1{
+  width: 31.5em;
 }
 .mobile-app1 .app{
   max-width: 1150px !important;
@@ -1619,6 +1625,7 @@ form button {
 /* ========================Ecommerce solution css start==================== */
 .ecommerce-solution {
   padding: 50px 100px;
+  padding-top: 100px;
 }
 
 .ecommerce-solution .solution {
@@ -1630,9 +1637,98 @@ form button {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: 90px;
+  margin-top: 30px;
 }
-
+/* ==========unified css start============== */
+.unified{
+  background-color: #fafafa;
+  /* z-index: 2; */
+  position: relative;
+  padding: 60px 100px;
+}
+.unified::before{
+  content: "";
+  background-color: #fafafa;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.unified img{
+  max-width: 1050px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+.poty1{
+  background-color: #ffffff !important;
+  padding: 60px 0px;
+}
+.home481{
+  padding: 10px 0px !important;
+  padding-top: 65px !important;
+}
+.unified-heading{
+  text-align: center;
+  font-size: 37px;
+}
+.unified-heading1{
+  text-align: center;
+  font-size: 37px;
+  font-weight: 700;
+}
+.customize{
+  padding: 50px 100px;
+}
+.customize h2{
+  text-align: center;
+  color: #101010;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 42px;
+}
+.customized-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customized-box{
+  width: 100%;
+  max-width: 530px;
+  height: 550px;
+  max-height: 100%;
+  margin: 0px 8px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  /* background-color: red; */
+}
+.customized-box img{
+  width: 100%;
+  max-width: 540px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
+}
+.custo-head{
+  text-align: center;
+  padding: 10px 25px;
+}
+.custo-head h3{
+  color: #010C1E;
+  font-size: 23px;
+  font-weight: 700;
+}
+.custo-head p{
+  color: #010C1E;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 5px;
+  line-height: 25px;
+}
+/* =============unified css end================= */
 .second-ecom img {
   max-width: 550px;
   width: 100%;
@@ -1672,19 +1768,27 @@ form button {
   background-color: #3C83CB;
   color: #FFFFFF;
   font-size: 19px;
-  font-family: 'Value Sans Medium';
+  font-family: 'Value Sans Medium' ;
   margin-top: 40px;
 }
-
+.first-delivery .com{
+  width: 270px;
+  height: 70px;
+  background-color: #3C83CB;
+  color: #FFFFFF;
+  font-size: 19px;
+  font-family: 'Value Sans Medium' ;
+  margin-top: 40px;
+}
 .poty {
-  background-color: #F3F3F3 !important;
+  /* background-color: #F3F3F3 !important; */
 }
 
 .poty .view {
   color: #010C1E;
   font-size: 28px;
   font-weight: 500;
-  width: 42%;
+  width: 100%;
   font-family: 'Value Sans Medium' !important;
   line-height: 38px;
 }
@@ -1823,7 +1927,7 @@ form button {
 
 /* ===============mobile-app css start================== */
 .mobile-app {
-  padding: 50px 100px;
+  padding: 0px 100px;
   background-color: #ffffff;
 }
 
@@ -1832,6 +1936,7 @@ form button {
   width: 100%;
   display: block;
   margin: auto;
+  margin-top: 60px;
 }
 
 .mobile-app h2 {
@@ -1854,17 +1959,17 @@ form button {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 50px;
 }
 .delivery1{
   margin-top: 50px !important;
 }
 
 .first-delivery h3 {
-  font-size: 35px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 700;
   color: #010C1E;
-  opacity: .9;
+  font-family: 'Value Sans Medium' !important;
 }
 
 .deliver-order {
@@ -2885,6 +2990,9 @@ form button {
 @media screen and (max-width: 900px) {
   .desk-nav {
     display: none;
+  }
+  .serji .fitor{
+    margin-top: 0px;
   }
   .looking p{
     font-size: 16px;

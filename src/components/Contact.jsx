@@ -49,17 +49,10 @@ const Contact = () => {
               <input className="inp" type="email" placeholder="Email*" />
             </div>
             <div className="input-group input-group1">
-              <input type="text" placeholder="Website*" />
-              <input className="inp" type="text" placeholder="Designation*" />
+              <input type="text" placeholder="Phone*" />
+              <input className="inp" type="text" placeholder="Estimated Budget*" />
             </div>
-            <div className="input-group input-group1">
-              <input type="email" placeholder="Email Address*" />
-              <input className="inp" type="text" placeholder="Location*" />
-            </div>
-            <div className="input-group input-group1">
-              <input type="text" placeholder="Estimated Budget*" />
-              <input className="inp" type="text" placeholder="phone" />
-            </div>
+            
             <div className="input-group input-group1">
               <textarea
                 placeholder="please describe what you need"
