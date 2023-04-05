@@ -560,7 +560,7 @@ form button {
   font-weight: 400;
   font-size: 20px;
   margin-left: 15px;
-  text-transform: lowercase;
+  text-transform: lowercase !important;
 }
 
 .third-footer img {
@@ -2347,6 +2347,9 @@ form button {
   .navbar {
     padding: 12px 60px;
   }
+  .certified{
+    padding: 65px 64px;
+  }
   .why-choose{
     padding: 60px 64px;
   }
@@ -2567,6 +2570,9 @@ form button {
 @media screen and (max-width: 1100px) {
   .header {
     padding: 12px 30px;
+  }
+  .certified h2{
+    font-size: 35px;
   }
   .why-choose h2{
     font-size: 30px;
@@ -3168,6 +3174,12 @@ form button {
 @media screen and (max-width: 900px) {
   .desk-nav {
     display: none;
+  }
+  .certified h2{
+    font-size: 30px;
+  }
+  .certified{
+    padding: 65px 40px;
   }
   .why-choose{
     padding: 60px 40px;
@@ -4171,6 +4183,13 @@ form button {
 @media screen and (max-width: 450px) {
   .header {
     width: 240vw;
+  }
+  .certified{
+    padding: 60px 20px;
+  }
+  
+  .certified h2{
+    font-size: 25px;
   }
   .why-choose h2{
     font-size: 25px;

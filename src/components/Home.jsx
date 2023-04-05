@@ -6,6 +6,7 @@ import ServiceCard from './Cards/ServiceCard';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import about from '../images/about.png';
 import '@splidejs/react-splide/css';
+
 import {
   Accordion,
   AccordionItem,
