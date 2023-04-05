@@ -922,7 +922,7 @@ form button {
 
 .splide__pagination {
   left: auto !important;
-  bottom: -2.5em !important;
+  bottom: -3em !important;
   right: 6em !important;
 }
 
@@ -2583,6 +2583,9 @@ form button {
   .header {
     padding: 12px 30px;
   }
+  .splide__pagination{
+    bottom: -2.5em !important;
+  }
   .certified h2{
     font-size: 35px;
   }
@@ -3186,6 +3189,9 @@ form button {
 @media screen and (max-width: 900px) {
   .desk-nav {
     display: none;
+  }
+  .splide__pagination{
+    bottom: -2.5em !important;
   }
   .certified h2{
     font-size: 30px;
@@ -5039,6 +5045,9 @@ form button {
 @media only screen and (max-width:750px){
   .customized-card{
     flex-wrap: wrap;
+  }
+  .splide__pagination{
+    bottom: -2.5em !important;
   }
   .customized-card1{
     margin-top: 30px !important;
