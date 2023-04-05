@@ -131,114 +131,116 @@ const Home = () => {
 
   const [perPage, setPerPage] = useState(3);
   const [perPage1, setPerPage1] = useState(5);
+  const [perPage2, setPerPage2] = useState(6);
 
   useEffect(() => {
     if (window.matchMedia("(max-width: 750px)").matches) {
       setPerPage(1);
       setPerPage1(1);
+      setPerPage2(1);
     }
   }, []);
 
-  const [tab,setTab] = useState(1);
+  const [tab, setTab] = useState(1);
 
-  const  tabAnother = (e) =>{
+  const tabAnother = (e) => {
     e.preventDefault();
     setTab(1);
-    document.getElementById("one").style.background="#3C83CB";
-    document.getElementById("two").style.background="none";
-    document.getElementById("three").style.background="none";
-    document.getElementById("fourth").style.background="none";
+    document.getElementById("one").style.background = "#3C83CB";
+    document.getElementById("two").style.background = "none";
+    document.getElementById("three").style.background = "none";
+    document.getElementById("fourth").style.background = "none";
 
-    document.getElementById("one").style.padding="5px 22px";
-    document.getElementById("two").style.padding="0px 0px";
-    document.getElementById("three").style.padding="0px 0px";
-    document.getElementById("fourth").style.padding="0px 0px";
+    document.getElementById("one").style.padding = "5px 22px";
+    document.getElementById("two").style.padding = "0px 0px";
+    document.getElementById("three").style.padding = "0px 0px";
+    document.getElementById("fourth").style.padding = "0px 0px";
 
-    document.getElementById("one").style.color="#ffffff";
-    document.getElementById("two").style.color="#000000";
-    document.getElementById("three").style.color="#000000";
-    document.getElementById("fourth").style.color="#000000";
+    document.getElementById("one").style.color = "#ffffff";
+    document.getElementById("two").style.color = "#000000";
+    document.getElementById("three").style.color = "#000000";
+    document.getElementById("fourth").style.color = "#000000";
 
-    document.getElementById("one").style.borderRadius="20px";
-    document.getElementById("two").style.borderRadius="0px";
-    document.getElementById("three").style.borderRadius="0px";
-    document.getElementById("fourth").style.borderRadius="0px";
+    document.getElementById("one").style.borderRadius = "20px";
+    document.getElementById("two").style.borderRadius = "0px";
+    document.getElementById("three").style.borderRadius = "0px";
+    document.getElementById("fourth").style.borderRadius = "0px";
   }
 
-  const tabAnother1 = (e) =>{
+  const tabAnother1 = (e) => {
     e.preventDefault();
     setTab(2);
-    document.getElementById("one").style.background="none";
-    document.getElementById("two").style.background="#3C83CB";
-    document.getElementById("three").style.background="none";
-    document.getElementById("fourth").style.background="none";
+    document.getElementById("one").style.background = "none";
+    document.getElementById("two").style.background = "#3C83CB";
+    document.getElementById("three").style.background = "none";
+    document.getElementById("fourth").style.background = "none";
 
-    document.getElementById("one").style.padding="0px 0px";
-    document.getElementById("two").style.padding="5px 22px";
-    document.getElementById("three").style.padding="0px 0px";
-    document.getElementById("fourth").style.padding="0px 0px";
+    document.getElementById("one").style.padding = "0px 0px";
+    document.getElementById("two").style.padding = "5px 22px";
+    document.getElementById("three").style.padding = "0px 0px";
+    document.getElementById("fourth").style.padding = "0px 0px";
 
-    document.getElementById("one").style.color="#000000";
-    document.getElementById("two").style.color="#ffffff";
-    document.getElementById("three").style.color="#000000";
-    document.getElementById("fourth").style.color="#000000";
+    document.getElementById("one").style.color = "#000000";
+    document.getElementById("two").style.color = "#ffffff";
+    document.getElementById("three").style.color = "#000000";
+    document.getElementById("fourth").style.color = "#000000";
 
-    document.getElementById("one").style.borderRadius="0px";
-    document.getElementById("two").style.borderRadius="20px";
-    document.getElementById("three").style.borderRadius="0px";
-    document.getElementById("fourth").style.borderRadius="0px";
+    document.getElementById("one").style.borderRadius = "0px";
+    document.getElementById("two").style.borderRadius = "20px";
+    document.getElementById("three").style.borderRadius = "0px";
+    document.getElementById("fourth").style.borderRadius = "0px";
 
-   
+
   }
 
-  const tabAnother2 = (e) =>{
+  const tabAnother2 = (e) => {
     e.preventDefault();
     setTab(3);
 
-    document.getElementById("one").style.background="none";
-    document.getElementById("two").style.background="none";
-    document.getElementById("three").style.background="#3C83CB";
-    document.getElementById("fourth").style.background="none";
+    document.getElementById("one").style.background = "none";
+    document.getElementById("two").style.background = "none";
+    document.getElementById("three").style.background = "#3C83CB";
+    document.getElementById("fourth").style.background = "none";
 
-    document.getElementById("one").style.padding="0px 0px";
-    document.getElementById("two").style.padding="0px 0px";
-    document.getElementById("three").style.padding="5px 22px";
-    document.getElementById("fourth").style.padding="0px 0px";
+    document.getElementById("one").style.padding = "0px 0px";
+    document.getElementById("two").style.padding = "0px 0px";
+    document.getElementById("three").style.padding = "5px 22px";
+    document.getElementById("fourth").style.padding = "0px 0px";
 
-    document.getElementById("one").style.color="#000000";
-    document.getElementById("two").style.color="#000000";
-    document.getElementById("three").style.color="#ffffff";
-    document.getElementById("fourth").style.color="#000000";
+    document.getElementById("one").style.color = "#000000";
+    document.getElementById("two").style.color = "#000000";
+    document.getElementById("three").style.color = "#ffffff";
+    document.getElementById("fourth").style.color = "#000000";
 
-    document.getElementById("one").style.borderRadius="0px";
-    document.getElementById("two").style.borderRadius="0px";
-    document.getElementById("three").style.borderRadius="20px";
-    document.getElementById("fourth").style.borderRadius="0px";
+    document.getElementById("one").style.borderRadius = "0px";
+    document.getElementById("two").style.borderRadius = "0px";
+    document.getElementById("three").style.borderRadius = "20px";
+    document.getElementById("fourth").style.borderRadius = "0px";
   }
 
-  const tabAnother3 = (e) =>{
+  const tabAnother3 = (e) => {
     e.preventDefault();
     setTab(4);
 
-    document.getElementById("one").style.background="none";
-    document.getElementById("two").style.background="none";
-    document.getElementById("three").style.background="none";
-    document.getElementById("fourth").style.background="#3C83CB";
+    document.getElementById("one").style.background = "none";
+    document.getElementById("two").style.background = "none";
+    document.getElementById("three").style.background = "none";
+    document.getElementById("fourth").style.background = "#3C83CB";
 
-    document.getElementById("one").style.padding="0px 0px";
-    document.getElementById("two").style.padding="0px 0px";
-    document.getElementById("three").style.padding="0px 0px";
-    document.getElementById("fourth").style.padding="5px 22px";
+    document.getElementById("one").style.padding = "0px 0px";
+    document.getElementById("two").style.padding = "0px 0px";
+    document.getElementById("three").style.padding = "0px 0px";
+    document.getElementById("fourth").style.padding = "5px 22px";
 
-    document.getElementById("one").style.color="#000000";
-    document.getElementById("two").style.color="#000000";
-    document.getElementById("three").style.color="#000000";
-    document.getElementById("fourth").style.color="#ffffff";
+    document.getElementById("one").style.color = "#000000";
+    document.getElementById("two").style.color = "#000000";
+    document.getElementById("three").style.color = "#000000";
+    document.getElementById("fourth").style.color = "#ffffff";
 
-    document.getElementById("one").style.borderRadius="0px";
-    document.getElementById("two").style.borderRadius="0px";
-    document.getElementById("three").style.borderRadius="0px";
-    document.getElementById("fourth").style.borderRadius="20px";
+    document.getElementById("one").style.borderRadius = "0px";
+    document.getElementById("two").style.borderRadius = "0px";
+    document.getElementById("three").style.borderRadius = "0px";
+    document.getElementById("fourth").style.borderRadius = "20px";
   }
 
   return (
@@ -276,7 +278,7 @@ const Home = () => {
               <h5 className='text-blue-500 mt-16'>Who are we?</h5>
               <h3 className='mb-2'>We are your digital partner for innovative design and reliable Web, Mobile, and Marketing  solutions.</h3>
               <p className='mb-3'>The top-notch and preeminent Web and Mobile App Development Company of India with its global presence in USA, Mind Inventory is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to developing highly intriguing apps that strictly meet the business requirements and catering a wide spectrum of projects.</p>
-             <NavLink to="/contact"> <button className='btn btn1'>
+              <NavLink to="/contact"> <button className='btn btn1'>
                 <span className='mr-2'>Contact Us</span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
                   <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
@@ -301,7 +303,7 @@ const Home = () => {
                 perPage,
                 perMove: 1
               }} >
-              <SplideSlide>
+                <SplideSlide>
                   <ServiceCard app1={ui} dev={dev6} a={figma1}
                     b={adobe1} c={sketch} d={adobe2} e={adobe3}
                     android={figma} apple={xd} fluter={sketch1} react={illustrator} kotlin={Photoshop}
@@ -310,13 +312,13 @@ const Home = () => {
                 <SplideSlide>
                   <ServiceCard dev={dev4} dev1={dev5} app1={kart}
                     android={Big} apple={shopify} react={Magento} fluter={woo} kotlin={laravel}
-                    a={big} b={shop} c={commerce} d={mag} e ={laravel1}
+                    a={big} b={shop} c={commerce} d={mag} e={laravel1}
                   />
                 </SplideSlide>
                 <SplideSlide>
                   <ServiceCard app1={web} dev={dev2} dev1={dev3}
                     android={php} apple={laravel} react={re1} fluter={wordpress} kotlin={re}
-                    a={php1} b={laravel1} c={wordpress1} d={node1} e ={"React js"}
+                    a={php1} b={laravel1} c={wordpress1} d={node1} e={"React js"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -461,7 +463,7 @@ const Home = () => {
             </div>
           </div>
           <button className="home-btns">
-             Lets Together <img width={13} height={13} className='inline ml-1' src={arrow} alt="arrow"/>
+            Lets Together <img width={13} height={13} className='inline ml-1' src={arrow} alt="arrow" />
           </button>
         </div>
 
@@ -483,54 +485,54 @@ const Home = () => {
             {
               tab === 1 && (
                 <div className="home512 flex flex-wrap justify-center mt-12">
-              <PortCard heading={heading} pads={a9} />
-              <PortCard heading={heading1} pads={pads} />
-              <PortCard heading={heading2} pads={bds} />
-              <PortCard heading={heading3} pads={jones} />
-              <PortCard heading={heading4} pads={major} />
-              <PortCard heading={heading5} pads={solenoid} />
-            </div>
+                  <PortCard heading={heading} pads={a9} />
+                  <PortCard heading={heading1} pads={pads} />
+                  <PortCard heading={heading2} pads={bds} />
+                  <PortCard heading={heading3} pads={jones} />
+                  <PortCard heading={heading4} pads={major} />
+                  <PortCard heading={heading5} pads={solenoid} />
+                </div>
               )
             }
 
             {
               tab === 2 && (
                 <div className="home512 flex flex-wrap justify-center mt-12">
-              <PortCard heading={heading} pads={a9} />
-              <PortCard heading={heading1} pads={pads} />
-              {/* <PortCard heading={heading2} pads={bds} />
+                  <PortCard heading={heading} pads={a9} />
+                  <PortCard heading={heading1} pads={pads} />
+                  {/* <PortCard heading={heading2} pads={bds} />
               <PortCard heading={heading3} pads={jones} />
               <PortCard heading={heading4} pads={major} />
               <PortCard heading={heading5} pads={solenoid} /> */}
-            </div>
+                </div>
               )
             }
 
             {
               tab === 3 && (
                 <div className="home512 flex flex-wrap justify-center mt-12">
-              {/* <PortCard heading={heading} pads={a9} />
+                  {/* <PortCard heading={heading} pads={a9} />
               <PortCard heading={heading1} pads={pads} /> */}
-              <PortCard heading={heading2} pads={bds} />
-              <PortCard heading={heading3} pads={jones} />
-              {/* <PortCard heading={heading4} pads={major} />
+                  <PortCard heading={heading2} pads={bds} />
+                  <PortCard heading={heading3} pads={jones} />
+                  {/* <PortCard heading={heading4} pads={major} />
               <PortCard heading={heading5} pads={solenoid} /> */}
-            </div>
+                </div>
               )
             }
-           
-           {
-            tab === 4 && (
-              <div className="home512 flex flex-wrap justify-center mt-12">
-              {/* <PortCard heading={heading} pads={a9} />
+
+            {
+              tab === 4 && (
+                <div className="home512 flex flex-wrap justify-center mt-12">
+                  {/* <PortCard heading={heading} pads={a9} />
               <PortCard heading={heading1} pads={pads} />
               <PortCard heading={heading2} pads={bds} />
               <PortCard heading={heading3} pads={jones} /> */}
-              <PortCard heading={heading4} pads={major} />
-              <PortCard heading={heading5} pads={solenoid} />
-            </div>
-            )
-           }
+                  <PortCard heading={heading4} pads={major} />
+                  <PortCard heading={heading5} pads={solenoid} />
+                </div>
+              )
+            }
           </div>
           <div className="home52 w-full text-center">
             <button className='btn btn1 m-auto btn3'>
@@ -588,12 +590,52 @@ const Home = () => {
           <h2 className='text-center'>Our esteemed clients</h2>
           <p className='text-center'>Pleasure to work with</p>
           <div className='home8-img px-4'>
-            <img className='chetri' src="/static/images/a15.png" alt="" />
-            <img className='chetri1' src="/static/images/a17.png" alt="" />
-            <img className='chetri2' src="/static/images/a16.png" alt="" />
-            <img className='chetri' src="/static/images/a15.png" alt="" />
-            <img className='chetri1' src="/static/images/a17.png" alt="" />
-            <img className='chetri2' src="/static/images/a16.png" alt="" />
+            <Splide options={{
+              perPage: perPage2,
+              autoplay:true,
+              pauseOnHover: true,
+              type: 'loop',
+              interval: 1000,
+              drag: true,
+              perMove:1
+            }}>
+              <SplideSlide>
+                <img className='chetri' src="/static/images/a15.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri1' src="/static/images/a17.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri2' src="/static/images/a16.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri' src="/static/images/a15.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri1' src="/static/images/a17.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri2' src="/static/images/a16.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri' src="/static/images/a15.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri1' src="/static/images/a17.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri2' src="/static/images/a16.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri' src="/static/images/a15.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri1' src="/static/images/a17.png" alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                <img className='chetri2' src="/static/images/a16.png" alt="" />
+              </SplideSlide>
+            </Splide>
           </div>
         </div>
 
@@ -724,7 +766,7 @@ const Home = () => {
         <div className="testimonials">
           <div className="first-testimonials">
             <h3 className='tas'>testimonials</h3>
-            <h2 className='happy'>oUR HAPPY CLIENT SAY</h2>
+            <h2 className='happy'>OUR HAPPY CLIENT SAY</h2>
             <div className='testi-sec'>
               <h2>4.7<span>/5</span></h2>
               <div className='star flex items-center'>
@@ -805,8 +847,8 @@ const Home = () => {
           <div className="home-year1 flex items-center">
             <div className="home-year11">
               <h1>Over <span>5 Years</span> of</h1>
-                <h1> Experience in the Online </h1>
-                <h1>Design Industry</h1>
+              <h1> Experience in the Online </h1>
+              <h1>Design Industry</h1>
             </div>
             <div className="home-year12 flex items-center justify-center flex-wrap">
               <div className="home-year121">
