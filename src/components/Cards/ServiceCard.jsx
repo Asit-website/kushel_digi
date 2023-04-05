@@ -4,6 +4,7 @@ const ServiceCard = (props) => {
     return (
         <>
             <div className="serviceCard p-5 bg-white mx-2">
+            {/* <p style={{top:"-10px",zIndex:"100"}} className=' absolute'>hi</p> */}
                 <div className="s-card h-full relative">
                     <div className="s-card0">
                         <div className="s-card1 s-card11 flex items-center mb-6">

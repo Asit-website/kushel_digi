@@ -4,9 +4,7 @@ import PortCard from './Cards/PortCard';
 import { SplideTrack } from '@splidejs/react-splide';
 import ServiceCard from './Cards/ServiceCard';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import about from '../images/about.png';
 import '@splidejs/react-splide/css';
-
 import {
   Accordion,
   AccordionItem,
@@ -25,7 +23,6 @@ import app1 from '../images/app1.png'
 import web from '../images/web.png';
 import php from '../images/php.png';
 import wordpress from '../images/wordpress.png'
-import drupal from '../images/drupal.png'
 import laravel from '../images/laravel.png'
 import kart from '../images/kart.png'
 import Big from '../images/Big.png';
@@ -45,11 +42,9 @@ import jones from '../images/jones.png'
 import major from '../images/major.png'
 import solenoid from '../images/solenoid.png'
 import a9 from '../images/a9.png'
-import mesr from '../images/mesr.jpg';
-import girl from '../images/girl.png'
+import ladki1 from '../images/ladki1.png'
 import star from '../images/star.png';
 import star1 from '../images/star1.png';
-// import eli from '../images/eli.png';
 import finch from '../images/finch.png';
 import pay1 from '../images/pay1.png';
 import pay2 from '../images/pay2.png';
@@ -73,6 +68,7 @@ import box16 from '../images/box16.png';
 import re from '../images/re.png';
 import re1 from '../images/re1.png'
 import arrow from '../images/arrow.png'
+import vica from '../images/vica.png';
 import { NavLink } from 'react-router-dom';
 const Home = () => {
   let dev = "App"
@@ -265,7 +261,7 @@ const Home = () => {
               </div>
             </div>
             <div className="home112">
-              <img src={girl} alt="" />
+              <img src={ladki1} alt="ladki1" />
             </div>
           </div>
         </div>
@@ -351,8 +347,12 @@ const Home = () => {
               <Splide aria-label="Our Services" options={{
                 perPage: perPage1,
                 perMove: 1,
-                loop: true,
-                autoplay: true
+                // loop: true,
+                autoplay: true,
+                pauseOnHover: true,
+              type: 'loop',
+              interval: 800,
+              drag: true,
               }} >
                 <SplideSlide>
                   {/* <div className="home4121">
@@ -593,9 +593,9 @@ const Home = () => {
             <Splide options={{
               perPage: perPage2,
               autoplay:true,
-              pauseOnHover: true,
+              // pauseOnHover: true,
               type: 'loop',
-              interval: 1000,
+              interval: 800,
               drag: true,
               perMove:1
             }}>
