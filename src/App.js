@@ -8,6 +8,10 @@ import StafArgu from "./components/StafArgu";
 import Services from "./components/Services";
 import MobileApp from "./components/MobileApp";
 import WebsiteDev from "./components/WebsiteDev";
+import Privacy from "./components/Privacy";
+import Refund from "./components/Refund";
+import Quality from "./components/Quality";
+import Nda from "./components/Nda";
 
 function App() {
   return (
@@ -21,6 +25,11 @@ function App() {
            <Route path="/service" element={<Services/>}/>
            <Route path="/mobileApp" element={<MobileApp/>}/>
            <Route path="/website" element={<WebsiteDev/>}/>
+
+           <Route path="/privacy" element={<Privacy/>}/>
+           <Route path="/refund" element={<Refund/>}/>
+           <Route path="/quality" element={<Quality/>}/>
+           <Route path="/nda" element={<Nda/>}/>
         </Routes>
         <Footer />
       </Router>
