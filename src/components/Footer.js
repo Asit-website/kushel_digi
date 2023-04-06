@@ -9,6 +9,7 @@ import insta from '../images/insta.png';
 import link from '../images/link.png';
 import pint from '../images/pint.png';
 import twiter from '../images/twiter.png';
+import {NavLink} from 'react-router-dom'
 const Footer = () => {
   return (
     <>
@@ -35,11 +36,11 @@ const Footer = () => {
              <div className="first-lower">
                <p className='atthe'>© 2023 Kusheldigi. All rights reserved.</p>
                <div className='information'>
-                  <p>About Us <span>|</span></p>
-                  <p className='ins'>Insights  <span>|</span></p>
+                 <NavLink to="/nda"><p>About Us <span>|</span></p></NavLink>
+                 <NavLink to="/refund"><p className='ins'>Insights  <span>|</span></p></NavLink> 
                   <p className='ins'>Blog  <span>|</span></p>
-                  <p className='ins'> Privacy Policy  <span>|</span></p>
-                  <p className='ins'>Sitemap</p>
+                 <NavLink to="/privacy"><p className='ins'> Privacy Policy  <span>|</span></p></NavLink>
+                 <NavLink to="/quality"><p className='ins'>Sitemap</p></NavLink>
                </div>
              </div>
              <div className="second-lower">

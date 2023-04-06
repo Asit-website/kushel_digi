@@ -11,7 +11,11 @@
 
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap'); */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&family=Questrial&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&family=Questrial&family=Roboto:wght@400;500&display=swap');
 
 .header {
   background-color: #3C83CB;
@@ -2084,9 +2088,6 @@ form button {
   font-family: 'Value Sans Bold' !important;
 }
 
-.mob-app111211 {
-  /* width: 50%; */
-}
 
 .mob-app111211 .sara {
   font-size: 19.5px;
@@ -2102,9 +2103,7 @@ form button {
   width: 26em;
 }
 
-.mob-app111212 {
-  /* width: 50%; */
-}
+
 
 .mob-app111212 img {
   max-width: 430px;
@@ -2354,6 +2353,335 @@ form button {
   display: none;
 }
 /* ================mobile-app css end===================== */
+
+/* ============privacy policy css start================= */
+.privacy-back {
+  background-image: url("./images/privacy.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding: 0 100px; */
+  position: relative;
+  z-index: 2;
+}
+.privacy-back::before{
+  content: "";
+  background-color: #244F7A;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.privacy-sect{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+.privacy-sect h2{
+  color: #ffffff;
+  font-size: 50px;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.privacy-section{
+  padding: 90px 100px;
+}
+.privacy-heading h3{
+  color: #202020;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+}
+.privacy-heading p{
+  color: #202020;
+  /* font-family: 'Value Sans Medium' !important; */
+  font-size: 20px;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif !important;
+}
+.privacy-heading span{
+  color: #202020;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif !important;
+}
+.ul-sect{
+  margin-top: 75px;
+}
+.privacy-heading ul{
+  list-style: disc;
+  margin-left: 35px;
+}
+.privacy-heading ul li{
+  font-size: 20px;
+  color: #202020;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+  line-height: 32px;
+  margin: 15px 0px;
+  font-family: 'Roboto', sans-serif !important;
+}
+.propose-head{
+  margin-top: 85px;
+}
+.propose-head h3{
+  color: #202020;
+  font-family: 'Value Sans Medium' !important;
+  font-size: 36px;
+  text-transform: capitalize;
+  line-height: 48px;
+  margin-left: 0px;
+}
+.propose-head ul{
+  list-style-type: disc;
+  margin-left: 35px;
+}
+.propose-head ul li{
+  font-size: 20px;
+  color: #202020;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+  line-height: 32px;
+  margin: 15px 0px;
+  font-family: 'Roboto', sans-serif !important;
+}
+.propose-head p{
+  color: #202020;
+  font-size: 20px;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+  line-height: 32px;
+  margin-top: 70px;
+  font-family: 'Roboto', sans-serif !important;
+}
+.propose-head span{
+  color: #202020;
+  font-weight: 600;
+}
+/* ====================privacy policy css end=================== */
+
+/* ==============refund css start====================== */
+.refund-back{
+  background-image: url("./images/privacy.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding: 0 100px; */
+  position: relative;
+  z-index: 2;
+}
+.refund-back::before{
+  content: "";
+  background-color: #244F7A;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.refund-sect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.refund-sect h2{
+  color: #ffffff;
+  font-size: 50px;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.refund-section{
+  padding: 90px 100px;
+  margin-bottom: 50px;
+}
+.refund-section h3{
+  color: #202020;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+  text-transform: capitalize;
+}
+.refund-section p{
+  color: #202020;
+  font-size: 20px;
+  font-weight: 400 ;
+  text-transform: capitalize;
+  line-height: 33px;
+  font-family: 'Roboto', sans-serif !important;
+  /* opacity: 0.9; */
+}
+/* ===================refund css end===================== */
+
+/* =================quality policy css start==================== */
+ .quality-back{
+  background-image: url("./images/privacy.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding: 0 100px; */
+  position: relative;
+  z-index: 2;
+ }
+ .quality-back::before{
+  content: "";
+  background-color: #244F7A;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+ }
+ .quality-sect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+ }
+ .quality-sect h2{
+  color: #ffffff;
+  font-size: 50px;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+ }
+ .quality-section{
+  padding: 100px 0px;
+  /* padding-bottom: 120px; */
+ }
+ .qaulity-header{
+  padding: 0px 100px;
+ }
+ .quality-section h2{
+  font-size: 36px;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 700;
+  color: #202020;
+  line-height: 50px;
+ }
+ .quality-section p{
+  color: #202020;
+  font-size: 20px;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif !important;
+ }
+ .hr-quality{
+   border-bottom: 1px solid #000000;
+   width: 100%;
+    margin-top: 40px;
+   opacity: .2;
+ }
+ .quality-header1{
+  margin-top: 45px;
+ }
+ .stretch{
+  padding: 0px 100px;
+  margin-top: 65px;
+ }
+ .strict{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+ }
+ .strict h2{
+  font-size: 36px;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 700;
+  color: #202020;
+ }
+ .strict p{
+  color: #202020;
+  font-size: 20px;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif !important;
+  margin-top: 12px;
+ }
+ .first-strict{
+  margin-right: 50px;
+  width: 45em;
+  max-width: 100%;
+ }
+ .second-strict{
+  margin-left: 50px;
+  width: 65em;
+  max-width: 100%;
+ }
+ .strict1{
+  margin-top: 70px;
+ }
+/* ====================quality policy css end===================== */
+
+/* ==================nda css start============================ */
+.nda-back{
+  background-image: url("./images/privacy.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 35vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* padding: 0 100px; */
+  position: relative;
+  z-index: 2;
+}
+.nda-back::before{
+  content: "";
+  background-color: #244F7A;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.nda-sect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.nda-sect h2{
+  color: #ffffff;
+  font-size: 50px;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* letter-spacing: 1px; */
+  text-align: center;
+}
+/* ========================nda css end=============================== */
 
 @media screen and (max-width: 1300px) {
   .navbar {
