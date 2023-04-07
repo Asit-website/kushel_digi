@@ -21,7 +21,8 @@ const Footer = () => {
   };
 
   const toggleCont = () => {
-    document.querySelector('.sh').classList.toggle('hidden');
+    console.log('yes');
+    document.querySelector('.shf').classList.toggle('hidden');
   };
 
   return (
@@ -99,32 +100,35 @@ const Footer = () => {
                     <p className='ml-2 text-white text-lg united'>India</p>
                   </div> : null}
                 </div>
-
                 <div className='ml-1.5'>
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" className="text-white bi bi-chevron-down" viewBox="0 0 16 16">
                     <path fillRule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
                   </svg>
                 </div>
-
-                <div className="sh fixed hidden">
-                  <div onClick={() => {
-                    shFunc(1);
-                    toggleCont();
-                  }} className={`flex items-center cursor-pointer py-1.5 my-1.5 px-2 sh1 sh2 ${cont === 1 ? 'sh-active' : ''}`}>
-                    <img src="/static/images/c1.png" alt="" />
-                    <p className='ml-2 text-white text-lg united'>United States</p>
-                  </div>
-                  <div onClick={() => {
-                    shFunc(2);
-                    toggleCont();
-                  }} className={`flex items-center cursor-pointer py-1.5 my-1.5 px-2 sh1 sh2 ${cont === 2 ? 'sh-active' : ''}`}>
-                    <img src={india} alt="" />
-                    <p className='ml-2 text-white text-lg united'>India</p>
-                  </div>
+              </div>
+              
+              <div className="shf relative hidden">
+                <div onClick={() => {
+                  shFunc(1);
+                  toggleCont();
+                }} className={`flex items-center cursor-pointer py-1.5 my-1.5 px-2 sh1 sh2 ${cont === 1 ? 'sh-active' : ''}`}>
+                  <img src="/static/images/c1.png" alt="" />
+                  <p className='ml-2 text-white text-lg united'>United States</p>
+                </div>
+                <div onClick={() => {
+                  shFunc(2);
+                  toggleCont();
+                }} className={`flex items-center cursor-pointer py-1.5 my-1.5 px-2 sh1 sh2 ${cont === 2 ? 'sh-active' : ''}`}>
+                  <img src={india} alt="" />
+                  <p className='ml-2 text-white text-lg united'>India</p>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="foot2">
+          <p className="text-center text-white py-5 font-semibold italic">© 2023 Kusheldigi. All rights reserved.</p>
         </div>
       </footer>
     </>

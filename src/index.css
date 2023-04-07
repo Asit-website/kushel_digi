@@ -528,7 +528,6 @@ form button {
   background-image: url('./images/footer.png');
   width: 100%;
   height: 100%;
-  padding: 80px 100px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2903,7 +2902,7 @@ form button {
 }
 .foot11{
   width: 20%;
-  margin-right: 40px;
+  margin-right: 30px;
 }
 .foot15{
   margin-right: 0;
@@ -2939,16 +2938,36 @@ form button {
   width: 25%;
 }
 .foot15{
-  width: 15%;
+  width: 18%;
 }
 .foot-second-header img{
   width: 40px;
+}
+.shf img{
+  width: 40px;
+}
+.shf p{
+  margin-bottom: 0px;
 }
 .foot-second-header p{
   margin-bottom: 0;
 }
 .help-business .host {
   display: none;
+}
+.shf{
+  z-index: 9999;
+}
+.foot2{
+  border-top: 1px solid rgba(255, 255, 255, 0.466);
+}
+.foot1{
+  padding: 80px 100px;
+  padding-bottom: 60px;
+}
+.home8-img img{
+  /* width: auto !important; */
+  margin: 0;
 }
 
 /* ========================nda css end=============================== */
@@ -3079,8 +3098,9 @@ form button {
     width: 60%;
   }
 
-  .foot {
+  .foot1 {
     padding: 70px 64px;
+    padding-bottom: 50px;
   }
 
   .testimonials {
@@ -3742,8 +3762,9 @@ form button {
     font-size: 30px;
   }
 
-  .foot {
+  .foot1 {
     padding: 70px 25px;
+    padding-bottom: 60px;
   }
 
   .first-footer img {
@@ -5064,6 +5085,7 @@ form button {
     text-align: center;
   }
   .foot10{
+    text-align: center;
     margin: auto;
     width: fit-content;
   }
@@ -5079,8 +5101,17 @@ form button {
   .foot13 h5{
     display: none;
   }
-  .foot13 a{
-    margin-right: 71px;
+  .foot140{
+    justify-content: center;
+  }
+  .second-header{
+    justify-content: center;
+  }
+  .foot151{
+    justify-content: center;
+  }
+  .foot151 img{
+    margin: 10px;
   }
 }
 .phone-header{
