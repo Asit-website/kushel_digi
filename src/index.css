@@ -1685,7 +1685,12 @@ form button {
   height: 100%;
   width: 100%;
 }
-
+.foot2 .proms{
+  font-family: 'Prompt', sans-serif !important;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
 .unified img {
   max-width: 1050px;
   width: 100%;
@@ -2909,6 +2914,9 @@ form button {
 }
 .foot13 .foot10{
   margin-top: 49px;
+}
+.footsa{
+  margin-top: -25px !important;
 }
 .foot140 img{
   width: 27px;
@@ -5172,6 +5180,16 @@ form button {
   .header {
     width: 240vw;
   }
+  .foot2 .proms{
+    font-size: 14px;
+  }
+  .footsa{
+    margin-top: 0px !important;
+  }
+  .foot111 h4{
+    text-align: center;
+    font-size: 16px;
+  }
   .refund-sect h2{
     font-size: 30px;
   }
@@ -5378,7 +5396,9 @@ form button {
   .delivery1 {
     margin-top: 30px !important;
   }
-
+  .read-sec{
+    text-align: center;
+  }
   .read-sec p {
     font-size: 16px;
   }
@@ -5665,7 +5685,7 @@ form button {
   }
 
   .foot {
-    padding: 70px 8px;
+    padding: 0px 8px;
   }
 
   .footer {
@@ -6025,7 +6045,7 @@ form button {
   .home-year11 {
     width: 100%;
   }
-
+  
   .home-year1 {
     padding: 2rem 1rem;
   }
