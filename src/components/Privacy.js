@@ -9,7 +9,6 @@ const Privacy = () => {
                  <h2>privacy policy</h2>
             </div>
         </div>
-
           <div className="privacy-section">
               <div className="privacy-heading">
                  <h3>Privacy Policy</h3>
@@ -36,6 +35,7 @@ const Privacy = () => {
                   <h3>The main purpose of collecting of your information to provide our services to</h3>
                   <h3> you. Moreover, we may use this information for a few of all of these following</h3>
                   <h3>purposes:</h3>
+                  <h3 className='phone-header'>The main purpose of collecting of your information to provide our services to you. Moreover, we may use this information for a few of all of these following purposes:</h3>
                   <ul className='ul-sect'>
                     <li>
                     To provide you with information about the services you requested about from us.
