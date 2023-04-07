@@ -30,7 +30,7 @@ const Footer = () => {
       <footer className='foot'>
         <div className="foot1 flex justify-between">
           <div className="foot11 foot111">
-            <div className="foot10">
+            <div className="foot10 footsa">
               <img src={'/static/images/c9.png'} alt="" />
               <h4 className='text-start'>Revolutionising your <br /> business
                 through Technology.</h4>
@@ -128,7 +128,7 @@ const Footer = () => {
         </div>
 
         <div className="foot2">
-          <p className="text-center text-white py-5 font-semibold italic">© 2023 Kusheldigi. All rights reserved.</p>
+          <p className="text-center text-white py-5 font-semibold italic proms">© 2023 Kusheldigi. All rights reserved.</p>
         </div>
       </footer>
     </>
