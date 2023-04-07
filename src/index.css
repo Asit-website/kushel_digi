@@ -2533,6 +2533,7 @@ form button {
   text-transform: capitalize;
   line-height: 48px;
   margin-left: 0px;
+  /* display: block; */
 }
 
 .propose-head ul {
@@ -2710,7 +2711,9 @@ form button {
   margin-top: 40px;
   opacity: .2;
 }
-
+.hr-quality1{
+  margin-top: 35px;
+}
 .quality-header1 {
   margin-top: 45px;
 }
@@ -2804,12 +2807,70 @@ form button {
   /* letter-spacing: 1px; */
   text-align: center;
 }
+.nda-section{
+  padding: 100px 0px;
+}
+.nda-header2{
+  margin-top: 90px;
+}
+.nda-header{
+  padding: 0px 100px;
+}
+.nda-header h2{
+  font-size: 36px;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 700;
+  color: #202020;
+}
+.nda-header p{
+  color: #202020;
+  font-size: 20px;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif !important;
+}
+.nda-another{
+  margin-top: 25px;
+}
+.nda-para .er{
+  line-height: 32px;
+}
+.nda-header1{
+  margin-top: 40px;
+}
+.nda-ul{
+  list-style-type: disc;
+  margin-top: 30px;
+  margin-left: 35px;
+}
+.nda-ul1{
+  margin-top: 55px;
+}
+.nda-ul li{
+  color: #202020;
+  font-size: 20px;
+  font-weight: 400 !important;
+  text-transform: capitalize;
+  line-height: 32px;
+  font-family: 'Roboto', sans-serif !important;
+  margin: 20px 0px;
+}
+.hr-quality2{
+  margin-top: 55px;
+}
 
 .foot111 img{
   margin-bottom: 20px;
+  max-width: 205px;
+  width: 100%;
 }
 .foot1 p{
-  color: wheat;
+  /* color: wheat; */
+  color: #FFFFFF;
+}
+.find_us{
+  font-size: 15px !important;
 }
 .foot1 a{
   color: white;
@@ -2821,16 +2882,24 @@ form button {
   color: white;
 }
 .foot111 h4{
-  font-size: 20px;
+  font-size: 19.5px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400 !important;
+  color: #ffffff;
+  text-transform: capitalize;
 }
 .foot11 h5{
   font-size: 17px;
   font-weight: bold;
   margin-bottom: 18px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 700 !important;
 }
 .foot11 p, .foot11 a{
   font-size: 14px;
   margin-bottom: 12px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400 !important;
 }
 .foot11{
   width: 20%;
@@ -2843,15 +2912,15 @@ form button {
   margin-top: 49px;
 }
 .foot140 img{
-  width: 30px;
-  height: 30px;
+  width: 27px;
+  height: 27px;
   margin-right: 14px;
 }
 .foot140 p{
   margin-bottom: 0;
 }
 .foot140{
-  margin-bottom: 10px;
+  margin-bottom: 22px;
 }
 .foot151 img{
  margin-right: 15px;
@@ -2894,7 +2963,18 @@ form button {
   .navbar {
     padding: 12px 60px;
   }
-
+  .refund-section{
+    padding: 90px 64px;
+  }
+  .qaulity-header{
+    padding: 0px 64px;
+  }
+  .nda-header{
+    padding: 0px 64px;
+  }
+  .stretch{
+    padding: 0px 64px;
+  }
   .certified {
     padding: 65px 64px;
   }
@@ -3119,6 +3199,9 @@ form button {
   .mobile-app {
     padding: 50px 64px;
   }
+  .privacy-section{
+    padding: 90px 64px;
+  }
 }
 
 @media only screen and (max-width:1250px) {
@@ -3156,7 +3239,18 @@ form button {
   .header {
     padding: 12px 30px;
   }
-
+ .refund-sect h2{
+  font-size: 40px;
+  text-align: center;
+ }
+ .quality-sect h2{
+  font-size: 40px;
+  text-align: center;
+ }
+ .nda-sect h2{
+  font-size: 40px;
+  text-align: center;
+ }
   .splide__pagination {
     bottom: -2.5em !important;
   }
@@ -3777,6 +3871,10 @@ form button {
     width: 30rem;
     margin-left: 2rem;
   }
+  .privacy-sect h2{
+    text-align: center;
+    font-size: 40px;
+  }
 }
 
 @media only screen and (max-width:1050px) {
@@ -3848,7 +3946,88 @@ form button {
   .desk-nav {
     display: none;
   }
-
+  .refund-section{
+    padding: 90px 40px;
+  }
+  .refund-section h3{
+    font-size: 30px;
+  }
+  .refund-section p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .privacy-section{
+    padding: 90px 40px;
+  }
+  .privacy-heading h3{
+    font-size: 30px;
+  }
+  .privacy-heading p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .privacy-heading ul li{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .propose-head h3{
+    font-size: 30px;
+    line-height: 42px;
+  }
+  .propose-head ul li{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .propose-head p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .qaulity-header{
+    padding: 0px 40px;
+  }
+  .quality-section h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .quality-section p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .stretch{
+    padding: 0px 40px;
+  }
+  .strict{
+    flex-direction: column;
+  }
+  .first-strict{
+    width: 100%;
+    margin-right: 0px;
+  }
+  .second-strict{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .strict1{
+    margin-top: 50px;
+  }
+  .nda-header{
+    padding: 0px 40px;
+  }
+  .nda-header h2{
+    font-size: 30px;
+  }
+  .nda-header p{
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .nda-para .er{
+    line-height: 28px;
+  }
+  .nda-ul li{
+    font-size: 16px;
+    line-height: 26px;
+  }
   .splide__pagination {
     bottom: -2.5em !important;
   }
@@ -4904,12 +5083,25 @@ form button {
     margin-right: 71px;
   }
 }
-
+.phone-header{
+  display: none;
+}
 @media screen and (max-width: 520px) {
   .header {
     width: 190vw;
   }
-
+  .propose-head h3{
+    display: none;
+  }
+  .phone-header{
+    display: block !important;
+  }
+  .ul-sect{
+    margin-left: 25px !important;
+  }
+  .nda-ul{
+    margin-left: 25px ;
+  }
   .home211 img {
     width: 70%;
     height: 40px;
@@ -4949,7 +5141,115 @@ form button {
   .header {
     width: 240vw;
   }
-
+  .refund-sect h2{
+    font-size: 30px;
+  }
+  .refund-section{
+    padding: 60px 20px;
+    margin-bottom: 20px;
+  }
+  .refund-section h3{
+    font-size: 25px;
+  }
+  .refund-section p{
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .privacy-section{
+    padding: 60px 20px;
+  }
+ .privacy-sect h2{
+  text-align: center;
+  font-size: 30px;
+ }
+ .privacy-heading h3{
+  font-size: 25px;
+ }
+ .privacy-heading p{
+  font-size: 14px;
+  line-height: 24px;
+ }
+ .ul-sect{
+  margin-left: 15px !important;
+ }
+ .privacy-heading ul li{
+  font-size: 14px;
+  line-height: 23px;
+ }
+ .ul-sect{
+  margin-top: 50px;
+ }
+ .propose-head{
+  margin-top: 50px;
+ }
+ .propose-head h3{
+  font-size: 24px;
+  line-height: 30px;
+ }
+ .propose-head ul li{
+  font-size: 14px;
+  line-height: 23px;
+ }
+ .propose-head p{
+  margin-top: 45px;
+  font-size: 14px;
+  line-height: 24px;
+ }
+ .quality-section{
+  padding: 60px 0px;
+ }
+ .qaulity-header{
+  padding: 0px 20px;
+ }
+ .quality-section h2{
+  font-size: 25px;
+  line-height: 32px;
+ }
+ .quality-section p{
+  font-size: 14px;
+  line-height: 24px;
+ }
+ .stretch{
+  padding: 0px 20px;
+ }
+ .quality-sect h2{
+  font-size: 30px;
+ }
+ .nda-sect h2{
+  font-size: 30px;
+  text-align: center;
+ }
+ .nda-header h2{
+  font-size: 25px;
+  line-height: 34px;
+ }
+ .nda-header p{
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 10px;
+ }
+ .nda-section {
+    padding: 60px 0px;
+ }
+ .nda-para .er{
+  line-height: 24px;
+ }
+ .nda-ul{
+  margin-left: 15px;
+ }
+ .nda-ul li{
+   font-size: 14px;
+   line-height: 23px;
+ }
+ .nda-header{
+  padding: 0px 20px;
+ }
+ .nda-header2{
+  margin-top: 50px;
+ }
+ .nda-ul1{
+  margin-top: 30px;
+ }
   .certified {
     padding: 60px 20px;
   }

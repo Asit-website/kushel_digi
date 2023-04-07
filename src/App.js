@@ -12,6 +12,7 @@ import Privacy from "./components/Privacy";
 import Refund from "./components/Refund";
 import Quality from "./components/Quality";
 import Nda from "./components/Nda";
+import Terms from "./components/Terms";
 
 function App() {
   return (
@@ -30,8 +31,9 @@ function App() {
            <Route path="/refund" element={<Refund/>}/>
            <Route path="/quality" element={<Quality/>}/>
            <Route path="/nda" element={<Nda/>}/>
+           <Route path="/terms" element={<Terms/>}/>
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </>
   );

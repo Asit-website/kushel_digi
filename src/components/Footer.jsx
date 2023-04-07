@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="foot11 foot111">
             <div className="foot10">
               <img src={'/static/images/c9.png'} alt="" />
-              <h4 className='text-start'>Revolutionising your business
+              <h4 className='text-start'>Revolutionising your <br /> business
                 through Technology.</h4>
             </div>
           </div>
@@ -51,35 +51,35 @@ const Footer = () => {
 
           <div className="foot11 foot13">
             <h5></h5>
-            <div className="foot10 flex flex-col">
-              <NavLink to="/">Refund Policy</NavLink>
-              <NavLink to="/">Quality policy</NavLink>
-              <NavLink to="/">NDA Policy</NavLink>
-              <NavLink to="/">Privacy Policy</NavLink>
-              <NavLink to="/">Terms & Conditions</NavLink>
+            <div className="foot10 reji flex flex-col">
+              <NavLink to="/refund">Refund Policy</NavLink>
+              <NavLink to="/quality">Quality policy</NavLink>
+              <NavLink to="/nda">NDA Policy</NavLink>
+              <NavLink to="/privacy">Privacy Policy</NavLink>
+              <NavLink to="/terms">Terms & Conditions</NavLink>
             </div>
           </div>
 
           <div className="foot11 foot14">
             <h5>Find Us</h5>
             <div className="foot10">
-              <div className="flex foot140 items-center">
+              <div className="flex foot140 items-center mt-5">
                 <img src={footerLoc} alt="" />
                 <p>G-9, first Floor, Sector 63, Noida</p>
               </div>
               <div className="flex foot140 items-center">
-                <img src={footerCall} alt="" />
-                <p>Shubham@kusheldigi.com</p>
+                <img src={footerMail} alt="" />
+                <p>shubham@kusheldigi.com</p>
               </div>
               <div className="flex foot140 items-center">
-                <img src={footerMail} alt="" />
+                <img src={footerCall} alt="" />
                 <p>9045301702</p>
               </div>
             </div>
           </div>
 
           <div className="foot11 foot15">
-            <h5>Follow Us On</h5>
+            <h5 className='find_us'>Follow Us On</h5>
             <div className="foot10">
               <div className="foot151 flex items-center">
                 <img src={drible} alt="" />
