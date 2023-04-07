@@ -592,7 +592,7 @@ const Home = () => {
           <div className='home8-img px-4'>
             <Splide options={{
               perPage: perPage2,
-              autoplay:true,
+              // autoplay:true,
               // pauseOnHover: true,
               type: 'loop',
               interval: 800,

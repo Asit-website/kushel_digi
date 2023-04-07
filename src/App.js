@@ -33,7 +33,7 @@ function App() {
            <Route path="/nda" element={<Nda/>}/>
            <Route path="/terms" element={<Terms/>}/>
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );
