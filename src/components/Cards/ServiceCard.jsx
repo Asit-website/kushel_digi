@@ -23,11 +23,11 @@ const ServiceCard = (props) => {
                             <img width={27} height={27} src={props.fluter} alt="" />
                             <p className="ml-2">{props.c}</p>
                         </div>
-                        <div className="s-card1 flex items-center mb-3">
+                        <div className={`s-card1 flex items-center mb-3 ${props.class}`}>
                             <img width={27} height={27} src={props.react} alt="" />
                             <p className="ml-2">{props.d}</p>
                         </div>
-                        <div className="s-card1 flex items-center mb-3">
+                        <div className={`s-card1 flex items-center mb-3 ${props.class}`}>
                             <img width={27} height={27} src={props.kotlin} alt="" />
                             <p className="ml-2">{props.e}</p>
                         </div>

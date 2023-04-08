@@ -270,7 +270,10 @@ const Home = () => {
           <div className="home21 px-24 flex">
             <div className="home211 mr-14">
               {/* <h1 className='mb-0 font-bold'>ABOUT US</h1> */}
+              <marquee  behavior="scroll" direction="right" scrollamount="20">
               <img src={aboutji} alt="about" />
+            </marquee>
+              
               <h5 className='text-blue-500 mt-16'>Who are we?</h5>
               <h3 className='mb-2'>We are your digital partner for innovative design and reliable Web, Mobile, and Marketing  solutions.</h3>
               <p className='mb-3'>The top-notch and preeminent Web and Mobile App Development Company of India with its global presence in USA, Mind Inventory is first-rate choice of the clients worldwide. With sheer customer satisfaction in mind, we are profoundly dedicated to developing highly intriguing apps that strictly meet the business requirements and catering a wide spectrum of projects.</p>
@@ -326,7 +329,7 @@ const Home = () => {
                 <SplideSlide>
                   <ServiceCard app1={app1} dev={digital} dev1={digital1} a={seo}
                     b={seo1} c={seo2}
-                    android={pay1} apple={pay2} fluter={pay3}
+                    android={pay1} apple={pay2} fluter={pay3} class={"you"}
                   />
                 </SplideSlide>
                 {/* <SplideSlide>
@@ -470,7 +473,9 @@ const Home = () => {
         <div className="home5 pb-10 mb-12 bg-gray-100">
           <div className="home51 px-24">
             <div className="home511 text-center mb-8">
-              <img className='portfolio' src={portfolio} alt="portfolio" />
+            <marquee  behavior="scroll" direction="right" scrollamount="20">
+            <img className='portfolio' src={portfolio} alt="portfolio" />
+            </marquee>
               <h1 className='font-bold mb-2 mt-4'>OUR PORTFOLIO</h1>
               <p>We design project designed with passion on time,</p>
               <p>within budget of full value</p>
@@ -592,8 +597,8 @@ const Home = () => {
           <div className='home8-img px-4'>
             <Splide options={{
               perPage: perPage2,
-              // autoplay:true,
-              // pauseOnHover: true,
+              autoplay:true,
+              pauseOnHover: true,
               type: 'loop',
               interval: 800,
               drag: true,

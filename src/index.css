@@ -22,9 +22,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 100px;
+  padding: 10px 100px;
 }
-
+.you{
+  display: none !important;
+}
 .lorem {
   font-size: 23px;
   color: #404040;
@@ -150,6 +152,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 12px 100px;
+  position: relative;
+  top: 3px;
 }
 
 .navbar-text ul {
@@ -2979,13 +2983,23 @@ form button {
 }
 
 /* ========================nda css end=============================== */
+@media only screen and (max-width:1500px){
+  .home112{
+    width: auto;
+  }
+}
 
 @media only screen and (max-width:1424px) {
   .business-box {
     max-height: 100%;
   }
 }
-
+@media only screen and (max-width:1350px){
+  .home1112 ul{
+    width: 80%;
+    flex-wrap: wrap;
+  }
+}
 @media screen and (max-width: 1300px) {
   .navbar {
     padding: 12px 60px;
@@ -4198,7 +4212,7 @@ form button {
   }
 
   .home112 {
-    width: 50%;
+    width: 50% !important;
     margin-bottom: 2rem;
   }
 
@@ -4757,9 +4771,14 @@ form button {
 
 @media screen and (max-width: 650px) {
   .home112 {
-    width: 75%;
+    width: 75% !important;
   }
-
+  .home312 .splide__pagination{
+    display: none;
+  }
+ .home1112 ul{
+  width: 100% !important;
+ }
   .staff-sect P {
     width: 100% !important;
   }
@@ -5179,6 +5198,9 @@ form button {
 @media screen and (max-width: 450px) {
   .header {
     width: 240vw;
+  }
+  .flex-thing{
+    flex-direction: column;
   }
   .foot2 .proms{
     font-size: 14px;
@@ -6072,3 +6094,4 @@ form button {
     width: 19rem;
   }
 }
+

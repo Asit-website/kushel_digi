@@ -15,7 +15,9 @@ const Navbar = () => {
   const toggleMenu = () => {
     document.querySelector('.mob-nav2').classList.toggle('mob-nav2-active');
   };
-
+  const toggleMenu1 = () =>{
+    document.querySelector('.mob-nav2').classList.add('mob-nav2-active');
+  }
   const toggleService = () => {
     document.querySelector('.ser-nav').classList.toggle('hidden');
   };
@@ -24,7 +26,6 @@ const Navbar = () => {
     console.log('yes');
     document.querySelector('.ser-nav-mob').classList.toggle('hidden');
   };
-
   const shFunc = (index) => {
     setCont(index);
   };
@@ -42,10 +43,10 @@ const Navbar = () => {
               <img src={location} alt="location" />
               <p>g-9,first Floor, Sector 63, Noida  <span>|</span>  </p>
             </div>
-            <div className="email">
+           <a href="mailto:shubham@kusheldigi.com"><div className="email">
               <img src={mail} alt="mail" />
               <p>shubham@kusheldigi.com   <span>|</span> </p>
-            </div>
+            </div></a>
             <div className="phone">
               <img src={phone} alt="phone" />
               <p>9045301702</p>
@@ -172,7 +173,7 @@ const Navbar = () => {
                     <div className="ser-nav-mob hidden">
                       <div className="ser-nav1 flex flex-col">
                         <NavLink onClick={toggleService1} to="/service">Ecommerce Solutions</NavLink>
-                        <NavLink onClick={toggleService1} to="#">Website Design & Development</NavLink>
+                        <NavLink onClick={toggleService1} to="/website">Website Design & Development</NavLink>
                         <NavLink onClick={toggleService1} to="#">Web Application Development</NavLink>
                         <NavLink onClick={toggleService1} to="#">UI/UX Design</NavLink>
                         <NavLink onClick={toggleService1} to="/mobileApp">Mobile App Development</NavLink>

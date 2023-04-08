@@ -40,11 +40,11 @@ const Footer = () => {
           <div className="foot11 foot12">
             <h5>Quick Links</h5>
             <div className="foot10 flex flex-col">
-              <NavLink to="/">Ecommerce Solutions</NavLink>
-              <NavLink to="/">Website Design & Development</NavLink>
+              <NavLink to="/service">Ecommerce Solutions</NavLink>
+              <NavLink to="/website">Website Design & Development</NavLink>
               <NavLink to="/">Web Application Development</NavLink>
               <NavLink to="/">UI/UX Design</NavLink>
-              <NavLink to="/">Mobile App Development</NavLink>
+              <NavLink to="/mobileApp">Mobile App Development</NavLink>
               <NavLink to="/">Digital Marketing</NavLink>
               <NavLink to="/">Graphic Design</NavLink>
             </div>
@@ -68,10 +68,10 @@ const Footer = () => {
                 <img src={footerLoc} alt="" />
                 <p>G-9, first Floor, Sector 63, Noida</p>
               </div>
-              <div className="flex foot140 items-center">
+             <a href="mailto:shubham@kusheldigi.com"><div className="flex foot140 items-center">
                 <img src={footerMail} alt="" />
                 <p>shubham@kusheldigi.com</p>
-              </div>
+              </div></a>
               <div className="flex foot140 items-center">
                 <img src={footerCall} alt="" />
                 <p>9045301702</p>
