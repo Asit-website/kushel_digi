@@ -13,6 +13,8 @@ import Refund from "./components/Refund";
 import Quality from "./components/Quality";
 import Nda from "./components/Nda";
 import Terms from "./components/Terms";
+import OurPartner from "./components/OurPartner";
+import Playbook from "./components/Playbook";
 
 function App() {
   return (
@@ -32,6 +34,9 @@ function App() {
            <Route path="/quality" element={<Quality/>}/>
            <Route path="/nda" element={<Nda/>}/>
            <Route path="/terms" element={<Terms/>}/>
+
+           <Route path="/partner" element={<OurPartner/>}/>
+           <Route path="/playbook" element={<Playbook/>}/>
         </Routes>
         <Footer />
       </Router>

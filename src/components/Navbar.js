@@ -45,15 +45,15 @@ const Navbar = () => {
             </div>
            <a href="mailto:shubham@kusheldigi.com"><div className="email">
               <img src={mail} alt="mail" />
-              <p>shubham@kusheldigi.com   <span>|</span> </p>
+              <p>shubham@kusheldigi.com</p>
             </div></a>
-            <div className="phone">
+            {/* <div className="phone">
               <img src={phone} alt="phone" />
               <p>9045301702</p>
-            </div>
+            </div> */}
           </div>
           <div className='second-header flex items-center'>
-            <div className="second-header1">
+            {/* <div className="second-header1">
               {cont === 1 ? <div onClick={toggleCont} id="cont1" className="flex items-center cursor-pointer">
                 <img src="/static/images/c1.png" alt="" />
                 <p className='ml-2 text-white text-lg united'>United States</p>
@@ -84,7 +84,18 @@ const Navbar = () => {
                 <img src={india} alt="" />
                 <p className='ml-2 text-white text-lg united'>India</p>
               </div>
-            </div>
+            </div> */}
+            
+             <div className='flex items-center'>
+                <img src={india} alt="alt" />
+                <p className='ml-2'>+ 91 9045301702</p>
+             </div>
+
+             <div className='flex items-center ml-10'>
+             <img src="/static/images/c1.png" alt="alt" />
+                <p className='ml-2'>+ 1 (917)854 0688</p>
+             </div>
+
           </div>
         </header>
       </div>
