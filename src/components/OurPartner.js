@@ -22,14 +22,20 @@ import office1 from '../images/office1.png';
 import office2 from '../images/office2.png'
 import londa from '../images/londa.png';
 import arrow3 from '../images/arrow3.png';
+import HowItWorks1 from '../images/how-1.svg';
+import HowItWorks2 from '../images/how-2.svg';
+import HowItWorks3 from '../images/how-3.svg';
+import HowItWorks4 from '../images/how-4.svg';
+import HowItWorks5 from '../images/how-5.svg';
+
 import {
-    Accordion,
-    AccordionItem,
-    AccordionItemHeading,
-    AccordionItemButton,
-    AccordionItemPanel,
-  } from 'react-accessible-accordion';
-  import arrow1 from '../images/arrow1.png';
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from 'react-accessible-accordion';
+import arrow1 from '../images/arrow1.png';
 const OurPartner = () => {
   return (
     <>
@@ -311,6 +317,30 @@ const OurPartner = () => {
           </div>
         </div>
 
+        {/* How It Works Section Start*/}
+        <div className="howItWorks">
+          <h1>How It Works</h1>
+          <div className="howItWorks-text__top">
+            <p>Join the programme by clicking on the ‘Become a Partner’ button</p>
+            <p>Receive extensive resources - from marketing & product collaterals to training and certification.</p>
+            <p>Enjoy incremental rewards as you advance through different partner levels.</p>
+          </div>
+
+          <div className="howItWorks-icons">
+            <img src={HowItWorks5} alt="not found" />
+            <img src={HowItWorks2} alt="" />
+            <img src={HowItWorks3} alt="" />
+            <img src={HowItWorks4} alt="" />
+            <img src={HowItWorks1} alt="" />
+          </div>
+
+          <div className="howItWorks-text__bottom howItWorks-text__top">
+            <p>Hit the ground running with the help of our structured onboarding and orientation process.</p>
+            <p>Co-create value leveraging our ongoing engagement and support framework.</p>
+          </div>
+        </div>
+        {/* How It Works Section End*/}
+
         <div className="partnets-stories">
           <h3>PARTNERS STORIES</h3>
           <div className="partner-card">
@@ -325,7 +355,7 @@ const OurPartner = () => {
                   gallery.
                 </p>
 
-              <a href="">View Case Study</a>
+                <a href="">View Case Study</a>
               </div>
             </div>
             <div className="partner-box">
@@ -339,7 +369,7 @@ const OurPartner = () => {
                   gallery.
                 </p>
 
-              <a href="">View Case Study</a>
+                <a href="">View Case Study</a>
               </div>
             </div>
             <div className="partner-box">
@@ -353,40 +383,40 @@ const OurPartner = () => {
                   gallery.
                 </p>
 
-              <a href="">View Case Study</a>
+                <a href="">View Case Study</a>
               </div>
             </div>
           </div>
         </div>
 
         <div className="offices">
-            <h3>Our Offices</h3>
-            <div className="mt-2 picta">
+          <h3>Our Offices</h3>
+          <div className="mt-2 picta">
             <p>Kushel digi operates in multiple offices and development centers across the globe.</p>
             <p>Reach out to us for software development services in your region.</p>
-            </div>
-            <div className="office-img flex items-center justify-center">
-                <div className="office-image">
-                    {/* <img src={office1} alt="" /> */}
-                    <div className="office-image-sect">
-                         <h4>INDIA</h4>
-                         <div className="flex items-center">
-                            <img width={25} src={londa} alt="" />
-                            <p className="ml-3">g-9, first Floor, Sector 63, Noida</p>
-                         </div>
-                    </div>
+          </div>
+          <div className="office-img flex items-center justify-center">
+            <div className="office-image">
+              {/* <img src={office1} alt="" /> */}
+              <div className="office-image-sect">
+                <h4>INDIA</h4>
+                <div className="flex items-center">
+                  <img width={25} src={londa} alt="" />
+                  <p className="ml-3">g-9, first Floor, Sector 63, Noida</p>
                 </div>
-                <div className="office-image1">
-                    {/* <img src={office2} alt="" /> */}
-                    <div className="office-image-sect">
-                         <h4>INDIA</h4>
-                         <div className="flex items-center">
-                            <img width={25} src={londa} alt="" />
-                            <p className="ml-3">g-9, first Floor, Sector 63, Noida</p>
-                         </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div className="office-image1">
+              {/* <img src={office2} alt="" /> */}
+              <div className="office-image-sect">
+                <h4>INDIA</h4>
+                <div className="flex items-center">
+                  <img width={25} src={londa} alt="" />
+                  <p className="ml-3">g-9, first Floor, Sector 63, Noida</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="home9 mb-12 home278">
@@ -399,7 +429,7 @@ const OurPartner = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What Is The Eligibility Of Becoming Business Partner ?
+                      What Is The Eligibility Of Becoming Business Partner ?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -414,7 +444,7 @@ const OurPartner = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Is There Any Geography Restrictions ?
+                      Is There Any Geography Restrictions ?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -428,7 +458,7 @@ const OurPartner = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What Is The Working Hours ?
+                      What Is The Working Hours ?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -442,7 +472,7 @@ const OurPartner = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    How We Will Able To See Our Earnings
+                      How We Will Able To See Our Earnings
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -456,7 +486,7 @@ const OurPartner = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Is There Any Association Fees ?
+                      Is There Any Association Fees ?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -472,42 +502,42 @@ const OurPartner = () => {
           </div>
         </div>
         <div className='flex items-start justify-center discusion-form discusion-form1'>
-           <div className="w-full  mrs">
+          <div className="w-full  mrs">
             <h3>Let’s Discuss your Project</h3>
             <form action="">
-                <div className=" flex items-start common-form">
-                     <div className="first-form">  
-                         <div className="form-field">
-                            <input type="text" placeholder="Name*" />
-                         </div>
-                         <div className="form-field mt-5">
-                            <input type="text" placeholder="Phone number*" />
-                         </div>
-                         <div className="form-field mt-5">
-                            <input type="email" placeholder="Email Address*" />
-                         </div>
-                         <div>
-                  <button>Submit <img className="tih" src={arrow1} alt="" /></button>
-               </div>
-                     </div>
-                     <div className="second-form">
-                        <div className="form-filed1">
-                            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
-                        </div>
-                     </div>
+              <div className=" flex items-start common-form">
+                <div className="first-form">
+                  <div className="form-field">
+                    <input type="text" placeholder="Name*" />
+                  </div>
+                  <div className="form-field mt-5">
+                    <input type="text" placeholder="Phone number*" />
+                  </div>
+                  <div className="form-field mt-5">
+                    <input type="email" placeholder="Email Address*" />
+                  </div>
+                  <div>
+                    <button>Submit <img className="tih" src={arrow1} alt="" /></button>
+                  </div>
                 </div>
-               
+                <div className="second-form">
+                  <div className="form-filed1">
+                    <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                  </div>
+                </div>
+              </div>
+
             </form>
-        </div>
-        <div className='w-full   loofs'>
-           {/* <h3>How can we help?</h3>
+          </div>
+          <div className='w-full   loofs'>
+            {/* <h3>How can we help?</h3>
            <p>Are you looking for a reliable mobile application development company? Contact our expert team — we will help your business build a successful mobile strategy and create convenient omnichannel experience for all your customers and clients.</p>
            <button>Let’s Talk <img className="tih" src={arrow1} alt="" /></button> */}
-             <div className="loofs-sect">
-                  <h2>ENJOY WORKING WITH AN EXPERIENCED AND CREATIVE TEAM. LET’S TALK.</h2>
-                  <button>Want to join us <img  width={12} className="inline ml-1" src={arrow3} alt="arrow3" /></button>
-             </div>
-        </div>
+            <div className="loofs-sect">
+              <h2>ENJOY WORKING WITH AN EXPERIENCED AND CREATIVE TEAM. LET’S TALK.</h2>
+              <button>Want to join us <img width={12} className="inline ml-1" src={arrow3} alt="arrow3" /></button>
+            </div>
+          </div>
         </div>
       </div>
     </>
