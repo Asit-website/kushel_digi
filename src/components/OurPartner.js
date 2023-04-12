@@ -502,7 +502,11 @@ const OurPartner = () => {
           </div>
         </div>
         <div className='flex items-start justify-center discusion-form discusion-form1'>
+
+           <div className="w-full  mrs mrs1">
+
           <div className="w-full  mrs">
+
             <h3>Let’s Discuss your Project</h3>
             <form action="">
               <div className=" flex items-start common-form">
@@ -528,6 +532,15 @@ const OurPartner = () => {
               </div>
 
             </form>
+
+        </div>
+        <div className='w-full   loofs'>
+             <div className="loofs-sect">
+                  <h2>ENJOY WORKING WITH AN EXPERIENCED AND CREATIVE TEAM. LET’S TALK.</h2>
+                  <button>Want to join us <img  width={12} className="inline ml-1" src={arrow3} alt="arrow3" /></button>
+             </div>
+        </div>
+
           </div>
           <div className='w-full   loofs'>
             {/* <h3>How can we help?</h3>
@@ -538,6 +551,7 @@ const OurPartner = () => {
               <button>Want to join us <img width={12} className="inline ml-1" src={arrow3} alt="arrow3" /></button>
             </div>
           </div>
+
         </div>
       </div>
     </>
