@@ -159,7 +159,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 100px;
+  padding: 10px 100px;
   position: relative;
   top: 3px;
 }
@@ -2304,7 +2304,7 @@ form button {
   border: 1px solid white;
 }
 
-.business-box:hover img {
+.business-box:hover .business-card-img img {
   filter: invert(1);
 }
 
@@ -3452,9 +3452,6 @@ form button {
   background-color: #F2F2F2;
   padding: 60px;
 }
-.juy{
-  /* width: 40%; */
-}
 .juy p{
   width: 24em;
   font-size: 19.5px;
@@ -3544,6 +3541,162 @@ form button {
 .second-booksta img{
   width: 100%;
   max-width: 700px;
+}
+.developments{
+  padding: 60px 100px;
+  background-color: #FFFFFF;
+}
+.development{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.developments .dev1{
+  max-width: 1150px;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.development1 h3{
+  color: #202020;
+  font-size: 36px;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 700;
+  opacity: 0.9;
+  line-height: 48px;
+}
+.development1 .knowrs{
+  color:#404040 ;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
+  width: 29em;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.development1 .knowers1{
+  color: #404040;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+  width: 29em;
+  margin-top: 7px;
+  max-width: 100%;
+}
+.development2 img{
+  max-width: 650px;
+  width: 100%;
+}
+.how-we{
+  padding: 60px 100px;
+  background-color: #FFFFFF;
+}
+.step-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step-box{
+  width: 100%;
+  background-color: #F0F6FF;
+  margin: 0 12px;
+  margin-top: 80px;
+  max-width: 400px;
+  border-radius: 8px;
+  width: 100%;
+}
+.step-img{
+  background-color: #3C83CB;
+  width: 98px;
+  height: 98px;
+  position: relative;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  top: -50px;
+}
+.step-img img{
+  width: 42px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.how-we h3{
+  color: #010C1E;
+  font-size: 19.5px;
+  font-weight: 400;
+  text-align: center;
+}
+.how-we h1{
+  text-align: center;
+  color: #202020;
+  font-size: 36px;
+  opacity: 0.75;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 700;
+}
+.step-head{
+  padding: 20px;
+  margin-top: -36px;
+}
+.step-head h4{
+  text-align: center;
+  font-family: 'Value Sans Medium' !important;
+  font-size: 23px;
+  color: #404040;
+}
+.step-head p{
+  text-align: center;
+  color: #404040;
+  font-family: 'Value Sans Pro';
+  font-size: 15.5px;
+  margin-top: 10px;
+}
+.top-chose{
+  background-color: #F9F9F9;
+  padding: 50px 100px;
+}
+.top-chose h3{
+  text-align: center;
+  color: #202020;
+  opacity: 0.9;
+  font-family: 'Value Sans Medium' !important;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 700;
+}
+.top-chose .reason{
+  text-align: center;
+  color: #202020;
+  font-size: 19.5px;
+  font-weight: 500 !important;
+  font-family: 'Value Sans Medium' !important;
+  margin-top: 10px;
+}
+.bus-card-img1{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: absolute;
+ left: -370px;
+ border: 1px solid #cac9c9;
+}
+.bus-card-img1 img{
+  width: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.business-box3{
+  margin: 20px 30px !important;
+  box-shadow: none;
+  background-color: #ffffff;
+}
+.card-son{
+  margin-top: 60px;
 }
 /* =======================our partner css end========================== */
 @media only screen and (max-width:1500px){
