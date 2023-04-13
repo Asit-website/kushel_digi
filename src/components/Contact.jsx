@@ -50,7 +50,7 @@ const Contact = () => {
             </div>
             <div className="input-group input-group1">
               <input type="text" placeholder="Phone*" />
-              <input className="inp" type="text" placeholder="Estimated Budget*" />
+              <input className="inp" type="text" placeholder="Service Required*" />
             </div>
             
             <div className="input-group input-group1">
@@ -107,7 +107,7 @@ const Contact = () => {
             {
               tab === 2 && (
                 <div className="mpas">
-                  <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=kushel&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                  <iframe id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.3954123429044!2d77.3860107742401!3d28.617908984746908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce49f5d8cdc4b%3A0xedb207949cd07d2b!2sKushel%20Digi%20Solutions%20-%20Web%20Design%20Company%20Noida%2C%20Delhi%2C%20India!5e0!3m2!1sen!2sin!4v1681368789327!5m2!1sen!2sin" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
               )
             }
