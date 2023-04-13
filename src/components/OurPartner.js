@@ -321,9 +321,9 @@ const OurPartner = () => {
         <div className="howItWorks">
           <h1>How It Works</h1>
           <div className="howItWorks-text__top">
-            <p>Join the programme by clicking on the ‘Become a Partner’ button</p>
-            <p>Receive extensive resources - from marketing & product collaterals to training and certification.</p>
-            <p>Enjoy incremental rewards as you advance through different partner levels.</p>
+            <p>Join the programme by clicking <br /> on the ‘Become a Partner’<br />button</p>
+            <p>Receive extensive resources - from <br /> marketing & product collaterals to <br /> training and certification.</p>
+            <p>Enjoy incremental rewards as <br /> you advance through different <br /> partner levels.</p>
           </div>
 
           <div className="howItWorks-icons">
@@ -335,8 +335,8 @@ const OurPartner = () => {
           </div>
 
           <div className="howItWorks-text__bottom howItWorks-text__top">
-            <p>Hit the ground running with the help of our structured onboarding and orientation process.</p>
-            <p>Co-create value leveraging our ongoing engagement and support framework.</p>
+            <p>Hit the ground running with the <br /> help of our structured <br /> onboarding and orientation <br /> process.</p>
+            <p>Co-create value leveraging our <br /> ongoing engagement and <br /> support framework.</p>
           </div>
         </div>
         {/* How It Works Section End*/}
@@ -503,43 +503,43 @@ const OurPartner = () => {
         </div>
         <div className='flex items-start justify-center discusion-form discusion-form1'>
 
-           <div className="w-full  mrs mrs1">
+          <div className="w-full  mrs mrs1">
 
-          <div className="w-full  mrs">
+            <div className="w-full  mrs">
 
-            <h3>Let’s Discuss your Project</h3>
-            <form action="">
-              <div className=" flex items-start common-form">
-                <div className="first-form">
-                  <div className="form-field">
-                    <input type="text" placeholder="Name*" />
+              <h3>Let’s Discuss your Project</h3>
+              <form action="">
+                <div className=" flex items-start common-form">
+                  <div className="first-form">
+                    <div className="form-field">
+                      <input type="text" placeholder="Name*" />
+                    </div>
+                    <div className="form-field mt-5">
+                      <input type="text" placeholder="Phone number*" />
+                    </div>
+                    <div className="form-field mt-5">
+                      <input type="email" placeholder="Email Address*" />
+                    </div>
+                    <div>
+                      <button>Submit <img className="tih" src={arrow1} alt="" /></button>
+                    </div>
                   </div>
-                  <div className="form-field mt-5">
-                    <input type="text" placeholder="Phone number*" />
-                  </div>
-                  <div className="form-field mt-5">
-                    <input type="email" placeholder="Email Address*" />
-                  </div>
-                  <div>
-                    <button>Submit <img className="tih" src={arrow1} alt="" /></button>
+                  <div className="second-form">
+                    <div className="form-filed1">
+                      <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
                   </div>
                 </div>
-                <div className="second-form">
-                  <div className="form-filed1">
-                    <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
-                  </div>
-                </div>
+
+              </form>
+
+            </div>
+            <div className='w-full   loofs'>
+              <div className="loofs-sect">
+                <h2>ENJOY WORKING WITH AN EXPERIENCED AND CREATIVE TEAM. LET’S TALK.</h2>
+                <button>Want to join us <img width={12} className="inline ml-1" src={arrow3} alt="arrow3" /></button>
               </div>
-
-            </form>
-
-        </div>
-        <div className='w-full   loofs'>
-             <div className="loofs-sect">
-                  <h2>ENJOY WORKING WITH AN EXPERIENCED AND CREATIVE TEAM. LET’S TALK.</h2>
-                  <button>Want to join us <img  width={12} className="inline ml-1" src={arrow3} alt="arrow3" /></button>
-             </div>
-        </div>
+            </div>
 
           </div>
           <div className='w-full   loofs'>
