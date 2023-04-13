@@ -52,12 +52,11 @@ const Navbar = () => {
                 g-9,first Floor, Sector 63, Noida <span>|</span>{" "}
               </p>
             </div>
-            <a href="mailto:shubham@kusheldigi.com">
+            
               <div className="email">
                 <img src={mail} alt="mail" />
                 <p>shubham@kusheldigi.com</p>
               </div>
-            </a>
             {/* <div className="phone">
               <img src={phone} alt="phone" />
               <p>9045301702</p>
@@ -104,7 +103,7 @@ const Navbar = () => {
 
             <div className="flex items-center ml-10">
               <img src="/static/images/c1.png" alt="alt" />
-              <p className="ml-2">+ 1 (917)854 0688</p>
+              <p className="ml-2">+ 1 </p>
             </div>
           </div>
         </header>
@@ -145,7 +144,7 @@ const Navbar = () => {
                     <p className="sar" to="">
                     about us
                     </p>
-                    <svg
+                    {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="15"
                       height="15"
@@ -157,7 +156,7 @@ const Navbar = () => {
                         fillRule="evenodd"
                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
                       />
-                    </svg>
+                    </svg> */}
                   </div>
                   <div className="ser-nav10 hidden">
                       <div className="compan flex items-start justify-between">
@@ -313,10 +312,132 @@ const Navbar = () => {
                   </div>
                 </OutsideClickHandler>
               </li>
-              <li className="mar">
+              {/* <li className="mar">
                 <NavLink className="sar" to="">
                   Solutions
                 </NavLink>
+              </li> */}
+              <li className="mar">
+                {/* <OutsideClickHandler
+                  onOutsideClick={() => {
+                    if (
+                      !document
+                        .querySelector(".ser-nav")
+                        .classList.contains("hidden")
+                    ) {
+                      document
+                        .querySelector(".ser-nav")
+                        .classList.toggle("hidden");
+                    }
+                  }}
+                > */}
+                  <div
+                    // onClick={toggleService}
+                    className="flex items-center cursor-pointer"
+                  >
+                    <p className="sar" to="">
+                      Solutions
+                    </p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="15"
+                      height="15"
+                      fill="currentColor"
+                      className="ml-1 bi bi-chevron-down"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                  </div>
+                  {/* <div className="ser-nav hidden">
+                  <div className="ser-nav5">
+                    <div className="ser-tag">
+                      <div className="tag1">
+                        <div className="">
+                         <NavLink onClick={toggleService} to="/mobileApp"> <div className="flex items-center">
+                            <img src={mon1} alt="" />
+                            <h4>Mobile App Development</h4>
+                          </div></NavLink>
+                          <p className="yamini">
+                            i Phone <span>|</span> Android <span>|</span>{" "}
+                            Flutter <span>|</span> React Native <span>|</span>{" "}
+                            Kotlin
+                            <span>|</span> Swift
+                          </p>
+                        </div>
+                        <div className=" mt-7">
+                         <NavLink onClick={toggleService} to="/service"> <div className="flex items-center">
+                            <img src={mon2} alt="" />
+                            <h4>E - Commerce Solutions</h4>
+                          </div></NavLink>
+                          <p className="yamini">
+                            Shopify <span> |</span> Woo Commerce <span> |</span>{" "}
+                            Big Commerce <span> |</span>
+                            Magento <span> |</span> Wordpress
+                          </p>
+                        </div>
+                        <div className=" mt-7">
+                          <div className="flex items-center">
+                            <img src={mon3} alt="" />
+                            <h4>Graphic Design</h4>
+                          </div>
+                          <p className="yamini">
+                            Adobe Illustrator <span>|</span> Adobe Photoshop{" "}
+                            <span>|</span> <br />
+                            CorelDRAW <span>|</span> After Effect <span>|</span>{" "}
+                            Premium Pro
+                          </p>
+                        </div>
+                      </div>
+                      <div className="tag1 ml-10">
+                        <div className="">
+                         <NavLink onClick={toggleService} to="/website"><div className="flex items-center">
+                            <img src={mon4} alt="" />
+                            <h4>Web development</h4>
+                          </div></NavLink>
+                          <p className="yamini">
+                            php <span>|</span> React js <span>|</span> HTML5{" "}
+                            <span>|</span> Wordpress <span>|</span> Vue Js
+                            <span>|</span> Node js
+                          </p>
+                        </div>
+                        <div className="w-full mt-7">
+                          <div className="flex items-center">
+                            <img src={mon4} alt="" />
+                            <h4>UI/UX Design</h4>
+                          </div>
+                          <p className="yamini">
+                            Figma <span>|</span> Adobe XD <span>|</span> Sketch{" "}
+                            <span>|</span> Affinity
+                          </p>
+                        </div>
+                        <div className="w-full mt-7">
+                          <div className="flex items-center">
+                            <img src={mon4} alt="" />
+                            <h4>Digital Marketing</h4>
+                          </div>
+                          <p className="yamini uppercase">
+                            SEO <span>|</span> SMO <span>|</span> PPC
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                   
+                  </div>
+                  <div className="teal flex items-center justify-between">
+                        <div className="tael-head">
+                            <h3>GET FREE CONSULTATION</h3>
+                            <p className="want">Want to validate your mobile app idea? Tell us a little bit <br /> about your requirements</p>
+                        </div>
+                        <div className="teal-contact">
+                            <button className="conj">Contact Us</button>
+                        </div>
+                    </div>
+                  </div> */}
+                {/* </OutsideClickHandler> */}
               </li>
               <li className="mar">
                 <NavLink className="sar" to="">
@@ -324,14 +445,248 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="mar">
-                <NavLink to="/staff" className="sar">
-                  Hire
-                </NavLink>
+                {/* <OutsideClickHandler
+                  onOutsideClick={() => {
+                    if (
+                      !document
+                        .querySelector(".ser-nav")
+                        .classList.contains("hidden")
+                    ) {
+                      document
+                        .querySelector(".ser-nav")
+                        .classList.toggle("hidden");
+                    }
+                  }}
+                > */}
+                  <div
+                    // onClick={toggleService}
+                    className="flex items-center cursor-pointer"
+                  >
+                    <p className="sar" to="">
+                       Hire
+                    </p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="15"
+                      height="15"
+                      fill="currentColor"
+                      className="ml-1 bi bi-chevron-down"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                  </div>
+                  {/* <div className="ser-nav hidden">
+                  <div className="ser-nav5">
+                    <div className="ser-tag">
+                      <div className="tag1">
+                        <div className="">
+                         <NavLink onClick={toggleService} to="/mobileApp"> <div className="flex items-center">
+                            <img src={mon1} alt="" />
+                            <h4>Mobile App Development</h4>
+                          </div></NavLink>
+                          <p className="yamini">
+                            i Phone <span>|</span> Android <span>|</span>{" "}
+                            Flutter <span>|</span> React Native <span>|</span>{" "}
+                            Kotlin
+                            <span>|</span> Swift
+                          </p>
+                        </div>
+                        <div className=" mt-7">
+                         <NavLink onClick={toggleService} to="/service"> <div className="flex items-center">
+                            <img src={mon2} alt="" />
+                            <h4>E - Commerce Solutions</h4>
+                          </div></NavLink>
+                          <p className="yamini">
+                            Shopify <span> |</span> Woo Commerce <span> |</span>{" "}
+                            Big Commerce <span> |</span>
+                            Magento <span> |</span> Wordpress
+                          </p>
+                        </div>
+                        <div className=" mt-7">
+                          <div className="flex items-center">
+                            <img src={mon3} alt="" />
+                            <h4>Graphic Design</h4>
+                          </div>
+                          <p className="yamini">
+                            Adobe Illustrator <span>|</span> Adobe Photoshop{" "}
+                            <span>|</span> <br />
+                            CorelDRAW <span>|</span> After Effect <span>|</span>{" "}
+                            Premium Pro
+                          </p>
+                        </div>
+                      </div>
+                      <div className="tag1 ml-10">
+                        <div className="">
+                         <NavLink onClick={toggleService} to="/website"><div className="flex items-center">
+                            <img src={mon4} alt="" />
+                            <h4>Web development</h4>
+                          </div></NavLink>
+                          <p className="yamini">
+                            php <span>|</span> React js <span>|</span> HTML5{" "}
+                            <span>|</span> Wordpress <span>|</span> Vue Js
+                            <span>|</span> Node js
+                          </p>
+                        </div>
+                        <div className="w-full mt-7">
+                          <div className="flex items-center">
+                            <img src={mon4} alt="" />
+                            <h4>UI/UX Design</h4>
+                          </div>
+                          <p className="yamini">
+                            Figma <span>|</span> Adobe XD <span>|</span> Sketch{" "}
+                            <span>|</span> Affinity
+                          </p>
+                        </div>
+                        <div className="w-full mt-7">
+                          <div className="flex items-center">
+                            <img src={mon4} alt="" />
+                            <h4>Digital Marketing</h4>
+                          </div>
+                          <p className="yamini uppercase">
+                            SEO <span>|</span> SMO <span>|</span> PPC
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                   
+                  </div>
+                  <div className="teal flex items-center justify-between">
+                        <div className="tael-head">
+                            <h3>GET FREE CONSULTATION</h3>
+                            <p className="want">Want to validate your mobile app idea? Tell us a little bit <br /> about your requirements</p>
+                        </div>
+                        <div className="teal-contact">
+                            <button className="conj">Contact Us</button>
+                        </div>
+                    </div>
+                  </div> */}
+                {/* </OutsideClickHandler> */}
               </li>
               <li className="mar">
-                <NavLink to="/staff" className="sar">
-                  Resource
-                </NavLink>
+                {/* <OutsideClickHandler
+                  onOutsideClick={() => {
+                    if (
+                      !document
+                        .querySelector(".ser-nav")
+                        .classList.contains("hidden")
+                    ) {
+                      document
+                        .querySelector(".ser-nav")
+                        .classList.toggle("hidden");
+                    }
+                  }}
+                > */}
+                  <div
+                    // onClick={toggleService}
+                    className="flex items-center cursor-pointer"
+                  >
+                    <p className="sar" to="">
+                      Resources
+                    </p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="15"
+                      height="15"
+                      fill="currentColor"
+                      className="ml-1 bi bi-chevron-down"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                  </div>
+                  {/* <div className="ser-nav hidden">
+                  <div className="ser-nav5">
+                    <div className="ser-tag">
+                      <div className="tag1">
+                        <div className="">
+                         <NavLink onClick={toggleService} to="/mobileApp"> <div className="flex items-center">
+                            <img src={mon1} alt="" />
+                            <h4>Mobile App Development</h4>
+                          </div></NavLink>
+                          <p className="yamini">
+                            i Phone <span>|</span> Android <span>|</span>{" "}
+                            Flutter <span>|</span> React Native <span>|</span>{" "}
+                            Kotlin
+                            <span>|</span> Swift
+                          </p>
+                        </div>
+                        <div className=" mt-7">
+                         <NavLink onClick={toggleService} to="/service"> <div className="flex items-center">
+                            <img src={mon2} alt="" />
+                            <h4>E - Commerce Solutions</h4>
+                          </div></NavLink>
+                          <p className="yamini">
+                            Shopify <span> |</span> Woo Commerce <span> |</span>{" "}
+                            Big Commerce <span> |</span>
+                            Magento <span> |</span> Wordpress
+                          </p>
+                        </div>
+                        <div className=" mt-7">
+                          <div className="flex items-center">
+                            <img src={mon3} alt="" />
+                            <h4>Graphic Design</h4>
+                          </div>
+                          <p className="yamini">
+                            Adobe Illustrator <span>|</span> Adobe Photoshop{" "}
+                            <span>|</span> <br />
+                            CorelDRAW <span>|</span> After Effect <span>|</span>{" "}
+                            Premium Pro
+                          </p>
+                        </div>
+                      </div>
+                      <div className="tag1 ml-10">
+                        <div className="">
+                         <NavLink onClick={toggleService} to="/website"><div className="flex items-center">
+                            <img src={mon4} alt="" />
+                            <h4>Web development</h4>
+                          </div></NavLink>
+                          <p className="yamini">
+                            php <span>|</span> React js <span>|</span> HTML5{" "}
+                            <span>|</span> Wordpress <span>|</span> Vue Js
+                            <span>|</span> Node js
+                          </p>
+                        </div>
+                        <div className="w-full mt-7">
+                          <div className="flex items-center">
+                            <img src={mon4} alt="" />
+                            <h4>UI/UX Design</h4>
+                          </div>
+                          <p className="yamini">
+                            Figma <span>|</span> Adobe XD <span>|</span> Sketch{" "}
+                            <span>|</span> Affinity
+                          </p>
+                        </div>
+                        <div className="w-full mt-7">
+                          <div className="flex items-center">
+                            <img src={mon4} alt="" />
+                            <h4>Digital Marketing</h4>
+                          </div>
+                          <p className="yamini uppercase">
+                            SEO <span>|</span> SMO <span>|</span> PPC
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                   
+                  </div>
+                  <div className="teal flex items-center justify-between">
+                        <div className="tael-head">
+                            <h3>GET FREE CONSULTATION</h3>
+                            <p className="want">Want to validate your mobile app idea? Tell us a little bit <br /> about your requirements</p>
+                        </div>
+                        <div className="teal-contact">
+                            <button className="conj">Contact Us</button>
+                        </div>
+                    </div>
+                  </div> */}
+                {/* </OutsideClickHandler> */}
               </li>
               <li className="mar">
                 <NavLink to="/contact">
