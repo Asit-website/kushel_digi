@@ -9,17 +9,11 @@ import offering6 from "../images/offering6.png";
 import offering7 from "../images/offering7.png";
 import offering8 from "../images/offering8.png";
 import offering9 from "../images/offering9.png";
-import offering10 from "../images/offering10.png";
 import broucher from "../images/broucher.png";
 import broucher1 from "../images/broucher1.png";
-import dark from "../images/dark.png";
-import dark1 from "../images/dark1.png";
-import putki from "../images/putki.png";
 import lor from "../images/lor.png";
 import lor1 from "../images/lor1.png";
 import lor2 from "../images/lor2.png";
-import office1 from '../images/office1.png';
-import office2 from '../images/office2.png'
 import londa from '../images/londa.png';
 import arrow3 from '../images/arrow3.png';
 import HowItWorks1 from '../images/how-1.svg';
@@ -27,7 +21,7 @@ import HowItWorks2 from '../images/how-2.svg';
 import HowItWorks3 from '../images/how-3.svg';
 import HowItWorks4 from '../images/how-4.svg';
 import HowItWorks5 from '../images/how-5.svg';
-
+import dust from '../images/dust.png';
 import {
   Accordion,
   AccordionItem,
@@ -87,7 +81,7 @@ const OurPartner = () => {
           <div className="business-card flex-wrap">
             <div className="business-box business-box1 relative text-center cursor-pointer">
               <div className="business-card-img">
-                <img src="/static/images/lawyer1.png" alt="" />
+                <img src={dust} alt="" />
               </div>
               <h5>Diversified IT Services</h5>
               <p>
@@ -505,7 +499,7 @@ const OurPartner = () => {
 
           <div className="w-full  mrs mrs1">
 
-            <div className="w-full  mrs">
+           
 
               <h3>Let’s Discuss your Project</h3>
               <form action="">
@@ -532,14 +526,7 @@ const OurPartner = () => {
                 </div>
 
               </form>
-
-            </div>
-            <div className='w-full   loofs'>
-              <div className="loofs-sect">
-                <h2>ENJOY WORKING WITH AN EXPERIENCED AND CREATIVE TEAM. LET’S TALK.</h2>
-                <button>Want to join us <img width={12} className="inline ml-1" src={arrow3} alt="arrow3" /></button>
-              </div>
-            </div>
+          
 
           </div>
           <div className='w-full   loofs'>
