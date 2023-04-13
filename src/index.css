@@ -9,6 +9,7 @@
   font-family: "Value Sans Pro" !important;
 }
 
+
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap'); */
 
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap'); */
@@ -182,7 +183,7 @@
 .navbar ul li a {
   text-decoration: none;
   color: #101010;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
   font-family: "Value Sans Medium" !important;
   opacity: 0.8;
@@ -205,9 +206,11 @@
 .tag1 h4 {
   color: #202020;
   font-weight: 700;
-  font-size: 16.5px;
-  opacity: 0.9;
+  font-size: 16px;
+  opacity: 0.95;
   margin-left: 12px;
+  font-family: 'Roboto', sans-serif !important;
+  text-transform: capitalize;
 }
 .tag1 img {
   width: 20px;
@@ -424,7 +427,7 @@
 .navbar ul li p {
   text-decoration: none;
   color: #101010;
-  font-size: 16px;
+  font-size: 15px;
   text-transform: uppercase;
   opacity: 0.8;
   font-family: "Value Sans Medium" !important;
@@ -3988,6 +3991,47 @@ form button {
   border-radius: 2px;
 }
 /* =======================our partner css end========================== */
+.kick-back{
+  background-image: url("./images/kick1.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 65vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+.kick-back::before{
+  content: "";
+  background-color: #085881;
+  opacity: 0.95;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.kick-sect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.kick-sect img{
+  max-width: 350px;
+  width: 100%;
+}
+/* ===============kickiz css start======================= */
+
+/* =================kickiz css end=========================== */
+@media only screen and (max-width:1500px){
+  .home112{
+    width: auto;
+  }
+}
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;
@@ -3999,10 +4043,25 @@ form button {
     max-height: 100%;
   }
 }
+
+@media only screen and (max-width:1404px){
+  .navbar ul .sar{
+    margin-left: 30px;
+  }
+  .ser-nav{
+    margin-left: 30px;
+  }
+}
 @media only screen and (max-width: 1350px) {
   .home1112 ul {
     width: 80%;
     flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width:1338px){
+  .navbar ul li p,
+  .navbar ul li a{
+    font-size: 13px !important;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -4508,7 +4567,7 @@ form button {
   }
 
   .navbar {
-    padding: 9px 30px;
+    padding: 12px 30px; /* pehle 9 tha */
   }
 
   .logo img {

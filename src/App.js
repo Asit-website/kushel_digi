@@ -15,6 +15,7 @@ import Nda from "./components/Nda";
 import Terms from "./components/Terms";
 import OurPartner from "./components/OurPartner";
 import Playbook from "./components/Playbook";
+import Kickiz from "./components/Kickiz";
 
 function App() {
   return (
@@ -37,6 +38,8 @@ function App() {
 
            <Route path="/partner" element={<OurPartner/>}/>
            <Route path="/playbook" element={<Playbook/>}/>
+
+           <Route path="/kick" element={<Kickiz/>}/>
         </Routes>
         <Footer />
       </Router>
