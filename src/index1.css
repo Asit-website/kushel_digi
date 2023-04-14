@@ -312,3 +312,25 @@
   width: 80%;
   margin-top: 2rem !important;
 }
+
+/* ==============How It Works css end================== */
+
+/* ==============Our Services css start================== */
+
+#splide04-track {
+  overflow: visible !important;
+}
+
+.serviceCard::before {
+  content: url(..../../images/blueHoverCircle.svg);
+  display: none;
+  /* width: 1rem; */
+  position: absolute;
+  top: -1rem;
+  left: 19.5rem;
+  z-index: -1;
+}
+
+.serviceCard:hover::before {
+  display: inline-block;
+}
