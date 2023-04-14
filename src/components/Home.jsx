@@ -142,7 +142,7 @@ const Home = () => {
   const tabAnother = (e) => {
     e.preventDefault();
     setTab(1);
-    document.getElementById("one").style.background = "#3C83CB";
+    document.getElementById("one").style.background = "#085881";
     document.getElementById("two").style.background = "none";
     document.getElementById("three").style.background = "none";
     document.getElementById("fourth").style.background = "none";
@@ -167,7 +167,7 @@ const Home = () => {
     e.preventDefault();
     setTab(2);
     document.getElementById("one").style.background = "none";
-    document.getElementById("two").style.background = "#3C83CB";
+    document.getElementById("two").style.background = "#085881";
     document.getElementById("three").style.background = "none";
     document.getElementById("fourth").style.background = "none";
 
@@ -193,7 +193,7 @@ const Home = () => {
 
     document.getElementById("one").style.background = "none";
     document.getElementById("two").style.background = "none";
-    document.getElementById("three").style.background = "#3C83CB";
+    document.getElementById("three").style.background = "#085881";
     document.getElementById("fourth").style.background = "none";
 
     document.getElementById("one").style.padding = "0px 0px";
@@ -219,7 +219,7 @@ const Home = () => {
     document.getElementById("one").style.background = "none";
     document.getElementById("two").style.background = "none";
     document.getElementById("three").style.background = "none";
-    document.getElementById("fourth").style.background = "#3C83CB";
+    document.getElementById("fourth").style.background = "#085881";
 
     document.getElementById("one").style.padding = "0px 0px";
     document.getElementById("two").style.padding = "0px 0px";

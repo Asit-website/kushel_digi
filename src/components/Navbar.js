@@ -196,7 +196,7 @@ const Navbar = () => {
                             Want to validate your mobile app idea? Tell us a
                             little bit about your requirements
                           </p>
-                         <NavLink onClick={toggleService2} to="/contact"><button className="wanna-btn">Contact Us</button></NavLink>
+                         <NavLink  onClick={toggleService2} to="/contact"><button className="wanna-btn">Contact Us</button></NavLink>
                         </div>
                       </div>
                     </div>
@@ -299,10 +299,10 @@ const Navbar = () => {
                             </p>
                           </div>
                           <div className="w-full mt-7">
-                            <div className="flex items-center">
+                           <NavLink onClick={toggleService} to="/uiux"> <div className="flex items-center">
                               <img src={uiux} alt="" />
                               <h4>UI/UX Design</h4>
-                            </div>
+                            </div></NavLink>
                             <p className="yamini">
                               Figma <span>|</span> Adobe XD <span>|</span>{" "}
                               Sketch <span>|</span> Affinity
@@ -635,7 +635,7 @@ const Navbar = () => {
                 </OutsideClickHandler>
               </li>
               <li className="mar">
-                <NavLink to="/contact">
+                <NavLink className="bts-naba" to="/contact">
                   <button className="sar">Contact Us</button>
                 </NavLink>
               </li>
