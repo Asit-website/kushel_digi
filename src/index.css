@@ -1055,13 +1055,12 @@ form button {
 }
 
 .btn1 {
-  background-color: #3c83cb;
+  background-color: #085881;
   color: white;
-  /* padding: 12px 34px; */
   width: 285px;
   height: 70px;
   font-size: 18px;
-  font-weight: 600;
+  font-family: 'Value Sans Medium' !important;
   margin-top: 35px;
   letter-spacing: 0.5px;
 }
@@ -1117,7 +1116,7 @@ form button {
 }
 
 .splide__arrow {
-  background: #086ad8 !important;
+  background: #085881 !important;
   opacity: 1;
 }
 
@@ -1408,6 +1407,8 @@ form button {
   font-size: 35px;
   font-family: "Value Sans Bold" !important;
   letter-spacing: 0.1em;
+  color: #101010;
+  opacity: 0.8;
 }
 
 .home911 {
@@ -1728,8 +1729,8 @@ form button {
 }
 
 .serji1 img {
-  max-width: 460px;
-  width: 100%;
+  max-width: 460px !important;
+  width: 100% !important;
 }
 
 .ser2 .sis1 .nodejs1 {
@@ -1772,12 +1773,16 @@ form button {
 }
 
 .ser111 h1 {
-  font-size: 45px;
+  font-size: 46px;
   line-height: 58px;
   font-weight: 400;
   font-family: "Value Sans Pro";
 }
-
+.ser111 .seru{
+  font-size: 32px;
+  color: #101010;
+  opacity: 0.9;
+}
 .ser111 .ac {
   color: #404040;
   font-size: 21px;
@@ -1799,8 +1804,9 @@ form button {
 }
 
 .blue {
-  color: #3c83cb;
+  color: #085881;
   font-family: "Value Sans Medium" !important;
+  font-weight: 600;
 }
 
 .ser112 {
@@ -1911,11 +1917,13 @@ form button {
 .unified-heading {
   text-align: center;
   font-size: 37px;
+  color: #101010;
 }
 
 .unified-heading1 {
   text-align: center;
   font-size: 37px;
+  color: #101010;
   font-weight: 700;
 }
 
@@ -1945,13 +1953,20 @@ form button {
   max-height: 100%;
   margin: 0px 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
-  border-radius: 5px;
-  /* background-color: red; */
+  border-radius: 10px;
 }
-
+.customized-box:hover{
+  background-color: #085881;
+}
+.customized-box:hover .custo-head h3{
+  color: #ffffff;
+}
+.customized-box:hover .custo-head p{
+  color: #ffffff;
+}
 .customized-box img {
   width: 100%;
-  max-width: 540px;
+  max-width: 530px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.05));
 }
 
@@ -1973,7 +1988,23 @@ form button {
   margin-top: 5px;
   line-height: 25px;
 }
-
+.strategy{
+  padding: 70px 100px;
+}
+.strategy img{
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+.strategy h2{
+  font-family: 'Value Sans Medium' !important;
+  font-size: 36px;
+  font-weight: 700;
+  color: #010C1E;
+  opacity: 0.7;
+  text-align: center;
+  line-height: 48px;
+}
 /* =============unified css end================= */
 .second-ecom img {
   max-width: 550px;
@@ -2011,7 +2042,7 @@ form button {
 .first-ecom .com {
   width: 270px;
   height: 70px;
-  background-color: #3c83cb;
+  background-color: #085881;
   color: #ffffff;
   font-size: 19px;
   font-family: "Value Sans Medium";
@@ -2021,23 +2052,17 @@ form button {
 .first-delivery .com {
   width: 270px;
   height: 70px;
-  background-color: #3c83cb;
+  background-color: #085881;
   color: #ffffff;
   font-size: 19px;
   font-family: "Value Sans Medium";
   margin-top: 40px;
 }
-
-.poty {
-  /* background-color: #F3F3F3 !important; */
-}
-
 .poty .view {
   color: #010c1e;
   font-size: 28px;
   font-weight: 500;
   width: 100%;
-  font-family: "Value Sans Medium" !important;
   line-height: 38px;
 }
 
@@ -2102,7 +2127,7 @@ form button {
 
 .looking button {
   width: 275px;
-  background-color: #3c83cb;
+  background-color: #085881;
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
@@ -2161,7 +2186,7 @@ form button {
 
 .first-form button {
   width: 275px;
-  background-color: #3c83cb;
+  background-color: #085881;
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
@@ -2255,13 +2280,14 @@ form button {
 }
 
 .help-business h3 {
-  color: #010c1e;
+  color: #202020;
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   margin-bottom: 65px;
   font-style: normal;
   font-family: "Value Sans Medium" !important;
+  opacity: 0.9;
 }
 
 .business-card {
@@ -2326,14 +2352,15 @@ form button {
 }
 
 .mob-app111 h1 {
-  color: #101010;
-  font-size: 36px;
+  color: #202020;
+  font-size: 35px;
   text-transform: uppercase;
   opacity: 0.8;
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 50px;
-  font-family: "Value Sans Bold" !important;
+  font-family: 'Value Sans Medium' !important;
+ font-weight: 700;
 }
 
 .mob-app111211 .sara {
@@ -2475,7 +2502,7 @@ form button {
 }
 
 .business-box:hover {
-  background-color: #3c83cb;
+  background-color: #085881;
   color: white;
 }
 
@@ -2484,7 +2511,7 @@ form button {
 }
 
 .business-box:hover .business-card-img {
-  background-color: #3c83cb;
+  background-color: #085881;
   border: 1px solid white;
 }
 
@@ -2498,12 +2525,13 @@ form button {
 }
 
 .unlock h2 {
-  color: #010c1e;
+  color: #202020;
   font-size: 36px;
   font-weight: 700;
   font-family: "Value Sans Medium" !important;
   text-align: center;
   line-height: 46px;
+  opacity: 0.9;
 }
 
 .unlock img {
@@ -2582,7 +2610,39 @@ form button {
   text-align: center;
   width: 100%;
 }
-
+.custom-s{
+  padding: 60px 100px;
+}
+.custom-s h2{
+  font-size: 36px;
+  font-weight: 700;
+  color: #010C1E;
+  font-family: 'Value Sans Medium' !important;
+  text-align: center;
+  opacity: 0.7;
+  line-height: 48px;
+}
+.custom-s p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #202020;
+  text-align: center;
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 8px;
+}
+.colbo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.colbo img{
+  max-width: 340px;
+  width: 100%;
+  margin: 0 8px;
+}
 .custom {
   font-size: 28px;
   color: #010c1e;
@@ -3792,7 +3852,7 @@ form button {
   width: 100%;
 }
 .step-img {
-  background-color: #3c83cb;
+  background-color: #085881;
   width: 98px;
   height: 98px;
   position: relative;
@@ -3916,7 +3976,7 @@ form button {
 .ben-da button {
   max-width: 270px;
   width: 100%;
-  background-color: #3c83cb;
+  background-color: #085881;
   height: 68px;
   color: #ffffff;
   font-family: "Value Sans Medium" !important;

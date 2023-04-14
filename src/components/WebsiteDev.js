@@ -33,6 +33,14 @@ import industry6 from "../images/industry6.png";
 import industry7 from "../images/industry7.png";
 import Certified from "./common/Certified";
 import healthcare from '../images/healthcare.png';
+import dec1 from '../images/dec1.png';
+import dec2 from '../images/dec2.png';
+import dec3 from '../images/dec3.png';
+import dec4 from '../images/dec4.png';
+import dec5 from '../images/dec5.png';
+import dec6 from '../images/dec6.png';
+import dec7 from '../images/dec7.png';
+import dilkush from '../images/dilkush.png';
 import {
   Accordion,
   AccordionItem,
@@ -50,13 +58,13 @@ const WebsiteDev = () => {
   return (
     <>
       <div className="ser-main">
-        <div className="ser1 serji serji1">
+        <div className="ser1 serji serji1 ">
           <div className="ser11 px-24 pt-12 pb-4 flex items-center justify-between">
             <div className="ser111">
-              <h1 className="">Services </h1>
+              <h1 className="seru">Services </h1>
               <h1 className="blue">Website Design & Development</h1>
-              <p className="ac">Accelerate your business with an app</p>
-              <p>Faster | Better | Easier</p>
+              <p className="ac">Solution based Web development services to skyrocket the growth</p>
+              {/* <p>Faster | Better | Easier</p> */}
             </div>
             <div className="ser112">
               <img src={website} alt="" />
@@ -238,7 +246,7 @@ const WebsiteDev = () => {
 
           <img className="ben-img" src={vertical} alt="" />
           <button>
-            Request A Call <img className="inline" src={arrow1} alt="arrow1" />
+            Request A Call <img width={13} className="inline ml-2" src={arrow1} alt="arrow1" />
           </button>
         </div>
 
@@ -268,37 +276,37 @@ const WebsiteDev = () => {
           <div className="indu-fard mt-8">
             <div className="indu-card">
               <div className="indu-box">
-                <img src={healthcare} alt="" />
+                <img src={dilkush} alt="" />
                 <p>Healthcare & Wellness</p>
               </div>
               <div className="indu-box">
-                <img src={industry1} alt="" />
+                <img src={dec1} alt="" />
                 <p>Real Estate</p>
               </div>
               <div className="indu-box">
-                <img src={industry2} alt="" />
+                <img src={dec2} alt="" />
                 <p>IT, Software & Internet Marketing</p>
               </div>
               <div className="indu-box">
-                <img src={industry3} alt="" />
+                <img src={dec3} alt="" />
                 <p>Finance & Banking</p>
               </div>
             </div>
             <div className="indu-card">
               <div className="indu-box">
-                <img src={industry4} alt="" />
+                <img src={dec4} alt="" />
                 <p>Government & Public <br /> Sector Enterprises</p>
               </div>
               <div className="indu-box">
-                <img src={industry5} alt="" />
+                <img src={dec5} alt="" />
                 <p>Travel & Tour</p>
               </div>
               <div className="indu-box">
-                <img src={industry6} alt="" />
+                <img src={dec6} alt="" />
                 <p>Retail</p>
               </div>
               <div className="indu-box">
-                <img src={industry7} alt="" />
+                <img src={dec7} alt="" />
                 <p>SPORTS ( outdoor & indoor )</p>
               </div>
             </div>

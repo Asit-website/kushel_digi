@@ -109,7 +109,7 @@ const Navbar = () => {
 
             <div className="flex items-center ml-10">
               <img src="/static/images/c1.png" alt="alt" />
-              <p className="ml-2">+ 1 </p>
+              <p className="ml-2">+15855662070</p>
             </div>
           </div>
         </header>

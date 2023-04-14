@@ -22,6 +22,7 @@ import {
   AccordionItemPanel,
 } from 'react-accessible-accordion';
 import Certified from "./common/Certified";
+import ecommerce1 from '../images/ecommerce1.png';
 const Services = () => {
   return (
     <>
@@ -114,6 +115,10 @@ const Services = () => {
            <img src={focus} alt="focus" />
         </div>
 
+       <div className="strategy">
+          <h2>ECommerce Web Development <br /> Strategy</h2>
+          <img src={ecommerce1} alt="ecommerce1" />
+       </div>
         <div className="customize">
            <h2>Customizing the platform of your choice to fit <br /> your goals</h2>
            <div className="customized-card  customized-card1 mt-10">
