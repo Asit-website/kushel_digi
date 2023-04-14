@@ -1,14 +1,5 @@
 import React from "react";
 import whykushle from "../images/whyKushle.png";
-import offering1 from "../images/offering1.png";
-import offering2 from "../images/offering2.png";
-import offering3 from "../images/offering3.png";
-import offering4 from "../images/offering4.png";
-import offering5 from "../images/offering5.png";
-import offering6 from "../images/offering6.png";
-import offering7 from "../images/offering7.png";
-import offering8 from "../images/offering8.png";
-import offering9 from "../images/offering9.png";
 import broucher from "../images/broucher.png";
 import broucher1 from "../images/broucher1.png";
 import lor from "../images/lor.png";
@@ -22,6 +13,17 @@ import HowItWorks3 from '../images/how-3.svg';
 import HowItWorks4 from '../images/how-4.svg';
 import HowItWorks5 from '../images/how-5.svg';
 import dust from '../images/dust.png';
+import ent1 from '../images/ent1.png';
+import ent2 from '../images/ent2.png';
+import ent3 from '../images/ent3.png';
+import ent4 from '../images/ent4.png';
+import ent5 from '../images/ent5.png';
+import ent6 from '../images/ent6.png';
+import ent7 from '../images/ent7.png';
+import ent8 from '../images/ent8.png';
+import ent9 from '../images/ent9.png';
+import ent10 from '../images/ent10.png';
+import josh from '../images/josh.png';
 import {
   Accordion,
   AccordionItem,
@@ -198,32 +200,32 @@ const OurPartner = () => {
           <div className="offer-section">
             <div className="flex items-center justify-center">
               <div className="text-center jis">
-                <img className="offer-img" src={offering1} alt="" />
+                <img className="offer-img" src={ent1} alt="" />
                 <p className="text-center">
                   EnterPrise Software <br /> Development
                 </p>
               </div>
               <div className="text-center jis">
-                <img src={offering2} alt="" />
+                <img src={ent2} alt="" />
                 <p className="text-center">
                   Mobile App <br /> Development
                 </p>
               </div>
               <div className="text-center jis">
-                <img className="offer-img" src={offering3} alt="" />
+                <img className="offer-img" src={ent3} alt="" />
                 <p className="text-center">
                   Website <br /> Development
                 </p>
               </div>
               <div className="text-center jis">
-                <img className="offer-img" src={offering4} alt="" />
+                <img className="offer-img" src={ent4} alt="" />
                 <p className="text-center">
                   Data <br />
                   Analytics
                 </p>
               </div>
               <div className="text-center jis">
-                <img className="offer-img" src={offering5} alt="" />
+                <img className="offer-img" src={ent5} alt="" />
                 <p className="text-center">
                   IT <br /> Consultancy
                 </p>
@@ -231,23 +233,23 @@ const OurPartner = () => {
             </div>
             <div className="flex items-center justify-center">
               <div className="text-center jis jis1">
-                <img className="offer-img" src={offering6} alt="" />
+                <img className="offer-img" src={ent6} alt="" />
                 <p className="text-center">Graphic Design</p>
               </div>
               <div className="text-center jis jis1">
-                <img className="offer-img" src={offering7} alt="" />
+                <img className="offer-img" src={ent7} alt="" />
                 <p className="text-center">Digital Marketing</p>
               </div>
               <div className="text-center jis jis1">
-                <img className="offer-img" src={offering8} alt="" />
+                <img className="offer-img" src={ent8} alt="" />
                 <p className="text-center">UI/UX Designing</p>
               </div>
               <div className="text-center jis jis1">
-                <img className="offer-img" src={offering9} alt="" />
+                <img className="offer-img" src={ent9} alt="" />
                 <p className="text-center">Video Marketing</p>
               </div>
               <div className="text-center jis jis1">
-                <img className="offer-img" src={offering5} alt="" />
+                <img className="offer-img" src={ent10} alt="" />
                 <p className="text-center">
                   Branding Positioning <br /> Services
                 </p>
@@ -321,7 +323,7 @@ const OurPartner = () => {
           </div>
 
           <div className="howItWorks-icons">
-            <img src={HowItWorks5} alt="not found" />
+            <img src={josh} alt="not found" />
             <img src={HowItWorks2} alt="" />
             <img src={HowItWorks3} alt="" />
             <img src={HowItWorks4} alt="" />
