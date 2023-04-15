@@ -239,6 +239,7 @@ body{
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   margin-left: 40px;
   top: 138px;
+  border-radius: 0px 2px 2px 2px;
 }
 .ser-nav10 {
   position: fixed;
@@ -277,17 +278,27 @@ body{
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 48vh;
+  height: 400px;
+  max-width: 100%;
   position: relative;
   z-index: 2;
+}
+.home6122 .signgi{
+  max-width: 1250px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
 }
 .second-compan .cpm {
   color: #3c83cb;
   font-family: "Poppins", sans-serif !important;
-  text-decoration: underline #3c83cb;
+  border-bottom: 2px solid #639CD5;
   font-size: 15.5;
   opacity: 0.8;
   font-weight: 700;
+  width: 116px;
+  max-width: 100%;
 }
 .second-compan .cp {
   opacity: 0.8;
@@ -356,9 +367,13 @@ body{
   margin-top: 10px;
 }
 .compan {
-  /* padding: 20px 20px; */
+  height: 400px;
+  max-height: 100%;
   width: 680px;
   max-width: 100%;
+}
+.second-compan1 a{
+  opacity: 1 !important;
 }
 .teal {
   background: linear-gradient(270deg, #3c83cb 0%, #1f678d 100%) left;
@@ -377,6 +392,7 @@ body{
   text-transform: none;
   font-weight: 400 !important;
   margin-top: 10px;
+  opacity: 1 !important;
 }
 .teal-contact .conj {
   background-color: white;
@@ -611,7 +627,7 @@ body{
 }
 
 form button {
-  background-color: #086ad8;
+  background-color: #085881;
   cursor: pointer;
   outline: none;
   font-weight: 600;
@@ -660,10 +676,10 @@ form button {
 }
 
 .diff-section .address {
-  color: #1c6bff;
-  border-bottom: 3px solid #1c6bff;
+  color: #085881;
+  border-bottom: 3px solid #085881;
   font-style: normal;
-  font-weight: 600;
+  font-family: 'Value Sans Medium' !important;
   font-size: 20px;
   line-height: 36px;
   position: relative;
@@ -673,8 +689,7 @@ form button {
 
 .diff-section .maps {
   color: #0e2b3d;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-family: 'Value Sans Medium' !important;
   font-style: normal;
   font-size: 20px;
   margin-left: 40px;
@@ -1292,7 +1307,7 @@ form button {
 .d-card {
   border: 1px solid #d9dde2;
   border-radius: 6px;
-  width: 30%;
+  width: 23%;  /* pehle 30 tha */
   cursor: pointer;
 }
 
@@ -1732,7 +1747,27 @@ form button {
 .serji2{
   background: url("./images/dyana.png") no-repeat center center/cover;
   background-blend-mode: darken;
-  /* height: 500px; */
+  position: relative;
+  z-index: 2;
+  padding-bottom: 35px;
+}
+.serji2::before{
+  content: "";
+  background-color: #085881;
+  opacity: 0.7;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.serji2 h1{
+  color: #FFFFFF !important;
+}
+.serji2 img{
+  width: 100% !important;
+  max-width: 700px !important;
 }
 .serji1 img {
   max-width: 460px !important;
@@ -4141,7 +4176,7 @@ form button {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding-top: 60px !important;
+  padding-top: 30px !important;
   padding: 0px 100px;
   background-image: url('./images/green.png');
   background-position: center;
@@ -4158,12 +4193,15 @@ form button {
   font-family: 'Value Sans Medium' !important;
   line-height: 46px;
 }
+.first-experiencedji{
+  margin-top: 90px;
+}
 .first-experiencedji p{
   font-size: 21px;
   color: #404040;
   font-family: 'Roboto', sans-serif !important;
   font-weight: 400;
-  width: 32em;
+  width: 24em;
 }
 .first-experiencedji button{
   background-color: #085881;
@@ -4176,7 +4214,7 @@ form button {
   margin-top: 40px;
 }
 .second-experiencedji img{
-  max-width: 430px;
+  max-width: 900px;
   width: 100%;
 }
 .uiux-process{
@@ -4202,11 +4240,265 @@ form button {
   margin-top: 8px;
 }
 .uiux-process img{
-  max-width: 1200px;
+  max-width: 1450px;
   width: 100%;
   display: block;
   margin: auto;
   margin-top: 40px;
+}
+.perfect-choice{
+  /* padding-bottom: 120px !important; */
+  padding: 100px 100px;
+}
+.perfect-choice h2{
+  color: #202020;
+  opacity: 0.9;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+  text-align: center;
+  line-height: 46px;
+}
+.perfect-choice .perf-p{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 20px;
+  color: #202020;
+  width: 60%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.perfect-choice .splide__track{
+  overflow: initial !important;
+}
+.perfect-choice .splide__arrow--prev{
+  top: 500px !important;
+}
+.perfect-choice .splide__arrow--next{
+  top: 500px !important;
+}
+.perfect-choice .splide__pagination{
+  display: none !important;
+}
+.business-box20{
+  max-width: 24vw ;
+  height: 430px !important;
+  max-height: 100% !important;
+}
+.deliver-p{
+  padding: 60px 100px;
+}
+.deliver-p h2{
+  color: #202020;
+  opacity: 0.9;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+  text-align: center;
+  line-height: 46px;
+}
+.deliver-p p{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 20px;
+  color: #202020;
+  width: 60%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.deliver-p img{
+  max-width: 930px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+.benifits-ui{
+  background-color: #ffffff;
+  padding: 50px 0px;
+}
+.benifits-ui h2{
+  color: #202020;
+  opacity: 0.9;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+  text-align: center;
+  line-height: 46px;
+}
+.benifits-ui .when-p{
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 20px;
+  color: #202020;
+  width: 60%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+.benifits-ui-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.benifits-ui-box{
+  background-image: url("./images/buss.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 400px;
+  max-height: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+  border: 1px solid #ffffff;
+}
+.benifits-ui-box::before{
+  content: "";
+  background-color: #085881;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.benifits-ui-box  .ui-sect{
+  position: absolute;
+  top: 50%;
+  transform: translate(0,-50%);
+  padding: 0px 32px;
+}
+.benifits-ui-box1{
+  background-image: url("./images/buss1.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 400px;
+  max-height: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+  border: 1px solid #ffffff;
+}
+.benifits-ui-box1::before{
+  content: "";
+  background-color: #202020;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.benifits-ui-box1 .ui-sect{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 0px 32px;
+  left: 50%;
+}
+.benifits-ui-box2{
+  background-image: url("./images/ends.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 400px;
+  max-height: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+  border: 1px solid #ffffff;
+}
+.benifits-ui-box2::before{
+  content: "";
+  background-color: #202020;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  border: 1px solid #ffffff;
+}
+.benifits-ui-box2 .ui-sect{
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 0px 32px;
+  left: 50%;
+  text-align: center;
+}
+.ui-sect h4{
+  font-size: 22.5px;
+  color: #ffffff;
+  font-family: 'Value Sans Medium' !important;
+  text-align: center;
+  font-weight: 700;
+}
+.ui-sect p{
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif !important;
+  text-align: center;
+  margin-top: 15px;
+}
+.how-did{
+ padding: 60px 100px;
+ background-color: #ffffff;
+}
+.how-did-first img{
+   max-width: 650px;
+   width: 100%;
+}
+.how-did-first{
+  margin-right: 40px;
+}
+.how-did-second{
+  margin-left: 40px;
+}
+.how-did-second h3{
+ color: #202020;
+ opacity: 0.8;
+ font-size: 36px;
+ line-height: 46px;
+ font-family: 'Value Sans Medium' !important;
+ font-weight: 700;
+}
+.how-did-para{
+  margin-top: 20px;
+}
+.how-did-second p{
+  color: #404040;
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif !important;
+  width: 32em;
+}
+.how-did-second button{
+  background-color: #085881;
+  max-width: 270px;
+  width: 100%;
+  height: 68px;
+  color: #ffffff;
+  font-family: 'Value Sans Medium' !important;
+  font-size: 19px;
+  margin-top: 50px;
 }
 /* ================ui ux css end======================== */
 @media only screen and (max-width:1500px){
@@ -5173,12 +5465,10 @@ form button {
     font-size: 40px;
   }
 }
-
 @media only screen and (max-width: 1050px) {
-  .help-business h3 {
-    /* display: none; */
+  .d-card11 h5{
+    font-size: 1.2vmax;
   }
-
   .help-business .host {
     display: block !important;
   }

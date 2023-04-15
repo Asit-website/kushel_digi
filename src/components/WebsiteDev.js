@@ -23,23 +23,23 @@ import pads from "../images/pads.png";
 import bds from "../images/bds.png";
 import jones from "../images/jones.png";
 import Certified from "./common/Certified";
-import dec1 from '../images/dec1.png';
-import dec2 from '../images/dec2.png';
-import dec3 from '../images/dec3.png';
-import dec4 from '../images/dec4.png';
-import dec5 from '../images/dec5.png';
-import dec6 from '../images/dec6.png';
-import dec7 from '../images/dec7.png';
-import dilkush from '../images/dilkush.png';
+import dec1 from "../images/dec1.png";
+import dec2 from "../images/dec2.png";
+import dec3 from "../images/dec3.png";
+import dec4 from "../images/dec4.png";
+import dec5 from "../images/dec5.png";
+import dec6 from "../images/dec6.png";
+import dec7 from "../images/dec7.png";
+import dilkush from "../images/dilkush.png";
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from 'react-accessible-accordion';
-import arrow3 from '../images/arrow3.png'
-import arrow4 from '../images/arrow4.png';
+} from "react-accessible-accordion";
+import arrow3 from "../images/arrow3.png";
+import arrow4 from "../images/arrow4.png";
 const WebsiteDev = () => {
   const [start, setStart] = useState(false);
   const handleChange = () => {
@@ -53,7 +53,9 @@ const WebsiteDev = () => {
             <div className="ser111">
               <h1 className="seru">Services </h1>
               <h1 className="blue">Website Design & Development</h1>
-              <p className="ac">Solution based Web development services to skyrocket the growth</p>
+              <p className="ac">
+                Solution based Web development services to skyrocket the growth
+              </p>
               {/* <p>Faster | Better | Easier</p> */}
             </div>
             <div className="ser112">
@@ -92,7 +94,10 @@ const WebsiteDev = () => {
           </div>
         </div>
         <div className="developments">
-          <img className="dev1" src={developments} alt="developments" />
+          <marquee behavior="scroll" direction="right" scrollamount="20">
+            <img className="dev1" src={developments} alt="developments" />
+          </marquee>
+
           <div className="development">
             <div className="development1">
               <h3>
@@ -236,7 +241,8 @@ const WebsiteDev = () => {
 
           <img className="ben-img" src={vertical} alt="" />
           <button>
-            Request A Call <img width={13} className="inline ml-2" src={arrow1} alt="arrow1" />
+            Request A Call{" "}
+            <img width={13} className="inline ml-2" src={arrow1} alt="arrow1" />
           </button>
         </div>
 
@@ -285,7 +291,9 @@ const WebsiteDev = () => {
             <div className="indu-card">
               <div className="indu-box">
                 <img src={dec4} alt="" />
-                <p>Government & Public <br /> Sector Enterprises</p>
+                <p>
+                  Government & Public <br /> Sector Enterprises
+                </p>
               </div>
               <div className="indu-box">
                 <img src={dec5} alt="" />
@@ -302,19 +310,20 @@ const WebsiteDev = () => {
             </div>
           </div>
         </div>
-        <Certified/>
+        <Certified />
 
         <div className="home9 mb-12 home278">
           <div className="home91 flex px-24">
             <div className="home911 text-center">
-              <h2 className='font-bold text-gray-700'>JUST THE FAQs</h2>
+              <h2 className="font-bold text-gray-700">JUST THE FAQs</h2>
             </div>
             <div className="home912">
               <Accordion allowZeroExpanded>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                      Do you have experience in developing single-vendor website?
+                      Do you have experience in developing single-vendor
+                      website?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -329,56 +338,56 @@ const WebsiteDev = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Can I test my website before making it live?
+                      Can I test my website before making it live?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What languages do you use for website development?
+                      What languages do you use for website development?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What type of websites do you develop?
+                      What type of websites do you develop?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    How long does a website take to build?
+                      How long does a website take to build?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -387,44 +396,63 @@ const WebsiteDev = () => {
           </div>
         </div>
 
-        <div className='flex items-start justify-center discusion-form discusion-form1'>
-           <div className="w-full  mrs mrs1">
+        <div className="flex items-start justify-center discusion-form discusion-form1">
+          <div className="w-full  mrs mrs1">
             <h3>Let’s Discuss your Project</h3>
             <form action="">
-                <div className=" flex items-start common-form">
-                     <div className="first-form">  
-                         <div className="form-field">
-                            <input type="text" placeholder="Name*" />
-                         </div>
-                         <div className="form-field mt-5">
-                            <input type="text" placeholder="Phone number*" />
-                         </div>
-                         <div className="form-field mt-5">
-                            <input type="email" placeholder="Email Address*" />
-                         </div>
-                         <div>
-                  <button>Submit <img className="tih" src={arrow1} alt="" /></button>
-               </div>
-                     </div>
-                     <div className="second-form">
-                        <div className="form-filed1">
-                            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
-                        </div>
-                     </div>
+              <div className=" flex items-start common-form">
+                <div className="first-form">
+                  <div className="form-field">
+                    <input type="text" placeholder="Name*" />
+                  </div>
+                  <div className="form-field mt-5">
+                    <input type="text" placeholder="Phone number*" />
+                  </div>
+                  <div className="form-field mt-5">
+                    <input type="email" placeholder="Email Address*" />
+                  </div>
+                  <div>
+                    <button>
+                      Submit <img className="tih" src={arrow1} alt="" />
+                    </button>
+                  </div>
                 </div>
-               
+                <div className="second-form">
+                  <div className="form-filed1">
+                    <textarea
+                      placeholder="Message"
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
             </form>
-        </div>
-        <div className='w-full   loofs loofs1'>
-           {/* <h3>How can we help?</h3>
+          </div>
+          <div className="w-full   loofs loofs1">
+            {/* <h3>How can we help?</h3>
            <p>Are you looking for a reliable mobile application development company? Contact our expert team — we will help your business build a successful mobile strategy and create convenient omnichannel experience for all your customers and clients.</p>
            <button>Let’s Talk <img className="tih" src={arrow1} alt="" /></button> */}
-             <div className=" loofs-sect1">
-                  <h2>Would You Like To Talk To Our Experts About Your Project?</h2>
-                  <p> You can send us the details of your project, and a member of our team will contact you shortly.</p>
-                  <button>Request A Call <img  width={12} className="inline ml-1" src={arrow4} alt="arrow3" /></button>
-             </div>
-        </div>
+            <div className=" loofs-sect1">
+              <h2>Would You Like To Talk To Our Experts About Your Project?</h2>
+              <p>
+                {" "}
+                You can send us the details of your project, and a member of our
+                team will contact you shortly.
+              </p>
+              <button>
+                Request A Call{" "}
+                <img
+                  width={12}
+                  className="inline ml-1"
+                  src={arrow4}
+                  alt="arrow3"
+                />
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </>
