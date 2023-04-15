@@ -317,8 +317,9 @@
 
 /* ==============Our Services css start================== */
 
-#splide04-track {
+.home312 .splide__track {
   overflow: visible !important;
+  overflow-x: hidden ;
 }
 
 .serviceCard::before {

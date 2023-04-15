@@ -175,7 +175,7 @@ const Navbar = () => {
                           <p className="cpmpa">Our Team</p>
                           <p className="cpmpa">Social Cause - NGO</p>
                           <p className="cpmpa">Blog</p>
-                          <p className="cpmpa">Contact Us</p>
+                        <NavLink onClick={toggleService2} to="/contact"><p className="cpmpa">Contact Us</p></NavLink>
                         </div>
                         <div className="second-compan mr-5">
                           <h5 className="cp">Insight</h5>

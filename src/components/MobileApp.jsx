@@ -11,15 +11,10 @@ import doubleMob from "../images/doubleMob.png";
 import { NavLink } from "react-router-dom";
 import arrow1 from "../images/arrow1.png";
 import process from "../images/process.jpg";
-// import unlock from "../images/unlock.png";
-// import unlock1 from "../images/unlock1.png";
-// import unlock2 from "../images/unlock2.png";
-// import unlock3 from "../images/unlock3.png";
-// import unlock4 from "../images/unlock4.png";
-import col1 from '../images/col1.png';
-import col2 from '../images/col2.png';
-import col3 from '../images/col3.png';
-import col4 from '../images/col4.png';
+import col1 from "../images/col1.png";
+import col2 from "../images/col2.png";
+import col3 from "../images/col3.png";
+import col4 from "../images/col4.png";
 import {
   Accordion,
   AccordionItem,
@@ -84,12 +79,9 @@ const MobileApp = () => {
           </div>
         </div>
         <div className="mobile-app">
-          <img className="app" src={app} alt="app" />
-          {/* <h2>Why choose us?</h2>
-          <p className="part mt-1">
-            We have a wide variety of certified partners and a customer-centric
-          </p> */}
-          {/* <p className="part">team to manage your projects end-to-end.</p> */}
+          <marquee behavior="scroll" direction="right" scrollamount="20">
+            <img className="app" src={app} alt="app" />
+          </marquee>
           <div className="deliver">
             <div className="first-delivery">
               <h3>
@@ -192,13 +184,20 @@ const MobileApp = () => {
         </div>
 
         <div className="custom-s">
-          <h2>Why choose our custom application <br /> development service?</h2>
-          <p>A quality website offers several chances to demonstrate your authenticity. When you choose us, you can relax knowing that we'll take care of your website's design and development needs as well as SEO services to improve website ranking.</p>
+          <h2>
+            Why choose our custom application <br /> development service?
+          </h2>
+          <p>
+            A quality website offers several chances to demonstrate your
+            authenticity. When you choose us, you can relax knowing that we'll
+            take care of your website's design and development needs as well as
+            SEO services to improve website ranking.
+          </p>
           <div className="colbo">
-              <img src={col1} alt="" />
-              <img src={col2} alt="" />
-              <img src={col3} alt="" />
-              <img src={col4} alt="" />
+            <img src={col1} alt="" />
+            <img src={col2} alt="" />
+            <img src={col3} alt="" />
+            <img src={col4} alt="" />
           </div>
         </div>
 

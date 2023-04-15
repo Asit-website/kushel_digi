@@ -1,17 +1,16 @@
 import React, { useState } from "react";
-import loc from "../images/loc.png";
-import email from "../images/email.png";
-import call from "../images/call.png";
+import cuf1 from '../images/cuf1.png';
+import cuf2 from '../images/cuf2.png';
+import cuf3 from '../images/cuf3.png';
 const Contact = () => {
   const [tab, setTab] = useState(1);
 
   const tabAnother = (e) => {
     e.preventDefault();
     setTab(1);
-    document.getElementById("abc").style.color = "#1C6BFF";
+    document.getElementById("abc").style.color = "#085881";
     document.getElementById("def").style.color = "#0E2B3D";
-
-    document.getElementById("abc").style.borderBottom = "3px solid #1C6BFF";
+    document.getElementById("abc").style.borderBottom = "3px solid #085881";
     document.getElementById("def").style.borderBottom = "none";
   };
 
@@ -19,10 +18,9 @@ const Contact = () => {
     e.preventDefault();
     setTab(2);
     document.getElementById("abc").style.color = "#0E2B3D";
-    document.getElementById("def").style.color = "#1C6BFF";
-
+    document.getElementById("def").style.color = "#085881";
     document.getElementById("abc").style.borderBottom = "none";
-    document.getElementById("def").style.borderBottom = "3px solid #1C6BFF";
+    document.getElementById("def").style.borderBottom = "3px solid #085881";
   };
   return (
     <>
@@ -80,21 +78,21 @@ const Contact = () => {
               tab === 1 && (
                 <div className="location-section">
                   <div className="loc-section">
-                    <img src={loc} alt="loc" />
+                    <img src={cuf1} alt="loc" />
                     <div className="loc-para">
                       <h3>OUR LOCATION</h3>
                       <p>g-9,first Floor, Sector 63, Noida</p>
                     </div>
                   </div>
                   <div className="loc-section loc-section1">
-                    <img src={email} alt="email" />
+                    <img src={cuf2} alt="email" />
                     <div className="loc-para">
                       <h3>sEND US MAIL</h3>
                       <p>shubham@kusheldigi.com</p>
                     </div>
                   </div>
                   <div className="loc-section loc-section1">
-                    <img src={call} alt="call" />
+                    <img src={cuf3} alt="call" />
                     <div className="loc-para">
                       <h3>CALL US</h3>
                       <p>+91 9045301702</p>
