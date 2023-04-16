@@ -70,6 +70,7 @@ import re1 from "../images/re1.png";
 import arrow from "../images/arrow.png";
 import singi from '../images/singi.png';
 import { NavLink } from "react-router-dom";
+
 const Home = () => {
   let dev = "App";
   let dev1 = "Development";
