@@ -36,7 +36,7 @@ const Navbar = () => {
     document.querySelector(".ser-nav10").classList.toggle("hidden");
   };
 
-  const toggleService3 = () =>{
+  const toggleService3 = () => {
     document.querySelector(".ser-nav-resource").classList.toggle("hidden");
   }
   // const shFunc = (index) => {
@@ -186,7 +186,7 @@ const Navbar = () => {
                           <p className="cpmpa">Our Clients</p>
                           <p className="cpmpa">Testimonials</p>
                           <p className="cpmpa">Career with us</p>
-                         <NavLink onClick={toggleService2} to="/staff"><p className="cpmpa">STAFF AUGMENTATION</p></NavLink>
+                          <NavLink onClick={toggleService2} to="/staff"><p className="cpmpa">STAFF AUGMENTATION</p></NavLink>
                         </div>
                       </div>
                       <div className="second-compan1">
@@ -196,7 +196,7 @@ const Navbar = () => {
                             Want to validate your mobile app idea? Tell us a
                             little bit about your requirements
                           </p>
-                         <NavLink  onClick={toggleService2} to="/contact"><button className="wanna-btn">Contact Us</button></NavLink>
+                          <NavLink onClick={toggleService2} to="/contact"><button className="wanna-btn">Contact Us</button></NavLink>
                         </div>
                       </div>
                     </div>
@@ -309,10 +309,12 @@ const Navbar = () => {
                             </p>
                           </div>
                           <div className="w-full mt-7">
-                            <div className="flex items-center">
-                              <img src={marketing} alt="" />
-                              <h4>Digital Marketing</h4>
-                            </div>
+                            <NavLink onClick={toggleService} to="/digitalmarket">
+                              <div className="flex items-center">
+                                <img src={marketing} alt="" />
+                                <h4>Digital Marketing</h4>
+                              </div>
+                            </NavLink>
                             <p className="yamini uppercase">
                               SEO <span>|</span> SMO <span>|</span> PPC
                             </p>
@@ -603,35 +605,35 @@ const Navbar = () => {
                     }
                   }}
                 >
-                <div
-                  onClick={toggleService3}
-                  className="flex items-center cursor-pointer"
-                >
-                  <p className="sar" to="">
-                    Resources
-                  </p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="15"
-                    fill="currentColor"
-                    className="ml-1 bi bi-chevron-down"
-                    viewBox="0 0 16 16"
+                  <div
+                    onClick={toggleService3}
+                    className="flex items-center cursor-pointer"
                   >
-                    <path
-                      fillRule="evenodd"
-                      d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-                    />
-                  </svg>
-                </div>
-                <div className="ser-nav-resource hidden">
-                   <div className="resource">
-                       <p className="resource1">Blog</p>
-                       <p className="resource1">News</p>
-                       <p className="resource1">Case Study</p>
-                       <p className="resource1">Events</p>
-                   </div>
-                </div>
+                    <p className="sar" to="">
+                      Resources
+                    </p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="15"
+                      height="15"
+                      fill="currentColor"
+                      className="ml-1 bi bi-chevron-down"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
+                  </div>
+                  <div className="ser-nav-resource hidden">
+                    <div className="resource">
+                      <p className="resource1">Blog</p>
+                      <p className="resource1">News</p>
+                      <p className="resource1">Case Study</p>
+                      <p className="resource1">Events</p>
+                    </div>
+                  </div>
                 </OutsideClickHandler>
               </li>
               <li className="mar">
