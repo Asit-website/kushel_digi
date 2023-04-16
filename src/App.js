@@ -17,6 +17,8 @@ import OurPartner from "./components/OurPartner";
 import Playbook from "./components/Playbook";
 import Kickiz from "./components/Kickiz";
 import DigitalMarketing from "./components/DigitalMarketing";
+import Uiux from "./components/Uiux";
+
 
 function App() {
   return (
@@ -24,13 +26,15 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/staff" element={<StafArgu />} />
-          <Route path="/service" element={<Services />} />
-          <Route path="/mobileApp" element={<MobileApp />} />
-          <Route path="/website" element={<WebsiteDev />} />
-          <Route path="/digitalmarket" element={<DigitalMarketing />} />
+
+           <Route path="/" element={<Home/>}/>
+           <Route path="/contact" element={<Contact/>}/>
+           <Route path="/staff" element={<StafArgu/>}/>
+           <Route path="/service" element={<Services/>}/>
+           <Route path="/mobileApp" element={<MobileApp/>}/>
+           <Route path="/website" element={<WebsiteDev/>}/>
+           <Route path="/digitalmarket" element={<DigitalMarketing />} />
+           <Route path="/uiux"  element={<Uiux/>}/>
 
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/refund" element={<Refund />} />

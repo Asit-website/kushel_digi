@@ -68,7 +68,7 @@ import box16 from "../images/box16.png";
 import re from "../images/re.png";
 import re1 from "../images/re1.png";
 import arrow from "../images/arrow.png";
-import vica from "../images/vica.png";
+import singi from '../images/singi.png';
 import { NavLink } from "react-router-dom";
 const Home = () => {
   let dev = "App";
@@ -91,7 +91,6 @@ const Home = () => {
 
   let php1 = "PHP";
   let wordpress1 = "Wordpress";
-  let drupal1 = "Drupal";
   let laravel1 = "Laravel";
 
   let big = "Bigcommerce";
@@ -142,7 +141,7 @@ const Home = () => {
   const tabAnother = (e) => {
     e.preventDefault();
     setTab(1);
-    document.getElementById("one").style.background = "#3C83CB";
+    document.getElementById("one").style.background = "#085881";
     document.getElementById("two").style.background = "none";
     document.getElementById("three").style.background = "none";
     document.getElementById("fourth").style.background = "none";
@@ -167,7 +166,7 @@ const Home = () => {
     e.preventDefault();
     setTab(2);
     document.getElementById("one").style.background = "none";
-    document.getElementById("two").style.background = "#3C83CB";
+    document.getElementById("two").style.background = "#085881";
     document.getElementById("three").style.background = "none";
     document.getElementById("fourth").style.background = "none";
 
@@ -193,7 +192,7 @@ const Home = () => {
 
     document.getElementById("one").style.background = "none";
     document.getElementById("two").style.background = "none";
-    document.getElementById("three").style.background = "#3C83CB";
+    document.getElementById("three").style.background = "#085881";
     document.getElementById("fourth").style.background = "none";
 
     document.getElementById("one").style.padding = "0px 0px";
@@ -219,7 +218,7 @@ const Home = () => {
     document.getElementById("one").style.background = "none";
     document.getElementById("two").style.background = "none";
     document.getElementById("three").style.background = "none";
-    document.getElementById("fourth").style.background = "#3C83CB";
+    document.getElementById("fourth").style.background = "#085881";
 
     document.getElementById("one").style.padding = "0px 0px";
     document.getElementById("two").style.padding = "0px 0px";
@@ -348,6 +347,7 @@ const Home = () => {
                     fluter={sketch1}
                     react={illustrator}
                     kotlin={Photoshop}
+                    link = {"uiux"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -365,6 +365,7 @@ const Home = () => {
                     c={commerce}
                     d={mag}
                     e={laravel1}
+                    link = {"service"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -382,6 +383,7 @@ const Home = () => {
                     c={wordpress1}
                     d={node1}
                     e={"React js"}
+                    link={"website"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -399,6 +401,7 @@ const Home = () => {
                     c={c}
                     d={d}
                     e={e}
+                    link = {"mobileApp"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -413,11 +416,9 @@ const Home = () => {
                     apple={pay2}
                     fluter={pay3}
                     class={"you"}
+                   link = {"#"}
                   />
                 </SplideSlide>
-                {/* <SplideSlide>
-                  <ServiceCard />
-                </SplideSlide> */}
               </Splide>
             </div>
           </div>
@@ -667,23 +668,23 @@ const Home = () => {
               <h1 className="font-bold text-gray-700">OUR WORKING PROCESS</h1>
             </div>
             <div className="home612">
-              <div className="home6121 flex justify-between items-center mb-4">
+              {/* <div className="home6121 flex justify-between items-center mb-4">
                 <p>We Get Your Requirements</p>
                 <p></p>
                 <p>Designing & Get Conformation</p>
                 <p></p>
                 <p className="mr-5">Testing & Maintenance</p>
-              </div>
+              </div> */}
               <div className="home6122">
-                <img className="w-full h-full" src={finch} alt="mesr" />
+                <img className="w-full h-full signgi" src={singi} alt="mesr" />
               </div>
-              <div className="home6121 flex justify-between items-center mt-4">
+              {/* <div className="home6121 flex justify-between items-center mt-4">
                 <p></p>
                 <p className="p2">Market Research & Feasibility Analysis</p>
                 <p></p>
                 <p className="p4">Coding & Development</p>
                 <p></p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -704,7 +705,7 @@ const Home = () => {
               <DevCard heading={tag1} imgSrc={"/static/images/a11.png"} />
               <DevCard heading={tag2} imgSrc={"/static/images/a12.png"} />
               <DevCard heading={tag3} imgSrc={"/static/images/a13.png"} />
-              <DevCard heading={tag4} imgSrc={"/static/images/a14.png"} />
+              {/* <DevCard heading={tag4} imgSrc={"/static/images/a14.png"} /> */}
             </div>
           </div>
         </div>

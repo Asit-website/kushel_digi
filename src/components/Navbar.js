@@ -109,7 +109,7 @@ const Navbar = () => {
 
             <div className="flex items-center ml-10">
               <img src="/static/images/c1.png" alt="alt" />
-              <p className="ml-2">+ 1 </p>
+              <p className="ml-2">+15855662070</p>
             </div>
           </div>
         </header>
@@ -175,7 +175,7 @@ const Navbar = () => {
                           <p className="cpmpa">Our Team</p>
                           <p className="cpmpa">Social Cause - NGO</p>
                           <p className="cpmpa">Blog</p>
-                          <p className="cpmpa">Contact Us</p>
+                        <NavLink onClick={toggleService2} to="/contact"><p className="cpmpa">Contact Us</p></NavLink>
                         </div>
                         <div className="second-compan mr-5">
                           <h5 className="cp">Insight</h5>
@@ -299,10 +299,10 @@ const Navbar = () => {
                             </p>
                           </div>
                           <div className="w-full mt-7">
-                            <div className="flex items-center">
+                           <NavLink onClick={toggleService} to="/uiux"> <div className="flex items-center">
                               <img src={uiux} alt="" />
                               <h4>UI/UX Design</h4>
-                            </div>
+                            </div></NavLink>
                             <p className="yamini">
                               Figma <span>|</span> Adobe XD <span>|</span>{" "}
                               Sketch <span>|</span> Affinity
@@ -637,7 +637,7 @@ const Navbar = () => {
                 </OutsideClickHandler>
               </li>
               <li className="mar">
-                <NavLink to="/contact">
+                <NavLink className="bts-naba" to="/contact">
                   <button className="sar">Contact Us</button>
                 </NavLink>
               </li>

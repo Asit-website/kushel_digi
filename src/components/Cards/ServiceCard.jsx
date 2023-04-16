@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 const ServiceCard = (props) => {
     return (
@@ -33,12 +34,12 @@ const ServiceCard = (props) => {
                         </div>
                     </div>
                     <div className="s-card2 absolute bottom-0">
-                        <button className="btn btn1 btn2">
+                       <NavLink to={`/${props.link}`}><button className="btn btn1 btn2">
                             <span className='mr-2'>Read More</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
                                 <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                             </svg>
-                        </button>
+                        </button></NavLink>
                     </div>
                 </div>
             </div>

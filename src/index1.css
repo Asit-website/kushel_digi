@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 .box:hover {
-  background-color: #3c83cb;
+  background-color: #085881;
 }
 .box:hover .sard h3 {
   color: #ffffff;
@@ -295,8 +295,8 @@
   content: "";
   display: block;
   width: 108%;
-  height: 1px;
-  background-color: #3c83cb;
+  height: 2px;
+  background-color: #085881;
   margin: 2rem 0;
   z-index: -1;
   position: absolute;
@@ -319,6 +319,7 @@
 
 #splide01-track {
   overflow: visible !important;
+  overflow-x: hidden ;
 }
 
 .serviceCard::before {
