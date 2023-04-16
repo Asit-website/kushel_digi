@@ -1,4 +1,35 @@
 import React from 'react'
+import VectorArrow from '../digimarket assets/Vector.svg'
+import KickProduction1 from '../digimarket assets/0109_Kick-Eez-Production 1.png'
+import KickProduction2 from '../digimarket assets/0109_Kick-Eez-Production 1 (1).png'
+import KickProduction3 from '../digimarket assets/0109_Kick-Eez-Production 1 (2).png'
+import KickProduction4 from '../digimarket assets/0109_Kick-Eez-Production 2.png'
+
+import Close1 from '../digimarket assets/close 1.svg'
+import Group72322 from '../digimarket assets/Group 72322.svg'
+import Group72323 from '../digimarket assets/Group 72323.svg'
+import Group72327 from '../digimarket assets/Group 72327.svg'
+
+import check1 from '../digimarket assets/check 1.svg'
+import check4 from '../digimarket assets/check (1) 4.svg'
+
+import Rectangle17725 from '../digimarket assets/Rectangle 17725.png'
+import Rectangle17726 from '../digimarket assets/Rectangle 17726.png'
+import Ellipse37 from '../digimarket assets/Ellipse 37.png'
+
+import Group72437 from '../digimarket assets/Group 72437.svg'
+import Speed1 from '../digimarket assets/speed 1.svg'
+import ContentWriting1 from '../digimarket assets/content-writing 1.svg'
+import Search1 from '../digimarket assets/search 1.svg'
+import SaveMoney1 from '../digimarket assets/save-money 1.svg'
+import Test1 from '../digimarket assets/test 1.svg'
+
+import Group72246 from '../digimarket assets/Group 72246.svg'
+import Arrow from '../digimarket assets/arrow.svg'
+import Vector1 from '../digimarket assets/Vector (1).png'
+import Vector2 from '../digimarket assets/Vector (2).png'
+import Vector3 from '../digimarket assets/Vector (3).png'
+import Vector from '../digimarket assets/Vector.png'
 
 function DigitalMarketing() {
     return (
@@ -14,7 +45,7 @@ function DigitalMarketing() {
                         {/* <!-- input for email --> */}
                         <div className="input">
                             <input type="email" placeholder="Enter your business e-mail" />
-                            <button>SCHEDULE YOUR FREE STRATEGY SESSION <img src="./assets/Vector.svg" alt="" />
+                            <button>SCHEDULE YOUR FREE STRATEGY SESSION <img src={VectorArrow} alt="" />
                             </button>
                         </div>
                     </div>
@@ -24,23 +55,23 @@ function DigitalMarketing() {
                     <hr className="blackLine" />
                     <div className="whatwedo__cards">
                         <figure className="card">
-                            <img src="./assets/0109_Kick-Eez-Production 1.png" alt="What we Do" />
+                            <img src={KickProduction1} alt="What we Do" />
                             <figcaption>Have you <strong>spent thousands</strong> of dollars without seeing any qualified leads?
                             </figcaption>
                         </figure>
                         <figure className="card">
-                            <img src="./assets/0109_Kick-Eez-Production 1 (1).png" alt="What we Do" />
+                            <img src={KickProduction2} alt="What we Do" />
                             <figcaption>Are you <strong>pumping money</strong> into digital marketing but aren’t sure if it’s
                                 actually working?
                             </figcaption>
                         </figure>
                         <figure className="card">
-                            <img src="./assets/0109_Kick-Eez-Production 1 (2).png" alt="What we Do" />
+                            <img src={KickProduction3} alt="What we Do" />
                             <figcaption>Do you feel <strong>frustated</strong> by the lack
                                 of marketing results?</figcaption>
                         </figure>
                         <figure className="card">
-                            <img src="./assets/0109_Kick-Eez-Production 2.png" alt="What we Do" />
+                            <img src={KickProduction4} alt="What we Do" />
                             <figcaption>Are you <strong>bouncing</strong> from one <strong>digtial marketing</strong> agency to
                                 another trying to see real
                                 results?</figcaption>
@@ -71,7 +102,7 @@ function DigitalMarketing() {
                         <div className="package-card">
                             <div className="package-card__heading">
                                 <h2 style={{ color: "#FFBA31" }}>Basic</h2>
-                                <img src="./assets/Group 72322.svg" alt="not found" />
+                                <img src={Group72322} alt="not found" />
                             </div>
                             <div className="package-card__text">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -84,33 +115,33 @@ function DigitalMarketing() {
                                 <button onclick="showBenefits()">See Benefits</button>
                             </div>
                             <div className="package-card__benefits">
-                                <img className="package-card__benefits__close" src="./assets/close 1.svg" alt="" />
+                                <img className="package-card__benefits__close" src={Close1} alt="" />
                                 <ul>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />In-Depth Site Analysis</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Duplicate Content Check</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Canonicalization</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Xml Sitemap/Analysis</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Google Webmaster Tools Set Up
+                                    <li><img src={check4} alt="" />In-Depth Site Analysis</li>
+                                    <li><img src={check4} alt="" />Duplicate Content Check</li>
+                                    <li><img src={check4} alt="" />Canonicalization</li>
+                                    <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
+                                    <li><img src={check4} alt="" />Google Webmaster Tools Set Up
                                         (if not setup)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Google Analytics set up
+                                    <li><img src={check4} alt="" />Google Analytics set up
                                         (if not set up)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Title & Meta Tags Optimization
+                                    <li><img src={check4} alt="" />Title & Meta Tags Optimization
                                         ( 5 Pages )</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Existing Web Content Optimization</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Fresh Web Content Suggestions* (writing
+                                    <li><img src={check4} alt="" />Existing Web Content Optimization</li>
+                                    <li><img src={check4} alt="" />Fresh Web Content Suggestions* (writing
                                         charges
                                         extra)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Schema Implemantation for Contact Address
+                                    <li><img src={check4} alt="" />Schema Implemantation for Contact Address
                                     </li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Geo Targeting (via GWT & Code)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Xml Sitemap/Analysis</li>
+                                    <li><img src={check4} alt="" />Geo Targeting (via GWT & Code)</li>
+                                    <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
                                 </ul>
                             </div>
                         </div>
                         <div className="package-card">
                             <div className="package-card__heading">
                                 <h2 style={{ color: "#408EE9" }}>Growth</h2>
-                                <img src="./assets/Group 72323.svg" alt="not found" />
+                                <img src={Group72323} alt="not found" />
                             </div>
                             <div className="package-card__text">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -123,33 +154,33 @@ function DigitalMarketing() {
                                 <button onclick="showBenefits()">See Benefits</button>
                             </div>
                             <div className="package-card__benefits">
-                                <img className="package-card__benefits__close" src="./assets/close 1.svg" alt="" />
+                                <img className="package-card__benefits__close" src={Close1} alt="" />
                                 <ul>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />In-Depth Site Analysis</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Duplicate Content Check</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Canonicalization</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Xml Sitemap/Analysis</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Google Webmaster Tools Set Up
+                                    <li><img src={check4} alt="" />In-Depth Site Analysis</li>
+                                    <li><img src={check4} alt="" />Duplicate Content Check</li>
+                                    <li><img src={check4} alt="" />Canonicalization</li>
+                                    <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
+                                    <li><img src={check4} alt="" />Google Webmaster Tools Set Up
                                         (if not setup)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Google Analytics set up
+                                    <li><img src={check4} alt="" />Google Analytics set up
                                         (if not set up)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Title & Meta Tags Optimization
+                                    <li><img src={check4} alt="" />Title & Meta Tags Optimization
                                         ( 5 Pages )</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Existing Web Content Optimization</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Fresh Web Content Suggestions* (writing
+                                    <li><img src={check4} alt="" />Existing Web Content Optimization</li>
+                                    <li><img src={check4} alt="" />Fresh Web Content Suggestions* (writing
                                         charges
                                         extra)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Schema Implemantation for Contact Address
+                                    <li><img src={check4} alt="" />Schema Implemantation for Contact Address
                                     </li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Geo Targeting (via GWT & Code)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Xml Sitemap/Analysis</li>
+                                    <li><img src={check4} alt="" />Geo Targeting (via GWT & Code)</li>
+                                    <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
                                 </ul>
                             </div>
                         </div>
                         <div className="package-card">
                             <div className="package-card__heading">
                                 <h2 style={{ color: "#ED6868" }}>Booster</h2>
-                                <img src="./assets/Group 72327.svg" alt="not found" />
+                                <img src={Group72327} alt="not found" />
                             </div>
                             <div className="package-card__text">
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -162,26 +193,26 @@ function DigitalMarketing() {
                                 <button onclick="showBenefits()">See Benefits</button>
                             </div>
                             <div className="package-card__benefits">
-                                <img className="package-card__benefits__close" src="./assets/close 1.svg" alt="" />
+                                <img className="package-card__benefits__close" src={Close1} alt="" />
                                 <ul>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />In-Depth Site Analysis</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Duplicate Content Check</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Canonicalization</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Xml Sitemap/Analysis</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Google Webmaster Tools Set Up
+                                    <li><img src={check4} alt="" />In-Depth Site Analysis</li>
+                                    <li><img src={check4} alt="" />Duplicate Content Check</li>
+                                    <li><img src={check4} alt="" />Canonicalization</li>
+                                    <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
+                                    <li><img src={check4} alt="" />Google Webmaster Tools Set Up
                                         (if not setup)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Google Analytics set up
+                                    <li><img src={check4} alt="" />Google Analytics set up
                                         (if not set up)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Title & Meta Tags Optimization
+                                    <li><img src={check4} alt="" />Title & Meta Tags Optimization
                                         ( 5 Pages )</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Existing Web Content Optimization</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Fresh Web Content Suggestions* (writing
+                                    <li><img src={check4} alt="" />Existing Web Content Optimization</li>
+                                    <li><img src={check4} alt="" />Fresh Web Content Suggestions* (writing
                                         charges
                                         extra)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Schema Implemantation for Contact Address
+                                    <li><img src={check4} alt="" />Schema Implemantation for Contact Address
                                     </li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Geo Targeting (via GWT & Code)</li>
-                                    <li><img src="./assets/check (1) 4.svg" alt="" />Xml Sitemap/Analysis</li>
+                                    <li><img src={check4} alt="" />Geo Targeting (via GWT & Code)</li>
+                                    <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
                                 </ul>
                             </div>
                         </div>
@@ -199,20 +230,20 @@ function DigitalMarketing() {
                             <hr class="blueLine" style={{ marginInlineStart: 0 }} />
                         </div>
                         <div class="ourtalent-text__list">
-                            <p><img src="./assets/check 1.svg" alt="" />&nbsp; More qualified leads (and therefore more sales 💰)
+                            <p><img src={check1} alt="" />&nbsp; More qualified leads (and therefore more sales 💰)
                             </p>
-                            <p><img src="./assets/check 1.svg" alt="" />&nbsp; Save thousands of dollars from unproven strategies
+                            <p><img src={check1} alt="" />&nbsp; Save thousands of dollars from unproven strategies
                             </p>
-                            <p><img src="./assets/check 1.svg" alt="" />&nbsp; A website that converts 3x-5x higher 😀</p>
-                            <p><img src="./assets/check 1.svg" alt="" />&nbsp; Improved organic ranking</p>
-                            <p><img src="./assets/check 1.svg" alt="" />&nbsp; The right customers/clients</p>
-                            <p><img src="./assets/check 1.svg" alt="" />&nbsp; Increased company revenue 📈</p>
+                            <p><img src={check1} alt="" />&nbsp; A website that converts 3x-5x higher 😀</p>
+                            <p><img src={check1} alt="" />&nbsp; Improved organic ranking</p>
+                            <p><img src={check1} alt="" />&nbsp; The right customers/clients</p>
+                            <p><img src={check1} alt="" />&nbsp; Increased company revenue 📈</p>
                         </div>
                     </div>
                     <div class="ourtalent-image">
-                        <img src="./assets/Rectangle 17725.png" alt="not found" />
-                        <img src="./assets/Rectangle 17726.png" alt="" />
-                        <img src="./assets/Ellipse 37.png" alt="" />
+                        <img src={Rectangle17725} alt="not found" />
+                        <img src={Rectangle17726} alt="" />
+                        <img src={Ellipse37} alt="" />
                     </div>
 
                 </div>
@@ -222,7 +253,7 @@ function DigitalMarketing() {
                         <div class="process-container__card">
                             <div class="process-container__card__heading">
                                 <h3>Research</h3>
-                                <img src="./assets/Group 72437.svg" alt="" />
+                                <img src={Group72437} alt="" />
                             </div>
                             <div class="process-container__card__text">
                                 <p>When we kick-off an SEO campaign, your dedicated SEO consultant begins by doing a deep dive
@@ -238,7 +269,7 @@ function DigitalMarketing() {
                         <div class="process-container__card">
                             <div class="process-container__card__heading">
                                 <h3>Optimize</h3>
-                                <img src="./assets/speed 1.svg" alt="" />
+                                <img src={Speed1} alt="" />
                             </div>
                             <div class="process-container__card__text">
                                 <p>From IA to UX, we make hundreds of changes both big and small to your website to help Google
@@ -253,7 +284,7 @@ function DigitalMarketing() {
                         <div class="process-container__card">
                             <div class="process-container__card__heading">
                                 <h3>Content</h3>
-                                <img src="./assets/content-writing 1.svg" alt="" />
+                                <img src={ContentWriting1} alt="" />
                             </div>
                             <div class="process-container__card__text">
                                 <p>Your website content is what users count on to help educate and guide them through the
@@ -270,7 +301,7 @@ function DigitalMarketing() {
                         <div class="process-container__card">
                             <div class="process-container__card__heading">
                                 <h3>Keywords</h3>
-                                <img src="./assets/search 1.svg" alt="" />
+                                <img src={Search1} alt="" />
                             </div>
                             <div class="process-container__card__text">
                                 <p>Our meticulous keyword research process is at the heart of our SEO services. The specific
@@ -286,7 +317,7 @@ function DigitalMarketing() {
                             <div class="process-container__card__heading">
                                 <h3>Earned media
                                     & links</h3>
-                                <img src="./assets/save-money 1.svg" alt="" />
+                                <img src={SaveMoney1} alt="" />
                             </div>
                             <div class="process-container__card__text">
                                 <p>Earned media and off-page SEO are crucial services for getting your site in front of your
@@ -302,7 +333,7 @@ function DigitalMarketing() {
                         <div class="process-container__card">
                             <div class="process-container__card__heading">
                                 <h3>Testing</h3>
-                                <img src="./assets/test 1.svg" alt="" />
+                                <img src={Test1} alt="" />
                             </div>
                             <div class="process-container__card__text">
                                 <p>Getting relevant, qualified search traffic to your site is just the beginning of our SEO
@@ -329,7 +360,7 @@ function DigitalMarketing() {
                     <div className="faq-container__box">
                         <div className="faq-container__box__heading">
                             <h3>What is SEO?</h3>
-                            <img className="faq-container__box__heading__button" src="./assets/Group 72246.svg" alt="" />
+                            <img className="faq-container__box__heading__button" src={Group72246} alt="" />
                         </div>
                         <div className="faqAns">
                             <p>SEO stands for Search Engine Optimization. It is the process of optimizing your website to
@@ -344,7 +375,7 @@ function DigitalMarketing() {
                     <div className="faq-container__box">
                         <div className="faq-container__box__heading">
                             <h3>How much do SEO services cost?</h3>
-                            <img className="faq-container__box__heading__button" src="./assets/Group 72246.svg" alt="" />
+                            <img className="faq-container__box__heading__button" src={Group72246} alt="" />
                         </div>
                         <div className="faqAns">
                             <p>SEO services cost anywhere from $500 to $10,000 per month, depending on the size of your
@@ -359,7 +390,7 @@ function DigitalMarketing() {
                     <div className="faq-container__box">
                         <div className="faq-container__box__heading">
                             <h3>How does SEO work?</h3>
-                            <img className="faq-container__box__heading__button" src="./assets/Group 72246.svg" alt="" />
+                            <img className="faq-container__box__heading__button" src={Group72246} alt="" />
                         </div>
                         <div className="faqAns">
                             <p>SEO works by optimizing your website to increase its ranking in search engines like Google,
@@ -376,7 +407,7 @@ function DigitalMarketing() {
                     <div className="faq-container__box">
                         <div className="faq-container__box__heading">
                             <h3>How do I know which type of SEO service I need?</h3>
-                            <img className="faq-container__box__heading__button" src="./assets/Group 72246.svg" alt="" />
+                            <img className="faq-container__box__heading__button" src={Group72246} alt="" />
                         </div>
                         <div className="faqAns">
                             <p>There are many different types of SEO services, including on-page SEO, off-page SEO,
@@ -395,7 +426,7 @@ function DigitalMarketing() {
                     <div className="faq-container__box">
                         <div className="faq-container__box__heading">
                             <h3>What are SEO services?</h3>
-                            <img className="faq-container__box__heading__button" src="./assets/Group 72246.svg" alt="" />
+                            <img className="faq-container__box__heading__button" src={Group72246} alt="" />
                         </div>
                         <div className="faqAns">
                             <p>SEO services are the process of optimizing your website to increase organic traffic
@@ -410,7 +441,7 @@ function DigitalMarketing() {
                     <div className="faq-container__box ">
                         <div className="faq-container__box__heading">
                             <h3>Is maintaining the SEO is costly?</h3>
-                            <img className="faq-container__box__heading__button" src="./assets/Group 72246.svg" alt="" />
+                            <img className="faq-container__box__heading__button" src={Group72246} alt="" />
                         </div>
                         <div className="faqAns">
                             <p>SEO is a long-term strategy that focuses on improving your website’s ranking in
@@ -431,7 +462,6 @@ function DigitalMarketing() {
             {/* <!--End of FAQ section --> */}
 
             {/* <!-- Contact Us Section --> */}
-
             <section>
                 <div className="bookus">
                     <div className="bookus-heading">
@@ -439,7 +469,7 @@ function DigitalMarketing() {
                         <p>Book an appoinment with our team through google meet / Zoom call</p>
                     </div>
                     <div className="bookus-button">
-                        <button>Schedule a meeting &nbsp; <img src="./assets/arrow.svg" alt="" /></button>
+                        <button>Schedule a meeting &nbsp; <img src={Arrow} alt="" /></button>
                     </div>
                 </div>
                 <div className="connectus">
@@ -473,7 +503,7 @@ function DigitalMarketing() {
 
                                 {/* <!-- Captcha Checkbox --> */}
                                 <div className="contactus-form__input">
-                                    <button>Submit &nbsp; <img src="./assets/arrow.svg" alt="" /></button>
+                                    <button>Submit &nbsp; <img src={Arrow} alt="" /></button>
                                 </div>
 
                             </form>
@@ -488,8 +518,8 @@ function DigitalMarketing() {
                         <div className="contactus-container__right__Address active">
                             <div className="contactus-container__right__Address__details">
                                 <div className="contactus-container__right__Address__details__icon">
-                                    <img src="./assets/Vector (1).png" alt="" />
-                                    <img src="./assets/Vector.png" alt="" />
+                                    <img src={Vector1} alt="" />
+                                    <img src={Vector} alt="" />
                                 </div>
                                 <div className="contactus-container__right__Address__details__text">
                                     <p>OUR LOCATION</p>
@@ -498,8 +528,8 @@ function DigitalMarketing() {
                             </div>
                             <div className="contactus-container__right__Address__details">
                                 <div className="contactus-container__right__Address__details__icon">
-                                    <img src="./assets/Vector (2).png" alt="" />
-                                    <img src="./assets/Vector.png" alt="" />
+                                    <img src={Vector2} alt="" />
+                                    <img src={Vector} alt="" />
                                 </div>
                                 <div className="contactus-container__right__Address__details__text">
                                     <p>SEND US MAIL</p>
@@ -508,8 +538,8 @@ function DigitalMarketing() {
                             </div>
                             <div className="contactus-container__right__Address__details">
                                 <div className="contactus-container__right__Address__details__icon">
-                                    <img src="./assets/Vector (3).png" alt="" />
-                                    <img src="./assets/Vector.png" alt="" />
+                                    <img src={Vector3} alt="" />
+                                    <img src={Vector} alt="" />
                                 </div>
                                 <div className="contactus-container__right__Address__details__text">
                                     <p>CALL US</p>
@@ -528,36 +558,7 @@ function DigitalMarketing() {
                 </div>
 
             </section>
-
-            {/* <!-- Footer Section --> */}
-            <section className="footer">
-                <div className="footer-top">
-                    <img src="./assets/Kds logo white 1.svg" alt="" />
-
-                    <div className="footer-top__address">
-                        <img src="./assets/Group 561.svg" alt="" /> &nbsp; <p>G-9,first Floor, Sector 63, Noida</p>
-                    </div>
-                    <div className="footer-top__address">
-                        <img src="./assets/Group 72202.svg" alt="" /> &nbsp; <p>G-9,first Floor, Sector 63, Noida</p>
-                    </div>
-                    <div className="footer-top__address">
-                        <img src="./assets/Group 72201.svg" alt="" /> &nbsp; <p>G-9,first Floor, Sector 63, Noida</p>
-                    </div>
-                </div>
-                <div className="footer-mid">
-                    <p>© 2023 Kusheldigi. All rights reserved.</p>
-                    <p>Follow Us On</p>
-                </div>
-
-                <div className="footer-bottom">
-                    <p>About Us | Insights | Blog | Privacy Policy | Sitemap</p>
-                    <img src="./assets/Group 71734 1.svg" alt="" />
-                </div>
-                <div className="bluemap">
-                    <img src="./assets/bluemap.png" alt="" />
-                </div>
-            </section>
-            {/* <!-- End of Footer Section --> */}
+            {/* <!-- End of Contact Us Section --> */}
         </>
     )
 }
