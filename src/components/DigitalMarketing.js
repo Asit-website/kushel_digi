@@ -35,6 +35,7 @@ import Vector from '../digimarket assets/Vector.png'
 function DigitalMarketing() {
     return (
         <>
+          <div className="ser-main">
             <div className="digitalMarketing">
                 {/* // <!-- Hero Section --> */}
                 <section className="heroSection">
@@ -532,6 +533,7 @@ function DigitalMarketing() {
                 </section>
                 {/* <!-- End of Contact Us Section --> */}
 
+            </div>
             </div>
         </>
     )

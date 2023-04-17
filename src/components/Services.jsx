@@ -8,10 +8,11 @@ import bds from "../images/bds.png";
 import jones from "../images/jones.png";
 import ContactForm from "./common/ContactForm";
 import arrow1 from "../images/arrow1.png";
-import customized from "../images/customized.png";
-import customized1 from "../images/customized1.png";
-import customized2 from "../images/customized2.png";
-import customized3 from "../images/customized3.png";
+// import customized from "../images/customized.png";
+// import customized1 from "../images/customized1.png";
+// import customized2 from "../images/customized2.png";
+// import customized3 from "../images/customized3.png";
+import kushel1 from '../images/kushel1.png';
 import focus from "../images/focus.png";
 import { NavLink } from "react-router-dom";
 import {
@@ -23,6 +24,13 @@ import {
 } from "react-accessible-accordion";
 import Certified from "./common/Certified";
 import ecommerce1 from "../images/ecommerce1.png";
+import kushel2 from '../images/kushel2.png';
+import kushel3 from '../images/kushel3.png';
+import kushel4 from '../images/kushel4.png';
+import kushel5 from '../images/kushel5.png';
+import kushel6 from '../images/kushel6.png';
+import kushel7 from '../images/kushel7.png';
+import kushel8 from '../images/kushel8.png'
 const Services = () => {
   let heading = "www.2ndAmendment.com";
   let heading1 = "www.kickeez.com";
@@ -132,7 +140,85 @@ const Services = () => {
           </h2>
           <img src={ecommerce1} alt="ecommerce1" />
         </div>
-        <div className="customize">
+
+        <div className="tasking">
+          <h2>
+            Why <span>E-Commerce Development</span> with <br />
+            kushel digi solutions
+          </h2>
+          <div className="tasking-cards">
+            <div className="tasking-card">
+              <div className="tasking-box">
+                <div className="tasking-head">
+                  <img src={kushel1} alt="" />
+                  <p>Custom e Commerce <br /> Website Design</p>
+                </div>
+              </div>
+              <div className="tasking-box">
+                <div className="tasking-head">
+                  <img src={kushel2} alt="" />
+                  <p>Efficient Integrated <br /> Shipment Solution</p>
+                </div>
+              </div>
+              <div className="tasking-box">
+                <div className="tasking-head">
+                  <img src={kushel3} alt="" />
+                  <p>Inventory Management <br /> Made Easy</p>
+                </div>
+              </div>
+              <div className="tasking-box">
+                <div className="tasking-head">
+                  <img src={kushel4} alt="" />
+                  <p>Self Managable <br /> eCommerce Platform</p>
+                </div>
+              </div>
+            </div>
+            <div className="tasking-card">
+              <div className="tasking-box">
+                <div className="tasking-head">
+                  <img src={kushel5} alt="" />
+                  <p>Integrated Delivery <br /> Machanism</p>
+                </div>
+              </div>
+              <div className="tasking-box">
+                <div className="tasking-head">
+                  <img src={kushel6} alt="" />
+                  <p>Responsive eCommerce <br /> Websites</p>
+                </div>
+              </div>
+              <div className="tasking-box">
+                <div className="tasking-head">
+                  <img src={kushel7} alt="" />
+                  <p>Hassle Free Catalog <br /> Management</p>
+                </div>
+              </div>
+              <div className="tasking-box">
+                <div className="tasking-head">
+                  <img src={kushel8} alt="" />
+                  <p>Smart Order Management</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="bff">
+           <h2>Benefits of Our <span>E-Commerce</span> <br /> Development Services</h2>
+           <div className="faltus-card">
+              <div className="faltu-card">
+                   <div className="faltu-box">
+                      <div className="faltu-sard">
+                          <img src="" alt="" />
+                          <div className="faltu-head">
+                             <h4></h4>
+                          </div>
+                      </div>
+                   </div>
+              </div>
+           </div>
+        </div>
+
+        {/* <div className="customize">
           <h2>
             Customizing the platform of your choice to fit <br /> your goals
           </h2>
@@ -191,7 +277,7 @@ const Services = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="home5     poty poty1">
           <div className="home51 px-24 ">
