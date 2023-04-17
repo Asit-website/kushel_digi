@@ -345,35 +345,6 @@
   --secondary: #3c83cb;
   --primary: #ffff;
 }
-
-
-.digitalMarketing {
-
-/* * {
-  font-family: "Montserrat", sans-serif;
-  box-sizing: border-box;
-  min-width: fit-content;
-  overflow-x: hidden;
-} */
-
-
-
-/* Navbar */
-/* .navbar {
-  background-color: var(--primary);
-  display: flex;
-  width: 100%;
-  
-} */
-
-/* .logo {
-  padding: 1rem 3rem;
-}
-
-.logo img {
-  width: 10rem;
-} */
-
 .container {
   width: 100%;
   display: flex;
