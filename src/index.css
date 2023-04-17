@@ -2109,6 +2109,7 @@ form button {
 .bff{
   background-color: #F8F7F6;
   padding: 60px 100px;
+  position: relative;
 }
 .bff h2{
   font-size: 36px;
@@ -2118,6 +2119,73 @@ form button {
 }
 .bff span{
   font-weight: 700;
+}
+.faltu-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.faltu-box{
+  width: 230px;
+  max-width: 100%;
+  background-color: #D9D9D9;
+  border-radius: 20px;
+  padding: 14px 0px;
+  position: relative;
+  margin: 30px 50px;
+}
+.faltu-sard{
+  width: 280px;
+  background-color: #FFFFFF;
+  position: relative;
+  left: -25px;
+  height: 330px;
+  max-height: 100%;
+  padding: 40px 30px;
+}
+.faltu-sard:hover{
+  background-color: #085881;
+}
+
+.faltu-sard .drugs{
+  width: 35px;
+  display: block;
+  margin: auto;
+}
+.faltu-sard:hover .drugs{
+  filter: invert(1);
+}
+.faltu-sox{
+  max-width: 400px;
+  width: 100%;
+}
+.susil{
+  max-width: 800px;
+  width: 100%;
+  position: absolute;
+  left: -40px;
+}
+.faltu-head{
+  text-align: center;
+  margin-top: 15px;
+}
+.faltu-head h4{
+  color: #202020;
+  font-size: 16px;
+  font-family: 'Value Sans Medium' !important;
+  opacity: 0.9;
+}
+.faltu-head p{
+  margin-top: 12px;
+  font-size: 14px;
+  color: #202020;
+  opacity: 0.8;
+  line-height: 25px;
+}
+.faltu-sard:hover .faltu-head h4,
+.faltu-sard:hover .faltu-head p{
+  color: #ffffff;
+  opacity: 1;
 }
 /* =============unified css end================= */
 .second-ecom img {

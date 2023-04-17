@@ -457,8 +457,8 @@
 .hero-content h1 {
   font-weight: 400;
   margin-bottom: 0.7rem;
-  font-size: 2.85rem;
-  line-height: 3rem;
+  font-size: 3rem;
+  line-height: 3.75rem;
 }
 
 .blueLine {
@@ -487,6 +487,8 @@
 
 .input {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 75%;
   margin-top: 1rem;
 }
@@ -497,8 +499,9 @@
   margin-right: 1.5rem;
   color: #101010;
   line-height: 2.3rem;
-  width: 46%;
+  width: 35%;
   border-radius: 2px;
+  height: 60px;
   border: transparent;
 }
 
@@ -507,8 +510,9 @@
   font-size: 0.7rem;
   font-weight: 500;
   color: #101010;
-
+  font-size: 15px !important;
   opacity: 0.7;
+  font-family: 'Value Sans Medium' !important;
 }
 
 .input > button {
@@ -519,10 +523,12 @@
   color: white;
   padding: 1rem 0.5rem;
   cursor: pointer;
-  width: 51%;
+  width: 35%;
+  height: 60px;
   font-size: 0.7rem;
   border-radius: 2px;
   border: transparent;
+  font-family: 'Value Sans Medium' !important;
 }
 
 .input > button > img {
@@ -717,6 +723,7 @@
   display: flex;
   margin-bottom: 4rem;
   margin: 0rem 3rem;
+  padding: 5rem 0rem;
 }
 .digi-packages1{
   margin-top: 0rem !important;
