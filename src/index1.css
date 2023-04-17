@@ -339,22 +339,24 @@
 /* ==============Digital Marketing css start================== */
 
 /* Importing Font */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Prompt:ital,wght@0,300;0,400;1,500;1,600&family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&family=Prompt:wght@100;200;300;400;500;600&display=swap");
 
 :root {
   --secondary: #3c83cb;
   --primary: #ffff;
-  overflow-x: hidden;
 }
+
+
+.digitalMarketing {
 
 /* * {
   font-family: "Montserrat", sans-serif;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   min-width: fit-content;
   overflow-x: hidden;
 } */
+
+
 
 /* Navbar */
 /* .navbar {
@@ -435,11 +437,14 @@
   display: none;
 }
 
+
 /* HeroSection */
 
 .heroSection {
   display: flex;
   flex-direction: column;
+  position: relative;
+  top: 9rem;
 }
 
 .hero-container {
@@ -464,14 +469,15 @@
   align-items: center;
 
   width: 80%;
-  margin: 8rem 3rem;
+  margin: 7rem 3rem;
   padding: 0rem 2rem;
 }
 
 .hero-content h1 {
   font-weight: 400;
   margin-bottom: 0.7rem;
-  font-size: 2.45rem;
+  font-size: 2.85rem;
+  line-height: 3rem;
 }
 
 .blueLine {
@@ -495,6 +501,7 @@
 
 .hero-content p {
   font-size: 1.2rem;
+  margin: 1rem;
 }
 
 .input {
@@ -508,8 +515,8 @@
   padding-left: 0.8rem;
   margin-right: 1.5rem;
   color: #101010;
-  line-height: 3rem;
-  width: 40%;
+  line-height: 2.3rem;
+  width: 46%;
   border-radius: 2px;
   border: transparent;
 }
@@ -532,7 +539,7 @@
   padding: 1rem 0.5rem;
   cursor: pointer;
   width: 51%;
-  font-size: 0.65rem;
+  font-size: 0.7rem;
   border-radius: 2px;
   border: transparent;
 }
@@ -540,58 +547,6 @@
 .input > button > img {
   margin-left: 10px;
   width: 0.7rem;
-}
-
-/* What we do container */
-.whatwedo {
-  background-color: rgba(212, 214, 215, 0.2);
-}
-
-.whatwedo h1 {
-  text-align: center;
-  text-align: center;
-  font-size: 2rem;
-  font-weight: 600;
-  margin-top: 5rem;
-  margin-bottom: 0.6rem;
-}
-
-.whatwedo h1 span {
-  color: var(--secondary);
-}
-
-.whatwedo__cards {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  margin: 2rem auto;
-  justify-content: center;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  background-color: var(--primary);
-  border-radius: 10px;
-  width: 14.5rem;
-  height: 17rem;
-  margin: 0.6rem;
-}
-
-.card img {
-  width: 100%;
-  height: 12rem;
-  border-radius: 10px 10px 0 0;
-}
-
-.card figcaption {
-  padding: 1rem;
-  font-size: 0.7rem;
-  font-weight: 500;
-  color: #101010;
-  height: -webkit-fill-available;
 }
 
 /* Package section */
@@ -780,47 +735,39 @@
 }
 
 .ourtalent-text {
-  width: 50%;
-  padding: 5rem;
+  width: 55%;
+  padding: 5rem 2rem;
+  margin: 2rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .ourtalent-text__heading {
-  font-size: 1.9rem;
-  color: #404040;
-  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.14);
-  font-weight: 500;
-  margin-bottom: 0.5rem;
+  margin: 1rem 2rem;
 }
 
 .ourtalent-text__heading h1 {
-  font-size: 2rem;
-  font-weight: 500;
-  color: #404040;
-  margin: 1rem 0;
-  text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.14);
+  color: #202020;
+  opacity: 0.8;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .ourtalent-text__heading h1 span {
   color: var(--secondary);
 }
 
-.ourtalent-text__list p {
-  display: flex;
-  align-items: center;
-  line-height: 1.2rem;
-  font-size: 0.85rem;
-  font-weight: 500;
-}
-
-.ourtalent-text__list p img {
-  width: 1rem;
+.ourtalent-text__button button {
+  background: #085881;
+  color: var(--primary);
+  padding: 0.8rem 3rem;
 }
 
 .ourtalent-image {
   position: relative;
+  width: 45%;
 }
 
 .ourtalent-image img {
