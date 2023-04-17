@@ -35,7 +35,7 @@ import Vector from '../digimarket assets/Vector.png'
 function DigitalMarketing() {
     return (
         <>
-          <div className="ser-main">
+          <div className="ser-main digi-ser-main">
             <div className="digitalMarketing">
                 {/* // <!-- Hero Section --> */}
                 <section className="heroSection">
@@ -79,140 +79,30 @@ function DigitalMarketing() {
 
                 {/* <!-- Package Section --> */}
                 <section>
-                    <div className="packages">
-                        <div className="package-types">
-                            <ul>
-                                <li><a href="#">LOCAL SEO PACKAGES</a>
-                                </li>
-                                <li><a href="#">LOCAL SEARCH OPTIMATION</a>
-                                </li>
-                                <li><a href="#">CONTENT MARKETING</a>
-                                </li>
-                                <li><a href="#">OFF PAGE OPTIMAZTION</a>
-                                </li>
-                                <li><a href="#">MONTHLY REPORTING</a>
-                                </li>
-                            </ul>
+                    <div className="packages digi-packages">
+                        <div className="package-types text-center">
+                            <h3 className='font-bold'>Why Does Your Businesses Need</h3> 
+                            <h3 className='font-bold'>Digital Marketing Services</h3>
+                            <p>The businesses need digital marketing services for a wider audience reach, cost-effectiveness, data-driven approach, increased competitiveness, measurable results, and improved customer experience. </p>
                         </div>
-                        <div className="package-cards">
-                            <div className="package-card">
-                                <div className="package-card__heading">
-                                    <h2 style={{ color: "#FFBA31" }}>Basic</h2>
-                                    <img src={Group72322} alt="not found" />
-                                </div>
-                                <div className="package-card__text">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                </div>
-                                <div className="package-card__price">
-                                    <h3>160$</h3>
-                                    <p>/Month</p>
-                                </div>
-                                <div className="package-card__button">
-                                    <button onclick="showBenefits()">See Benefits</button>
-                                </div>
-                                <div className="package-card__benefits">
-                                    <img className="package-card__benefits__close" src={Close1} alt="" />
-                                    <ul>
-                                        <li><img src={check4} alt="" />In-Depth Site Analysis</li>
-                                        <li><img src={check4} alt="" />Duplicate Content Check</li>
-                                        <li><img src={check4} alt="" />Canonicalization</li>
-                                        <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
-                                        <li><img src={check4} alt="" />Google Webmaster Tools Set Up
-                                            (if not setup)</li>
-                                        <li><img src={check4} alt="" />Google Analytics set up
-                                            (if not set up)</li>
-                                        <li><img src={check4} alt="" />Title & Meta Tags Optimization
-                                            ( 5 Pages )</li>
-                                        <li><img src={check4} alt="" />Existing Web Content Optimization</li>
-                                        <li><img src={check4} alt="" />Fresh Web Content Suggestions* (writing
-                                            charges
-                                            extra)</li>
-                                        <li><img src={check4} alt="" />Schema Implemantation for Contact Address
-                                        </li>
-                                        <li><img src={check4} alt="" />Geo Targeting (via GWT & Code)</li>
-                                        <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="package-card">
-                                <div className="package-card__heading">
-                                    <h2 style={{ color: "#408EE9" }}>Growth</h2>
-                                    <img src={Group72323} alt="not found" />
-                                </div>
-                                <div className="package-card__text">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                </div>
-                                <div className="package-card__price">
-                                    <h3>300$</h3>
-                                    <p>/Month</p>
-                                </div>
-                                <div className="package-card__button">
-                                    <button onclick="showBenefits()">See Benefits</button>
-                                </div>
-                                <div className="package-card__benefits">
-                                    <img className="package-card__benefits__close" src={Close1} alt="" />
-                                    <ul>
-                                        <li><img src={check4} alt="" />In-Depth Site Analysis</li>
-                                        <li><img src={check4} alt="" />Duplicate Content Check</li>
-                                        <li><img src={check4} alt="" />Canonicalization</li>
-                                        <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
-                                        <li><img src={check4} alt="" />Google Webmaster Tools Set Up
-                                            (if not setup)</li>
-                                        <li><img src={check4} alt="" />Google Analytics set up
-                                            (if not set up)</li>
-                                        <li><img src={check4} alt="" />Title & Meta Tags Optimization
-                                            ( 5 Pages )</li>
-                                        <li><img src={check4} alt="" />Existing Web Content Optimization</li>
-                                        <li><img src={check4} alt="" />Fresh Web Content Suggestions* (writing
-                                            charges
-                                            extra)</li>
-                                        <li><img src={check4} alt="" />Schema Implemantation for Contact Address
-                                        </li>
-                                        <li><img src={check4} alt="" />Geo Targeting (via GWT & Code)</li>
-                                        <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div className="package-card">
-                                <div className="package-card__heading">
-                                    <h2 style={{ color: "#ED6868" }}>Booster</h2>
-                                    <img src={Group72327} alt="not found" />
-                                </div>
-                                <div className="package-card__text">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                                </div>
-                                <div className="package-card__price">
-                                    <h3>400$</h3>
-                                    <p>/Month</p>
-                                </div>
-                                <div className="package-card__button">
-                                    <button onclick="showBenefits()">See Benefits</button>
-                                </div>
-                                <div className="package-card__benefits">
-                                    <img className="package-card__benefits__close" src={Close1} alt="" />
-                                    <ul>
-                                        <li><img src={check4} alt="" />In-Depth Site Analysis</li>
-                                        <li><img src={check4} alt="" />Duplicate Content Check</li>
-                                        <li><img src={check4} alt="" />Canonicalization</li>
-                                        <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
-                                        <li><img src={check4} alt="" />Google Webmaster Tools Set Up
-                                            (if not setup)</li>
-                                        <li><img src={check4} alt="" />Google Analytics set up
-                                            (if not set up)</li>
-                                        <li><img src={check4} alt="" />Title & Meta Tags Optimization
-                                            ( 5 Pages )</li>
-                                        <li><img src={check4} alt="" />Existing Web Content Optimization</li>
-                                        <li><img src={check4} alt="" />Fresh Web Content Suggestions* (writing
-                                            charges
-                                            extra)</li>
-                                        <li><img src={check4} alt="" />Schema Implemantation for Contact Address
-                                        </li>
-                                        <li><img src={check4} alt="" />Geo Targeting (via GWT & Code)</li>
-                                        <li><img src={check4} alt="" />Xml Sitemap/Analysis</li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div className="package-cards w-full">
+                            <img className='w-full' src="/static/images/d1.png" alt="" />
                         </div>
+                    </div>
+                </section>
+                {/* <!-- End of Package Section --> */}
+
+                {/* <!-- Package Section --> */}
+                <section>
+                    <div className="packages digi-packages digi-packages1">
+                        <div className="package-types text-center">
+                            <h3 className='font-bold'>What Kushel digi As Digital Marketing</h3> 
+                            <h3 className='font-bold'>Agency Can Do for Your Business?</h3>
+                            <p>We take great pride in offering the best and high-quality digital marketing services. our clients have seen significant growth in their business through our online marketing strategies. you don’t just have to take our word for it you can watch the complete testimonials regarding their experience working with us.</p>
+                        </div>
+                        {/* <div className="package-cards w-full">
+                            <img className='w-full' src="/static/images/d1.png" alt="" />
+                        </div> */}
                     </div>
                 </section>
                 {/* <!-- End of Package Section --> */}
@@ -221,7 +111,7 @@ function DigitalMarketing() {
                 <section>
 
                     <div class="process">
-                        <h1>Our <span>R.O.C.K.E.T</span> process</h1>
+                        <h1 className='font-bold'>Our <span>R.O.C.K.E.T</span> process</h1>
                         <div class="process-container">
                             <div class="process-container__card">
                                 <div class="process-container__card__heading">
@@ -322,117 +212,6 @@ function DigitalMarketing() {
                         </div>
                     </div>
                 </section>
-
-                {/* <!-- FAQ section --> */}
-                <section className="faq">
-                    <div className="faq-heading">
-                        <h2>FREQUENTLY ASKED <span>QUESTION</span> </h2>
-                        <p>Here are some common queries and question that brands ask.</p>
-                    </div>
-                    <div className="faq-container">
-                        <div className="faq-container__box">
-                            <div className="faq-container__box__heading">
-                                <h3>What is SEO?</h3>
-                                <img className="faq-container__box__heading__button" src={Group72246} alt="" />
-                            </div>
-                            <div className="faqAns">
-                                <p>SEO stands for Search Engine Optimization. It is the process of optimizing your website to
-                                    increase
-                                    organic traffic from search engines like Google, Bing, and Yahoo. SEO is a long-term strategy
-                                    that
-                                    focuses on improving your website’s ranking in search engines to drive more relevant traffic to
-                                    your
-                                    site.</p>
-                            </div>
-                        </div>
-                        <div className="faq-container__box">
-                            <div className="faq-container__box__heading">
-                                <h3>How much do SEO services cost?</h3>
-                                <img className="faq-container__box__heading__button" src={Group72246} alt="" />
-                            </div>
-                            <div className="faqAns">
-                                <p>SEO services cost anywhere from $500 to $10,000 per month, depending on the size of your
-                                    business
-                                    and the scope of your SEO campaign. The average cost of SEO services is $1,000 to $2,000 per
-                                    month.
-                                    If you’re looking for a more affordable option, you can also hire an SEO freelancer for $20
-                                    to $100
-                                    per hour.</p>
-                            </div>
-                        </div>
-                        <div className="faq-container__box">
-                            <div className="faq-container__box__heading">
-                                <h3>How does SEO work?</h3>
-                                <img className="faq-container__box__heading__button" src={Group72246} alt="" />
-                            </div>
-                            <div className="faqAns">
-                                <p>SEO works by optimizing your website to increase its ranking in search engines like Google,
-                                    Bing,
-                                    and Yahoo. The higher your website ranks in search engines, the more relevant traffic it
-                                    will
-                                    drive
-                                    to your site. SEO is a long-term strategy that focuses on improving your website’s ranking
-                                    in
-                                    search
-                                    engines to drive more relevant traffic to your site.</p>
-                            </div>
-                        </div>
-                        <div className="faq-container__box">
-                            <div className="faq-container__box__heading">
-                                <h3>How do I know which type of SEO service I need?</h3>
-                                <img className="faq-container__box__heading__button" src={Group72246} alt="" />
-                            </div>
-                            <div className="faqAns">
-                                <p>There are many different types of SEO services, including on-page SEO, off-page SEO,
-                                    technical
-                                    SEO, local SEO, and more. The type of SEO service you need depends on your business
-                                    goals
-                                    and
-                                    the current state of your website. For example, if you’re looking to increase your
-                                    website’s
-                                    ranking in search engines, you may need to hire an SEO agency to perform on-page SEO
-                                    and
-                                    off-page
-                                    SEO services.</p>
-                            </div>
-                        </div>
-                        <div className="faq-container__box">
-                            <div className="faq-container__box__heading">
-                                <h3>What are SEO services?</h3>
-                                <img className="faq-container__box__heading__button" src={Group72246} alt="" />
-                            </div>
-                            <div className="faqAns">
-                                <p>SEO services are the process of optimizing your website to increase organic traffic
-                                    from
-                                    search
-                                    engines like Google, Bing, and Yahoo. SEO is a long-term strategy that focuses on
-                                    improving
-                                    your
-                                    website’s ranking in search engines to drive more relevant traffic to your site.</p>
-                            </div>
-                        </div>
-                        <div className="faq-container__box ">
-                            <div className="faq-container__box__heading">
-                                <h3>Is maintaining the SEO is costly?</h3>
-                                <img className="faq-container__box__heading__button" src={Group72246} alt="" />
-                            </div>
-                            <div className="faqAns">
-                                <p>SEO is a long-term strategy that focuses on improving your website’s ranking in
-                                    search
-                                    engines
-                                    to
-                                    drive more relevant traffic to your site. SEO is a long-term strategy that
-                                    focuses on
-                                    improving
-                                    your
-                                    website’s ranking in search engines to drive more relevant traffic to your site.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </section>
-                {/* <!--End of FAQ section --> */}
 
                 {/* <!-- Contact Us Section --> */}
                 <section>
