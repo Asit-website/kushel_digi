@@ -606,6 +606,7 @@ body{
   font-size: 15px;
   color: #6c7591;
   font-style: normal;
+  font-family: 'Value Sans Pro' !important;
 }
 
 .input-group textarea {
@@ -2045,6 +2046,78 @@ form button {
   opacity: 0.7;
   text-align: center;
   line-height: 48px;
+}
+.tasking{
+  padding: 60px 100px;
+  background-color: #F8F7F6;
+}
+.tasking h2{
+  font-size: 36px;
+  text-align: center;
+  line-height: 46px;
+  color: #101010;
+}
+.tasking-cards{
+  margin-top: 30px;
+}
+.tasking span{
+  font-weight: 700;
+}
+.tasking-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tasking-box{
+  background-color: #ffffff;
+  text-align: center;
+  max-width: 276px;
+  height: 200px;
+  max-height: 100%;
+  width: 100%;
+  margin: 8px 8px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tasking-head img{
+  display: block;
+  margin: auto;
+  width: 38px;
+  max-width: 100%;
+}
+.tasking-head p{
+  margin-top: 15px;
+  color: #202020;
+  opacity: 0.7;
+  font-family: 'Value Sans Medium' !important;
+}
+.tasking-box:hover{
+  background-color: #085881;
+}
+.tasking-box:hover .tasking-head img{
+  filter: invert(1);
+  opacity: 1 !important;
+}
+.tasking-box:hover .tasking-head p{
+  color: #ffffff;
+  opacity: 1 !important;
+}
+.bff{
+  background-color: #F8F7F6;
+  padding: 60px 100px;
+}
+.bff h2{
+  font-size: 36px;
+  text-align: center;
+  line-height: 46px;
+  color: #101010;
+}
+.bff span{
+  font-weight: 700;
 }
 /* =============unified css end================= */
 .second-ecom img {
