@@ -347,30 +347,30 @@
   overflow-x: hidden;
 }
 
-* {
+/* * {
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   min-width: fit-content;
   overflow-x: hidden;
-}
+} */
 
 /* Navbar */
-.navbar {
+/* .navbar {
   background-color: var(--primary);
   display: flex;
   width: 100%;
-  /* padding: 12px; */
-}
+  
+} */
 
-.logo {
+/* .logo {
   padding: 1rem 3rem;
 }
 
 .logo img {
   width: 10rem;
-}
+} */
 
 .container {
   width: 100%;
