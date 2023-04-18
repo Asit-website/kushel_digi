@@ -15,6 +15,7 @@ import {
   AccordionItemPanel,
 } from 'react-accessible-accordion';
 import ContactForm from "./common/ContactForm";
+import ContactForm1 from "./common/ContactForm1";
 const StafArgu = () => {
   return (
     <>
@@ -246,7 +247,7 @@ const StafArgu = () => {
               <img src={market} alt="market" />
           </div>
       </div> */}
-      <ContactForm/>
+       <ContactForm1/>
       </div>
     </>
   );

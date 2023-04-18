@@ -153,7 +153,7 @@ const Navbar = () => {
                     <div className="compan flex items-start justify-between">
                       <div className="first-compan mt-3 flex items-start justify-evenly">
                         <div className="second-compan mr-10">
-                          <h5 className="cpm">The Company</h5>
+                          <h5 className="cp">The Company</h5>
                           <p className="cpmpa">Who We Are</p>
                           <p className="cpmpa">Our Misson & Vision</p>
                           <p className="cpmpa">Our Work Process</p>

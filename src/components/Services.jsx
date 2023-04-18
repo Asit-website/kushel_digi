@@ -33,6 +33,7 @@ import kushel7 from '../images/kushel7.png';
 import kushel8 from '../images/kushel8.png';
 import drugs from '../images/drugs.png';
 import susil from '../images/susil.png';
+import ContactForm1 from "./common/ContactForm1";
 const Services = () => {
   let heading = "www.2ndAmendment.com";
   let heading1 = "www.kickeez.com";
@@ -484,7 +485,8 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <ContactForm />
+        {/* <ContactForm /> */}
+        <ContactForm1/>
       </div>
     </>
   );
