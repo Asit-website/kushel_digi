@@ -1095,7 +1095,9 @@ form button {
   margin-top: 35px;
   letter-spacing: 0.5px;
 }
-
+.btn1:hover{
+  background-color: #3C83CB;
+}
 .btn2 {
   width: 160px;
   height: 55px;
