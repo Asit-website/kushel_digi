@@ -13,7 +13,8 @@ import mon4 from "../images/mon4.png";
 import mon2 from "../images/mon2.png";
 import mon3 from "../images/mon3.png";
 import marketing from '../images/marketing.png';
-import uiux from '../images/uiux.png'
+import uiux from '../images/uiux.png';
+
 const Navbar = () => {
   const [cont, setCont] = useState(1);
 
@@ -118,7 +119,6 @@ const Navbar = () => {
       <div className="navigation">
         <nav className="navbar">
           <NavLink to="/">
-            {" "}
             <div className="logo">
               <img src={logo} alt="logo" />
             </div>
@@ -126,9 +126,6 @@ const Navbar = () => {
 
           <div className="navbar-text desk-nav">
             <ul>
-              {/* <li>
-                <NavLink to="">about us</NavLink>
-              </li> */}
               <li className="mar">
                 <OutsideClickHandler
                   onOutsideClick={() => {
@@ -150,20 +147,8 @@ const Navbar = () => {
                     <p className="sar" to="">
                       about us
                     </p>
-                    {/* <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      width="15"
-                      height="15"
-                      fill="currentColor"
-                      className="ml-1 bi bi-chevron-down"
-                      viewBox="0 0 16 16"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-                      />
-                    </svg> */}
                   </div>
+
                   <div className="ser-nav10 hidden">
                     <div className="compan flex items-start justify-between">
                       <div className="first-compan mt-3 flex items-start justify-evenly">
@@ -337,11 +322,6 @@ const Navbar = () => {
                   </div>
                 </OutsideClickHandler>
               </li>
-              {/* <li className="mar">
-                <NavLink className="sar" to="">
-                  Solutions
-                </NavLink>
-              </li> */}
               <li className="mar">
                 {/* <OutsideClickHandler
                   onOutsideClick={() => {
@@ -627,11 +607,23 @@ const Navbar = () => {
                     </svg>
                   </div>
                   <div className="ser-nav-resource hidden">
-                    <div className="resource">
-                      <p className="resource1">Blog</p>
-                      <p className="resource1">News</p>
-                      <p className="resource1">Case Study</p>
-                      <p className="resource1">Events</p>
+                    <div className="resource flex items-center px-5 py-5">
+                      <div className="resources1 flex flex-col items-center mr-4">
+                        <img src="/static/images/d3.png" alt="" />
+                        <p className="resource11 mt-3">Blog</p>
+                      </div>
+                      <div className="resources1 flex flex-col items-center mr-4">
+                        <img src="/static/images/d4.png" alt="" />
+                        <p className="resource11 mt-3">News</p>
+                      </div>
+                      <div className="resources1 flex flex-col items-center mr-4">
+                        <img src="/static/images/d5.png" alt="" />
+                        <p className="resource11 mt-3">Case Study</p>
+                      </div>
+                      <div className="resources1 flex flex-col items-center">
+                        <img src="/static/images/d6.png" alt="" />
+                        <p className="resource11 mt-3">Events</p>
+                      </div>
                     </div>
                   </div>
                 </OutsideClickHandler>

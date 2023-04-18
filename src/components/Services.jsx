@@ -205,64 +205,74 @@ const Services = () => {
         </div>
 
         <div className="bff">
-           <h2>Benefits of Our <span>E-Commerce</span> <br /> Development Services</h2>
-           <div className="faltus-card mt-4">
-              <div className="faltu-card">
-                   <div className="faltu-box">
-                      {/* <img className="susil" src={susil} alt="" /> */}
-                      <div className="faltu-sard">
-                          <img className="drugs" src={drugs} alt="" />
-                          <div className="faltu-head">
-                             <h4>Mobile-Friendly</h4>
-                             <p>When we kick-off an SEO campaign, your dedicated SEO consultant begins by doing a deep dive into your company, your website, your competitors and your industry.</p>
-                          </div>
-                      </div>
-                   </div>
-                   <div className="faltu-box">
-                      {/* <img className="susil" src={susil} alt="" /> */}
-                      <div className="faltu-sard">
-                          <img className="drugs" src={drugs} alt="" />
-                          <div className="faltu-head">
-                             <h4>Scalable</h4>
-                             <p>Our ecommerce solutions are designed to handle the extra workload as your business grows smoothly and seamlessly.</p>
-                          </div>
-                      </div>
-                   </div>
-                   <div className="faltu-box">
-                      {/* <img className="susil" src={susil} alt="" /> */}
-                      <div className="faltu-sard">
-                          <img className="drugs" src={drugs} alt="" />
-                          <div className="faltu-head">
-                             <h4>Superior UI/UX</h4>
-                             <p>Pamper your customers with pleasing visuals, user friendly interfaces, and exciting experiences while browsing and shopping on your ecommerce site.</p>
-                          </div>
-                      </div>
-                   </div>
+          <h2>Benefits of Our <span>E-Commerce</span> <br /> Development Services</h2>
+          <div className="faltus-card mt-4">
+            <div className="faltu-card">
+              <div className="faltu-box relative">
+                <div className="faltu-box0 absolute">
+                  <img src="/static/images/d7.png" alt="" />
+                </div>
+                <div className="faltu-sard">
+                  <img className="drugs" src={drugs} alt="" />
+                  <div className="faltu-head">
+                    <h4>Mobile-Friendly</h4>
+                    <p>When we kick-off an SEO campaign, your dedicated SEO consultant begins by doing a deep dive into your company, your website, your competitors and your industry.</p>
+                  </div>
+                </div>
               </div>
-              <div className="faltu-card">
-                   <div className="faltu-box">
-                      {/* <img className="susil" src={susil} alt="" /> */}
-                      <div className="faltu-sard">
-                          <img className="drugs" src={drugs} alt="" />
-                          <div className="faltu-head">
-                             <h4>Smooth Deployment</h4>
-                             <p>Once we are done creating your online store, we will launch it for you without hassles, on the platform of your choice.</p>
-                          </div>
-                      </div>
-                   </div>
-                   <div className="faltu-box">
-                      {/* <img className="susil" src={susil} alt="" /> */}
-                      <div className="faltu-sard">
-                          <img className="drugs" src={drugs} alt="" />
-                          <div className="faltu-head">
-                             <h4>Technologically  Advanced</h4>
-                             <p>Once we are done creating your online store, we will launch it for you without hassles, on the platform of your choice.</p>
-                          </div>
-                      </div>
-                   </div>
-                   
+              <div className="faltu-box relative">
+                <div className="faltu-box0 absolute">
+                  <img src="/static/images/d8.png" alt="" />
+                </div>
+                <div className="faltu-sard">
+                  <img className="drugs" src={drugs} alt="" />
+                  <div className="faltu-head">
+                    <h4>Scalable</h4>
+                    <p>Our ecommerce solutions are designed to handle the extra workload as your business grows smoothly and seamlessly.</p>
+                  </div>
+                </div>
               </div>
-           </div>
+              <div className="faltu-box relative">
+                <div className="faltu-box0 absolute">
+                  <img src="/static/images/d9.png" alt="" />
+                </div>
+                <div className="faltu-sard">
+                  <img className="drugs" src={drugs} alt="" />
+                  <div className="faltu-head">
+                    <h4>Superior UI/UX</h4>
+                    <p>Pamper your customers with pleasing visuals, user friendly interfaces, and exciting experiences while browsing and shopping on your ecommerce site.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="faltu-card">
+              <div className="faltu-box">
+                <div className="faltu-box0 absolute">
+                  <img src="/static/images/d10.png" alt="" />
+                </div>
+                <div className="faltu-sard">
+                  <img className="drugs" src={drugs} alt="" />
+                  <div className="faltu-head">
+                    <h4>Smooth Deployment</h4>
+                    <p>Once we are done creating your online store, we will launch it for you without hassles, on the platform of your choice.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="faltu-box">
+                <div className="faltu-box0 absolute">
+                  <img src="/static/images/d10.png" alt="" />
+                </div>
+                <div className="faltu-sard">
+                  <img className="drugs" src={drugs} alt="" />
+                  <div className="faltu-head">
+                    <h4>Technologically  Advanced</h4>
+                    <p>Once we are done creating your online store, we will launch it for you without hassles, on the platform of your choice.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
         </div>
 
         {/* <div className="customize">
