@@ -1105,6 +1105,9 @@
   background-color: #F2F2F2;
   padding: 80px 250px;
 }
+.resources1 img{
+  width: 250px;
+}
 
 .contactus-container__left {
   width: 100%;
