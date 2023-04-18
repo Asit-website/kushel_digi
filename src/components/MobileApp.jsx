@@ -15,6 +15,7 @@ import col1 from "../images/col1.png";
 import col2 from "../images/col2.png";
 import col3 from "../images/col3.png";
 import col4 from "../images/col4.png";
+import usto from '../images/usto.png';
 import {
   Accordion,
   AccordionItem,
@@ -110,7 +111,13 @@ const MobileApp = () => {
             </div>
           </div>
         </div>
-        <div className="help-business">
+
+          <div className="experience-user">
+              <div className="experience-user-sect">
+                  <img src={usto} alt="usto" />
+              </div>
+          </div>
+        <div className="help-business help-business2">
           <h3 className="text-center">Our Custom App Development Services</h3>
 
           <div className="business-card flex-wrap">

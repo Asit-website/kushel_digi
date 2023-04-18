@@ -31,6 +31,7 @@ import dec5 from "../images/dec5.png";
 import dec6 from "../images/dec6.png";
 import dec7 from "../images/dec7.png";
 import dilkush from "../images/dilkush.png";
+import punto from '../images/punto.png';
 import {
   Accordion,
   AccordionItem,
@@ -122,6 +123,12 @@ const WebsiteDev = () => {
             </div>
           </div>
         </div>
+
+        <div className="experience-user">
+              <div className="experience-user-sect experience-user-sect1">
+                  <img src={punto} alt="usto" />
+              </div>
+          </div> 
 
         <div className="how-we">
           <h3>How We Works</h3>
