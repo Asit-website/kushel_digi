@@ -450,82 +450,33 @@ function DigitalMarketing() {
                     </div>
 
                     <div className="contactus">
-                        <div className="contactus-container__left">
-                            <div className="contactus-heading">
-                                <h2>Contact Us</h2>
-                                <p>Please complete the below form. we will get in touch with you</p>
-                            </div>
-                            <div className="contactus-form">
-                                <form action="">
-                                    <div className="contactus-form__input">
-                                        <input type="text" placeholder="Name*" />
-                                        <input type="text" placeholder="Phone number*" />
-                                    </div>
-                                    <div className="contactus-form__input">
-                                        <input type="email" placeholder="Email Address*" />
-                                        <input type="text" placeholder="Location*" />
-                                    </div>
-                                    <div className="contactus-form__input">
-                                        <input type="text" placeholder="Business Name" style={{ width: "100%" }} />
-                                    </div>
-                                    <div className="contactus-form__input">
-                                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
-                                    </div>
-                                    {/* <!-- Captcha Checkbox  --> */}
-
-                                    {/* <!-- Captcha Checkbox --> */}
-                                    <div className="contactus-form__input">
-                                        <button>Submit &nbsp; <img src={Arrow} alt="" /></button>
-                                    </div>
-
-                                </form>
-                            </div>
+                        <div className="contactus-heading">
+                            <h2>Let’s Discuss Your Project Today</h2>
+                            <p>Please fill in the form and let’s chat understand how we can help you better</p>
                         </div>
+                        <div className="contactus-form">
+                            <form action="">
+                                <div className="contactus-form__input">
+                                    <input type="text" placeholder="Name*" />
+                                    <input type="text" placeholder="Phone number*" />
+                                </div>
+                                <div className="contactus-form__input">
+                                    <input type="email" placeholder="Email Address*" />
+                                    <input type="text" placeholder="Location*" />
+                                </div>
+                                <div className="contactus-form__input">
+                                    <input type="text" placeholder="Business Name" style={{ width: "100%" }} />
+                                </div>
+                                <div className="contactus-form__input">
+                                    <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                                </div>
+                                {/* <!-- Captcha Checkbox  --> */}
 
-                        <div className="contactus-container__right">
-                            <div className="contactus-container__right__title">
-                                <h3 className="address-btn" onclick="showAddress()">Address</h3>
-                                <h3 className="map-btn" onclick="showMap()">Google Maps</h3>
-                            </div>
-                            <div className="contactus-container__right__Address active">
-                                <div className="contactus-container__right__Address__details">
-                                    <div className="contactus-container__right__Address__details__icon">
-                                        <img src={Vector1} alt="" />
-                                        <img src={Vector} alt="" />
-                                    </div>
-                                    <div className="contactus-container__right__Address__details__text">
-                                        <p>OUR LOCATION</p>
-                                        <p>g-9,first Floor, Sector 63, Noida</p>
-                                    </div>
+                                {/* <!-- Captcha Checkbox --> */}
+                                <div className="contactus-form__input">
+                                    <button>Submit &nbsp; <img src={Arrow} alt="" /></button>
                                 </div>
-                                <div className="contactus-container__right__Address__details">
-                                    <div className="contactus-container__right__Address__details__icon">
-                                        <img src={Vector2} alt="" />
-                                        <img src={Vector} alt="" />
-                                    </div>
-                                    <div className="contactus-container__right__Address__details__text">
-                                        <p>SEND US MAIL</p>
-                                        <p>shubham@kusheldigi.com</p>
-                                    </div>
-                                </div>
-                                <div className="contactus-container__right__Address__details">
-                                    <div className="contactus-container__right__Address__details__icon">
-                                        <img src={Vector3} alt="" />
-                                        <img src={Vector} alt="" />
-                                    </div>
-                                    <div className="contactus-container__right__Address__details__text">
-                                        <p>CALL US</p>
-                                        <p>+91 9045301702</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* <!-- Map Section --> */}
-                            <div className="contactus-container__right__map">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14009.423695189258!2d77.37562616786731!3d28.619092918766782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce49f5d8cdc4b%3A0xedb207949cd07d2b!2sKushel%20Digi%20Solutions!5e0!3m2!1sen!2sin!4v1680774903722!5m2!1sen!2sin"
-                                    width="400" height="350" style={{ border: 0 }} allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
+                            </form>
                         </div>
                     </div>
 
