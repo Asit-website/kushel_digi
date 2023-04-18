@@ -659,7 +659,7 @@
 }
 
 .ourtalent-text__heading {
-  margin: 1rem 2rem;
+  margin: 1rem 0rem;
 }
 
 .ourtalent-text__heading h1 {
@@ -678,6 +678,7 @@
   background: #085881;
   color: var(--primary);
   padding: 0.8rem 3rem;
+  margin-top: 1rem;
 }
 
 .ourtalent-image {
