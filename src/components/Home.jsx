@@ -326,7 +326,7 @@ const Home = () => {
                 of cutting-edge technology solutions.
               </p>
             </div>
-            <div className="home312">
+            <div className="home312 homanta">
               <Splide
                 aria-label="Our Services"
                 options={{
