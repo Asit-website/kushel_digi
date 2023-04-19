@@ -21,6 +21,7 @@ import arrow4 from '../images/arrow4.png'
 import ustu from '../images/ustu.png';
 import uiy from '../images/uyi.png';
 import stand from '../images/stand.png';
+import howux from '../images/howux.png';
 import {
   Accordion,
   AccordionItem,
@@ -166,6 +167,16 @@ And Conversion Rates</h5>
                 </SplideSlide>
               </Splide>
               </div>
+        </div>
+
+        <div className="how-ux">
+           <div className="how-ux1">
+               <h2>How is UX design valuable to my <br /> business?</h2>
+               <p>Everyone wants to be customer-focused, but websites often serve splintered, internal agendas that don’t resonate with the intended audience. Here’s your opportunity to stand out. All you have to do is answer the needs of your target audience on your site. Reduce barriers on your site to increase engagement and conversion. Delight your customers more and annoy them less to improve their satisfaction with your brand. Optimize your ecommerce checkout to help them convert more easily. By definition, UX design should help your customers—while your business gains even more.</p>
+           </div>
+           <div className="how-ux2">
+              <img src={howux} alt="howux" />
+           </div>
         </div>
  
         <div className="deliver-p">

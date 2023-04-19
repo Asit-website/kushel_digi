@@ -317,7 +317,12 @@
 
 /* ==============Our Services css start================== */
 
-#splide01-track {
+/* #splide01-track {
+  overflow: visible !important;
+  overflow-x: hidden;
+} */
+
+.homanta .splide__track{
   overflow: visible !important;
   overflow-x: hidden;
 }

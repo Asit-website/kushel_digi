@@ -32,6 +32,7 @@ import dec6 from "../images/dec6.png";
 import dec7 from "../images/dec7.png";
 import dilkush from "../images/dilkush.png";
 import punto from '../images/punto.png';
+import process2 from '../images/process2.png';
 import {
   Accordion,
   AccordionItem,
@@ -251,6 +252,13 @@ const WebsiteDev = () => {
             Request A Call{" "}
             <img width={13} className="inline ml-2" src={arrow1} alt="arrow1" />
           </button>
+        </div>
+
+        <div className="development-process">
+           <h3>Our development process</h3>
+           <p>Our process ensures that an interface is seamless for the end-user to become familiar with and competent in using during the first contact they make. The agile approach makes it intuitive for users to achieve their objectives and easy to recall on subsequent visits. Our designers work with developers to make the attributes stand out by turning the usability to the max.</p>
+
+           <img src={process2} alt="process2" />
         </div>
 
         <div className="home5     poty poty1">
