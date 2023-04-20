@@ -98,7 +98,7 @@ const Home = () => {
   let shop = "Shopify";
   let commerce = "Woo Commerce";
   let mag = "Magento";
-
+   let link = "kick"
   let figma1 = "Figma";
   let adobe1 = "Adobe XD";
   let sketch = "Sketch";
@@ -269,11 +269,7 @@ const Home = () => {
         <div className="home2 mb-8">
           <div className="home21 px-24 flex">
             <div className="home211 mr-14">
-              {/* <h1 className='mb-0 font-bold'>ABOUT US</h1> */}
-              <marquee behavior="scroll" direction="right" scrollamount="20">
                 <img src={aboutji} alt="about" />
-              </marquee>
-
               <h5 className="text-blue-500 mt-16">Who are we?</h5>
               <h3 className="mb-2">
                 We are your digital partner for innovative design and reliable
@@ -332,6 +328,11 @@ const Home = () => {
                 options={{
                   perPage,
                   perMove: 1,
+                  autoplay: true,
+                  pauseOnHover: true,
+                  type: "loop",
+                  interval: 1000,
+                  drag: true,
                 }}
               >
                 <SplideSlide>
@@ -447,7 +448,7 @@ const Home = () => {
                   autoplay: true,
                   pauseOnHover: true,
                   type: "loop",
-                  interval: 800,
+                  interval: 1000,
                   drag: true,
                 }}
               >
@@ -601,19 +602,19 @@ const Home = () => {
             </div>
             {tab === 1 && (
               <div className="home512 flex flex-wrap justify-center mt-12">
-                <PortCard heading={heading} pads={a9} />
-                <PortCard heading={heading1} pads={pads} />
-                <PortCard heading={heading2} pads={bds} />
-                <PortCard heading={heading3} pads={jones} />
-                <PortCard heading={heading4} pads={major} />
-                <PortCard heading={heading5} pads={solenoid} />
+                <PortCard link={"#"} heading={heading} pads={a9} />
+                <PortCard link={"kick"} heading={heading1} pads={pads} />
+                <PortCard link={"#"} heading={heading2} pads={bds} />
+                <PortCard link={"#"} heading={heading3} pads={jones} />
+                <PortCard link={"#"} heading={heading4} pads={major} />
+                <PortCard link={"#"} heading={heading5} pads={solenoid} />
               </div>
             )}
 
             {tab === 2 && (
               <div className="home512 flex flex-wrap justify-center mt-12">
-                <PortCard heading={heading} pads={a9} />
-                <PortCard heading={heading1} pads={pads} />
+                <PortCard link={"#"} heading={heading} pads={a9} />
+                <PortCard link={"kick"} heading={heading1} pads={pads} />
                 {/* <PortCard heading={heading2} pads={bds} />
               <PortCard heading={heading3} pads={jones} />
               <PortCard heading={heading4} pads={major} />
@@ -625,8 +626,8 @@ const Home = () => {
               <div className="home512 flex flex-wrap justify-center mt-12">
                 {/* <PortCard heading={heading} pads={a9} />
               <PortCard heading={heading1} pads={pads} /> */}
-                <PortCard heading={heading2} pads={bds} />
-                <PortCard heading={heading3} pads={jones} />
+                <PortCard link={"#"} heading={heading2} pads={bds} />
+                <PortCard link={"#"} heading={heading3} pads={jones} />
                 {/* <PortCard heading={heading4} pads={major} />
               <PortCard heading={heading5} pads={solenoid} /> */}
               </div>
@@ -638,8 +639,8 @@ const Home = () => {
               <PortCard heading={heading1} pads={pads} />
               <PortCard heading={heading2} pads={bds} />
               <PortCard heading={heading3} pads={jones} /> */}
-                <PortCard heading={heading4} pads={major} />
-                <PortCard heading={heading5} pads={solenoid} />
+                <PortCard link={"#"} heading={heading4} pads={major} />
+                <PortCard link={"#"}   heading={heading5} pads={solenoid} />
               </div>
             )}
           </div>
@@ -721,7 +722,7 @@ const Home = () => {
                 autoplay: true,
                 pauseOnHover: true,
                 type: "loop",
-                interval: 800,
+                interval: 1000,
                 drag: true,
                 perMove: 1,
               }}
