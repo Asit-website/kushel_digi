@@ -32,6 +32,13 @@ import Arrow from "../digimarket assets/arrow.svg";
 // import Vector3 from '../digimarket assets/Vector (3).png'
 // import Vector from '../digimarket assets/Vector.png'
 
+import chart1 from "../digimarket assets/chart (1).svg";
+import chart2 from "../digimarket assets/chart (2).svg";
+import chart3 from "../digimarket assets/chart (3).svg";
+import chart4 from "../digimarket assets/chart (4).svg";
+import chart5 from "../digimarket assets/chart (5).svg";
+import chart6 from "../digimarket assets/chart (6).svg";
+
 import {
   Accordion,
   AccordionItem,
@@ -111,7 +118,7 @@ function DigitalMarketing() {
           {/* <!-- End of Hero Section --> */}
 
           {/* <!-- Package Section --> */}
-          <section>
+          <section className="packages_section">
             <div className="packages digi-packages">
               <div className="package-types text-center">
                 <h3 className="font-bold">Why Does Your Businesses Need</h3>
@@ -153,6 +160,19 @@ function DigitalMarketing() {
             </div>
           </section>
           {/* <!-- End of Package Section --> */}
+
+          {/* <!-- Charts Section --> */}
+          <section>
+            <div className="charts">
+              <img src={chart3} alt="" />
+              <img src={chart4} alt="" />
+              <img src={chart5} alt="" />
+              <img src={chart6} alt="" />
+              <img src={chart1} alt="" />
+              <img src={chart2} alt="" />
+            </div>
+          </section>
+          {/* <!-- End of Charts Section --> */}
 
           {/* <!-- Portfolio Section --> */}
           <section>
@@ -299,17 +319,20 @@ function DigitalMarketing() {
               </div>
             </div>
           </section>
+          {/* <!-- End of Portfolio Section --> */}
 
           {/* <!-- Contact Us Section --> */}
           <section>
-          <div className="improved">
-             <h2>Improved Sales. Quick ROI. <br /> Faster Growth.</h2>
-             <p>15-day free trial. No credit card required.</p>
-             <div className="improved-btn flex items-center justify-center">
+            <div className="improved">
+              <h2>
+                Improved Sales. Quick ROI. <br /> Faster Growth.
+              </h2>
+              <p>15-day free trial. No credit card required.</p>
+              <div className="improved-btn flex items-center justify-center">
                 <button className="sign">SIGN UP FOR FREE</button>
                 <button className="plans">SEE PLANS AND PRICING</button>
-             </div>
-          </div>
+              </div>
+            </div>
             <div className="bookus">
               <div className="bookus-heading">
                 <h2>Get free Consultation</h2>
@@ -410,7 +433,7 @@ function DigitalMarketing() {
                 </div>
               </div>
             </div>
-            <ContactForm1/>
+            <ContactForm1 />
             {/* <div className="contactus">
               <div className="contactus-container__left">
                 <div className="contactus-heading">
@@ -461,7 +484,6 @@ function DigitalMarketing() {
               </div>
 
             </div> */}
-            
           </section>
         </div>
       </div>
