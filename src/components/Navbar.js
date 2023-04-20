@@ -56,7 +56,7 @@ const Navbar = () => {
             <div className="noida">
               <img src={location} alt="location" />
               <p>
-                g-9,first Floor, Sector 63, Noida <span>|</span>{" "}
+                g-9, first Floor, Sector 63, Noida <span>|</span>{" "}
               </p>
             </div>
 
@@ -110,7 +110,7 @@ const Navbar = () => {
 
             <div className="flex items-center ml-10">
               <img src="/static/images/c1.png" alt="alt" />
-              <p className="ml-2">+15855662070</p>
+              <p className="ml-2">+1 5855662070</p>
             </div>
           </div>
         </header>

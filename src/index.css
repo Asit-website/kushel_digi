@@ -138,7 +138,9 @@ body{
   font-weight: 500 !important;
   margin-top: 40px;
 }
-
+.home-btns:hover{
+  background-color: #3C83CB;
+}
 .phone p {
   color: #ffffff;
   font-weight: 400;
@@ -259,8 +261,8 @@ body{
   top: 138px;
   padding: 0px;
   width: 55vw;
-  left: 300px;
-  /* left: 23%; */
+  left: 380px; 
+  /* left: 300px; */
 }
 .resource .resource1{
   margin: 15px 0px;
@@ -515,11 +517,12 @@ body{
   border-radius: 3px;
   border: none;
   font-size: 19px;
-  /* font-weight: 600; */
   color: #ffffff;
   font-family: "Value Sans Pro";
 }
-
+.navbar ul li button:hover{
+  background-color: #3C83CB;
+}
 .logo img {
   width: 220px;
   max-width: 100%;
@@ -5211,6 +5214,370 @@ form button {
   margin: 0px 8px;
 }
 /* ========kick end ==================== */
+
+/* ================hire team css start================ */
+.hire-back{
+  background-image: url('./images/hirex.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  width: 100%;
+  height: 68vh;
+  padding: 0px 100px;
+  z-index: 2;
+  position: relative;
+}
+.hire-back::before{
+  /* 27.4% tha pehle */
+  content: "";
+  background: linear-gradient(90deg, #085881 24%, rgba(8, 88, 129, 0.07) 57.02%, rgba(8, 88, 129, 0) 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.hire-sect{
+  position: absolute;
+  top: 50%;
+  transform: translate(0%,-50%);
+}
+.hire-sect h2{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 58px;
+}
+.hire-sect .turu{
+  font-weight: 700;
+}
+.hire-sect p{
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400px;
+  font-size: 19.5px;
+  width: 20em;
+  max-width: 100%;
+  margin-top: 8px;
+}
+.hire-status{
+  background-color: #FBFBFB;
+  padding: 25px 100px;
+}
+.hiring-status h3{
+  color: #182536;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
+  font-size: 36px;
+}
+.hiring-status p{
+  color: #777777;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  line-height: 24px;
+}
+.hires-team{
+  padding: 60px 100px;
+  background-color: #ffffff;
+}
+.hires-team h1{
+  color: #000000;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: .2px;
+  -webkit-text-stroke-color: #000000;
+  opacity: 0.2;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bolder;
+  font-size: 65px;
+  letter-spacing: 0.05em;
+  text-align: center;
+}
+.hiring-team{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.first-hiring h5{
+  color: #202020;
+  opacity: 0.9;
+  font-size: 19.5px;
+  font-family: 'Value Sans Medium' !important;
+}
+.first-hiring h2{
+  color: #202020;
+  opacity: 0.9;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+  margin-top: 12px;
+}
+.first-hiring p{
+   width: 28em;
+   max-width: 100%;
+}
+.hired-para .hiring-first-para{
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 500 !important;
+  font-size: 20.5px;
+  color: #404040;
+  margin-top: 5px;
+}
+.hired-para .hiring-second-para{
+  font-size: 20.5px;
+  color: #404040;
+  font-weight: 400;
+  margin-top: 18px;
+}
+.second-hiring .hiper{
+   max-width: 530px;
+   width: 100%;
+   position: relative;
+   z-index: 10;
+}
+.first-hiring{
+  margin-right: 135px;
+}
+.second-hiring{
+  margin-left: 135px;
+  position: relative;
+}
+.first-hiring button{
+  max-width: 265px;
+  width: 100%;
+  height: 68px;
+  background-color: #085881;
+  color: #ffffff;
+  margin-top: 40px;
+}
+.second-hiring .hiredEllipse{
+  position: absolute;
+  max-width: 160px;
+  width: 100%;
+  z-index: 2;
+  left: 78%;
+  top: -8%;
+}
+.team-hired-help{
+  background-image: url('./images/helped.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 620px;
+  position: relative;
+  z-index: 2;
+}
+.team-hired-help::before{
+  content: "";
+  background: linear-gradient(269.92deg, #085881 37.55%, rgba(8, 88, 129, 0.5) 99.94%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.hired-help-sect{
+   padding: 0px 100px;
+   float: right;
+   position: relative;
+   top: 50%;
+   transform: translate(0%,-50%);
+}
+.hired-help-sect h5{
+  color: #ffffff;
+  font-family: 'Value Sans Medium' !important;
+  font-size: 19.5px;
+}
+.hired-help-sect h2{
+  color: #ffffff;
+  font-family: 'Value Sans Medium' !important;
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.listing-hired{
+  display: flex;
+  align-items: flex-start;
+  margin: 20px 0px;
+}
+.listing-hired p{
+  font-size: 19.5px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  color: #ffffff;
+  width: 30em;
+  margin-left: 12px;
+}
+.listing-hired img{
+  width: 20px;
+  margin-top: 4px;
+}
+.hired-help-sect button{
+  max-width: 200px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #202020;
+  height: 50px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.benifits-hire{
+ background-color: #ffffff;
+ padding: 80px 100px;
+}
+.benifits-hire h2{
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+}
+.hired-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hired-box{
+  background-color: #D9D9D9;
+  border-radius: 20px;
+  max-width: 225px;
+  width: 100%;
+  padding: 12px 0px;
+  margin: 20px 40px;
+}
+.hired-sard{
+  background-color: #ffffff;
+   width: 275px;
+  height: 200px;
+  max-height: 100%;
+  position: relative;
+  left: -25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hired-sard:hover{
+  background-color: #085881;
+}
+.hired-sard img{
+  width: 55px;
+}
+.hired-sard:hover img{
+  filter: invert(1);
+  opacity: 1;
+}
+.hired-sard p{
+  text-align: center;
+  font-size: 15.5px;
+  color: #202020;
+  opacity: 0.8;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  margin-top: 12px;
+}
+.hired-sard:hover  p{
+  color: #FFFFFF;
+  opacity: 1;
+}
+.benifits-hire button{
+   background-color: #085881;
+   max-width: 270px;
+   width: 100%;
+   display: block;
+   margin: auto;
+   color: #FFFFFF;
+   height: 68px;
+   margin-top: 30px;
+}
+.hire-serve{
+  background-color: #f8f8f8;
+  padding: 60px 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.first-serve{
+  width: 50em;
+  max-width: 100%;
+  margin-right: 30px;
+  margin-top: 60px;
+}
+.first-serve h2{
+  font-size: 36px;
+  color: #202020;
+  opacity: .7;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+}
+.first-serve p{
+  color: #404040;
+  font-size: 19.5px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.second-serve{
+  width: 100%;
+  margin-left: 30px;
+}
+.indu-card1{
+  justify-content: flex-start;
+}
+.demo-hire{
+  background-image: url('./images/demo.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 45vh;
+  position: relative;
+  z-index: 2;
+  background-blend-mode: darken;
+}
+.demo-hire::before{
+  content: "";
+  background-color: #085881;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.demo-hire-sect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.demo-hire-sect h2{
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Value Sans Medium' !important;
+  font-size: 32px;
+  line-height: 42px;
+}
+.demo-hire-sect button{
+  max-width: 240px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #202020;
+  font-size: 15.5px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  height: 55px;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+}
+/* =================hire team css end====================== */
 @media only screen and (max-width:1500px){
   .home112{
     width: auto;

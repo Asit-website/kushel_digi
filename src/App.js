@@ -18,6 +18,7 @@ import Playbook from "./components/Playbook";
 import Kickiz from "./components/Kickiz";
 import DigitalMarketing from "./components/DigitalMarketing";
 import Uiux from "./components/Uiux";
+import HireTeam from "./components/HireTeam";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
            <Route path="/website" element={<WebsiteDev/>}/>
            <Route path="/digitalmarket" element={<DigitalMarketing />} />
            <Route path="/uiux"  element={<Uiux/>}/>
+           <Route path="/hire" element={<HireTeam/>}/>
 
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/refund" element={<Refund />} />
@@ -46,6 +48,7 @@ function App() {
           <Route path="/playbook" element={<Playbook />} />
 
           <Route path="/kick" element={<Kickiz />} />
+
         </Routes>
         <Footer />
       </Router>
