@@ -14,6 +14,7 @@ import mon2 from "../images/mon2.png";
 import mon3 from "../images/mon3.png";
 import marketing from '../images/marketing.png';
 import uiux from '../images/uiux.png';
+import staffji from '../images/staffpar.png'
 
 const Navbar = () => {
   const [cont, setCont] = useState(1);
@@ -171,7 +172,7 @@ const Navbar = () => {
                           <p className="cpmpa">Our Clients</p>
                           <p className="cpmpa">Testimonials</p>
                           <p className="cpmpa">Career with us</p>
-                          <NavLink onClick={toggleService2} to="/staff"><p className="cpmpa">STAFF AUGMENTATION</p></NavLink>
+                          {/* <NavLink onClick={toggleService2} to="/staff"><p className="cpmpa">STAFF AUGMENTATION</p></NavLink> */}
                         </div>
                       </div>
                       <div className="second-compan1">
@@ -303,6 +304,14 @@ const Navbar = () => {
                             <p className="yamini uppercase">
                               SEO <span>|</span> SMO <span>|</span> PPC
                             </p>
+                          </div>
+                          <div className="w-full mt-7">
+                            <NavLink onClick={toggleService} to="/staff">
+                              <div className="flex items-center">
+                                <img src={staffji} alt="staffji" />
+                                <h4>Staff Augmentation</h4>
+                              </div>
+                            </NavLink>
                           </div>
                         </div>
                       </div>

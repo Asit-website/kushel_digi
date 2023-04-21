@@ -5436,6 +5436,9 @@ form button {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
+  color: #202020;
+  opacity: 0.9;
+  font-family: 'Value Sans Medium' !important;
 }
 .hired-card{
   display: flex;
@@ -5576,6 +5579,75 @@ form button {
   display: block;
   margin: auto;
   margin-top: 30px;
+}
+.hire-testimonials{
+  padding: 80px 100px;
+  background-color: #F2F6FA;
+  padding-bottom: 100px;
+}
+.hire-testimonials h2{
+  color: #202020;
+  font-size: 36px;
+  opacity: 0.9;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+  text-align: center;
+  letter-spacing: .5px;
+}
+.hire-testimonials .read-what{
+  color: #404040;
+  font-size: 19.5px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: .5px;
+}
+.hire-test{
+  margin-top: 40px;
+  text-align: center;
+}
+.hire-test h4{
+  color: #202020;
+  opacity: 0.9;
+  font-size: 19.5px;
+  font-weight: 700;
+  font-family: 'Value Sans Medium' !important;
+}
+.hire-test P{
+  color: #888888;
+  font-size: 19.5px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  width: 60%;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+}
+.hire-testimonials .splide__arrow--prev{
+  top: 120px !important;
+  left: 50px !important;
+  right: 0px !important;
+  background-color: transparent !important;
+  border: 2px solid #D7D7D7 ;
+  border-radius: 0px !important;
+  width: 45px !important;
+  height: 45px !important;
+}
+.hire-testimonials .splide__arrow--next{
+  top:120px !important;
+  right: 50px !important;
+  background-color: transparent !important;
+  border: 2px solid #D7D7D7 ;
+  border-radius: 0px !important;
+  width: 45px !important;
+  height: 45px !important;
+}
+.hire-testimonials .splide__arrow svg{
+  fill: #D7D7D7 !important;
+}
+.hire-testimonials .splide__pagination{
+  display: none !important;
 }
 /* =================hire team css end====================== */
 @media only screen and (max-width:1500px){
