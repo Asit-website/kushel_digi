@@ -14,8 +14,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from 'react-accessible-accordion';
-import ContactForm from "./common/ContactForm";
-import ContactForm1 from "./common/ContactForm1";
+import ContactForm2 from "./common/contactForm2";
 const StafArgu = () => {
   return (
     <>
@@ -228,26 +227,7 @@ const StafArgu = () => {
             </div>
           </div>
         </div>
-
-      {/* <div className="staff-market">
-          <div className="staff-market1">
-          <h2>STAFF AUGMENTATION <br /> <span>MARKETS</span></h2>
-             <div className="list mt-7">
-            <div className="check">
-              <img src={check} alt="" />
-              <p>Currently working with various clients in the US and Canada</p>
-            </div>
-            <div className="check mt-5">
-              <img src={check} alt="" />
-              <p>Team working across multiple time zones.</p>
-            </div>
-          </div>
-          </div>
-          <div className="staff-market2">
-              <img src={market} alt="market" />
-          </div>
-      </div> */}
-       <ContactForm1/>
+       <ContactForm2/>
       </div>
     </>
   );
