@@ -4562,10 +4562,11 @@ form button {
   position: relative;
   z-index: 2;
   border: 1px solid #ffffff;
+  cursor: pointer;
 }
 .benifits-ui-box::before{
   content: "";
-  background-color: #085881;
+  background-color: #202020;
   opacity: 0.9;
   position: absolute;
   top: 0;
@@ -4573,6 +4574,10 @@ form button {
   z-index: -1;
   height: 100%;
   width: 100%;
+}
+.benifits-ui-box:hover.benifits-ui-box::before{
+  background-color: #085881 !important;
+  transition: 0.5s;
 }
 .benifits-ui-box  .ui-sect{
   position: absolute;
@@ -4593,7 +4598,9 @@ form button {
   position: relative;
   z-index: 2;
   border: 1px solid #ffffff;
+  cursor: pointer;
 }
+
 .benifits-ui-box1::before{
   content: "";
   background-color: #202020;
@@ -4604,6 +4611,10 @@ form button {
   z-index: -1;
   height: 100%;
   width: 100%;
+}
+.benifits-ui-box1:hover.benifits-ui-box1::before{
+  background-color: #085881 !important;
+  transition: 0.5s;
 }
 .benifits-ui-box1 .ui-sect{
   position: absolute;
@@ -4625,6 +4636,7 @@ form button {
   position: relative;
   z-index: 2;
   border: 1px solid #ffffff;
+  cursor: pointer;
 }
 .benifits-ui-box2::before{
   content: "";
@@ -4637,6 +4649,10 @@ form button {
   height: 100%;
   width: 100%;
   border: 1px solid #ffffff;
+}
+.benifits-ui-box2:hover.benifits-ui-box2::before{
+  background-color: #085881 !important;
+  transition: 0.5s;
 }
 .benifits-ui-box2 .ui-sect{
   position: absolute;
