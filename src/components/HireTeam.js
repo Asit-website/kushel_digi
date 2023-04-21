@@ -21,6 +21,7 @@ import dec5 from "../images/dec5.png";
 import dec6 from "../images/dec6.png";
 import dec7 from "../images/dec7.png";
 import dilkush from "../images/dilkush.png";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
 const HireTeam = () => {
   useEffect(()=>{
      console.log("hlw");
@@ -129,7 +130,7 @@ const HireTeam = () => {
 
         <div className="benifits-hire">
             <h2>Benefits of Hire Team</h2>
-            <div className="hired-cards">
+            <div className="hired-cards mt-10">
                 <div className="hired-card">
                      <div className="hired-box">
                         <div className="hired-sard">
@@ -183,7 +184,7 @@ const HireTeam = () => {
                      </div>
                 </div>
             </div>
-            <button>Lets Discuss Your Project</button>
+           <NavLink to="/contact"><button>Lets Discuss Your Project</button></NavLink>
         </div>
 
         <div className="hire-serve">
@@ -248,9 +249,37 @@ const HireTeam = () => {
           </div>
             </div>
         </div>
-
-        {/* ==============Testimonials=========== ayega============= */}
-
+     
+         <div className="hire-testimonials">
+             <h2>Testimonials</h2>
+             <p className="read-what">Read what our client says about us!</p>
+             <Splide
+                aria-label="Our Services"
+                options={{
+                  perPage:1,
+                  perMove: 1,
+                  autoplay: true,
+                  pauseOnHover: true,
+                  type: "loop",
+                  interval: 1000,
+                  drag: true,
+                }}
+              >
+                <SplideSlide>
+                <div className="hire-test">
+                 <h4>Matt Reedar</h4>
+                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+             </div>
+                </SplideSlide>
+                <SplideSlide>
+                <div className="hire-test">
+                 <h4>Matt Reedar</h4>
+                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
+             </div>
+                </SplideSlide>
+              </Splide>
+           
+         </div>
         <div className="demo-hire">
             <div className="demo-hire-sect">
                 <h2>Apply for services right now, to learn more about our work or schedule an appointment.</h2>
