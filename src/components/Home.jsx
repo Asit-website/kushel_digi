@@ -331,7 +331,7 @@ const Home = () => {
                   autoplay: true,
                   pauseOnHover: true,
                   type: "loop",
-                  interval: 1000,
+                  interval: 2000,
                   drag: true,
                 }}
               >
@@ -560,7 +560,7 @@ const Home = () => {
               </Splide>
             </div>
           </div>
-          <button className="home-btns">
+        <NavLink to="/contact"><button className="home-btns">
             Lets Together{" "}
             <img
               width={13}
@@ -569,7 +569,7 @@ const Home = () => {
               src={arrow}
               alt="arrow"
             />
-          </button>
+          </button></NavLink>
         </div>
 
         <div className="home5 pb-10 mb-12 bg-gray-100">

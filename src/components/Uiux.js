@@ -119,6 +119,11 @@ const Uiux = () => {
                 options={{
                   perPage,
                   perMove: 1,
+                  autoplay: true,
+                  pauseOnHover: true,
+                  type: "loop",
+                  interval: 2000,
+                  drag: true,
                 }}
               >
                 <SplideSlide>

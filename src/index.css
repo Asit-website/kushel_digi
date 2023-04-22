@@ -1115,7 +1115,11 @@ form button {
   font-weight: 500;
   margin-top: 10px;
 }
-
+/* .home31{
+  position: relative;
+  overflow: hidden !important;
+  z-index: -1;
+} */
 .s-card1 h5 {
   color: #101010;
   font-weight: 700;
@@ -1124,7 +1128,9 @@ form button {
   /* margin-left: 10px; */
   font-family: "Value Sans Medium" !important;
 }
-
+.home3{
+  overflow: hidden !important;
+}
 .home311 h1 {
   font-size: 40px;
   width: fit-content;
@@ -1764,13 +1770,15 @@ form button {
   background-blend-mode: darken;
 }
 .serji2{
-  background: url("./images/dyana.png") no-repeat center center/cover;
+  /* background: url("./images/dyana.png") no-repeat center center/cover;
   background-blend-mode: darken;
   position: relative;
-  z-index: 2;
-  padding-bottom: 35px;
+  z-index: 2; */
+  padding-bottom: 34px;
+  background-color: #085881 !important;
+  background-image: none !important;
 }
-.serji2::before{
+/* .serji2::before{
   content: "";
   background-color: #085881;
   opacity: 0.7;
@@ -1780,7 +1788,7 @@ form button {
   z-index: -1;
   height: 100%;
   width: 100%;
-}
+} */
 .serji2 h1{
   color: #FFFFFF !important;
 }
@@ -4313,6 +4321,7 @@ form button {
   display: block;
   margin: auto;
   text-align: center;
+  line-height: 48px;
 }
 .loofs-sect1 p {
   color: #ffffff;
@@ -4321,7 +4330,7 @@ form button {
   width: 80%;
   display: block;
   margin: auto;
-  margin-top: 8px;
+  margin-top: 15px;
 }
 .loofs-sect1 button {
   background-color: #ffffff;
@@ -4451,6 +4460,7 @@ form button {
 .perfect-choice{
   /* padding-bottom: 120px !important; */
   padding: 100px 100px;
+  overflow: hidden !important;
 }
 .perfect-choice h2{
   color: #202020;
@@ -5666,6 +5676,51 @@ form button {
   display: none !important;
 }
 /* =================hire team css end====================== */
+
+/* =================404 page css start========================= */
+.error-404{
+  height: 80vh;
+  width: 100%;
+  position: relative;
+}
+.error-sect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.error-sect h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  color: #202020;
+  opacity: 0.9;
+  letter-spacing: .5px;
+  font-family: 'Value Sans Medium' !important;
+}
+.error-sect button{
+  max-width: 270px;
+  width: 100%;
+  height: 68px;
+  max-height: 100%;
+  background-color: #085881;
+  color: #FFFFFF;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 18px;
+}
+.footer-india{
+  margin-top: 15px;
+}
+.footer-india img{
+  width: 32px;
+}
+.footer-india p{
+  font-size: 14px;
+  margin-top: 6px;
+}
+/* =======================404 page css end============================ */
 @media only screen and (max-width:1500px){
   .home112{
     width: auto;
@@ -5693,6 +5748,10 @@ form button {
   .ser-nav{
     margin-left: 30px;
   }
+  .ser-nav5{
+    max-width: 725px;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 1350px) {
   .home1112 ul {
@@ -5709,6 +5768,12 @@ form button {
 @media screen and (max-width: 1300px) {
   .navbar {
     padding: 12px 60px;
+  }
+  .discusion-form1 .mrs{
+    padding: 70px 64px;
+  }
+  .bff{
+    padding: 60px 64px;
   }
   .custom-s{
     padding: 60px 64px;
@@ -5999,10 +6064,46 @@ form button {
   .navbar ul .sar{
     margin-left: 25px;
   }
+  .ser-tag{
+    flex-wrap: wrap;
+  }
+  .tag1{
+    margin-left: 0px;
+   margin-top: 20px;
+  }
+  .teal{
+   flex-direction: column;
+   padding: 20px 20px;
+  }
+  .tael-head h3{
+    text-align: center;
+  }
+  .teal-contact .conj{
+    margin-top: 20px;
+  }
+  .tael-head .want{
+    text-align: center;
+  }
+  .ser-nav5{
+    max-width: 500px;
+    width: 100%;
+  }
+  .faltu-card{
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 1100px) {
   .header {
     padding: 12px 30px;
+  }
+  .ser-nav{
+    top: 130px;
+  }
+  .loofs-sect1{
+    position: relative;
+  }
+  .loofs-sect1 h2{
+    font-size: 35px;
   }
   .refund-sect h2 {
     font-size: 40px;
@@ -6656,7 +6757,11 @@ form button {
     max-width: 39vw;
   }
 }
-
+@media only screen and (max-width:1009px){
+  .home1112 ul{
+    bottom: 20px;
+  }
+}
 @media only screen and (max-width: 953px) {
   .flex-thing p {
     font-size: 16px;
@@ -6716,6 +6821,12 @@ form button {
 @media screen and (max-width: 900px) {
   .desk-nav {
     display: none;
+  }
+  .home1112 ul{
+    width: 100%;
+  }
+  .home1112{
+    bottom: 20px;
   }
   .custom-s{
     padding: 60px 40px;
@@ -7514,6 +7625,9 @@ form button {
   .home112 {
     width: 75% !important;
   }
+  .footer-india{
+    justify-content: center;
+  }
   .home312 .splide__pagination {
     display: none;
   }
@@ -7939,6 +8053,12 @@ form button {
 @media screen and (max-width: 450px) {
   .header {
     width: 240vw;
+  }
+  .loofs-sect1 h2{
+    width: 90%;
+  }
+  .loofs-sect1 p{
+    width: 100%;
   }
   .flex-thing {
     flex-direction: column;
