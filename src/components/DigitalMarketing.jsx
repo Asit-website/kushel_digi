@@ -53,7 +53,6 @@ function DigitalMarketing() {
     <>
       <div className="ser-main digi-ser-main">
         <div className="digitalMarketing">
-          {/* // <!-- Hero Section --> */}
           <section className="heroSection">
             <div className="hero-container">
               <div className="hero-content">

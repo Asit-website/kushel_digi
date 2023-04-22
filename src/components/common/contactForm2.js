@@ -44,7 +44,7 @@ const contactForm2 = () => {
            <p>Are you looking for a reliable mobile application development company? Contact our expert team — we will help your business build a successful mobile strategy and create convenient omnichannel experience for all your customers and clients.</p>
            <button>Let’s Talk <img className="tih" src={arrow1} alt="" /></button> */}
             <div className=" loofs-sect1">
-              <h2>Would You Like To Talk To Our Experts About Your Project?</h2>
+              <h2>Would you like to talk to our experts about your project?</h2>
               <p>
                 {" "}
                 You can send us the details of your project, and a member of our
