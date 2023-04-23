@@ -1586,13 +1586,13 @@
 /* ==============Hire Navabar CSS start================== */
 
 .hire-nav {
-  position: fixed;
+  position: absolute;
   z-index: 999;
   background: white;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-  top: 7.5rem;
+  top: 3rem;
   padding: 0px;
-  left: 13rem;
+  left: -36rem;
 }
 
 .hire-nav__containers {

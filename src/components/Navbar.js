@@ -467,7 +467,7 @@ const Navbar = () => {
                   Our portfolio
                 </NavLink>
               </li>
-              <li className="mar">
+              <li className="mar" style={{ position: "relative" }}>
                 <OutsideClickHandler
                   onOutsideClick={() => {
                     if (
