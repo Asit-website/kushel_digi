@@ -22,8 +22,12 @@ const ContactForm1 = () => {
                       <input type="email" placeholder="Phone number*" />
                       <select name="" id="">
                         <option value="">Service Required</option>
-                        <option value="">Web</option>
-                        <option value="">App</option>
+                        <option value="">Mobile App Development</option>
+                        <option value="">E - Commerce Solutions</option>
+                        <option value="">Graphic Design</option>
+                        <option value="">Web development</option>
+                        <option value="">UI/UX Design</option>
+                        <option value="">Digital Marketing</option>
                       </select>
                     </div>
 

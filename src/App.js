@@ -20,6 +20,7 @@ import DigitalMarketing from "./components/DigitalMarketing";
 import Uiux from "./components/Uiux";
 import HireTeam from "./components/HireTeam";
 import Error from "./components/Error";
+import Portfolio from "./components/Portfolio";
 function App() {
   return (
     <>
@@ -43,6 +44,7 @@ function App() {
           <Route path="/partner" element={<OurPartner />} />
           <Route path="/playbook" element={<Playbook />} />
           <Route path="/kick" element={<Kickiz />} />
+          <Route path="/portfolio" element={<Portfolio/>}/>
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

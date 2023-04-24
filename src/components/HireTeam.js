@@ -1,5 +1,5 @@
-import React,{useEffect} from "react";
-import hireTeam from "../images/hireTeam.png";
+import React  from "react";
+// import hireTeam from "../images/hireTeam.png";
 import arrow from "../images/arrow.png";
 import hiper from "../images/hiper.png";
 import hiredEllipse from '../images/hiredEllipse.png';
@@ -23,9 +23,6 @@ import dec7 from "../images/dec7.png";
 import dilkush from "../images/dilkush.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 const HireTeam = () => {
-  useEffect(()=>{
-     console.log("hlw");
-  },[])
   return (
     <>
       <div className="ser-main">
