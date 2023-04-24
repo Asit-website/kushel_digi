@@ -1586,19 +1586,20 @@
 /* ==============Hire Navabar CSS start================== */
 
 .hire-nav {
-  position: fixed;
+  position: absolute;
   z-index: 999;
   background: white;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-  top: 7.5rem;
+  border-radius: 0px 2px 2px 2px;
+  top: 3rem;
   padding: 0px;
-  left: 13rem;
+  left: -36rem;
 }
 
 .hire-nav__containers {
   display: flex;
   justify-content: space-between;
-  padding: 0 1rem 1rem 1rem;
+  padding: 0 1rem 1rem 0rem;
 }
 
 .hire-nav__container {
@@ -1620,10 +1621,10 @@
 }
 
 .hire-nav__container__header img {
-  width: 1.3rem;
+  width: 1.1rem;
 }
 .hire-nav__container__header h3 {
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   color: var(--primary);
   font-family: "Poppins", sans-serif !important;
   font-weight: 500;
@@ -1641,5 +1642,5 @@
 .hire-nav__container ul li a {
   text-transform: capitalize;
   color: #202020;
-  opacity: 0.8;
+  opacity: 0.75;
 }
