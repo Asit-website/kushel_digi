@@ -485,9 +485,9 @@ const Navbar = () => {
                     onClick={toggleHire}
                     className="flex items-center cursor-pointer"
                   >
-                    <p className="sar" to="">
+                   <NavLink to="/hire"><p className="sar" to="">
                       Hire
-                    </p>
+                    </p></NavLink>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="15"

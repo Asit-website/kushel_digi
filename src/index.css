@@ -5721,6 +5721,263 @@ form button {
   margin-top: 6px;
 }
 /* =======================404 page css end============================ */
+
+/* =================portfolio css start========================== */
+.portfolio-back{
+  background-image: url("./images/sinting.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 100px;
+  position: relative;
+  z-index: 2;
+}
+.portfolio-back::before{
+  content: "";
+  background-color: #085881;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.portfolio-sect{
+  position: absolute;
+  top: 50%;
+  transform: translate(0%,-50%);
+}
+.portfolio-sect h2{
+  color: #FFFFFF;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: .5px;
+}
+.portfolio-sect span{
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 500;
+}
+.portfolio-sect p{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 19.5px;
+  font-family: 'Value Sans Pro' !important;
+  width: 30em;
+  max-width: 100%;
+  margin-top: 12px;
+  opacity: .95px;
+}
+.portfolio-sect button{
+  background-color: #FFFFFF;
+  max-width: 264px;
+  width: 100%;
+  height: 58px;
+  margin-top: 30px;
+  border-radius: 5px;
+  color: #202020;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  font-size: 19.5px;
+}
+.portfolio-nav{
+  padding: 25px 100px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-nav::before{
+  content: "";
+  background-color: #202020;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.portfolio-nav p{
+  color: #FFFFFF;
+  font-size: 19px;
+  font-family: 'Roboto', sans-serif !important;
+  margin: 0 32px;
+}
+.portfolio-web{
+  padding: 60px 100px;
+  background-color: #ffffff;
+}
+.portis{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portis1{
+  margin-right: 20px;
+  width: 100%;
+  background-image: url('./images/kiku.png');
+  height: 550px;
+  max-height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  position: relative;
+  z-index: 2;
+}
+.portis1::before{
+  content: "";
+  background-color: #085881;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.portis11{
+  background-image: url('./images/kiku2.png');
+}
+.portis11 img{
+  max-width: 180px;
+  width: 100%;
+}
+.portis111{
+  background-image: url('./images/kiku3.png');
+}
+.portis111 img{
+  width: 130px;
+  max-width: 100%;
+}
+.portis1111{
+  background-image: url('./images/wheel.png');
+}
+.portis1111 img{
+  max-width: 180px;
+  width: 100%;
+  opacity: 1 !important;
+}
+.portis11111{
+ background-image: url('./images/solnide.png');
+}
+.portis1-sect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.portis2{
+  margin-left: 20px;
+  width: 100%;
+}
+/* .pong1{
+  margin-right: 20px;
+}
+.pong2{
+  margin-left: 20px;
+} */
+.portis2 h3{
+  color: #202020;
+  font-size: 34px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: bold;
+}
+.portis2 .kick-eez{
+  color: #202020;
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  width: 25em;
+  max-width: 100%;
+  line-height: 30px;
+  margin-top: 5px;
+}
+/* .pong1 .kick-eez{
+  width: 20em;
+} */
+.port-usa{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.port-usa1{
+  margin-right: 45px;
+}
+.port-usa1 .port-pat{
+  font-size: 19.5px;
+  font-family: 'Roboto', sans-serif !important;
+  color: #202020;
+}
+.port-usa1 .reg{
+  color: #202020;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 15.5px;
+}
+.port-usa1 .reg1{
+  color: #202020;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 16px;
+}
+.port-usa1 img{
+  width: 32px;
+}
+.port-serv h4{
+  color: #202020;
+  opacity: .75;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 600;
+  letter-spacing: .5px;
+}
+.port-serv{
+  margin-top: 30px;
+}
+.portfolio-serv{
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+.porting-serv{
+  margin-right: 30px;
+}
+.porting-serv img{
+  width: 40px;
+  display: block;
+  margin: auto;
+}
+.porting-serv p{
+  font-size: 15.5px;
+  color: #202020;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  margin-top: 2px;
+}
+.portis2 button{
+  background-color: #3C83CB;
+  max-width: 264px;
+  width: 100%;
+  height: 58px;
+  color: #ffffff;
+  font-size: 19.5px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 35px;
+}
+
+
+/* =================portfolio css end============================== */
 @media only screen and (max-width:1500px){
   .home112{
     width: auto;
@@ -6095,6 +6352,15 @@ form button {
 @media screen and (max-width: 1100px) {
   .header {
     padding: 12px 30px;
+  }
+  .bff h2{
+    font-size: 35px;
+  }
+  .tasking h2{
+    font-size: 35px;
+  }
+  .strategy h2{
+    font-size: 35px;
   }
   .ser-nav{
     top: 130px;
@@ -6821,6 +7087,21 @@ form button {
 @media screen and (max-width: 900px) {
   .desk-nav {
     display: none;
+  }
+  .strategy h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .bff h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .tasking h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .tasking-card{
+    flex-wrap: wrap;
   }
   .home1112 ul{
     width: 100%;
@@ -8053,6 +8334,15 @@ form button {
 @media screen and (max-width: 450px) {
   .header {
     width: 240vw;
+  }
+  .tasking h2{
+    font-size: 25px;
+  }
+  .strategy h2{
+    font-size: 35px;
+  }
+  .bff h2{
+    font-size: 25px;
   }
   .loofs-sect1 h2{
     width: 90%;

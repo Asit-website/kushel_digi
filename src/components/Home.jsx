@@ -147,7 +147,7 @@ const Home = () => {
     document.getElementById("three").style.background = "none";
     document.getElementById("fourth").style.background = "none";
 
-    document.getElementById("one").style.padding = "5px 22px";
+    document.getElementById("one").style.padding = "50px 22px";
     document.getElementById("two").style.padding = "0px 0px";
     document.getElementById("three").style.padding = "0px 0px";
     document.getElementById("fourth").style.padding = "0px 0px";
@@ -645,7 +645,7 @@ const Home = () => {
             )}
           </div>
           <div className="home52 w-full text-center">
-            <button className="btn btn1 m-auto btn3">
+          <NavLink to="/portfolio"><button className="btn btn1 m-auto btn3">
               <span className="mr-2">VIEW ALL </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -660,7 +660,7 @@ const Home = () => {
                   d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
                 />
               </svg>
-            </button>
+            </button></NavLink>
           </div>
         </div>
 
