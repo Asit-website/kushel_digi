@@ -181,6 +181,7 @@ const Navbar = () => {
                           <p className="cpmpa">Our Clients</p>
                           <p className="cpmpa">Testimonials</p>
                           <p className="cpmpa">Career with us</p>
+                         <NavLink to="/hire"><p className="cpmpa">Hire team</p></NavLink>
                           {/* <NavLink onClick={toggleService2} to="/staff"><p className="cpmpa">STAFF AUGMENTATION</p></NavLink> */}
                         </div>
                       </div>
@@ -485,9 +486,9 @@ const Navbar = () => {
                     onClick={toggleHire}
                     className="flex items-center cursor-pointer"
                   >
-                   <NavLink to="/hire"><p className="sar" to="">
+                   <p className="sar" to="">
                       Hire
-                    </p></NavLink>
+                    </p>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="15"
