@@ -98,7 +98,7 @@ const Home = () => {
   let shop = "Shopify";
   let commerce = "Woo Commerce";
   let mag = "Magento";
-
+   let link = "kick"
   let figma1 = "Figma";
   let adobe1 = "Adobe XD";
   let sketch = "Sketch";
@@ -147,7 +147,7 @@ const Home = () => {
     document.getElementById("three").style.background = "none";
     document.getElementById("fourth").style.background = "none";
 
-    document.getElementById("one").style.padding = "5px 22px";
+    document.getElementById("one").style.padding = "50px 22px";
     document.getElementById("two").style.padding = "0px 0px";
     document.getElementById("three").style.padding = "0px 0px";
     document.getElementById("fourth").style.padding = "0px 0px";
@@ -269,11 +269,7 @@ const Home = () => {
         <div className="home2 mb-8">
           <div className="home21 px-24 flex">
             <div className="home211 mr-14">
-              {/* <h1 className='mb-0 font-bold'>ABOUT US</h1> */}
-              <marquee behavior="scroll" direction="right" scrollamount="20">
                 <img src={aboutji} alt="about" />
-              </marquee>
-
               <h5 className="text-blue-500 mt-16">Who are we?</h5>
               <h3 className="mb-2">
                 We are your digital partner for innovative design and reliable
@@ -326,12 +322,17 @@ const Home = () => {
                 of cutting-edge technology solutions.
               </p>
             </div>
-            <div className="home312">
+            <div className="home312 homanta">
               <Splide
                 aria-label="Our Services"
                 options={{
                   perPage,
                   perMove: 1,
+                  autoplay: true,
+                  pauseOnHover: true,
+                  type: "loop",
+                  interval: 2000,
+                  drag: true,
                 }}
               >
                 <SplideSlide>
@@ -447,7 +448,7 @@ const Home = () => {
                   autoplay: true,
                   pauseOnHover: true,
                   type: "loop",
-                  interval: 800,
+                  interval: 1000,
                   drag: true,
                 }}
               >
@@ -559,7 +560,7 @@ const Home = () => {
               </Splide>
             </div>
           </div>
-          <button className="home-btns">
+        <NavLink to="/contact"><button className="home-btns">
             Lets Together{" "}
             <img
               width={13}
@@ -568,7 +569,7 @@ const Home = () => {
               src={arrow}
               alt="arrow"
             />
-          </button>
+          </button></NavLink>
         </div>
 
         <div className="home5 pb-10 mb-12 bg-gray-100">
@@ -601,19 +602,19 @@ const Home = () => {
             </div>
             {tab === 1 && (
               <div className="home512 flex flex-wrap justify-center mt-12">
-                <PortCard heading={heading} pads={a9} />
-                <PortCard heading={heading1} pads={pads} />
-                <PortCard heading={heading2} pads={bds} />
-                <PortCard heading={heading3} pads={jones} />
-                <PortCard heading={heading4} pads={major} />
-                <PortCard heading={heading5} pads={solenoid} />
+                <PortCard link={"#"} heading={heading} pads={a9} />
+                <PortCard link={"kick"} heading={heading1} pads={pads} />
+                <PortCard link={"#"} heading={heading2} pads={bds} />
+                <PortCard link={"#"} heading={heading3} pads={jones} />
+                <PortCard link={"#"} heading={heading4} pads={major} />
+                <PortCard link={"#"} heading={heading5} pads={solenoid} />
               </div>
             )}
 
             {tab === 2 && (
               <div className="home512 flex flex-wrap justify-center mt-12">
-                <PortCard heading={heading} pads={a9} />
-                <PortCard heading={heading1} pads={pads} />
+                <PortCard link={"#"} heading={heading} pads={a9} />
+                <PortCard link={"kick"} heading={heading1} pads={pads} />
                 {/* <PortCard heading={heading2} pads={bds} />
               <PortCard heading={heading3} pads={jones} />
               <PortCard heading={heading4} pads={major} />
@@ -625,8 +626,8 @@ const Home = () => {
               <div className="home512 flex flex-wrap justify-center mt-12">
                 {/* <PortCard heading={heading} pads={a9} />
               <PortCard heading={heading1} pads={pads} /> */}
-                <PortCard heading={heading2} pads={bds} />
-                <PortCard heading={heading3} pads={jones} />
+                <PortCard link={"#"} heading={heading2} pads={bds} />
+                <PortCard link={"#"} heading={heading3} pads={jones} />
                 {/* <PortCard heading={heading4} pads={major} />
               <PortCard heading={heading5} pads={solenoid} /> */}
               </div>
@@ -638,13 +639,13 @@ const Home = () => {
               <PortCard heading={heading1} pads={pads} />
               <PortCard heading={heading2} pads={bds} />
               <PortCard heading={heading3} pads={jones} /> */}
-                <PortCard heading={heading4} pads={major} />
-                <PortCard heading={heading5} pads={solenoid} />
+                <PortCard link={"#"} heading={heading4} pads={major} />
+                <PortCard link={"#"}   heading={heading5} pads={solenoid} />
               </div>
             )}
           </div>
           <div className="home52 w-full text-center">
-            <button className="btn btn1 m-auto btn3">
+          <NavLink to="/portfolio"><button className="btn btn1 m-auto btn3">
               <span className="mr-2">VIEW ALL </span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -659,7 +660,7 @@ const Home = () => {
                   d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
                 />
               </svg>
-            </button>
+            </button></NavLink>
           </div>
         </div>
 
@@ -721,7 +722,7 @@ const Home = () => {
                 autoplay: true,
                 pauseOnHover: true,
                 type: "loop",
-                interval: 800,
+                interval: 1000,
                 drag: true,
                 perMove: 1,
               }}

@@ -21,6 +21,8 @@ import arrow4 from '../images/arrow4.png'
 import ustu from '../images/ustu.png';
 import uiy from '../images/uyi.png';
 import stand from '../images/stand.png';
+import howux from '../images/howux.png';
+import ContactForm2 from "./common/contactForm2";
 import {
   Accordion,
   AccordionItem,
@@ -117,6 +119,11 @@ const Uiux = () => {
                 options={{
                   perPage,
                   perMove: 1,
+                  autoplay: true,
+                  pauseOnHover: true,
+                  type: "loop",
+                  interval: 2000,
+                  drag: true,
                 }}
               >
                 <SplideSlide>
@@ -166,6 +173,16 @@ And Conversion Rates</h5>
                 </SplideSlide>
               </Splide>
               </div>
+        </div>
+
+        <div className="how-ux">
+           <div className="how-ux1">
+               <h2>How is UX design valuable to my <br /> business?</h2>
+               <p>Everyone wants to be customer-focused, but websites often serve splintered, internal agendas that don’t resonate with the intended audience. Here’s your opportunity to stand out. All you have to do is answer the needs of your target audience on your site. Reduce barriers on your site to increase engagement and conversion. Delight your customers more and annoy them less to improve their satisfaction with your brand. Optimize your ecommerce checkout to help them convert more easily. By definition, UX design should help your customers—while your business gains even more.</p>
+           </div>
+           <div className="how-ux2">
+              <img src={howux} alt="howux" />
+           </div>
         </div>
  
         <div className="deliver-p">
@@ -335,44 +352,7 @@ And Conversion Rates</h5>
             </div>
           </div>
         </div>
-
-        <div className='flex items-start justify-center discusion-form discusion-form1'>
-           <div className="w-full  mrs mrs1">
-            <h3>Let’s Discuss your Project</h3>
-            <form action="">
-                <div className=" flex items-start common-form">
-                     <div className="first-form">  
-                         <div className="form-field">
-                            <input type="text" placeholder="Name*" />
-                         </div>
-                         <div className="form-field mt-5">
-                            <input type="text" placeholder="Phone number*" />
-                         </div>
-                         <div className="form-field mt-5">
-                            <input type="email" placeholder="Email Address*" />
-                         </div>
-                         <div>
-                  <button>Submit <img className="tih" src={arrow1} alt="" /></button>
-               </div>
-                     </div>
-                     <div className="second-form">
-                        <div className="form-filed1">
-                            <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
-                        </div>
-                     </div>
-                </div>
-               
-            </form>
-        </div>
-        <div className='w-full   loofs loofs1'>
-             <div className=" loofs-sect1">
-                  <h2>Would You Like To Talk To Our Experts About Your Project?</h2>
-                  <p> You can send us the details of your project, and a member of our team will contact you shortly.</p>
-                  <button>Request A Call <img  width={12} className="inline ml-1" src={arrow4} alt="arrow3" /></button>
-             </div>
-        </div>
-        </div>
-
+        <ContactForm2/>
       </div>
     </>
   );

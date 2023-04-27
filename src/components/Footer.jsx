@@ -49,7 +49,6 @@ const Footer = () => {
               <NavLink to="/">Graphic Design</NavLink>
             </div>
           </div>
-
           <div className="foot11 foot13">
             <h5></h5>
             <div className="foot10 reji flex flex-col">
@@ -90,7 +89,7 @@ const Footer = () => {
                 <img src={pint} alt="" />
                 <img src={twiter} alt="" />
               </div>
-              <div className='second-header foot-second-header flex items-center'>
+              {/* <div className='second-header foot-second-header flex items-center'>
                 <div className="second-header1">
                   {cont === 1 ? <div onClick={toggleCont} id="cont1" className="flex items-center cursor-pointer">
                     <img src="/static/images/c1.png" alt="" />
@@ -122,7 +121,15 @@ const Footer = () => {
                   <img src={india} alt="" />
                   <p className='ml-2 text-white text-lg united'>India</p>
                 </div>
-              </div>
+              </div> */}
+             <div className="footer-india flex items-center">
+                <img src={india} alt="india" />
+                <p className='ml-2'>+ 91 9045301702</p>
+             </div>
+             <div className="footer-india flex items-center">
+                <img src="/static/images/c1.png" alt="india" />
+                <p className='ml-2'>+ 1 5855662070</p>
+             </div>
             </div>
           </div>
         </div>

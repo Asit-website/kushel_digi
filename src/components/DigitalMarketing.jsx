@@ -32,6 +32,13 @@ import Arrow from "../digimarket assets/arrow.svg";
 // import Vector3 from '../digimarket assets/Vector (3).png'
 // import Vector from '../digimarket assets/Vector.png'
 
+import chart1 from "../digimarket assets/chart (1).svg";
+import chart2 from "../digimarket assets/chart (2).svg";
+import chart3 from "../digimarket assets/chart (3).svg";
+import chart4 from "../digimarket assets/chart (4).svg";
+import chart5 from "../digimarket assets/chart (5).svg";
+import chart6 from "../digimarket assets/chart (6).svg";
+
 import {
   Accordion,
   AccordionItem,
@@ -39,13 +46,13 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import ContactForm2 from "./common/contactForm2";
 
 function DigitalMarketing() {
   return (
     <>
       <div className="ser-main digi-ser-main">
         <div className="digitalMarketing">
-          {/* // <!-- Hero Section --> */}
           <section className="heroSection">
             <div className="hero-container">
               <div className="hero-content">
@@ -110,7 +117,7 @@ function DigitalMarketing() {
           {/* <!-- End of Hero Section --> */}
 
           {/* <!-- Package Section --> */}
-          <section>
+          <section className="packages_section">
             <div className="packages digi-packages">
               <div className="package-types text-center">
                 <h3 className="font-bold">Why Does Your Businesses Need</h3>
@@ -152,6 +159,19 @@ function DigitalMarketing() {
             </div>
           </section>
           {/* <!-- End of Package Section --> */}
+
+          {/* <!-- Charts Section --> */}
+          <section>
+            <div className="charts">
+              <img src={chart3} alt="" />
+              <img src={chart4} alt="" />
+              <img src={chart5} alt="" />
+              <img src={chart6} alt="" />
+              <img src={chart1} alt="" />
+              <img src={chart2} alt="" />
+            </div>
+          </section>
+          {/* <!-- End of Charts Section --> */}
 
           {/* <!-- Portfolio Section --> */}
           <section>
@@ -298,17 +318,20 @@ function DigitalMarketing() {
               </div>
             </div>
           </section>
+          {/* <!-- End of Portfolio Section --> */}
 
           {/* <!-- Contact Us Section --> */}
           <section>
-          <div className="improved">
-             <h2>Improved Sales. Quick ROI. <br /> Faster Growth.</h2>
-             <p>15-day free trial. No credit card required.</p>
-             <div className="improved-btn flex items-center justify-center">
+            <div className="improved">
+              <h2>
+                Improved Sales. Quick ROI. <br /> Faster Growth.
+              </h2>
+              <p>15-day free trial. No credit card required.</p>
+              <div className="improved-btn flex items-center justify-center">
                 <button className="sign">SIGN UP FOR FREE</button>
                 <button className="plans">SEE PLANS AND PRICING</button>
-             </div>
-          </div>
+              </div>
+            </div>
             <div className="bookus">
               <div className="bookus-heading">
                 <h2>Get free Consultation</h2>
@@ -409,103 +432,7 @@ function DigitalMarketing() {
                 </div>
               </div>
             </div>
-
-            <div className="contactus">
-              <div className="contactus-container__left">
-                <div className="contactus-heading">
-                  <h2>Let’s Discuss Your Project Today</h2>
-                  <p>
-                    Please fill in the form and let’s chat understand how we can
-                    help you better
-                  </p>
-                </div>
-                <div className="contactus-form mt-8">
-                  <form action="">
-                    <div className="contactus-form__input">
-                      <input type="text" placeholder="Name*" />
-                      <input type="text" placeholder="Email Address*" />
-                    </div>
-                    <div className="contactus-form__input">
-                      <input type="email" placeholder="Phone number*" />
-                      {/* <input type="text" placeholder="Service Required" /> */}
-                      <select name="" id="">
-                        <option value="">Service Required</option>
-                        <option value="">Web</option>
-                        <option value="">App</option>
-                      </select>
-                    </div>
-
-                    <div className="contactus-form__input">
-                      <textarea
-                        name=""
-                        id=""
-                        cols="30"
-                        rows="10"
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
-
-                    <div className="contactus-form__input">
-                      <button>
-                        Submit{" "}
-                        <img
-                          width={14}
-                          className=" inline ml-1"
-                          src={Arrow}
-                          alt=""
-                        />
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-
-              {/* <div className="contactus-container__right">
-                            <div className="contactus-container__right__title">
-                                <h3 className="address-btn" onclick="showAddress()">Address</h3>
-                                <h3 className="map-btn" onclick="showMap()">Google Maps</h3>
-                            </div>
-                            <div className="contactus-container__right__Address active">
-                                <div className="contactus-container__right__Address__details">
-                                    <div className="contactus-container__right__Address__details__icon">
-                                        <img src={Vector1} alt="" />
-                                        <img src={Vector} alt="" />
-                                    </div>
-                                    <div className="contactus-container__right__Address__details__text">
-                                        <p>OUR LOCATION</p>
-                                        <p>g-9,first Floor, Sector 63, Noida</p>
-                                    </div>
-                                </div>
-                                <div className="contactus-container__right__Address__details">
-                                    <div className="contactus-container__right__Address__details__icon">
-                                        <img src={Vector2} alt="" />
-                                        <img src={Vector} alt="" />
-                                    </div>
-                                    <div className="contactus-container__right__Address__details__text">
-                                        <p>SEND US MAIL</p>
-                                        <p>shubham@kusheldigi.com</p>
-                                    </div>
-                                </div>
-                                <div className="contactus-container__right__Address__details">
-                                    <div className="contactus-container__right__Address__details__icon">
-                                        <img src={Vector3} alt="" />
-                                        <img src={Vector} alt="" />
-                                    </div>
-                                    <div className="contactus-container__right__Address__details__text">
-                                        <p>CALL US</p>
-                                        <p>+91 9045301702</p>
-                                    </div>
-                                </div>
-                            </div>
-                          
-                            <div className="contactus-container__right__map">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14009.423695189258!2d77.37562616786731!3d28.619092918766782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce49f5d8cdc4b%3A0xedb207949cd07d2b!2sKushel%20Digi%20Solutions!5e0!3m2!1sen!2sin!4v1680774903722!5m2!1sen!2sin"
-                                    width="400" height="350" style={{ border: 0 }} allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div> */}
-            </div>
+            <ContactForm2/>
           </section>
         </div>
       </div>

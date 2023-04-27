@@ -14,6 +14,11 @@ import mon2 from "../images/mon2.png";
 import mon3 from "../images/mon3.png";
 import marketing from '../images/marketing.png';
 import uiux from '../images/uiux.png';
+import staffji from '../images/staffpar.png'
+
+import ent3 from '../images/ent3.svg';
+import ent4 from '../images/ent4.svg';
+import ent5 from '../images/ent5.svg';
 
 const Navbar = () => {
   const [cont, setCont] = useState(1);
@@ -21,11 +26,16 @@ const Navbar = () => {
   const toggleMenu = () => {
     document.querySelector(".mob-nav2").classList.toggle("mob-nav2-active");
   };
+
   const toggleMenu1 = () => {
     document.querySelector(".mob-nav2").classList.add("mob-nav2-active");
   };
   const toggleService = () => {
     document.querySelector(".ser-nav").classList.toggle("hidden");
+  };
+
+  const toggleHire = () => {
+    document.querySelector(".hire-nav").classList.toggle("hidden");
   };
 
   const toggleService1 = () => {
@@ -56,7 +66,7 @@ const Navbar = () => {
             <div className="noida">
               <img src={location} alt="location" />
               <p>
-                g-9,first Floor, Sector 63, Noida <span>|</span>{" "}
+                g-9, first Floor, Sector 63, Noida <span>|</span>{" "}
               </p>
             </div>
 
@@ -110,7 +120,7 @@ const Navbar = () => {
 
             <div className="flex items-center ml-10">
               <img src="/static/images/c1.png" alt="alt" />
-              <p className="ml-2">+15855662070</p>
+              <p className="ml-2">+1 5855662070</p>
             </div>
           </div>
         </header>
@@ -153,14 +163,14 @@ const Navbar = () => {
                     <div className="compan flex items-start justify-between">
                       <div className="first-compan mt-3 flex items-start justify-evenly">
                         <div className="second-compan mr-10">
-                          <h5 className="cpm">The Company</h5>
+                          <h5 className="cp">The Company</h5>
                           <p className="cpmpa">Who We Are</p>
                           <p className="cpmpa">Our Misson & Vision</p>
                           <p className="cpmpa">Our Work Process</p>
                           <p className="cpmpa">Our Team</p>
                           <p className="cpmpa">Social Cause - NGO</p>
                           <p className="cpmpa">Blog</p>
-                        <NavLink onClick={toggleService2} to="/contact"><p className="cpmpa">Contact Us</p></NavLink>
+                          <NavLink onClick={toggleService2} to="/contact"><p className="cpmpa">Contact Us</p></NavLink>
                         </div>
                         <div className="second-compan mr-5">
                           <h5 className="cp">Insight</h5>
@@ -171,7 +181,8 @@ const Navbar = () => {
                           <p className="cpmpa">Our Clients</p>
                           <p className="cpmpa">Testimonials</p>
                           <p className="cpmpa">Career with us</p>
-                          <NavLink onClick={toggleService2} to="/staff"><p className="cpmpa">STAFF AUGMENTATION</p></NavLink>
+                         <NavLink to="/hire"><p className="cpmpa">Hire team</p></NavLink>
+                          {/* <NavLink onClick={toggleService2} to="/staff"><p className="cpmpa">STAFF AUGMENTATION</p></NavLink> */}
                         </div>
                       </div>
                       <div className="second-compan1">
@@ -284,7 +295,7 @@ const Navbar = () => {
                             </p>
                           </div>
                           <div className="w-full mt-7">
-                           <NavLink onClick={toggleService} to="/uiux"> <div className="flex items-center">
+                            <NavLink onClick={toggleService} to="/uiux"> <div className="flex items-center">
                               <img src={uiux} alt="" />
                               <h4>UI/UX Design</h4>
                             </div></NavLink>
@@ -303,6 +314,14 @@ const Navbar = () => {
                             <p className="yamini uppercase">
                               SEO <span>|</span> SMO <span>|</span> PPC
                             </p>
+                          </div>
+                          <div className="w-full mt-7">
+                            <NavLink onClick={toggleService} to="/staff">
+                              <div className="flex items-center">
+                                <img src={staffji} alt="staffji" />
+                                <h4>Staff Augmentation</h4>
+                              </div>
+                            </NavLink>
                           </div>
                         </div>
                       </div>
@@ -449,127 +468,121 @@ const Navbar = () => {
                   Our portfolio
                 </NavLink>
               </li>
-              <li className="mar">
-                {/* <OutsideClickHandler
+              <li className="mar" style={{ position: "relative" }}>
+                <OutsideClickHandler
                   onOutsideClick={() => {
                     if (
                       !document
-                        .querySelector(".ser-nav")
+                        .querySelector(".hire-nav")
                         .classList.contains("hidden")
                     ) {
                       document
-                        .querySelector(".ser-nav")
+                        .querySelector(".hire-nav")
                         .classList.toggle("hidden");
                     }
                   }}
-                > */}
-                <div
-                  // onClick={toggleService}
-                  className="flex items-center cursor-pointer"
                 >
-                  <p className="sar" to="">
-                    Hire
-                  </p>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="15"
-                    fill="currentColor"
-                    className="ml-1 bi bi-chevron-down"
-                    viewBox="0 0 16 16"
+                  <div
+                    onClick={toggleHire}
+                    className="flex items-center cursor-pointer"
                   >
-                    <path
-                      fillRule="evenodd"
-                      d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-                    />
-                  </svg>
-                </div>
-                {/* <div className="ser-nav hidden">
-                  <div className="ser-nav5">
-                    <div className="ser-tag">
-                      <div className="tag1">
-                        <div className="">
-                         <NavLink onClick={toggleService} to="/mobileApp"> <div className="flex items-center">
-                            <img src={mon1} alt="" />
-                            <h4>Mobile App Development</h4>
-                          </div></NavLink>
-                          <p className="yamini">
-                            i Phone <span>|</span> Android <span>|</span>{" "}
-                            Flutter <span>|</span> React Native <span>|</span>{" "}
-                            Kotlin
-                            <span>|</span> Swift
-                          </p>
-                        </div>
-                        <div className=" mt-7">
-                         <NavLink onClick={toggleService} to="/service"> <div className="flex items-center">
-                            <img src={mon2} alt="" />
-                            <h4>E - Commerce Solutions</h4>
-                          </div></NavLink>
-                          <p className="yamini">
-                            Shopify <span> |</span> Woo Commerce <span> |</span>{" "}
-                            Big Commerce <span> |</span>
-                            Magento <span> |</span> Wordpress
-                          </p>
-                        </div>
-                        <div className=" mt-7">
-                          <div className="flex items-center">
-                            <img src={mon3} alt="" />
-                            <h4>Graphic Design</h4>
-                          </div>
-                          <p className="yamini">
-                            Adobe Illustrator <span>|</span> Adobe Photoshop{" "}
-                            <span>|</span> <br />
-                            CorelDRAW <span>|</span> After Effect <span>|</span>{" "}
-                            Premium Pro
-                          </p>
-                        </div>
-                      </div>
-                      <div className="tag1 ml-10">
-                        <div className="">
-                         <NavLink onClick={toggleService} to="/website"><div className="flex items-center">
-                            <img src={mon4} alt="" />
-                            <h4>Web development</h4>
-                          </div></NavLink>
-                          <p className="yamini">
-                            php <span>|</span> React js <span>|</span> HTML5{" "}
-                            <span>|</span> Wordpress <span>|</span> Vue Js
-                            <span>|</span> Node js
-                          </p>
-                        </div>
-                        <div className="w-full mt-7">
-                          <div className="flex items-center">
-                            <img src={mon4} alt="" />
-                            <h4>UI/UX Design</h4>
-                          </div>
-                          <p className="yamini">
-                            Figma <span>|</span> Adobe XD <span>|</span> Sketch{" "}
-                            <span>|</span> Affinity
-                          </p>
-                        </div>
-                        <div className="w-full mt-7">
-                          <div className="flex items-center">
-                            <img src={mon4} alt="" />
-                            <h4>Digital Marketing</h4>
-                          </div>
-                          <p className="yamini uppercase">
-                            SEO <span>|</span> SMO <span>|</span> PPC
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                   
+                   <p className="sar" to="">
+                      Hire
+                    </p>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="15"
+                      height="15"
+                      fill="currentColor"
+                      className="ml-1 bi bi-chevron-down"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                      />
+                    </svg>
                   </div>
-                  <div className="teal flex items-center justify-between">
-                        <div className="tael-head">
-                            <h3>GET FREE CONSULTATION</h3>
-                            <p className="want">Want to validate your mobile app idea? Tell us a little bit <br /> about your requirements</p>
+                  <div className="hire-nav hidden">
+                    <div className="hire-nav__containers">
+                      <div className="hire-nav__container">
+                        <div className="hire-nav__container__header">
+                          <img src={ent3} alt="" />
+                          <h3>Web Development</h3>
                         </div>
-                        <div className="teal-contact">
-                            <button className="conj">Contact Us</button>
+                        <ul>
+                          <li>
+                            <NavLink to="/hire">PHP Developer</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">Laravel Web Developer</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">Node Js Developer</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">React Js Developer</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">Wordpress Developer</NavLink>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="hire-nav__container">
+                        <div className="hire-nav__container__header">
+                          <img style={{ width: "0.7rem" }} src={ent4} alt="" />
+                          <h3>Mobile App Developer</h3>
                         </div>
+                        <ul>
+                          <li>
+                            <NavLink to="/hire">Android Developer</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">IOS Developer</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">Flutter Developer</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">React Native Developer</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">Kotlin Developer</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">Swift Developer</NavLink>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="hire-nav__container">
+                        <div className="hire-nav__container__header">
+                          <img src={ent5} alt="" />
+                          <h3>Hire a Designer</h3>
+                        </div>
+                        <ul>
+                          <li>
+                            <NavLink to="/hire">Website Designer</NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">UI/UX Designer (3 Year +) EXP. </NavLink>
+                          </li>
+                          <li>
+                            <NavLink to="/hire">Graphic Designer (3Year +) EXP.</NavLink>
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                  </div> */}
-                {/* </OutsideClickHandler> */}
+                    <div className="teal flex items-center justify-between">
+                      <div className="tael-head">
+                        <h3>GET FREE CONSULTATION</h3>
+                        <p className="want">Want to validate your mobile app idea? Tell us a little bit <br /> about your requirements</p>
+                      </div>
+                      <div className="teal-contact">
+                        <button className="conj">Contact Us</button>
+                      </div>
+                    </div>
+                  </div>
+                </OutsideClickHandler>
               </li>
               <li className="mar">
                 <OutsideClickHandler
@@ -761,8 +774,8 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-        </nav>
-      </div>
+        </nav >
+      </div >
     </>
   );
 };
