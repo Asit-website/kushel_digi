@@ -40,7 +40,7 @@ const About = () => {
                             <h3>Get To Know Us Better</h3>
                             <p>In kushel digi, we keep our minds free from any boundaries so that they can imagine and conceive great ideas which can be loved by your clients. We know the value of your trust which you put on us and kushel digi always do its best to safeguard that trust by going beyond than client’s expectation. kushel digi is driven under the leadership and guidance of one dynamic experts shubham Gupta (Founder)</p>
                             <button className='about-btn'>
-                                <span>See Our Approach More</span>
+                                <span>Learn More</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
@@ -119,8 +119,8 @@ const About = () => {
                     </div>
                 </div> */}
                 <div className="about-main7">
-                    <div className="about-main71">
-                        <h1 className='text-center'>Meet Our Team</h1>
+                    <h1 className='text-center'>Meet Our Team</h1>
+                    <div className="about-main71 flex flex-wrap justify-center">
                         <div className="about7 relative">
                             <img src="/static/images/e11.png" alt="" />
                             <div className='absolute flex flex-col'>
@@ -214,8 +214,48 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <div className="about-main8">
+                    <div className="about-main81">
+                        <div className="about80 flex items-center">
+                            <div className="about8">
+                                <h3 className='mb-1'>Our History</h3>
+                                <b className='font-bold mb-2'>2019</b>
+                                <p className='mb-2 mt-2'>Appinventiv is founded</p>
+                                <p>We started with just 10 employees working passionately with a vision to grow. With utmost dedication, we bagged our first brand project within a month of our incorporation. Set the grounds for success and unprecedented opportunities.</p>
+                            </div>
+                            <div className="about81">
+                                <img src="/static/images/e18.png" alt="" />
+                            </div>
+                        </div>
+                        <div className="about800 mt-8 px-12 relative">
+                            <div className="about802"></div>
+                            <div className="flex justify-between">
+                                <div className="about801">
+                                    <img src="/static/images/e20.png" alt="" />
+                                    <b>2019</b>
+                                </div>
+                                <div className="about801">
+                                    <img className='invisible' src="/static/images/e20.png" alt="" />
+                                    <b>2020</b>
+                                </div>
+                                <div className="about801">
+                                    <img className='invisible' src="/static/images/e20.png" alt="" />
+                                    <b>2021</b>
+                                </div>
+                                <div className="about801">
+                                    <img className='invisible' src="/static/images/e20.png" alt="" />
+                                    <b>2022</b>
+                                </div>
+                                <div className="about801">
+                                    <img className='invisible' src="/static/images/e20.png" alt="" />
+                                    <b>2023</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="about-main-12">
-                    <div className="about-main-12">
+                    <div className="about-main-120 flex">
                         <div className="about-11">
                             <h3>Join the Kushel digi team!</h3>
                             <p>Innovate with the latest and greatest technologies & get to work on some of the coolest projects you can imagine.</p>
@@ -227,11 +267,11 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about-main-13">
-                    <div className="about-main-13 flex items-center">
+                    <div className="about-main-130 flex items-center">
                         <div className="about-11">
                             <h3>Elevate your Digital Identity and win more for your best customers</h3>
                             <button className='about-btn'>
-                                <span>Tempe Website Design Services</span>
+                                <span>See Our Approach More</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
