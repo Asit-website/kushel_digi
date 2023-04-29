@@ -21,6 +21,8 @@ import Uiux from "./components/Uiux";
 import HireTeam from "./components/HireTeam";
 import Error from "./components/Error";
 import Portfolio from "./components/Portfolio";
+import './index2.css';
+
 function App() {
   return (
     <>
