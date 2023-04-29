@@ -669,7 +669,7 @@ const Navbar = () => {
             <div className="mob-nav2">
               <ul>
                 <li>
-                  <NavLink to="">about us</NavLink>
+                  <NavLink to="/about">about us</NavLink>
                 </li>
                 <li className="mar">
                   <OutsideClickHandler

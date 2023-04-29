@@ -5,6 +5,8 @@ import lastdate4 from "../images/lasdate4.png";
 import fiking from "../images/fiking.png";
 import fiking2 from "../images/fiking2.png";
 import fiking3 from "../images/fiking3.png";
+import arrow3 from '../images/arrow5.png';
+import ContactForm1 from "./common/ContactForm1";
 const Career = () => {
   return (
     <>
@@ -127,6 +129,18 @@ const Career = () => {
             </div>
           </div>
         </div>
+        <div className="about-main-13">
+                    <div className="about-main-130 flex items-center">
+                        <div className="about-11">
+                            <h3>Elevate your Digital Identity and win more for your best customers</h3>
+                             <button>See Our Approach More <img width={13} className="inline ml-2" src={arrow3} alt="" /></button>
+                        </div>
+                        <div className="about-10">
+                            <img src="/static/images/e16.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+         <ContactForm1/>
       </div>
     </>
   );

@@ -23,6 +23,7 @@ import Error from "./components/Error";
 import Portfolio from "./components/Portfolio";
 import './index2.css';
 import Career from "./components/Career";
+import About from "./components/About";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Route path="/kick" element={<Kickiz />} />
           <Route path="/portfolio" element={<Portfolio/>}/>
           <Route path="/carer" element={<Career/>}/>
+          <Route path="/about" element={<About />}/>
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
