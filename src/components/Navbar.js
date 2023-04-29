@@ -154,7 +154,7 @@ const Navbar = () => {
                     onClick={toggleService2}
                     className="flex items-center cursor-pointer"
                   >
-                    <p className="sar" to="">
+                    <p className="sar" to="/about">
                       about us
                     </p>
                   </div>
@@ -164,7 +164,7 @@ const Navbar = () => {
                       <div className="first-compan mt-3 flex items-start justify-evenly">
                         <div className="second-compan mr-10">
                           <h5 className="cp">The Company</h5>
-                          <p className="cpmpa">Who We Are</p>
+                         <NavLink onClick={toggleService2} to="/about"><p  className="cpmpa">Who We Are</p></NavLink>
                           <p className="cpmpa">Our Misson & Vision</p>
                           <p className="cpmpa">Our Work Process</p>
                           <p className="cpmpa">Our Team</p>
