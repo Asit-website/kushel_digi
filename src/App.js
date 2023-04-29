@@ -22,6 +22,7 @@ import HireTeam from "./components/HireTeam";
 import Error from "./components/Error";
 import Portfolio from "./components/Portfolio";
 import './index2.css';
+import Career from "./components/Career";
 import About from "./components/About";
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
           <Route path="/playbook" element={<Playbook />} />
           <Route path="/kick" element={<Kickiz />} />
           <Route path="/portfolio" element={<Portfolio/>}/>
+          <Route path="/carer" element={<Career/>}/>
           <Route path="/about" element={<About />}/>
           <Route path="*" element={<Error />} />
         </Routes>
