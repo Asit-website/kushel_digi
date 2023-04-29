@@ -180,9 +180,9 @@ const Navbar = () => {
                           <p className="cpmpa">Our Work</p>
                           <p className="cpmpa">Our Clients</p>
                           <p className="cpmpa">Testimonials</p>
-                          <p className="cpmpa">Career with us</p>
-                         <NavLink to="/hire"><p className="cpmpa">Hire team</p></NavLink>
-                          {/* <NavLink onClick={toggleService2} to="/staff"><p className="cpmpa">STAFF AUGMENTATION</p></NavLink> */}
+                         <NavLink to="/carer"><p className="cpmpa">Career with us</p></NavLink>
+                         <NavLink onClick={toggleService2} to="/hire"><p className="cpmpa">Hire team</p></NavLink>
+                        
                         </div>
                       </div>
                       <div className="second-compan1">
@@ -464,7 +464,7 @@ const Navbar = () => {
                 {/* </OutsideClickHandler> */}
               </li>
               <li className="mar">
-                <NavLink className="sar" to="">
+                <NavLink className="sar" to="/portfolio">
                   Our portfolio
                 </NavLink>
               </li>
@@ -559,7 +559,7 @@ const Navbar = () => {
                           <img src={ent5} alt="" />
                           <h3>Hire a Designer</h3>
                         </div>
-                        <ul>
+                        <ul className=" relative left-3">
                           <li>
                             <NavLink to="/hire">Website Designer</NavLink>
                           </li>
@@ -752,7 +752,7 @@ const Navbar = () => {
                   </OutsideClickHandler>
                 </li>
                 <li className="mar">
-                  <NavLink className="sar" to="">
+                  <NavLink className="sar" to="/portfolio">
                     Our portfolio
                   </NavLink>
                 </li>
