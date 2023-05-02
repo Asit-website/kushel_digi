@@ -72,7 +72,7 @@ const Navbar = () => {
 
             <div className="email">
               <img src={mail} alt="mail" />
-              <p>shubham@kusheldigi.com</p>
+              <p>info@kusheldigi.com</p>
             </div>
             {/* <div className="phone">
               <img src={phone} alt="phone" />
@@ -180,7 +180,7 @@ const Navbar = () => {
                           <p className="cpmpa">Our Work</p>
                           <p className="cpmpa">Our Clients</p>
                           <p className="cpmpa">Testimonials</p>
-                         <NavLink to="/carer"><p className="cpmpa">Career with us</p></NavLink>
+                         <NavLink onClick={toggleService2} to="/carer"><p className="cpmpa">Career with us</p></NavLink>
                          <NavLink onClick={toggleService2} to="/hire"><p className="cpmpa">Hire team</p></NavLink>
                         
                         </div>

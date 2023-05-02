@@ -1473,7 +1473,38 @@ form button {
 .home8-img .chetri2 {
   width: 80px;
 }
-
+.home8-img .joki1{
+  width: 190px;
+  /* max-width: 100%; */
+}
+.home8-img .joki2{
+  width: 210px;
+  /* max-width: 100%; */
+}
+.home8-img .joki3{
+  width: 192px;
+  /* max-width: 100%; */
+}
+.home8-img .joki4{
+  width: 190px;
+  /* max-width: 100%; */
+}
+.home8-img .joki5{
+  width: 70px;
+  /* max-width: 100%; */
+}
+.home8-img .joki6{
+  width: 75px;
+  /* max-width: 100%; */
+}
+.home8-img .joki7{
+  width: 85px;
+  /* max-width: 100%; */
+}
+.home8-img .joki8{
+  width: 130px;
+  /* max-width: 100%; */
+}
 .home811 h2 {
   font-size: 36px;
   font-weight: bold;
@@ -6499,7 +6530,7 @@ form button {
 
 /* =======================carer with us css start===================== */
 .caring-back{
-  background-image: url("./images/carerti.png");
+  background-image: url("./images/xar.jpg");
   background-blend-mode: darken;
   width: 100%;
   height: 70vh;
@@ -6693,6 +6724,342 @@ form button {
   margin-top: 60px !important;
 }
 /* =====================carer with us css end================================= */
+
+/* ==============our approach css start================== */
+.approach-back{
+  background-color: #085881;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 55vh;
+  padding: 0px 100px;
+}
+.approach-sect{
+  position: absolute;
+  top: 50%;
+  transform: translate(-0%,-50%);
+}
+.approach-sect h2{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  font-size: 34px;
+  width: 12em;
+  line-height: 49px;
+}
+.motion{
+ padding: 100px 100px;
+ position: relative;
+ z-index: 2;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.motion::before{
+  background-color: #202020 ;
+  opacity: 0.9;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.motion1 h3{
+  color: #FFFFFF;
+  font-size: 41px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  line-height: 55px;
+}
+.motion2 p{
+  color: #FFFFFF;
+  font-size: 19.5px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 400;
+  width: 37em;
+  max-width: 100%;
+  opacity: 0.9;
+}
+.motion1{
+  margin-right: 100px;
+}
+.motion2{
+  margin-left: 100px;
+}
+.discover-approach{
+  padding: 100px 0px;
+}
+.discover{
+  padding: 0px 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.discover h2{
+  color: #202020;
+  font-size: 34px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+}
+.discover1 p{
+  color: #202020;
+  font-size: 19.5px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  width: 29em;
+  max-width: 100%;
+  margin-top: 12px;
+}
+.discover2 img{
+  width: 18px;
+}
+.distor{
+  margin-top: 8px;
+}
+.distor h4{
+  color: #085881;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 600;
+}
+.discover-ki1{
+ margin-top: 35px;
+}
+.discover-ki p{
+  font-size: 19.5px;
+  font-family: 'Roboto', sans-serif !important;
+  color: #202020;
+  margin-left: 30px;
+  opacity: 0.9;
+  width: 25em;
+  font-weight: 400;
+  max-width: 100%;
+  margin-top: 12px;
+}
+.discover-img h3{
+  color: #202020;
+  font-size: 19.5px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+}
+.discover1{
+  margin-right: 50px;
+}
+.discover2{
+  margin-left: 50px;
+}
+.discover1 .bund{
+  position: absolute;
+  top: 32rem;
+  width: 80px;
+ left: -50px;
+}
+.discover1 .rotate{
+  position: absolute;
+  top: 29rem;
+  width: 80px;
+ left: 10px;
+}
+.discover1 .rotate{
+  position: absolute;
+  top: 18rem;
+  width: 80px;
+ left: 150px;
+}
+.discover-hr{
+  border-bottom: 1px solid #000000;
+  opacity: 0.5;
+  margin: 0px 60px;
+  margin-top: 40px;
+}
+/* ==================our approach css end=================== */
+/* ============home changes css==================== */
+.homeswar h4{
+  font-size: 22px;
+  color: #202020;
+  opacity: 0.9;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+}
+.homeswar h3{
+  font-size: 40px;
+  color: #085881;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  line-height: 45px;
+}
+.homeswar-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeswar-card{
+  background-image: url('./images/kitz.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 480px;
+  height: 400px;
+  margin: 15px 15px;
+  border-radius: 18px;
+  cursor: pointer;
+}
+.homeswar-card::before{
+  content: "";
+  background-color: #000000;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  border-radius: 18px;
+}
+.homeswar-card1{
+  background-image: url('./images/kitz1.png');
+}
+.homeswar-card1::before{
+  opacity: 0.4;
+}
+.homeswar-card2{
+  background-image: url('./images/kitz3.png');
+}
+.homeswar-card3{
+  background-image: url('./images/kitz4.png');
+}
+.homeswar-card4{
+  background-image: url('./images/kitz5.png');
+}
+.homeswar-card5{
+  background-image: url('./images/kitz6.png');
+}
+.homeswar-sect{
+  position: absolute;
+  top: 76%;
+  left: 6%;
+}
+.homeswar-sect1{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   display: none;
+}
+.homeswar-sect1 button{
+  background-color: #FFFFFF;
+  width: 120px;
+  max-width: 100%;
+  height: 42px;
+  color: #085881;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 15.5px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+.homeswar-sect1 p{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 15.5px;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 18px;
+  cursor: pointer;
+}
+.homeswar-card:hover .homeswar-sect1{
+   display: block;
+   transition: 0.5s;
+}
+.homeswar-card:hover .homeswar-sect{
+  display: none;
+  transition: .5s;
+}
+.homeswar-sect h5{
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 500;
+  font-size: 18px;
+}
+.homeswar-sect p{
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  opacity: .9;
+  font-size: 17.5px;
+}
+.home-chin{
+  padding: 80px 100px;
+  background-color: #F2F6FA;
+}
+.home-chin h3{
+  color: #1D274E;
+  font-size: 34px;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 700;
+}
+.chain-cards{
+  margin-top: 30px;
+}
+.chain-box{
+  margin: 12px 12px;
+  max-width: 380px;
+  width: 100%;
+  height: 380px;
+  background-color: #FFFFFF;
+  padding:30px 25px;
+  border-radius: 10px;
+}
+.chain-box img{
+  width: 38px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+.chain-box1 img{
+  margin-top: 35px;
+}
+.chain-box h4{
+  color: #202020;
+  opacity: .9;
+  font-family: 'Value Sans Medium' !important;
+  font-weight: 500;
+  font-size: 18.5px;
+  text-align: center;
+  margin-top: 12px;
+}
+.chain-box p{
+  color: #202020;
+  font-family: 'Roboto', sans-serif !important;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: .9;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 8px;
+}
+.chain-box:hover{
+  background: linear-gradient(180deg, #3C83CB 0%, #085881 100%);
+}
+.chain-box:hover h4{
+  color: #FFFFFF;
+}
+.chain-box:hover p{
+  color: #ffffff;
+}
+.chain-box:hover img{
+  filter: invert(1);
+}
+/* =============home changes css end================== */
 @media only screen and (max-width:1500px) {
   .home112 {
     width: auto;
@@ -6749,7 +7116,9 @@ form button {
   .navbar {
     padding: 12px 60px;
   }
-
+  .home-chin{
+    padding: 80px 60px;
+  }
   .discusion-form1 .mrs {
     padding: 70px 64px;
   }
@@ -7059,7 +7428,9 @@ form button {
   .navbar ul .sar {
     margin-left: 25px;
   }
-
+.chain-card{
+  flex-wrap: wrap;
+}
   .ser-tag {
     flex-wrap: wrap;
   }
@@ -7857,7 +8228,29 @@ form button {
   .desk-nav {
     display: none;
   }
-
+  .homeswar-flex{
+    flex-wrap: wrap;
+  }
+  .homeswar-card{
+    width: 100%;
+  }
+  .homeswar h4{
+    text-align: center;
+  }
+  .homeswar h3{
+    text-align: center;
+    font-size: 30px;
+  }
+  .home-chin{
+    padding: 80px 40px;
+  }
+  .chain-box{
+    height: 360px;
+  }
+ .chain-box p{
+  font-size: 16px;
+  line-height: 26px;
+ }
   .strategy h2 {
     font-size: 30px;
     line-height: 40px;
@@ -9165,7 +9558,9 @@ form button {
   .header {
     width: 240vw;
   }
-
+ .home-chin{
+  padding: 60px 20px;
+ }
   .tasking h2 {
     font-size: 25px;
   }

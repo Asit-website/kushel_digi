@@ -1,6 +1,8 @@
 import React from 'react'
 import arrow3 from '../images/arrow5.png'
 import ContactForm1 from './common/ContactForm1';
+import { NavLink } from 'react-router-dom';
+import SmallApproach from './common/SmallApproach';
 const About = () => {
     return (
         <>
@@ -189,12 +191,12 @@ const About = () => {
                         <div className="about-11">
                             <h3>Our process</h3>
                             <p>We don’t just put thought into what we build but also how we get there. Our proven website process ensures a seamless workflow for our clients and our team.</p>
-                            <button className='about-btn'>
+                           <NavLink to="/approach"><button className='about-btn'>
                                 <span>See Our Approach More</span>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
                                 </svg>
-                            </button>
+                            </button></NavLink>
                         </div>
                     </div>
                 </div>
@@ -267,17 +269,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="about-main-13">
-                    <div className="about-main-130 flex items-center">
-                        <div className="about-11">
-                            <h3>Elevate your Digital Identity and win more for your best customers</h3>
-                            <button>See Our Approach More <img width={13} className="inline ml-2" src={arrow3} alt="" /></button>
-                        </div>
-                        <div className="about-10">
-                            <img src="/static/images/e16.png" alt="" />
-                        </div>
-                    </div>
-                </div>
+                <SmallApproach/>
                 <ContactForm1/>
             </div>
         </>

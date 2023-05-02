@@ -24,6 +24,7 @@ import Portfolio from "./components/Portfolio";
 import './index2.css';
 import Career from "./components/Career";
 import About from "./components/About";
+import Approach from "./components/Approach";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           <Route path="/carer" element={<Career/>}/>
           <Route path="/about" element={<About />}/>
           <Route path="*" element={<Error />} />
+          <Route path="/approach" element={<Approach/>}/>
         </Routes>
         <Footer />
       </Router>

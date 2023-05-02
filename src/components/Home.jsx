@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import DevCard from "./Cards/DevCard";
-import PortCard from "./Cards/PortCard";
-import { SplideTrack } from "@splidejs/react-splide";
+// import PortCard from "./Cards/PortCard";
+// import { SplideTrack } from "@splidejs/react-splide";
 import ServiceCard from "./Cards/ServiceCard";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
@@ -36,16 +36,16 @@ import sketch1 from "../images/sketch.png";
 import illustrator from "../images/illustrator.png";
 import Photoshop from "../images/photoshop.png";
 import portfolio from "../images/portfolio.png";
-import pads from "../images/pads.png";
-import bds from "../images/bds.png";
-import jones from "../images/jones.png";
-import major from "../images/major.png";
-import solenoid from "../images/solenoid.png";
-import a9 from "../images/a9.png";
+// import pads from "../images/pads.png";
+// import bds from "../images/bds.png";
+// import jones from "../images/jones.png";
+// import major from "../images/major.png";
+// import solenoid from "../images/solenoid.png";
+// import a9 from "../images/a9.png";
 import ladki1 from "../images/ladki1.png";
 import star from "../images/star.png";
 import star1 from "../images/star1.png";
-import finch from "../images/finch.png";
+// import finch from "../images/finch.png";
 import pay1 from "../images/pay1.png";
 import pay2 from "../images/pay2.png";
 import pay3 from "../images/pay3.png";
@@ -68,9 +68,21 @@ import box16 from "../images/box16.png";
 import re from "../images/re.png";
 import re1 from "../images/re1.png";
 import arrow from "../images/arrow.png";
-import singi from '../images/singi.png';
+import singi from "../images/singi.png";
 import { NavLink } from "react-router-dom";
-
+import chont1 from '../images/chont1.png';
+import chont2 from '../images/chont2.png';
+import chont3 from '../images/chont3.png';
+import chont4 from '../images/chont4.png';
+import chont5 from '../images/chont5.png';
+import joki1 from '../images/joki1.png';
+import joki2 from '../images/joki2.png';
+import joki3 from '../images/joki3.png';
+import joki4 from '../images/joki4.png';
+import joki5 from '../images/joki5.png';
+import joki6 from '../images/joki6.png';
+import joki7 from '../images/joki7.png';
+import joki8 from '../images/joki8.png';
 const Home = () => {
   let dev = "App";
   let dev1 = "Development";
@@ -98,7 +110,7 @@ const Home = () => {
   let shop = "Shopify";
   let commerce = "Woo Commerce";
   let mag = "Magento";
-   let link = "kick"
+  // let link = "kick";
   let figma1 = "Figma";
   let adobe1 = "Adobe XD";
   let sketch = "Sketch";
@@ -118,21 +130,25 @@ const Home = () => {
   let digital = "Digital";
   let digital1 = "Marketing";
 
-  let heading = "www.2ndAmendment.com";
-  let heading1 = "www.kickeez.com";
-  let heading2 = "www.protrucks.com";
-  let heading3 = "www.jonesbuilt.com";
-  let heading4 = "www.Majorhospital.com";
-  let heading5 = "www.solenoidninja.com";
+  // let heading = "www.2ndAmendment.com";
+  // let heading1 = "www.kickeez.com";
+  // let heading2 = "www.protrucks.com";
+  // let heading3 = "www.jonesbuilt.com";
+  // let heading4 = "www.Majorhospital.com";
+  // let heading5 = "www.solenoidninja.com";
 
   const [perPage, setPerPage] = useState(3);
   const [perPage1, setPerPage1] = useState(5);
-  const [perPage2, setPerPage2] = useState(6);
+  const [perPage2, setPerPage2] = useState(5);
 
   useEffect(() => {
     if (window.matchMedia("(max-width: 750px)").matches) {
       setPerPage(1);
       setPerPage1(1);
+    }
+  }, []);
+  useEffect(() => {
+    if (window.matchMedia("(max-width: 1125px)").matches) {
       setPerPage2(1);
     }
   }, []);
@@ -147,7 +163,7 @@ const Home = () => {
     document.getElementById("three").style.background = "none";
     document.getElementById("fourth").style.background = "none";
 
-    document.getElementById("one").style.padding = "50px 22px";
+    document.getElementById("one").style.padding = "5px 22px";
     document.getElementById("two").style.padding = "0px 0px";
     document.getElementById("three").style.padding = "0px 0px";
     document.getElementById("fourth").style.padding = "0px 0px";
@@ -269,7 +285,7 @@ const Home = () => {
         <div className="home2 mb-8">
           <div className="home21 px-24 flex">
             <div className="home211 mr-14">
-                <img src={aboutji} alt="about" />
+              <img src={aboutji} alt="about" />
               <h5 className="text-blue-500 mt-16">Who are we?</h5>
               <h3 className="mb-2">
                 We are your digital partner for innovative design and reliable
@@ -349,7 +365,7 @@ const Home = () => {
                     fluter={sketch1}
                     react={illustrator}
                     kotlin={Photoshop}
-                    link = {"uiux"}
+                    link={"uiux"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -367,7 +383,7 @@ const Home = () => {
                     c={commerce}
                     d={mag}
                     e={laravel1}
-                    link = {"service"}
+                    link={"service"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -403,7 +419,7 @@ const Home = () => {
                     c={c}
                     d={d}
                     e={e}
-                    link = {"mobileApp"}
+                    link={"mobileApp"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -418,7 +434,7 @@ const Home = () => {
                     apple={pay2}
                     fluter={pay3}
                     class={"you"}
-                   link = {"#"}
+                    link={"#"}
                   />
                 </SplideSlide>
               </Splide>
@@ -560,27 +576,29 @@ const Home = () => {
               </Splide>
             </div>
           </div>
-        <NavLink to="/contact"><button className="home-btns">
-            Lets Together{" "}
-            <img
-              width={13}
-              height={13}
-              className="inline ml-1"
-              src={arrow}
-              alt="arrow"
-            />
-          </button></NavLink>
+          <NavLink to="/contact">
+            <button className="home-btns">
+              Lets Together{" "}
+              <img
+                width={13}
+                height={13}
+                className="inline ml-1"
+                src={arrow}
+                alt="arrow"
+              />
+            </button>
+          </NavLink>
         </div>
-
-        <div className="home5 pb-10 mb-12 bg-gray-100">
+           {/* pehle mb-12 tha */}
+        <div className="home5 pb-10  bg-gray-100">
           <div className="home51 px-24">
             <div className="home511 text-center mb-8">
               <marquee behavior="scroll" direction="right" scrollamount="20">
                 <img className="portfolio" src={portfolio} alt="portfolio" />
               </marquee>
-              <h1 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h1>
+              {/* <h1 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h1>
               <p>We design project designed with passion on time,</p>
-              <p>within budget of full value</p>
+              <p>within budget of full value</p> */}
             </div>
             <div className=" flex-thing flex items-center justify-center">
               <p
@@ -601,70 +619,295 @@ const Home = () => {
               </p>
             </div>
             {tab === 1 && (
-              <div className="home512 flex flex-wrap justify-center mt-12">
-                <PortCard link={"#"} heading={heading} pads={a9} />
-                <PortCard link={"kick"} heading={heading1} pads={pads} />
-                <PortCard link={"#"} heading={heading2} pads={bds} />
-                <PortCard link={"#"} heading={heading3} pads={jones} />
-                <PortCard link={"#"} heading={heading4} pads={major} />
-                <PortCard link={"#"} heading={heading5} pads={solenoid} />
+              <div className="homeswar mt-14">
+                <h4>We create success stories.</h4>
+                <h3>BigCommerce Portfolio</h3>
+                <div className="homeswar-side mt-5">
+                  <div className="homeswar-flex">
+                    <div className="homeswar-card">
+                      <div className="homeswar-sect">
+                        <h5>KICKEEZ</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/kick">
+                          <button>Details</button>
+                        </NavLink>
+                        <NavLink to="/kick">
+                          <p>visit site</p>
+                        </NavLink>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card1">
+                      <div className="homeswar-sect">
+                        <h5>KICKEEZ</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <button>Details</button>
+                        <p>visit site</p>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card2">
+                      <div className="homeswar-sect">
+                        <h5>PROTRUCKS</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <button>Details</button>
+                        <p>visit site</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="homeswar-flex">
+                    <div className="homeswar-card homeswar-card3">
+                      <div className="homeswar-sect">
+                        <h5>2ND AMENDMENT</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/kick">
+                          <button>Details</button>
+                        </NavLink>
+                        <NavLink to="/kick">
+                          <p>visit site</p>
+                        </NavLink>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card4">
+                      <div className="homeswar-sect">
+                        <h5>RELY INNOVATION</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <button>Details</button>
+                        <p>visit site</p>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card5">
+                      <div className="homeswar-sect">
+                        <h5>JONESBUILT</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <button>Details</button>
+                        <p>visit site</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             )}
-
             {tab === 2 && (
-              <div className="home512 flex flex-wrap justify-center mt-12">
-                <PortCard link={"#"} heading={heading} pads={a9} />
-                <PortCard link={"kick"} heading={heading1} pads={pads} />
-                {/* <PortCard heading={heading2} pads={bds} />
-              <PortCard heading={heading3} pads={jones} />
-              <PortCard heading={heading4} pads={major} />
-              <PortCard heading={heading5} pads={solenoid} /> */}
+              <div className="homeswar mt-14">
+                <h4>We create success stories.</h4>
+                <h3>BigCommerce Portfolio</h3>
+                <div className="homeswar-side mt-5">
+                  <div className="homeswar-flex">
+                    <div className="homeswar-card">
+                      <div className="homeswar-sect">
+                        <h5>KICKEEZ</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/kick">
+                          <button>Details</button>
+                        </NavLink>
+                        <NavLink to="/kick">
+                          <p>visit site</p>
+                        </NavLink>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card1">
+                      <div className="homeswar-sect">
+                        <h5>KICKEEZ</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <button>Details</button>
+                        <p>visit site</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             )}
-
             {tab === 3 && (
-              <div className="home512 flex flex-wrap justify-center mt-12">
-                {/* <PortCard heading={heading} pads={a9} />
-              <PortCard heading={heading1} pads={pads} /> */}
-                <PortCard link={"#"} heading={heading2} pads={bds} />
-                <PortCard link={"#"} heading={heading3} pads={jones} />
-                {/* <PortCard heading={heading4} pads={major} />
-              <PortCard heading={heading5} pads={solenoid} /> */}
+              <div className="homeswar mt-14">
+                <h4>We create success stories.</h4>
+                <h3>BigCommerce Portfolio</h3>
+                <div className="homeswar-side mt-5">
+                  <div className="homeswar-flex">
+                    <div className="homeswar-card">
+                      <div className="homeswar-sect">
+                        <h5>KICKEEZ</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/kick">
+                          <button>Details</button>
+                        </NavLink>
+                        <NavLink to="/kick">
+                          <p>visit site</p>
+                        </NavLink>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card1">
+                      <div className="homeswar-sect">
+                        <h5>KICKEEZ</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <button>Details</button>
+                        <p>visit site</p>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card3">
+                      <div className="homeswar-sect">
+                        <h5>2ND AMENDMENT</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/kick">
+                          <button>Details</button>
+                        </NavLink>
+                        <NavLink to="/kick">
+                          <p>visit site</p>
+                        </NavLink>
+                      </div>
+                    </div>
+                  </div>
+              
+                </div>
               </div>
             )}
-
             {tab === 4 && (
-              <div className="home512 flex flex-wrap justify-center mt-12">
-                {/* <PortCard heading={heading} pads={a9} />
-              <PortCard heading={heading1} pads={pads} />
-              <PortCard heading={heading2} pads={bds} />
-              <PortCard heading={heading3} pads={jones} /> */}
-                <PortCard link={"#"} heading={heading4} pads={major} />
-                <PortCard link={"#"}   heading={heading5} pads={solenoid} />
+              <div className="homeswar mt-14">
+                <h4>We create success stories.</h4>
+                <h3>BigCommerce Portfolio</h3>
+                <div className="homeswar-side mt-5">
+                  <div className="homeswar-flex">
+                    <div className="homeswar-card">
+                      <div className="homeswar-sect">
+                        <h5>KICKEEZ</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/kick">
+                          <button>Details</button>
+                        </NavLink>
+                        <NavLink to="/kick">
+                          <p>visit site</p>
+                        </NavLink>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card1">
+                      <div className="homeswar-sect">
+                        <h5>KICKEEZ</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <button>Details</button>
+                        <p>visit site</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             )}
           </div>
           <div className="home52 w-full text-center">
-          <NavLink to="/portfolio"><button className="btn btn1 m-auto btn3">
-              <span className="mr-2">VIEW ALL </span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </button></NavLink>
+            <NavLink to="/portfolio">
+              <button className="btn btn1 m-auto btn3">
+                <span className="mr-2">View our all portfolio</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  className="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </button>
+            </NavLink>
           </div>
+       
         </div>
+        <div className="home-chin">
+           <h3 className="text-center">Why Choose Us</h3>
+           <div className="chain-cards">
+              <div className="chain-card flex items-center justify-center">
+                   <div className="chain-box w-full">
+                      <img src={chont1} alt="chont1" />
+                      <h4>Tailored Solutions</h4>
+                      <p>We create customized solutions and develop eCommerce features you want. If you can imagine it, we will work with you to get it built.We create customized solutions and develop eCommerce features you want. If you can imagine it, we will work with you to get it built.</p>
+                   </div>
 
-        <div className="home6 mb-16">
+                   <div className="chain-box chain-box1 w-full">
+                      <img  src={chont1} alt="chont1" />
+                      <h4>Experience and <br /> Know-How</h4>
+                      <p>We've been supporting eCommerce merchants for over 20 years and have worked on thousands of stores on a variety of platforms.</p>
+                   </div>
+                   <div className="chain-box chain-box1 w-full">
+                      <img src={chont2} alt="chont1" />
+                      <h4>High Standards</h4>
+                      <p>We have built an impeccable reputation and stand behind everything we do. We do not commit to any job unless we know we can do it well.</p>
+                   </div>
+              </div>
+              <div className="chain-card flex items-center justify-center">
+                   <div className="chain-box chain-box1 w-full">
+                      <img src={chont3} alt="chont1" />
+                      <h4>We Care</h4>
+                      <p>Customer satisfaction is our driving force – we sincerely care about our clients’ success and well-being.</p>
+                   </div>
+
+                   <div className="chain-box chain-box1 w-full">
+                      <img  src={chont4} alt="chont1" />
+                      <h4>Increase Profitability</h4>
+                      <p>Our solutions add significant value to websites and are designed to help merchants efficiently manage their stores and increase profitability.</p>
+                   </div>
+                   <div className="chain-box chain-box1 w-full">
+                      <img src={chont5} alt="chont1" />
+                      <h4>Original, Modern Code</h4>
+                      <p>Our solutions add significant value to websites and are designed to help merchants efficiently manage their stores and increase profitability.</p>
+                   </div>
+              </div>
+           </div>
+        </div>
+       
+          
+        <div className="home6 mb-16 py-14">
           <div className="home61 px-24">
             <div className="home611 mb-8 text-center">
               <h1 className="font-bold text-gray-700">OUR WORKING PROCESS</h1>
@@ -728,6 +971,46 @@ const Home = () => {
               }}
             >
               <SplideSlide>
+                {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
+                <img className="joki1" src={joki1} alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                {/* <img className="chetri1" src="/static/images/a17.png" alt="" /> */}
+                <img className="joki2" src={joki2} alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                {/* <img className="chetri2" src="/static/images/a16.png" alt="" /> */}
+                <img className="joki3" src={joki3} alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
+                <img className="joki4" src={joki4} alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                {/* <img className="chetri1" src="/static/images/a17.png" alt="" /> */}
+                <img className="joki5" src={joki5} alt="" />
+              </SplideSlide>
+              <SplideSlide>
+                {/* <img className="chetri2" src="/static/images/a16.png" alt="" /> */}
+                <img className="joki6" src={joki6} alt="" />
+              </SplideSlide>
+              <SplideSlide>
+              <img className="joki7" src={joki7} alt="" />
+                {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
+              </SplideSlide>
+              <SplideSlide>
+              <img className="joki8" src={joki8} alt="" />
+                {/* <img className="chetri1" src="/static/images/a17.png" alt="" /> */}
+              </SplideSlide>
+              <SplideSlide>
+              <img className="joki8" src={joki8} alt="" />
+                {/* <img className="chetri2" src="/static/images/a16.png" alt="" /> */}
+              </SplideSlide>
+              <SplideSlide>
+              <img className="joki7" src={joki7} alt="" />
+                {/* <img className="chetri2" src="/static/images/a16.png" alt="" /> */}
+              </SplideSlide>
+              {/* <SplideSlide>
                 <img className="chetri" src="/static/images/a15.png" alt="" />
               </SplideSlide>
               <SplideSlide>
@@ -735,34 +1018,7 @@ const Home = () => {
               </SplideSlide>
               <SplideSlide>
                 <img className="chetri2" src="/static/images/a16.png" alt="" />
-              </SplideSlide>
-              <SplideSlide>
-                <img className="chetri" src="/static/images/a15.png" alt="" />
-              </SplideSlide>
-              <SplideSlide>
-                <img className="chetri1" src="/static/images/a17.png" alt="" />
-              </SplideSlide>
-              <SplideSlide>
-                <img className="chetri2" src="/static/images/a16.png" alt="" />
-              </SplideSlide>
-              <SplideSlide>
-                <img className="chetri" src="/static/images/a15.png" alt="" />
-              </SplideSlide>
-              <SplideSlide>
-                <img className="chetri1" src="/static/images/a17.png" alt="" />
-              </SplideSlide>
-              <SplideSlide>
-                <img className="chetri2" src="/static/images/a16.png" alt="" />
-              </SplideSlide>
-              <SplideSlide>
-                <img className="chetri" src="/static/images/a15.png" alt="" />
-              </SplideSlide>
-              <SplideSlide>
-                <img className="chetri1" src="/static/images/a17.png" alt="" />
-              </SplideSlide>
-              <SplideSlide>
-                <img className="chetri2" src="/static/images/a16.png" alt="" />
-              </SplideSlide>
+              </SplideSlide> */}
             </Splide>
           </div>
         </div>

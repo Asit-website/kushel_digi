@@ -28,6 +28,7 @@ const ContactForm1 = () => {
                         <option value="">Web development</option>
                         <option value="">UI/UX Design</option>
                         <option value="">Digital Marketing</option>
+                        <option value="">Staff Augmntation</option>
                       </select>
                     </div>
 
