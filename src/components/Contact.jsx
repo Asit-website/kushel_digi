@@ -88,7 +88,7 @@ const Contact = () => {
                     <img src={cuf2} alt="email" />
                     <div className="loc-para">
                       <h3>sEND US MAIL</h3>
-                      <p>shubham@kusheldigi.com</p>
+                      <p>info@kusheldigi.com</p>
                     </div>
                   </div>
                   <div className="loc-section loc-section1">

@@ -69,7 +69,7 @@ const Footer = () => {
               </div>
              <a href="mailto:shubham@kusheldigi.com"><div className="flex foot140 items-center">
                 <img src={footerMail} alt="" />
-                <p>shubham@kusheldigi.com</p>
+                <p>info@kusheldigi.com</p>
               </div></a>
               <div className="flex foot140 items-center">
                 <img src={footerCall} alt="" />
