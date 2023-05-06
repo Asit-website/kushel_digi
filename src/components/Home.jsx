@@ -83,6 +83,7 @@ import joki5 from '../images/joki5.png';
 import joki6 from '../images/joki6.png';
 import joki7 from '../images/joki7.png';
 import joki8 from '../images/joki8.png';
+import sync from '../images/sync.png'
 const Home = () => {
   let dev = "App";
   let dev1 = "Development";
@@ -262,9 +263,9 @@ const Home = () => {
               <div className="home1111">
                 <p>Welcome to Kushel Digi</p>
                 <h2 className="mt-0 mb-2">
-                  Revolutionising your business <br /> through Technology.
+                Creating E-Commerce <br /> Experiences
                 </h2>
-                <p>We Are E-commerce Expert.</p>
+                <p>We take the time to thoughtfully understand your brand voice and vision to deliver unmatched UX focused website design and development.</p>
               </div>
               <div className="home1112 absolute">
                 <ul className="flex flex-row">
@@ -958,8 +959,9 @@ const Home = () => {
         <div className="home8 mb-20 px-8">
           <h2 className="text-center">Our esteemed clients</h2>
           <p className="text-center">Pleasure to work with</p>
-          <div className="home8-img px-4">
+          <div className="home8-img px-4 w-full">
             <Splide
+            //  className="w-full"
               options={{
                 perPage: perPage2,
                 autoplay: true,
@@ -999,7 +1001,7 @@ const Home = () => {
                 {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
               </SplideSlide>
               <SplideSlide>
-              <img className="joki8" src={joki8} alt="" />
+              <img className="joki8" src={sync} alt="" />
                 {/* <img className="chetri1" src="/static/images/a17.png" alt="" /> */}
               </SplideSlide>
               <SplideSlide>

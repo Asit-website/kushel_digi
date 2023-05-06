@@ -1,8 +1,6 @@
 import React from "react";
 import location from "../images/location.png";
 import mail from "../images/mail.png";
-import phone from "../images/phone.png";
-import timer from "../images/timer.png";
 import logo from "../images/logo.png";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
@@ -12,16 +10,21 @@ import mon1 from "../images/mon1.png";
 import mon4 from "../images/mon4.png";
 import mon2 from "../images/mon2.png";
 import mon3 from "../images/mon3.png";
-import marketing from '../images/marketing.png';
-import uiux from '../images/uiux.png';
-import staffji from '../images/staffpar.png'
+import marketing from "../images/marketing.png";
+import uiux from "../images/uiux.png";
+import staffji from "../images/staffpar.png";
 
-import ent3 from '../images/ent3.svg';
-import ent4 from '../images/ent4.svg';
-import ent5 from '../images/ent5.svg';
+import ent3 from "../images/ent3.svg";
+import ent4 from "../images/ent4.svg";
+import ent5 from "../images/ent5.svg";
+
+var st;
 
 const Navbar = () => {
   const [cont, setCont] = useState(1);
+  // const [flag10, setFlag10] = useState(false);
+  var flag10 = false;
+  var [flag11, setFlag11] = useState(false);
 
   const toggleMenu = () => {
     document.querySelector(".mob-nav2").classList.toggle("mob-nav2-active");
@@ -31,33 +34,111 @@ const Navbar = () => {
     document.querySelector(".mob-nav2").classList.add("mob-nav2-active");
   };
   const toggleService = () => {
-    document.querySelector(".ser-nav").classList.toggle("hidden");
+    // document.querySelector(".ser-nav").classList.toggle("hidden");
+    setFlag11(true);
+    clearTimeout(st);
+    // document.querySelector(".ser-nav10").classList.toggle("hidden");
+    let b1 = document.querySelector(".ser-nav");
+    if (b1.classList.contains("hidden")) {
+      b1.classList.remove("hidden");
+    }
   };
 
+
+  // ====================hire dropdown logic start================
   const toggleHire = () => {
-    document.querySelector(".hire-nav").classList.toggle("hidden");
+    // document.querySelector(".hire-nav").classList.toggle("hidden");
+    setFlag11(true);
+    clearTimeout(st);
+    // document.querySelector(".ser-nav10").classList.toggle("hidden");
+    let b1 = document.querySelector(".hire-nav");
+    if (b1.classList.contains("hidden")) {
+      b1.classList.remove("hidden");
+    }
   };
 
+  const toggleService23 = (flag = false) => {
+    console.log(flag10);
+    // document.querySelector(".ser-nav10").classList.toggle("hidden");
+    st = setTimeout(() => {
+      let b1 = document.querySelector(".hire-nav");
+      // if(((!b1.classList.contains('hidden') && !flag10) || flag) && !flag11)
+      if ((!b1.classList.contains("hidden") && !flag10) || flag) {
+        b1.classList.add("hidden");
+      }
+    }, 400);
+  };
+  // ============================hire dropdown logic end==================
+
+  // ============service dropdown logic======================
   const toggleService1 = () => {
     console.log("yes");
     document.querySelector(".ser-nav-mob").classList.toggle("hidden");
   };
 
+  const toggleService22 = (flag = false) => {
+    console.log(flag10);
+    // document.querySelector(".ser-nav10").classList.toggle("hidden");
+    st = setTimeout(() => {
+      let b1 = document.querySelector(".ser-nav");
+      // if(((!b1.classList.contains('hidden') && !flag10) || flag) && !flag11)
+      if ((!b1.classList.contains("hidden") && !flag10) || flag) {
+        b1.classList.add("hidden");
+      }
+    }, 400);
+  };
+// =====================service dropdown logic end=================
+
+// =====================about us dropdown logic=====================
   const toggleService2 = () => {
-    document.querySelector(".ser-nav10").classList.toggle("hidden");
+    setFlag11(true);
+    clearTimeout(st);
+    // document.querySelector(".ser-nav10").classList.toggle("hidden");
+    let b1 = document.querySelector(".ser-nav10");
+    if (b1.classList.contains("hidden")) {
+      b1.classList.remove("hidden");
+    }
   };
 
+  const toggleService21 = (flag = false) => {
+    console.log(flag10);
+    // document.querySelector(".ser-nav10").classList.toggle("hidden");
+    st = setTimeout(() => {
+      let b1 = document.querySelector(".ser-nav10");
+      // if(((!b1.classList.contains('hidden') && !flag10) || flag) && !flag11)
+      if ((!b1.classList.contains("hidden") && !flag10) || flag) {
+        b1.classList.add("hidden");
+      }
+    }, 400);
+  };
+
+  // ====================about us dropdown logic end=====================
+
+  // ==============resources dropdown logic start==============
   const toggleService3 = () => {
-    document.querySelector(".ser-nav-resource").classList.toggle("hidden");
-  }
-  // const shFunc = (index) => {
-  //   setCont(index);
-  // };
+    // document.querySelector(".ser-nav-resource").classList.toggle("hidden");
+    setFlag11(true);
+    clearTimeout(st);
+    let b1 = document.querySelector(".ser-nav-resource");
+    if (b1.classList.contains("hidden")) {
+      b1.classList.remove("hidden");
+    }
+  };
 
-  // const toggleCont = () => {
-  //   document.querySelector(".sh").classList.toggle("hidden");
-  // };
+  const toggleService24 = (flag = false) => {
+    console.log(flag10);
+    // document.querySelector(".ser-nav10").classList.toggle("hidden");
+    st = setTimeout(() => {
+      let b1 = document.querySelector(".ser-nav-resource");
+      // if(((!b1.classList.contains('hidden') && !flag10) || flag) && !flag11)
+      if ((!b1.classList.contains("hidden") && !flag10) || flag) {
+        b1.classList.add("hidden");
+      }
+    }, 400);
+  };
 
+  
+  // ====================resources dropdown logic end=============
   return (
     <>
       <div id="header1" className="overflow-auto w-full">
@@ -151,38 +232,70 @@ const Navbar = () => {
                   }}
                 >
                   <div
-                    onClick={toggleService2}
-                    className="flex items-center cursor-pointer"
+                    onClick={() => {
+                      document
+                        .querySelector(".ser-nav10")
+                        .classList.toggle("hidden");
+                    }}
+                    onMouseEnter={toggleService2}
+                    onMouseLeave={() => {
+                      // setFlag11(false);
+                      flag11 = false;
+                      toggleService21(true);
+                      // let b1=document.querySelector('.ser-nav10');
+                      // b1.classList.add('hidden');
+                    }}
+                    className="flex items-center cursor-pointer nb-0"
                   >
                     <p className="sar" to="/about">
                       about us
                     </p>
                   </div>
 
-                  <div className="ser-nav10 hidden">
+                  <div
+                    onMouseEnter={() => {
+                      // setFlag10(true);
+                      flag10 = true;
+                      clearTimeout(st);
+                    }}
+                    onMouseLeave={() => {
+                      // setFlag10(false);
+                      flag10 = false;
+                      toggleService21();
+                    }}
+                    className="ser-nav10 hidden"
+                  >
                     <div className="compan flex items-start justify-between">
                       <div className="first-compan mt-3 flex items-start justify-evenly">
                         <div className="second-compan mr-10">
-                          <h5 className="cp">The Company</h5>
-                         <NavLink onClick={toggleService2} to="/about"><p  className="cpmpa">Who We Are</p></NavLink>
-                          <p className="cpmpa">Our Misson & Vision</p>
-                          <p className="cpmpa">Our Work Process</p>
-                          <p className="cpmpa">Our Team</p>
-                          <p className="cpmpa">Social Cause - NGO</p>
-                          <p className="cpmpa">Blog</p>
-                          <NavLink onClick={toggleService2} to="/contact"><p className="cpmpa">Contact Us</p></NavLink>
-                        </div>
-                        <div className="second-compan mr-5">
-                          <h5 className="cp">Insight</h5>
+                          {/* <h5 className="cp">The Company</h5> */}
                           <NavLink onClick={toggleService2} to="/partner">
                             <p className="cpmpa">Partner With us</p>
                           </NavLink>
+                          <NavLink onClick={toggleService2} to="/about">
+                            <p className="cpmpa">Who We Are</p>
+                          </NavLink>
+                          {/* <p className="cpmpa">Our Misson & Vision</p>
+                          <p className="cpmpa">Our Work Process</p>
+                          <p className="cpmpa">Our Team</p> */}
+                          <p className="cpmpa">Social Cause - NGO</p>
+                          <p className="cpmpa">Blog</p>
+                          <NavLink onClick={toggleService2} to="/contact">
+                            <p className="cpmpa">Contact Us</p>
+                          </NavLink>
+                        </div>
+                        <div className="second-compan mr-5">
+                          {/* <h5 className="cp">Insight</h5> */}
+
                           <p className="cpmpa">Our Work</p>
                           <p className="cpmpa">Our Clients</p>
                           <p className="cpmpa">Testimonials</p>
-                         <NavLink onClick={toggleService2} to="/carer"><p className="cpmpa">Career with us</p></NavLink>
-                         <NavLink onClick={toggleService2} to="/hire"><p className="cpmpa">Hire team</p></NavLink>
-                        
+                          <NavLink onClick={toggleService2} to="/carer">
+                            <p className="cpmpa">Career with us</p>
+                          </NavLink>
+                          <NavLink onClick={toggleService2} to="/hire">
+                            <p className="cpmpa">Hire team</p>
+                          </NavLink>
                         </div>
                       </div>
                       <div className="second-compan1">
@@ -192,7 +305,9 @@ const Navbar = () => {
                             Want to validate your mobile app idea? Tell us a
                             little bit about your requirements
                           </p>
-                          <NavLink onClick={toggleService2} to="/contact"><button className="wanna-btn">Contact Us</button></NavLink>
+                          <NavLink onClick={toggleService2} to="/contact">
+                            <button className="wanna-btn">Contact Us</button>
+                          </NavLink>
                         </div>
                       </div>
                     </div>
@@ -214,13 +329,26 @@ const Navbar = () => {
                   }}
                 >
                   <div
-                    onClick={toggleService}
-                    className="flex items-center cursor-pointer"
+                    // onClick={toggleService}
+                    onClick={() => {
+                      document
+                        .querySelector(".ser-nav")
+                        .classList.toggle("hidden");
+                    }}
+                    onMouseEnter={toggleService}
+                    onMouseLeave={() => {
+                      // setFlag11(false);
+                      flag11 = false;
+                      toggleService22(true);
+                      // let b1=document.querySelector('.ser-nav10');
+                      // b1.classList.add('hidden');
+                    }}
+                    className="flex items-center cursor-pointer nb-0"
                   >
                     <p className="sar" to="">
                       services
                     </p>
-                    <svg
+                    {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="15"
                       height="15"
@@ -232,10 +360,22 @@ const Navbar = () => {
                         fillRule="evenodd"
                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
                       />
-                    </svg>
+                    </svg> */}
                   </div>
-                  <div className="ser-nav hidden">
-                    <div className="ser-nav5">
+                  <div
+                    onMouseEnter={() => {
+                      // setFlag10(true);
+                      flag10 = true;
+                      clearTimeout(st);
+                    }}
+                    onMouseLeave={() => {
+                      // setFlag10(false);
+                      flag10 = false;
+                      toggleService22();
+                    }}
+                   className="ser-nav hidden"
+                   >
+                    <div  className="ser-nav5">
                       <div className="ser-tag">
                         <div className="tag1">
                           <div className="">
@@ -247,10 +387,29 @@ const Navbar = () => {
                               </div>
                             </NavLink>
                             <p className="yamini">
-                              i Phone <span>|</span> Android <span>|</span>{" "}
-                              Flutter <span>|</span> React Native <span>|</span>{" "}
-                              Kotlin
-                              <span>|</span> Swift
+                              <NavLink className="sonji" to="/ios">
+                                i Phone
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="/android">
+                                Android{" "}
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Flutter
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                React Native
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Kotlin
+                              </NavLink>
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Swift
+                              </NavLink>
                             </p>
                           </div>
                           <div className=" mt-7">
@@ -262,9 +421,29 @@ const Navbar = () => {
                               </div>
                             </NavLink>
                             <p className="yamini">
-                              Shopify <span> |</span> Woo Commerce{" "}
-                              <span> |</span> Big Commerce <span> |</span>
-                              Magento <span> |</span> Wordpress
+                              <NavLink className="sonji" to="#!">
+                                Shopify
+                              </NavLink>{" "}
+                              <span> |</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                {" "}
+                                Woo Commerce{" "}
+                              </NavLink>{" "}
+                              <span> |</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                {" "}
+                                Big Commerce{" "}
+                              </NavLink>{" "}
+                              <span> |</span>
+                              <NavLink className="sonji" to="#!">
+                                {" "}
+                                Magento{" "}
+                              </NavLink>{" "}
+                              <span> |</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                {" "}
+                                Wordpress{" "}
+                              </NavLink>
                             </p>
                           </div>
                           <div className=" mt-7">
@@ -273,10 +452,26 @@ const Navbar = () => {
                               <h4>Graphic Design</h4>
                             </div>
                             <p className="yamini">
-                              Adobe Illustrator <span>|</span> Adobe Photoshop{" "}
+                              <NavLink className="sonji" to="#!">
+                                Adobe illustrator
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Adobe Photoshop
+                              </NavLink>
                               <span>|</span> <br />
-                              CorelDRAW <span>|</span> After Effect{" "}
-                              <span>|</span> Premium Pro
+                              <NavLink className="sonji" to="#!">
+                                {" "}
+                                CorelDRAW
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                After Effect
+                              </NavLink>
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Premium Pro
+                              </NavLink>
                             </p>
                           </div>
                         </div>
@@ -289,30 +484,79 @@ const Navbar = () => {
                               </div>
                             </NavLink>
                             <p className="yamini">
-                              php <span>|</span> React js <span>|</span> HTML5{" "}
-                              <span>|</span> Wordpress <span>|</span> Vue Js
-                              <span>|</span> Node js
+                              <NavLink className="sonji" to="#!">
+                                PHP
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                React js
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                HTML5
+                              </NavLink>
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Wordpress
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Vue js
+                              </NavLink>
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Node js
+                              </NavLink>
                             </p>
                           </div>
                           <div className="w-full mt-7">
-                            <NavLink onClick={toggleService} to="/uiux"> <div className="flex items-center">
-                              <img src={uiux} alt="" />
-                              <h4>UI/UX Design</h4>
-                            </div></NavLink>
+                            <NavLink onClick={toggleService} to="/uiux">
+                              {" "}
+                              <div className="flex items-center">
+                                <img src={uiux} alt="" />
+                                <h4>UI/UX Design</h4>
+                              </div>
+                            </NavLink>
                             <p className="yamini">
-                              Figma <span>|</span> Adobe XD <span>|</span>{" "}
-                              Sketch <span>|</span> Affinity
+                              <NavLink className="sonji" to="#!">
+                                Figma
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Adobe XD
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Sketch
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                Affinity
+                              </NavLink>
                             </p>
                           </div>
                           <div className="w-full mt-7">
-                            <NavLink onClick={toggleService} to="/digitalmarket">
+                            <NavLink
+                              onClick={toggleService}
+                              to="/digitalmarket"
+                            >
                               <div className="flex items-center">
                                 <img src={marketing} alt="" />
                                 <h4>Digital Marketing</h4>
                               </div>
                             </NavLink>
                             <p className="yamini uppercase">
-                              SEO <span>|</span> SMO <span>|</span> PPC
+                              <NavLink className="sonji" to="#!">
+                                SEO
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                SMO
+                              </NavLink>{" "}
+                              <span>|</span>{" "}
+                              <NavLink className="sonji" to="#!">
+                                PPC
+                              </NavLink>
                             </p>
                           </div>
                           <div className="w-full mt-7">
@@ -362,7 +606,7 @@ const Navbar = () => {
                   <p className="sar" to="">
                     Solutions
                   </p>
-                  <svg
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="15"
                     height="15"
@@ -374,7 +618,7 @@ const Navbar = () => {
                       fillRule="evenodd"
                       d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
                     />
-                  </svg>
+                  </svg> */}
                 </div>
                 {/* <div className="ser-nav hidden">
                   <div className="ser-nav5">
@@ -464,10 +708,13 @@ const Navbar = () => {
                 {/* </OutsideClickHandler> */}
               </li>
               <li className="mar">
-                <NavLink className="sar" to="/portfolio">
-                  Our portfolio
-                </NavLink>
+                <div className="flex items-center cursor-pointer">
+                  <NavLink className="sar" to="/portfolio">
+                    Our Portfolio
+                  </NavLink>
+                </div>
               </li>
+
               <li className="mar" style={{ position: "relative" }}>
                 <OutsideClickHandler
                   onOutsideClick={() => {
@@ -483,13 +730,26 @@ const Navbar = () => {
                   }}
                 >
                   <div
-                    onClick={toggleHire}
+                    // onClick={toggleHire}
+                    onClick={() => {
+                      document
+                        .querySelector(".hire-nav")
+                        .classList.toggle("hidden");
+                    }}
+                    onMouseEnter={toggleHire}
+                    onMouseLeave={() => {
+                      // setFlag11(false);
+                      flag11 = false;
+                      toggleService23(true);
+                      // let b1=document.querySelector('.ser-nav10');
+                      // b1.classList.add('hidden');
+                    }}
                     className="flex items-center cursor-pointer"
                   >
-                   <p className="sar" to="">
+                    <p className="sar" to="">
                       Hire
                     </p>
-                    <svg
+                    {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="15"
                       height="15"
@@ -501,9 +761,21 @@ const Navbar = () => {
                         fillRule="evenodd"
                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
                       />
-                    </svg>
+                    </svg> */}
                   </div>
-                  <div className="hire-nav hidden">
+                  <div 
+                   onMouseEnter={() => {
+                      // setFlag10(true);
+                      flag10 = true;
+                      clearTimeout(st);
+                    }}
+                    onMouseLeave={() => {
+                      // setFlag10(false);
+                      flag10 = false;
+                      toggleService23();
+                    }}
+                   className="hire-nav hidden"
+                   >
                     <div className="hire-nav__containers">
                       <div className="hire-nav__container">
                         <div className="hire-nav__container__header">
@@ -564,10 +836,14 @@ const Navbar = () => {
                             <NavLink to="/hire">Website Designer</NavLink>
                           </li>
                           <li>
-                            <NavLink to="/hire">UI/UX Designer (3 Year +) EXP. </NavLink>
+                            <NavLink to="/hire">
+                              UI/UX Designer (3 Year +) EXP.{" "}
+                            </NavLink>
                           </li>
                           <li>
-                            <NavLink to="/hire">Graphic Designer (3Year +) EXP.</NavLink>
+                            <NavLink to="/hire">
+                              Graphic Designer (3Year +) EXP.
+                            </NavLink>
                           </li>
                         </ul>
                       </div>
@@ -575,7 +851,10 @@ const Navbar = () => {
                     <div className="teal flex items-center justify-between">
                       <div className="tael-head">
                         <h3>GET FREE CONSULTATION</h3>
-                        <p className="want">Want to validate your mobile app idea? Tell us a little bit <br /> about your requirements</p>
+                        <p className="want">
+                          Want to validate your mobile app idea? Tell us a
+                          little bit <br /> about your requirements
+                        </p>
                       </div>
                       <div className="teal-contact">
                         <button className="conj">Contact Us</button>
@@ -599,13 +878,26 @@ const Navbar = () => {
                   }}
                 >
                   <div
-                    onClick={toggleService3}
+                    // onClick={toggleService3}
+                    onClick={() => {
+                      document
+                        .querySelector(".ser-nav-resource")
+                        .classList.toggle("hidden");
+                    }}
+                    onMouseEnter={toggleService3}
+                    onMouseLeave={() => {
+                      // setFlag11(false);
+                      flag11 = false;
+                      toggleService24(true);
+                      // let b1=document.querySelector('.ser-nav10');
+                      // b1.classList.add('hidden');
+                    }}
                     className="flex items-center cursor-pointer"
                   >
                     <p className="sar" to="">
                       Resources
                     </p>
-                    <svg
+                    {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="15"
                       height="15"
@@ -617,25 +909,37 @@ const Navbar = () => {
                         fillRule="evenodd"
                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
                       />
-                    </svg>
+                    </svg> */}
                   </div>
-                  <div className="ser-nav-resource hidden">
+                  <div 
+                  className="ser-nav-resource hidden"
+                  onMouseEnter={() => {
+                      // setFlag10(true);
+                      flag10 = true;
+                      clearTimeout(st);
+                    }}
+                    onMouseLeave={() => {
+                      // setFlag10(false);
+                      flag10 = false;
+                      toggleService24();
+                    }}
+                  >
                     <div className="resource flex items-center px-5 py-5">
                       <div className="resources1 flex flex-col items-center mr-4">
                         <img src="/static/images/d3.png" alt="" />
-                        <p className="resource11 mt-3">Blog</p>
+                        <NavLink to="#!" className="resource11 mt-3">Blog</NavLink>
                       </div>
                       <div className="resources1 flex flex-col items-center mr-4">
                         <img src="/static/images/d4.png" alt="" />
-                        <p className="resource11 mt-3">News</p>
+                        <NavLink to="#!" className="resource11 mt-3">News</NavLink>
                       </div>
                       <div className="resources1 flex flex-col items-center mr-4">
                         <img src="/static/images/d5.png" alt="" />
-                        <p className="resource11 mt-3">Case Study</p>
+                        <NavLink to="#!" className="resource11 mt-3">Case Study</NavLink>
                       </div>
                       <div className="resources1 flex flex-col items-center">
                         <img src="/static/images/d6.png" alt="" />
-                        <p className="resource11 mt-3">Events</p>
+                        <NavLink to="#!" className="resource11 mt-3">Events</NavLink>
                       </div>
                     </div>
                   </div>
@@ -643,7 +947,7 @@ const Navbar = () => {
               </li>
               <li className="mar">
                 <NavLink className="bts-naba" to="/contact">
-                  <button className="sar">Contact Us</button>
+                  <button className="sar tart">Contact Us</button>
                 </NavLink>
               </li>
             </ul>
@@ -689,7 +993,7 @@ const Navbar = () => {
                       <p onClick={toggleService1} className="sar">
                         services
                       </p>
-                      <svg
+                      {/* <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="16"
                         height="16"
@@ -698,7 +1002,7 @@ const Navbar = () => {
                         viewBox="0 0 16 16"
                       >
                         <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                      </svg>
+                      </svg> */}
                     </div>
                     <div className="ser-nav-mob hidden">
                       <div className="ser-nav1 flex flex-col">
@@ -774,8 +1078,8 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
-        </nav >
-      </div >
+        </nav>
+      </div>
     </>
   );
 };

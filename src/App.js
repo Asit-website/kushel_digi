@@ -25,11 +25,15 @@ import './index2.css';
 import Career from "./components/Career";
 import About from "./components/About";
 import Approach from "./components/Approach";
+import ScrollToTop from "./components/Utils/ScrollToTop";
+import Android from "./components/Android";
+import Ios from "./components/Ios";
 
 function App() {
   return (
     <>
       <Router>
+      <ScrollToTop />
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -54,6 +58,8 @@ function App() {
           <Route path="/about" element={<About />}/>
           <Route path="*" element={<Error />} />
           <Route path="/approach" element={<Approach/>}/>
+          <Route path="/android" element={<Android/>}/>
+          <Route path="/ios" element={<Ios/>}/>
         </Routes>
         <Footer />
       </Router>
