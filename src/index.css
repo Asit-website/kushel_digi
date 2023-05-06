@@ -10,7 +10,7 @@
 }
 
 body {
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap'); */
@@ -30,7 +30,9 @@ body {
   justify-content: space-between;
   padding: 12px 100px;
 }
-
+.toy {
+  color: red;
+}
 .you {
   display: none !important;
 }
@@ -146,7 +148,7 @@ body {
 }
 
 .home-btns:hover {
-  background-color: #3C83CB;
+  background-color: #3c83cb;
 }
 
 .phone p {
@@ -227,9 +229,9 @@ body {
   font-size: 16px;
   opacity: 0.8 !important;
   margin-left: 12px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   text-transform: capitalize;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .tag1 img {
@@ -255,8 +257,9 @@ body {
   padding-top: 20px;
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   margin-left: 40px;
-  top: 138px;
+  /* top: 138px; */
   border-radius: 0px 2px 2px 2px;
+  top: 147px;
 }
 
 .ser-nav10 {
@@ -266,7 +269,7 @@ body {
   /* padding-top: 20px; */
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   margin-left: 40px;
-  top: 138px;
+  top: 147px;
 }
 
 .ser-nav-resource {
@@ -285,7 +288,7 @@ body {
 .resource .resource1 {
   margin: 15px 0px;
   color: #202020;
-  opacity: .7;
+  opacity: 0.7;
   font-weight: 400;
   font-size: 13.5px;
   text-align: center;
@@ -315,7 +318,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 350px;
   max-width: 100%;
   position: relative;
   z-index: 2;
@@ -332,7 +335,7 @@ body {
 .second-compan .cpm {
   color: #3c83cb;
   font-family: "Poppins", sans-serif !important;
-  border-bottom: 2px solid #639CD5;
+  border-bottom: 2px solid #639cd5;
   font-size: 15.5;
   opacity: 0.8;
   font-weight: 700;
@@ -361,7 +364,11 @@ body {
   color: #202020;
   margin: 22px 0px;
 }
-
+.second-compan .cpmpa:hover {
+  color: #0c62ff;
+  /* border-bottom: 1.5px solid #0C62FF; */
+  text-decoration: underline;
+}
 .second-compan1::before {
   content: "";
   background: linear-gradient(360deg, #3c83cb 0%, #1f678d 100%) top;
@@ -377,7 +384,7 @@ body {
 .wanna-btn {
   background-color: #ffffff !important;
   color: #202020 !important;
-  opacity: .9 !important;
+  opacity: 0.9 !important;
   position: absolute;
   top: 90%;
   left: 50%;
@@ -415,7 +422,8 @@ body {
 }
 
 .compan {
-  height: 400px;
+  /* pehle 400px */
+  height: 350px;
   max-height: 100%;
   width: 680px;
   max-width: 100%;
@@ -460,6 +468,8 @@ body {
 
 .ser-nav5 {
   padding: 10px 20px;
+  max-width: 800px;
+  width: 100%;
 }
 
 .sh {
@@ -545,11 +555,25 @@ body {
   opacity: 0.8;
   font-family: "Value Sans Medium" !important;
 }
-
+.navbar ul li .sar:hover {
+  color: #0c62ff;
+  border-bottom: 1.5px solid #0c62ff;
+}
+.navbar ul li .tart:hover {
+  color: none !important;
+  border-bottom: none !important;
+}
+.navbar ul li a:hover svg {
+  color: #0c62ff !important;
+}
+/* .navbar ul li a:hover{
+  color: #0C62FF;
+  border-bottom: 1.5px solid #0C62FF;
+} */
 .bts-naba {
   opacity: 1 !important;
+  color: #ffffff !important;
 }
-
 .navbar ul li button {
   width: 190px;
   height: 50px;
@@ -564,9 +588,16 @@ body {
 }
 
 .navbar ul li button:hover {
-  background-color: #3C83CB;
+  background-color: #3c83cb;
+  color: #ffffff !important;
 }
-
+.yamini .sonji {
+  text-transform: initial;
+  font-size: 16px !important;
+}
+.yamini .sonji:hover{
+  color: #3C83CB;
+}
 .logo img {
   width: 220px;
   max-width: 100%;
@@ -666,7 +697,7 @@ body {
   font-size: 15px;
   color: #6c7591;
   font-style: normal;
-  font-family: 'Value Sans Pro' !important;
+  font-family: "Value Sans Pro" !important;
 }
 
 .input-group textarea {
@@ -740,7 +771,7 @@ form button {
   color: #085881;
   border-bottom: 3px solid #085881;
   font-style: normal;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-size: 20px;
   line-height: 36px;
   position: relative;
@@ -750,7 +781,7 @@ form button {
 
 .diff-section .maps {
   color: #0e2b3d;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-style: normal;
   font-size: 20px;
   margin-left: 40px;
@@ -1008,11 +1039,13 @@ form button {
 }
 
 .home1111 p {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 400;
   margin-top: 12px;
   font-family: "Value Sans Pro" !important;
   color: #000000;
+  width: 25em;
+  max-width: 100%;
 }
 
 .home111 {
@@ -1035,7 +1068,8 @@ form button {
 
 .home1 {
   height: 38rem;
-  background: url("../public/static/images/b16.png") no-repeat center center/cover;
+  background: url("../public/static/images/b16.png") no-repeat center
+    center/cover;
   position: relative;
 }
 
@@ -1138,13 +1172,13 @@ form button {
   width: 285px;
   height: 70px;
   font-size: 18px;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   margin-top: 35px;
   letter-spacing: 0.5px;
 }
 
 .btn1:hover {
-  background-color: #3C83CB;
+  background-color: #3c83cb;
 }
 
 .btn2 {
@@ -1449,14 +1483,16 @@ form button {
 .home8-img {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
 }
-
+.resources1:hover.resources1 a {
+   color: #0C62FF !important;
+   border-bottom: 1px solid #0C62FF;
+}
 .home8-img {
   margin-top: 10px;
 }
-
 .home8-img img {
   display: block;
   margin: 20px 5px;
@@ -1473,35 +1509,35 @@ form button {
 .home8-img .chetri2 {
   width: 80px;
 }
-.home8-img .joki1{
+.home8-img .joki1 {
   width: 190px;
   /* max-width: 100%; */
 }
-.home8-img .joki2{
+.home8-img .joki2 {
   width: 210px;
   /* max-width: 100%; */
 }
-.home8-img .joki3{
-  width: 192px;
-  /* max-width: 100%; */
-}
-.home8-img .joki4{
+.home8-img .joki3 {
   width: 190px;
   /* max-width: 100%; */
 }
-.home8-img .joki5{
+.home8-img .joki4 {
+  width: 190px;
+  /* max-width: 100%; */
+}
+.home8-img .joki5 {
   width: 70px;
   /* max-width: 100%; */
 }
-.home8-img .joki6{
+.home8-img .joki6 {
   width: 75px;
   /* max-width: 100%; */
 }
-.home8-img .joki7{
+.home8-img .joki7 {
   width: 85px;
   /* max-width: 100%; */
 }
-.home8-img .joki8{
+.home8-img .joki8 {
   width: 130px;
   /* max-width: 100%; */
 }
@@ -1873,7 +1909,7 @@ form button {
   width: 100%;
 } */
 .serji2 h1 {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
 }
 
 .serji2 img {
@@ -2161,10 +2197,10 @@ form button {
 }
 
 .strategy h2 {
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-size: 36px;
   font-weight: 700;
-  color: #010C1E;
+  color: #010c1e;
   opacity: 0.7;
   text-align: center;
   line-height: 48px;
@@ -2172,7 +2208,7 @@ form button {
 
 .tasking {
   padding: 60px 100px;
-  background-color: #F8F7F6;
+  background-color: #f8f7f6;
 }
 
 .tasking h2 {
@@ -2222,7 +2258,7 @@ form button {
   margin-top: 15px;
   color: #202020;
   opacity: 0.7;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .tasking-box:hover {
@@ -2240,7 +2276,7 @@ form button {
 }
 
 .bff {
-  background-color: #F8F7F6;
+  background-color: #f8f7f6;
   padding: 60px 100px;
   position: relative;
 }
@@ -2265,7 +2301,7 @@ form button {
 .faltu-box {
   width: 230px;
   max-width: 100%;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 20px;
   padding: 14px 0px;
   position: relative;
@@ -2275,7 +2311,7 @@ form button {
 .faltu-sard {
   z-index: 101;
   width: 280px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   position: relative;
   left: -25px;
   height: 330px;
@@ -2317,7 +2353,7 @@ form button {
 .faltu-head h4 {
   color: #202020;
   font-size: 16px;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   opacity: 0.9;
 }
 
@@ -2739,7 +2775,7 @@ form button {
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 50px;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-weight: 700;
 }
 
@@ -2998,8 +3034,8 @@ form button {
 .custom-s h2 {
   font-size: 36px;
   font-weight: 700;
-  color: #010C1E;
-  font-family: 'Value Sans Medium' !important;
+  color: #010c1e;
+  font-family: "Value Sans Medium" !important;
   text-align: center;
   opacity: 0.7;
   line-height: 48px;
@@ -4702,7 +4738,7 @@ form button {
   justify-content: space-between;
   padding-top: 30px !important;
   padding: 0px 100px;
-  background-image: url('./images/green.png');
+  background-image: url("./images/green.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -4715,7 +4751,7 @@ form button {
   color: #202020;
   opacity: 0.8;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   line-height: 46px;
 }
 
@@ -4726,7 +4762,7 @@ form button {
 .first-experiencedji p {
   font-size: 21px;
   color: #404040;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
   width: 24em;
 }
@@ -4737,7 +4773,7 @@ form button {
   width: 100%;
   height: 68px;
   color: #ffffff;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-size: 19px;
   margin-top: 40px;
 }
@@ -4755,14 +4791,14 @@ form button {
   font-size: 36px;
   opacity: 0.7;
   font-weight: 700;
-  color: #010C1E;
+  color: #010c1e;
   text-align: center;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .uiux-process p {
   font-size: 19.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   color: #202020;
   text-align: center;
   width: 70%;
@@ -4791,13 +4827,13 @@ form button {
   opacity: 0.9;
   font-size: 35px;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   text-align: center;
   line-height: 46px;
 }
 
 .perfect-choice .perf-p {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 20px;
   color: #202020;
   width: 60%;
@@ -4839,13 +4875,13 @@ form button {
   opacity: 0.9;
   font-size: 35px;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   text-align: center;
   line-height: 46px;
 }
 
 .deliver-p p {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 20px;
   color: #202020;
   width: 60%;
@@ -4874,13 +4910,13 @@ form button {
   opacity: 0.9;
   font-size: 35px;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   text-align: center;
   line-height: 46px;
 }
 
 .benifits-ui .when-p {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 20px;
   color: #202020;
   width: 60%;
@@ -5025,16 +5061,16 @@ form button {
 .ui-sect h4 {
   font-size: 22.5px;
   color: #ffffff;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   text-align: center;
   font-weight: 700;
 }
 
 .ui-sect p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   text-align: center;
   margin-top: 15px;
 }
@@ -5062,7 +5098,7 @@ form button {
   opacity: 0.8;
   font-size: 36px;
   line-height: 46px;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-weight: 700;
 }
 
@@ -5073,7 +5109,7 @@ form button {
 .how-did-second p {
   color: #404040;
   font-size: 21px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   width: 32em;
 }
 
@@ -5083,7 +5119,7 @@ form button {
   width: 100%;
   height: 68px;
   color: #ffffff;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-size: 19px;
   margin-top: 50px;
 }
@@ -5102,7 +5138,7 @@ form button {
   color: #202020;
   opacity: 0.8;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .how-ux1 p {
@@ -5120,7 +5156,7 @@ form button {
 
 .development-process {
   padding: 60px 100px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .development-process h3 {
@@ -5129,7 +5165,7 @@ form button {
   font-size: 36px;
   text-align: center;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .development-process p {
@@ -5179,13 +5215,13 @@ form button {
 .kick-box h4 {
   font-size: 21px;
   color: #ffffff;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
 }
 
 .kick-box .kick-para {
   font-size: 21px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   color: #ffffff;
   font-weight: 400 !important;
   width: 29em;
@@ -5206,32 +5242,32 @@ form button {
 }
 
 .kick-fard h5 {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   font-size: 19px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 10px;
 }
 
 .kick-fard p {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400 !important;
   font-size: 15.5px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 5px;
 }
 
 .visit-kart p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 12px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
 }
 
 .visit-kart .kinza {
   font-size: 19px;
-  font-family: 'Roboto', sans-serif !important;
-  color: #FFFFFF;
+  font-family: "Roboto", sans-serif !important;
+  color: #ffffff;
   text-decoration: underline;
   margin-top: 10px;
 }
@@ -5268,7 +5304,7 @@ form button {
   color: #202020;
   opacity: 0.8;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   text-align: center;
 }
 
@@ -5281,7 +5317,6 @@ form button {
 
 .service-kick-sect {
   margin: 0px 35px;
-
 }
 
 .service-kick-sect img {
@@ -5293,7 +5328,7 @@ form button {
 
 .service-kick-sect p {
   color: #404040;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-size: 22px;
   margin-top: 10px;
 }
@@ -5305,7 +5340,7 @@ form button {
 }
 
 .back-story::before {
-  background-color: #E7F1F7;
+  background-color: #e7f1f7;
   opacity: 0.5;
   position: absolute;
   z-index: -1;
@@ -5328,9 +5363,9 @@ form button {
   font-size: 36px;
   color: #202020;
   font-size: 36px;
-  opacity: .8;
+  opacity: 0.8;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .step-backs1 .nila {
@@ -5340,7 +5375,7 @@ form button {
 .step-backs2 p {
   color: #404040;
   font-size: 21px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
 }
 
@@ -5371,7 +5406,7 @@ form button {
 .challenge-story {
   padding: 60px 100px;
   padding-bottom: 100px;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -5381,9 +5416,9 @@ form button {
   font-size: 36px;
   color: #202020;
   font-size: 36px;
-  opacity: .8;
+  opacity: 0.8;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   line-height: 46px;
 }
 
@@ -5392,7 +5427,7 @@ form button {
 }
 
 .challenge-box {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 40px 20px;
   padding-bottom: 60px;
 }
@@ -5406,7 +5441,7 @@ form button {
   font-weight: 700;
   color: #202020;
   opacity: 0.8;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .challenge-box:hover.challenge-box h4 {
@@ -5438,20 +5473,20 @@ form button {
 .challenge-list1 .nilust {
   width: 10px;
   height: 10px;
-  background-color: #1F678D;
+  background-color: #1f678d;
   margin-top: 5px;
 }
 
 .challenge-list1 p {
   font-size: 16px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
   color: #404040;
   margin-left: 8px;
 }
 
 .challenge-box:hover .challenge-list1 p {
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .challenge-box:hover .challenge-list1 .nilust {
@@ -5490,9 +5525,9 @@ form button {
   font-size: 36px;
   color: #202020;
   font-size: 36px;
-  opacity: .8;
+  opacity: 0.8;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   line-height: 46px;
   text-align: center;
 }
@@ -5500,10 +5535,10 @@ form button {
 .client-apperication p {
   text-align: center;
   margin-top: 10px !important;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-weight: 400;
   color: #202020;
-  opacity: .8;
+  opacity: 0.8;
   font-size: 19px;
   width: 60%;
   display: block;
@@ -5513,10 +5548,10 @@ form button {
 .client-apperication h4 {
   text-align: center;
   margin-top: 20px;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-size: 19px;
   color: #202020;
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .req {
@@ -5535,7 +5570,7 @@ form button {
 
 .req::before {
   content: "";
-  background: linear-gradient(0deg, #085881 0%, #1F678D 100%);
+  background: linear-gradient(0deg, #085881 0%, #1f678d 100%);
   opacity: 0.9;
   position: absolute;
   top: 0;
@@ -5553,16 +5588,16 @@ form button {
 }
 
 .req-sect h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 35px;
   font-weight: 700;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   text-align: center;
 }
 
 .req-sect p {
-  color: #FFFFFF;
-  font-family: 'Roboto', sans-serif !important;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif !important;
   font-size: 19px;
   text-align: center;
   font-weight: 400;
@@ -5597,7 +5632,7 @@ form button {
 }
 
 .azib::before {
-  background-color: #E7E8F1;
+  background-color: #e7e8f1;
   opacity: 0.5;
   position: absolute;
   z-index: -1;
@@ -5611,7 +5646,7 @@ form button {
 }
 
 .azib1 {
-  background-image: url('./images/azib.png');
+  background-image: url("./images/azib.png");
   background-position: bottom;
   background-repeat: no-repeat;
   width: 100%;
@@ -5629,18 +5664,18 @@ form button {
   font-size: 36px;
   color: #ffffff;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .azib1-first .azib-pa {
   font-weight: 400;
-  font-family: 'Value Sans Pro' !important;
+  font-family: "Value Sans Pro" !important;
 }
 
 .azib1-second p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 21px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400 !important;
   opacity: 0.8;
 }
@@ -5664,10 +5699,10 @@ form button {
 }
 
 .azib-tech h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 34px;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .azib-images {
@@ -5685,7 +5720,7 @@ form button {
 
 /* ================hire team css start================ */
 .hire-back {
-  background-image: url('./images/hirex.png');
+  background-image: url("./images/hirex.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5700,7 +5735,12 @@ form button {
 .hire-back::before {
   /* 27.4% tha pehle */
   content: "";
-  background: linear-gradient(90deg, #085881 24%, rgba(8, 88, 129, 0.07) 57.02%, rgba(8, 88, 129, 0) 100%);
+  background: linear-gradient(
+    90deg,
+    #085881 24%,
+    rgba(8, 88, 129, 0.07) 57.02%,
+    rgba(8, 88, 129, 0) 100%
+  );
   position: absolute;
   top: 0;
   left: 0;
@@ -5716,7 +5756,7 @@ form button {
 }
 
 .hire-sect h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 44px;
   line-height: 58px;
@@ -5727,8 +5767,8 @@ form button {
 }
 
 .hire-sect p {
-  color: #FFFFFF;
-  font-family: 'Roboto', sans-serif !important;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400px;
   font-size: 19.5px;
   width: 20em;
@@ -5737,13 +5777,13 @@ form button {
 }
 
 .hire-status {
-  background-color: #FBFBFB;
+  background-color: #fbfbfb;
   padding: 25px 100px;
 }
 
 .hiring-status h3 {
   color: #182536;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: bold;
   font-size: 36px;
 }
@@ -5751,7 +5791,7 @@ form button {
 .hiring-status p {
   color: #777777;
   font-size: 19px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
   line-height: 24px;
 }
@@ -5765,10 +5805,10 @@ form button {
   color: #000000;
   -webkit-text-fill-color: white;
   /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: .2px;
+  -webkit-text-stroke-width: 0.2px;
   -webkit-text-stroke-color: #000000;
   opacity: 0.2;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: bolder;
   font-size: 65px;
   letter-spacing: 0.05em;
@@ -5786,7 +5826,7 @@ form button {
   color: #202020;
   opacity: 0.9;
   font-size: 19.5px;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .first-hiring h2 {
@@ -5794,7 +5834,7 @@ form button {
   opacity: 0.9;
   font-size: 36px;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   margin-top: 12px;
 }
 
@@ -5804,7 +5844,7 @@ form button {
 }
 
 .hired-para .hiring-first-para {
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-weight: 500 !important;
   font-size: 20.5px;
   color: #404040;
@@ -5853,7 +5893,7 @@ form button {
 }
 
 .team-hired-help {
-  background-image: url('./images/helped.png');
+  background-image: url("./images/helped.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -5865,7 +5905,11 @@ form button {
 
 .team-hired-help::before {
   content: "";
-  background: linear-gradient(269.92deg, #085881 37.55%, rgba(8, 88, 129, 0.5) 99.94%);
+  background: linear-gradient(
+    269.92deg,
+    #085881 37.55%,
+    rgba(8, 88, 129, 0.5) 99.94%
+  );
   position: absolute;
   top: 0;
   left: 0;
@@ -5884,13 +5928,13 @@ form button {
 
 .hired-help-sect h5 {
   color: #ffffff;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-size: 19.5px;
 }
 
 .hired-help-sect h2 {
   color: #ffffff;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-size: 36px;
   font-weight: 700;
   margin-top: 5px;
@@ -5904,7 +5948,7 @@ form button {
 
 .listing-hired p {
   font-size: 19.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
   color: #ffffff;
   width: 30em;
@@ -5922,7 +5966,7 @@ form button {
   background-color: #ffffff;
   color: #202020;
   height: 50px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   font-size: 16px;
   margin-top: 20px;
@@ -5939,7 +5983,7 @@ form button {
   font-weight: 700;
   color: #202020;
   opacity: 0.9;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .hired-card {
@@ -5949,7 +5993,7 @@ form button {
 }
 
 .hired-box {
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
   border-radius: 20px;
   max-width: 225px;
   width: 100%;
@@ -5988,13 +6032,13 @@ form button {
   font-size: 15.5px;
   color: #202020;
   opacity: 0.8;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   margin-top: 12px;
 }
 
 .hired-sard:hover p {
-  color: #FFFFFF;
+  color: #ffffff;
   opacity: 1;
 }
 
@@ -6004,7 +6048,7 @@ form button {
   width: 100%;
   display: block;
   margin: auto;
-  color: #FFFFFF;
+  color: #ffffff;
   height: 68px;
   margin-top: 30px;
 }
@@ -6027,15 +6071,15 @@ form button {
 .first-serve h2 {
   font-size: 36px;
   color: #202020;
-  opacity: .7;
+  opacity: 0.7;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .first-serve p {
   color: #404040;
   font-size: 19.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
   margin-top: 15px;
 }
@@ -6050,7 +6094,7 @@ form button {
 }
 
 .demo-hire {
-  background-image: url('./images/demo.png');
+  background-image: url("./images/demo.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6083,7 +6127,7 @@ form button {
 .demo-hire-sect h2 {
   color: #ffffff;
   text-align: center;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-size: 32px;
   line-height: 42px;
 }
@@ -6094,7 +6138,7 @@ form button {
   background-color: #ffffff;
   color: #202020;
   font-size: 15.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   height: 55px;
   display: block;
@@ -6104,7 +6148,7 @@ form button {
 
 .hire-testimonials {
   padding: 80px 100px;
-  background-color: #F2F6FA;
+  background-color: #f2f6fa;
   padding-bottom: 100px;
 }
 
@@ -6113,18 +6157,18 @@ form button {
   font-size: 36px;
   opacity: 0.9;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   text-align: center;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .hire-testimonials .read-what {
   color: #404040;
   font-size: 19.5px;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-weight: 500;
   text-align: center;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .hire-test {
@@ -6137,13 +6181,13 @@ form button {
   opacity: 0.9;
   font-size: 19.5px;
   font-weight: 700;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
 
 .hire-test P {
   color: #888888;
   font-size: 19.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
   width: 60%;
   max-width: 100%;
@@ -6157,7 +6201,7 @@ form button {
   left: 50px !important;
   right: 0px !important;
   background-color: transparent !important;
-  border: 2px solid #D7D7D7;
+  border: 2px solid #d7d7d7;
   border-radius: 0px !important;
   width: 45px !important;
   height: 45px !important;
@@ -6167,14 +6211,14 @@ form button {
   top: 120px !important;
   right: 50px !important;
   background-color: transparent !important;
-  border: 2px solid #D7D7D7;
+  border: 2px solid #d7d7d7;
   border-radius: 0px !important;
   width: 45px !important;
   height: 45px !important;
 }
 
 .hire-testimonials .splide__arrow svg {
-  fill: #D7D7D7 !important;
+  fill: #d7d7d7 !important;
 }
 
 .hire-testimonials .splide__pagination {
@@ -6203,8 +6247,8 @@ form button {
   font-weight: 700;
   color: #202020;
   opacity: 0.9;
-  letter-spacing: .5px;
-  font-family: 'Value Sans Medium' !important;
+  letter-spacing: 0.5px;
+  font-family: "Value Sans Medium" !important;
 }
 
 .error-sect button {
@@ -6213,10 +6257,10 @@ form button {
   height: 68px;
   max-height: 100%;
   background-color: #085881;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-top: 30px;
   border-radius: 5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 18px;
 }
 
@@ -6269,38 +6313,38 @@ form button {
 }
 
 .portfolio-sect h2 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 44px;
   font-weight: 700;
   line-height: 58px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .portfolio-sect span {
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-weight: 500;
 }
 
 .portfolio-sect p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 19.5px;
-  font-family: 'Value Sans Pro' !important;
+  font-family: "Value Sans Pro" !important;
   width: 30em;
   max-width: 100%;
   margin-top: 12px;
-  opacity: .95px;
+  opacity: 0.95px;
 }
 
 .portfolio-sect button {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   max-width: 264px;
   width: 100%;
   height: 58px;
   margin-top: 30px;
   border-radius: 5px;
   color: #202020;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   font-size: 19.5px;
 }
@@ -6327,9 +6371,9 @@ form button {
 }
 
 .portfolio-nav p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 19px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   margin: 0 32px;
   cursor: pointer;
 }
@@ -6348,7 +6392,7 @@ form button {
 .portis1 {
   margin-right: 20px;
   width: 100%;
-  background-image: url('./images/kiku.png');
+  background-image: url("./images/kiku.png");
   height: 550px;
   max-height: 100%;
   background-position: center;
@@ -6372,7 +6416,7 @@ form button {
 }
 
 .portis11 {
-  background-image: url('./images/kiku2.png');
+  background-image: url("./images/kiku2.png");
 }
 
 .portis11 img {
@@ -6381,7 +6425,7 @@ form button {
 }
 
 .portis111 {
-  background-image: url('./images/kiku3.png');
+  background-image: url("./images/kiku3.png");
 }
 
 .portis111 img {
@@ -6390,7 +6434,7 @@ form button {
 }
 
 .portis1111 {
-  background-image: url('./images/wheel.png');
+  background-image: url("./images/wheel.png");
 }
 
 .portis1111 img {
@@ -6400,7 +6444,7 @@ form button {
 }
 
 .portis11111 {
-  background-image: url('./images/solnide.png');
+  background-image: url("./images/solnide.png");
 }
 
 .portis1-sect {
@@ -6424,14 +6468,14 @@ form button {
 .portis2 h3 {
   color: #202020;
   font-size: 34px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: bold;
 }
 
 .portis2 .kick-eez {
   color: #202020;
   font-size: 21px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   width: 25em;
   max-width: 100%;
@@ -6454,21 +6498,21 @@ form button {
 
 .port-usa1 .port-pat {
   font-size: 19.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   color: #202020;
 }
 
 .port-usa1 .reg {
   color: #202020;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 15.5px;
 }
 
 .port-usa1 .reg1 {
   color: #202020;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 16px;
 }
 
@@ -6478,11 +6522,11 @@ form button {
 
 .port-serv h4 {
   color: #202020;
-  opacity: .75;
+  opacity: 0.75;
   font-size: 22px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 600;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .port-serv {
@@ -6508,19 +6552,19 @@ form button {
 .porting-serv p {
   font-size: 15.5px;
   color: #202020;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
   margin-top: 2px;
 }
 
 .portis2 button {
-  background-color: #3C83CB;
+  background-color: #3c83cb;
   max-width: 264px;
   width: 100%;
   height: 58px;
   color: #ffffff;
   font-size: 19.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   cursor: pointer;
   border-radius: 4px;
@@ -6529,7 +6573,7 @@ form button {
 /* =================portfolio css end============================== */
 
 /* =======================carer with us css start===================== */
-.caring-back{
+.caring-back {
   background-image: url("./images/xar.jpg");
   background-blend-mode: darken;
   width: 100%;
@@ -6542,7 +6586,7 @@ form button {
   position: relative;
   z-index: 2;
 }
-.caring-back::before{
+.caring-back::before {
   content: "";
   opacity: 0.9;
   background-color: #085881;
@@ -6553,74 +6597,74 @@ form button {
   height: 100%;
   width: 100%;
 }
-.caring-sect{
+.caring-sect {
   position: absolute;
   top: 50%;
-  transform: translate(0%,-50%);
+  transform: translate(0%, -50%);
 }
-.caring-sect h2{
-  color: #FFFFFF;
-  font-family: 'Roboto', sans-serif !important;
+.caring-sect h2 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   font-size: 36px;
 }
-.caring-sect p{
- color: #ffffff;
-  font-family: 'Roboto', sans-serif !important;
+.caring-sect p {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif !important;
   font-size: 19.5px;
   width: 40em;
   max-width: 100%;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   margin-top: 12px;
 }
-.about-working-here{
+.about-working-here {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 100px;
   padding-top: 100px;
 }
-.working1 h2{
+.working1 h2 {
   color: #202020;
   font-size: 36px;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-weight: 700;
   opacity: 0.9;
 }
-.working1 button{
+.working1 button {
   background-color: #085881;
   max-width: 270px;
   width: 100%;
   height: 68px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 15.5px;
   cursor: pointer;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   margin-top: 35px;
   /* font-weight: 500; */
 }
-.working1 p{
+.working1 p {
   font-size: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #404040;
   width: 35em;
   margin-top: 12px;
 }
-.working2 img{
+.working2 img {
   max-width: 620px;
   width: 100%;
 }
-.conducting-enviro{
-  background-color: #F6F3F3;
+.conducting-enviro {
+  background-color: #f6f3f3;
   padding: 60px 100px;
 }
-.conducting-card{
+.conducting-card {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.conducting-box{
-  background-color: #FFFFFF;
+.conducting-box {
+  background-color: #ffffff;
   max-width: 250px;
   width: 100%;
   height: 220px;
@@ -6631,77 +6675,77 @@ form button {
   margin: 0px 20px;
   border-radius: 10px;
 }
-.conducting-box:hover{
+.conducting-box:hover {
   background-color: #085881;
 }
-.conducting-box img{
+.conducting-box img {
   width: 48px;
   display: block;
 }
-.conducting-box:hover img{
+.conducting-box:hover img {
   filter: invert(1);
 }
-.conducting-box p{
+.conducting-box p {
   text-align: center;
   margin-top: 15px;
   font-size: 17.5px;
   color: #444444;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
 }
-.conducting-box:hover p{
-  color: #FFFFFF;
+.conducting-box:hover p {
+  color: #ffffff;
 }
-.open-position{
-  background-color: #FFFFFF;
+.open-position {
+  background-color: #ffffff;
   padding: 60px 100px;
 }
-.open-position h3{
+.open-position h3 {
   color: #202020;
   font-size: 35px;
   opacity: 0.9;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-weight: 700;
   text-align: center;
 }
-.position-nav{
+.position-nav {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
 }
-.position-nav p{
+.position-nav p {
   color: #202020;
   opacity: 0.9;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-size: 22px;
   margin: 0px 40px;
 }
-.posify{
+.posify {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.posify1 h4{
+.posify1 h4 {
   color: #202020;
   opacity: 0.9;
   font-size: 27px;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-weight: 700;
 }
-.posify1 p{
+.posify1 p {
   font-size: 23px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   color: #202020;
   opacity: 0.9;
   margin-top: 5px;
 }
-.posify1 span{
+.posify1 span {
   font-size: 19.5px;
   color: #085881;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
 }
-.posify2 button{
+.posify2 button {
   width: 180px;
   height: 56px;
   color: #ffffff;
@@ -6709,24 +6753,24 @@ form button {
   background-color: #085881;
   border-radius: 3px;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
 }
-.hr-t{
+.hr-t {
   border-bottom: 1px solid #000000;
-  opacity: .5;
+  opacity: 0.5;
   margin-top: 35px;
   margin-right: -100px;
 }
-.pstif{
+.pstif {
   margin: 35px 0px;
 }
-.pstif1{
+.pstif1 {
   margin-top: 60px !important;
 }
 /* =====================carer with us css end================================= */
 
 /* ==============our approach css start================== */
-.approach-back{
+.approach-back {
   background-color: #085881;
   position: relative;
   z-index: 2;
@@ -6734,29 +6778,29 @@ form button {
   height: 55vh;
   padding: 0px 100px;
 }
-.approach-sect{
+.approach-sect {
   position: absolute;
   top: 50%;
-  transform: translate(-0%,-50%);
+  transform: translate(-0%, -50%);
 }
-.approach-sect h2{
+.approach-sect h2 {
   color: #ffffff;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   font-size: 34px;
   width: 12em;
   line-height: 49px;
 }
-.motion{
- padding: 100px 100px;
- position: relative;
- z-index: 2;
- display: flex;
- align-items: center;
- justify-content: center;
+.motion {
+  padding: 100px 100px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.motion::before{
-  background-color: #202020 ;
+.motion::before {
+  background-color: #202020;
   opacity: 0.9;
   position: absolute;
   z-index: -1;
@@ -6768,70 +6812,70 @@ form button {
   width: 100%;
   height: 100%;
 }
-.motion1 h3{
-  color: #FFFFFF;
+.motion1 h3 {
+  color: #ffffff;
   font-size: 41px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   line-height: 55px;
 }
-.motion2 p{
-  color: #FFFFFF;
+.motion2 p {
+  color: #ffffff;
   font-size: 19.5px;
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   font-weight: 400;
   width: 37em;
   max-width: 100%;
   opacity: 0.9;
 }
-.motion1{
+.motion1 {
   margin-right: 100px;
 }
-.motion2{
+.motion2 {
   margin-left: 100px;
 }
-.discover-approach{
+.discover-approach {
   padding: 100px 0px;
 }
-.discover{
+.discover {
   padding: 0px 100px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
 }
-.discover h2{
+.discover h2 {
   color: #202020;
   font-size: 34px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
 }
-.discover1 p{
+.discover1 p {
   color: #202020;
   font-size: 19.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
   width: 29em;
   max-width: 100%;
   margin-top: 12px;
 }
-.discover2 img{
+.discover2 img {
   width: 18px;
 }
-.distor{
+.distor {
   margin-top: 8px;
 }
-.distor h4{
+.distor h4 {
   color: #085881;
   font-size: 18px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 600;
 }
-.discover-ki1{
- margin-top: 35px;
+.discover-ki1 {
+  margin-top: 35px;
 }
-.discover-ki p{
+.discover-ki p {
   font-size: 19.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   color: #202020;
   margin-left: 30px;
   opacity: 0.9;
@@ -6840,37 +6884,37 @@ form button {
   max-width: 100%;
   margin-top: 12px;
 }
-.discover-img h3{
+.discover-img h3 {
   color: #202020;
   font-size: 19.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
 }
-.discover1{
+.discover1 {
   margin-right: 50px;
 }
-.discover2{
+.discover2 {
   margin-left: 50px;
 }
-.discover1 .bund{
+.discover1 .bund {
   position: absolute;
   top: 32rem;
   width: 80px;
- left: -50px;
+  left: -50px;
 }
-.discover1 .rotate{
+.discover1 .rotate {
   position: absolute;
   top: 29rem;
   width: 80px;
- left: 10px;
+  left: 10px;
 }
-.discover1 .rotate{
+.discover1 .rotate {
   position: absolute;
   top: 18rem;
   width: 80px;
- left: 150px;
+  left: 150px;
 }
-.discover-hr{
+.discover-hr {
   border-bottom: 1px solid #000000;
   opacity: 0.5;
   margin: 0px 60px;
@@ -6878,27 +6922,27 @@ form button {
 }
 /* ==================our approach css end=================== */
 /* ============home changes css==================== */
-.homeswar h4{
+.homeswar h4 {
   font-size: 22px;
   color: #202020;
   opacity: 0.9;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
 }
-.homeswar h3{
+.homeswar h3 {
   font-size: 40px;
   color: #085881;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   line-height: 45px;
 }
-.homeswar-flex{
+.homeswar-flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.homeswar-card{
-  background-image: url('./images/kitz.png');
+.homeswar-card {
+  background-image: url("./images/kitz.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -6912,7 +6956,7 @@ form button {
   border-radius: 18px;
   cursor: pointer;
 }
-.homeswar-card::before{
+.homeswar-card::before {
   content: "";
   background-color: #000000;
   opacity: 0.6;
@@ -6924,143 +6968,573 @@ form button {
   width: 100%;
   border-radius: 18px;
 }
-.homeswar-card1{
-  background-image: url('./images/kitz1.png');
+.homeswar-card1 {
+  background-image: url("./images/kitz1.png");
 }
-.homeswar-card1::before{
+.homeswar-card1::before {
   opacity: 0.4;
 }
-.homeswar-card2{
-  background-image: url('./images/kitz3.png');
+.homeswar-card2 {
+  background-image: url("./images/kitz3.png");
 }
-.homeswar-card3{
-  background-image: url('./images/kitz4.png');
+.homeswar-card3 {
+  background-image: url("./images/kitz4.png");
 }
-.homeswar-card4{
-  background-image: url('./images/kitz5.png');
+.homeswar-card4 {
+  background-image: url("./images/kitz5.png");
 }
-.homeswar-card5{
-  background-image: url('./images/kitz6.png');
+.homeswar-card5 {
+  background-image: url("./images/kitz6.png");
 }
-.homeswar-sect{
+.homeswar-sect {
   position: absolute;
   top: 76%;
   left: 6%;
 }
-.homeswar-sect1{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
-   display: none;
+.homeswar-sect1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
 }
-.homeswar-sect1 button{
-  background-color: #FFFFFF;
+.homeswar-sect1 button {
+  background-color: #ffffff;
   width: 120px;
   max-width: 100%;
   height: 42px;
   color: #085881;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-size: 15.5px;
   font-weight: 500;
   border-radius: 5px;
 }
-.homeswar-sect1 p{
-  color: #FFFFFF;
+.homeswar-sect1 p {
+  color: #ffffff;
   font-weight: 500;
   font-size: 15.5px;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
   text-decoration: underline;
   text-align: center;
   margin-top: 18px;
   cursor: pointer;
 }
-.homeswar-card:hover .homeswar-sect1{
-   display: block;
-   transition: 0.5s;
+.homeswar-card:hover .homeswar-sect1 {
+  display: block;
+  transition: 0.5s;
 }
-.homeswar-card:hover .homeswar-sect{
+.homeswar-card:hover .homeswar-sect {
   display: none;
-  transition: .5s;
+  transition: 0.5s;
 }
-.homeswar-sect h5{
-  color: #FFFFFF;
-  font-family: 'Roboto', sans-serif !important;
+.homeswar-sect h5 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 500;
   font-size: 18px;
 }
-.homeswar-sect p{
-  color: #FFFFFF;
-  font-family: 'Roboto', sans-serif !important;
+.homeswar-sect p {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
-  opacity: .9;
+  opacity: 0.9;
   font-size: 17.5px;
 }
-.home-chin{
+.home-chin {
   padding: 80px 100px;
-  background-color: #F2F6FA;
+  background-color: #f2f6fa;
 }
-.home-chin h3{
-  color: #1D274E;
+.home-chin h3 {
+  color: #1d274e;
   font-size: 34px;
-  font-family: 'Value Sans Medium' !important;
+  font-family: "Value Sans Medium" !important;
   font-weight: 700;
 }
-.chain-cards{
+.chain-cards {
   margin-top: 30px;
 }
-.chain-box{
+.chain-box {
   margin: 12px 12px;
   max-width: 380px;
   width: 100%;
   height: 380px;
-  background-color: #FFFFFF;
-  padding:30px 25px;
+  background-color: #ffffff;
+  padding: 30px 25px;
   border-radius: 10px;
 }
-.chain-box img{
+.chain-box img {
   width: 38px;
   max-width: 100%;
   display: block;
   margin: auto;
 }
-.chain-box1 img{
+.chain-box1 img {
   margin-top: 35px;
 }
-.chain-box h4{
+.chain-box h4 {
   color: #202020;
-  opacity: .9;
-  font-family: 'Value Sans Medium' !important;
+  opacity: 0.9;
+  font-family: "Value Sans Medium" !important;
   font-weight: 500;
   font-size: 18.5px;
   text-align: center;
   margin-top: 12px;
 }
-.chain-box p{
+.chain-box p {
   color: #202020;
-  font-family: 'Roboto', sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
   font-weight: 400;
   line-height: 28px;
-  opacity: .9;
+  opacity: 0.9;
   font-size: 18px;
   text-align: center;
   margin-top: 8px;
 }
-.chain-box:hover{
-  background: linear-gradient(180deg, #3C83CB 0%, #085881 100%);
+.chain-box:hover {
+  background: linear-gradient(180deg, #3c83cb 0%, #085881 100%);
 }
-.chain-box:hover h4{
-  color: #FFFFFF;
-}
-.chain-box:hover p{
+.chain-box:hover h4 {
   color: #ffffff;
 }
-.chain-box:hover img{
+.chain-box:hover p {
+  color: #ffffff;
+}
+.chain-box:hover img {
   filter: invert(1);
 }
 /* =============home changes css end================== */
-@media only screen and (max-width:1500px) {
+
+/* ================android css start================= */
+.android-back {
+  background-color: #085881;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+  padding-top: 50px;
+}
+.android-back1 {
+  padding-bottom: 50px;
+}
+.android-back1 h2 {
+  color: #ffffff;
+  font-size: 34px;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500;
+  line-height: 44px;
+}
+.android-back1 p {
+  color: #ffffff;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400;
+  width: 30em;
+  letter-spacing: 0.5px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+.android-back1 button {
+  background-color: #ffffff;
+  width: 270px;
+  max-width: 100%;
+  height: 52px;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 35px;
+}
+.android-back2 img {
+  max-width: 480px;
+  width: 100%;
+}
+.android2-app {
+  padding: 60px 100px;
+  background-color: white;
+}
+.android-fun {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.android-fun1 h2 {
+  color: #202020;
+  opacity: 0.9;
+  font-size: 35px;
+  font-family: "Value Sans Medium" !important;
+  font-weight: 700;
+}
+.android-fun1 .ftp {
+  width: 120px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.android-fun1 h5 {
+  color: #085881;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+.android-fun2 p {
+  font-weight: 400;
+  font-size: 19.5px;
+  color: #404040;
+  width: 34em;
+  max-width: 100%;
+}
+.android-cards {
+  padding: 0px 120px;
+  margin-top: 50px;
+}
+.android-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.android-box {
+  width: 100%;
+  border-radius: 10px;
+  padding: 40px 25px;
+  height: 320px;
+  max-height: 100%;
+  margin: 12px 15px;
+}
+.android-box img {
+  width: 38px;
+  max-width: 100%;
+}
+.android-box1 {
+  background-color: #fdf2ff;
+}
+.android-box2 {
+  background-color: #fff5e1;
+}
+.android-box3 {
+  background-color: #e3fffa;
+}
+.android-box3 img {
+  width: 30px;
+  max-width: 100%;
+}
+.android-box4 {
+  background-color: #f7ffee;
+}
+.android-box h4 {
+  font-size: 18.5px;
+  font-weight: 700;
+  color: #202020;
+  opacity: 0.9;
+  font-family: "Value Sans Medium" !important;
+}
+.android-box p {
+  color: #404040;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 18.5px;
+  margin-top: 14px;
+  opacity: 0.9;
+  line-height: 30px;
+}
+.android-offer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px 100px;
+  position: relative;
+  z-index: 2;
+}
+.android-offer::before {
+  background-color: #f2f2f2;
+  opacity: 0.3;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.android-offer1 h3 {
+  color: #202020;
+  opacity: 0.9;
+  font-size: 35px;
+  font-family: "Value Sans Medium" !important;
+  font-weight: 700;
+  line-height: 46px;
+}
+.android-offer1 p {
+  color: #404040;
+  font-weight: 400;
+  font-size: 19.5px;
+  color: #404040;
+  width: 28em;
+  max-width: 100%;
+  margin-top: 30px;
+  line-height: 30px;
+}
+.android-offer2 img {
+  max-width: 640px;
+  width: 100%;
+}
+.android-usa {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px 100px;
+}
+.android-usa1 h3 {
+  color: #202020;
+  opacity: 0.9;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Value Sans Medium" !important;
+  font-weight: 700;
+  line-height: 46px;
+}
+.android-usa1 p {
+  color: #404040;
+  font-weight: 400;
+  font-size: 19.5px;
+  width: 26em;
+  font-weight: 400;
+  max-width: 100%;
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+}
+.android-usa h5 {
+  color: #085881;
+  opacity: 0.9;
+  font-family: "Value Sans Medium" !important;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 20px;
+}
+.android-usa2 {
+  background-color: #000000;
+  height: 260px;
+  color: #000000;
+  width: 0.5px;
+  margin-left: 80px;
+}
+.android-usas1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.android-usast2 {
+  margin-left: 70px;
+}
+.android-usast1 h3 {
+  text-align: center;
+  color: #001d4c;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700;
+  font-size: 64px;
+}
+.android-usast1 p {
+  text-align: center;
+  color: #202020;
+  font-weight: 500;
+  font-family: "Value Sans Medium" !important;
+  font-size: 19.5px;
+  opacity: 0.8;
+}
+.android-pro {
+  padding: 80px 100px;
+  position: relative;
+  z-index: 2;
+}
+.android-pro::before {
+  background-color: #f2f2f2;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.android-process {
+  display: flex;
+  align-items: flex-start;
+}
+.android-process1 h2 {
+  color: #202020;
+  opacity: 0.9;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: "Value Sans Medium" !important;
+  font-weight: 700;
+  line-height: 46px;
+}
+.android-process1 p {
+  color: #404040;
+  font-size: 19.5px;
+  width: 28em;
+  max-width: 100%;
+  margin-top: 15px;
+}
+.prot-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 1px solid rgba(60, 131, 203, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.prot-img img {
+  width: 32px;
+  display: block;
+  margin: auto;
+}
+.prot p {
+  text-align: center;
+  color: #010c1e;
+  font-family: "Value Sans Medium" !important;
+  font-weight: 700;
+  font-size: 21px;
+  margin-top: 15px;
+}
+.andoid-perform-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.android-pflex {
+  margin: 20px 100px;
+}
+.android-pflex h1 {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 700;
+  font-size: 64px;
+}
+.android-pflex p {
+  font-size: 16px;
+  color: #404040;
+  opacity: 0.85;
+}
+.android-perform h5 {
+  color: #085881;
+  opacity: 0.9;
+  font-family: "Value Sans Medium" !important;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 15px;
+  letter-spacing: 0.5px;
+}
+/* ===================android css end==================== */
+
+/* ====================ios css start================ */
+.ios-back2 img {
+  max-width: 450px;
+  width: 100%;
+}
+.ios-back {
+  padding-top: 68px;
+}
+.ios-back1 {
+  padding-bottom: 68px;
+}
+.ios-back1 button{
+  width: 250px;
+  max-width: 100%;
+}
+.ios-fun2 p{
+  width: 33em;
+  max-width: 100%;
+}
+.ios-offer1 p{
+  width: 35em;
+  max-width: 100%;
+}
+.ios-offer2 img{
+  max-width: 520px;
+  width: 100%;
+  margin-top: 20px;
+}
+.ios-usa1 p{
+   width: 32em;
+   max-width: 100%;
+}
+.ios-usa2{
+  margin-left: 40px;
+  height: 250px;
+}
+.ios-process{
+  align-items: center;
+  justify-content: center;
+}
+.ios-kickstart{
+  background-image: url("./images/dreama.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 65vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+.ios-kickstart::before{
+  content: "";
+  background-color: #000000;
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.kickstart-sect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.kickstart-sect h2{
+  color: #ffffff;
+  font-family: 'Value Sans Medium' !important;
+  font-size: 34px;
+  font-weight: 700;
+  text-align: center;
+}
+.ios-kickstart p{
+  color: #ffffff;
+  font-size: 19.5px;
+  text-align: center;
+  width: 31em;
+  max-width: 100%;
+  margin-top: 15px;
+}
+.ios-kickstart button{
+  background-color: #3C83CB;
+  width: 265px;
+  max-width: 100%;
+  height: 68px;
+  display: block;
+  margin: auto;
+  margin-top: 45px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400;
+}
+/* =====================ios css end=================== */
+@media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;
   }
@@ -7080,9 +7554,13 @@ form button {
   .colbo img {
     max-width: 300px;
   }
+  .android-offer2 img {
+    max-width: 550px;
+    width: 100%;
+  }
 }
 
-@media only screen and (max-width:1404px) {
+@media only screen and (max-width: 1404px) {
   .navbar ul .sar {
     margin-left: 30px;
   }
@@ -7090,7 +7568,12 @@ form button {
   .ser-nav {
     margin-left: 30px;
   }
-
+  .android-usa2 {
+    margin-left: 60px;
+  }
+  .android-box {
+    height: 350px;
+  }
   .ser-nav5 {
     max-width: 725px;
     width: 100%;
@@ -7104,11 +7587,14 @@ form button {
   }
 }
 
-@media only screen and (max-width:1338px) {
-
+@media only screen and (max-width: 1338px) {
   .navbar ul li p,
   .navbar ul li a {
     font-size: 13px !important;
+  }
+  .android-offer2 img {
+    max-width: 520px;
+    width: 100%;
   }
 }
 
@@ -7116,7 +7602,7 @@ form button {
   .navbar {
     padding: 12px 60px;
   }
-  .home-chin{
+  .home-chin {
     padding: 80px 60px;
   }
   .discusion-form1 .mrs {
@@ -7424,13 +7910,13 @@ form button {
   }
 }
 
-@media only screen and (max-width:1142px) {
+@media only screen and (max-width: 1142px) {
   .navbar ul .sar {
     margin-left: 25px;
   }
-.chain-card{
-  flex-wrap: wrap;
-}
+  .chain-card {
+    flex-wrap: wrap;
+  }
   .ser-tag {
     flex-wrap: wrap;
   }
@@ -7744,16 +8230,16 @@ form button {
   }
 
   .home1111 h2 {
-    font-size: 40px;
-    line-height: 49px;
+    font-size: 30px;
+    line-height: 35px;
   }
 
   .home1111 p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .home1112 ul li {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .home1112 ul {
@@ -8158,7 +8644,7 @@ form button {
   }
 }
 
-@media only screen and (max-width:1009px) {
+@media only screen and (max-width: 1009px) {
   .home1112 ul {
     bottom: 20px;
   }
@@ -8228,29 +8714,32 @@ form button {
   .desk-nav {
     display: none;
   }
-  .homeswar-flex{
+  .homeswar-flex {
     flex-wrap: wrap;
   }
-  .homeswar-card{
+  .home1111 p {
     width: 100%;
   }
-  .homeswar h4{
+  .homeswar-card {
+    width: 100%;
+  }
+  .homeswar h4 {
     text-align: center;
   }
-  .homeswar h3{
+  .homeswar h3 {
     text-align: center;
     font-size: 30px;
   }
-  .home-chin{
+  .home-chin {
     padding: 80px 40px;
   }
-  .chain-box{
+  .chain-box {
     height: 360px;
   }
- .chain-box p{
-  font-size: 16px;
-  line-height: 26px;
- }
+  .chain-box p {
+    font-size: 16px;
+    line-height: 26px;
+  }
   .strategy h2 {
     font-size: 30px;
     line-height: 40px;
@@ -9558,9 +10047,9 @@ form button {
   .header {
     width: 240vw;
   }
- .home-chin{
-  padding: 60px 20px;
- }
+  .home-chin {
+    padding: 60px 20px;
+  }
   .tasking h2 {
     font-size: 25px;
   }
