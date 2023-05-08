@@ -6,22 +6,14 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
+  font-family: 'Manrope', sans-serif !important;
 }
 
 body {
   overflow-x: hidden;
 }
-
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap'); */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&display=swap'); */
-
-/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&family=Questrial&display=swap'); */
-
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&family=Questrial&family=Roboto:wght@400;500&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&family=Questrial&family=Roboto:wght@400;500&display=swap');
 
 .header {
   background-color: #085881;
@@ -66,15 +58,17 @@ body {
 .second-header p {
   color: #ffffff;
   font-size: 16px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
+  /* font-family: "Poppins", sans-serif; */
+  font-weight: 600;
 }
 
 .noida {
   display: flex;
   align-items: center;
 }
-
+.home-year{
+  padding-bottom: 60px;
+}
 .home-year11 span {
   font-weight: 700;
 }
@@ -83,9 +77,9 @@ body {
   color: #ffffff;
   font-weight: 400;
   text-transform: capitalize;
-  font-size: 16.5px;
-  font-family: "Value Sans Pro" !important;
+  font-size: 16px;
   margin-left: 10px;
+  font-family: 'Manrope', sans-serif !important;
 }
 
 .noida img {
@@ -107,9 +101,9 @@ body {
 .email p {
   color: #ffffff;
   font-weight: 400;
-  font-size: 16.5px;
+  font-size: 16px;
   margin-left: 10px;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
 }
 
 .email img {
@@ -142,7 +136,7 @@ body {
   display: block;
   margin: auto;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 500 !important;
   margin-top: 40px;
 }
@@ -199,7 +193,8 @@ body {
   color: #101010;
   font-size: 15px;
   text-transform: uppercase;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
+  font-weight: 500 !important;
   opacity: 0.8;
 }
 
@@ -229,7 +224,7 @@ body {
   font-size: 16px;
   opacity: 0.8 !important;
   margin-left: 12px;
-  font-family: "Roboto", sans-serif !important;
+  font-family: 'Manrope', sans-serif !important;
   text-transform: capitalize;
   letter-spacing: 0.5px;
 }
@@ -259,7 +254,7 @@ body {
   margin-left: 40px;
   /* top: 138px; */
   border-radius: 0px 2px 2px 2px;
-  top: 147px;
+  top: 138px;
 }
 
 .ser-nav10 {
@@ -269,7 +264,7 @@ body {
   /* padding-top: 20px; */
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   margin-left: 40px;
-  top: 147px;
+  top: 138px;
 }
 
 .ser-nav-resource {
@@ -325,7 +320,7 @@ body {
 }
 
 .home6122 .signgi {
-  max-width: 1250px;
+  max-width: 1500px;
   width: 100%;
   display: block;
   margin: auto;
@@ -406,7 +401,7 @@ body {
 
 .comapn-sect h3 {
   color: #ffffff;
-  font-family: "Poppins", sans-serif !important;
+  /* font-family: "Poppins", sans-serif !important; */
   font-weight: 700;
   font-size: 14px;
 }
@@ -416,7 +411,7 @@ body {
   font-weight: 400 !important;
   font-size: 12px;
   opacity: 1 !important;
-  font-family: "Poppins", sans-serif !important;
+  /* font-family: "Poppins", sans-serif !important; */
   text-transform: none;
   margin-top: 10px;
 }
@@ -441,14 +436,14 @@ body {
 .tael-head h3 {
   color: #ffffff;
   font-weight: 700;
-  font-family: "Poppins", sans-serif !important;
+  /* font-family: "Poppins", sans-serif !important; */
   letter-spacing: 0.5px;
 }
 
 .tael-head .want {
   font-size: 13px;
   color: #ffffff;
-  font-family: "Poppins", sans-serif !important;
+  /* font-family: "Poppins", sans-serif !important; */
   text-transform: none;
   font-weight: 400 !important;
   margin-top: 10px;
@@ -459,7 +454,7 @@ body {
   background-color: white;
   color: #202020;
   opacity: 0.95;
-  font-family: "Poppins", sans-serif !important;
+  /* font-family: "Poppins", sans-serif !important; */
   font-weight: 700 !important;
   font-size: 16px;
   border-radius: 5px;
@@ -540,11 +535,11 @@ body {
   width: 100%;
   background: white;
   z-index: 99;
-  top: 50px;
+  top: 43px;  /* pehle 50 tha */
 }
 
 .home-main {
-  padding-top: 9rem;
+  padding-top: 8.8rem;
 }
 
 .navbar ul li p {
@@ -553,7 +548,8 @@ body {
   font-size: 15px;
   text-transform: uppercase;
   opacity: 0.8;
-  font-family: "Value Sans Medium" !important;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
 }
 .navbar ul li .sar:hover {
   color: #0c62ff;
@@ -584,7 +580,8 @@ body {
   border: none;
   font-size: 19px;
   color: #ffffff;
-  font-family: "Value Sans Pro";
+  font-weight: 600;
+  /* font-family: "Value Sans Pro"; */
 }
 
 .navbar ul li button:hover {
@@ -1026,25 +1023,34 @@ form button {
 .home1 {
   background-color: #e8f0f7;
 }
-
+.home1111 .welcome{
+  font-family: 'Manrope', sans-serif !important;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 19.5px;
+}
+.home1111 span{
+  font-weight: 400 !important;
+  font-family: 'Manrope', sans-serif !important;
+  color: #3C83CB !important;
+  font-size: 19.5px;
+}
 .home1111 h2 {
   font-size: 45px;
   line-height: 56px;
-  font-weight: 700 !important;
-  /* width: 18em; */
-  /* font-family: 'Montserrat', sans-serif; */
-  font-family: "Value Sans Pro" !important;
+  font-weight: 800 !important;
   color: #000000;
   margin-top: 10px;
 }
 
-.home1111 p {
-  font-size: 20px;
+.home1111 .tokin {
+  font-size: 16px;
   font-weight: 400;
   margin-top: 12px;
-  font-family: "Value Sans Pro" !important;
+  font-family: 'Manrope', sans-serif !important;
   color: #000000;
-  width: 25em;
+  width: 29em;
   max-width: 100%;
 }
 
@@ -1091,7 +1097,7 @@ form button {
   list-style: disc;
   margin: 0px 18px;
   opacity: 0.6;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 19px;
   color: #000000;
 }
@@ -1129,9 +1135,10 @@ form button {
 }
 
 .home211 h5 {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 500;
-  font-family: "Value Sans Medium" !important;
+  color: #085881;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .home2 {
@@ -1139,15 +1146,17 @@ form button {
 }
 
 .home211 h3 {
-  font-size: 29px;
+  font-size: 28px;
   line-height: 38px;
-  font-family: "Value Sans Medium" !important;
+  font-weight: 600;
+  margin-top: 10px;
+  /* font-family: "Value Sans Medium" !important; */
   color: #010c1e;
 }
 
 .home211 p {
   color: #404040;
-  font-size: 19.5px;
+  font-size: 19px;
   font-weight: 400;
   margin-top: 10px;
 }
@@ -1172,7 +1181,8 @@ form button {
   width: 285px;
   height: 70px;
   font-size: 18px;
-  font-family: "Value Sans Medium" !important;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
   margin-top: 35px;
   letter-spacing: 0.5px;
 }
@@ -1192,7 +1202,7 @@ form button {
 .s-card1 p {
   color: #101010;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 10px;
 }
 
@@ -1204,10 +1214,8 @@ form button {
 .s-card1 h5 {
   color: #101010;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 34px;
-  /* margin-left: 10px; */
-  font-family: "Value Sans Medium" !important;
 }
 
 .home3 {
@@ -1215,7 +1223,7 @@ form button {
 }
 
 .home311 h1 {
-  font-size: 40px;
+  font-size: 38px;
   width: fit-content;
   font-weight: 400;
   margin: auto;
@@ -1229,14 +1237,14 @@ form button {
 .home311 span {
   font-weight: 700;
   color: #010c1e;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .home311 p {
   width: 60%;
   margin: auto;
   font-weight: 400;
-  font-size: 19.5px;
+  font-size: 19px;
   color: #404040;
 }
 
@@ -1284,19 +1292,19 @@ form button {
 }
 
 .home411 h1 {
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 400;
 }
 
 .home411 span {
   font-weight: 700;
-  font-family: "Value Sans Medium";
+  /* font-size: 38px; */
 }
 
 .home411 p {
   width: 50%;
   margin: auto;
-  font-size: 19.5px;
+  font-size: 19px;
   color: #404040;
   font-weight: 400;
 }
@@ -1346,8 +1354,9 @@ form button {
 
 .flex-thing p {
   color: #000000;
-  font-family: "Value Sans Medium" !important;
-  font-size: 19.5px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 19px;
+  font-weight: 500;
   text-transform: uppercase;
   margin: 0px 25px;
 }
@@ -1402,14 +1411,14 @@ form button {
 }
 
 .home711 h1 {
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 35px;
+  font-weight: bold;
   color: #101010;
   opacity: 0.8;
   letter-spacing: 0.15em;
   text-transform: uppercase;
-  line-height: 50px;
-  font-family: "Value Sans Medium" !important;
+  line-height: 48px;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .d-card {
@@ -1449,12 +1458,12 @@ form button {
 .d-card11 h5 {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.3vmax;
+  font-size: 1.2vmax;
 }
 
 .d-card12 p {
   font-weight: 500;
-  font-size: 19px;
+  font-size: 17px;
   color: #404040;
   margin-top: 20px;
 }
@@ -1464,9 +1473,9 @@ form button {
 }
 
 .home8 h2 {
-  font-size: 36px;
+  font-size: 34px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   color: #101010;
   text-transform: uppercase;
   opacity: 0.8;
@@ -1475,8 +1484,9 @@ form button {
 
 .home8 p {
   color: #404040;
-  font-family: "Value Sans Medium" !important;
-  font-size: 34px;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 30px;
   opacity: 0.1;
 }
 
@@ -1564,8 +1574,9 @@ form button {
 .home911 h2 {
   text-align: start;
   font-size: 35px;
-  font-family: "Value Sans Bold" !important;
+  /* font-family: "Value Sans Bold" !important; */
   letter-spacing: 0.1em;
+  font-weight: bolder;
   color: #101010;
   opacity: 0.8;
 }
@@ -1580,7 +1591,7 @@ form button {
 
 .accordion__button {
   background-color: transparent !important;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 500;
   color: #404040 !important;
 }
@@ -1610,7 +1621,7 @@ form button {
 .read-sec p {
   color: #404040;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 21px;
   border-bottom: 2px solid #404040;
   display: inline;
 }
@@ -1675,15 +1686,17 @@ form button {
 .first-testimonials .tas {
   color: #101010;
   opacity: 0.5;
-  font-family: "Value Sans Medium" !important;
-  font-size: 19.5px;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 19px;
   text-transform: uppercase;
 }
 
 .first-testimonials .happy {
   color: #101010;
-  font-family: "Value Sans Medium" !important;
-  font-size: 36px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 35px;
+  font-weight: 500;
   opacity: 0.8;
   text-transform: uppercase;
   margin-top: 10px;
@@ -1695,14 +1708,16 @@ form button {
 
 .testi-sec h2 {
   color: #1a3c5b;
-  font-size: 58px;
+  font-size: 56px;
   letter-spacing: 0.15em;
-  font-family: "Value Sans Medium" !important;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .testi-sec span {
-  font-size: 40px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 38px;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .first-star img {
@@ -1721,7 +1736,8 @@ form button {
   font-size: 16px;
   color: #1a3c5b;
   text-transform: uppercase;
-  font-family: "Value Sans Medium" !important;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
   letter-spacing: 0.15em;
 }
 
@@ -1768,15 +1784,17 @@ form button {
 
 .second-ex p {
   color: #404040;
-  font-family: "Value Sans Medium" !important;
-  font-size: 19.5px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 19px;
+  font-weight: 500;
   opacity: 0.9;
 }
 
 .third-ex p {
   color: #404040;
-  font-family: "Value Sans Medium" !important;
-  font-size: 19.5px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 19px;
+  font-weight: 500;
   opacity: 0.9;
 }
 
@@ -1786,7 +1804,7 @@ form button {
 
 .para-ex p {
   color: #404040;
-  font-size: 19.5px;
+  font-size: 19px;
   font-weight: 400;
 }
 
@@ -1804,12 +1822,12 @@ form button {
 }
 
 .home611 h1 {
-  font-size: 36px;
+  font-size: 35px;
   opacity: 0.8;
   color: #101010;
   font-weight: 700;
   letter-spacing: 0.15em;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .home7 {
@@ -1865,7 +1883,7 @@ form button {
 }
 
 .ser-main {
-  padding-top: 9rem;
+  padding-top: 8.8rem;
 }
 
 .opg {
@@ -2083,7 +2101,7 @@ form button {
 }
 
 .foot2 .proms {
-  font-family: "Prompt", sans-serif !important;
+  /* font-family: "Prompt", sans-serif !important; */
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
@@ -2864,13 +2882,15 @@ form button {
 }
 
 .home-year11 h1 {
-  font-size: 40px;
+  font-size: 36px;
   line-height: 48px;
   color: #101010;
+  font-weight: 500;
 }
 
 .home-year11 h1 span {
   color: #3e73fb;
+  font-weight: bold;
 }
 
 .home-year11 {
@@ -3584,18 +3604,18 @@ form button {
 }
 
 .foot111 h4 {
-  font-size: 19.5px;
-  font-family: "Roboto", sans-serif !important;
-  font-weight: 400 !important;
+  font-size: 19px;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-weight: 500 !important;
   color: #ffffff;
   text-transform: capitalize;
 }
 
 .foot11 h5 {
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
   margin-bottom: 18px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 700 !important;
 }
 
@@ -3603,8 +3623,8 @@ form button {
 .foot11 a {
   font-size: 14px;
   margin-bottom: 12px;
-  font-family: "Roboto", sans-serif !important;
-  font-weight: 400 !important;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-weight: 500 !important;
 }
 
 .foot11 {
@@ -6328,9 +6348,9 @@ form button {
 .portfolio-sect p {
   color: #ffffff;
   font-weight: 400;
-  font-size: 19.5px;
-  font-family: "Value Sans Pro" !important;
-  width: 30em;
+  font-size: 18.5px;
+  /* font-family: "Value Sans Pro" !important; */
+  width: 36em;
   max-width: 100%;
   margin-top: 12px;
   opacity: 0.95px;
@@ -6344,9 +6364,9 @@ form button {
   margin-top: 30px;
   border-radius: 5px;
   color: #202020;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
-  font-size: 19.5px;
+  font-size: 19px;
 }
 
 .portfolio-nav {
@@ -6373,9 +6393,10 @@ form button {
 .portfolio-nav p {
   color: #ffffff;
   font-size: 19px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   margin: 0 32px;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .portfolio-web {
@@ -6468,14 +6489,14 @@ form button {
 .portis2 h3 {
   color: #202020;
   font-size: 34px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: bold;
 }
 
 .portis2 .kick-eez {
   color: #202020;
-  font-size: 21px;
-  font-family: "Roboto", sans-serif !important;
+  font-size: 20.5px;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
   width: 25em;
   max-width: 100%;
@@ -6497,22 +6518,23 @@ form button {
 }
 
 .port-usa1 .port-pat {
-  font-size: 19.5px;
-  font-family: "Roboto", sans-serif !important;
+  font-size: 19px;
+  /* font-family: "Roboto", sans-serif !important; */
   color: #202020;
+  font-weight: 500;
 }
 
 .port-usa1 .reg {
   color: #202020;
   font-weight: 400;
-  font-family: "Roboto", sans-serif !important;
-  font-size: 15.5px;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-size: 15px;
 }
 
 .port-usa1 .reg1 {
   color: #202020;
   font-weight: 400;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-size: 16px;
 }
 
@@ -6524,7 +6546,7 @@ form button {
   color: #202020;
   opacity: 0.75;
   font-size: 22px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 600;
   letter-spacing: 0.5px;
 }
@@ -6550,9 +6572,9 @@ form button {
 }
 
 .porting-serv p {
-  font-size: 15.5px;
+  font-size: 15px;
   color: #202020;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
   margin-top: 2px;
 }
@@ -6563,13 +6585,14 @@ form button {
   width: 100%;
   height: 58px;
   color: #ffffff;
-  font-size: 19.5px;
-  font-family: "Roboto", sans-serif !important;
+  font-size: 19px;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
   cursor: pointer;
   border-radius: 4px;
   margin-top: 35px;
 }
+
 /* =================portfolio css end============================== */
 
 /* =======================carer with us css start===================== */
@@ -6926,13 +6949,13 @@ form button {
   font-size: 22px;
   color: #202020;
   opacity: 0.9;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
 }
 .homeswar h3 {
-  font-size: 40px;
+  font-size: 38px;
   color: #085881;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
   line-height: 45px;
 }
@@ -7030,16 +7053,18 @@ form button {
 }
 .homeswar-sect h5 {
   color: #ffffff;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
   font-size: 18px;
 }
 .homeswar-sect p {
   color: #ffffff;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
   opacity: 0.9;
-  font-size: 17.5px;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 5px;
 }
 .home-chin {
   padding: 80px 100px;
@@ -7048,7 +7073,7 @@ form button {
 .home-chin h3 {
   color: #1d274e;
   font-size: 34px;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
 }
 .chain-cards {
@@ -7075,19 +7100,19 @@ form button {
 .chain-box h4 {
   color: #202020;
   opacity: 0.9;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 500;
-  font-size: 18.5px;
+  font-size: 18px;
   text-align: center;
   margin-top: 12px;
 }
 .chain-box p {
   color: #202020;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
-  line-height: 28px;
+  line-height: 27px;
   opacity: 0.9;
-  font-size: 18px;
+  font-size: 17.5px;
   text-align: center;
   margin-top: 8px;
 }
@@ -7783,7 +7808,7 @@ form button {
   }
 
   .header {
-    padding: 12px 60px;
+    padding: 8px 60px; /* pehle 12 tha */
   }
 
   .noida p {

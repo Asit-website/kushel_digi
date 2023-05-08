@@ -56,10 +56,10 @@ function App() {
           <Route path="/portfolio" element={<Portfolio/>}/>
           <Route path="/carer" element={<Career/>}/>
           <Route path="/about" element={<About />}/>
-          <Route path="*" element={<Error />} />
           <Route path="/approach" element={<Approach/>}/>
           <Route path="/android" element={<Android/>}/>
           <Route path="/ios" element={<Ios/>}/>
+          <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
       </Router>

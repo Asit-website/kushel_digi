@@ -50,7 +50,6 @@ import pay1 from "../images/pay1.png";
 import pay2 from "../images/pay2.png";
 import pay3 from "../images/pay3.png";
 import box2 from "../images/box2.png";
-import aboutji from "../images/aboutji.png";
 import box3 from "../images/box3.png";
 import box4 from "../images/box4.png";
 import box5 from "../images/box5.png";
@@ -83,7 +82,10 @@ import joki5 from '../images/joki5.png';
 import joki6 from '../images/joki6.png';
 import joki7 from '../images/joki7.png';
 import joki8 from '../images/joki8.png';
-import sync from '../images/sync.png'
+import sync from '../images/sync.png';
+import antist from '../images/antist.png';
+import ContactForm1 from "./common/ContactForm1";
+import surup from '../images/surup.png';
 const Home = () => {
   let dev = "App";
   let dev1 = "Development";
@@ -261,11 +263,11 @@ const Home = () => {
           <div className="home11 flex px-24 pt-12 items-center relative">
             <div className="home111">
               <div className="home1111">
-                <p>Welcome to Kushel Digi</p>
+                <p className="welcome">Welcome to <span>Kushel Digi</span></p>
                 <h2 className="mt-0 mb-2">
                 Creating E-Commerce <br /> Experiences
                 </h2>
-                <p>We take the time to thoughtfully understand your brand voice and vision to deliver unmatched UX focused website design and development.</p>
+                <p className="tokin">We take the time to thoughtfully understand your brand voice and vision to deliver unmatched UX focused website design and development.</p>
               </div>
               <div className="home1112 absolute">
                 <ul className="flex flex-row">
@@ -286,7 +288,7 @@ const Home = () => {
         <div className="home2 mb-8">
           <div className="home21 px-24 flex">
             <div className="home211 mr-14">
-              <img src={aboutji} alt="about" />
+              <img src={antist} alt="about" />
               <h5 className="text-blue-500 mt-16">Who are we?</h5>
               <h3 className="mb-2">
                 We are your digital partner for innovative design and reliable
@@ -914,23 +916,9 @@ const Home = () => {
               <h1 className="font-bold text-gray-700">OUR WORKING PROCESS</h1>
             </div>
             <div className="home612">
-              {/* <div className="home6121 flex justify-between items-center mb-4">
-                <p>We Get Your Requirements</p>
-                <p></p>
-                <p>Designing & Get Conformation</p>
-                <p></p>
-                <p className="mr-5">Testing & Maintenance</p>
-              </div> */}
               <div className="home6122">
-                <img className="w-full h-full signgi" src={singi} alt="mesr" />
+                <img className="w-full h-full signgi" src={surup} alt="mesr" />
               </div>
-              {/* <div className="home6121 flex justify-between items-center mt-4">
-                <p></p>
-                <p className="p2">Market Research & Feasibility Analysis</p>
-                <p></p>
-                <p className="p4">Coding & Development</p>
-                <p></p>
-              </div> */}
             </div>
           </div>
         </div>
@@ -1025,6 +1013,117 @@ const Home = () => {
           </div>
         </div>
 
+        <div className="testimonials">
+          <div className="first-testimonials">
+            <h3 className="tas">testimonials</h3>
+            <h2 className="happy">OUR HAPPY CLIENT SAY</h2>
+            <div className="testi-sec">
+              <h2>
+                4.7<span>/5</span>
+              </h2>
+              <div className="star flex items-center">
+                <div className="first-star flex items-center ">
+                  <img src={star} alt="star" />
+                  <img className="ml-1" src={star} alt="" />
+                  <img className="ml-1" src={star} alt="star" />
+                  <img className="ml-1" src={star} alt="" />
+                  <img className="ml-1" src={star1} alt="" />
+                </div>
+                <div className="second-star ml-3">
+                  <p>200 reviews</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="second-testimonials">
+            <div className="excellent">
+              <h2>EXCELLENT WORK</h2>
+              <div className="ex mt-1">
+                <div className="first-ex flex">
+                  <img src={star} alt="" />
+                  <img className="ml-1" src={star} alt="" />
+                  <img className="ml-1" src={star} alt="" />
+                  <img className="ml-1" src={star} alt="" />
+                  <img className="ml-1" src={star} alt="" />
+                </div>
+                <div className="second-ex">
+                  <p>Matt Reeder</p>
+                </div>
+                <div className="third-ex">
+                  <p>United States. 03/23/2023</p>
+                </div>
+              </div>
+              <div className="para-ex">
+                <p>
+                  Lorem ipsum is simply dummy text of the printing & Typesetting
+                  industry. lorem ipsum has been the industry’s standard dummy
+                  text ever since the 1500s, an unknown printer took a gallery.
+                </p>
+              </div>
+            </div>
+
+            <div className="excellent mt-3">
+              <h2>EXCELLENT WORK</h2>
+              <div className="ex mt-1">
+                <div className="first-ex flex">
+                  <img src={star} alt="" />
+                  <img className="ml-1" src={star} alt="" />
+                  <img className="ml-1" src={star} alt="" />
+                  <img className="ml-1" src={star} alt="" />
+                  <img className="ml-1" src={star} alt="" />
+                </div>
+                <div className="second-ex">
+                  <p>Matt Reeder</p>
+                </div>
+                <div className="third-ex">
+                  <p>United States. 03/23/2023</p>
+                </div>
+              </div>
+              <div className="para-ex">
+                <p>
+                  Lorem ipsum is simply dummy text of the printing & Typesetting
+                  industry. lorem ipsum has been the industry’s standard dummy
+                  text ever since the 1500s, an unknown printer took a gallery.
+                </p>
+              </div>
+            </div>
+            <div className="read-sec">
+              <p>Read All 200 Reviews</p>
+            </div>
+          </div>
+        </div>
+
+       
+
+        <div className="home-year">
+          <div className="home-year1 flex items-center">
+            <div className="home-year11">
+              <h1>
+                Over <span>5 Years</span> of
+              </h1>
+              <h1> Experience in the Online </h1>
+              <h1>Design Industry</h1>
+            </div>
+            <div className="home-year12 flex items-center justify-center flex-wrap">
+              <div className="home-year121">
+                <img src="/static/images/b17.png" alt="" />
+              </div>
+              <div className="home-year121">
+                <img src="/static/images/b18.png" alt="" />
+              </div>
+              <div className="home-year121">
+                <img src="/static/images/b19.png" alt="" />
+              </div>
+              <div className="home-year121">
+                <img src="/static/images/b20.png" alt="" />
+              </div>
+              <div className="home-year121">
+                <img src="/static/images/b21.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="home9 mb-12">
           <div className="home91 flex px-20">
             <div className="home911 text-center">
@@ -1111,162 +1210,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* <div className="home10 mb-8 bg-blue-100">
-          <div className="home101 px-16 py-20">
-            <div className="home1011 text-center">
-              <h5 className='text-gray-600'>TESTIMONIALS</h5>
-              <h2 className=''>OUR HAPPY CLIENT SAY</h2>
-            </div>
-            <div className="home1012 flex">
-              <div className="home10121">
-                <div className="home101211 flex items-center mb-6">
-                  <div className="home-10 mr-4">
-                    <img src="/static/images/a18.png" alt="" />
-                  </div>
-                  <div className="home-11 flex items-center">
-                    <button className='h-10 w-10 rounded-full bg-gray-400 p-3 mr-3 text-white'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-left" viewBox="0 0 16 16">
-                        <path fillRule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" />
-                      </svg>
-                    </button>
-                    <button className='h-10 w-10 rounded-full bg-blue-500 p-3 ml-3 text-white'>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-arrow-right" viewBox="0 0 16 16">
-                        <path fillRule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
-                      </svg>
-                    </button>
-                  </div>
-                </div>
-                <div className="home101212">
-                  <p className='mb-5'>Lorem ipsum is simply dummy text of the printing & Typesetting industry. lorem ipsum has been the industry’s standard dummy text ever since the 1500s, an unknown printer took a gallery.</p>
-                  <h5 className='font-semibold mb-1'>Harriet Mitchell</h5>
-                  <p>Director of inbrew</p>
-                </div>
-              </div>
-              <div className="home10122">
-                <img className='h-full w-full' src="/static/images/a19.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div> */}
-
-        <div className="testimonials">
-          <div className="first-testimonials">
-            <h3 className="tas">testimonials</h3>
-            <h2 className="happy">OUR HAPPY CLIENT SAY</h2>
-            <div className="testi-sec">
-              <h2>
-                4.7<span>/5</span>
-              </h2>
-              <div className="star flex items-center">
-                <div className="first-star flex items-center ">
-                  <img src={star} alt="star" />
-                  <img className="ml-1" src={star} alt="" />
-                  <img className="ml-1" src={star} alt="star" />
-                  <img className="ml-1" src={star} alt="" />
-                  <img className="ml-1" src={star1} alt="" />
-                </div>
-                <div className="second-star ml-3">
-                  <p>200 reviews</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="second-testimonials">
-            <div className="excellent">
-              <h2>EXCELLENT WORK</h2>
-              <div className="ex mt-1">
-                <div className="first-ex flex">
-                  <img src={star} alt="" />
-                  <img className="ml-1" src={star} alt="" />
-                  <img className="ml-1" src={star} alt="" />
-                  <img className="ml-1" src={star} alt="" />
-                  <img className="ml-1" src={star} alt="" />
-                </div>
-                <div className="second-ex">
-                  <p>Matt Reeder</p>
-                </div>
-                <div className="third-ex">
-                  <p>United States. 03/23/2023</p>
-                </div>
-              </div>
-              <div className="para-ex">
-                <p>
-                  Lorem ipsum is simply dummy text of the printing & Typesetting
-                  industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery.
-                </p>
-              </div>
-            </div>
-
-            <div className="excellent mt-3">
-              <h2>EXCELLENT WORK</h2>
-              <div className="ex mt-1">
-                <div className="first-ex flex">
-                  <img src={star} alt="" />
-                  <img className="ml-1" src={star} alt="" />
-                  <img className="ml-1" src={star} alt="" />
-                  <img className="ml-1" src={star} alt="" />
-                  <img className="ml-1" src={star} alt="" />
-                </div>
-                <div className="second-ex">
-                  <p>Matt Reeder</p>
-                </div>
-                <div className="third-ex">
-                  <p>United States. 03/23/2023</p>
-                </div>
-              </div>
-              <div className="para-ex">
-                <p>
-                  Lorem ipsum is simply dummy text of the printing & Typesetting
-                  industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery.
-                </p>
-              </div>
-            </div>
-            <div className="read-sec">
-              <p>Read All 200 Reviews</p>
-            </div>
-          </div>
-        </div>
-
-        {/* <div className="home-01 flex justify-center items-center py-12 mb-16 ">
-          <div className="home-011 py-12 px-12">
-            <div className="home-0111 text-center">
-              <h2 className='uppercase font-bold'>Let’s Create Big Stories Together</h2>
-              <p className='my-3'>Mobile is in our nerves. We don’t just build apps, we create brand.Choosing us will be your best decision.</p>
-              <button>GET A QUOTE</button>
-            </div>
-          </div>
-        </div> */}
-
-        <div className="home-year">
-          <div className="home-year1 flex items-center">
-            <div className="home-year11">
-              <h1>
-                Over <span>5 Years</span> of
-              </h1>
-              <h1> Experience in the Online </h1>
-              <h1>Design Industry</h1>
-            </div>
-            <div className="home-year12 flex items-center justify-center flex-wrap">
-              <div className="home-year121">
-                <img src="/static/images/b17.png" alt="" />
-              </div>
-              <div className="home-year121">
-                <img src="/static/images/b18.png" alt="" />
-              </div>
-              <div className="home-year121">
-                <img src="/static/images/b19.png" alt="" />
-              </div>
-              <div className="home-year121">
-                <img src="/static/images/b20.png" alt="" />
-              </div>
-              <div className="home-year121">
-                <img src="/static/images/b21.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
+       <ContactForm1/>
       </div>
     </>
   );

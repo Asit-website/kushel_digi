@@ -1168,9 +1168,10 @@
 }
 
 .contactus-heading h2 {
-  font-size: 35px;
+  font-size: 34px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
+  font-family: 'Manrope', sans-serif !important;
   color: #202020;
   margin-bottom: 0.3rem;
   text-align: center;
@@ -1180,12 +1181,12 @@
 
 .contactus-heading p {
   color: #202020;
-  font-size: 19.5px;
+  font-size: 19px;
   font-weight: 300;
   margin-top: 0;
   opacity: 0.9;
-  /* font-family: 'Value Sans Medium' !important; */
   text-align: center;
+  margin-top: 10px;
 }
 
 .contactus-form__input {
@@ -1626,7 +1627,7 @@
 .hire-nav__container__header h3 {
   font-size: 0.75rem;
   color: var(--primary);
-  font-family: "Poppins", sans-serif !important;
+  font-family: 'Manrope', sans-serif !important;
   font-weight: 500;
 }
 
