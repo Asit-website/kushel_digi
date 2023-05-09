@@ -7,7 +7,7 @@
 .staff-cap .sta {
   color: #000000;
   font-weight: 500;
-  font-size: 45px;
+  font-size: 43px;
   font-family: "Value Sans Medium" !important;
   text-align: center;
   opacity: 0.95;
@@ -15,8 +15,8 @@
 .staff-cap .cab {
   color: #000000;
   font-weight: 700;
-  font-size: 45px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 43px;
+  /* font-family: "Value Sans Medium" !important; */
   text-align: center;
   opacity: 0.95;
   line-height: 52px;
@@ -65,8 +65,8 @@
   margin-left: 2px;
 }
 .sard h3 {
-  font-family: "Value Sans Medium" !important;
-  font-size: 24px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 23px;
   line-height: 38px;
   opacity: 0.95;
   color: #000000;
@@ -76,8 +76,8 @@
 }
 .sard h2 {
   color: #000000;
-  font-family: "Value Sans Pro" !important;
-  font-size: 24px;
+  /* font-family: "Value Sans Pro" !important; */
+  font-size: 23px;
   font-weight: 600;
 }
 .staff-para {
@@ -85,8 +85,8 @@
 }
 .staff-para p {
   color: #000000;
-  font-family: "Montserrat", sans-serif !important;
-  font-size: 19.5px;
+  /* font-family: "Montserrat", sans-serif !important; */
+  font-size: 19px;
   font-weight: 500;
   line-height: 33px;
 }
@@ -104,11 +104,12 @@
 }
 .staff-process .pro {
   color: #000000;
-  font-size: 45px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 43px;
+  /* font-family: "Value Sans Medium" !important; */
   opacity: 0.95;
   text-align: center;
-  line-height: 50px;
+  font-weight: 500;
+  line-height: 48px;
 }
 .process-img img {
   max-width: 1180px;
@@ -127,10 +128,11 @@
 }
 .benifits h2 {
   color: #101010;
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 35px;
+  /* font-family: "Value Sans Medium" !important; */
   opacity: 0.8;
   line-height: 45px;
+  font-weight: 500;
 }
 .benifits span {
   color: #101010;
@@ -149,7 +151,7 @@
 
 .check p {
   color: #404040;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
   font-weight: 400;
   font-size: 19px;
   margin-left: 8px;
@@ -255,9 +257,16 @@
   margin: 3rem 3rem;
   font-family: "Poppins", sans-serif !important;
 }
-
+.ourtalent-text__para p{
+  width: 38em;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Manrope', sans-serif !important;
+  max-width: 100%;
+}
 .howItWorks h1 {
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
+  font-family: 'Manrope', sans-serif !important;
   font-size: 1.75rem;
   font-weight: 500;
   text-transform: uppercase;
@@ -277,10 +286,11 @@
   opacity: 0.8;
   text-align: center;
   opacity: 0.8;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 0.93rem;
   width: 30%;
   max-width: 27rem;
+  font-family: 'Manrope', sans-serif !important;
 }
 
 .howItWorks-icons {
@@ -460,7 +470,8 @@
 .hero-content h1 {
   font-weight: 400;
   margin-bottom: 0.7rem;
-  font-size: 3rem;
+  font-size: 2.8rem;
+  font-family: 'Manrope', sans-serif !important;
   line-height: 3.75rem;
 }
 
@@ -486,6 +497,7 @@
 .hero-content p {
   font-size: 1.2rem;
   margin: 1rem;
+  font-family: 'Manrope', sans-serif !important;
 }
 
 .input {
@@ -528,10 +540,12 @@
   cursor: pointer;
   width: 35%;
   height: 60px;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   border-radius: 2px;
   border: transparent;
-  font-family: "Value Sans Medium" !important;
+  font-weight: 500;
+  font-family: 'Manrope', sans-serif !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .input > button > img {
@@ -732,6 +746,7 @@
   padding: 5rem 0 0 0;
   background: url("../public/static/images/d2.png") no-repeat center
     center/cover;
+    align-items: center;
 }
 .digi-packages1 {
   margin-top: 0rem !important;
@@ -757,7 +772,8 @@
   opacity: 0.8;
   font-size: 1.6rem;
   font-weight: 700;
-  font-family: "Poppins", sans-serif !important;
+  font-family: 'Manrope', sans-serif !important;
+  /* font-family: "Poppins", sans-serif !important; */
 }
 
 .ourtalent-text__heading h1 span {
@@ -780,12 +796,16 @@
 .digi-packages .package-types h3 {
   font-size: 35px;
   color: #202020;
+  line-height: 46px;
+  font-family: 'Manrope', sans-serif !important;
 }
 .digi-packages .package-types p {
   margin: auto;
   font-size: 19px;
   margin-top: 15px;
   width: 70%;
+  font-family: 'Manrope', sans-serif !important;
+  max-width: 100%;
 }
 
 .ourtalent-image {
@@ -1049,15 +1069,17 @@
   color: var(--primary);
 }
 .bookus h2 {
-  font-size: 35px;
+  font-size: 34px;
+  font-family: 'Manrope', sans-serif !important;
 }
 
 .bookus-heading p {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   opacity: 0.8;
   font-size: 24px;
   font-family: 300;
   margin-bottom: 2rem;
+  font-family: 'Manrope', sans-serif !important;
 }
 
 .bookus-button button {
@@ -1067,10 +1089,11 @@
   border-radius: 40px;
   border: none;
   padding: 16px 34px;
-  font-size: 15px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   cursor: pointer;
+  font-family: 'Manrope', sans-serif !important;
 }
 .bookus-button img {
   width: 12px;
@@ -1106,16 +1129,18 @@
   line-height: 46px;
   color: #202020;
   opacity: 0.9;
+  font-family: 'Manrope', sans-serif !important;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   text-align: center;
 }
 .improved p {
   color: #202020;
   text-align: center;
-  font-size: 19.5px;
+  font-size: 19px;
   font-weight: 500;
   margin-top: 8px;
+  font-family: 'Manrope', sans-serif !important;
 }
 .improved button {
   border: 1px solid #085881;
@@ -1131,6 +1156,7 @@
 }
 .connectus p {
   font-size: 25px;
+  font-family: 'Manrope', sans-serif !important;
 }
 .home568 {
   padding: 120px 0px;
@@ -1144,6 +1170,7 @@
   padding: 8px 20px;
   font-size: 15px;
   cursor: pointer;
+  font-family: 'Manrope', sans-serif !important;
 }
 
 /* Contact Us Section */
@@ -1644,4 +1671,10 @@
   text-transform: capitalize;
   color: #202020;
   opacity: 0.75;
+}
+
+@media only screen and (max-width:1262px){
+  .ourtalent-text__para p{
+    width: 100%;
+  }
 }

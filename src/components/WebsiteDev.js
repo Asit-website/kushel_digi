@@ -42,6 +42,10 @@ import {
 } from "react-accessible-accordion";
 import ContactForm2 from "./common/contactForm2";
 const WebsiteDev = () => {
+  let heading = "www.2ndAmendment.com";
+  let heading1 = "www.kickeez.com";
+  let heading2 = "www.protrucks.com";
+  let heading3 = "www.jonesbuilt.com";
   const [start, setStart] = useState(false);
   const handleChange = () => {
     setStart(!start);
@@ -266,10 +270,10 @@ const WebsiteDev = () => {
               <h1 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h1>
             </div>
             <div className="home512 flex flex-wrap justify-center mt-10">
-              <PortCard pads={a9} />
-              <PortCard pads={pads} />
-              <PortCard pads={bds} />
-              <PortCard pads={jones} />
+              <PortCard heading={heading} pads={a9} />
+              <PortCard heading={heading1} pads={pads} />
+              <PortCard heading={heading2} pads={bds} />
+              <PortCard heading={heading3} pads={jones} />
             </div>
           </div>
           <div className="home52 w-full text-center"></div>

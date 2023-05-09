@@ -39,7 +39,8 @@ const Contact = () => {
 
       <div className="need-help">
         <div className="first-need">
-          <h2>Need Help?</h2>
+          <h2>Feel free to get in touch contact <br />
+with us.</h2>
           <p>Reach out to the world most reliable IT services. </p>
           <form>
             <div className="input-group">
