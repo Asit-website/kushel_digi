@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, HashRouter} from "react-router-dom";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -32,7 +32,7 @@ import Ios from "./components/Ios";
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
       <ScrollToTop />
         <Navbar />
         <Routes>
@@ -62,7 +62,7 @@ function App() {
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
-      </Router>
+        </HashRouter>
     </>
   );
 }

@@ -30,11 +30,14 @@ body {
 }
 
 .lorem {
-  font-size: 23px;
+  font-size: 22px;
   color: #404040;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
 }
-
+.portis11111 img{
+  max-width: 300px;
+  width: 100%;
+}
 .united {
   font-size: 16.5px;
 }
@@ -95,7 +98,7 @@ body {
 .port-card2 b {
   color: #404040;
   font-weight: 600;
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .email p {
@@ -634,8 +637,9 @@ body {
 }
 
 .contact-sect h2 {
-  font-family: "Value Sans Bold" !important;
+  /* font-family: "Value Sans Bold" !important; */
   font-style: normal;
+  font-weight: 700;
   font-size: 50px;
   text-transform: uppercase;
 }
@@ -643,7 +647,7 @@ body {
 .contact-sect p {
   font-weight: 400;
   text-transform: capitalize;
-  font-size: 20px;
+  font-size: 19.5px;
   width: 30em;
   line-height: 18px;
   margin-top: 15px;
@@ -658,18 +662,21 @@ body {
 }
 
 .first-need h2 {
-  font-family: "Value Sans Medium" !important;
-  font-size: 36px;
-  color: #0e2b3d;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #202020;
   font-style: normal;
   text-transform: capitalize;
 }
 
 .first-need p {
-  font-weight: 400;
+  font-weight: 500;
   color: #666b6b;
-  font-size: 20px;
+  font-size: 19px;
   text-transform: capitalize;
+  margin-top: 10px;
 }
 
 .first-need form {
@@ -694,7 +701,7 @@ body {
   font-size: 15px;
   color: #6c7591;
   font-style: normal;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
 }
 
 .input-group textarea {
@@ -768,8 +775,9 @@ form button {
   color: #085881;
   border-bottom: 3px solid #085881;
   font-style: normal;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-size: 20px;
+  font-weight: 500;
   line-height: 36px;
   position: relative;
   top: 3px;
@@ -778,7 +786,7 @@ form button {
 
 .diff-section .maps {
   color: #0e2b3d;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-style: normal;
   font-size: 20px;
   margin-left: 40px;
@@ -989,16 +997,16 @@ form button {
 
 .staff-sect h2 {
   color: #101010;
-  font-family: "Value Sans Medium" !important;
-  line-height: 60px;
-  font-size: 45px;
+  /* font-family: "Value Sans Medium" !important; */
+  line-height: 59px;
+  font-size: 43px;
 }
 
 .staff-sect span {
   color: #3c83cb;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
   font-weight: 700;
-  font-size: 45px;
+  font-size: 43px;
 }
 
 .so {
@@ -1010,8 +1018,8 @@ form button {
 
 .staff-sect p {
   color: #000000;
-  font-size: 20px;
-  font-family: "Value Sans Pro" !important;
+  font-size: 19px;
+  /* font-family: "Value Sans Pro" !important; */
   font-weight: 400;
   width: 29em;
   margin-top: 15px;
@@ -1336,12 +1344,12 @@ form button {
 }
 
 .home511 h1 {
-  font-size: 36px;
+  font-size: 35px;
   color: #101010;
   font-weight: 700;
   letter-spacing: 0.2em;
   opacity: 0.8;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .home511 p {
@@ -1960,7 +1968,7 @@ form button {
 
 .deivery-date .ensure {
   color: #404040;
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 400;
   font-style: normal;
   width: 28em;
@@ -1983,7 +1991,7 @@ form button {
   font-size: 46px;
   line-height: 58px;
   font-weight: 400;
-  font-family: "Value Sans Pro";
+  /* font-family: "Value Sans Pro"; */
 }
 
 .ser111 .seru {
@@ -1994,8 +2002,8 @@ form button {
 
 .ser111 .ac {
   color: #404040;
-  font-size: 21px;
-  font-family: "Value Sans Pro" !important;
+  font-size: 20px;
+  /* font-family: "Value Sans Pro" !important; */
   margin-top: 8px;
   opacity: 0.95;
 }
@@ -2003,7 +2011,7 @@ form button {
 .ser111 p {
   font-size: 25px;
   color: #404040;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   margin-top: 6px;
 }
 
@@ -2014,13 +2022,11 @@ form button {
 
 .blue {
   color: #085881;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 600;
 }
 
-.ser112 {
-  /* width: 40%; */
-}
+
 
 .ser112 img {
   width: 100%;
@@ -2127,13 +2133,13 @@ form button {
 
 .unified-heading {
   text-align: center;
-  font-size: 37px;
+  font-size: 35px;
   color: #101010;
 }
 
 .unified-heading1 {
   text-align: center;
-  font-size: 37px;
+  font-size: 35px;
   color: #101010;
   font-weight: 700;
 }
@@ -2215,8 +2221,8 @@ form button {
 }
 
 .strategy h2 {
-  font-family: "Value Sans Medium" !important;
-  font-size: 36px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 35px;
   font-weight: 700;
   color: #010c1e;
   opacity: 0.7;
@@ -2230,9 +2236,9 @@ form button {
 }
 
 .tasking h2 {
-  font-size: 36px;
+  font-size: 35px;
   text-align: center;
-  line-height: 46px;
+  line-height: 45px;
   color: #101010;
 }
 
@@ -2276,7 +2282,8 @@ form button {
   margin-top: 15px;
   color: #202020;
   opacity: 0.7;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
+  font-weight: 500;
 }
 
 .tasking-box:hover {
@@ -2300,7 +2307,7 @@ form button {
 }
 
 .bff h2 {
-  font-size: 36px;
+  font-size: 35px;
   text-align: center;
   line-height: 46px;
   color: #101010;
@@ -2371,7 +2378,8 @@ form button {
 .faltu-head h4 {
   color: #202020;
   font-size: 16px;
-  font-family: "Value Sans Medium" !important;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
   opacity: 0.9;
 }
 
@@ -2410,14 +2418,15 @@ form button {
 
 .first-ecom h1 {
   color: #010c1e;
-  font-size: 30px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 27.5px;
+  /* font-family: "Value Sans Medium" !important; */
   line-height: 40px;
+  font-weight: 500;
 }
 
 .first-ecom p {
   color: #404040;
-  font-size: 19.5px;
+  font-size: 19px;
   font-weight: 400;
   width: 33em;
   margin-top: 20px;
@@ -2438,14 +2447,15 @@ form button {
   height: 70px;
   background-color: #085881;
   color: #ffffff;
-  font-size: 19px;
-  font-family: "Value Sans Medium";
+  font-size: 18px;
+  /* font-family: "Value Sans Medium"; */
   margin-top: 40px;
+  font-weight: 500;
 }
 
 .poty .view {
   color: #010c1e;
-  font-size: 28px;
+  font-size: 27px;
   font-weight: 500;
   width: 100%;
   line-height: 38px;
@@ -2459,17 +2469,17 @@ form button {
 .segment h2 {
   text-align: center;
   color: #ffffff;
-  font-size: 35px;
+  font-size: 34px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
 }
 
 .segment p {
   text-align: center;
   color: #ffffff;
-  font-family: "Value Sans Pro" !important;
-  font-size: 20px;
+  /* font-family: "Value Sans Pro" !important; */
+  font-size: 19px;
 }
 
 .img-section {
@@ -2498,10 +2508,10 @@ form button {
 
 .discusion-form h3 {
   color: #0e2b3d;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   text-transform: capitalize;
   font-weight: 700;
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .looking p {
@@ -2536,9 +2546,10 @@ form button {
   border: none;
   outline: none;
   padding: 14px;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
   font-size: 16px;
   color: #6c7591;
+  font-weight: 400;
 }
 
 .form-filed1 {
@@ -2555,7 +2566,7 @@ form button {
   border: none;
   outline: none;
   padding: 14px;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
   font-size: 16px;
   color: #6c7591;
 }
@@ -2677,10 +2688,10 @@ form button {
 }
 
 .first-delivery h3 {
-  font-size: 30px;
+  font-size: 27.5px;
   font-weight: 700;
   color: #010c1e;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .deliver-order {
@@ -2716,11 +2727,11 @@ form button {
 .help-business h3 {
   color: #202020;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 35px;
   text-align: center;
   margin-bottom: 65px;
   font-style: normal;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   opacity: 0.9;
 }
 
@@ -2787,18 +2798,18 @@ form button {
 
 .mob-app111 h1 {
   color: #202020;
-  font-size: 35px;
+  font-size: 34px;
   text-transform: uppercase;
   opacity: 0.8;
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 50px;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
 }
 
 .mob-app111211 .sara {
-  font-size: 19.5px;
+  font-size: 19px;
   width: 26em;
   font-weight: 600;
   color: #010c1e;
@@ -2807,7 +2818,7 @@ form button {
 .mob-app111211 .dara {
   color: #404040;
   font-weight: 500;
-  font-size: 19.5px;
+  font-size: 19px;
   width: 26em;
 }
 
@@ -2829,8 +2840,9 @@ form button {
   border-bottom: 2px solid #3c83cb;
   font-size: 19px;
   text-transform: uppercase;
-  font-family: "Value Sans Bold" !important;
+  /* font-family: "Value Sans Bold" !important; */
   color: #101010;
+  font-weight: 700;
   opacity: 0.8;
   letter-spacing: 0.1em;
 }
@@ -2929,11 +2941,12 @@ form button {
   margin-bottom: 13px;
   font-weight: 700;
   font-size: 21px;
-  font-family: "Value Sans Medium" !important;
+  font-weight: 500 !important;
+  font-family: 'Manrope', sans-serif !important;
 }
 
 .business-box p {
-  font-size: 19.5px;
+  font-size: 19px;
   color: #404040;
 }
 
@@ -2962,9 +2975,9 @@ form button {
 
 .unlock h2 {
   color: #202020;
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   text-align: center;
   line-height: 46px;
   opacity: 0.9;
@@ -3052,17 +3065,17 @@ form button {
 }
 
 .custom-s h2 {
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 700;
   color: #010c1e;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   text-align: center;
   opacity: 0.7;
   line-height: 48px;
 }
 
 .custom-s p {
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   color: #202020;
   text-align: center;
@@ -3086,7 +3099,7 @@ form button {
 }
 
 .custom {
-  font-size: 28px;
+  font-size: 26px;
   color: #010c1e;
   font-weight: 400;
 }
@@ -3099,8 +3112,9 @@ form button {
 
 .certified h2 {
   color: #000000;
-  font-family: "Value Sans Medium" !important;
-  font-size: 42px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 41px;
+  font-weight: 500;
   text-align: center;
 }
 
@@ -3171,8 +3185,8 @@ form button {
 
 .privacy-sect h2 {
   color: #ffffff;
-  font-size: 50px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 38px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -3184,25 +3198,25 @@ form button {
 
 .privacy-heading h3 {
   color: #202020;
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .privacy-heading p {
   color: #202020;
   /* font-family: 'Value Sans Medium' !important; */
-  font-size: 20px;
-  font-weight: 400 !important;
+  font-size: 19.5px;
+  font-weight: 500 !important;
   text-transform: capitalize;
   line-height: 32px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
 }
 
 .privacy-heading span {
   color: #202020;
   font-weight: 600;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
 }
 
 .ul-sect {
@@ -3215,13 +3229,13 @@ form button {
 }
 
 .privacy-heading ul li {
-  font-size: 20px;
+  font-size: 19.5px;
   color: #202020;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
   text-transform: capitalize;
   line-height: 32px;
   margin: 15px 0px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
 }
 
 .propose-head {
@@ -3230,10 +3244,11 @@ form button {
 
 .propose-head h3 {
   color: #202020;
-  font-family: "Value Sans Medium" !important;
-  font-size: 36px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 35px;
   text-transform: capitalize;
-  line-height: 48px;
+  font-weight: 500;
+  line-height: 46px;
   margin-left: 0px;
   /* display: block; */
 }
@@ -3244,23 +3259,23 @@ form button {
 }
 
 .propose-head ul li {
-  font-size: 20px;
+  font-size: 19.5px;
   color: #202020;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
   text-transform: capitalize;
   line-height: 32px;
   margin: 15px 0px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
 }
 
 .propose-head p {
   color: #202020;
-  font-size: 20px;
-  font-weight: 400 !important;
+  font-size: 19.5px;
+  font-weight: 500 !important;
   text-transform: capitalize;
   line-height: 32px;
   margin-top: 70px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
 }
 
 .propose-head span {
@@ -3306,8 +3321,8 @@ form button {
 
 .refund-sect h2 {
   color: #ffffff;
-  font-size: 50px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 36px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -3320,19 +3335,22 @@ form button {
 
 .refund-section h3 {
   color: #202020;
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   text-transform: capitalize;
 }
 
 .refund-section p {
   color: #202020;
-  font-size: 20px;
+  font-size: 19.5px;
   font-weight: 400;
   text-transform: capitalize;
+  font-weight: 500;
   line-height: 33px;
-  font-family: "Roboto", sans-serif !important;
+  width: 90%;
+  /* width: 85%; */
+  /* font-family: "Roboto", sans-serif !important; */
   /* opacity: 0.9; */
 }
 
@@ -3374,8 +3392,8 @@ form button {
 
 .quality-sect h2 {
   color: #ffffff;
-  font-size: 50px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 38px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -3391,20 +3409,20 @@ form button {
 }
 
 .quality-section h2 {
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 35px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   color: #202020;
-  line-height: 50px;
+  line-height: 49px;
 }
 
 .quality-section p {
   color: #202020;
-  font-size: 20px;
-  font-weight: 400 !important;
+  font-size: 19.5px;
+  font-weight: 500 !important;
   text-transform: capitalize;
   line-height: 32px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
 }
 
 .hr-quality {
@@ -3434,19 +3452,19 @@ form button {
 }
 
 .strict h2 {
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 34px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   color: #202020;
 }
 
 .strict p {
   color: #202020;
-  font-size: 20px;
-  font-weight: 400 !important;
+  font-size: 19.5px;
+  font-weight: 500 !important;
   text-transform: capitalize;
   line-height: 32px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   margin-top: 12px;
 }
 
@@ -3504,8 +3522,8 @@ form button {
 
 .nda-sect h2 {
   color: #ffffff;
-  font-size: 50px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 38px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   text-transform: uppercase;
   /* letter-spacing: 1px; */
@@ -3525,19 +3543,19 @@ form button {
 }
 
 .nda-header h2 {
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 35px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   color: #202020;
 }
 
 .nda-header p {
   color: #202020;
-  font-size: 20px;
-  font-weight: 400 !important;
+  font-size: 19.5px;
+  font-weight: 500 !important;
   text-transform: capitalize;
   line-height: 32px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
 }
 
 .nda-another {
@@ -3564,11 +3582,11 @@ form button {
 
 .nda-ul li {
   color: #202020;
-  font-size: 20px;
-  font-weight: 400 !important;
+  font-size: 19.5px;
+  font-weight: 500 !important;
   text-transform: capitalize;
   line-height: 32px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   margin: 20px 0px;
 }
 
@@ -3758,22 +3776,25 @@ form button {
 
 .partner-sect h4 {
   color: #ffffff;
-  font-size: 19.5px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 19px;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .partner-sect h2 {
-  font-family: "Value Sans Medium" !important;
-  font-size: 33px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 32px;
+  font-weight: 500;
   color: #ffffff;
-  line-height: 44px;
+  line-height: 43px;
   margin-top: 8px;
 }
 
 .partner-sect p {
   color: #ffffff;
-  font-size: 19.5px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 19px;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
   text-transform: capitalize;
   margin-top: 15px;
 }
@@ -3790,8 +3811,9 @@ form button {
 
 .kushel-menu p {
   color: #202020;
-  font-size: 19.5px;
-  font-family: "Value Sans Pro" !important;
+  font-size: 19px;
+  font-weight: 400;
+  /* font-family: "Value Sans Pro" !important; */
   opacity: 0.95;
   text-transform: capitalize;
   /* border-bottom: 2px solid red; */
@@ -3812,8 +3834,9 @@ form button {
 
 .first-why h3 {
   color: #101010;
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 35px;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
   opacity: 0.8;
   text-transform: uppercase;
 }
@@ -3821,7 +3844,7 @@ form button {
 .first-why p {
   color: #404040;
   font-size: 19.5px;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
   width: 38em;
   margin-top: 5px;
 }
@@ -3887,11 +3910,12 @@ form button {
 
 .offer-section .jis p {
   color: #010c1e;
-  font-family: "Value Sans Medium" !important;
-  font-size: 19.5px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 19px;
   text-align: center;
   opacity: 0.9;
   margin-top: 10px;
+  font-weight: 500;
 }
 
 .offer-section .jis1 {
@@ -3941,8 +3965,9 @@ form button {
 
 .first-partnership h3 {
   color: #101010;
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 35px;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
   text-transform: uppercase;
   line-height: 42px;
   opacity: 0.8;
@@ -3965,9 +3990,8 @@ form button {
 
 .box-part button {
   color: #3c83cb;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 500;
-  font-family: "Value Sans Medium" !important;
   margin-top: 22px;
 }
 
@@ -3978,11 +4002,12 @@ form button {
 
 .partnets-stories h3 {
   color: #010c1e;
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 35px;
+  /* font-family: "Value Sans Medium" !important; */
   text-transform: uppercase;
   line-height: 42px;
   text-align: center;
+  font-weight: 700;
 }
 
 .partner-card {
@@ -3998,12 +4023,14 @@ form button {
   margin: 0px 8px;
   max-width: 420px;
   width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
 }
 
 .partner-box h4 {
   color: #202020;
-  font-size: 23px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 22px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   text-align: center;
 }
@@ -4011,7 +4038,7 @@ form button {
 .partner-box p {
   text-align: center;
   color: #404040;
-  font-size: 16px;
+  font-size: 15.5px;
   font-weight: 400;
   line-height: 25px;
   margin-top: 8px;
@@ -4031,6 +4058,7 @@ form button {
 
 .partner-head {
   padding: 12px 20px;
+  padding-bottom: 20px;
 }
 
 .offices {
@@ -4040,9 +4068,10 @@ form button {
 
 .offices h3 {
   color: #101010;
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 35px;
+  /* font-family: "Value Sans Medium" !important; */
   text-transform: uppercase;
+  font-weight: 500;
   line-height: 42px;
   opacity: 0.8;
   text-align: center;
@@ -4050,7 +4079,7 @@ form button {
 
 .picta p {
   color: #404040;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 400;
   text-align: center;
 }
@@ -4092,14 +4121,15 @@ form button {
 
 .office-image-sect h4 {
   color: #ffffff;
-  font-size: 19.5px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 19px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-weight: 500;
 }
 
 .office-image-sect p {
   color: #ffffff;
-  font-size: 19.5px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 19px;
+  font-weight: 500;
 }
 
 .office-image {
@@ -4176,16 +4206,16 @@ form button {
 .loofs-sect h2 {
   color: #ffffff;
   text-transform: capitalize;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
-  font-size: 26px;
+  font-size: 25px;
 }
 
 .loofs-sect button {
   background-color: #ffffff;
   color: #3c83cb;
-  font-family: "Roboto", sans-serif !important;
-  font-size: 17.5px;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-size: 17px;
   width: 270px;
   height: 70px;
   font-weight: 500;
@@ -4381,17 +4411,17 @@ form button {
 
 .development1 h3 {
   color: #202020;
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 34px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   opacity: 0.9;
-  line-height: 48px;
+  line-height: 46px;
 }
 
 .development1 .knowrs {
   color: #404040;
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif !important;
+  font-size: 19.5px;
+  /* font-family: "Montserrat", sans-serif !important; */
   font-weight: 500;
   width: 29em;
   max-width: 100%;
@@ -4400,8 +4430,8 @@ form button {
 
 .development1 .knowers1 {
   color: #404040;
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif !important;
+  font-size: 19.5px;
+  /* font-family: "Montserrat", sans-serif !important; */
   font-weight: 400;
   width: 29em;
   margin-top: 7px;
@@ -4455,7 +4485,7 @@ form button {
 
 .how-we h3 {
   color: #010c1e;
-  font-size: 19.5px;
+  font-size: 19px;
   font-weight: 400;
   text-align: center;
 }
@@ -4463,9 +4493,9 @@ form button {
 .how-we h1 {
   text-align: center;
   color: #202020;
-  font-size: 36px;
+  font-size: 35px;
   opacity: 0.75;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
 }
 
@@ -4476,15 +4506,16 @@ form button {
 
 .step-head h4 {
   text-align: center;
-  font-family: "Value Sans Medium" !important;
-  font-size: 23px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 22px;
+  font-weight: 500;
   color: #404040;
 }
 
 .step-head p {
   text-align: center;
   color: #404040;
-  font-family: "Value Sans Pro";
+  /* font-family: "Value Sans Pro"; */
   font-size: 15.5px;
   margin-top: 10px;
 }
@@ -4498,19 +4529,19 @@ form button {
   text-align: center;
   color: #202020;
   opacity: 0.9;
-  font-family: "Value Sans Medium" !important;
-  font-size: 36px;
-  line-height: 48px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 35px;
+  line-height: 46px;
   font-weight: 700;
 }
 
 .top-chose .reason {
   text-align: center;
   color: #202020;
-  font-size: 19.5px;
+  font-size: 19px;
   font-weight: 500 !important;
-  font-family: "Value Sans Medium" !important;
-  margin-top: 10px;
+  /* font-family: "Value Sans Medium" !important; */
+  margin-top: 12px;
 }
 
 .bus-card-img1 {
@@ -4549,16 +4580,16 @@ form button {
   color: #202020;
   opacity: 0.7;
   text-align: center;
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 35px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
-  line-height: 48px;
+  line-height: 46px;
 }
 
 .ben-da p {
   text-align: center;
   color: #202020;
-  font-size: 19.5px;
+  font-size: 19px;
   width: 55em;
   max-width: 100%;
   display: block;
@@ -4580,8 +4611,9 @@ form button {
   background-color: #085881;
   height: 68px;
   color: #ffffff;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   display: block;
+  font-weight: 500;
   margin: auto;
   cursor: pointer;
   outline: none;
@@ -4594,25 +4626,27 @@ form button {
 }
 
 .indu-s h3 {
-  font-size: 36px;
+  font-size: 35px;
   text-align: center;
   color: #202020;
   opacity: 0.7;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   letter-spacing: 0.5px;
 }
 
 .indu-s p {
   color: #404040;
-  font-family: "Value Sans Medium" !important;
-  font-size: 19.5px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 19px;
+  font-weight: 500;
   text-align: center;
   opacity: 0.9;
   width: 75%;
   max-width: 100%;
   display: block;
   margin: auto;
+  margin-top: 10px;
 }
 
 .indu-card {
@@ -4640,8 +4674,9 @@ form button {
   text-align: center;
   margin-top: 15px;
   color: #202020;
+  font-weight: 500;
   opacity: 0.9;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-size: 15.5px;
 }
 
@@ -4657,10 +4692,11 @@ form button {
 
 .loofs::before {
   content: "";
-  opacity: 0.9;
+  opacity: 0.85;
   position: absolute;
-  background: linear-gradient(180deg, #3c83cb 0%, #1f678d 100%);
+  background: linear-gradient(180deg, #085881 0%, #1f678d 100%);
   top: 0;
+  /* background-color: #085881; */
   left: 0;
   z-index: -1;
   height: 100%;
@@ -4676,21 +4712,22 @@ form button {
 
 .loofs-sect1 h2 {
   color: #ffffff;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 700;
-  font-size: 36px;
+  font-size: 34px;
   width: 80%;
   display: block;
   margin: auto;
   text-align: center;
-  line-height: 48px;
+  line-height: 46px;
 }
 
 .loofs-sect1 p {
   color: #ffffff;
-  font-size: 19.5px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 19px;
+  /* font-family: "Value Sans Medium" !important; */
   width: 80%;
+  font-weight: 500;
   display: block;
   margin: auto;
   margin-top: 15px;
@@ -4699,8 +4736,8 @@ form button {
 .loofs-sect1 button {
   background-color: #ffffff;
   color: #000000;
-  font-family: "Roboto", sans-serif !important;
-  font-size: 17.5px;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-size: 17px;
   width: 270px;
   height: 70px;
   font-weight: 500;
@@ -4767,11 +4804,11 @@ form button {
 }
 
 .first-experiencedji h2 {
-  font-size: 36px;
+  font-size: 32px;
   color: #202020;
   opacity: 0.8;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   line-height: 46px;
 }
 
@@ -4780,9 +4817,9 @@ form button {
 }
 
 .first-experiencedji p {
-  font-size: 21px;
+  font-size: 20px;
   color: #404040;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
   width: 24em;
 }
@@ -4793,8 +4830,9 @@ form button {
   width: 100%;
   height: 68px;
   color: #ffffff;
-  font-family: "Value Sans Medium" !important;
-  font-size: 19px;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 18px;
   margin-top: 40px;
 }
 
@@ -4808,17 +4846,17 @@ form button {
 }
 
 .uiux-process h2 {
-  font-size: 36px;
+  font-size: 35px;
   opacity: 0.7;
   font-weight: 700;
   color: #010c1e;
   text-align: center;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .uiux-process p {
-  font-size: 19.5px;
-  font-family: "Roboto", sans-serif !important;
+  font-size: 19px;
+  /* font-family: "Roboto", sans-serif !important; */
   color: #202020;
   text-align: center;
   width: 70%;
@@ -4847,14 +4885,14 @@ form button {
   opacity: 0.9;
   font-size: 35px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   text-align: center;
   line-height: 46px;
 }
 
 .perfect-choice .perf-p {
-  font-family: "Roboto", sans-serif !important;
-  font-size: 20px;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-size: 19px;
   color: #202020;
   width: 60%;
   max-width: 100%;
@@ -4893,18 +4931,18 @@ form button {
 .deliver-p h2 {
   color: #202020;
   opacity: 0.9;
-  font-size: 35px;
+  font-size: 34px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   text-align: center;
   line-height: 46px;
 }
 
 .deliver-p p {
   font-family: "Roboto", sans-serif !important;
-  font-size: 20px;
+  font-size: 19px;
   color: #202020;
-  width: 60%;
+  width: 58%;
   max-width: 100%;
   display: block;
   margin: auto;
@@ -4930,16 +4968,16 @@ form button {
   opacity: 0.9;
   font-size: 35px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   text-align: center;
   line-height: 46px;
 }
 
 .benifits-ui .when-p {
   font-family: "Roboto", sans-serif !important;
-  font-size: 20px;
+  font-size: 19px;
   color: #202020;
-  width: 60%;
+  width: 58%;
   max-width: 100%;
   display: block;
   margin: auto;
@@ -5079,9 +5117,9 @@ form button {
 }
 
 .ui-sect h4 {
-  font-size: 22.5px;
+  font-size: 22px;
   color: #ffffff;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   text-align: center;
   font-weight: 700;
 }
@@ -5090,7 +5128,7 @@ form button {
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   text-align: center;
   margin-top: 15px;
 }
@@ -5116,9 +5154,9 @@ form button {
 .how-did-second h3 {
   color: #202020;
   opacity: 0.8;
-  font-size: 36px;
+  font-size: 35px;
   line-height: 46px;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
 }
 
@@ -5128,8 +5166,8 @@ form button {
 
 .how-did-second p {
   color: #404040;
-  font-size: 21px;
-  font-family: "Roboto", sans-serif !important;
+  font-size: 20px;
+  /* font-family: "Roboto", sans-serif !important; */
   width: 32em;
 }
 
@@ -5139,8 +5177,9 @@ form button {
   width: 100%;
   height: 68px;
   color: #ffffff;
-  font-family: "Value Sans Medium" !important;
-  font-size: 19px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 18px;
+  font-weight: 500;
   margin-top: 50px;
 }
 
@@ -5153,20 +5192,21 @@ form button {
 }
 
 .how-ux1 h2 {
-  font-size: 36px;
+  font-size: 35px;
   line-height: 46px;
   color: #202020;
   opacity: 0.8;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .how-ux1 p {
-  font-size: 21.5px;
+  font-size: 20.5px;
   color: #404040;
   width: 32em;
   font-weight: 100%;
   margin-top: 10px;
+  /* letter-spacing: .5px; */
 }
 
 .how-ux2 img {
@@ -5182,15 +5222,15 @@ form button {
 .development-process h3 {
   color: #202020;
   opacity: 0.8;
-  font-size: 36px;
+  font-size: 35px;
   text-align: center;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .development-process p {
   color: #404040;
-  font-size: 21px;
+  font-size: 20px;
   text-align: center;
   margin-top: 8px;
 }
@@ -5778,7 +5818,7 @@ form button {
 .hire-sect h2 {
   color: #ffffff;
   font-weight: 400;
-  font-size: 44px;
+  font-size: 43px;
   line-height: 58px;
 }
 
@@ -5788,10 +5828,10 @@ form button {
 
 .hire-sect p {
   color: #ffffff;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400px;
-  font-size: 19.5px;
-  width: 20em;
+  font-size: 19px;
+  width: 21em;
   max-width: 100%;
   margin-top: 8px;
 }
@@ -5803,15 +5843,15 @@ form button {
 
 .hiring-status h3 {
   color: #182536;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: bold;
-  font-size: 36px;
+  font-size: 35px;
 }
 
 .hiring-status p {
   color: #777777;
-  font-size: 19px;
-  font-family: "Roboto", sans-serif !important;
+  font-size: 18.5px;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
   line-height: 24px;
 }
@@ -5845,16 +5885,17 @@ form button {
 .first-hiring h5 {
   color: #202020;
   opacity: 0.9;
-  font-size: 19.5px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 19px;
+  font-weight: 500;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .first-hiring h2 {
   color: #202020;
   opacity: 0.9;
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   margin-top: 12px;
 }
 
@@ -5864,18 +5905,19 @@ form button {
 }
 
 .hired-para .hiring-first-para {
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 500 !important;
-  font-size: 20.5px;
+  font-size: 20px;
   color: #404040;
   margin-top: 5px;
 }
 
 .hired-para .hiring-second-para {
-  font-size: 20.5px;
+  font-size: 20px;
   color: #404040;
   font-weight: 400;
   margin-top: 18px;
+  letter-spacing: .5px;
 }
 
 .second-hiring .hiper {
@@ -5948,14 +5990,15 @@ form button {
 
 .hired-help-sect h5 {
   color: #ffffff;
-  font-family: "Value Sans Medium" !important;
-  font-size: 19.5px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 19px;
+  font-weight: 500;
 }
 
 .hired-help-sect h2 {
   color: #ffffff;
-  font-family: "Value Sans Medium" !important;
-  font-size: 36px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 34px;
   font-weight: 700;
   margin-top: 5px;
 }
@@ -5967,8 +6010,8 @@ form button {
 }
 
 .listing-hired p {
-  font-size: 19.5px;
-  font-family: "Roboto", sans-serif !important;
+  font-size: 19px;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
   color: #ffffff;
   width: 30em;
@@ -5986,7 +6029,7 @@ form button {
   background-color: #ffffff;
   color: #202020;
   height: 50px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
   font-size: 16px;
   margin-top: 20px;
@@ -5999,11 +6042,11 @@ form button {
 
 .benifits-hire h2 {
   text-align: center;
-  font-size: 36px;
+  font-size: 35px;
   font-weight: 700;
   color: #202020;
   opacity: 0.9;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .hired-card {
@@ -6052,8 +6095,8 @@ form button {
   font-size: 15.5px;
   color: #202020;
   opacity: 0.8;
-  font-family: "Roboto", sans-serif !important;
-  font-weight: 500;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-weight: 500 !important;
   margin-top: 12px;
 }
 
@@ -6089,18 +6132,18 @@ form button {
 }
 
 .first-serve h2 {
-  font-size: 36px;
+  font-size: 35px;
   color: #202020;
   opacity: 0.7;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .first-serve p {
   color: #404040;
-  font-size: 19.5px;
-  font-family: "Roboto", sans-serif !important;
-  font-weight: 400;
+  font-size: 19px;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-weight: 500;
   margin-top: 15px;
 }
 
@@ -6147,7 +6190,7 @@ form button {
 .demo-hire-sect h2 {
   color: #ffffff;
   text-align: center;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-size: 32px;
   line-height: 42px;
 }
@@ -6158,7 +6201,7 @@ form button {
   background-color: #ffffff;
   color: #202020;
   font-size: 15.5px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
   height: 55px;
   display: block;
@@ -6174,21 +6217,22 @@ form button {
 
 .hire-testimonials h2 {
   color: #202020;
-  font-size: 36px;
+  font-size: 35px;
   opacity: 0.9;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   text-align: center;
   letter-spacing: 0.5px;
 }
 
 .hire-testimonials .read-what {
   color: #404040;
-  font-size: 19.5px;
-  font-family: "Montserrat", sans-serif !important;
+  font-size: 19px;
+  /* font-family: "Montserrat", sans-serif !important; */
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.5px;
+  margin-top: 30px;
 }
 
 .hire-test {
@@ -6199,15 +6243,15 @@ form button {
 .hire-test h4 {
   color: #202020;
   opacity: 0.9;
-  font-size: 19.5px;
+  font-size: 19px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .hire-test P {
   color: #888888;
-  font-size: 19.5px;
-  font-family: "Roboto", sans-serif !important;
+  font-size: 19px;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
   width: 60%;
   max-width: 100%;
@@ -6441,7 +6485,7 @@ form button {
 }
 
 .portis11 img {
-  max-width: 180px;
+  max-width: 140px;
   width: 100%;
 }
 
@@ -6627,17 +6671,18 @@ form button {
 }
 .caring-sect h2 {
   color: #ffffff;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
-  font-size: 36px;
+  font-size: 35px;
 }
 .caring-sect p {
   color: #ffffff;
-  font-family: "Roboto", sans-serif !important;
-  font-size: 19.5px;
+  /* font-family: "Roboto", sans-serif !important; */
+  font-size: 19px;
   width: 40em;
   max-width: 100%;
   letter-spacing: 0.5px;
+  font-weight: 500;
   margin-top: 12px;
 }
 .about-working-here {
@@ -6649,8 +6694,8 @@ form button {
 }
 .working1 h2 {
   color: #202020;
-  font-size: 36px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 35px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   opacity: 0.9;
 }
@@ -6667,10 +6712,11 @@ form button {
   /* font-weight: 500; */
 }
 .working1 p {
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
+  font-size: 19.5px;
+  /* font-family: "Montserrat", sans-serif; */
   color: #404040;
   width: 35em;
+  letter-spacing: .5px;
   margin-top: 12px;
 }
 .working2 img {
@@ -6711,10 +6757,12 @@ form button {
 .conducting-box p {
   text-align: center;
   margin-top: 15px;
-  font-size: 17.5px;
+  font-size: 17px;
+  line-height: 22px;
   color: #444444;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
+  color: #444444;
 }
 .conducting-box:hover p {
   color: #ffffff;
@@ -6725,9 +6773,9 @@ form button {
 }
 .open-position h3 {
   color: #202020;
-  font-size: 35px;
+  font-size: 34.5px;
   opacity: 0.9;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   text-align: center;
 }
@@ -6740,8 +6788,9 @@ form button {
 .position-nav p {
   color: #202020;
   opacity: 0.9;
-  font-family: "Value Sans Medium" !important;
-  font-size: 22px;
+  /* font-family: "Value Sans Medium" !important; */
+  font-size: 21.5px;
+  font-weight: 500;
   margin: 0px 40px;
 }
 .posify {
@@ -6752,12 +6801,12 @@ form button {
 .posify1 h4 {
   color: #202020;
   opacity: 0.9;
-  font-size: 27px;
-  font-family: "Value Sans Medium" !important;
+  font-size: 26px;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
 }
 .posify1 p {
-  font-size: 23px;
+  font-size: 22.5px;
   font-family: "Roboto", sans-serif !important;
   color: #202020;
   opacity: 0.9;
@@ -6776,7 +6825,7 @@ form button {
   background-color: #085881;
   border-radius: 3px;
   font-size: 18px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
 }
 .hr-t {
   border-bottom: 1px solid #000000;
@@ -10016,7 +10065,9 @@ form button {
   .header {
     width: 190vw;
   }
-
+  .refund-section p{
+    width: 100%;
+  }
   .propose-head h3 {
     display: none;
   }

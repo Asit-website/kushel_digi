@@ -10,6 +10,9 @@ import rely from "../images/rely.png";
 import cent from '../images/cent.png';
 import ContactForm1 from "../../src/components/common/ContactForm1";
 import { NavLink } from "react-router-dom";
+import trackent from '../images/trackent.png';
+import trackent1 from '../images/trackent1.png';
+import trackent2 from '../images/trackent2.png'
 const Portfolio = () => {
     const [fab,setFab] = useState(1);
 
@@ -217,7 +220,7 @@ const Portfolio = () => {
             </div>
             <div className="portis1 portis11 pong2">
               <div className="portis1-sect">
-                <img src={pron} alt="" />
+                <img src={trackent} alt="" />
               </div>
             </div>
           </div>
@@ -226,7 +229,7 @@ const Portfolio = () => {
           <div className="portis mt-12">
             <div className="portis1 portis111">
               <div className="portis1-sect">
-                <img src={rely} alt="" />
+                <img src={trackent2} alt="trackent2" />
               </div>
             </div>
             <div className="portis2">
@@ -318,7 +321,7 @@ const Portfolio = () => {
           <div className="portis mt-12">
             <div className="portis1 portis11111">
               <div className="portis1-sect">
-                <img src={kick5} alt="" />
+                <img  src={trackent1} alt="trackent1" />
               </div>
             </div>
             <div className="portis2">
@@ -450,7 +453,7 @@ the industry's
             </div>
             <div className="portis1 portis11 pong2">
               <div className="portis1-sect">
-                <img src={pron} alt="" />
+                <img src={trackent} alt="" />
               </div>
             </div>
           </div>
@@ -465,7 +468,7 @@ the industry's
                 <div className="portis">
             <div className="portis1 portis111">
               <div className="portis1-sect">
-                <img src={rely} alt="" />
+                <img src={trackent2} alt="" />
               </div>
             </div>
             <div className="portis2">
@@ -562,7 +565,7 @@ the industry's
                 <div className="portis">
             <div className="portis1 portis11111">
               <div className="portis1-sect">
-                <img src={kick5} alt="" />
+                <img src={trackent1} alt="" />
               </div>
             </div>
             <div className="portis2">
