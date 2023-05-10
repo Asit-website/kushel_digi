@@ -397,7 +397,7 @@ const Navbar = () => {
                                 Android{" "}
                               </NavLink>{" "}
                               <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
+                              <NavLink className="sonji" to="/fluter">
                                 Flutter
                               </NavLink>{" "}
                               <span>|</span>{" "}
