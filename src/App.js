@@ -28,6 +28,7 @@ import Approach from "./components/Approach";
 import ScrollToTop from "./components/Utils/ScrollToTop";
 import Android from "./components/Android";
 import Ios from "./components/Ios";
+import Flutter from "./components/Flutter";
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
           <Route path="/approach" element={<Approach/>}/>
           <Route path="/android" element={<Android/>}/>
           <Route path="/ios" element={<Ios/>}/>
+          <Route path="/fluter" element={<Flutter/>}/>
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

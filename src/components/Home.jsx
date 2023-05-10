@@ -871,7 +871,7 @@ const Home = () => {
            <h3 className="text-center">Why Choose Us</h3>
            <div className="chain-cards">
               <div className="chain-card flex items-center justify-center">
-                   <div className="chain-box w-full">
+                   <div className="chain-box chain-box1 w-full">
                       <img src={chont1} alt="chont1" />
                       <h4>Tailored Solutions</h4>
                       <p>We create customized solutions and develop eCommerce features you want. If you can imagine it, we will work with you to get it built.We create customized solutions and develop eCommerce features you want. If you can imagine it, we will work with you to get it built.</p>

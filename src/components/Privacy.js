@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from './common/ContactForm'
+import ContactForm1 from './common/ContactForm1'
 
 const Privacy = () => {
   return (
@@ -74,7 +74,7 @@ const Privacy = () => {
                  </p>
               </div>
           </div>
-           <ContactForm/>
+           <ContactForm1/>
         </div>
     </>
   )

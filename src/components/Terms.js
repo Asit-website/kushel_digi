@@ -1,6 +1,7 @@
 import React from "react";
-
+import ContatForm1 from '../components/common/ContactForm1'
 const Terms = () => {
+
   return (
     <div className="ser-main">
       <div className="nda-back">
@@ -330,6 +331,7 @@ const Terms = () => {
             </div>
           </div>
       </div>
+      <ContatForm1/>
     </div>
   );
 };
