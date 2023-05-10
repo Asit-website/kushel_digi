@@ -34,6 +34,7 @@ const Navbar = () => {
     document.querySelector(".mob-nav2").classList.add("mob-nav2-active");
   };
   const toggleService = () => {
+    // document.querySelector(".hire-nav").classList.remove("hidden");
     // document.querySelector(".ser-nav").classList.toggle("hidden");
     setFlag11(true);
     clearTimeout(st);
@@ -79,6 +80,7 @@ const Navbar = () => {
   const toggleService22 = (flag = false) => {
     console.log(flag10);
     // document.querySelector(".ser-nav10").classList.toggle("hidden");
+    
     st = setTimeout(() => {
       let b1 = document.querySelector(".ser-nav");
       // if(((!b1.classList.contains('hidden') && !flag10) || flag) && !flag11)

@@ -1,5 +1,5 @@
 import React from "react";
-import arrow3 from '../../images/arrow3.png';
+import arrow4 from '../../images/arrow4.png';
 const SmallApproach = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const SmallApproach = () => {
             </h3>
             <button>
               See Our Approach More{" "}
-              <img width={13} className="inline ml-2" src={arrow3} alt="" />
+              <img width={13} className="inline ml-2" src={arrow4} alt="" />
             </button>
           </div>
           <div className="about-10">

@@ -1,5 +1,5 @@
 import React from "react";
-import ContactForm from "./common/ContactForm";
+import ContactForm1 from "./common/ContactForm1";
 
 const Quality = () => {
   return (
@@ -112,7 +112,7 @@ const Quality = () => {
             </div>
           </div>
         </div>
-         <ContactForm/>
+         <ContactForm1/>
       </div>
     </>
   );

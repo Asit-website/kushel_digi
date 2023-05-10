@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import white from '../images/white.png'
 import footerMail from '../images/footerMail.png';
 import footerCall from '../images/footerCall.png';
 import footerLoc from '../images/footerLoc.png';
@@ -10,7 +9,6 @@ import link from '../images/link.png';
 import pint from '../images/pint.png';
 import twiter from '../images/twiter.png';
 import india from '../images/india.png';
-import logo from '../images/logo.png';
 import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
@@ -83,9 +81,9 @@ const Footer = () => {
             <div className="foot10">
               <div className="foot151 flex items-center">
                 <img src={drible} alt="" />
-                <img src={fb} alt="" />
-                <img src={insta} alt="" />
-                <img src={link} alt="" />
+               <a target='_blank' href="https://www.facebook.com/kusheldigi"><img src={fb} alt="" /></a>
+               <a target='_blank' href="https://www.instagram.com/kusheldigi/"><img src={insta} alt="" /></a>
+               <a target='_blank' href="https://www.linkedin.com/company/kusheldigisolutions/"><img src={link} alt="" /></a>
                 <img src={pint} alt="" />
                 <img src={twiter} alt="" />
               </div>

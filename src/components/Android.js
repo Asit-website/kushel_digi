@@ -29,7 +29,7 @@ const Android = () => {
               Android App <br />
               Development Company
             </h2>
-            <p>
+            <p className="android-son">
               Develop next-gen android apps that are quality tested for perfection
               with future-forward iOS application development services.
             </p>

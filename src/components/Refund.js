@@ -1,5 +1,5 @@
 import React from 'react'
-import ContactForm from './common/ContactForm'
+import ContactForm1 from './common/ContactForm1'
 
 const Refund = () => {
   return (
@@ -27,7 +27,7 @@ Digital marketing and SEO packages are not refundable, yet the client can ask fo
 No refunds will be provided on deposits or payments for projects that have been abandoned or laid dormant for more than minimum 30 days.
           </p>
       </div>
-        <ContactForm/>
+        <ContactForm1/>
       </div>
     </>
   )
