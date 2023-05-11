@@ -29,6 +29,7 @@ import ScrollToTop from "./components/Utils/ScrollToTop";
 import Android from "./components/Android";
 import Ios from "./components/Ios";
 import Flutter from "./components/Flutter";
+import Native from "./components/Native";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
           <Route path="/android" element={<Android/>}/>
           <Route path="/ios" element={<Ios/>}/>
           <Route path="/fluter" element={<Flutter/>}/>
+          <Route path="/native" element={<Native/>}/>
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
