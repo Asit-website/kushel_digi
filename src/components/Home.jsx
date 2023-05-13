@@ -272,8 +272,8 @@ const Home = () => {
               <div className="home1112 absolute">
                 <ul className="flex flex-row">
                   <li>SHOPIFY</li>
-                  <li>WOO COMMERCE</li>
-                  <li>BIG COMMERCE</li>
+                  <li>WOOCOMMERCE</li>
+                  <li>BIGCOMMERCE</li>
                   <li>MAGENTO</li>
                   <li>WORDPRESS</li>
                 </ul>
@@ -350,7 +350,7 @@ const Home = () => {
                   autoplay: true,
                   pauseOnHover: true,
                   type: "loop",
-                  interval: 2000,
+                  interval: 1600,
                   drag: true,
                 }}
               >
@@ -467,7 +467,7 @@ const Home = () => {
                   autoplay: true,
                   pauseOnHover: true,
                   type: "loop",
-                  interval: 1000,
+                  interval: 1600,
                   drag: true,
                 }}
               >
@@ -947,7 +947,7 @@ const Home = () => {
         <div className="home8 mb-20 px-8">
           <h2 className="text-center">Our esteemed clients</h2>
           <p className="text-center">Pleasure to work with</p>
-          <div className="home8-img px-4 w-full">
+          <div className="home8-img client-slider px-4 w-full">
             <Splide
             //  className="w-full"
               options={{

@@ -18,3 +18,14 @@
 *{
   font-family: Value Sans Pro;
 } 
+
+
+.navLinks:hover > .megaMenu{
+  display: block;
+}
+.navbar ul li:hover .megaMenu{
+  display: block
+}
+/* .navLinks:hover .megaMenu .ser-nav5{
+  display: block;
+} */

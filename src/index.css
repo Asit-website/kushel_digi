@@ -252,14 +252,13 @@ body {
   position: fixed;
   z-index: 999;
   background: white;
-  padding-top: 20px;
+  /* padding-top: 20px; */
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   margin-left: 40px;
   /* top: 138px; */
-  border-radius: 0px 2px 2px 2px;
-  top: 138px;
+  /* border-radius: 0px 2px 2px 2px; */
+  top: 127px;
 }
-
 .ser-nav10 {
   position: fixed;
   z-index: 999;
@@ -267,7 +266,7 @@ body {
   /* padding-top: 20px; */
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
   margin-left: 40px;
-  top: 138px;
+  top: 127px;
 }
 
 .ser-nav-resource {
@@ -276,13 +275,18 @@ body {
   background: white;
   /* padding-top: 20px; */
   box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
-  top: 138px;
+  top: 127px;
   padding: 0px;
   width: 55vw;
   left: 380px;
   /* left: 300px; */
 }
-
+.client-slider{
+  margin-top: 50px !important;
+}
+.ses{
+  display: none ;
+}
 .resource .resource1 {
   margin: 15px 0px;
   color: #202020;
@@ -468,6 +472,7 @@ body {
   padding: 10px 20px;
   max-width: 800px;
   width: 100%;
+
 }
 
 .sh {
@@ -7931,11 +7936,386 @@ form button {
 
 /* ************************************** */
 /* ================fluter css end=================== */
-.native-back{
-  
-}
-/* ========================react js css start================= */
 
+/* ========================react js css start================= */
+.native-back{
+  padding: 100px 100px;
+}
+.native-back1{
+ padding-bottom: 0px !important;
+}
+.native-back2 img{
+  max-width: 250px;
+  width: 100%;
+  margin-right: 150px;
+}
+.native-back1 p{
+  margin-top: 0px;
+}
+.native-back1 h2{
+  margin-top: 18px;
+}
+.native-app{
+  padding: 60px 100px;
+}
+.sluter-cards{
+  margin-top: 0px ;
+}
+.native-app1 h2{
+  color: #202020;
+    opacity: 0.9;
+    font-size: 34px;
+    /* font-family: "Value Sans Medium" !important; */
+    font-weight: 700;
+}
+.native-app1 .ftp{
+  width: 120px;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.native-app1 h5{
+   color: #085881;
+    font-size: 18px;
+    /* font-family: "Roboto", sans-serif !important; */
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+}
+.native-app1 p{
+  color: #404040;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 20px;
+  width: 18em;
+  max-width: 100%;
+}
+.native-box{
+  margin: 12px 0px;
+}
+.native-app1{
+  margin-right: 40px;
+}
+.native-app2{
+  margin-left: 40px;
+}
+.native-box1{
+  margin-left: 25px !important;
+}
+.native-box{
+  height: 350px;
+  max-height: 100%;
+}
+.native-box p{
+  font-size: 16px;
+  color: #404040;
+}
+.native-box3{
+  background-color: #F7FFEE;
+}
+.native-box4{
+  background-color: #E3FFFA;
+}
+.native-benifits{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px 100px;
+}
+.native-benifits1 h2{
+  color: #202020;
+  opacity: 0.9;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+}
+.native-benifits1 img{
+  max-width: 110px;
+  width: 100%;
+  margin-top: 18px;
+}
+.native-benifits1 p{
+  font-size: 18.5px;
+  color: #404040;
+  font-weight: 500 !important;
+  width: 36em;
+  max-width: 100%;
+  margin-top: 20px;
+}
+.native-benifits1{
+  margin-right: 40px;
+}
+.native-benifits2{
+  margin-left: 40px;
+  width: 100%;
+}
+.native-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%; */
+}
+.native-boxs{
+ width: 100%;
+ height: 180px;
+ max-height: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ border-radius: 15px;
+}
+.native-boxs p{
+  text-align: center;
+  margin-top: 18px;
+  font-weight: 500 !important;
+  font-size: 18px;
+  color: #202020;
+  opacity: 0.9;
+}
+.native-boxs img{
+  width: 38px;
+}
+.native-boxs1{
+  position: relative;
+  z-index: 2;
+}
+.native-boxs1::before{
+  background-color: #83ADFF;
+  opacity: 0.1;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.native-boxs2{
+  position: relative;
+  z-index: 2;
+  margin-left: 15px;
+}
+.native-boxs2::before{
+  background-color: #FFDC60;
+  opacity: 0.1;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.native-boxs3{
+  position: relative;
+  z-index: 2;
+}
+.native-boxs3::before{
+  background-color: #FFADAD;
+  opacity: 0.1;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.native-boxs4{
+  margin-left: 15px;
+  position: relative;
+  z-index: 2;
+}
+.native-boxs4::before{
+  background-color: #00A4A5;
+  opacity: 0.1;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.native-card2{
+  margin-top: 15px;
+}
+.native-card3{
+  margin-top: 15px;
+}
+.native-boxs5{
+  position: relative;
+  z-index: 2;
+}
+.native-boxs5::before{
+  background-color: #1C1818;
+  opacity: 0.02;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.native-boxs6{
+  position: relative;
+  z-index: 2;
+  margin-left: 15px;
+}
+.native-boxs6::before{
+  background-color: #59C9DA;
+  opacity: 0.1;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.native-whys{
+  margin-top: 40px;
+}
+.native-why{
+  position: relative;
+  z-index: 2;
+  padding: 60px 100px;
+}
+.native-why::before{
+  background-color: #E5F6F6;
+  opacity: 0.4;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.native-why h2{
+  text-align: center;
+  color: #202020;
+  opacity: 0.9;
+  font-size: 34px;
+  font-weight: 700 !important;
+  line-height: 46px;
+}
+.why-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.why-box{
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin: 10px 14px;
+  /* background-color: red; */
+  padding: 40px 0px;
+}
+.why-box img{
+  width: 75px;
+  display: block;
+  margin: auto;
+}
+.why-box p{
+  text-align: center;
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.key-value{
+ background-color: #ffffff;
+ padding: 60px 0px
+}
+.keys-val{
+  padding: 0px 100px;
+}
+.keys-val h2{
+  text-align: center;
+  color: #202020;
+  opacity: 0.9;
+  font-size: 34px;
+  font-weight: 700 !important;
+  line-height: 46px;
+}
+.keys-val .key-images{
+  max-width: 160px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  height: 3px;
+}
+.key-value-cards{
+  padding: 40px 100px;
+  background-color: #F8F9FC;
+  margin-top: 40px;
+}
+.key-value-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.key-value-box{
+  width: 100%;
+  max-width: 390px;
+  background-color: #ffffff;
+  padding:60px 20px;
+  margin: 0px 15px;
+  position: relative;
+}
+.key-value-box .keyst{
+  display: block;
+  margin: auto;
+  width: 48px;
+}
+.key-value-box .key{
+  position: absolute;
+  top: 0px;
+  width: 220px;
+  max-width: 100%;
+  right: 0px;
+}
+.key-value-box .key1{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 220px;
+  max-width: 100%;
+}
+.key-value-box h4{
+  text-align: center;
+  font-weight: 700;
+  font-size: 19.5px;
+  color: #202020;
+  opacity: 0.9;
+  margin-top: 15px;
+}
+.key-value-box p{
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+  color: #202020;
+  opacity: 0.9;
+  font-weight: 500 !important;
+}
 /* =========================react js css end==================== */
 @media only screen and (max-width: 1500px) {
   .home112 {

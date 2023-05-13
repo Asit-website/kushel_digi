@@ -5,8 +5,6 @@ import portlo from "../images/portlo.png";
 import foc1 from "../images/foc1.png";
 import foc2 from "../images/foc2.png";
 import foc3 from "../images/foc3.png";
-import pron from "../images/pron.png";
-import rely from "../images/rely.png";
 import cent from '../images/cent.png';
 import ContactForm1 from "../../src/components/common/ContactForm1";
 import { NavLink } from "react-router-dom";
@@ -233,7 +231,7 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="portis2">
-              <h3>KICK-EEZ</h3>
+              <h3>RELY INNOVATION</h3>
               <p className="kick-eez">
                 Get peace of mind. install alarms that not only notify you of
                 danger, but also clearly instructs you on what to do next.
@@ -472,7 +470,7 @@ the industry's
               </div>
             </div>
             <div className="portis2">
-              <h3>KICK-EEZ</h3>
+              <h3>RELY INNOVATION</h3>
               <p className="kick-eez">
                 Get peace of mind. install alarms that not only notify you of
                 danger, but also clearly instructs you on what to do next.
