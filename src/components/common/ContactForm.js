@@ -23,7 +23,8 @@ const ContactForm = () => {
          body: JSON.stringify(value)
       });
       const data=await res.json();
-      console.log(data);
+      // console.log(data);
+      alert(data.message);
    };
 
    return (

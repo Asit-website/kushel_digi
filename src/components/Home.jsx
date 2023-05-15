@@ -86,7 +86,6 @@ import sync from '../images/sync.png';
 import antist from '../images/antist.png';
 import ContactForm1 from "./common/ContactForm1";
 import surup from '../images/surup.png';
-import ContactForm from "./common/ContactForm";
 const Home = () => {
   let dev = "App";
   let dev1 = "Development";
@@ -1211,8 +1210,8 @@ const Home = () => {
           </div>
         </div>
 
-       {/* <ContactForm1/> */}
-       <ContactForm/>
+       <ContactForm1/>
+      
       </div>
     </>
   );

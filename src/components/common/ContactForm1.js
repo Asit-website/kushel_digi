@@ -1,6 +1,33 @@
-import React from 'react'
+import React,{useState} from 'react'
 import Arrow from '../../images/arrow.png';
 const ContactForm1 = () => {
+  const [value, setValue] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    service: '',
+    message: '',
+ });
+
+ const handleChange=(e)=>{
+    setValue({...value, [e.target.name]: e.target.value});
+ };
+
+ const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const res = await fetch('http://localhost:5000/contact', {
+       method: 'POST',
+       headers: {
+          'content-type': 'application/json'
+       },
+       body: JSON.stringify(value)
+    });
+    const data=await res.json();
+    // console.log(data);
+    alert(data.message);
+ };
+
   return (
      <>
           <div className="contactus">
@@ -13,29 +40,30 @@ const ContactForm1 = () => {
                   </p>
                 </div>
                 <div className="contactus-form mt-8">
-                  <form action="">
+                  <form onSubmit={handleSubmit}>
                     <div className="contactus-form__input">
-                      <input type="text" placeholder="Name*" />
-                      <input type="text" placeholder="Email Address*" />
+                      <input name="name" onChange={handleChange} value={value.name} type="text" placeholder="Name*" />
+                      <input name="email" onChange={handleChange} value={value.email} type="email" placeholder="Email Address*" />
                     </div>
                     <div className="contactus-form__input">
-                      <input type="email" placeholder="Phone number*" />
-                      <select name="" id="">
-                        <option value="">Service Required</option>
-                        <option value="">Mobile App Development</option>
-                        <option value="">E - Commerce Solutions</option>
-                        <option value="">Graphic Design</option>
-                        <option value="">Web development</option>
-                        <option value="">UI/UX Design</option>
-                        <option value="">Digital Marketing</option>
-                        <option value="">Staff Augmntation</option>
+                      <input name="phone" onChange={handleChange} value={value.phone} type="text" placeholder="Phone number*" />
+                      <select name="service" onChange={handleChange} value={value.service} >
+                        <option>Service Required</option>
+                        <option>Mobile App Development</option>
+                        <option>E - Commerce Solutions</option>
+                        <option>Graphic Design</option>
+                        <option>Web development</option>
+                        <option>UI/UX Design</option>
+                        <option>Digital Marketing</option>
+                        <option>Staff Augmntation</option>
                       </select>
                     </div>
 
                     <div className="contactus-form__input">
                       <textarea
-                        name=""
-                        id=""
+                        name="message"
+                        value={value.message}
+                        onChange={handleChange}
                         cols="30"
                         rows="10"
                         placeholder="Message"
