@@ -30,6 +30,7 @@ import Android from "./components/Android";
 import Ios from "./components/Ios";
 import Flutter from "./components/Flutter";
 import Native from "./components/Native";
+import Label  from "./components/Label";
 
 function App() {
   return (
@@ -63,6 +64,7 @@ function App() {
           <Route path="/ios" element={<Ios/>}/>
           <Route path="/fluter" element={<Flutter/>}/>
           <Route path="/native" element={<Native/>}/>
+         <Route path="/label" element={<Label/>}/>
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
