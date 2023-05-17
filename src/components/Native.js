@@ -22,6 +22,17 @@ import key1 from '../images/key1.png';
 import keys from '../images/keys.png';
 import keys1 from '../images/keys1.png';
 import keys2 from '../images/keys2.png';
+import pret from '../images/pret.png';
+import pret1 from '../images/pret1.png';
+import fantaji from '../images/fantaJi.png';
+
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from "react-accessible-accordion";
 const Native = () => {
   return (
     <div className="ser-main">
@@ -211,7 +222,7 @@ const Native = () => {
       <div className="keys-val">
           <h2>Key values of Kushel Digi team</h2>
           <img className="key-images" src={androidSis} alt="" />
-          <p>Kushel Digi Team goal is to help you and your team deliver a superb products. We build teams in javascript technologies to constantly strengthen our expertise in this field. We actively expand our competences during internal meetings and external conferences.</p>
+          <p className="text-center ku-t">Kushel Digi Team goal is to help you and your team deliver a superb products. We build teams in javascript technologies to constantly strengthen our expertise in this field. We actively expand our competences during internal meetings and external conferences.</p>
           </div>
           <div className="key-value-cards">
               <div className="key-value-card">
@@ -239,6 +250,86 @@ const Native = () => {
               </div>
           </div>
       </div>
+
+      <div className="how-native-work">
+         <h2>How we can start working together?</h2>
+         <img className="how-nat-img" src={androidSis} alt="androidsis" />
+         <p className="dep-nat">Depending on your needs, we prepare a team of specialists who will support your team as long as you need it.</p>
+         <div className="native-work-cards">
+             <div className="native-work-card">
+                  <div className="native-work-box">
+                      <img className="pret" src={fantaji} alt="" />
+                      <h4>Tell us about your needs</h4>
+                      <p>Based on your needs, we will prepare a shortlist of the talents from our team best suited for your project. After acceptance, your tech team reviews our candidates.</p>
+                      <div className="native-steps">
+                        <h3>STEP 01</h3>
+                      </div>
+                  </div>
+                  <div className="native-work-box">
+                      <img className="pret" src={pret} alt="preat" />
+                      <h4>Team preparation and <br /> review your team proposal</h4>
+                      <p>Based on your needs, we will prepare a shortlist of the talents from our team best suited for your project. After acceptance, your tech team reviews our candidates.</p>
+                      <div className="native-steps">
+                        <h3>STEP 02</h3>
+                      </div>
+                  </div>
+                  <div className="native-work-box">
+                      <img className="pret1" src={pret1} alt="" />
+                      <h4>We become part <br /> of your team</h4>
+                      <p>As soon as you review and sign-off our team, we’ll be ready to integrate into your dev team—just like an in-house employee.</p>
+                      <div className="native-steps">
+                        <h3>STEP 03</h3>
+                      </div>
+                  </div>
+             </div>
+         </div>
+      </div>
+
+      <div className="home9 mb-12 mt-20 home278">
+          <div className="home91 flex px-24">
+            <div className="home911 text-center">
+              <h2 className="font-bold text-gray-700">JUST THE FAQs</h2>
+            </div>
+            <div className="home912">
+              <Accordion allowZeroExpanded>
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                    Can React Native be used for both web and mobile?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      Exercitation in fugiat est ut ad ea cupidatat ut in
+                      cupidatat occaecat ut occaecat consequat est minim minim
+                      esse tempor laborum consequat esse adipisicing eu
+                      reprehenderit enim.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>
+                    How long does it take to build a React Native App?
+                    </AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <p>
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
+                    </p>
+                  </AccordionItemPanel>
+                </AccordionItem>
+                
+              </Accordion>
+              {/* <div className="home9121 font-semibold w-fit">
+                See All FAQs
+              </div> */}
+            </div>
+          </div>
+        </div>
+        
     </div>
   );
 };
