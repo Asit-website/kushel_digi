@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;900&family=Manrope:wght@400;500;600;700&family=Montserrat:wght@400;500;600&family=Poppins:wght@400;500;600&family=Prompt:wght@400;500;600&family=Questrial&family=Roboto:wght@400;500&display=swap');
+
 .about-main h1 {
     font-size: 30px;
     font-weight: bold;
 }
-
 .about-main h3 {
     font-size: 34px;
 }
@@ -89,7 +90,12 @@
     margin-right: 3rem;
     width: 60%;
 }
-
+.about31 h6{
+    color: #202020;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'Manrope', sans-serif !important;
+}
 .about32 {
     width: 40%;
 }
