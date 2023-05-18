@@ -1,35 +1,60 @@
-import React from 'react'
-import arrow4 from "../../images/arrow4.png";
-import arrow1 from '../../images/arrow1.png'
+import React from "react";
 const contactForm2 = () => {
+  // const [value1, setValue1] = useState({
+  //   name1: "",
+  //   phone1: "",
+  //   email1: "",
+  //   message1: "",
+  // });
+
+  // const handleChange = (e) => {
+  //   setValue1({ ...value1, [e.target.name]: e.target.value });
+  // };
+
+  // const handleSubmit1 = async (e) => {
+  //   e.preventDefault();
+
+  //   const res = await fetch("http://localhost:5000/contact1", {
+  //     method: "POST",
+  //     headers: {
+  //       "content-type": "application/json",
+  //     },
+  //     body: JSON.stringify(value1),
+  //   });
+  //   const data = await res.json();
+  //   alert(data.message);
+  //   setValue1({
+  //     name1: "",
+  //     phone1: "",
+  //     email1: "",
+  //     message1: "",
+  //   });
+  // };
   return (
-      <>
-          <div className="flex items-start justify-center discusion-form discusion-form1">
+    <>
+      {/* <div>
+        <div className="flex items-start justify-center discusion-form discusion-form1">
           <div className="w-full  mrs mrs1">
             <h3>Let’s Discuss your Project</h3>
-            <form action="">
+            <form  className="trants">
               <div className=" flex items-start common-form">
                 <div className="first-form">
                   <div className="form-field">
-                    <input type="text" placeholder="Name*" />
+                    <input name="name1" type="text" placeholder="Name*" />
                   </div>
                   <div className="form-field mt-5">
-                    <input type="text" placeholder="Phone number*" />
+                    <input name="phone1"  type="text" placeholder="Phone number*" />
                   </div>
                   <div className="form-field mt-5">
-                    <input type="email" placeholder="Email Address*" />
-                  </div>
-                  <div>
-                    <button>
-                      Submit <img className="tih" src={arrow1} alt="" />
-                    </button>
+                    <input name="email1" type="email" placeholder="Email Address*" />
                   </div>
                 </div>
                 <div className="second-form">
                   <div className="form-filed1">
                     <textarea
                       placeholder="Message"
-                      name=""
+                      name="message1"
+                     
                       id=""
                       cols="30"
                       rows="10"
@@ -37,12 +62,14 @@ const contactForm2 = () => {
                   </div>
                 </div>
               </div>
+              <div>
+                <button>
+                  Submit <img className="tih" src={arrow1} alt="" />
+                </button>
+              </div>
             </form>
           </div>
           <div className="w-full   loofs loofs1">
-            {/* <h3>How can we help?</h3>
-           <p>Are you looking for a reliable mobile application development company? Contact our expert team — we will help your business build a successful mobile strategy and create convenient omnichannel experience for all your customers and clients.</p>
-           <button>Let’s Talk <img className="tih" src={arrow1} alt="" /></button> */}
             <div className=" loofs-sect1">
               <h2>Would you like to talk to our experts about your project?</h2>
               <p>
@@ -56,14 +83,15 @@ const contactForm2 = () => {
                   width={12}
                   className="inline ml-1"
                   src={arrow4}
-                  alt="arrow3"
+                  alt="arrow4"
                 />
               </button>
             </div>
           </div>
         </div>
-      </>
-  )
-}
+      </div> */}
+    </>
+  );
+};
 
-export default contactForm2
+export default contactForm2;

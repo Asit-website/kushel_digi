@@ -31,22 +31,23 @@ import Ios from "./components/Ios";
 import Flutter from "./components/Flutter";
 import Native from "./components/Native";
 import Label  from "./components/Label";
+import BigCommerce from "./components/BigCommerce";
 
 function App() {
   return (
     <>
-      <HashRouter>
+      <HashRouter forceRefresh="true">
       <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route  path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/staff" element={<StafArgu />} />
-          <Route path="/service" element={<Services />} />
-          <Route path="/mobileApp" element={<MobileApp />} />
-          <Route path="/website" element={<WebsiteDev />} />
-          <Route path="/digitalmarket" element={<DigitalMarketing />} />
-          <Route path="/uiux" element={<Uiux />} />
+          <Route path="/staff-augmentation" element={<StafArgu />} />
+          <Route path="/ecommerce-solutions-usa" element={<Services />} />
+          <Route path="/mobile-application-development-usa" element={<MobileApp />} />
+          <Route path="/web-development-usa" element={<WebsiteDev />} />
+          <Route path="/digital-marketing-agency-usa" element={<DigitalMarketing />} />
+          <Route path="/ui-ux-designer-usa" element={<Uiux />} />
           <Route path="/hire" element={<HireTeam />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/refund" element={<Refund />} />
@@ -64,7 +65,8 @@ function App() {
           <Route path="/ios" element={<Ios/>}/>
           <Route path="/fluter" element={<Flutter/>}/>
           <Route path="/native" element={<Native/>}/>
-         <Route path="/label" element={<Label/>}/>
+          <Route path="/label" element={<Label/>}/>
+          <Route path="/bigComm" element={<BigCommerce/>}/>
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

@@ -16,6 +16,7 @@ import conjun from '../images/conjun.png';
 import azib2 from '../images/azib2.png';
 import azib3 from '../images/azib3.png'
 import azib4 from '../images/azib4.png'
+import { NavLink } from "react-router-dom";
 const Kickiz = () => {
   return (
     <>
@@ -240,10 +241,10 @@ const Kickiz = () => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-            <button>
+          <NavLink to="/contact"><button>
               Request A Call{" "}
               <img width={13} className=" inline ml-2" src={arrow4} alt="" />
-            </button>
+            </button></NavLink>
           </div>
         </div>
       </div>

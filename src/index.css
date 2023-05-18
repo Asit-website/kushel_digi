@@ -696,7 +696,7 @@ body {
 }
 
 .input-group input,
-.input-group textarea {
+.input-group textarea,select {
   width: 100%;
   outline: none;
   border: none;
@@ -709,6 +709,9 @@ body {
   /* font-family: "Value Sans Pro" !important; */
 }
 
+.input-group select:not([size]){
+  padding-right: 0rem;
+}
 .input-group textarea {
   height: 240px;
   resize: none;
@@ -2538,6 +2541,7 @@ form button {
 .discusion-form form {
   width: 100%;
   margin-top: 30px;
+  position: relative;
 }
 
 .form-field {
@@ -2556,11 +2560,13 @@ form button {
   color: #6c7591;
   font-weight: 400;
 }
-
 .form-filed1 {
   width: 100%;
 }
-
+.trants button{
+  position: absolute;
+  top: 209px;
+}
 .form-filed1 textarea {
   width: 360px;
   max-width: 100%;
@@ -8695,6 +8701,249 @@ form button {
   text-align: center;
   margin-top: 15px;
 }
+.container2 {
+  padding-top: 6rem !important;
+  padding-bottom: 2rem !important;
+  background-color: #ffffff;
+  padding: 0px 100px;
+}
+.container2 h3 {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #202020;
+  opacity: 0.9;
+  line-height: 46px;
+}
+.container2 .splide__pagination{
+  display: none !important;
+}
+.box1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.img_L{
+position: relative;
+width: 22rem;
+max-width: 100%;
+filter: brightness(.6);
+}
+.img_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.7rem;
+  position: relative;
+}
+.play_icon{
+  position: absolute;
+  z-index: 2;
+} 
+ .you_tube{
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  font-size: 15px;
+  position: absolute;
+  z-index: 1;
+  bottom: 4px;
+  left: 15px;
+  font-size: 11px;
+  font-weight: 500;
+ }
+ .youtube_icon{
+  width: 15px;
+  margin-left: 3px;
+ }
+.leftArr{
+  font-size: 25px;
+  margin-right: 1rem;
+}
+.rightArr{
+  font-size: 25px;
+  margin-left: 1rem;
+} 
+.container2 .splide__arrow--next{
+  top: 50% !important;
+  right: -2em;
+  background: none !important;
+}
+
+.container2 .splide__arrow--prev{
+  top: 50% !important;
+  left: -2em !important;
+  background: none !important;
+}
+.container2 .splide__arrow svg{
+  fill: #000000 !important;
+}
+.paper2 {
+  position: relative;
+  z-index: 2;
+  padding: 60px 100px;
+}
+.paper2::before{
+  background-color: #F7F7F7;
+  opacity: 0.5;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.paper2 h2 {
+  align-items: center;
+  line-height: 46px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 34px;
+  letter-spacing: 0.1px;
+  color: #202020;
+  opacity: 0.9;
+  /* padding-top: 3rem; */
+  font-style: normal;
+}
+.paper2 h3 {
+  font-size: 19px;
+  text-align: center;
+  margin-top: 1rem;
+  color: #404040;
+  /* line-height: 35px; */
+  font-style: normal;
+}
+.paper2 h4 {
+  font-size: 20px;
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 35px;
+  color: #404040;
+  font-style: normal;
+}
+.paperbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+#new {
+  background-color: #085881;
+  color: #ffffff;
+}
+#new h3 {
+  color: #ffffff;
+}
+#new h5 {
+  color: #ffffff;
+}
+.first1 {
+  background-color: white;
+  height: 331px;
+  border-radius: 15px;
+  max-width: 370px;
+  width: 100%;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  align-items: center;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.first1 h3 {
+  font-size: 19px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.1px;
+}
+.first1 h5 {
+  max-width: 400px;
+  font-size: 17px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  color: #404040;
+  margin-top: 1rem;
+}
+.startup {
+  width: 45px;
+}
+/* .first1:hover {
+  background-color: #085881;
+} */
+.bigCommerce-back{
+  background-color: #085881;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+  padding-top: 60px;
+}
+.bigCommerce-back1{
+  padding-bottom: 60px;
+}
+.bigCommerce-back1 p{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  max-width: 100%;
+  margin-top: 20px;
+}
+.bigCommerce-back1 h2{
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-top: 14px;
+}
+.bigCommerce-back1 button{
+  background-color: #ffffff;
+  width: 300px;
+  max-width: 100%;
+  height: 52px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 40px;
+}
+.bigCommerce-back2 .bigcompt{
+  max-width: 490px ;
+  width: 100% ;
+}
+.bigCommerce-app{
+  padding-top: 100px;
+}
+.bigCommerce-fun2 p{
+  width: 42em;
+  max-width: 100%;
+}
+.lat-soni{
+  height: 340px;
+  max-height: 100%;
+  border-radius: 15px;
+}
+.lat-soni:hover{
+  background-color: #ffffff;
+}
+.latest1{
+  background-color: #F8F9FC;
+}
+.bigcom9{
+  background-color: #FBFBFB !important;
+}
 /* ===============level css end========================= */
 /* =========================react js css end==================== */
 @media only screen and (max-width: 1500px) {
@@ -8748,7 +8997,12 @@ form button {
     width: 100%;
   }
 }
-
+@media only screen and (max-width:1387px){
+  .first1{
+    max-width: 350px;
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 1350px) {
   .home1112 ul {
     width: 80%;
@@ -11833,11 +12087,14 @@ form button {
   }
 
   .first-need h2 {
-    font-size: 25px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 28px;
   }
 
   .first-need p {
     font-size: 14px;
+    text-align: center;
   }
 
   form button {
@@ -12167,9 +12424,21 @@ form button {
   .home-year1 {
     padding: 2rem 1rem;
   }
-
+  .first-need form{
+    margin-top: 50px;
+  }
   .home-year11 h1 {
     font-size: 21px;
+  }
+}
+
+@media only screen and (max-width:390px){
+  .input-group{
+    flex-direction: column;
+  }
+  .inp{
+    margin-left: 0px;
+    margin-top: 20px;
   }
 }
 

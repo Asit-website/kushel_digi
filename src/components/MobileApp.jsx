@@ -23,10 +23,10 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-import ContactForm2 from "./common/contactForm2";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import MobCard from "./Cards/MobCard";
 import Certified from "./common/Certified";
+import ContactForm from "./common/ContactForm";
 
 const MobileApp = () => {
   return (
@@ -380,7 +380,7 @@ const MobileApp = () => {
           </div>
         </div>
         
-         <ContactForm2/>
+         <ContactForm/>
       </div>
     </>
   );

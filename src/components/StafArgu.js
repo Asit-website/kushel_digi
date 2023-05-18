@@ -14,7 +14,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from 'react-accessible-accordion';
-import ContactForm2 from "./common/contactForm2";
+import ContactForm from "./common/ContactForm";
 const StafArgu = () => {
   return (
     <>
@@ -227,7 +227,7 @@ const StafArgu = () => {
             </div>
           </div>
         </div>
-       <ContactForm2/>
+       <ContactForm/>
       </div>
     </>
   );

@@ -20,6 +20,22 @@ import seoOning1 from '../images/seoOning1.png';
 import tanning from '../images/tanning.png';
 import tanning2 from '../images/tanning2.png';
 import ContactForm1 from "./common/ContactForm1";
+import img1 from "../images/apperi.png"
+import img2 from "../images/Rectangle 17996.png"
+import img3 from "../images/Rectangle 17997.png"
+import img4 from "../images/Rectangle 17998.png"
+import { AiOutlineArrowRight } from 'react-icons/ai';
+import { AiOutlineArrowLeft } from 'react-icons/ai';
+import playIcon from "../images/Group.png";
+import youtube from "../images/youtubeicon.png";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/css";
+// import "swiper/css/pagination";
+// import { Navigation } from "swiper";
+// import { Pagination } from "swiper";
+
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+
 const Label = () => {
   return (
     <>
@@ -180,10 +196,88 @@ core expertise</h3>
           </div>
         </div>
 
-        {/* <div className="appericiation-card">
-           <h2>Appreciation From Clients</h2>
+        <div className="container2 w">
+        <h3>Appreciation From Clients</h3>
+        <div className="box1 w-full">
+        <Splide 
+            aria-label="conts"
+                options={{
+                  perPage:4,
+                  perMove: 1,
+                  autoplay: true,
+                  pauseOnHover: true,
+                  type: "loop",
+                  interval: 1600,
+                  drag: true,
+                }}
+                className="w-full"
+         >
+          {/* <AiOutlineArrowLeft className="leftArr" /> */}
+          <SplideSlide>
+          <div className="img_container">
+            <img src={playIcon} className="play_icon" />
 
-        </div> */}
+            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
+
+            <img src={img1} className="img_L" alt="img" />
+          </div>
+          </SplideSlide>
+          <SplideSlide>
+          <div className="img_container">
+            <img src={playIcon} className="play_icon" />
+            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
+            <img src={img2} className="img_L" alt="img" />
+          </div>
+          </SplideSlide>
+          <SplideSlide>
+          <div className="img_container">
+            <img src={playIcon} className="play_icon" />
+            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
+            <img src={img3} className="img_L" alt="img" />
+          </div>
+          </SplideSlide>
+          <SplideSlide>
+          <div className="img_container">
+            <img src={playIcon} className="play_icon" />
+            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
+            <img src={img4} className="img_L" alt="img" />
+          </div>
+          </SplideSlide>
+          <SplideSlide>
+          <div className="img_container">
+            <img src={playIcon} className="play_icon" />
+
+            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
+
+            <img src={img1} className="img_L" alt="img" />
+          </div>
+          </SplideSlide>
+          <SplideSlide>
+          <div className="img_container">
+            <img src={playIcon} className="play_icon" />
+            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
+            <img src={img2} className="img_L" alt="img" />
+          </div>
+          </SplideSlide>
+          <SplideSlide>
+          <div className="img_container">
+            <img src={playIcon} className="play_icon" />
+            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
+            <img src={img3} className="img_L" alt="img" />
+          </div>
+          </SplideSlide>
+          <SplideSlide>
+          <div className="img_container">
+            <img src={playIcon} className="play_icon" />
+            <h5 className="you_tube">Watch on<img src={youtube} className="youtube_icon" /> Youtube</h5>
+            <img src={img4} className="img_L" alt="img" />
+          </div>
+          </SplideSlide>
+          {/* <AiOutlineArrowRight className="rightArr" /> */}
+          </Splide>
+        </div>
+        
+      </div>
 
         <div className="why-work-with">
         <h2>Why Work with Us?</h2>

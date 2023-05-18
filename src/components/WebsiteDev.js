@@ -40,7 +40,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-import ContactForm2 from "./common/contactForm2";
+import ContactForm from "./common/ContactForm";
 const WebsiteDev = () => {
   let heading = "www.2ndAmendment.com";
   let heading1 = "www.kickeez.com";
@@ -414,7 +414,7 @@ const WebsiteDev = () => {
           </div>
         </div>
 
-         <ContactForm2/>
+         <ContactForm/>
       </div>
     </>
   );
