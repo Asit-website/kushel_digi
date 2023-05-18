@@ -149,7 +149,7 @@ const Navbar = () => {
 
             <div className="flex items-center ml-10">
               <img src="/static/images/c1.png" alt="alt" />
-              <p className="ml-2">+1 5855662070</p>
+              <p className="ml-2">+1 585 566 2070</p>
             </div>
           </div>
         </header>
@@ -236,7 +236,7 @@ const Navbar = () => {
                       <div className="ser-tag">
                         <div className="tag1">
                           <div className="">
-                            <NavLink  to="/mobileApp">
+                            <NavLink  to="/mobile-application-development-usa">
                               {" "}
                               <div className="flex items-center">
                                 <img src={mon1} alt="" />
@@ -270,7 +270,7 @@ const Navbar = () => {
                             </p>
                           </div>
                           <div className=" mt-7">
-                            <NavLink  to="/service">
+                            <NavLink  to="/ecommerce-solutions-usa">
                               {" "}
                               <div className="flex items-center">
                                 <img src={mon2} alt="" />
@@ -334,7 +334,7 @@ const Navbar = () => {
                         </div>
                         <div className="tag1 ml-10">
                           <div className="">
-                            <NavLink  to="/website">
+                            <NavLink  to="/web-development-usa">
                               <div className="flex items-center">
                                 <img src={mon4} alt="" />
                                 <h4>Web development</h4>
@@ -367,7 +367,7 @@ const Navbar = () => {
                             </p>
                           </div>
                           <div className="w-full mt-7">
-                            <NavLink  to="/uiux">
+                            <NavLink  to="/ui-ux-designer-usa">
                               {" "}
                               <div className="flex items-center">
                                 <img src={uiux} alt="" />
@@ -395,7 +395,7 @@ const Navbar = () => {
                           <div className="w-full mt-7">
                             <NavLink
                               
-                              to="/digitalmarket"
+                              to="/digital-marketing-agency-usa"
                             >
                               <div className="flex items-center">
                                 <img src={marketing} alt="" />
@@ -417,7 +417,7 @@ const Navbar = () => {
                             </p>
                           </div>
                           <div className="w-full mt-7">
-                            <NavLink  to="/staff">
+                            <NavLink  to="/staff-augmentation">
                               <div className="flex items-center">
                                 <img src={staffji} alt="staffji" />
                                 <h4>Staff Augmentation</h4>

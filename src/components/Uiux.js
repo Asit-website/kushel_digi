@@ -22,7 +22,6 @@ import ustu from '../images/ustu.png';
 import uiy from '../images/uyi.png';
 import stand from '../images/stand.png';
 import howux from '../images/howux.png';
-import ContactForm2 from "./common/contactForm2";
 import {
   Accordion,
   AccordionItem,
@@ -30,6 +29,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from 'react-accessible-accordion';
+import ContactForm from "./common/ContactForm";
 const Uiux = () => {
   let heading = "www.2ndAmendment.com";
   let heading1 = "www.kickeez.com";
@@ -352,7 +352,7 @@ And Conversion Rates</h5>
             </div>
           </div>
         </div>
-        <ContactForm2/>
+        <ContactForm/>
       </div>
     </>
   );
