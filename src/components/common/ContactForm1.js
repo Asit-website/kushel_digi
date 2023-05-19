@@ -49,6 +49,7 @@ const ContactForm1 = () => {
             <form onSubmit={handleSubmit}>
               <div className="contactus-form__input">
                 <input
+                  required
                   name="name"
                   onChange={handleChange}
                   value={value.name}
@@ -56,6 +57,7 @@ const ContactForm1 = () => {
                   placeholder="Name*"
                 />
                 <input
+                  required
                   name="email"
                   onChange={handleChange}
                   value={value.email}
@@ -65,6 +67,7 @@ const ContactForm1 = () => {
               </div>
               <div className="contactus-form__input">
                 <input
+                  required
                   name="phone"
                   onChange={handleChange}
                   value={value.phone}
@@ -72,6 +75,7 @@ const ContactForm1 = () => {
                   placeholder="Phone number*"
                 />
                 <select
+                  required
                   name="service"
                   onChange={handleChange}
                   value={value.service}
@@ -89,6 +93,7 @@ const ContactForm1 = () => {
 
               <div className="contactus-form__input">
                 <textarea
+                 required
                   name="message"
                   value={value.message}
                   onChange={handleChange}

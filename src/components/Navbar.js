@@ -256,7 +256,7 @@ const Navbar = () => {
                                 Flutter
                               </NavLink>{" "}
                               <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
+                              <NavLink className="sonji" to="/native">
                                 React Native
                               </NavLink>{" "}
                               <span>|</span>{" "}
@@ -287,7 +287,7 @@ const Navbar = () => {
                                 Woo Commerce{" "}
                               </NavLink>{" "}
                               <span> |</span>{" "}
-                              <NavLink className="sonji" to="#!">
+                              <NavLink className="sonji" to="/bigComm">
                                 {" "}
                                 Big Commerce{" "}
                               </NavLink>{" "}
