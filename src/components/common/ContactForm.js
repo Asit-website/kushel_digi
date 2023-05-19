@@ -79,18 +79,19 @@ const ContactForm = () => {
               <div className=" flex items-start common-form">
                 <div className="first-form">
                   <div className="form-field">
-                    <input name="name2" value={user.name2} onChange={handleChange} type="text" placeholder="Name*" />
+                    <input required name="name2" value={user.name2} onChange={handleChange} type="text" placeholder="Name*" />
                   </div>
                   <div className="form-field mt-5">
-                    <input name="phone2" value={user.phone2} onChange={handleChange}  type="text" placeholder="Phone number*" />
+                    <input required name="phone2" value={user.phone2} onChange={handleChange}  type="text" placeholder="Phone number*" />
                   </div>
                   <div className="form-field mt-5">
-                    <input name="email2" value={user.email2} onChange={handleChange} type="email" placeholder="Email Address*" />
+                    <input required name="email2" value={user.email2} onChange={handleChange} type="email" placeholder="Email Address*" />
                   </div>
                 </div>
                 <div className="second-form">
                   <div className="form-filed1">
                     <textarea
+                      required
                       placeholder="Message"
                       name="message2"
                       value={user.message2}

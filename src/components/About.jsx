@@ -5,6 +5,8 @@ import { NavLink } from "react-router-dom";
 import SmallApproach from "./common/SmallApproach";
 import asit from "../images/asit.png";
 import chirag from "../images/chirag.png";
+import arrow from '../images/arrow.png';
+import sijo1 from '../images/sijo.png';
 const About = () => {
   const [tab, setTab] = useState(1);
 
@@ -280,10 +282,10 @@ const About = () => {
               </div>
             </div>
             <div className="about7 relative">
-              <img src="/static/images/e11.png" alt="" />
+              <img src={sijo1} alt="sijo1" />
               <div className="absolute flex flex-col">
-                <p>Shubham Gupta</p>
-                <p>(Founder)</p>
+                <p>Sijo Jose</p>
+                <p>Business Development Manager</p>
               </div>
             </div>
           </div>
@@ -293,247 +295,178 @@ const About = () => {
             <img src="/static/images/e12.png" alt="" />
           </div>
         </div>
-        {/* <div className="about-main8">
-                    <div className="about-main81">
-                        <img src="/static/images/" alt="" />
-                    </div>
-                </div> */}
-        {/* <div className="about-main9">
-                    <div className="about-main91 flex justify-center">
-                        <div className="about9 about91">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                        </div>
-                        <div className="about9 about92">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                        </div>
-                        <div className="about9 about93">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                        </div>
-                        <div className="about9 about94">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                        </div>
-                        <div className="about9 about95">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</p>
-                        </div>
-                    </div>
-                </div> */}
-        <div className="about-main-10">
-          <div className="about-main-101 flex items-center">
-            <div className="about-10">
+        <div className="office-about">
+          <div className="process-flex">
+            <div className="process-flex1">
               <img src="/static/images/e14.png" alt="" />
             </div>
-            <div className="about-11">
-              <h3>Our process</h3>
+            <div className="process-flex2">
+              <h2>Our process</h2>
               <p>
                 We don’t just put thought into what we build but also how we get
                 there. Our proven website process ensures a seamless workflow
                 for our clients and our team.
               </p>
-              <NavLink to="/approach">
-                <button className="about-btn">
-                  <span>See Our Approach More</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-arrow-right"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                    />
-                  </svg>
-                </button>
-              </NavLink>
+              <button>See Our Approach More <img width={14} className=" inline ml-1.5" src={arrow} alt="" /> </button>
             </div>
           </div>
-        </div>
-        <div className="about-main-11">
-          <div className="about-main-11 flex items-center">
-            <div className="about-11">
-              <h3>Our Office</h3>
+          <div className="office-flex mt-5">
+            <div className="office-flex1">
+            <h2>Our process</h2>
               <p>
                 We don’t just put thought into what we build but also how we get
                 there. Our proven website process ensures a seamless workflow
                 for our clients and our team.
               </p>
-              <button className="about-btn about-btn4">
-                <span>Tempe Website Design Services</span>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  class="bi bi-arrow-right"
-                  viewBox="0 0 16 16"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                  />
-                </svg>
-              </button>
+              <button>See Our Approach More <img width={14} className=" inline ml-1.5" src={arrow} alt="" /> </button>
             </div>
-            <div className="about-10">
-              <img src="/static/images/e15.png" alt="" />
+            <div className="office-flex2">
+                <img src="/static/images/e15.png" alt="" />
             </div>
           </div>
         </div>
         <div className="about-main8">
           <div className="about-main81">
-          {
-            tab === 1 && (
-                <div className="about80 flex items-center justify-between transition-all">
-              <div className="about8">
-                <h3 className="mb-1">Our History</h3>
-                <b className="font-bold mb-2">2017</b>
-                <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                <p className="started">
-                  We started with just 10 employees working passionately with a
-                  vision to grow. With utmost dedication, we bagged our first
-                  brand project within a month of our incorporation. Set the
-                  grounds for success and unprecedented opportunities.
-                </p>
+            <h2 className="history"> HISTORY</h2>
+            {tab === 1 && (
+              <div className="about80 flex items-center justify-between transition-all">
+                <div className="about8">
+                  <h3 className="mb-1">Our History</h3>
+                  <b className="font-bold mb-2">2017</b>
+                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
+                  <p className="started">
+                    We started with just 10 employees working passionately with
+                    a vision to grow. With utmost dedication, we bagged our
+                    first brand project within a month of our incorporation. Set
+                    the grounds for success and unprecedented opportunities.
+                  </p>
+                </div>
+                <div className="about81">
+                  <img src="/static/images/e18.png" alt="" />
+                </div>
               </div>
-              <div className="about81">
-                <img src="/static/images/e18.png" alt="" />
+            )}
+            {tab === 2 && (
+              <div className="about80 flex items-center justify-between transition-all">
+                <div className="about8">
+                  <h3 className="mb-1">Our History</h3>
+                  <b className="font-bold mb-2">2018</b>
+                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
+                  <p className="started">
+                    We started with just 10 employees working passionately with
+                    a vision to grow. With utmost dedication, we bagged our
+                    first brand project within a month of our incorporation. Set
+                    the grounds for success and unprecedented opportunities.
+                  </p>
+                </div>
+                <div className="about81">
+                  <img src="/static/images/e18.png" alt="" />
+                </div>
               </div>
-            </div>
-            )
-          }
-           {
-            tab === 2 && (
-                <div className="about80 flex items-center justify-between transition-all">
-              <div className="about8">
-                <h3 className="mb-1">Our History</h3>
-                <b className="font-bold mb-2">2018</b>
-                <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                <p className="started">
-                  We started with just 10 employees working passionately with a
-                  vision to grow. With utmost dedication, we bagged our first
-                  brand project within a month of our incorporation. Set the
-                  grounds for success and unprecedented opportunities.
-                </p>
-              </div>
-              <div className="about81">
-                <img src="/static/images/e18.png" alt="" />
-              </div>
-            </div> 
-            )
-           }
+            )}
 
-           {
-            tab === 3 && (
-                <div className="about80 flex items-center justify-between">
-              <div className="about8">
-                <h3 className="mb-1">Our History</h3>
-                <b className="font-bold mb-2">2019</b>
-                <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                <p className="started">
-                  We started with just 10 employees working passionately with a
-                  vision to grow. With utmost dedication, we bagged our first
-                  brand project within a month of our incorporation. Set the
-                  grounds for success and unprecedented opportunities.
-                </p>
+            {tab === 3 && (
+              <div className="about80 flex items-center justify-between">
+                <div className="about8">
+                  <h3 className="mb-1">Our History</h3>
+                  <b className="font-bold mb-2">2019</b>
+                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
+                  <p className="started">
+                    We started with just 10 employees working passionately with
+                    a vision to grow. With utmost dedication, we bagged our
+                    first brand project within a month of our incorporation. Set
+                    the grounds for success and unprecedented opportunities.
+                  </p>
+                </div>
+                <div className="about81">
+                  <img src="/static/images/e18.png" alt="" />
+                </div>
               </div>
-              <div className="about81">
-                <img src="/static/images/e18.png" alt="" />
-              </div>
-            </div>
-            )
-           }
+            )}
 
-           {
-            tab === 4 && (
-                <div className="about80 flex items-center justify-between">
-              <div className="about8">
-                <h3 className="mb-1">Our History</h3>
-                <b className="font-bold mb-2">2020</b>
-                <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                <p className="started">
-                  We started with just 10 employees working passionately with a
-                  vision to grow. With utmost dedication, we bagged our first
-                  brand project within a month of our incorporation. Set the
-                  grounds for success and unprecedented opportunities.
-                </p>
+            {tab === 4 && (
+              <div className="about80 flex items-center justify-between">
+                <div className="about8">
+                  <h3 className="mb-1">Our History</h3>
+                  <b className="font-bold mb-2">2020</b>
+                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
+                  <p className="started">
+                    We started with just 10 employees working passionately with
+                    a vision to grow. With utmost dedication, we bagged our
+                    first brand project within a month of our incorporation. Set
+                    the grounds for success and unprecedented opportunities.
+                  </p>
+                </div>
+                <div className="about81">
+                  <img src="/static/images/e18.png" alt="" />
+                </div>
               </div>
-              <div className="about81">
-                <img src="/static/images/e18.png" alt="" />
-              </div>
-            </div>
-            )
-           }
+            )}
 
-           {
-            tab === 5 && (
-                <div className="about80 flex items-center justify-between">
-              <div className="about8">
-                <h3 className="mb-1">Our History</h3>
-                <b className="font-bold mb-2">2021</b>
-                <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                <p className="started">
-                  We started with just 10 employees working passionately with a
-                  vision to grow. With utmost dedication, we bagged our first
-                  brand project within a month of our incorporation. Set the
-                  grounds for success and unprecedented opportunities.
-                </p>
+            {tab === 5 && (
+              <div className="about80 flex items-center justify-between">
+                <div className="about8">
+                  <h3 className="mb-1">Our History</h3>
+                  <b className="font-bold mb-2">2021</b>
+                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
+                  <p className="started">
+                    We started with just 10 employees working passionately with
+                    a vision to grow. With utmost dedication, we bagged our
+                    first brand project within a month of our incorporation. Set
+                    the grounds for success and unprecedented opportunities.
+                  </p>
+                </div>
+                <div className="about81">
+                  <img src="/static/images/e18.png" alt="" />
+                </div>
               </div>
-              <div className="about81">
-                <img src="/static/images/e18.png" alt="" />
-              </div>
-            </div>
-            )
-           }
+            )}
 
-           {
-            tab === 6 && (
-                <div className="about80 flex items-center justify-between">
-              <div className="about8">
-                <h3 className="mb-1">Our History</h3>
-                <b className="font-bold mb-2">2022</b>
-                <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                <p className="started">
-                  We started with just 10 employees working passionately with a
-                  vision to grow. With utmost dedication, we bagged our first
-                  brand project within a month of our incorporation. Set the
-                  grounds for success and unprecedented opportunities.
-                </p>
+            {tab === 6 && (
+              <div className="about80 flex items-center justify-between">
+                <div className="about8">
+                  <h3 className="mb-1">Our History</h3>
+                  <b className="font-bold mb-2">2022</b>
+                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
+                  <p className="started">
+                    We started with just 10 employees working passionately with
+                    a vision to grow. With utmost dedication, we bagged our
+                    first brand project within a month of our incorporation. Set
+                    the grounds for success and unprecedented opportunities.
+                  </p>
+                </div>
+                <div className="about81">
+                  <img src="/static/images/e18.png" alt="" />
+                </div>
               </div>
-              <div className="about81">
-                <img src="/static/images/e18.png" alt="" />
-              </div>
-            </div>
-            )
-           }
+            )}
 
-           {
-             tab === 7 && (
-                <div className="about80 flex items-center justify-between">
-              <div className="about8">
-                <h3 className="mb-1">Our History</h3>
-                <b className="font-bold mb-2">2023</b>
-                <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                <p className="started">
-                  We started with just 10 employees working passionately with a
-                  vision to grow. With utmost dedication, we bagged our first
-                  brand project within a month of our incorporation. Set the
-                  grounds for success and unprecedented opportunities.
-                </p>
+            {tab === 7 && (
+              <div className="about80 flex items-center justify-between">
+                <div className="about8">
+                  <h3 className="mb-1">Our History</h3>
+                  <b className="font-bold mb-2">2023</b>
+                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
+                  <p className="started">
+                    We started with just 10 employees working passionately with
+                    a vision to grow. With utmost dedication, we bagged our
+                    first brand project within a month of our incorporation. Set
+                    the grounds for success and unprecedented opportunities.
+                  </p>
+                </div>
+                <div className="about81">
+                  <img src="/static/images/e18.png" alt="" />
+                </div>
               </div>
-              <div className="about81">
-                <img src="/static/images/e18.png" alt="" />
-              </div>
-            </div>
-             )
-           }
+            )}
             <div className="about800 mt-8 px-12 relative">
               <div className="about802"></div>
               <div className="flex justify-between">
                 <div className="about801">
                   <img id="aa" src="/static/images/e20.png" alt="" />
-                  <b className=" cursor-pointer" onClick={tabAnother}>2017</b>
+                  <b className=" cursor-pointer" onClick={tabAnother}>
+                    2017
+                  </b>
                 </div>
                 <div className="about801">
                   <img
@@ -542,7 +475,9 @@ const About = () => {
                     src="/static/images/e20.png"
                     alt=""
                   />
-                  <b className=" cursor-pointer" onClick={tabAnother1}>2018</b>
+                  <b className=" cursor-pointer" onClick={tabAnother1}>
+                    2018
+                  </b>
                 </div>
                 <div className="about801">
                   <img
@@ -551,7 +486,11 @@ const About = () => {
                     src="/static/images/e20.png"
                     alt=""
                   />
-                  <b className=" cursor-pointer" onClick={tabAnother2} id="2019">
+                  <b
+                    className=" cursor-pointer"
+                    onClick={tabAnother2}
+                    id="2019"
+                  >
                     2019
                   </b>
                 </div>
@@ -562,7 +501,11 @@ const About = () => {
                     src="/static/images/e20.png"
                     alt=""
                   />
-                  <b className=" cursor-pointer" onClick={tabAnother3} id="2020">
+                  <b
+                    className=" cursor-pointer"
+                    onClick={tabAnother3}
+                    id="2020"
+                  >
                     2020
                   </b>
                 </div>
@@ -573,7 +516,11 @@ const About = () => {
                     src="/static/images/e20.png"
                     alt=""
                   />
-                  <b className=" cursor-pointer" onClick={tabAnother4} id="2021">
+                  <b
+                    className=" cursor-pointer"
+                    onClick={tabAnother4}
+                    id="2021"
+                  >
                     2021
                   </b>
                 </div>
@@ -584,7 +531,11 @@ const About = () => {
                     src="/static/images/e20.png"
                     alt=""
                   />
-                  <b className=" cursor-pointer" onClick={tabAnother5} id="2022">
+                  <b
+                    className=" cursor-pointer"
+                    onClick={tabAnother5}
+                    id="2022"
+                  >
                     2022
                   </b>
                 </div>
@@ -595,7 +546,11 @@ const About = () => {
                     src="/static/images/e20.png"
                     alt=""
                   />
-                  <b className=" cursor-pointer" onClick={tabAnother6} id="2023">
+                  <b
+                    className=" cursor-pointer"
+                    onClick={tabAnother6}
+                    id="2023"
+                  >
                     2023
                   </b>
                 </div>
@@ -614,7 +569,7 @@ const About = () => {
               <button>Apply Now</button>
             </div>
             <div className="about-10">
-              <img src="/static/images/e17.png" alt="" />
+              <img className="sersa" src="/static/images/e17.png" alt="" />
             </div>
           </div>
         </div>
