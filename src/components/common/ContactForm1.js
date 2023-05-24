@@ -106,7 +106,7 @@ const ContactForm1 = () => {
               <div className="contactus-form__input">
                 <button>
                   Submit{" "}
-                  <img width={14} className=" inline ml-1" src={Arrow} alt="" />
+                  <img width={14} className=" inline ml-1.5" src={Arrow} alt="" />
                 </button>
               </div>
             </form>

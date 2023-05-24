@@ -1,5 +1,6 @@
 import React from "react";
 import arrow4 from '../../images/arrow4.png';
+import { NavLink } from "react-router-dom";
 const SmallApproach = () => {
   return (
     <>
@@ -9,10 +10,10 @@ const SmallApproach = () => {
             <h3>
               Elevate your Digital Identity and win more for your best customers
             </h3>
-            <button>
+          <NavLink to="/approach"><button>
               See Our Approach More{" "}
-              <img width={13} className="inline ml-2" src={arrow4} alt="" />
-            </button>
+              <img width={13} className="inline ml-1.5" src={arrow4} alt="" />
+            </button></NavLink>
           </div>
           <div className="about-10">
             <img src="/static/images/e16.png" alt="" />

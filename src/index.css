@@ -177,7 +177,6 @@ body {
   position: relative;
   top: 3px;
 }
-
 .navbar-text ul {
   display: flex;
   align-items: center;
@@ -3954,7 +3953,26 @@ form button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden !important;
+  /* position: relative; */
 }
+.box-part .broucher{
+  vertical-align: initial !important;
+}
+.splide__slide .broucher{
+  vertical-align: initial !important;
+}
+.tying img{
+  vertical-align: initial !important;
+}
+/* .tying .splide__arrow--next{
+  left: 80px !important;
+  top: 300px !important;
+}
+.tying .splide__arrow--prev{
+  top: 300px !important;
+  left: 30px !important;
+} */
 .first-partnership img {
   width: 60px;
 }
@@ -3968,7 +3986,9 @@ form button {
 .box-part1 {
   margin-left: 25px;
 }
-
+.box-part:hover{
+  background-color: #085881;
+}
 .first-partnership h3 {
   color: #101010;
   font-size: 35px;
@@ -4000,7 +4020,16 @@ form button {
   font-weight: 500;
   margin-top: 22px;
 }
-
+.box-part:hover h4{
+   color: #ffffff;
+   opacity: 1;
+}
+.box-part:hover p{
+  color: #FFFFFF;
+}
+.box-part:hover button{
+  color: #FFFFFF;
+}
 .partnets-stories {
   background-color: #ffffff;
   padding: 60px 100px;
@@ -4667,7 +4696,7 @@ form button {
 
 .indu-box {
   background-color: #f4f5ff;
-  height: 170px;
+  height: 180px;
   max-width: 275px;
   width: 100%;
   padding: 30px 0px;
@@ -4689,7 +4718,12 @@ form button {
   /* font-family: "Value Sans Medium" !important; */
   font-size: 15.5px;
 }
-
+.indu-box:hover{
+  background-color: #085881;
+}
+.indu-box:hover p{
+  color: #FFFFFF;
+}
 .mrs1 {
   margin-right: -40px;
 }
@@ -6797,7 +6831,7 @@ form button {
 .position-nav p {
   color: #202020;
   opacity: 0.9;
-  /* font-family: "Value Sans Medium" !important; */
+  cursor: pointer;
   font-size: 21.5px;
   font-weight: 500;
   margin: 0px 40px;
@@ -7004,6 +7038,9 @@ form button {
   opacity: 0.5;
   margin: 0px 60px;
   margin-top: 40px;
+}
+.indus-trust{
+  visibility: hidden;
 }
 /* ==================our approach css end=================== */
 /* ============home changes css==================== */
@@ -8537,6 +8574,16 @@ form button {
   color: #404040;
   margin-top: 15px;
   line-height: 24px;
+}
+.white-level-box:hover{
+  background-color: #085881;
+}
+.white-level-box:hover h3{
+  color: #FFFFFF;
+  opacity: 1;
+}
+.white-level-box:hover p{
+  color: #FFFFFF;
 }
 .white-soni{
   max-width: 30vw;

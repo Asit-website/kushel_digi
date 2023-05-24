@@ -307,7 +307,7 @@ const About = () => {
                 there. Our proven website process ensures a seamless workflow
                 for our clients and our team.
               </p>
-              <button>See Our Approach More <img width={14} className=" inline ml-1.5" src={arrow} alt="" /> </button>
+             <NavLink to="/approach"><button>See Our Approach More <img width={14} className=" inline ml-1.5" src={arrow} alt="" /> </button></NavLink>
             </div>
           </div>
           <div className="office-flex mt-5">
@@ -318,7 +318,7 @@ const About = () => {
                 there. Our proven website process ensures a seamless workflow
                 for our clients and our team.
               </p>
-              <button>See Our Approach More <img width={14} className=" inline ml-1.5" src={arrow} alt="" /> </button>
+             <NavLink to="/approach"><button>See Our Approach More <img width={14} className=" inline ml-1.5" src={arrow} alt="" /> </button></NavLink>
             </div>
             <div className="office-flex2">
                 <img src="/static/images/e15.png" alt="" />

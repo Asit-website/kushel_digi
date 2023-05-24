@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import whykushle from "../images/whyKushle.png";
 import broucher from "../images/broucher.png";
 import broucher1 from "../images/broucher1.png";
@@ -32,7 +32,16 @@ import {
   AccordionItemPanel,
 } from 'react-accessible-accordion';
 import arrow1 from '../images/arrow1.png';
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import pantra from '../images/pantra.png';
+
 const OurPartner = () => {
+  const [hovered, setHovered] = useState(false);
+  const [hovered2, setHovered2] = useState(false);
+  const [hovered3, setHovered3] = useState(false);
+  const [hovered4, setHovered4] = useState(false);
+  const [hovered5, setHovered5] = useState(false);
+  const [hovered6, setHovered6] = useState(false);
   return (
     <>
       <div className="ser-main">
@@ -263,13 +272,73 @@ const OurPartner = () => {
             <h3>
               Kushel Digi <br /> Partnership <br /> Opportunities
             </h3>
-            {/* <div className="flex items-center w-full">
-                <img src={dark} alt="" />
-                <img className="ml-2" src={putki} alt="" />
-                <img className="ml-2" src={dark1} alt="" />
-            </div> */}
           </div>
-          <div className="second-partnership">
+          <div className="second-partnership w-full">
+          <Splide 
+             className="w-full tying"
+             aria-label="Our Services"
+                options={{
+                  perPage:1,
+                  perMove: 1,
+                  autoplay: true,
+                  pauseOnHover: true,
+                  type: "loop",
+                  interval: 2200,
+                  drag: true,
+                }}
+          >
+           <SplideSlide>
+            <div className="card-part flex items-center justify-center">
+              <div className="box-part"
+                onMouseEnter={()=> setHovered(true)}
+                onMouseLeave={()=> setHovered(false)}
+              >
+                <h4>Solution Partners</h4>
+                <p>
+                  Lorem ipsum is simply dummy text of the printing Typesetting
+                  industry. lorem ipsum has been the industry’s standard dummy
+                  text ever since the 1500s, an unknown printer took a gallery.
+                </p>
+                <button>
+                  Download Brouchers{" "}
+                  <img width={15} className="inline ml-1 broucher" src={hovered ? broucher : broucher1} alt="" />
+                </button>
+              </div>
+              <div className="box-part box-part1"
+                  onMouseEnter={()=> setHovered2(true)}
+                onMouseLeave={()=> setHovered2(false)}
+              >
+                <h4>Distributors</h4>
+                <p>
+                  Lorem ipsum is simply dummy text of the printing Typesetting
+                  industry. lorem ipsum has been the industry’s standard dummy
+                  text ever since the 1500s, an unknown printer took a gallery.
+                </p>
+                <button>
+                  {" "}
+                  Download Brouchers{" "}
+                  <img width={15} className="inline ml-1" src={hovered2 ? broucher : broucher1} alt="" />
+                </button>
+              </div>
+              <div className="box-part box-part1"
+                 onMouseEnter={()=> setHovered3(true)}
+                onMouseLeave={()=> setHovered3(false)}
+              >
+                <h4>Master Agents</h4>
+                <p>
+                  Lorem ipsum is simply dummy text of the printing Typesetting
+                  industry. lorem ipsum has been the industry’s standard dummy
+                  text ever since the 1500s, an unknown printer took a gallery.
+                </p>
+                <button>
+                  {" "}
+                  Download Brouchers{" "}
+                  <img width={15} className="inline ml-1" src={hovered3 ? broucher : broucher1} alt="" />
+                </button>
+              </div>
+            </div>
+            </SplideSlide>
+            <SplideSlide>
             <div className="card-part flex items-center justify-center">
               <div className="box-part">
                 <h4>Solution Partners</h4>
@@ -310,6 +379,8 @@ const OurPartner = () => {
                 </button>
               </div>
             </div>
+            </SplideSlide>
+            </Splide>
           </div>
         </div>
 
@@ -500,9 +571,6 @@ const OurPartner = () => {
         <div className='flex items-start justify-center discusion-form discusion-form1'>
 
           <div className="w-full  mrs mrs1">
-
-           
-
               <h3>Let’s Discuss your Project</h3>
               <form action="">
                 <div className=" flex items-start common-form">
@@ -532,9 +600,6 @@ const OurPartner = () => {
 
           </div>
           <div className='w-full   loofs'>
-            {/* <h3>How can we help?</h3>
-           <p>Are you looking for a reliable mobile application development company? Contact our expert team — we will help your business build a successful mobile strategy and create convenient omnichannel experience for all your customers and clients.</p>
-           <button>Let’s Talk <img className="tih" src={arrow1} alt="" /></button> */}
             <div className="loofs-sect">
               <h2>ENJOY WORKING WITH AN EXPERIENCED AND CREATIVE TEAM. LET’S TALK.</h2>
               <button>Want to join us <img width={12} className="inline ml-1" src={arrow3} alt="arrow3" /></button>

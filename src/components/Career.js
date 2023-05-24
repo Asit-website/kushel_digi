@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import arrow from "../images/arrow.png";
 import lonia from "../images/lonia.png";
 import lastdate4 from "../images/lasdate4.png";
@@ -8,6 +8,44 @@ import fiking3 from "../images/fiking3.png";
 import ContactForm1 from "./common/ContactForm1";
 import SmallApproach from "./common/SmallApproach";
 const Career = () => {
+  const [dev,setDev] = useState(1);
+  const menuTab = () =>{
+    console.log("menu");
+    setDev(1);
+    document.getElementById("kk").style.color = "#085881";
+    document.getElementById("kk").style.borderBottom = "2px solid #085881";
+
+    document.getElementById("kk1").style.color = "#202020";
+    document.getElementById("kk1").style.borderBottom = "none";
+
+    document.getElementById("kk2").style.color = "#202020";
+    document.getElementById("kk2").style.borderBottom = "none";
+  }
+  const menuTab1 = () =>{
+    console.log("menu");
+    setDev(2);
+    document.getElementById("kk").style.color = "#202020";
+    document.getElementById("kk").style.borderBottom = "none";
+
+    document.getElementById("kk1").style.color = "#085881";
+    document.getElementById("kk1").style.borderBottom = "2px solid #085881";
+
+    document.getElementById("kk2").style.color = "#202020";
+    document.getElementById("kk2").style.borderBottom = "none";
+  }
+  const menuTab2 = () =>{
+    console.log("menu");
+    setDev(3);
+
+    document.getElementById("kk").style.color = "#202020";
+    document.getElementById("kk").style.borderBottom = "none";
+
+    document.getElementById("kk1").style.color = "#202020";
+    document.getElementById("kk1").style.borderBottom = "none";
+
+    document.getElementById("kk2").style.color = "#085881";
+    document.getElementById("kk2").style.borderBottom = "2px solid #085881";
+  }
   return (
     <>
       <div className="ser-main">
@@ -77,12 +115,14 @@ const Career = () => {
         <div className="open-position">
           <h3>Open Positions</h3>
           <div className="position-nav">
-            <p className="pos-menu">Developer</p>
-            <p className="pos-menu">Designer</p>
-            <p className="pos-menu">Marketing</p>
+            <p id="kk" onClick={menuTab} className="pos-menu pos-menu1">Developer</p>
+            <p id="kk1" onClick={menuTab1} className="pos-menu">Designer</p>
+            <p id="kk2" onClick={menuTab2} className="pos-menu">Marketing</p>
           </div>
           <div className="position-sys">
-          <div className="pstif pstif1">
+          {
+            dev === 1 && (
+              <div className="pstif pstif1">
             <div className="posify">
               <div className="posify1">
                 <h4>PHP Developer</h4>
@@ -97,7 +137,11 @@ const Career = () => {
             </div>
             <hr className="hr-t" />
             </div>
-            <div className="pstif">
+            )
+          }
+          {
+            dev === 2 && (
+              <div className="pstif">
             <div className="posify">
               <div className="posify1">
                 <h4>React Native Developer</h4>
@@ -112,7 +156,11 @@ const Career = () => {
             </div>
             <hr className="hr-t" />
             </div>
-            <div className="pstif">
+            )
+          }
+           {
+            dev === 3 && (
+              <div className="pstif">
             <div className="posify">
               <div className="posify1">
                 <h4>Sr. iOS Developer</h4>
@@ -127,6 +175,9 @@ const Career = () => {
             </div>
             <hr className="hr-t" />
             </div>
+            )
+           } 
+           
           </div>
         </div>
          <SmallApproach/>

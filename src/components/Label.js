@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import approachda from "../images/approchda.png";
 import arrow4 from "../images/arrow4.png";
 // import key from '../images/key.png';
@@ -35,8 +35,16 @@ import youtube from "../images/youtubeicon.png";
 // import { Pagination } from "swiper";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-
+import ponit1 from '../images/ponit1.png';
+import ponit2 from '../images/ponit2.png';
+import ponit3 from '../images/ponit3.png';
+import ponit4 from '../images/ponit4.png';
+import laser from '../images/laser.png';
 const Label = () => {
+  const [hovered, setHovered] = useState(false);
+  const [hovered2, setHovered2] = useState(false);
+  const [hovered3, setHovered3] = useState(false);
+  const [hovered4, setHovered4] = useState(false);
   return (
     <>
       <div className="ser-main">
@@ -115,8 +123,11 @@ const Label = () => {
           <img className="white-sis" src={androidSis} alt="" />
           <div className="white-label-cards mt-10">
             <div className="white-level-card">
-              <div className="white-level-box">
-                <img src={label} alt="" />
+              <div className="white-level-box"
+                onMouseEnter={()=> setHovered(true)}
+                onMouseLeave={()=> setHovered(false)}
+              >
+                <img src={hovered ? laser : ponit1 } alt="" />
                 <h3>Greater Scalability</h3>
                 <p>
                   White label services can help you scale your offerings by
@@ -125,16 +136,22 @@ const Label = () => {
                   growth mutually.
                 </p>
               </div>
-              <div className="white-level-box">
-                <img src={label} alt="" />
+              <div className="white-level-box"
+                onMouseEnter={()=> setHovered2(true)}
+                onMouseLeave={()=> setHovered2(false)}
+              >
+                <img src={hovered2 ? ponit2 : label} alt="" />
                 <h3>Improved Profitability</h3>
                 <p>
                   All the types of white label partnerships help you increase
                   your profits with no or minimal investment.
                 </p>
               </div>
-              <div className="white-level-box">
-                <img src={label1} alt="" />
+              <div className="white-level-box"
+                onMouseEnter={()=> setHovered3(true)}
+                onMouseLeave={()=> setHovered3(false)}
+              >
+                <img src={hovered3 ? ponit3 : label1} alt="" />
                 <h3>Greater focus on <br />
 core expertise</h3>
                 <p>
@@ -142,8 +159,11 @@ core expertise</h3>
 
                 </p>
               </div>
-              <div className="white-level-box">
-                <img src={label2} alt="" />
+              <div className="white-level-box"
+                onMouseEnter={()=> setHovered4(true)}
+                onMouseLeave={()=> setHovered4(false)}
+              >
+                <img src={hovered4 ? ponit4 : label2} alt="" />
                 <h3>Higher Client retention </h3>
                 <p>
                 When you offer a wide range of services to the clients, you would be able to enjoy a higher retention rate as they would keep coming back to you again and again for different services.
