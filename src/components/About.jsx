@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 import SmallApproach from "./common/SmallApproach";
 import asit from "../images/asit.png";
 import chirag from "../images/chirag.png";
-import arrow from '../images/arrow.png';
-import sijo1 from '../images/sijo.png';
+import arrow from "../images/arrow.png";
+import sijo1 from "../images/sijo.png";
 const About = () => {
   const [tab, setTab] = useState(1);
 
@@ -307,21 +307,41 @@ const About = () => {
                 there. Our proven website process ensures a seamless workflow
                 for our clients and our team.
               </p>
-             <NavLink to="/approach"><button>See Our Approach More <img width={14} className=" inline ml-1.5" src={arrow} alt="" /> </button></NavLink>
+              <NavLink to="/approach">
+                <button>
+                  See Our Approach More{" "}
+                  <img
+                    width={14}
+                    className=" inline ml-1.5"
+                    src={arrow}
+                    alt=""
+                  />{" "}
+                </button>
+              </NavLink>
             </div>
           </div>
           <div className="office-flex mt-5">
             <div className="office-flex1">
-            <h2>Our process</h2>
+              <h2>Our process</h2>
               <p>
                 We don’t just put thought into what we build but also how we get
                 there. Our proven website process ensures a seamless workflow
                 for our clients and our team.
               </p>
-             <NavLink to="/approach"><button>See Our Approach More <img width={14} className=" inline ml-1.5" src={arrow} alt="" /> </button></NavLink>
+              <NavLink to="/approach">
+                <button>
+                  See Our Approach More{" "}
+                  <img
+                    width={14}
+                    className=" inline ml-1.5"
+                    src={arrow}
+                    alt=""
+                  />{" "}
+                </button>
+              </NavLink>
             </div>
             <div className="office-flex2">
-                <img src="/static/images/e15.png" alt="" />
+              <img src="/static/images/e15.png" alt="" />
             </div>
           </div>
         </div>
@@ -335,10 +355,10 @@ const About = () => {
                   <b className="font-bold mb-2">2017</b>
                   <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
                   <p className="started">
-                    We started with just 10 employees working passionately with
-                    a vision to grow. With utmost dedication, we bagged our
-                    first brand project within a month of our incorporation. Set
-                    the grounds for success and unprecedented opportunities.
+                    With only 10 people at first, we worked diligently with the
+                    intention of expanding. Within a month of our organisation,
+                    we successfully completed our first brand project with the
+                    best attention.
                   </p>
                 </div>
                 <div className="about81">
@@ -351,12 +371,12 @@ const About = () => {
                 <div className="about8">
                   <h3 className="mb-1">Our History</h3>
                   <b className="font-bold mb-2">2018</b>
-                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                  <p className="started">
-                    We started with just 10 employees working passionately with
-                    a vision to grow. With utmost dedication, we bagged our
-                    first brand project within a month of our incorporation. Set
-                    the grounds for success and unprecedented opportunities.
+                  {/* <p  className="mb-2 mt-2 founded founded1">Kushel digi is founded</p> */}
+                  <p className="started mt-4">
+                    We hired more motivated staff members. By setting up
+                    favourable circumstances for success and remarkable
+                    possibilities. We completed a number of projects
+                    successfully.
                   </p>
                 </div>
                 <div className="about81">
@@ -370,12 +390,10 @@ const About = () => {
                 <div className="about8">
                   <h3 className="mb-1">Our History</h3>
                   <b className="font-bold mb-2">2019</b>
-                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                  <p className="started">
-                    We started with just 10 employees working passionately with
-                    a vision to grow. With utmost dedication, we bagged our
-                    first brand project within a month of our incorporation. Set
-                    the grounds for success and unprecedented opportunities.
+                  {/* <p className="mb-2 mt-2 founded">Kushel digi is founded</p> */}
+                  <p className="started mt-4">
+                    Many new services were added, and the best technology was
+                    used to provide these services.
                   </p>
                 </div>
                 <div className="about81">
@@ -389,12 +407,11 @@ const About = () => {
                 <div className="about8">
                   <h3 className="mb-1">Our History</h3>
                   <b className="font-bold mb-2">2020</b>
-                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                  <p className="started">
-                    We started with just 10 employees working passionately with
-                    a vision to grow. With utmost dedication, we bagged our
-                    first brand project within a month of our incorporation. Set
-                    the grounds for success and unprecedented opportunities.
+                  {/* <p className="mb-2 mt-2 founded">Kushel digi is founded</p> */}
+                  <p className="started mt-4">
+                    We created social media profiles for our website, gained
+                    some followers, increased our online activity, and made an
+                    effort to get as close as possible to our clients.
                   </p>
                 </div>
                 <div className="about81">
@@ -408,12 +425,10 @@ const About = () => {
                 <div className="about8">
                   <h3 className="mb-1">Our History</h3>
                   <b className="font-bold mb-2">2021</b>
-                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                  <p className="started">
-                    We started with just 10 employees working passionately with
-                    a vision to grow. With utmost dedication, we bagged our
-                    first brand project within a month of our incorporation. Set
-                    the grounds for success and unprecedented opportunities.
+                  {/* <p className="mb-2 mt-2 founded">Kushel digi is founded</p> */}
+                  <p className="started mt-4">
+                    In spite of the pandemic, we continued to grow and added
+                    more staff members with work-from-home arrangements.
                   </p>
                 </div>
                 <div className="about81">
@@ -427,12 +442,11 @@ const About = () => {
                 <div className="about8">
                   <h3 className="mb-1">Our History</h3>
                   <b className="font-bold mb-2">2022</b>
-                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                  <p className="started">
-                    We started with just 10 employees working passionately with
-                    a vision to grow. With utmost dedication, we bagged our
-                    first brand project within a month of our incorporation. Set
-                    the grounds for success and unprecedented opportunities.
+                  {/* <p className="mb-2 mt-2 founded">Kushel digi is founded</p> */}
+                  <p className="started mt-4">
+                    More work-from-home activities in a year when the pandemic
+                    continues. Appointed new employees through online
+                    applications.
                   </p>
                 </div>
                 <div className="about81">
@@ -446,12 +460,11 @@ const About = () => {
                 <div className="about8">
                   <h3 className="mb-1">Our History</h3>
                   <b className="font-bold mb-2">2023</b>
-                  <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
-                  <p className="started">
-                    We started with just 10 employees working passionately with
-                    a vision to grow. With utmost dedication, we bagged our
-                    first brand project within a month of our incorporation. Set
-                    the grounds for success and unprecedented opportunities.
+                  {/* <p className="mb-2 mt-2 founded">Kushel digi is founded</p> */}
+                  <p className="started mt-4">
+                    We are implementing a lot of new improvements this year in
+                    the business as we work to deliver the best services and
+                    demonstrate flawless growth.
                   </p>
                 </div>
                 <div className="about81">

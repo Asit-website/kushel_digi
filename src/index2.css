@@ -294,6 +294,7 @@ line-height: 46px;
     position: relative;
     width: 100%;
     z-index: 5;
+    cursor: pointer;
     /* height: 320px; */
 }
 .about7 img{

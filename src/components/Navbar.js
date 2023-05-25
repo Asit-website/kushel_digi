@@ -144,12 +144,12 @@ const Navbar = () => {
           <div className="second-header flex items-center">
             <div className="flex items-center">
               <img src={india} alt="alt" />
-              <p className="ml-2">+ 91 9045301702</p>
+              <p className="ml-2">+91-9045-301-702</p>
             </div>
 
             <div className="flex items-center ml-10">
               <img src="/static/images/c1.png" alt="alt" />
-              <p className="ml-2">+1 585 566 2070</p>
+              <p className="ml-2">+1-585-566-2070</p>
             </div>
           </div>
         </header>
