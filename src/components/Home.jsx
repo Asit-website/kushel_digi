@@ -913,7 +913,7 @@ const Home = () => {
         <div className="home6 mb-16 py-14">
           <div className="home61 px-24">
             <div className="home611 mb-8 text-center">
-              <h1 className="font-bold text-gray-700">OUR WORKING PROCESS</h1>
+              <h1 className="font-bold text-gray-700">Our Working Process</h1>
             </div>
             <div className="home612">
               <div className="home6122">

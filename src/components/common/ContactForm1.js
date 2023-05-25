@@ -39,10 +39,9 @@ const ContactForm1 = () => {
       <div className="contactus">
         <div className="contactus-container__left">
           <div className="contactus-heading">
-            <h2>Let’s Discuss Your Project Today</h2>
+            <h2>Want to work with us</h2>
             <p>
-              Please fill in the form and let’s chat understand how we can help
-              you better
+               We believe in having intelligent conversation and intelligent conversation can lead to great things
             </p>
           </div>
           <div className="contactus-form mt-8">
@@ -81,12 +80,12 @@ const ContactForm1 = () => {
                   value={value.service}
                 >
                   <option>Service Required</option>
-                  <option>Mobile App Development</option>
-                  <option>E - Commerce Solutions</option>
-                  <option>Graphic Design</option>
-                  <option>Web development</option>
                   <option>UI/UX Design</option>
+                  <option>E - Commerce Solutions</option>
+                  <option>Web development</option>
+                  <option>Mobile App Development</option>
                   <option>Digital Marketing</option>
+                  <option>Graphic Design</option>
                   <option>Staff Augmntation</option>
                 </select>
               </div>

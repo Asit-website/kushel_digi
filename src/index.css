@@ -632,7 +632,13 @@ body {
   height: 100%;
   width: 100%;
 }
-
+.loc-section .kustar{
+  text-transform: lowercase !important;
+}
+.mpas{
+  height: 435px;
+  max-height: 100%;
+}
 .contact-sect {
   position: absolute;
   top: 50%;
@@ -650,7 +656,7 @@ body {
 
 .contact-sect p {
   font-weight: 400;
-  text-transform: capitalize;
+  /* text-transform: ; */
   font-size: 19.5px;
   width: 30em;
   line-height: 18px;
@@ -672,15 +678,17 @@ body {
   line-height: 38px;
   color: #202020;
   font-style: normal;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .first-need p {
   font-weight: 500;
   color: #666b6b;
   font-size: 19px;
-  text-transform: capitalize;
   margin-top: 10px;
+}
+.first-need span{
+  color: #3e73fb;
 }
 
 .first-need form {
@@ -3636,7 +3644,7 @@ form button {
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500 !important;
   color: #ffffff;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .foot11 h5 {

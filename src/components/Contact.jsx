@@ -21,13 +21,14 @@ const Contact = () => {
     document.getElementById("def").style.borderBottom = "3px solid #085881";
   };
 
-  const [val,setVal] = useState({
-    name1:"",
-    email1:"",
-    phone1:"",
-    service1:"",
-    message1:""
-  })
+  const [val, setVal] = useState({
+    company1:"",
+    name1: "",
+    email1: "",
+    phone1: "",
+    service1: "",
+    message1: "",
+  });
 
   const handleChange = (e) => {
     setVal({ ...val, [e.target.name]: e.target.value });
@@ -43,14 +44,16 @@ const Contact = () => {
       },
       body: JSON.stringify(val),
     });
+
     const data = await res.json();
     alert(data.message);
     setVal({
-      name1:"",
-      email1:"",
-      phone1:"",
-      service1:"",
-      message1:"",
+      company1:"",
+      name1: "",
+      email1: "",
+      phone1: "",
+      service1: "",
+      message1: "",
     });
   };
   return (
@@ -66,38 +69,64 @@ const Contact = () => {
 
         <div className="need-help">
           <div className="first-need">
-            <h2>
-              Feel free to get in touch contact <br />
-              with us.
-            </h2>
-            <p>Reach out to the world most reliable IT services. </p>
+            <h2>Hi.Tell us about your project.</h2>
+            <p>
+              Fill out our form below or <span>send us an email</span>.
+            </p>
             <form onSubmit={handleSubmit}>
               <div className="input-group">
-                <input name="name1" value={val.name1} onChange={handleChange} type="text" placeholder="Name*" />
-                <input name="email1" value={val.email1} onChange={handleChange} className="inp" type="email" placeholder="Email*" />
+                <input
+                  name="company1"
+                  value={val.company1}
+                  onChange={handleChange}
+                  type="text"
+                  placeholder="Company name*"
+                />   
               </div>
               <div className="input-group input-group1">
-                <input name="phone1" value={val.phone1} onChange={handleChange} type="text" placeholder="Phone*" />
-                {/* <input
-                  className="inp"
+                <input
+                  name="name1"
+                  value={val.name1}
+                  onChange={handleChange}
                   type="text"
-                  placeholder="Service Required*"
-                /> */}
-                <select  className="inp" name="service1" value={val.service1} onChange={handleChange}>
-                <option>Service Required</option>
-                  <option>Mobile App Development</option>
-                  <option>E - Commerce Solutions</option>
-                  <option>Graphic Design</option>
-                  <option>Web development</option>
+                  placeholder="Your name*"
+                />
+                <input
+                  name="email1"
+                  value={val.email1}
+                  onChange={handleChange}
+                  className="inp"
+                  type="email"
+                  placeholder="Email address*"
+                />
+              </div>
+              <div className="input-group input-group1">
+                <input
+                  name="phone1"
+                  value={val.phone1}
+                  onChange={handleChange}
+                  type="text"
+                  placeholder="Phone number*"
+                />
+                <select
+                  className="inp"
+                  name="service1"
+                  value={val.service1}
+                  onChange={handleChange}
+                >
+                  <option>Service Required</option>
                   <option>UI/UX Design</option>
+                  <option>E - Commerce Solutions</option>
+                  <option>Web development</option>
+                  <option>Mobile App Development</option>
                   <option>Digital Marketing</option>
+                  <option>Graphic Design</option>
                   <option>Staff Augmntation</option>
                 </select>
               </div>
-
               <div className="input-group input-group1">
                 <textarea
-                  placeholder="please describe what you need"
+                  placeholder="Tell us about your project (Scope, timeline, budget, etc.)"
                   name="message1"
                   value={val.message1}
                   onChange={handleChange}
@@ -125,21 +154,23 @@ const Contact = () => {
                     <img src={cuf1} alt="loc" />
                     <div className="loc-para">
                       <h3>OUR LOCATION</h3>
-                      <p>g-9,first Floor, Sector 63, Noida</p>
+                      <p>g-9,first Floor, Sector 63, Noida, India</p>
                     </div>
                   </div>
+                  <a href="mailto:info@kusheldigi.com">
                   <div className="loc-section loc-section1">
                     <img src={cuf2} alt="email" />
                     <div className="loc-para">
                       <h3>sEND US MAIL</h3>
-                      <p>info@kusheldigi.com</p>
+                      <p className="kustar">info@kusheldigi.com</p>
                     </div>
                   </div>
+                  </a>
                   <div className="loc-section loc-section1">
                     <img src={cuf3} alt="call" />
                     <div className="loc-para">
                       <h3>CALL US</h3>
-                      <p>+1 585 566 2070, +91 9045301702</p>
+                      <p>+1-585-566-2070, +91-9045-301-702</p>
                     </div>
                   </div>
                 </div>
