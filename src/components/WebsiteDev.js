@@ -33,6 +33,14 @@ import dec7 from "../images/dec7.png";
 import dilkush from "../images/dilkush.png";
 import punto from '../images/punto.png';
 import process2 from '../images/process2.png';
+import posis2 from "../images/posis2.png";
+import posis3 from "../images/posis3.png";
+import posis4 from "../images/posis4.png";
+import posis5 from "../images/posis5.png";
+import posis6 from "../images/posis6.png";
+import posis7 from "../images/posis7.png";
+import posis8 from "../images/posis8.png";
+import posis10 from '../images/posis10.png';
 import {
   Accordion,
   AccordionItem,
@@ -50,6 +58,15 @@ const WebsiteDev = () => {
   const handleChange = () => {
     setStart(!start);
   };
+
+  const [hovered, setHovered] = useState(false);
+  const [hovered2, setHovered2] = useState(false);
+  const [hovered3, setHovered3] = useState(false);
+  const [hovered4, setHovered4] = useState(false);
+  const [hovered5, setHovered5] = useState(false);
+  const [hovered6, setHovered6] = useState(false);
+  const [hovered7, setHovered7] = useState(false);
+  const [hovered8, setHovered8] = useState(false);
   return (
     <>
       <div className="ser-main">
@@ -289,40 +306,64 @@ const WebsiteDev = () => {
           </p>
           <div className="indu-fard mt-8">
             <div className="indu-card">
-              <div className="indu-box">
-                <img src={dilkush} alt="" />
+              <div className="indu-box"
+                onMouseEnter={()=> setHovered(true)}
+                onMouseLeave={()=> setHovered(false)}
+              >
+                <img src={hovered ? posis10 : dilkush} alt="" />
                 <p>Healthcare & Wellness</p>
               </div>
-              <div className="indu-box">
-                <img src={dec1} alt="" />
+              <div className="indu-box"
+                 onMouseEnter={() => setHovered2(true)}
+                onMouseLeave={()=> setHovered2(false)}
+              >
+                <img src={hovered2 ? posis2 : dec1} alt="" />
                 <p>Real Estate</p>
               </div>
-              <div className="indu-box">
-                <img src={dec2} alt="" />
+              <div className="indu-box"
+                  onMouseEnter={()=> setHovered3(true)}
+                  onMouseLeave={()=> setHovered3(false)}
+              >
+                <img src={hovered3 ? posis3 : dec2} alt="" />
                 <p>IT, Software & Internet Marketing</p>
               </div>
-              <div className="indu-box">
-                <img src={dec3} alt="" />
+              <div className="indu-box"
+                onMouseEnter={()=> setHovered4(true)}
+                onMouseLeave={()=> setHovered4(false)}
+              >
+                <img src={hovered4 ? posis4 : dec3} alt="" />
                 <p>Finance & Banking</p>
               </div>
             </div>
             <div className="indu-card">
-              <div className="indu-box">
-                <img src={dec4} alt="" />
+              <div className="indu-box"
+                 onMouseEnter={()=> setHovered5(true)}
+                onMouseLeave={() => setHovered5(false)}
+              >
+                <img src={hovered5 ? posis5 : dec4} alt="" />
                 <p>
                   Government & Public <br /> Sector Enterprises
                 </p>
               </div>
-              <div className="indu-box">
-                <img src={dec5} alt="" />
+              <div className="indu-box"
+                  onMouseEnter={()=> setHovered6(true)}
+                onMouseLeave={()=> setHovered6(false)}
+              >
+                <img src={hovered6 ? posis6 : dec5} alt="" />
                 <p>Travel & Tour</p>
               </div>
-              <div className="indu-box">
-                <img src={dec6} alt="" />
+              <div className="indu-box"
+                 onMouseEnter={()=> setHovered7(true)}
+                onMouseLeave={()=> setHovered7(false)}
+              >
+                <img src={hovered7 ? posis7 : dec6} alt="" />
                 <p>Retail</p>
               </div>
-              <div className="indu-box">
-                <img src={dec7} alt="" />
+              <div className="indu-box"
+                  onMouseEnter={()=> setHovered8(true)}
+                onMouseLeave={()=> setHovered8(false)}
+              >
+                <img src={hovered8 ? posis8 : dec7} alt="alg" />
                 <p>SPORTS ( outdoor & indoor )</p>
               </div>
             </div>
