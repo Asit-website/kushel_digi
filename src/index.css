@@ -4727,6 +4727,7 @@ form button {
   font-size: 15.5px;
 }
 .indu-box:hover{
+  cursor: pointer;
   background-color: #085881;
 }
 .indu-box:hover p{
