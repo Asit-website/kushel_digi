@@ -1,6 +1,6 @@
 import React from 'react'
 
-const DevCard = ({imgSrc,heading,classji}) => {
+const DevCard = ({imgSrc,heading,classji,headin}) => {
     return (
         <>
             <div className="d-card py-6 px-6 mx-2 my-2">
@@ -10,10 +10,7 @@ const DevCard = ({imgSrc,heading,classji}) => {
                         <img className={classji} src={imgSrc} alt={imgSrc} />
                     </div>
                     <div className="d-card12">
-                        <p>Our ecommerce solutions deliver
-                            a seamless experience regardless
-                            of which device you browse it from
-                            at home or on the go</p>
+                        <p>{headin}</p>
                     </div>
                 </div>
             </div>

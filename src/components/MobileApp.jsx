@@ -90,12 +90,14 @@ const MobileApp = () => {
               </h3>
               <div className="deivery-date">
                 <p className="ensure ensure1">
-                  Our dedicated App development professionals are known for
+                  {/* Our dedicated App development professionals are known for
                   cutting-edge technologies, most intuitive, native, and
                   interactive apps. We believe in collaborative work to bring
                   out the best innovative and advanced mobile apps. We deliver
                   apps that are supported on modern platforms like android
-                  wearable, TV, or the web.
+                  wearable, TV, or the web. */}
+                  We have rapid thinking and coding skills. Our mobile developers create in any language you desire (native or cross-platform), with any customizations you require.
+
                 </p>
               </div>
               <NavLink to="/contact">
