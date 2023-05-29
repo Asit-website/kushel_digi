@@ -126,18 +126,21 @@ const WebsiteDev = () => {
                 Web Development Solutions <br /> To Grow The Business
               </h3>
               <p className="knowrs">
-                Known for our world-class web development services, Kushel digi
+                {/* Known for our world-class web development services, Kushel digi
                 is the best website development company for businesses looking
-                to grow their online presence and reach new audiences.
+                to grow their online presence and reach new audiences. */}
+                The look, structure, and functions of an internet site are created by a web design service. We provide freelance work for building and developing websites in PHP.
+All website owners should know that unless visitors have an enjoyable experience while on their website, they are typically likely to leave looking for a better option. There is a requirement for a website developer to draw in and hold on to clients.
+
               </p>
-              <p className="knowers1">
+              {/* <p className="knowers1">
                 We provide top-tier custom website development and application
                 development services, allowing you to create the best possible
                 online experience for your customers. Our team of skilled
                 developers is thoroughly experienced in all aspects of website
                 design and development, and we work closely with our clients to
                 ensure that each project meets their unique business needs.
-              </p>
+              </p> */}
             </div>
             <div className="development2">
               <img src={mobileJi} alt="mobileji" />

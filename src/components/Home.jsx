@@ -256,6 +256,14 @@ const Home = () => {
     document.getElementById("fourth").style.borderRadius = "20px";
   };
 
+  const headings = "We create responsive e-commerce websites that are suitable for viewing on any mobile phone."
+
+  const headings1 = "Your website will not go down due to overload from increased traffic on the correct servers."
+
+  const headings2 = "We develop the e-commerce website in accordance with the latest UX and UI standards."
+
+  let headings3 = "We ensure the app works in a staging environment to achieve smooth deployment."
+
   return (
     <>
       <div className="home-main">
@@ -265,9 +273,11 @@ const Home = () => {
               <div className="home1111">
                 <p className="welcome">Welcome to <span>Kushel Digi</span></p>
                 <h2 className="mt-0 mb-2">
-                Creating E-Commerce <br /> Experiences
+                {/* Creating E-Commerce <br /> Experiences */}
+                Transforming your company <br /> with technology
                 </h2>
-                <p className="tokin">We take the time to thoughtfully understand your brand voice and vision to deliver unmatched UX focused website design and development.</p>
+                {/* <p className="tokin">We take the time to thoughtfully understand your brand voice and vision to deliver unmatched UX focused website design and development.</p> */}
+                 <p className="tokin">We specialise in e-commerce.</p>
               </div>
               <div className="home1112 absolute">
                 <ul className="flex flex-row">
@@ -291,16 +301,18 @@ const Home = () => {
               <img src={antist} alt="about" />
               <h5 className="text-blue-500 mt-16">Who are we?</h5>
               <h3 className="mb-2">
-                We are your digital partner for innovative design and reliable
-                Web, Mobile, and Marketing solutions.
+                {/* We are your digital partner for innovative design and reliable
+                Web, Mobile, and Marketing solutions. */}
+                We are your go-to digital partner for trustworthy Web, mobile, and marketing solutions and cutting-edge design.
               </h3>
               <p className="mb-3">
-                The top-notch and preeminent Web and Mobile App Development
+                {/* The top-notch and preeminent Web and Mobile App Development
                 Company of India with its global presence in USA, Mind Inventory
                 is first-rate choice of the clients worldwide. With sheer
                 customer satisfaction in mind, we are profoundly dedicated to
                 developing highly intriguing apps that strictly meet the
-                business requirements and catering a wide spectrum of projects.
+                business requirements and catering a wide spectrum of projects. */}
+                We are steadfastly committed to fulfilling company demands and taking on a variety of projects with the goal of ensuring total customer satisfaction.
               </p>
               <NavLink to="/contact">
                 {" "}
@@ -336,9 +348,10 @@ const Home = () => {
                 <span className="font-bold m-1">OUR</span> SERVICES
               </h1>
               <p>
-                We employ quality design and development techniques as a
+                {/* We employ quality design and development techniques as a
                 foundation for the structured and systematic rapid development
-                of cutting-edge technology solutions.
+                of cutting-edge technology solutions. */}
+                We use quality design and development methods as the foundation for the organised, systematic, and speedy creation of cutting-edge technology solutions.
               </p>
             </div>
             <div className="home312 homanta">
@@ -452,9 +465,10 @@ const Home = () => {
                 <span className="font-bold">TECHNOLOGIES</span> WE WORK WITH
               </h1>
               <p>
-                Kusheldigi is evolving into an international contender in
+                {/* Kusheldigi is evolving into an international contender in
                 software engineering, with broad expertise in all areas required
-                for credible software development.
+                for credible software development. */}
+                Kusheldigi is developing into a major player in the field of e-commerce, with deep knowledge in every field necessary for reliable e-commerce development.
               </p>
             </div>
             <div className="home412 home456 flex justify-center items-center">
@@ -935,10 +949,11 @@ const Home = () => {
                 heading={tag}
                 classji="the"
                 imgSrc={"/static/images/a10.png"}
+                headin={headings}
               />
-              <DevCard heading={tag1} imgSrc={"/static/images/a11.png"} />
-              <DevCard heading={tag2} imgSrc={"/static/images/a12.png"} />
-              <DevCard heading={tag3} imgSrc={"/static/images/a13.png"} />
+              <DevCard headin={headings1} heading={tag1} imgSrc={"/static/images/a11.png"} />
+              <DevCard headin={headings2} heading={tag2} imgSrc={"/static/images/a12.png"} />
+              <DevCard headin={headings3} heading={tag3} imgSrc={"/static/images/a13.png"} />
               {/* <DevCard heading={tag4} imgSrc={"/static/images/a14.png"} /> */}
             </div>
           </div>
@@ -1055,9 +1070,11 @@ const Home = () => {
               </div>
               <div className="para-ex">
                 <p>
-                  Lorem ipsum is simply dummy text of the printing & Typesetting
+                  {/* Lorem ipsum is simply dummy text of the printing & Typesetting
                   industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery.
+                  text ever since the 1500s, an unknown printer took a gallery. */}
+                  We are overjoyed to have discovered Kushel Digi! They were a fantastic partner in the web development process and had a clear understanding of our goals and process. Team Kushel Digi was proactive with discussions and updates throughout the development process and found a means to effectively complete our project in record time. I not only heartily suggest the agency, but we will also keep working with them in the future.
+
                 </p>
               </div>
             </div>
@@ -1081,9 +1098,11 @@ const Home = () => {
               </div>
               <div className="para-ex">
                 <p>
-                  Lorem ipsum is simply dummy text of the printing & Typesetting
+                  {/* Lorem ipsum is simply dummy text of the printing & Typesetting
                   industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery.
+                  text ever since the 1500s, an unknown printer took a gallery. */}
+                  We are overjoyed to have discovered Kushel Digi! They were a fantastic partner in the web development process and had a clear understanding of our goals and process. Team Kushel Digi was proactive with discussions and updates throughout the development process and found a means to effectively complete our project in record time. I not only heartily suggest the agency, but we will also keep working with them in the future.
+
                 </p>
               </div>
             </div>

@@ -83,8 +83,8 @@ const Footer = () => {
               <a target='_blank' href="https://www.instagram.com/kusheldigi/"><img src={insta} alt="" /></a>
                <a target='_blank' href="https://www.facebook.com/kusheldigisolutions/"><img src={fb} alt="" /></a>
                 <img src={twiter} alt="" />
-                <img src={drible} alt="" />
-                <img src={pint} alt="" />
+                {/* <img src={drible} alt="" /> */}
+                {/* <img src={pint} alt="" /> */}
               </div>
              <div className="footer-india flex items-center">
                 <img src={india} alt="india" />

@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState,useRef} from "react";
 import whykushle from "../images/whyKushle.png";
 import broucher from "../images/broucher.png";
 import broucher1 from "../images/broucher1.png";
@@ -34,6 +34,7 @@ import {
 import arrow1 from '../images/arrow1.png';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import pantra from '../images/pantra.png';
+import { NavLink } from "react-router-dom";
 
 const OurPartner = () => {
   const [hovered, setHovered] = useState(false);
@@ -42,6 +43,94 @@ const OurPartner = () => {
   const [hovered4, setHovered4] = useState(false);
   const [hovered5, setHovered5] = useState(false);
   const [hovered6, setHovered6] = useState(false);
+
+  const ref = useRef(null);
+  const ref1 = useRef(null);
+  const ref2 = useRef(null);
+  const ref3 = useRef(null);
+
+  const ref4 = useRef(null);
+
+  const ref5 = useRef(null);
+  const ref6 = useRef(null);
+
+  const handleClick = () => {
+    ref.current?.scrollIntoView({behavior: 'smooth'});
+    document.getElementById("bff").classList.remove("paking");
+    document.getElementById("bff1").classList.add("paking");
+    document.getElementById("bff2").classList.remove("paking");
+    document.getElementById("bff3").classList.remove("paking");
+    document.getElementById("bff4").classList.remove("paking");
+    document.getElementById("bff5").classList.remove("paking");
+    document.getElementById("bff6").classList.remove("paking");
+  };
+
+  const handleClick1 = () => {
+    ref1.current?.scrollIntoView({behavior: 'smooth'});
+    // document.getElementById("sar").style.borderBottom="2px solid #3C83CB";
+    document.getElementById("bff").classList.add("paking");
+    document.getElementById("bff1").classList.remove("paking");
+    document.getElementById("bff2").classList.remove("paking");
+    document.getElementById("bff3").classList.remove("paking");
+    document.getElementById("bff4").classList.remove("paking");
+    document.getElementById("bff5").classList.remove("paking");
+    document.getElementById("bff6").classList.remove("paking");
+  };
+  const handleClick2 = () => {
+    ref2.current?.scrollIntoView({behavior: 'smooth'});
+    document.getElementById("bff").classList.remove("paking");
+    document.getElementById("bff1").classList.remove("paking");
+    document.getElementById("bff2").classList.add("paking");
+    document.getElementById("bff3").classList.remove("paking");
+    document.getElementById("bff4").classList.remove("paking");
+    document.getElementById("bff5").classList.remove("paking");
+    document.getElementById("bff6").classList.remove("paking");
+   
+  };
+
+  const handleClick3 = () => {
+    ref3.current?.scrollIntoView({behavior: 'smooth'});
+    document.getElementById("bff").classList.remove("paking");
+    document.getElementById("bff1").classList.remove("paking");
+    document.getElementById("bff2").classList.remove("paking");
+    document.getElementById("bff3").classList.add("paking");
+    document.getElementById("bff4").classList.remove("paking");
+    document.getElementById("bff5").classList.remove("paking");
+    document.getElementById("bff6").classList.remove("paking");
+  };
+
+  const handleClick4 = () => {
+    ref4.current?.scrollIntoView({behavior: 'smooth'});
+    document.getElementById("bff").classList.remove("paking");
+    document.getElementById("bff1").classList.remove("paking");
+    document.getElementById("bff2").classList.remove("paking");
+    document.getElementById("bff3").classList.remove("paking");
+    document.getElementById("bff4").classList.add("paking");
+    document.getElementById("bff5").classList.remove("paking");
+    document.getElementById("bff6").classList.remove("paking");
+  };
+
+  const handleClick5 = () => {
+    ref5.current?.scrollIntoView({behavior: 'smooth'});
+    document.getElementById("bff").classList.remove("paking");
+    document.getElementById("bff1").classList.remove("paking");
+    document.getElementById("bff2").classList.remove("paking");
+    document.getElementById("bff3").classList.remove("paking");
+    document.getElementById("bff4").classList.remove("paking");
+    document.getElementById("bff5").classList.add("paking");
+    document.getElementById("bff6").classList.remove("paking");
+  };
+
+  const handleClick6 = () => {
+    ref6.current?.scrollIntoView({behavior: 'smooth'});
+    document.getElementById("bff").classList.remove("paking");
+    document.getElementById("bff1").classList.remove("paking");
+    document.getElementById("bff2").classList.remove("paking");
+    document.getElementById("bff3").classList.remove("paking");
+    document.getElementById("bff4").classList.remove("paking");
+    document.getElementById("bff5").classList.remove("paking");
+    document.getElementById("bff6").classList.add("paking");
+  };
   return (
     <>
       <div className="ser-main">
@@ -59,17 +148,17 @@ const OurPartner = () => {
         </div>
         <div className="kushel-menu">
           <div className="flex items-center justify-around kushel-menu1">
-            <p>Why Kushel digi</p>
-            <p>our offerings</p>
-            <p>Opportunities</p>
-            <p>Partner Stories</p>
-            <p>How it works</p>
-            <p>FAQ</p>
-            <p>Our offices</p>
+           <p id="bff" className=" cursor-pointer" onClick={handleClick1}>Why Kushel digi</p>
+        <p id="bff1" className=" cursor-pointer" onClick={handleClick}>our offerings</p>
+            <p id="bff2" className=" cursor-pointer" onClick={handleClick2}>Opportunities</p>
+            <p id="bff3" className=" cursor-pointer" onClick={handleClick3}>Partner Stories</p>
+            <p id="bff4" className=" cursor-pointer" onClick={handleClick4}>How it works</p>
+            <p id="bff5" className=" cursor-pointer" onClick={handleClick5} >FAQ</p>
+            <p id="bff6" className=" cursor-pointer" onClick={handleClick6}>Our offices</p>
           </div>
           <hr className="hr-kushel" />
         </div>
-        <div className="kushel-why">
+        <div ref={ref1} className="kushel-why">
           <div className="first-why">
             <h3>Why kushel digi?</h3>
             <p>
@@ -88,7 +177,7 @@ const OurPartner = () => {
           </div>
         </div>
 
-        <div className="latest">
+        <div   className="latest">
           <div className="business-card flex-wrap">
             <div className="business-box business-box1 relative text-center cursor-pointer">
               <div className="business-card-img">
@@ -204,7 +293,7 @@ const OurPartner = () => {
           </div>
         </div>
 
-        <div className="offering">
+        <div ref={ref} className="offering">
           <h3>Our Offerings</h3>
           <div className="offer-section">
             <div className="flex items-center justify-center">
@@ -267,7 +356,7 @@ const OurPartner = () => {
           </div>
         </div>
 
-        <div className="partnership">
+        <div ref={ref2} className="partnership">
           <div className="first-partnership">
             <h3>
               Kushel Digi <br /> Partnership <br /> Opportunities
@@ -385,7 +474,7 @@ const OurPartner = () => {
         </div>
 
         {/* How It Works Section Start*/}
-        <div className="howItWorks">
+        <div ref={ref4} className="howItWorks">
           <h1>How It Works</h1>
           <div className="howItWorks-text__top">
             <p>Join the programme by clicking <br /> on the ‘Become a Partner’<br />button</p>
@@ -408,7 +497,7 @@ const OurPartner = () => {
         </div>
         {/* How It Works Section End*/}
 
-        <div className="partnets-stories">
+        <div ref={ref3} className="partnets-stories">
           <h3>PARTNERS STORIES</h3>
           <div className="partner-card">
             <div className="partner-box">
@@ -456,7 +545,7 @@ const OurPartner = () => {
           </div>
         </div>
 
-        <div className="offices">
+        <div ref={ref6} className="offices">
           <h3>Our Offices</h3>
           <div className="mt-2 picta">
             <p>Kushel digi operates in multiple offices and development centers across the globe.</p>
@@ -486,7 +575,7 @@ const OurPartner = () => {
           </div>
         </div>
 
-        <div className="home9 mb-12 home278">
+        <div ref={ref5} className="home9 mb-12 home278">
           <div className="home91 flex px-24">
             <div className="home911 text-center">
               <h2 className='font-bold text-gray-700'>JUST THE FAQs</h2>

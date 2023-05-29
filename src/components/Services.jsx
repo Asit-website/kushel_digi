@@ -110,11 +110,13 @@ const Services = () => {
               <h1 className="mt-8">Top Ecommerce Business</h1>
               <h1> Solution Providers</h1>
               <p>
-                Ecommerce solutions at Designs Raptor encompass every technical
+                {/* Ecommerce solutions at Designs Raptor encompass every technical
                 assistance ensuring that our clients attain higher traffic and
                 sales. Our Online Ecommerce Solutions can be customized to meet
                 the unique demands and various industry verticals of our clients
-                from across the globe.
+                from across the globe. */}
+                We continuously align our operations with ever-changing, tech-savvy, and cross-channel consumers. Our e-commerce solutions make things available at the right place, at the right time, and at the right price.
+
               </p>
               <NavLink to="/contact">
                 <button className="com">

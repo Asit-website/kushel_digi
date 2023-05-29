@@ -91,13 +91,15 @@ function DigitalMarketing() {
                 </div>
                 <div class="ourtalent-text__para">
                   <p>
-                    Delivering exceptional UI/UX design services is at the core
+                    {/* Delivering exceptional UI/UX design services is at the core
                     of everything we do here at kushel digi. Our skilled
                     designers understand that a successful website must engage
                     and delight visitors. Whether you need a new website design
                     or help optimizing the UI/UX of an existing website, our
                     experienced UI/UX designers have the skills and expertise to
-                    deliver results.
+                    deliver results. */}
+                    We use our years of expertise and knowledge to provide solutions for our clients that are not only performance-driven but also imaginative. We aim to execute fierce digital campaigns for our clients!
+
                   </p>
                 </div>
                 <div className="ourtalent-text__button">
