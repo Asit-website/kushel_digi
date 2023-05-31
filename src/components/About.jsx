@@ -7,6 +7,9 @@ import asit from "../images/asit.png";
 import chirag from "../images/chirag.png";
 import arrow from "../images/arrow.png";
 import sijo1 from "../images/sijo.png";
+import link from '../images/link.png';
+import young3 from '../images/young3.png';
+import github from '../images/github.png';
 const About = () => {
   const [tab, setTab] = useState(1);
 
@@ -263,18 +266,46 @@ const About = () => {
             <div className="about72">
               <div className="about7 relative">
                 <img src="/static/images/e11.png" alt="" />
-                <div className="absolute flex flex-col"></div>
+                <div className="absolute flex flex-col">
+                     <div className="chief">
+                        <h2 className="text-center">CHIEF</h2>
+                        <div className="flex linkj1  items-center justify-center">
+                          <a target="_blank" href="https://www.linkedin.com/in/shubham-gupta-digital/"><img className="linkj" src={link} alt="link" /></a>
+                          <a target="_blank" href="https://www.instagram.com/up15_wale_guptaji/"><img className="linkj" src={young3} alt="young3" /></a>
+                        </div>
+                     </div>
+                </div>
               </div>
-              {/* <h3>Chief</h3> */}
               <h4>Shubham Gupta</h4>
-              <p>(Founder)</p>
+              <p>(CEO)</p>
+            </div>
+            <div className="about72">
+              <div className="about7 relative w-full">
+                <img src={sijo1} alt="sijo1" />
+                <div className="absolute flex flex-col">
+                <div className="chief">
+                        {/* <h2 className="text-center">CHIEF</h2> */}
+                        <div className="flex linkj1  items-center justify-center">
+                          <a target="_blank" href="https://www.linkedin.com/in/sijo-jose-5b56b651/"><img className="linkj" src={link} alt="link" /></a>
+                          {/* <a target="_blank" href="https://www.instagram.com/up15_wale_guptaji/"><img className="linkj" src={young3} alt="young3" /></a> */}
+                        </div>
+                     </div>
+                </div>
+              </div>
+              <h4>Sijo Jose</h4>
+              <p>Business Development Manager</p>
             </div>
             <div className="about72">
               <div className="about7 relative w-full">
                 <img src={asit} alt="asit" />
                 <div className="absolute flex flex-col">
-                  {/* <p>Asit Mandal</p>
-                <p>Developer</p> */}
+                <div className="chief">
+                        {/* <h2 className="text-center">CHIEF</h2> */}
+                        <div className="flex linkj1  items-center justify-center">
+                          <a target="_blank" href="https://www.linkedin.com/in/asit-mandal-059152214/"><img className="linkj" src={link} alt="link" /></a>
+                          <a target="_blank" href="https://github.com/Asit-website"><img className="linkj" src={github} alt="young3" /></a>
+                        </div>
+                     </div>
                 </div>
               </div>
               <h4>Asit Mandal</h4>
@@ -283,21 +314,20 @@ const About = () => {
             <div className="about72">
               <div className="about7 relative w-full">
                 <img src={chirag} alt="" />
-                <div className="absolute flex flex-col"></div>
-              </div>
-              <h4>Chirag Negi</h4>
-              <p>Developer</p>
-            </div>
-            <div className="about72">
-              <div className="about7 relative w-full">
-                <img src={sijo1} alt="sijo1" />
                 <div className="absolute flex flex-col">
-                
+                <div className="chief">
+                        {/* <h2 className="text-center">CHIEF</h2> */}
+                        <div className="flex linkj1  items-center justify-center">
+                          <a target="_blank" href="https://www.linkedin.com/in/chirag-negi-423566255/"><img className="linkj" src={link} alt="link" /></a>
+                          <a target="_blank" href="https://www.instagram.com/chirag__2022/"><img className="linkj" src={young3} alt="young3" /></a>
+                        </div>
+                     </div>
                 </div>
               </div>
-              <h4>Sijo Jose</h4>
-              <p>Business Development Manager</p>
+              <h4>Chirag Negi</h4>
+              <p>Administrative assistant</p>
             </div>
+           
           </div>
         </div>
         <div className="about-main6">
