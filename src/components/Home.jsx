@@ -85,6 +85,7 @@ import joki8 from '../images/joki8.png';
 import sync from '../images/sync.png';
 import antist from '../images/antist.png';
 import ContactForm1 from "./common/ContactForm1";
+import abita from '../images/abita.png';
 import surup from '../images/surup.png';
 const Home = () => {
   let dev = "App";
@@ -298,7 +299,7 @@ const Home = () => {
         <div className="home2 mb-8">
           <div className="home21 px-24 flex">
             <div className="home211 mr-14">
-              <img src={antist} alt="about" />
+              <img src={abita} alt="about" />
               <h5 className="text-blue-500 mt-16">Who are we?</h5>
               <h3 className="mb-2">
                 {/* We are your digital partner for innovative design and reliable
@@ -381,7 +382,7 @@ const Home = () => {
                     fluter={sketch1}
                     react={illustrator}
                     kotlin={Photoshop}
-                    link={"uiux"}
+                    link={"ui-ux-designer-usa"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -399,7 +400,7 @@ const Home = () => {
                     c={commerce}
                     d={mag}
                     e={laravel1}
-                    link={"service"}
+                    link={"ecommerce-solutions-usa"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -417,7 +418,7 @@ const Home = () => {
                     c={wordpress1}
                     d={node1}
                     e={"React js"}
-                    link={"website"}
+                    link={"web-development-usa"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -435,7 +436,7 @@ const Home = () => {
                     c={c}
                     d={d}
                     e={e}
-                    link={"mobileApp"}
+                    link={"mobile-application-development-usa"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -465,9 +466,6 @@ const Home = () => {
                 <span className="font-bold">TECHNOLOGIES</span> WE WORK WITH
               </h1>
               <p>
-                {/* Kusheldigi is evolving into an international contender in
-                software engineering, with broad expertise in all areas required
-                for credible software development. */}
                 Kusheldigi is developing into a major player in the field of e-commerce, with deep knowledge in every field necessary for reliable e-commerce development.
               </p>
             </div>
@@ -922,8 +920,6 @@ const Home = () => {
               </div>
            </div>
         </div>
-       
-          
         <div className="home6 mb-16 py-14">
           <div className="home61 px-24">
             <div className="home611 mb-8 text-center">
@@ -936,7 +932,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         <div className="home7 mb-20">
           <div className="home71 px-44">
             <div className="home711 text-center mb-4">
@@ -958,7 +953,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         <div className="home8 mb-20 px-8">
           <h2 className="text-center">Our esteemed clients</h2>
           <p className="text-center">Pleasure to work with</p>
@@ -1027,7 +1021,6 @@ const Home = () => {
             </Splide>
           </div>
         </div>
-
         <div className="testimonials">
           <div className="first-testimonials">
             <h3 className="tas">testimonials</h3>
@@ -1111,9 +1104,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-       
-
         <div className="home-year">
           <div className="home-year1 flex items-center">
             <div className="home-year11">
@@ -1142,7 +1132,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
         <div className="home9 mb-12">
           <div className="home91 flex px-20">
             <div className="home911 text-center">
@@ -1228,9 +1217,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-
        <ContactForm1/>
-      
       </div>
     </>
   );

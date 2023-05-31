@@ -36,7 +36,7 @@ import BigCommerce from "./components/BigCommerce";
 function App() {
   return (
     <>
-      <Router>
+      <HashRouter>
       <ScrollToTop />
         <Navbar />
         <Routes>
@@ -70,7 +70,7 @@ function App() {
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
-        </Router>
+        </HashRouter>
     </>
   );
 }

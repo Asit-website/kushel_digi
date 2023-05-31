@@ -260,33 +260,43 @@ const About = () => {
         <div className="about-main7">
           <h1 className="text-center">Meet Our Team</h1>
           <div className="about-main71 flex  justify-center">
-            <div className="about7 relative">
-              <img src="/static/images/e11.png" alt="" />
-              <div className="absolute flex flex-col">
-                <p>Shubham Gupta</p>
-                <p>(Founder)</p>
+            <div className="about72">
+              <div className="about7 relative">
+                <img src="/static/images/e11.png" alt="" />
+                <div className="absolute flex flex-col"></div>
               </div>
+              {/* <h3>Chief</h3> */}
+              <h4>Shubham Gupta</h4>
+              <p>(Founder)</p>
             </div>
-            <div className="about7 relative">
-              <img src={asit} alt="asit" />
-              <div className="absolute flex flex-col">
-                <p>Asit Mandal</p>
-                <p>Developer</p>
+            <div className="about72">
+              <div className="about7 relative w-full">
+                <img src={asit} alt="asit" />
+                <div className="absolute flex flex-col">
+                  {/* <p>Asit Mandal</p>
+                <p>Developer</p> */}
+                </div>
               </div>
+              <h4>Asit Mandal</h4>
+              <p>Developer</p>
             </div>
-            <div className="about7 relative">
-              <img src={chirag} alt="" />
-              <div className="absolute flex flex-col">
-                <p>Chirag Negi</p>
-                <p>Developer</p>
+            <div className="about72">
+              <div className="about7 relative w-full">
+                <img src={chirag} alt="" />
+                <div className="absolute flex flex-col"></div>
               </div>
+              <h4>Chirag Negi</h4>
+              <p>Developer</p>
             </div>
-            <div className="about7 relative">
-              <img src={sijo1} alt="sijo1" />
-              <div className="absolute flex flex-col">
-                <p>Sijo Jose</p>
-                <p>Business Development Manager</p>
+            <div className="about72">
+              <div className="about7 relative w-full">
+                <img src={sijo1} alt="sijo1" />
+                <div className="absolute flex flex-col">
+                
+                </div>
               </div>
+              <h4>Sijo Jose</h4>
+              <p>Business Development Manager</p>
             </div>
           </div>
         </div>
