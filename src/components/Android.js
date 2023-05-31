@@ -122,7 +122,7 @@ const Android = () => {
             </h3>
             <p>
               We do not limit our services to Smartphones. Our Android mobile
-              app development <span className="underline">portfolio</span> is a
+              app development portfolio is a
               testament to our expertise across various Android devices and
               platforms. The full-cycle custom Android app development process
               that we follow has helped us to delve deep into the Android world.

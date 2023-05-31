@@ -63,6 +63,7 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.remove("paking");
+    document.getElementById("offer5").style.paddingTop="8.8rem";
   };
 
   const handleClick1 = () => {
@@ -75,6 +76,7 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.remove("paking");
+    document.getElementById("offer5").style.paddingTop="50px";
   };
   const handleClick2 = () => {
     ref2.current?.scrollIntoView({behavior: 'smooth'});
@@ -85,7 +87,7 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.remove("paking");
-   
+    document.getElementById("offer6").style.paddingTop="8.8rem";
   };
 
   const handleClick3 = () => {
@@ -97,6 +99,7 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.remove("paking");
+    document.getElementById("parting").style.paddingTop="8.8rem";
   };
 
   const handleClick4 = () => {
@@ -108,6 +111,7 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.add("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.remove("paking");
+   document.getElementById("howIt").style.paddingTop="8.8rem";
   };
 
   const handleClick5 = () => {
@@ -119,6 +123,7 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.add("paking");
     document.getElementById("bff6").classList.remove("paking");
+    document.getElementById("faqing").style.paddingTop="8.8rem"
   };
 
   const handleClick6 = () => {
@@ -130,6 +135,7 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.add("paking");
+    document.getElementById("off").style.paddingTop="8.8rem";
   };
   return (
     <>
@@ -293,7 +299,7 @@ const OurPartner = () => {
           </div>
         </div>
 
-        <div ref={ref} className="offering">
+        <div id="offer5" ref={ref} className="offering">
           <h3>Our Offerings</h3>
           <div className="offer-section">
             <div className="flex items-center justify-center">
@@ -356,7 +362,7 @@ const OurPartner = () => {
           </div>
         </div>
 
-        <div ref={ref2} className="partnership">
+        <div id="offer6" ref={ref2} className="partnership">
           <div className="first-partnership">
             <h3>
               Kushel Digi <br /> Partnership <br /> Opportunities
@@ -411,7 +417,7 @@ const OurPartner = () => {
               </div>
               <div className="box-part box-part1"
                  onMouseEnter={()=> setHovered3(true)}
-                onMouseLeave={()=> setHovered3(false)}
+                  onMouseLeave={()=> setHovered3(false)}
               >
                 <h4>Master Agents</h4>
                 <p>
@@ -474,7 +480,7 @@ const OurPartner = () => {
         </div>
 
         {/* How It Works Section Start*/}
-        <div ref={ref4} className="howItWorks">
+        <div id="howIt" ref={ref4} className="howItWorks">
           <h1>How It Works</h1>
           <div className="howItWorks-text__top">
             <p>Join the programme by clicking <br /> on the ‘Become a Partner’<br />button</p>
@@ -497,7 +503,7 @@ const OurPartner = () => {
         </div>
         {/* How It Works Section End*/}
 
-        <div ref={ref3} className="partnets-stories">
+        <div id="parting" ref={ref3} className="partnets-stories">
           <h3>PARTNERS STORIES</h3>
           <div className="partner-card">
             <div className="partner-box">
@@ -545,7 +551,7 @@ const OurPartner = () => {
           </div>
         </div>
 
-        <div ref={ref6} className="offices">
+        <div id="off" ref={ref6} className="offices">
           <h3>Our Offices</h3>
           <div className="mt-2 picta">
             <p>Kushel digi operates in multiple offices and development centers across the globe.</p>
@@ -575,7 +581,7 @@ const OurPartner = () => {
           </div>
         </div>
 
-        <div ref={ref5} className="home9 mb-12 home278">
+        <div id="faqing" ref={ref5} className="home9 mb-12 home278">
           <div className="home91 flex px-24">
             <div className="home911 text-center">
               <h2 className='font-bold text-gray-700'>JUST THE FAQs</h2>

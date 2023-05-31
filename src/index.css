@@ -367,6 +367,10 @@ body {
   color: #202020;
   margin: 22px 0px;
 }
+.wanna-btn:hover{
+  color: #000000 !important;
+  opacity: 100% !important;
+}
 .second-compan .cpmpa:hover {
   color: #0c62ff;
   /* border-bottom: 1.5px solid #0C62FF; */
@@ -401,12 +405,10 @@ body {
   cursor: pointer;
   font-size: 13px !important;
 }
-
 .comapn-sect {
   width: 90%;
   padding: 15px;
 }
-
 .comapn-sect h3 {
   color: #ffffff;
   /* font-family: "Poppins", sans-serif !important; */
@@ -593,9 +595,9 @@ body {
   /* font-family: "Value Sans Pro"; */
 }
 
-.navbar ul li button:hover {
+.navbar ul li .tart:hover {
   background-color: #3c83cb;
-  color: #ffffff !important;
+  color: #ffffff ;
 }
 .yamini .sonji {
   text-transform: initial;
@@ -1185,12 +1187,13 @@ form button {
   font-weight: 400;
   margin-top: 10px;
 }
-
 .home211 img {
-  width: 430px;
+  width: 350px;
   max-width: 100%;
 }
-
+.android-funst{
+  align-items: flex-start !important;
+}
 .btn {
   display: flex;
   flex-direction: row;

@@ -9,7 +9,10 @@ import link from '../images/link.png';
 import pint from '../images/pint.png';
 import twiter from '../images/twiter.png';
 import india from '../images/india.png';
-import { NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom';
+import young1 from '../images/young1.png';
+import young2 from '../images/young2.png';
+import young3 from '../images/young3.png';
 
 const Footer = () => {
   const [cont, setCont] = useState(1);
@@ -80,9 +83,10 @@ const Footer = () => {
             <div className="foot10">
               <div className="foot151 flex items-center">
               <a target='_blank' href="https://www.linkedin.com/company/kusheldigisolutions/"><img src={link} alt="" /></a>
-              <a target='_blank' href="https://www.instagram.com/kusheldigi/"><img src={insta} alt="" /></a>
+              <a target='_blank' href="https://www.instagram.com/kusheldigi/"><img src={young3} alt="" /></a>
                <a target='_blank' href="https://www.facebook.com/kusheldigisolutions/"><img src={fb} alt="" /></a>
-                <img src={twiter} alt="" />
+                <img src={young2} alt="young2" />
+                <img src={young1} alt="young1" />
                 {/* <img src={drible} alt="" /> */}
                 {/* <img src={pint} alt="" /> */}
               </div>

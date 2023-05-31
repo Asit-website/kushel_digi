@@ -42,10 +42,10 @@ Development Company
         </div>
       </div>
       <div className="android2-app">
-        <div className="android-fun">
+        <div className="android-fun android-funst">
           <div className="android-fun1">
-            <h2>Our iOS App</h2>
-            <h2>Development</h2>
+            <h2>Our iOS App Development</h2>
+            {/* <h2></h2> */}
             <h2>Services</h2>
             <img className="ftp" src={androidSis} alt="" />
             <h5>
