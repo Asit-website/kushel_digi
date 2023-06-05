@@ -11,6 +11,7 @@ import { NavLink } from "react-router-dom";
 import trackent from "../images/trackent.png";
 import trackent1 from "../images/trackent1.png";
 import trackent2 from "../images/trackent2.png";
+import wheels from '../images/wheels.png';
 const Portfolio = () => {
   const [fab, setFab] = useState(1);
 
@@ -228,7 +229,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  <button>View More</button>
+                 <NavLink to="/protrack"><button>View More</button></NavLink>
                 </div>
                 <div className="portis1 portis11 pong2">
                   <div className="portis1-sect">
@@ -280,7 +281,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  <button>View More</button>
+                 <NavLink to="/rely"><button>View More</button></NavLink>
                 </div>
               </div>
 
@@ -321,11 +322,11 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  <button>View More</button>
+                 <NavLink to="/ceo"><button>View More</button></NavLink>
                 </div>
                 <div className="portis1 portis1111 pong2">
                   <div className="portis1-sect">
-                    <img src={cent} alt="cent" />
+                    <img src={wheels} alt="cent" />
                   </div>
                 </div>
               </div>
@@ -372,7 +373,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  <button>View More</button>
+                 <NavLink to="/solenoid"><button>View More</button></NavLink>
                 </div>
               </div>
             </>
@@ -421,7 +422,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  <button>View More</button>
+                 <NavLink to="/kick"><button>View More</button></NavLink>
                 </div>
               </div>
               {/* =============2nd================ */}
@@ -461,7 +462,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  <button>View More</button>
+                <NavLink to="/protrack"><button>View More</button></NavLink>
                 </div>
                 <div className="portis1 portis11 pong2">
                   <div className="portis1-sect">
@@ -516,7 +517,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  <button>View More</button>
+                <NavLink to="/rely"><button>View More</button></NavLink>
                 </div>
               </div>
 
@@ -557,7 +558,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  <button>View More</button>
+                 <NavLink to="/ceo"><button>View More</button></NavLink>
                 </div>
                 <div className="portis1 portis1111 pong2">
                   <div className="portis1-sect">
@@ -611,7 +612,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                   </div>
-                  <button>View More</button>
+                 <NavLink to="/solenoid"><button>View More</button></NavLink>
                 </div>
               </div>
             </>

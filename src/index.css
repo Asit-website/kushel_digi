@@ -406,7 +406,7 @@ body {
   font-size: 13px !important;
 }
 .comapn-sect {
-  width: 90%;
+  width: 100%;
   padding: 15px;
 }
 .comapn-sect h3 {
@@ -425,7 +425,6 @@ body {
   text-transform: none;
   margin-top: 10px;
 }
-
 .compan {
   /* pehle 400px */
   height: 350px;
@@ -433,7 +432,6 @@ body {
   width: 680px;
   max-width: 100%;
 }
-
 .second-compan1 a {
   opacity: 1 !important;
 }
@@ -573,10 +571,15 @@ body {
 .navbar ul li a:hover svg {
   color: #0c62ff !important;
 }
-/* .navbar ul li a:hover{
-  color: #0C62FF;
-  border-bottom: 1.5px solid #0C62FF;
-} */
+.solenoid-stepback1{
+  height: 504px;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.kick-back2{
+  background-image: url('./images/banning.jpg') !important;
+}
 .bts-naba {
   opacity: 1 !important;
   color: #ffffff !important;
@@ -765,31 +768,28 @@ form button {
   font-size: 18px;
   margin-top: 40px;
 }
-
+.call:hover{
+  background-color: #3c83cb;
+}
 .second-need {
   width: 100%;
   margin-left: 75px;
   margin-top: 25px;
 }
-
 .first-need {
   width: 100%;
   margin-right: 75px;
 }
-
 .diff-section {
   display: flex;
   align-items: center;
   width: 100%;
 }
-
 .hr-line {
   border: 1px solid #000000;
   width: 100%;
   opacity: 0.2;
-  /* margin-top: 5px; */
 }
-
 .diff-section .address {
   color: #085881;
   border-bottom: 3px solid #085881;
@@ -802,7 +802,6 @@ form button {
   top: 3px;
   cursor: pointer;
 }
-
 .diff-section .maps {
   color: #0e2b3d;
   /* font-family: "Value Sans Medium" !important; */
@@ -814,24 +813,20 @@ form button {
   top: 3px;
   cursor: pointer;
 }
-
 .loc-section {
   display: flex;
   align-items: center;
 }
-
 .loc-section img {
   width: 88px;
   max-width: 100%;
 }
-
 .loc-section h3 {
   font-weight: 600;
   font-size: 21px;
   text-transform: uppercase;
   color: #0e2b3d;
 }
-
 .loc-section p {
   font-size: 17px;
   font-weight: 400;
@@ -839,15 +834,12 @@ form button {
   text-transform: capitalize;
   margin-top: 8.5px;
 }
-
 .loc-para {
   margin-left: 12px;
 }
-
 .map-locate {
   margin-top: 45px;
 }
-
 .loc-section1 {
   margin-top: 45px;
 }
@@ -1218,7 +1210,12 @@ form button {
 .btn1:hover {
   background-color: #3c83cb;
 }
-
+.contactus-form__input button:hover{
+  background-color: #3c83cb;
+}
+.about-btn:hover{
+  background-color:#3c83cb ;
+}
 .btn2 {
   width: 160px;
   height: 55px;
@@ -1269,11 +1266,25 @@ form button {
 }
 
 .home311 p {
-  width: 60%;
+  /* width: 60%; */
+  width: 28em;
+  max-width: 100%;
   margin: auto;
   font-weight: 400;
   font-size: 19px;
   color: #404040;
+}
+.kick-back1{
+  background-image: url('./images/soling7.jpg')
+  hei;
+}
+.btb-who{
+  max-width: 150px;
+  width: 100%;
+  height: 50px !important;
+}
+.btb-who svg{
+  font-size: 25px;
 }
 
 .splide__arrow {
@@ -1421,7 +1432,9 @@ form button {
   right: 20px;
   bottom: -25px;
 }
-
+.port-card1 button:hover{
+  background-color: #3c83cb !important;
+}
 .home52 {
   margin: auto;
 }
@@ -1871,6 +1884,9 @@ form button {
 .serviceCard {
   height: 490px;
   max-height: 100%;
+}
+.serviceCard .s-card{
+  margin: 0 20px !important;
 }
 
 .home8120 {
@@ -2461,18 +2477,21 @@ form button {
   font-family: "Value Sans Medium";
   margin-top: 40px;
 }
-
+.first-ecom .com:hover{
+   background-color: #3c83cb;
+}
 .first-delivery .com {
   width: 270px;
   height: 70px;
   background-color: #085881;
   color: #ffffff;
   font-size: 18px;
-  /* font-family: "Value Sans Medium"; */
   margin-top: 40px;
   font-weight: 500;
 }
-
+.first-delivery .com:hover{
+  background-color: #3c83cb;
+}
 .poty .view {
   color: #010c1e;
   font-size: 27px;
@@ -2611,7 +2630,9 @@ form button {
   color: #ffffff;
   height: 66px;
 }
-
+.first-form button:hover{
+  background-color: #3c83cb;
+}
 .tih {
   display: inline;
   width: 12px;
@@ -2764,7 +2785,9 @@ form button {
   justify-content: center;
   margin-top: 35px;
 }
-
+.other-project .splide__slide{
+  margin: 0px 10px !important;
+}
 .business-box {
   max-width: 26vw;
   width: 100%;
@@ -2977,7 +3000,6 @@ form button {
   background-color: #085881;
   color: white;
 }
-
 .business-box:hover p {
   color: white;
 }
@@ -2989,8 +3011,12 @@ form button {
 
 .business-box:hover .business-card-img img {
   filter: invert(1);
+  /* transform: rotate(360deg);
+  transition: all .8s; */
 }
-
+form button:hover{
+  background-color: #3c83cb;
+}
 .unlock {
   background-color: #ffffff;
   padding: 50px 100px;
@@ -3154,7 +3180,6 @@ form button {
   width: 100%;
   height: 100%;
 }
-
 .home8-img .splide__pagination {
   display: none;
 }
@@ -3571,7 +3596,15 @@ form button {
   font-weight: 700;
   color: #202020;
 }
-
+.home412 .splide__arrow--next{
+  display: none !important;
+}
+.home412 .splide__arrow--prev{
+  display: none !important;
+}
+.home412 .splide__pagination{
+  display: none !important;
+}
 .nda-header p {
   color: #202020;
   font-size: 19.5px;
@@ -4525,16 +4558,24 @@ form button {
   display: block;
   margin: auto;
   top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .step-img img {
   width: 42px;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
-
+.step-img:hover img{
+  transform: rotate(360deg) !important;
+  transition: all .8s;
+  /* transform: scale(.5); */
+}
 .how-we h3 {
   color: #010c1e;
   font-size: 19px;
@@ -4671,7 +4712,9 @@ form button {
   outline: none;
   margin-top: 40px;
 }
-
+.ben-da button:hover{
+  background-color: #3c83cb;
+}
 .indu-s {
   background-color: #ffffff;
   padding: 70px 100px;
@@ -4817,7 +4860,9 @@ form button {
   position: relative;
   z-index: 2;
 }
-
+.kick-back1{
+  background-image: url("./images/soling7.jpg");
+}
 .kick-back::before {
   content: "";
   background-color: #085881;
@@ -4893,7 +4938,9 @@ form button {
   font-size: 18px;
   margin-top: 40px;
 }
-
+.first-experiencedji button:hover{
+  background-color: #3c83cb;
+}
 .second-experiencedji img {
   max-width: 900px;
   width: 100%;
@@ -5240,7 +5287,9 @@ form button {
   font-weight: 500;
   margin-top: 50px;
 }
-
+.how-did-second button:hover{
+  background-color: #3c83cb;
+}
 .how-ux {
   padding: 60px 100px;
   background-color: #ffffff;
@@ -5395,8 +5444,11 @@ form button {
   position: absolute;
   top: -31px;
   left: 80%;
+  transition: all .5s;
 }
-
+.about161:hover{
+  transform: scale(1.5);
+}
 .service-kick {
   padding: 60px 100px;
   position: relative;
@@ -5442,8 +5494,13 @@ form button {
   width: 100%;
   display: block;
   margin: auto;
+  transition: all .8s;
 }
-
+.service-kick-sect img:hover{
+   transform: rotate(360deg);
+   transition: all .8s;
+   cursor: pointer;
+}
 .service-kick-sect p {
   color: #404040;
   font-family: "Value Sans Medium" !important;
@@ -5827,7 +5884,12 @@ form button {
   position: relative;
   top: 10%;
 }
-
+.azib-images .soling1{
+  height: 730px;
+  max-height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
 .azib-images img {
   max-width: 360px;
   width: 100%;
@@ -6173,7 +6235,9 @@ form button {
   height: 68px;
   margin-top: 30px;
 }
-
+.benifits-hire button:hover{
+  background-color: #3c83cb;
+}
 .hire-serve {
   background-color: #f8f8f8;
   padding: 60px 100px;
@@ -6558,9 +6622,12 @@ form button {
 .portis1111 {
   background-image: url("./images/wheel.png");
 }
-
+.conj-hire{
+  opacity: 1 !important;
+}
 .portis1111 img {
-  max-width: 180px;
+  /* max-width: 180px; */
+  max-width: 240px;
   width: 100%;
   opacity: 1 !important;
 }
@@ -6768,6 +6835,9 @@ form button {
   margin-top: 35px;
   /* font-weight: 500; */
 }
+.working1 button:hover{
+  background-color: #3c83cb;
+}
 .working1 p {
   font-size: 19.5px;
   /* font-family: "Montserrat", sans-serif; */
@@ -6883,6 +6953,9 @@ form button {
   border-radius: 3px;
   font-size: 18px;
   /* font-family: "Roboto", sans-serif !important; */
+}
+.posify2 button:hover{
+  background-color: #3c83cb;
 }
 .hr-t {
   border-bottom: 1px solid #000000;
@@ -7675,8 +7748,10 @@ form button {
   cursor: pointer;
   color: #ffffff;
   font-size: 18px;
-  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
+}
+.ios-kickstart button:hover{
+  background-color: #3c83cb;
 }
 .android-son{
   width: 34em !important;
@@ -9011,6 +9086,115 @@ filter: brightness(.6);
   padding: 3px 0px !important;
   border-bottom: 2px solid #3C83CB;
 }
+.other-project{
+  padding: 50px 100px;
+  padding-bottom: 120px;
+}
+.other-project .splide__arrow--prev{
+  top: 625px !important;
+}
+.other-project .splide__arrow--next{
+  top: 625px !important;
+}
+.other-project .splide__pagination{
+  bottom: -3.5em !important;
+}
+.other-project-cards{
+  margin-top: 40px;
+}
+.other-card{
+  max-width: 430px;
+  width: 100%;
+  margin-top: 50px;
+}
+.other-box{
+  background-image: url('./images/rel4.png');
+  width: 100%;
+  height: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+.other-box::before{
+  background-color: #085881;
+  opacity: 0.8;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%; 
+}
+.other-box1{
+  background-image: url('./images/rel5.png');
+}
+.other-box3{
+  background-image: url('./images/rel6.png');
+}
+.other-box img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 70px;
+  max-width: 100%;
+}
+.other-project h2{
+  color: #202020;
+  font-weight: 700;
+  font-size: 30px;
+}
+.other-box .rel3{
+  width: 185px;
+  max-width: 100%;
+}
+.other-tox-para{
+  padding: 20px 15px;
+  position: relative;
+  z-index: 2;
+}
+.other-tox-para h3{
+  color: #202020;
+  font-weight: bolder;
+  font-family: 'Manrope', sans-serif !important;
+  font-size: 19px;
+}
+.other-tox-para p{
+  color: #202020;
+  font-weight: 500;
+  font-size: 14px;
+  font-family: 'Manrope', sans-serif !important;
+}
+.other-tox-para::before{
+  background-color: #D9D9D9;
+  opacity: 0.2;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.other-tox-para button{
+  background-color: #3C83CB;
+  width: 160px;
+ max-width: 100%;
+ height: 38px;
+ color: #ffffff;
+ border-radius: 5px;
+ font-size: 13px;
+ font-weight: 600;
+ font-family: 'Manrope', sans-serif !important;
+ margin-top: 30px;
+}
 /* ===============level css end========================= */
 /* =========================react js css end==================== */
 @media only screen and (max-width: 1500px) {
@@ -9027,6 +9211,14 @@ filter: brightness(.6);
 @media only screen and (max-width:1458px){
   .fluter-box{
     height: 400px;
+  }
+}
+@media only screen and (max-width:1440px){
+  .other-project .splide__arrow--next{
+    top: 650px !important;
+  }
+  .other-project .splide__arrow--prev{
+    top: 650px !important;
   }
 }
 @media only screen and (max-width: 1424px) {

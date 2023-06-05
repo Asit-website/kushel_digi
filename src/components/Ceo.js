@@ -1,43 +1,37 @@
-import React from "react";
-import kick from "../images/kick.png";
+import React from 'react';
 import pick from "../images/pick.png";
 import pick1 from "../images/pick1.png";
-import pick2 from "../images/pick2.png";
 import angrag from "../images/angrag.png";
 import zinda from "../images/zinda.png";
 import zinda1 from "../images/zinda1.png";
 import zinda2 from "../images/zinda2.png";
-import stepback from "../images/stepback.png";
-import stepback1 from "../images/stepback1.png";
-import kick5 from "../images/kick5.png";
 // import azib from '../images/azib.png';
 import arrow4 from "../images/arrow4.png";
-import conjun from "../images/conjun.png";
-import azib2 from "../images/azib2.png";
-import azib3 from "../images/azib3.png";
-import azib4 from "../images/azib4.png";
+import conjun from '../images/conjun.png';
 import { NavLink } from "react-router-dom";
-import rel1 from "../images/rel1.png";
-import rel2 from "../images/rel2.png";
-import rel3 from "../images/rel3.png";
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
-const Kickiz = () => {
+import trackent1 from "../images/trackent1.png";
+import soling1 from '../images/soling1.jpg';
+import soling2 from '../images/soling2.jpg';
+import soling3 from '../images/soling3.jpg';
+import soling4 from '../images/soling4.png';
+import soling5 from '../images/soling5.jpg';
+import soling6 from '../images/soling6.jpg';
+import wheels from '../images/wheels.png';
+const Ceo = () => {
   return (
     <>
-      <div className="ser-main">
-        <div className="kick-back">
+          <div className="ser-main">
+        <div className="kick-back kick-back1">
           <div className="kick-sect">
-            <img src={kick} alt="kick" />
+            <img src={wheels} alt="kick" />
           </div>
         </div>
         <div className="kick-start">
           <div className="kick-first">
             <div className="kick-box">
-              <h4>KICK-EEZ</h4>
+              <h4>CEO WHEELS</h4>
               <p className="kick-para">
-                KICK- EEZ Premium, Made in America recoil pads and accessories
-                to make your shooting experience more comfortable.
+                Where ninja-like expertise meets high-quality solutions.
               </p>
               <div className="kick-sard flex items-center mt-10">
                 <div className="kick-fard">
@@ -53,14 +47,13 @@ const Kickiz = () => {
               </div>
               <div className="visit-kart mt-10">
                 <p>Visit Website</p>
-                <a target="_blank" href="https://kickeezproducts.com/"></a>{" "}
-                <p className="kinza">www.kickeezproducts.com</p>
+               <a href="https://solenoid-ninja.com/" target='_blank'><p className="kinza">www.solenoid-ninja.com</p></a>
               </div>
             </div>
           </div>
           <div className="kick-second relative">
             <img className=" absolute about161" src={angrag} alt="" />
-            <img className=" relative z-10 about162" src={pick2} alt="" />
+            <img className=" relative z-10" src={soling4} alt="" />
           </div>
         </div>
 
@@ -109,8 +102,8 @@ const Kickiz = () => {
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
-            <img className="stepback" src={stepback1} alt="stepback" />
-            <img className="stepback1" src={stepback} alt="stepback1" />
+            <img className="stepback solenoid-stepback" src={soling6} alt="stepback" />
+            <img className="stepback1 solenoid-stepback1" src={soling5} alt="stepback1" />
           </div>
         </div>
 
@@ -181,7 +174,7 @@ const Kickiz = () => {
 
         <div className="challenge-ziz">
           <div className="challenge-ziz-sect">
-            <img src={kick5} alt="" />
+            <img src={wheels} alt="track" />
           </div>
         </div>
 
@@ -212,17 +205,17 @@ const Kickiz = () => {
                   standard dummy text ever since.
                 </p>
                 <div className="azib-tech">
-                  <h3>Technologies Used</h3>
-                  <img className="conjun" src={conjun} alt="" />
+                    <h3>Technologies Used</h3>
+                    <img className="conjun" src={conjun} alt="" />
                 </div>
               </div>
             </div>
 
-            <div className="azib-images flex items-center justify-center">
-              <img src={azib2} alt="" />
-              <img src={azib3} alt="" />
-              <img src={azib4} alt="" />
-            </div>
+              <div className="azib-images flex items-center justify-center">
+                  <img className='soling1' src={soling1} alt="" />
+                  <img className='soling1' src={soling2} alt="" />
+                  <img className='soling1' src={soling3} alt="" />
+              </div>
           </div>
         </div>
 
@@ -237,103 +230,6 @@ const Kickiz = () => {
           <h4>Matt Reeder</h4>
         </div>
 
-        <div className="other-project">
-          <h2 className="text-center ">OTHER PROJECTS</h2>
-          <Splide
-                aria-label="Our Services"
-                options={{
-                  perPage:3,
-                  perMove: 1,
-                  autoplay: true,
-                  pauseOnHover: true,
-                  type: "loop",
-                  interval: 2000,
-                  drag: true,
-                }}
-              >
-          
-             <SplideSlide>
-            <div className="other-card">
-              <div className="other-box">
-                <img src={rel1} alt="rel1" />
-              </div>
-              <div className="other-tox-para">
-                <h3>RELY INNOVATION</h3>
-                <p>
-                  Get peace of mind. install alarms that not only notify you of
-                  danger, but also clearly instructs you on what to do next.
-                </p>
-               <NavLink to="/rely"><button>View</button></NavLink>
-              </div>
-            </div>
-            </SplideSlide>
-            <SplideSlide>
-            <div className="other-card">
-              <div className="other-box other-box1">
-                <img src={rel2} alt="rel1" />
-              </div>
-              <div className="other-tox-para">
-                <h3>PRO TRUCKS</h3>
-                <p>
-                  Aftermarket suspension lift kits,  leveling  kits and 
-                  accessories  for 4X4 off-road truck and jeep enthusiasts
-                </p>
-               <NavLink to="/protrack"><button>View</button></NavLink>
-              </div>
-            </div>
-            </SplideSlide>
-           <SplideSlide>
-            <div className="other-card">
-              <div className="other-box other-box3">
-                <img className="rel3" src={rel3} alt="rel1" />
-              </div>
-              <div className="other-tox-para">
-                <h3>SOLENOID NINJA</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                </p>
-               <NavLink to="/solenoid"><button>View</button></NavLink>
-              </div>
-            </div>
-            </SplideSlide>
-            <SplideSlide>
-            <div className="other-card">
-              <div className="other-box other-box3">
-                <img className="rel3" src={rel3} alt="rel1" />
-              </div>
-              <div className="other-tox-para">
-                <h3>SOLENOID NINJA</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                </p>
-                <button>View</button>
-              </div>
-            </div>
-            </SplideSlide>
-            <SplideSlide>
-            <div className="other-card">
-              <div className="other-box other-box3">
-                <img className="rel3" src={rel3} alt="rel1" />
-              </div>
-              <div className="other-tox-para">
-                <h3>SOLENOID NINJA</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                </p>
-                <button>View</button>
-              </div>
-            </div>
-            </SplideSlide>
-         
-            </Splide>
-         
-         
-          
-        </div>
-
         <div className="req">
           <div className="req-sect">
             <h2>
@@ -344,17 +240,15 @@ const Kickiz = () => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-            <NavLink to="/contact">
-              <button>
-                Request A Call{" "}
-                <img width={13} className=" inline ml-2" src={arrow4} alt="" />
-              </button>
-            </NavLink>
+          <NavLink to="/contact"><button>
+              Request A Call{" "}
+              <img width={13} className=" inline ml-2" src={arrow4} alt="" />
+            </button></NavLink>
           </div>
         </div>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default Kickiz;
+export default Ceo

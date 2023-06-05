@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import reactjs from "../images/reactjs.png";
 import fluterjs from "../images/fluterjs.png";
 import swiftjs from "../images/swiftjs.png";
@@ -27,8 +27,21 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import MobCard from "./Cards/MobCard";
 import Certified from "./common/Certified";
 import ContactForm from "./common/ContactForm";
-
+// import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 const MobileApp = () => {
+  const [perPage, setPerPage] = useState(6);
+  useEffect(() => {
+    if (window.matchMedia("(max-width: 1300px)").matches) {
+      setPerPage(4);
+    }
+    if (window.matchMedia("(max-width: 850px)").matches) {
+      setPerPage(3);
+    }
+    if (window.matchMedia("(max-width: 750px)").matches) {
+      setPerPage(1);
+    }
+  }, []);
   return (
     <>
       <div className="ser-main">
@@ -51,34 +64,112 @@ const MobileApp = () => {
         </div>
         <div className="ser2 ser-vertical">
           <div className="ser21 ser23">
-            <div className="home412 flex justify-center items-center">
+             
+                <div className="home412 flex justify-center items-center">
+                <Splide
+                className=" w-full"
+                aria-label="Our Services"
+                options={{
+                  perPage,
+                  perMove: 1,
+                  autoplay: true,
+                  pauseOnHover: true,
+                  type: "loop",
+                  interval: 1600,
+                  drag: true,
+                }}
+              >
+              <SplideSlide>
               <div className="home4121">
                 <img className=" block m-auto" src={reactjs} alt="" />
                 <p>REACT NATIVE</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img className=" block m-auto" src={fluterjs} alt="" />
                 <p>FLUTTER</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img className=" block m-auto" src={swiftjs} alt="" />
                 <p>SWIFT</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img className=" block m-auto" src={kotlinjs} alt="" />
                 <p>KOTLIN</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img className="block m-auto" src={java} alt="" />
                 <p>JAVA</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img className="block m-auto" src={python} alt="" />
                 <p>PYTHON</p>
               </div>
+              </SplideSlide>
+              </Splide>
             </div>
+              
+              
+          
           </div>
         </div>
+        {/* <div className="ser2 ser-vertical">
+          <div className="ser21 ser23">
+             
+                <div className="home412 flex justify-center items-center">
+         
+             
+              <div className="home4121">
+                <img className=" block m-auto" src={reactjs} alt="" />
+                <p>REACT NATIVE</p>
+              </div>
+             
+              
+              <div className="home4121">
+                <img className=" block m-auto" src={fluterjs} alt="" />
+                <p>FLUTTER</p>
+              </div>
+              
+              
+              <div className="home4121">
+                <img className=" block m-auto" src={swiftjs} alt="" />
+                <p>SWIFT</p>
+              </div>
+              
+             
+              <div className="home4121">
+                <img className=" block m-auto" src={kotlinjs} alt="" />
+                <p>KOTLIN</p>
+              </div>
+              
+              
+              <div className="home4121">
+                <img className="block m-auto" src={java} alt="" />
+                <p>JAVA</p>
+              </div>
+              
+              
+              <div className="home4121">
+                <img className="block m-auto" src={python} alt="" />
+                <p>PYTHON</p>
+              </div>
+              
+              
+            </div>
+              
+              
+          
+          </div>
+        </div> */}
         <div className="mobile-app">
           <marquee behavior="scroll" direction="right" scrollamount="20">
             <img className="app" src={app} alt="app" />
