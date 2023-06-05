@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState} from "react";
 import arrow4 from "../images/arrow4.png";
 import androidSis from "../images/android-sis.png";
 import bigcompt from "../images/bigcomt.png";
@@ -23,6 +23,12 @@ import {
   } from "react-accessible-accordion";
 // import sideimg from "./image/Untitled-4 2.png";
 const BigCommerce = () => {
+  const [hovered, setHovered] = useState(false);
+  const [hovered2, setHovered2] = useState(false);
+  const [hovered3, setHovered3] = useState(false);
+  const [hovered4, setHovered4] = useState(false);
+  const [hovered5, setHovered5] = useState(false);
+  const [hovered6, setHovered6] = useState(false);
   return (
     <>
       <div className="ser-main">
@@ -79,7 +85,10 @@ const BigCommerce = () => {
           </h3>
           <h4>which results in better conversions and higher AOV.</h4>
           <div className="paperbox">
-            <div className="first1" id="new">
+            <div className="first1" id="new"
+              onMouseEnter={()=> setHovered(true)}
+              onMouseLeave={()=> setHovered(false)}
+            >
               <img src={img1} className="startup" alt="img" />
               <h3>Startup</h3>
               <h5>

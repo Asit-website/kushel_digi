@@ -1,39 +1,39 @@
-import React,{useState,useRef} from "react";
+import React, { useState, useRef } from "react";
 import whykushle from "../images/whyKushle.png";
 import broucher from "../images/broucher.png";
 import broucher1 from "../images/broucher1.png";
 import lor from "../images/lor.png";
 import lor1 from "../images/lor1.png";
 import lor2 from "../images/lor2.png";
-import londa from '../images/londa.png';
-import arrow3 from '../images/arrow3.png';
-import HowItWorks1 from '../images/how-1.svg';
-import HowItWorks2 from '../images/how-2.svg';
-import HowItWorks3 from '../images/how-3.svg';
-import HowItWorks4 from '../images/how-4.svg';
-import HowItWorks5 from '../images/how-5.svg';
-import dust from '../images/dust.png';
-import ent1 from '../images/ent1.png';
-import ent2 from '../images/ent2.png';
-import ent3 from '../images/ent3.png';
-import ent4 from '../images/ent4.png';
-import ent5 from '../images/ent5.png';
-import ent6 from '../images/ent6.png';
-import ent7 from '../images/ent7.png';
-import ent8 from '../images/ent8.png';
-import ent9 from '../images/ent9.png';
-import ent10 from '../images/ent10.png';
-import josh from '../images/josh.png';
+import londa from "../images/londa.png";
+import arrow3 from "../images/arrow3.png";
+import HowItWorks1 from "../images/how-1.svg";
+import HowItWorks2 from "../images/how-2.svg";
+import HowItWorks3 from "../images/how-3.svg";
+import HowItWorks4 from "../images/how-4.svg";
+import HowItWorks5 from "../images/how-5.svg";
+import dust from "../images/dust.png";
+import ent1 from "../images/ent1.png";
+import ent2 from "../images/ent2.png";
+import ent3 from "../images/ent3.png";
+import ent4 from "../images/ent4.png";
+import ent5 from "../images/ent5.png";
+import ent6 from "../images/ent6.png";
+import ent7 from "../images/ent7.png";
+import ent8 from "../images/ent8.png";
+import ent9 from "../images/ent9.png";
+import ent10 from "../images/ent10.png";
+import josh from "../images/josh.png";
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from 'react-accessible-accordion';
-import arrow1 from '../images/arrow1.png';
+} from "react-accessible-accordion";
+import arrow1 from "../images/arrow1.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
-import pantra from '../images/pantra.png';
+import pantra from "../images/pantra.png";
 import { NavLink } from "react-router-dom";
 
 const OurPartner = () => {
@@ -55,7 +55,7 @@ const OurPartner = () => {
   const ref6 = useRef(null);
 
   const handleClick = () => {
-    ref.current?.scrollIntoView({behavior: 'smooth'});
+    ref.current?.scrollIntoView({ behavior: "smooth" });
     document.getElementById("bff").classList.remove("paking");
     document.getElementById("bff1").classList.add("paking");
     document.getElementById("bff2").classList.remove("paking");
@@ -63,11 +63,11 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.remove("paking");
-    document.getElementById("offer5").style.paddingTop="8.8rem";
+    document.getElementById("offer5").style.paddingTop = "8.8rem";
   };
 
   const handleClick1 = () => {
-    ref1.current?.scrollIntoView({behavior: 'smooth'});
+    ref1.current?.scrollIntoView({ behavior: "smooth" });
     // document.getElementById("sar").style.borderBottom="2px solid #3C83CB";
     document.getElementById("bff").classList.add("paking");
     document.getElementById("bff1").classList.remove("paking");
@@ -76,10 +76,10 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.remove("paking");
-    document.getElementById("offer5").style.paddingTop="50px";
+    document.getElementById("offer5").style.paddingTop = "50px";
   };
   const handleClick2 = () => {
-    ref2.current?.scrollIntoView({behavior: 'smooth'});
+    ref2.current?.scrollIntoView({ behavior: "smooth" });
     document.getElementById("bff").classList.remove("paking");
     document.getElementById("bff1").classList.remove("paking");
     document.getElementById("bff2").classList.add("paking");
@@ -87,11 +87,11 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.remove("paking");
-    document.getElementById("offer6").style.paddingTop="8.8rem";
+    document.getElementById("offer6").style.paddingTop = "8.8rem";
   };
 
   const handleClick3 = () => {
-    ref3.current?.scrollIntoView({behavior: 'smooth'});
+    ref3.current?.scrollIntoView({ behavior: "smooth" });
     document.getElementById("bff").classList.remove("paking");
     document.getElementById("bff1").classList.remove("paking");
     document.getElementById("bff2").classList.remove("paking");
@@ -99,11 +99,11 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.remove("paking");
-    document.getElementById("parting").style.paddingTop="8.8rem";
+    document.getElementById("parting").style.paddingTop = "8.8rem";
   };
 
   const handleClick4 = () => {
-    ref4.current?.scrollIntoView({behavior: 'smooth'});
+    ref4.current?.scrollIntoView({ behavior: "smooth" });
     document.getElementById("bff").classList.remove("paking");
     document.getElementById("bff1").classList.remove("paking");
     document.getElementById("bff2").classList.remove("paking");
@@ -111,11 +111,11 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.add("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.remove("paking");
-   document.getElementById("howIt").style.paddingTop="8.8rem";
+    document.getElementById("howIt").style.paddingTop = "8.8rem";
   };
 
   const handleClick5 = () => {
-    ref5.current?.scrollIntoView({behavior: 'smooth'});
+    ref5.current?.scrollIntoView({ behavior: "smooth" });
     document.getElementById("bff").classList.remove("paking");
     document.getElementById("bff1").classList.remove("paking");
     document.getElementById("bff2").classList.remove("paking");
@@ -123,11 +123,11 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.add("paking");
     document.getElementById("bff6").classList.remove("paking");
-    document.getElementById("faqing").style.paddingTop="8.8rem"
+    document.getElementById("faqing").style.paddingTop = "8.8rem";
   };
 
   const handleClick6 = () => {
-    ref6.current?.scrollIntoView({behavior: 'smooth'});
+    ref6.current?.scrollIntoView({ behavior: "smooth" });
     document.getElementById("bff").classList.remove("paking");
     document.getElementById("bff1").classList.remove("paking");
     document.getElementById("bff2").classList.remove("paking");
@@ -135,7 +135,7 @@ const OurPartner = () => {
     document.getElementById("bff4").classList.remove("paking");
     document.getElementById("bff5").classList.remove("paking");
     document.getElementById("bff6").classList.add("paking");
-    document.getElementById("off").style.paddingTop="8.8rem";
+    document.getElementById("off").style.paddingTop = "8.8rem";
   };
   return (
     <>
@@ -154,13 +154,27 @@ const OurPartner = () => {
         </div>
         <div className="kushel-menu">
           <div className="flex items-center justify-around kushel-menu1">
-           <p id="bff" className=" cursor-pointer" onClick={handleClick1}>Why Kushel digi</p>
-        <p id="bff1" className=" cursor-pointer" onClick={handleClick}>our offerings</p>
-            <p id="bff2" className=" cursor-pointer" onClick={handleClick2}>Opportunities</p>
-            <p id="bff3" className=" cursor-pointer" onClick={handleClick3}>Partner Stories</p>
-            <p id="bff4" className=" cursor-pointer" onClick={handleClick4}>How it works</p>
-            <p id="bff5" className=" cursor-pointer" onClick={handleClick5} >FAQ</p>
-            <p id="bff6" className=" cursor-pointer" onClick={handleClick6}>Our offices</p>
+            <p id="bff" className=" cursor-pointer" onClick={handleClick1}>
+              Why Kushel digi
+            </p>
+            <p id="bff1" className=" cursor-pointer" onClick={handleClick}>
+              our offerings
+            </p>
+            <p id="bff2" className=" cursor-pointer" onClick={handleClick2}>
+              Opportunities
+            </p>
+            <p id="bff3" className=" cursor-pointer" onClick={handleClick3}>
+              Partner Stories
+            </p>
+            <p id="bff4" className=" cursor-pointer" onClick={handleClick4}>
+              How it works
+            </p>
+            <p id="bff5" className=" cursor-pointer" onClick={handleClick5}>
+              FAQ
+            </p>
+            <p id="bff6" className=" cursor-pointer" onClick={handleClick6}>
+              Our offices
+            </p>
           </div>
           <hr className="hr-kushel" />
         </div>
@@ -183,7 +197,7 @@ const OurPartner = () => {
           </div>
         </div>
 
-        <div   className="latest">
+        <div className="latest">
           <div className="business-card flex-wrap">
             <div className="business-box business-box1 relative text-center cursor-pointer">
               <div className="business-card-img">
@@ -369,112 +383,163 @@ const OurPartner = () => {
             </h3>
           </div>
           <div className="second-partnership w-full">
-          <Splide 
-             className="w-full tying"
-             aria-label="Our Services"
-                options={{
-                  perPage:1,
-                  perMove: 1,
-                  autoplay: true,
-                  pauseOnHover: true,
-                  type: "loop",
-                  interval: 2200,
-                  drag: true,
-                }}
-          >
-           <SplideSlide>
-            <div className="card-part flex items-center justify-center">
-              <div className="box-part"
-                onMouseEnter={()=> setHovered(true)}
-                onMouseLeave={()=> setHovered(false)}
-              >
-                <h4>Solution Partners</h4>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing Typesetting
-                  industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery.
-                </p>
-                <button>
-                  Download Brouchers{" "}
-                  <img width={15} className="inline ml-1 broucher" src={hovered ? broucher : broucher1} alt="" />
-                </button>
-              </div>
-              <div className="box-part box-part1"
-                  onMouseEnter={()=> setHovered2(true)}
-                onMouseLeave={()=> setHovered2(false)}
-              >
-                <h4>Distributors</h4>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing Typesetting
-                  industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery.
-                </p>
-                <button>
-                  {" "}
-                  Download Brouchers{" "}
-                  <img width={15} className="inline ml-1" src={hovered2 ? broucher : broucher1} alt="" />
-                </button>
-              </div>
-              <div className="box-part box-part1"
-                 onMouseEnter={()=> setHovered3(true)}
-                  onMouseLeave={()=> setHovered3(false)}
-              >
-                <h4>Master Agents</h4>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing Typesetting
-                  industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery.
-                </p>
-                <button>
-                  {" "}
-                  Download Brouchers{" "}
-                  <img width={15} className="inline ml-1" src={hovered3 ? broucher : broucher1} alt="" />
-                </button>
-              </div>
-            </div>
-            </SplideSlide>
-            <SplideSlide>
-            <div className="card-part flex items-center justify-center">
-              <div className="box-part">
-                <h4>Solution Partners</h4>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing Typesetting
-                  industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery.
-                </p>
-                <button>
-                  Download Brouchers{" "}
-                  <img width={15} className="inline ml-1" src={broucher} alt="" />
-                </button>
-              </div>
-              <div className="box-part box-part1">
-                <h4>Distributors</h4>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing Typesetting
-                  industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery.
-                </p>
-                <button>
-                  {" "}
-                  Download Brouchers{" "}
-                  <img width={15} className="inline ml-1" src={broucher1} alt="" />
-                </button>
-              </div>
-              <div className="box-part box-part1">
-                <h4>Master Agents</h4>
-                <p>
-                  Lorem ipsum is simply dummy text of the printing Typesetting
-                  industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery.
-                </p>
-                <button>
-                  {" "}
-                  Download Brouchers{" "}
-                  <img width={15} className="inline ml-1" src={broucher1} alt="" />
-                </button>
-              </div>
-            </div>
-            </SplideSlide>
+            <Splide
+              className="w-full tying"
+              aria-label="Our Services"
+              options={{
+                perPage: 1,
+                perMove: 1,
+                autoplay: true,
+                pauseOnHover: true,
+                type: "loop",
+                interval: 2200,
+                drag: true,
+              }}
+            >
+              <SplideSlide>
+                <div className="card-part flex items-center justify-center">
+                  <div
+                    className="box-part"
+                    onMouseEnter={() => setHovered(true)}
+                    onMouseLeave={() => setHovered(false)}
+                  >
+                    <h4>Solution Partners</h4>
+                    <p>
+                      Lorem ipsum is simply dummy text of the printing
+                      Typesetting industry. lorem ipsum has been the industry’s
+                      standard dummy text ever since the 1500s, an unknown
+                      printer took a gallery.
+                    </p>
+                    <button>
+                      Download Brouchers{" "}
+                      <img
+                        width={15}
+                        className="inline ml-1 broucher"
+                        src={hovered ? broucher : broucher1}
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                  <div
+                    className="box-part box-part1"
+                    onMouseEnter={() => setHovered2(true)}
+                    onMouseLeave={() => setHovered2(false)}
+                  >
+                    <h4>Distributors</h4>
+                    <p>
+                      Lorem ipsum is simply dummy text of the printing
+                      Typesetting industry. lorem ipsum has been the industry’s
+                      standard dummy text ever since the 1500s, an unknown
+                      printer took a gallery.
+                    </p>
+                    <button>
+                      {" "}
+                      Download Brouchers{" "}
+                      <img
+                        width={15}
+                        className="inline ml-1"
+                        src={hovered2 ? broucher : broucher1}
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                  <div
+                    className="box-part box-part1"
+                    onMouseEnter={() => setHovered3(true)}
+                    onMouseLeave={() => setHovered3(false)}
+                  >
+                    <h4>Master Agents</h4>
+                    <p>
+                      Lorem ipsum is simply dummy text of the printing
+                      Typesetting industry. lorem ipsum has been the industry’s
+                      standard dummy text ever since the 1500s, an unknown
+                      printer took a gallery.
+                    </p>
+                    <button>
+                      {" "}
+                      Download Brouchers{" "}
+                      <img
+                        width={15}
+                        className="inline ml-1"
+                        src={hovered3 ? broucher : broucher1}
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div className="card-part flex items-center justify-center">
+                  <div
+                    className="box-part"
+                    onMouseEnter={() => setHovered4(true)}
+                    onMouseLeave={() => setHovered4(false)}
+                  >
+                    <h4>Solution Partners</h4>
+                    <p>
+                      Lorem ipsum is simply dummy text of the printing
+                      Typesetting industry. lorem ipsum has been the industry’s
+                      standard dummy text ever since the 1500s, an unknown
+                      printer took a gallery.
+                    </p>
+                    <button>
+                      Download Brouchers{" "}
+                      <img
+                        width={15}
+                        className="inline ml-1"
+                        src={hovered4 ? broucher : broucher1}
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                  <div
+                    className="box-part box-part1"
+                    onMouseEnter={() => setHovered5(true)}
+                    onMouseLeave={() => setHovered5(false)}
+                  >
+                    <h4>Distributors</h4>
+                    <p>
+                      Lorem ipsum is simply dummy text of the printing
+                      Typesetting industry. lorem ipsum has been the industry’s
+                      standard dummy text ever since the 1500s, an unknown
+                      printer took a gallery.
+                    </p>
+                    <button>
+                      {" "}
+                      Download Brouchers{" "}
+                      <img
+                        width={15}
+                        className="inline ml-1"
+                        src={hovered5 ? broucher : broucher1}
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                  <div
+                    className="box-part box-part1"
+                    onMouseEnter={() => setHovered6(true)}
+                    onMouseLeave={() => setHovered6(false)}
+                  >
+                    <h4>Master Agents</h4>
+                    <p>
+                      Lorem ipsum is simply dummy text of the printing
+                      Typesetting industry. lorem ipsum has been the industry’s
+                      standard dummy text ever since the 1500s, an unknown
+                      printer took a gallery.
+                    </p>
+                    <button>
+                      {" "}
+                      Download Brouchers{" "}
+                      <img
+                        width={15}
+                        className="inline ml-1"
+                        src={hovered6 ? broucher : broucher1}
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </SplideSlide>
             </Splide>
           </div>
         </div>
@@ -483,9 +548,19 @@ const OurPartner = () => {
         <div id="howIt" ref={ref4} className="howItWorks">
           <h1>How It Works</h1>
           <div className="howItWorks-text__top">
-            <p>Join the programme by clicking <br /> on the ‘Become a Partner’<br />button</p>
-            <p>Receive extensive resources - from <br /> marketing & product collaterals to <br /> training and certification.</p>
-            <p>Enjoy incremental rewards as <br /> you advance through different <br /> partner levels.</p>
+            <p>
+              Join the programme by clicking <br /> on the ‘Become a Partner’
+              <br />
+              button
+            </p>
+            <p>
+              Receive extensive resources - from <br /> marketing & product
+              collaterals to <br /> training and certification.
+            </p>
+            <p>
+              Enjoy incremental rewards as <br /> you advance through different{" "}
+              <br /> partner levels.
+            </p>
           </div>
 
           <div className="howItWorks-icons">
@@ -497,8 +572,14 @@ const OurPartner = () => {
           </div>
 
           <div className="howItWorks-text__bottom howItWorks-text__top">
-            <p>Hit the ground running with the <br /> help of our structured <br /> onboarding and orientation <br /> process.</p>
-            <p>Co-create value leveraging our <br /> ongoing engagement and <br /> support framework.</p>
+            <p>
+              Hit the ground running with the <br /> help of our structured{" "}
+              <br /> onboarding and orientation <br /> process.
+            </p>
+            <p>
+              Co-create value leveraging our <br /> ongoing engagement and{" "}
+              <br /> support framework.
+            </p>
           </div>
         </div>
         {/* How It Works Section End*/}
@@ -554,8 +635,13 @@ const OurPartner = () => {
         <div id="off" ref={ref6} className="offices">
           <h3>Our Offices</h3>
           <div className="mt-2 picta">
-            <p>Kushel digi operates in multiple offices and development centers across the globe.</p>
-            <p>Reach out to us for software development services in your region.</p>
+            <p>
+              Kushel digi operates in multiple offices and development centers
+              across the globe.
+            </p>
+            <p>
+              Reach out to us for software development services in your region.
+            </p>
           </div>
           <div className="office-img flex items-center justify-center">
             <div className="office-image">
@@ -564,7 +650,7 @@ const OurPartner = () => {
                 <h4>INDIA</h4>
                 <div className="flex items-center">
                   <img width={25} src={londa} alt="" />
-                  <p className="ml-3">g-9, first Floor, Sector 63, Noida</p>
+                  <p className="ml-3">G-9, first Floor, Sector 63, Noida</p>
                 </div>
               </div>
             </div>
@@ -574,7 +660,7 @@ const OurPartner = () => {
                 <h4>INDIA</h4>
                 <div className="flex items-center">
                   <img width={25} src={londa} alt="" />
-                  <p className="ml-3">g-9, first Floor, Sector 63, Noida</p>
+                  <p className="ml-3">G-9, first Floor, Sector 63, Noida</p>
                 </div>
               </div>
             </div>
@@ -584,7 +670,7 @@ const OurPartner = () => {
         <div id="faqing" ref={ref5} className="home9 mb-12 home278">
           <div className="home91 flex px-24">
             <div className="home911 text-center">
-              <h2 className='font-bold text-gray-700'>JUST THE FAQs</h2>
+              <h2 className="font-bold text-gray-700">JUST THE FAQs</h2>
             </div>
             <div className="home912">
               <Accordion allowZeroExpanded>
@@ -611,9 +697,9 @@ const OurPartner = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -625,9 +711,9 @@ const OurPartner = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -639,9 +725,9 @@ const OurPartner = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -653,9 +739,9 @@ const OurPartner = () => {
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -663,44 +749,57 @@ const OurPartner = () => {
             </div>
           </div>
         </div>
-        <div className='flex items-start justify-center discusion-form discusion-form1'>
-
+        <div className="flex items-start justify-center discusion-form discusion-form1">
           <div className="w-full  mrs mrs1">
-              <h3>Let’s Discuss your Project</h3>
-              <form action="">
-                <div className=" flex items-start common-form">
-                  <div className="first-form">
-                    <div className="form-field">
-                      <input type="text" placeholder="Name*" />
-                    </div>
-                    <div className="form-field mt-5">
-                      <input type="text" placeholder="Phone number*" />
-                    </div>
-                    <div className="form-field mt-5">
-                      <input type="email" placeholder="Email Address*" />
-                    </div>
-                    <div>
-                      <button>Submit <img className="tih" src={arrow1} alt="" /></button>
-                    </div>
+            <h3>Let’s Discuss your Project</h3>
+            <form action="">
+              <div className=" flex items-start common-form">
+                <div className="first-form">
+                  <div className="form-field">
+                    <input type="text" placeholder="Name*" />
                   </div>
-                  <div className="second-form">
-                    <div className="form-filed1">
-                      <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
-                    </div>
+                  <div className="form-field mt-5">
+                    <input type="text" placeholder="Phone number*" />
+                  </div>
+                  <div className="form-field mt-5">
+                    <input type="email" placeholder="Email Address*" />
+                  </div>
+                  <div>
+                    <button>
+                      Submit <img className="tih" src={arrow1} alt="" />
+                    </button>
                   </div>
                 </div>
-
-              </form>
-          
-
+                <div className="second-form">
+                  <div className="form-filed1">
+                    <textarea
+                      placeholder="Message"
+                      name=""
+                      id=""
+                      cols="30"
+                      rows="10"
+                    ></textarea>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
-          <div className='w-full   loofs'>
+          <div className="w-full   loofs">
             <div className="loofs-sect">
-              <h2>ENJOY WORKING WITH AN EXPERIENCED AND CREATIVE TEAM. LET’S TALK.</h2>
-              <button>Want to join us <img width={12} className="inline ml-1" src={arrow3} alt="arrow3" /></button>
+              <h2>
+                ENJOY WORKING WITH AN EXPERIENCED AND CREATIVE TEAM. LET’S TALK.
+              </h2>
+              <button>
+                Want to join us{" "}
+                <img
+                  width={12}
+                  className="inline ml-1"
+                  src={arrow3}
+                  alt="arrow3"
+                />
+              </button>
             </div>
           </div>
-
         </div>
       </div>
     </>

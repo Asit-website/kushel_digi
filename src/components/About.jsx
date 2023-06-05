@@ -7,9 +7,9 @@ import asit from "../images/asit.png";
 import chirag from "../images/chirag.png";
 import arrow from "../images/arrow.png";
 import sijo1 from "../images/sijo.png";
-import link from '../images/link.png';
-import young3 from '../images/young3.png';
-import github from '../images/github.png';
+import link from "../images/link.png";
+import young3 from "../images/young3.png";
+import github from "../images/github.png";
 const About = () => {
   const [tab, setTab] = useState(1);
 
@@ -267,13 +267,23 @@ const About = () => {
               <div className="about7 relative">
                 <img src="/static/images/e11.png" alt="" />
                 <div className="absolute flex flex-col">
-                     <div className="chief">
-                        <h2 className="text-center">CHIEF</h2>
-                        <div className="flex linkj1  items-center justify-center">
-                          <a target="_blank" href="https://www.linkedin.com/in/shubham-gupta-digital/"><img className="linkj" src={link} alt="link" /></a>
-                          <a target="_blank" href="https://www.instagram.com/up15_wale_guptaji/"><img className="linkj" src={young3} alt="young3" /></a>
-                        </div>
-                     </div>
+                  <div className="chief">
+                    <h2 className="text-center">CHIEF</h2>
+                    <div className="flex linkj1  items-center justify-center">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/shubham-gupta-digital/"
+                      >
+                        <img className="linkj" src={link} alt="link" />
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/up15_wale_guptaji/"
+                      >
+                        <img className="linkj" src={young3} alt="young3" />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
               <h4>Shubham Gupta</h4>
@@ -283,13 +293,18 @@ const About = () => {
               <div className="about7 relative w-full">
                 <img src={sijo1} alt="sijo1" />
                 <div className="absolute flex flex-col">
-                <div className="chief">
-                        {/* <h2 className="text-center">CHIEF</h2> */}
-                        <div className="flex linkj1  items-center justify-center">
-                          <a target="_blank" href="https://www.linkedin.com/in/sijo-jose-5b56b651/"><img className="linkj" src={link} alt="link" /></a>
-                          {/* <a target="_blank" href="https://www.instagram.com/up15_wale_guptaji/"><img className="linkj" src={young3} alt="young3" /></a> */}
-                        </div>
-                     </div>
+                  <div className="chief">
+                    <h2 className="text-center">SALES</h2>
+                    <div className="flex linkj1  items-center justify-center">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/sijo-jose-5b56b651/"
+                      >
+                        <img className="linkj" src={link} alt="link" />
+                      </a>
+                      {/* <a target="_blank" href="https://www.instagram.com/up15_wale_guptaji/"><img className="linkj" src={young3} alt="young3" /></a> */}
+                    </div>
+                  </div>
                 </div>
               </div>
               <h4>Sijo Jose</h4>
@@ -299,13 +314,20 @@ const About = () => {
               <div className="about7 relative w-full">
                 <img src={asit} alt="asit" />
                 <div className="absolute flex flex-col">
-                <div className="chief">
-                        {/* <h2 className="text-center">CHIEF</h2> */}
-                        <div className="flex linkj1  items-center justify-center">
-                          <a target="_blank" href="https://www.linkedin.com/in/asit-mandal-059152214/"><img className="linkj" src={link} alt="link" /></a>
-                          <a target="_blank" href="https://github.com/Asit-website"><img className="linkj" src={github} alt="young3" /></a>
-                        </div>
-                     </div>
+                  <div className="chief">
+                    <h2 className="text-center">DEVELOPER</h2>
+                    <div className="flex linkj1  items-center justify-center">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/asit-mandal-059152214/"
+                      >
+                        <img className="linkj" src={link} alt="link" />
+                      </a>
+                      <a target="_blank" href="https://github.com/Asit-website">
+                        <img className="linkj" src={github} alt="young3" />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
               <h4>Asit Mandal</h4>
@@ -313,21 +335,30 @@ const About = () => {
             </div>
             <div className="about72">
               <div className="about7 relative w-full">
-                <img src={chirag} alt="" />
+                <img src={chirag} alt="chirag" />
                 <div className="absolute flex flex-col">
-                <div className="chief">
-                        {/* <h2 className="text-center">CHIEF</h2> */}
-                        <div className="flex linkj1  items-center justify-center">
-                          <a target="_blank" href="https://www.linkedin.com/in/chirag-negi-423566255/"><img className="linkj" src={link} alt="link" /></a>
-                          <a target="_blank" href="https://www.instagram.com/chirag__2022/"><img className="linkj" src={young3} alt="young3" /></a>
-                        </div>
-                     </div>
+                  <div className="chief">
+                    <h2 className="text-center">MANAGER</h2>
+                    <div className="flex linkj1  items-center justify-center">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/chirag-negi-423566255/"
+                      >
+                        <img className="linkj" src={link} alt="link" />
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/chirag__2022/"
+                      >
+                        <img className="linkj" src={young3} alt="young3" />
+                      </a>
+                    </div>
+                  </div>
                 </div>
               </div>
               <h4>Chirag Negi</h4>
               <p>Administrative assistant</p>
             </div>
-           
           </div>
         </div>
         <div className="about-main6">
@@ -395,10 +426,11 @@ const About = () => {
                   <b className="font-bold mb-2">2017</b>
                   <p className="mb-2 mt-2 founded">Kushel digi is founded</p>
                   <p className="started">
-                    With only 10 people at first, we worked diligently with the
-                    intention of expanding. Within a month of our organisation,
-                    we successfully completed our first brand project with the
-                    best attention.
+                    Kushel Digi was founded in September 2017. With only three
+                    people at first, we started operating domestically with the
+                    intention of expanding into the international market as
+                    well. Within a month of our organization, we successfully
+                    completed our first brand project with the best attention.
                   </p>
                 </div>
                 <div className="about81">
@@ -413,10 +445,9 @@ const About = () => {
                   <b className="font-bold mb-2">2018</b>
                   {/* <p  className="mb-2 mt-2 founded founded1">Kushel digi is founded</p> */}
                   <p className="started mt-4">
-                    We hired more motivated staff members. By setting up
-                    favourable circumstances for success and remarkable
-                    possibilities. We completed a number of projects
-                    successfully.
+                    We hired more motivated staff members and set up our office
+                    in New Delhi. We did our best to develop policies and goals
+                    based on the customer's desires.
                   </p>
                 </div>
                 <div className="about81">
@@ -432,8 +463,9 @@ const About = () => {
                   <b className="font-bold mb-2">2019</b>
                   {/* <p className="mb-2 mt-2 founded">Kushel digi is founded</p> */}
                   <p className="started mt-4">
-                    Many new services were added, and the best technology was
-                    used to provide these services.
+                    Many new services were added, and the latest tools and
+                    technology were introduced to provide these services.
+                    Successfully delivered Approx 50+ projects.
                   </p>
                 </div>
                 <div className="about81">
@@ -449,9 +481,11 @@ const About = () => {
                   <b className="font-bold mb-2">2020</b>
                   {/* <p className="mb-2 mt-2 founded">Kushel digi is founded</p> */}
                   <p className="started mt-4">
-                    We created social media profiles for our website, gained
-                    some followers, increased our online activity, and made an
-                    effort to get as close as possible to our clients.
+                    The COVID-19 pandemic was the most challenging period for
+                    many companies; likewise, for Kushel Digi, 90 percent of our
+                    business was lost during this period. Our services were
+                    terminated on March 30, 2020. We made this choice to
+                    safeguard our workers, clients, and neighborhood.
                   </p>
                 </div>
                 <div className="about81">
@@ -467,8 +501,9 @@ const About = () => {
                   <b className="font-bold mb-2">2021</b>
                   {/* <p className="mb-2 mt-2 founded">Kushel digi is founded</p> */}
                   <p className="started mt-4">
-                    In spite of the pandemic, we continued to grow and added
-                    more staff members with work-from-home arrangements.
+                    Nearly a year into the pandemic, every month seemed to drag
+                    on forever. There was uncertainty about when we could resume
+                    office as the company was entirely shut down.
                   </p>
                 </div>
                 <div className="about81">
@@ -484,9 +519,11 @@ const About = () => {
                   <b className="font-bold mb-2">2022</b>
                   {/* <p className="mb-2 mt-2 founded">Kushel digi is founded</p> */}
                   <p className="started mt-4">
-                    More work-from-home activities in a year when the pandemic
-                    continues. Appointed new employees through online
-                    applications.
+                    Kushel Digi underwent a complete transition when the
+                    pandemic subsided. We began to offer online services and
+                    introduced contactless payments with the establishment of
+                    our virtual office. Sector 63 of Noida is where our new
+                    office is located.
                   </p>
                 </div>
                 <div className="about81">
@@ -502,9 +539,10 @@ const About = () => {
                   <b className="font-bold mb-2">2023</b>
                   {/* <p className="mb-2 mt-2 founded">Kushel digi is founded</p> */}
                   <p className="started mt-4">
-                    We are implementing a lot of new improvements this year in
-                    the business as we work to deliver the best services and
-                    demonstrate flawless growth.
+                    We are refocusing on our offerings and have also started
+                    business with international clients to achieve global
+                    success. We currently operate as a full-service e-commerce
+                    and marketing agency.
                   </p>
                 </div>
                 <div className="about81">
@@ -616,10 +654,10 @@ const About = () => {
             <div className="about-11">
               <h3>Join the Kushel digi team!</h3>
               <p>
-                Innovate with the latest and greatest technologies & get to work
+                Innovate with the latest technologies & get to work
                 on some of the coolest projects you can imagine.
               </p>
-              <button>Apply Now</button>
+             <NavLink to="/career"><button>Apply Now</button></NavLink>
             </div>
             <div className="about-10">
               <img className="sersa" src="/static/images/e17.png" alt="" />

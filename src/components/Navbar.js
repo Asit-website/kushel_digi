@@ -45,7 +45,6 @@ const Navbar = () => {
     }
   };
 
-
   // ====================hire dropdown logic start================
   const toggleHire = () => {
     // document.querySelector(".hire-nav").classList.toggle("hidden");
@@ -80,7 +79,7 @@ const Navbar = () => {
   const toggleService22 = (flag = false) => {
     console.log(flag10);
     // document.querySelector(".ser-nav10").classList.toggle("hidden");
-    
+
     st = setTimeout(() => {
       let b1 = document.querySelector(".ser-nav");
       // if(((!b1.classList.contains('hidden') && !flag10) || flag) && !flag11)
@@ -89,13 +88,12 @@ const Navbar = () => {
       }
     }, 400);
   };
-// =====================service dropdown logic end=================
+  // =====================service dropdown logic end=================
 
-// =====================about us dropdown logic=====================
+  // =====================about us dropdown logic=====================
   const toggleService2 = () => {
     document.querySelector(".ser-nav10").classList.toggle("hidden");
   };
-
 
   // ====================about us dropdown logic end=====================
 
@@ -122,7 +120,6 @@ const Navbar = () => {
     }, 400);
   };
 
-  
   // ====================resources dropdown logic end=============
   return (
     <>
@@ -166,291 +163,288 @@ const Navbar = () => {
           <div className="navbar-text desk-nav">
             <ul>
               <li className="mar">
-                
-                  <div className="flex items-center cursor-pointer nb-0 navLinks">
-                    <p className="sar" to="/about">
-                      about us
-                    </p>
-                    <div className="ser-nav10 hidden megaMenu">
-                      <div className="compan flex items-start justify-between">
-                        <div className="first-compan mt-3 flex items-start justify-evenly">
-                          <div className="second-compan mr-10">
-                            <NavLink  to="/partner">
-                              <p className="cpmpa">Partner With us</p>
-                            </NavLink>
-                            <NavLink onClick={() =>  document.querySelector(".ser-nav10").classList.toggle("ses")}  to="/about">
-                              <p  className="cpmpa">Who We Are</p>
-                            </NavLink>
-                            <p className="cpmpa">Social Cause - NGO</p>
-                            <p className="cpmpa">Blog</p>
-                            <NavLink  to="/contact">
-                              <p className="cpmpa">Contact Us</p>
-                            </NavLink>
-                          </div>
-                          <div className="second-compan mr-5">
-                            <p className="cpmpa">Our Work</p>
-                            <p className="cpmpa">Our Clients</p>
-                            <p className="cpmpa">Testimonials</p>
-                            <NavLink  to="/carer">
-                              <p className="cpmpa">Career with us</p>
-                            </NavLink>
-                            <NavLink  to="/hire">
-                              <p className="cpmpa">Hire team</p>
-                            </NavLink>
-                          </div>
-                        </div>
-                        <div className="second-compan1">
-                          <div className="comapn-sect">
-                            <h3>GET FREE CONSULTATION</h3>
-                            <p className="wanna">
-                              Want to validate your mobile app idea? Tell us a
-                              little bit about your requirements
-                            </p>
-                            <NavLink  to="/contact">
-                              <button className="wanna-btn">Contact Us</button>
-                            </NavLink>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                
-              </li>
-              <li className="mar">
-                
-                  <div
-                    // onClick={toggleService}
-                    className="flex items-center cursor-pointer nb-0 navLinks"
-                  >
-                    <p className="sar" to="">
-                      services
-                    </p>
-                    
-                  </div>
-                  <div
-                   
-                   className="ser-nav hidden megaMenu"
-                   >
-                    <div  className="ser-nav5">
-                      <div className="ser-tag">
-                        <div className="tag1">
-                          <div className="">
-                            <NavLink  to="/mobile-application-development-usa">
-                              {" "}
-                              <div className="flex items-center">
-                                <img src={mon1} alt="" />
-                                <h4>Mobile App Development</h4>
-                              </div>
-                            </NavLink>
-                            <p className="yamini">
-                              <NavLink className="sonji" to="/ios">
-                                i Phone
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="/android">
-                                Android{" "}
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="/fluter">
-                                Flutter
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="/native">
-                                React Native
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                Kotlin
-                              </NavLink>
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                Swift
-                              </NavLink>
-                            </p>
-                          </div>
-                          <div className=" mt-7">
-                            <NavLink  to="/ecommerce-solutions-usa">
-                              {" "}
-                              <div className="flex items-center">
-                                <img src={mon2} alt="" />
-                                <h4>E - Commerce Solutions</h4>
-                              </div>
-                            </NavLink>
-                            <p className="yamini">
-                              <NavLink className="sonji" to="#!">
-                                Shopify
-                              </NavLink>{" "}
-                              <span> |</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                {" "}
-                                Woo Commerce{" "}
-                              </NavLink>{" "}
-                              <span> |</span>{" "}
-                              <NavLink className="sonji" to="/bigComm">
-                                {" "}
-                                Big Commerce{" "}
-                              </NavLink>{" "}
-                              <span> |</span>
-                              <NavLink className="sonji" to="#!">
-                                {" "}
-                                Magento{" "}
-                              </NavLink>{" "}
-                              <span> |</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                {" "}
-                                Wordpress{" "}
-                              </NavLink>
-                            </p>
-                          </div>
-                          <div className=" mt-7">
-                            <div className="flex items-center">
-                              <img src={mon3} alt="" />
-                              <h4>Graphic Design</h4>
-                            </div>
-                            <p className="yamini">
-                              <NavLink className="sonji" to="#!">
-                                Adobe illustrator
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                Adobe Photoshop
-                              </NavLink>
-                              <span>|</span> <br />
-                              <NavLink className="sonji" to="#!">
-                                {" "}
-                                CorelDRAW
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                After Effect
-                              </NavLink>
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                Premium Pro
-                              </NavLink>
-                            </p>
-                          </div>
-                        </div>
-                        <div className="tag1 ml-10">
-                          <div className="">
-                            <NavLink  to="/web-development-usa">
-                              <div className="flex items-center">
-                                <img src={mon4} alt="" />
-                                <h4>Web development</h4>
-                              </div>
-                            </NavLink>
-                            <p className="yamini">
-                              <NavLink className="sonji" to="#!">
-                                PHP
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                React.js
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                HTML5
-                              </NavLink>
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                Wordpress
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                Vue.js
-                              </NavLink>
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                Node.js
-                              </NavLink>
-                            </p>
-                          </div>
-                          <div className="w-full mt-7">
-                            <NavLink  to="/ui-ux-designer-usa">
-                              {" "}
-                              <div className="flex items-center">
-                                <img src={uiux} alt="" />
-                                <h4>UI/UX Design</h4>
-                              </div>
-                            </NavLink>
-                            <p className="yamini">
-                              <NavLink className="sonji" to="#!">
-                                Figma
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                Adobe XD
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                Sketch
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                Affinity
-                              </NavLink>
-                            </p>
-                          </div>
-                          <div className="w-full mt-7">
+                <div className="flex items-center cursor-pointer nb-0 navLinks">
+                  <p className="sar" to="/about">
+                    about us
+                  </p>
+                  <div className="ser-nav10 hidden megaMenu">
+                    <div className="compan flex items-start justify-between">
+                      <div className="first-compan mt-3 flex items-start justify-evenly">
+                        <div className="second-compan mr-10">
+                          <NavLink to="/partner">
                             <NavLink
-                              
-                              to="/digital-marketing-agency-usa"
+                              onClick={() =>
+                                document
+                                  .querySelector(".ser-nav10")
+                                  .classList.toggle("ses")
+                              }
+                              to="/about"
                             >
-                              <div className="flex items-center">
-                                <img src={marketing} alt="" />
-                                <h4>Digital Marketing</h4>
-                              </div>
+                              <p className="cpmpa">Who We Are</p>
                             </NavLink>
-                            <p className="yamini uppercase">
-                              <NavLink className="sonji" to="#!">
-                                SEO
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                SMO
-                              </NavLink>{" "}
-                              <span>|</span>{" "}
-                              <NavLink className="sonji" to="#!">
-                                PPC
-                              </NavLink>
-                            </p>
-                          </div>
-                          <div className="w-full mt-7">
-                            <NavLink  to="/staff-augmentation">
-                              <div className="flex items-center">
-                                <img src={staffji} alt="staffji" />
-                                <h4>Staff Augmentation</h4>
-                              </div>
-                            </NavLink>
-                          </div>
+                            <p className="cpmpa">Testimonials</p>
+                            <p className="cpmpa">Blog</p>
+                            <p className="cpmpa">Partner With us</p>
+                          </NavLink>
+                          <p className="cpmpa">Social Cause - NGO</p>
+                          {/* <NavLink  to="/contact">
+                              <p className="cpmpa">Contact Us</p>
+                            </NavLink> */}
+                        </div>
+                        <div className="second-compan mr-5">
+                          <p className="cpmpa">Our Work</p>
+                          <p className="cpmpa">Our Clients</p>
+                          {/* <p className="cpmpa">Testimonials</p> */}
+                          <NavLink to="/career">
+                            <p className="cpmpa">Careers</p>
+                          </NavLink>
+                          <NavLink to="/hire">
+                            <p className="cpmpa">Hire team</p>
+                          </NavLink>
+                        </div>
+                      </div>
+                      <div className="second-compan1">
+                        <div className="comapn-sect">
+                          <h3>GET FREE CONSULTATION</h3>
+                          <p className="wanna wannt">
+                            {/* Want to validate your idea/review  wesite? Tell us a
+                              little bit about your requirements */}
+                            Empowering companies at the intersection of UX
+                            design, development, & business. <br />
+                            Accelerate your digital transformation with our free
+                            consultation
+                          </p>
+                          <NavLink to="/contact">
+                            <button className="wanna-btn">Contact Us</button>
+                          </NavLink>
                         </div>
                       </div>
                     </div>
-                    <div className="teal flex items-center justify-between">
-                      <div className="tael-head">
-                        <h3>GET FREE CONSULTATION</h3>
-                        <p className="want">
-                          Want to validate your mobile app idea? Tell us a
-                          little bit <br /> about your requirements
-                        </p>
-                      </div>
-                      <div className="teal-contact">
-                        <button className="conj">Contact Us</button>
-                      </div>
-                    </div>
                   </div>
-               
+                </div>
               </li>
               <li className="mar">
                 <div
-                  className="flex items-center cursor-pointer"
+                  // onClick={toggleService}
+                  className="flex items-center cursor-pointer nb-0 navLinks"
                 >
+                  <p className="sar" to="">
+                    services
+                  </p>
+                </div>
+                <div className="ser-nav hidden megaMenu">
+                  <div className="ser-nav5">
+                    <div className="ser-tag">
+                      <div className="tag1">
+                        <div className="">
+                          <NavLink to="/mobile-application-development-usa">
+                            {" "}
+                            <div className="flex items-center">
+                              <img src={mon1} alt="" />
+                              <h4>Mobile App Development</h4>
+                            </div>
+                          </NavLink>
+                          <p className="yamini">
+                            <NavLink className="sonji" to="/ios">
+                              i Phone
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="/android">
+                              Android{" "}
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="/fluter">
+                              Flutter
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="/native">
+                              React Native
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              Kotlin
+                            </NavLink>
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              Swift
+                            </NavLink>
+                          </p>
+                        </div>
+                        <div className=" mt-7">
+                          <NavLink to="/ecommerce-solutions-usa">
+                            {" "}
+                            <div className="flex items-center">
+                              <img src={mon2} alt="" />
+                              <h4>E - Commerce Solutions</h4>
+                            </div>
+                          </NavLink>
+                          <p className="yamini">
+                            <NavLink className="sonji" to="#!">
+                              Shopify
+                            </NavLink>{" "}
+                            <span> |</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              {" "}
+                              Woo Commerce{" "}
+                            </NavLink>{" "}
+                            <span> |</span>{" "}
+                            <NavLink className="sonji" to="/bigComm">
+                              {" "}
+                              Big Commerce{" "}
+                            </NavLink>{" "}
+                            <span> |</span>
+                            <NavLink className="sonji" to="#!">
+                              {" "}
+                              Magento{" "}
+                            </NavLink>{" "}
+                            <span> |</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              {" "}
+                              Wordpress{" "}
+                            </NavLink>
+                          </p>
+                        </div>
+                        <div className=" mt-7">
+                          <div className="flex items-center">
+                            <img src={mon3} alt="" />
+                            <h4>Graphic Design</h4>
+                          </div>
+                          <p className="yamini">
+                            <NavLink className="sonji" to="#!">
+                              Adobe illustrator
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              Adobe Photoshop
+                            </NavLink>
+                            <span>|</span> <br />
+                            <NavLink className="sonji" to="#!">
+                              {" "}
+                              CorelDRAW
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              After Effect
+                            </NavLink>
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              Premium Pro
+                            </NavLink>
+                          </p>
+                        </div>
+                      </div>
+                      <div className="tag1 ml-10">
+                        <div className="">
+                          <NavLink to="/web-development-usa">
+                            <div className="flex items-center">
+                              <img src={mon4} alt="" />
+                              <h4>Web development</h4>
+                            </div>
+                          </NavLink>
+                          <p className="yamini">
+                            <NavLink className="sonji" to="#!">
+                              PHP
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              React.js
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              HTML5
+                            </NavLink>
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              Wordpress
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              Vue.js
+                            </NavLink>
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              Node.js
+                            </NavLink>
+                          </p>
+                        </div>
+                        <div className="w-full mt-7">
+                          <NavLink to="/ui-ux-designer-usa">
+                            {" "}
+                            <div className="flex items-center">
+                              <img src={uiux} alt="" />
+                              <h4>UI/UX Design</h4>
+                            </div>
+                          </NavLink>
+                          <p className="yamini">
+                            <NavLink className="sonji" to="#!">
+                              Figma
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              Adobe XD
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              Sketch
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              Affinity
+                            </NavLink>
+                          </p>
+                        </div>
+                        <div className="w-full mt-7">
+                          <NavLink to="/digital-marketing-agency-usa">
+                            <div className="flex items-center">
+                              <img src={marketing} alt="" />
+                              <h4>Digital Marketing</h4>
+                            </div>
+                          </NavLink>
+                          <p className="yamini uppercase">
+                            <NavLink className="sonji" to="#!">
+                              SEO
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              SMO
+                            </NavLink>{" "}
+                            <span>|</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              PPC
+                            </NavLink>
+                          </p>
+                        </div>
+                        <div className="w-full mt-7">
+                          <NavLink to="/staff-augmentation">
+                            <div className="flex items-center">
+                              <img src={staffji} alt="staffji" />
+                              <h4>Staff Augmentation</h4>
+                            </div>
+                          </NavLink>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="teal flex items-center justify-between">
+                    <div className="tael-head">
+                      <h3>GET FREE CONSULTATION</h3>
+                      <p className="want">
+                        Want to validate your mobile app idea? Tell us a little
+                        bit <br /> about your requirements
+                      </p>
+                    </div>
+                    <div className="teal-contact">
+                     <NavLink className="conj-hire" to="/contact"><button className="conj">Contact Us</button></NavLink>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li className="mar">
+                <div className="flex items-center cursor-pointer">
                   <p className="sar" to="">
                     Solutions
                   </p>
                 </div>
-               
               </li>
               <li className="mar">
                 <div className="flex items-center cursor-pointer">
@@ -461,116 +455,104 @@ const Navbar = () => {
               </li>
 
               <li className="mar" style={{ position: "relative" }}>
-                  <div
-                    
-                    className="flex items-center cursor-pointer nb-0 navLinks"
-                  >
-                    <p className="sar" to="">
-                      Hire
-                    </p>
-                  </div>
-                  <div 
-                   
-                   className="hire-nav hidden megaMenu"
-                   >
-                    <div className="hire-nav__containers ">
-                      <div className="hire-nav__container">
-                        <div className="hire-nav__container__header">
-                          <img src={ent3} alt="" />
-                          <h3>Web Development</h3>
-                        </div>
-                        <ul>
-                          <li>
-                            <NavLink to="/hire">PHP Developer</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">Laravel Web Developer</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">Node Js Developer</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">React Js Developer</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">Wordpress Developer</NavLink>
-                          </li>
-                        </ul>
+                <div className="flex items-center cursor-pointer nb-0 navLinks">
+                  <p className="sar" to="">
+                    Hire
+                  </p>
+                </div>
+                <div className="hire-nav hidden megaMenu">
+                  <div className="hire-nav__containers ">
+                    <div className="hire-nav__container">
+                      <div className="hire-nav__container__header">
+                        <img src={ent3} alt="" />
+                        <h3>Web Development</h3>
                       </div>
-                      <div className="hire-nav__container">
-                        <div className="hire-nav__container__header">
-                          <img style={{ width: "0.7rem" }} src={ent4} alt="" />
-                          <h3>Mobile App Developer</h3>
-                        </div>
-                        <ul>
-                          <li>
-                            <NavLink to="/hire">Android Developer</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">IOS Developer</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">Flutter Developer</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">React Native Developer</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">Kotlin Developer</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">Swift Developer</NavLink>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="hire-nav__container">
-                        <div className="hire-nav__container__header">
-                          <img src={ent5} alt="" />
-                          <h3>Hire a Designer</h3>
-                        </div>
-                        <ul className=" relative left-3">
-                          <li>
-                            <NavLink to="/hire">Website Designer</NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">
-                              UI/UX Designer (3 Year +) EXP.{" "}
-                            </NavLink>
-                          </li>
-                          <li>
-                            <NavLink to="/hire">
-                              Graphic Designer (3Year +) EXP.
-                            </NavLink>
-                          </li>
-                        </ul>
-                      </div>
+                      <ul>
+                        <li>
+                          <NavLink to="/hire">PHP Developer</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">Laravel Web Developer</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">Node Js Developer</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">React Js Developer</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">Wordpress Developer</NavLink>
+                        </li>
+                      </ul>
                     </div>
-                    <div className="teal flex items-center justify-between">
-                      <div className="tael-head">
-                        <h3>GET FREE CONSULTATION</h3>
-                        <p className="want">
-                          Want to validate your mobile app idea? Tell us a
-                          little bit <br /> about your requirements
-                        </p>
+                    <div className="hire-nav__container">
+                      <div className="hire-nav__container__header">
+                        <img style={{ width: "0.7rem" }} src={ent4} alt="" />
+                        <h3>Mobile App Developer</h3>
                       </div>
-                      <div className="teal-contact">
-                        <button className="conj">Contact Us</button>
+                      <ul>
+                        <li>
+                          <NavLink to="/hire">Android Developer</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">IOS Developer</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">Flutter Developer</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">React Native Developer</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">Kotlin Developer</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">Swift Developer</NavLink>
+                        </li>
+                      </ul>
+                    </div>
+                    <div className="hire-nav__container">
+                      <div className="hire-nav__container__header">
+                        <img src={ent5} alt="" />
+                        <h3>Hire a Designer</h3>
                       </div>
+                      <ul className=" relative left-3">
+                        <li>
+                          <NavLink to="/hire">Website Designer</NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">
+                            UI/UX Designer (3 Year +) EXP.{" "}
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink to="/hire">
+                            Graphic Designer (3Year +) EXP.
+                          </NavLink>
+                        </li>
+                      </ul>
                     </div>
                   </div>
-                
+                  <div className="teal flex items-center justify-between">
+                    <div className="tael-head">
+                      <h3>GET FREE CONSULTATION</h3>
+                      <p className="want">
+                        Want to validate your mobile app idea? Tell us a little
+                        bit <br /> about your requirements
+                      </p>
+                    </div>
+                    <div className="teal-contact">
+                     <NavLink className="conj-hire" to="/contact"><button className="conj">Contact Us</button></NavLink>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li className="mar">
-               
-                
-                  <div
-                    
-                    className="flex items-center cursor-pointer nb-0 navLinks"
-                  >
-                    <p className="sar" to="">
-                      Resources
-                    </p>
-                    {/* <svg
+                <div className="flex items-center cursor-pointer nb-0 navLinks">
+                  <p className="sar" to="">
+                    Resources
+                  </p>
+                  {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="15"
                       height="15"
@@ -583,31 +565,35 @@ const Navbar = () => {
                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
                       />
                     </svg> */}
-                  </div>
-                  <div 
-                  className="ser-nav-resource hidden megaMenu"
-                  
-                  >
-                    <div className="resource flex items-center px-5 py-5">
-                      <div className="resources1 flex flex-col items-center mr-4">
-                        <img src="/static/images/d3.png" alt="" />
-                        <NavLink to="#!" className="resource11 mt-3">Blog</NavLink>
-                      </div>
-                      <div className="resources1 flex flex-col items-center mr-4">
-                        <img src="/static/images/d4.png" alt="" />
-                        <NavLink to="#!" className="resource11 mt-3">News</NavLink>
-                      </div>
-                      <div className="resources1 flex flex-col items-center mr-4">
-                        <img src="/static/images/d5.png" alt="" />
-                        <NavLink to="#!" className="resource11 mt-3">Case Study</NavLink>
-                      </div>
-                      <div className="resources1 flex flex-col items-center">
-                        <img src="/static/images/d6.png" alt="" />
-                        <NavLink to="#!" className="resource11 mt-3">Events</NavLink>
-                      </div>
+                </div>
+                <div className="ser-nav-resource hidden megaMenu">
+                  <div className="resource flex items-center px-5 py-5">
+                    <div className="resources1 flex flex-col items-center mr-4">
+                      <img src="/static/images/d3.png" alt="" />
+                      <NavLink to="#!" className="resource11 mt-3">
+                        Blog
+                      </NavLink>
+                    </div>
+                    <div className="resources1 flex flex-col items-center mr-4">
+                      <img src="/static/images/d4.png" alt="" />
+                      <NavLink to="#!" className="resource11 mt-3">
+                        News
+                      </NavLink>
+                    </div>
+                    <div className="resources1 flex flex-col items-center mr-4">
+                      <img src="/static/images/d5.png" alt="" />
+                      <NavLink to="#!" className="resource11 mt-3">
+                        Case Study
+                      </NavLink>
+                    </div>
+                    <div className="resources1 flex flex-col items-center">
+                      <img src="/static/images/d6.png" alt="" />
+                      <NavLink to="#!" className="resource11 mt-3">
+                        Events
+                      </NavLink>
                     </div>
                   </div>
-               
+                </div>
               </li>
               <li className="mar">
                 <NavLink className="bts-naba" to="/contact">

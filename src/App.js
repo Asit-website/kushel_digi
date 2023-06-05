@@ -32,6 +32,12 @@ import Flutter from "./components/Flutter";
 import Native from "./components/Native";
 import Label  from "./components/Label";
 import BigCommerce from "./components/BigCommerce";
+import Solenoid from "./components/Solenoid";
+import ProTrucks from "./components/ProTrucks";
+import Rely from "./components/Rely";
+import Ammedment from "./components/Ammedment";
+import JonesBuilt from "./components/JonesBuilt";
+import Ceo from "./components/Ceo";
 
 function App() {
   return (
@@ -56,9 +62,17 @@ function App() {
           <Route path="/terms" element={<Terms />} />
           <Route path="/partner" element={<OurPartner />} />
           <Route path="/playbook" element={<Playbook />} />
+          {/* ============internal route============ */}
           <Route path="/kick" element={<Kickiz />} />
+          <Route path="/solenoid" element={<Solenoid/>}/>
+          <Route path="/protrack" element={<ProTrucks/>}/>
+          <Route path="/rely" element={<Rely/>}/>
+          <Route path="/ammed" element={<Ammedment/>}/>
+          <Route path="/jones" element={<JonesBuilt/>}/>
+          <Route path="/ceo" element={<Ceo/>}/>
+          {/* ===========internal route end================ */}
           <Route path="/portfolio" element={<Portfolio/>}/>
-          <Route path="/carer" element={<Career/>}/>
+          <Route path="/career" element={<Career/>}/>
           <Route path="/about" element={<About />}/>
           <Route path="/approach" element={<Approach/>}/>
           <Route path="/android" element={<Android/>}/>

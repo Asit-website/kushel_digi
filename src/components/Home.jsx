@@ -69,24 +69,24 @@ import re1 from "../images/re1.png";
 import arrow from "../images/arrow.png";
 import singi from "../images/singi.png";
 import { NavLink } from "react-router-dom";
-import chont1 from '../images/chont1.png';
-import chont2 from '../images/chont2.png';
-import chont3 from '../images/chont3.png';
-import chont4 from '../images/chont4.png';
-import chont5 from '../images/chont5.png';
-import joki1 from '../images/joki1.png';
-import joki2 from '../images/joki2.png';
-import joki3 from '../images/joki3.png';
-import joki4 from '../images/joki4.png';
-import joki5 from '../images/joki5.png';
-import joki6 from '../images/joki6.png';
-import joki7 from '../images/joki7.png';
-import joki8 from '../images/joki8.png';
-import sync from '../images/sync.png';
-import antist from '../images/antist.png';
+import chont1 from "../images/chont1.png";
+import chont2 from "../images/chont2.png";
+import chont3 from "../images/chont3.png";
+import chont4 from "../images/chont4.png";
+import chont5 from "../images/chont5.png";
+import joki1 from "../images/joki1.png";
+import joki2 from "../images/joki2.png";
+import joki3 from "../images/joki3.png";
+import joki4 from "../images/joki4.png";
+import joki5 from "../images/joki5.png";
+import joki6 from "../images/joki6.png";
+import joki7 from "../images/joki7.png";
+import joki8 from "../images/joki8.png";
+import sync from "../images/sync.png";
+import antist from "../images/antist.png";
 import ContactForm1 from "./common/ContactForm1";
-import abita from '../images/abita.png';
-import surup from '../images/surup.png';
+import abita from "../images/abita.png";
+import surup from "../images/surup.png";
 const Home = () => {
   let dev = "App";
   let dev1 = "Development";
@@ -141,11 +141,14 @@ const Home = () => {
   // let heading4 = "www.Majorhospital.com";
   // let heading5 = "www.solenoidninja.com";
 
-  const [perPage, setPerPage] = useState(3);
+  const [perPage, setPerPage] = useState(4);
   const [perPage1, setPerPage1] = useState(5);
   const [perPage2, setPerPage2] = useState(5);
 
   useEffect(() => {
+    if (window.matchMedia("(max-width: 1350px)").matches) {
+      setPerPage(3);
+    }
     if (window.matchMedia("(max-width: 750px)").matches) {
       setPerPage(1);
       setPerPage1(1);
@@ -257,13 +260,17 @@ const Home = () => {
     document.getElementById("fourth").style.borderRadius = "20px";
   };
 
-  const headings = "We create responsive e-commerce websites that are suitable for viewing on any mobile phone."
+  const headings =
+    "We create responsive e-commerce websites that are suitable for viewing on any mobile phone.";
 
-  const headings1 = "Your website will not go down due to overload from increased traffic on the correct servers."
+  const headings1 =
+    "Your website will not go down due to overload from increased traffic on the correct servers.";
 
-  const headings2 = "We develop the e-commerce website in accordance with the latest UX and UI standards."
+  const headings2 =
+    "We develop the e-commerce website in accordance with the latest UX and UI standards.";
 
-  let headings3 = "We ensure the app works in a staging environment to achieve smooth deployment."
+  let headings3 =
+    "We ensure the app works in a staging environment to achieve smooth deployment.";
 
   return (
     <>
@@ -272,13 +279,15 @@ const Home = () => {
           <div className="home11 flex px-24 pt-12 items-center relative">
             <div className="home111">
               <div className="home1111">
-                <p className="welcome">Welcome to <span>Kushel Digi</span></p>
+                <p className="welcome">
+                  Welcome to <span>Kushel Digi</span>
+                </p>
                 <h2 className="mt-0 mb-2">
-                {/* Creating E-Commerce <br /> Experiences */}
-                Transforming your company <br /> with technology
+                  {/* Creating E-Commerce <br /> Experiences */}
+                  Transforming your business <br /> with technology
                 </h2>
                 {/* <p className="tokin">We take the time to thoughtfully understand your brand voice and vision to deliver unmatched UX focused website design and development.</p> */}
-                 <p className="tokin">We specialise in e-commerce.</p>
+                <p className="tokin">Specialized in ECommerce transformation</p>
               </div>
               <div className="home1112 absolute">
                 <ul className="flex flex-row">
@@ -304,21 +313,17 @@ const Home = () => {
               <h3 className="mb-2">
                 {/* We are your digital partner for innovative design and reliable
                 Web, Mobile, and Marketing solutions. */}
-                We are your go-to digital partner for trustworthy Web, mobile, and marketing solutions and cutting-edge design.
+                {/* We are your go-to digital partner for trustworthy Web, mobile,
+                and marketing solutions and cutting-edge design. */}
+                Welcome to our Ecommerce Website Development Company!
               </h3>
               <p className="mb-3">
-                {/* The top-notch and preeminent Web and Mobile App Development
-                Company of India with its global presence in USA, Mind Inventory
-                is first-rate choice of the clients worldwide. With sheer
-                customer satisfaction in mind, we are profoundly dedicated to
-                developing highly intriguing apps that strictly meet the
-                business requirements and catering a wide spectrum of projects. */}
-                We are steadfastly committed to fulfilling company demands and taking on a variety of projects with the goal of ensuring total customer satisfaction.
+              We specialize in creating customized online stores that are visually stunning, user-friendly, and optimized for conversions. With our expertise and cutting-edge technologies, we empower businesses to establish a strong online presence, attract customers, and drive sales.
               </p>
               <NavLink to="/contact">
                 {" "}
-                <button className="btn btn1">
-                  <span className="mr-2">Contact Us</span>
+                <button className="btn btn1 btb-who">
+                  <span className="mr-2"></span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -349,10 +354,7 @@ const Home = () => {
                 <span className="font-bold m-1">OUR</span> SERVICES
               </h1>
               <p>
-                {/* We employ quality design and development techniques as a
-                foundation for the structured and systematic rapid development
-                of cutting-edge technology solutions. */}
-                We use quality design and development methods as the foundation for the organised, systematic, and speedy creation of cutting-edge technology solutions.
+                Offering scalable and custom-made development services using agile methodologies and sturdy coding.
               </p>
             </div>
             <div className="home312 homanta">
@@ -466,7 +468,7 @@ const Home = () => {
                 <span className="font-bold">TECHNOLOGIES</span> WE WORK WITH
               </h1>
               <p>
-                Kusheldigi is developing into a major player in the field of e-commerce, with deep knowledge in every field necessary for reliable e-commerce development.
+              We strive to work for perfection and we do so by using upgraded technology in line with today’s trends.
               </p>
             </div>
             <div className="home412 home456 flex justify-center items-center">
@@ -604,7 +606,7 @@ const Home = () => {
             </button>
           </NavLink>
         </div>
-           {/* pehle mb-12 tha */}
+        {/* pehle mb-12 tha */}
         <div className="home5 pb-10  bg-gray-100">
           <div className="home51 px-24">
             <div className="home511 text-center mb-8">
@@ -650,21 +652,27 @@ const Home = () => {
                         <NavLink to="/kick">
                           <button>Details</button>
                         </NavLink>
-                        <NavLink to="/kick">
+
+                        <a target="_blank" href="https://kickeezproducts.com/">
                           <p>visit site</p>
-                        </NavLink>
+                        </a>
                       </div>
                     </div>
                     <div className="homeswar-card homeswar-card1">
                       <div className="homeswar-sect">
-                        <h5>KICKEEZ</h5>
+                        <h5>SOLENOID NINJA</h5>
                         <p>
                           custom design / custom <br /> development
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <button>Details</button>
-                        <p>visit site</p>
+                        <NavLink to="/solenoid">
+                          <button>Details</button>
+                        </NavLink>
+                        <a target="_blank" href="https://solenoid-ninja.com/">
+                          {" "}
+                          <p>visit site</p>
+                        </a>
                       </div>
                     </div>
                     <div className="homeswar-card homeswar-card2">
@@ -675,8 +683,15 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <button>Details</button>
-                        <p>visit site</p>
+                        <NavLink to="/protrack">
+                          <button>Details</button>
+                        </NavLink>
+                        <a
+                          target="_blank"
+                          href="https://www.protrucksandcars.net/"
+                        >
+                          <p>visit site</p>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -689,12 +704,10 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/kick">
+                        <NavLink to="/ammed">
                           <button>Details</button>
                         </NavLink>
-                        <NavLink to="/kick">
-                          <p>visit site</p>
-                        </NavLink>
+                        <p>visit site</p>
                       </div>
                     </div>
                     <div className="homeswar-card homeswar-card4">
@@ -705,8 +718,10 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <button>Details</button>
-                        <p>visit site</p>
+                        <NavLink to="/rely">
+                          <button>Details</button>
+                        </NavLink>
+                       <a href="https://rely.mybigcommerce.com/?ctk=22b4785d-b154-406a-a998-f45dea313933"><p>visit site</p></a>
                       </div>
                     </div>
                     <div className="homeswar-card homeswar-card5">
@@ -717,7 +732,7 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <button>Details</button>
+                       <NavLink to="/jones"><button>Details</button></NavLink>
                         <p>visit site</p>
                       </div>
                     </div>
@@ -742,21 +757,21 @@ const Home = () => {
                         <NavLink to="/kick">
                           <button>Details</button>
                         </NavLink>
-                        <NavLink to="/kick">
-                          <p>visit site</p>
-                        </NavLink>
+                       
+                         <a target="_blank" href="https://kickeezproducts.com/"><p>visit site</p></a>
+                       
                       </div>
                     </div>
                     <div className="homeswar-card homeswar-card1">
                       <div className="homeswar-sect">
-                        <h5>KICKEEZ</h5>
+                        <h5>SOLENOID NINJA</h5>
                         <p>
                           custom design / custom <br /> development
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <button>Details</button>
-                        <p>visit site</p>
+                       <NavLink to="/solenoid"><button>Details</button></NavLink>
+                       <a target="_blank" href="https://solenoid-ninja.com/"><p>visit site</p></a>
                       </div>
                     </div>
                   </div>
@@ -780,21 +795,19 @@ const Home = () => {
                         <NavLink to="/kick">
                           <button>Details</button>
                         </NavLink>
-                        <NavLink to="/kick">
-                          <p>visit site</p>
-                        </NavLink>
+                        <a target="_blank" href="https://kickeezproducts.com/"><p>visit site</p></a>
                       </div>
                     </div>
                     <div className="homeswar-card homeswar-card1">
                       <div className="homeswar-sect">
-                        <h5>KICKEEZ</h5>
+                        <h5>SOLENOID NINJA</h5>
                         <p>
                           custom design / custom <br /> development
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <button>Details</button>
-                        <p>visit site</p>
+                       <NavLink to="/solenoid"><button>Details</button></NavLink>
+                       <a target="_blank" href="https://solenoid-ninja.com/"><p>visit site</p></a>
                       </div>
                     </div>
                     <div className="homeswar-card homeswar-card3">
@@ -805,16 +818,15 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/kick">
+                        <NavLink to="/ammed">
                           <button>Details</button>
                         </NavLink>
-                        <NavLink to="/kick">
+                        
                           <p>visit site</p>
-                        </NavLink>
+                       
                       </div>
                     </div>
                   </div>
-              
                 </div>
               </div>
             )}
@@ -835,21 +847,21 @@ const Home = () => {
                         <NavLink to="/kick">
                           <button>Details</button>
                         </NavLink>
-                        <NavLink to="/kick">
-                          <p>visit site</p>
-                        </NavLink>
+                        
+                         <a target="_blank" href="https://kickeezproducts.com/"><p>visit site</p></a>
+                        
                       </div>
                     </div>
                     <div className="homeswar-card homeswar-card1">
                       <div className="homeswar-sect">
-                        <h5>KICKEEZ</h5>
+                        <h5>SOLENOID NINJA</h5>
                         <p>
                           custom design / custom <br /> development
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <button>Details</button>
-                        <p>visit site</p>
+                       <NavLink to="/solenoid"><button>Details</button></NavLink>
+                       <a target="_blank" href="https://solenoid-ninja.com/"><p>visit site</p></a>
                       </div>
                     </div>
                   </div>
@@ -877,48 +889,74 @@ const Home = () => {
               </button>
             </NavLink>
           </div>
-       
         </div>
         <div className="home-chin">
-           <h3 className="text-center">Why Choose Us</h3>
-           <div className="chain-cards">
-              <div className="chain-card flex items-center justify-center">
-                   <div className="chain-box chain-box1 w-full">
-                      <img src={chont1} alt="chont1" />
-                      <h4>Tailored Solutions</h4>
-                      <p>We create customized solutions and develop eCommerce features you want. If you can imagine it, we will work with you to get it built.We create customized solutions and develop eCommerce features you want. If you can imagine it, we will work with you to get it built.</p>
-                   </div>
-
-                   <div className="chain-box chain-box1 w-full">
-                      <img  src={chont1} alt="chont1" />
-                      <h4>Experience and <br /> Know-How</h4>
-                      <p>We've been supporting eCommerce merchants for over 20 years and have worked on thousands of stores on a variety of platforms.</p>
-                   </div>
-                   <div className="chain-box chain-box1 w-full">
-                      <img src={chont2} alt="chont1" />
-                      <h4>High Standards</h4>
-                      <p>We have built an impeccable reputation and stand behind everything we do. We do not commit to any job unless we know we can do it well.</p>
-                   </div>
+          <h3 className="text-center">Why Choose Us</h3>
+          <div className="chain-cards">
+            <div className="chain-card flex items-center justify-center">
+              <div className="chain-box chain-box1 w-full">
+                <img src={chont1} alt="chont1" />
+                <h4>Tailored Solutions</h4>
+                <p>
+                  We create customized solutions and develop eCommerce features
+                  you want. If you can imagine it, we will work with you to get
+                  it built.We create customized solutions and develop eCommerce
+                  features you want. If you can imagine it, we will work with
+                  you to get it built.
+                </p>
               </div>
-              <div className="chain-card flex items-center justify-center">
-                   <div className="chain-box chain-box1 w-full">
-                      <img src={chont3} alt="chont1" />
-                      <h4>We Care</h4>
-                      <p>Customer satisfaction is our driving force – we sincerely care about our clients’ success and well-being.</p>
-                   </div>
 
-                   <div className="chain-box chain-box1 w-full">
-                      <img  src={chont4} alt="chont1" />
-                      <h4>Increase Profitability</h4>
-                      <p>Our solutions add significant value to websites and are designed to help merchants efficiently manage their stores and increase profitability.</p>
-                   </div>
-                   <div className="chain-box chain-box1 w-full">
-                      <img src={chont5} alt="chont1" />
-                      <h4>Original, Modern Code</h4>
-                      <p>Our solutions add significant value to websites and are designed to help merchants efficiently manage their stores and increase profitability.</p>
-                   </div>
+              <div className="chain-box chain-box1 w-full">
+                <img src={chont1} alt="chont1" />
+                <h4>
+                  Experience and <br /> Know-How
+                </h4>
+                <p>
+                  We've been supporting eCommerce merchants for over 20 years
+                  and have worked on thousands of stores on a variety of
+                  platforms.
+                </p>
               </div>
-           </div>
+              <div className="chain-box chain-box1 w-full">
+                <img src={chont2} alt="chont1" />
+                <h4>High Standards</h4>
+                <p>
+                  We have built an impeccable reputation and stand behind
+                  everything we do. We do not commit to any job unless we know
+                  we can do it well.
+                </p>
+              </div>
+            </div>
+            <div className="chain-card flex items-center justify-center">
+              <div className="chain-box chain-box1 w-full">
+                <img src={chont3} alt="chont1" />
+                <h4>We Care</h4>
+                <p>
+                  Customer satisfaction is our driving force – we sincerely care
+                  about our clients’ success and well-being.
+                </p>
+              </div>
+
+              <div className="chain-box chain-box1 w-full">
+                <img src={chont4} alt="chont1" />
+                <h4>Increase Profitability</h4>
+                <p>
+                  Our solutions add significant value to websites and are
+                  designed to help merchants efficiently manage their stores and
+                  increase profitability.
+                </p>
+              </div>
+              <div className="chain-box chain-box1 w-full">
+                <img src={chont5} alt="chont1" />
+                <h4>Original, Modern Code</h4>
+                <p>
+                  Our solutions add significant value to websites and are
+                  designed to help merchants efficiently manage their stores and
+                  increase profitability.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <div className="home6 mb-16 py-14">
           <div className="home61 px-24">
@@ -946,9 +984,21 @@ const Home = () => {
                 imgSrc={"/static/images/a10.png"}
                 headin={headings}
               />
-              <DevCard headin={headings1} heading={tag1} imgSrc={"/static/images/a11.png"} />
-              <DevCard headin={headings2} heading={tag2} imgSrc={"/static/images/a12.png"} />
-              <DevCard headin={headings3} heading={tag3} imgSrc={"/static/images/a13.png"} />
+              <DevCard
+                headin={headings1}
+                heading={tag1}
+                imgSrc={"/static/images/a11.png"}
+              />
+              <DevCard
+                headin={headings2}
+                heading={tag2}
+                imgSrc={"/static/images/a12.png"}
+              />
+              <DevCard
+                headin={headings3}
+                heading={tag3}
+                imgSrc={"/static/images/a13.png"}
+              />
               {/* <DevCard heading={tag4} imgSrc={"/static/images/a14.png"} /> */}
             </div>
           </div>
@@ -958,7 +1008,7 @@ const Home = () => {
           <p className="text-center">Pleasure to work with</p>
           <div className="home8-img client-slider px-4 w-full">
             <Splide
-            //  className="w-full"
+              //  className="w-full"
               options={{
                 perPage: perPage2,
                 autoplay: true,
@@ -994,19 +1044,19 @@ const Home = () => {
                 <img className="joki6" src={joki6} alt="" />
               </SplideSlide>
               <SplideSlide>
-              <img className="joki7" src={joki7} alt="" />
+                <img className="joki7" src={joki7} alt="" />
                 {/* <img className="chetri" src="/static/images/a15.png" alt="" /> */}
               </SplideSlide>
               <SplideSlide>
-              <img className="joki8" src={sync} alt="" />
+                <img className="joki8" src={sync} alt="" />
                 {/* <img className="chetri1" src="/static/images/a17.png" alt="" /> */}
               </SplideSlide>
               <SplideSlide>
-              <img className="joki8" src={joki8} alt="" />
+                <img className="joki8" src={joki8} alt="" />
                 {/* <img className="chetri2" src="/static/images/a16.png" alt="" /> */}
               </SplideSlide>
               <SplideSlide>
-              <img className="joki7" src={joki7} alt="" />
+                <img className="joki7" src={joki7} alt="" />
                 {/* <img className="chetri2" src="/static/images/a16.png" alt="" /> */}
               </SplideSlide>
               {/* <SplideSlide>
@@ -1066,8 +1116,13 @@ const Home = () => {
                   {/* Lorem ipsum is simply dummy text of the printing & Typesetting
                   industry. lorem ipsum has been the industry’s standard dummy
                   text ever since the 1500s, an unknown printer took a gallery. */}
-                  We are overjoyed to have discovered Kushel Digi! They were a fantastic partner in the web development process and had a clear understanding of our goals and process. Team Kushel Digi was proactive with discussions and updates throughout the development process and found a means to effectively complete our project in record time. I not only heartily suggest the agency, but we will also keep working with them in the future.
-
+                  We are overjoyed to have discovered Kushel Digi! They were a
+                  fantastic partner in the web development process and had a
+                  clear understanding of our goals and process. Team Kushel Digi
+                  was proactive with discussions and updates throughout the
+                  development process and found a means to effectively complete
+                  our project in record time. I not only heartily suggest the
+                  agency, but we will also keep working with them in the future.
                 </p>
               </div>
             </div>
@@ -1094,13 +1149,18 @@ const Home = () => {
                   {/* Lorem ipsum is simply dummy text of the printing & Typesetting
                   industry. lorem ipsum has been the industry’s standard dummy
                   text ever since the 1500s, an unknown printer took a gallery. */}
-                  We are overjoyed to have discovered Kushel Digi! They were a fantastic partner in the web development process and had a clear understanding of our goals and process. Team Kushel Digi was proactive with discussions and updates throughout the development process and found a means to effectively complete our project in record time. I not only heartily suggest the agency, but we will also keep working with them in the future.
-
+                  We are overjoyed to have discovered Kushel Digi! They were a
+                  fantastic partner in the web development process and had a
+                  clear understanding of our goals and process. Team Kushel Digi
+                  was proactive with discussions and updates throughout the
+                  development process and found a means to effectively complete
+                  our project in record time. I not only heartily suggest the
+                  agency, but we will also keep working with them in the future.
                 </p>
               </div>
             </div>
             <div className="read-sec">
-              <p>Read All 200 Reviews</p>
+              <p>Read All 40 Reviews</p>
             </div>
           </div>
         </div>
@@ -1217,7 +1277,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-       <ContactForm1/>
+        <ContactForm1 />
       </div>
     </>
   );
