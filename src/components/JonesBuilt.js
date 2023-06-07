@@ -228,7 +228,7 @@ const JonesBuilt = () => {
             to improve and evolve the app. Looking forward to our continued
             growth.”
           </p>
-          <h4>Matt Reeder</h4>
+          <h4>Sandeep Sharma</h4>
         </div>
 
         <div className="req">

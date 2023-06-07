@@ -1105,7 +1105,7 @@ const Home = () => {
                   <img className="ml-1" src={star} alt="" />
                 </div>
                 <div className="second-ex">
-                  <p>Matt Reeder</p>
+                  <p>Sandeep Sharma</p>
                 </div>
                 <div className="third-ex">
                   <p>United States. 03/23/2023</p>
@@ -1138,7 +1138,7 @@ const Home = () => {
                   <img className="ml-1" src={star} alt="" />
                 </div>
                 <div className="second-ex">
-                  <p>Matt Reeder</p>
+                  <p>Sandeep Sharma</p>
                 </div>
                 <div className="third-ex">
                   <p>United States. 03/23/2023</p>

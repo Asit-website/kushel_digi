@@ -311,13 +311,13 @@ const HireTeam = () => {
               >
                 <SplideSlide>
                 <div className="hire-test">
-                 <h4>Matt Reedar</h4>
+                 <h4>Sandeep Sharma</h4>
                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
              </div>
                 </SplideSlide>
                 <SplideSlide>
                 <div className="hire-test">
-                 <h4>Matt Reedar</h4>
+                 <h4>Sandeep Sharma</h4>
                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since</p>
              </div>
                 </SplideSlide>
