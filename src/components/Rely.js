@@ -1,15 +1,12 @@
 import React from 'react';
-import kick from "../images/kick.png";
 import pick from "../images/pick.png";
 import pick1 from "../images/pick1.png";
-import pick2 from "../images/pick2.png";
 import angrag from "../images/angrag.png";
 import zinda from "../images/zinda.png";
 import zinda1 from "../images/zinda1.png";
 import zinda2 from "../images/zinda2.png";
 import stepback from "../images/stepback.png";
 import stepback1 from "../images/stepback1.png";
-import kick5 from "../images/kick5.png";
 // import azib from '../images/azib.png';
 import arrow4 from "../images/arrow4.png";
 import conjun from '../images/conjun.png';
@@ -17,13 +14,18 @@ import azib2 from '../images/azib2.png';
 import azib3 from '../images/azib3.png'
 import azib4 from '../images/azib4.png'
 import { NavLink } from "react-router-dom";
-import trackent1 from "../images/trackent1.png";
 import trackent2 from "../images/trackent2.png";
+import relyBanner2 from '../images/relyBanner2.jpg';
+import relyBanner3 from '../images/relyBanner3.jpg';
+import relyBanner4 from '../images/relyBanner4.jpg';
+import relyBanner5 from '../images/relyBanner5.jpg';
+import relyBanner6 from '../images/relyBanner6.jpg';
+import laptop1 from '../images/laptop1.png';
 const Rely = () => {
   return (
     <>
            <div className="ser-main">
-        <div className="kick-back">
+        <div className="kick-back kick-back3">
           <div className="kick-sect">
             <img src={trackent2} alt="kick" />
           </div>
@@ -57,7 +59,7 @@ const Rely = () => {
           </div>
           <div className="kick-second relative">
             <img className=" absolute about161" src={angrag} alt="" />
-            <img className=" relative z-10" src={pick2} alt="" />
+            <img className=" relative z-10" src={laptop1} alt="" />
           </div>
         </div>
 
@@ -106,8 +108,8 @@ const Rely = () => {
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
-            <img className="stepback" src={stepback1} alt="stepback" />
-            <img className="stepback1" src={stepback} alt="stepback1" />
+            <img className="stepback solenoid-stepback1" src={relyBanner2} alt="stepback" />
+            <img className="stepback1 solenoid-stepback1" src={relyBanner3} alt="stepback1" />
           </div>
         </div>
 
@@ -216,9 +218,9 @@ const Rely = () => {
             </div>
 
               <div className="azib-images flex items-center justify-center">
-                  <img src={azib2} alt="" />
-                  <img src={azib3} alt="" />
-                  <img src={azib4} alt="" />
+                  <img className='soling1' src={relyBanner4} alt="" />
+                  <img className='soling1' src={relyBanner5} alt="" />
+                  <img className='soling1' src={relyBanner6} alt="" />
               </div>
           </div>
         </div>
@@ -231,7 +233,7 @@ const Rely = () => {
             to improve and evolve the app. Looking forward to our continued
             growth.”
           </p>
-          <h4>Matt Reeder</h4>
+          <h4>Sandeep Sharma</h4>
         </div>
 
         <div className="req">
