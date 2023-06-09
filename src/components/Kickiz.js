@@ -156,32 +156,48 @@ const Kickiz = () => {
               <h4>Solutions</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
-                <div className="challenge-list1">
+              <div className="challenge-list1">
                   {/* <div className="nilust"></div> */}
                   <p>
                   -Design a new website in Figma and develop the website in BigCommerce
--Data Migration of KICK-EEZ® from Shopify to BigCommerce
--Incorporate ShipStation, as RJ was already using it.
--Build the material that the search engines are currently crawling.
--The use of Hoth to provide SEO services We resell The Hoth's services as a white-label SEO firm.
--To handle trade in both wholesale and retail We must ensure that all price categories and levels are included in the data conversion.
-
-                  </p>
-                </div>
-                {/* <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
                   </p>
                 </div>
                 <div className="challenge-list1">
-                  <div className="nilust"></div>
+                  {/* <div className="nilust"></div> */}
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
+                  -Data Migration of KICK-EEZ® from Shopify to BigCommerce
                   </p>
-                </div> */}
+                </div>
+                <div className="challenge-list1">
+                  {/* <div className="nilust"></div> */}
+                  <p>
+                  -Incorporate ShipStation, as RJ was already using it.
+                  </p>
+                </div>
+                <div className="challenge-list1">
+                  {/* <div className="nilust"></div> */}
+                  <p>
+                  -Build the material that the search engines are currently crawling.
+
+                  </p>
+                </div>
+                <div className="challenge-list1">
+                  {/* <div className="nilust"></div> */}
+                  <p>
+                  -The use of Hoth to provide SEO services We resell The Hoth's services as a white-label SEO firm.
+
+
+                  </p>
+                </div>
+                <div className="challenge-list1">
+                  {/* <div className="nilust"></div> */}
+                  <p>
+                  -To handle trade in both wholesale and retail We must ensure that all price categories and levels are included in the data conversion.
+
+
+
+                  </p>
+                </div>
               </div>
             </div>
           </div>
