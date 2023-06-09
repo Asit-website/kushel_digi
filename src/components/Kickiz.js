@@ -36,8 +36,9 @@ const Kickiz = () => {
             <div className="kick-box">
               <h4>KICK-EEZ</h4>
               <p className="kick-para">
-                KICK- EEZ Premium, Made in America recoil pads and accessories
-                to make your shooting experience more comfortable.
+                {/* KICK- EEZ Premium, Made in America recoil pads and accessories
+                to make your shooting experience more comfortable. */}
+                A variety of shotgun and rifle recoil pads and shooting accessories are available from KICK-EEZ®. Its products use Sorbothane and are made in America. It was created using Shopify.
               </p>
               <div className="kick-sard flex items-center mt-10">
                 <div className="kick-fard">
@@ -90,7 +91,7 @@ const Kickiz = () => {
             </div>
             <div className="step-backs2">
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
+                {/* Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s, Lorem Ipsum is simply dummy text of
                 the printing and typesetting industry. Lorem Ipsum has been the
@@ -99,13 +100,15 @@ const Kickiz = () => {
                 Lorem Ipsum has been the industry's standard dummy text ever
                 since the 1500s, Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry. Lorem Ipsum has been the
-                industry's standard dummy text ever since.
+                industry's standard dummy text ever since. */}
+                Three years ago, RJ bought the business and used Shopify to create its first online store. He had a clear logo and a strong brand. The website failed to make an emotional connection with the customer or explain the problem that he solved. The website makes use of Shiphation.
+
               </p>
-              <p className="mt-10">
+              {/* <p className="mt-10">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since.
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
@@ -122,11 +125,18 @@ const Kickiz = () => {
             </h3>
           </div>
           <div className="challenge-story2 flex">
-            <div className="challenge-box">
+            <div className="challenge-box challenge-box2 ">
               <h4>Challenges</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
                 <div className="challenge-list1">
+                  {/* <div className="nilust"></div> */}
+                  <p>
+                  Shopify is becoming less and less tolerant of firearms. Their website was poorly designed and only converted at a rate of 1.25%. The website as it stands does not engage the audience emotionally or convey the problem that KICK-EEZ® solves.
+
+                  </p>
+                </div>
+                {/* <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -139,21 +149,26 @@ const Kickiz = () => {
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
-                </div>
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
-                </div>
+                </div> */}
               </div>
             </div>
-            <div className="challenge-box ml-3">
+            <div className="challenge-box ml-3 challenge-box2">
               <h4>Solutions</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
                 <div className="challenge-list1">
+                  {/* <div className="nilust"></div> */}
+                  <p>
+                  -Design a new website in Figma and develop the website in BigCommerce
+-Data Migration of KICK-EEZ® from Shopify to BigCommerce
+-Incorporate ShipStation, as RJ was already using it.
+-Build the material that the search engines are currently crawling.
+-The use of Hoth to provide SEO services We resell The Hoth's services as a white-label SEO firm.
+-To handle trade in both wholesale and retail We must ensure that all price categories and levels are included in the data conversion.
+
+                  </p>
+                </div>
+                {/* <div className="challenge-list1">
                   <div className="nilust"></div>
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
@@ -166,17 +181,19 @@ const Kickiz = () => {
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
                   </p>
-                </div>
-                <div className="challenge-list1">
-                  <div className="nilust"></div>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.
-                  </p>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="goals-statgy">
+            <h2>Goasl and Strategies</h2>
+            <ul >
+              <li>Make it simpler for customers to contact the company.</li>
+              <li>Reduce customer misunderstandings regarding returns and exchanges, particularly with the choice of replacement products.</li>
+              <li>Boost the efficacy and efficiency of client service.</li>
+            </ul>
         </div>
 
         <div className="challenge-ziz">
