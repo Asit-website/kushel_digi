@@ -5629,7 +5629,7 @@ form button:hover{
   font-weight: 700;
   color: #202020;
   opacity: 0.8;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .challenge-box:hover.challenge-box h4 {
@@ -5668,7 +5668,7 @@ form button:hover{
   width: 100%;
 }
 .challenge-box3{
-  height: 300px;
+  height: 320px;
   overflow-y: scroll;
   position: relative;
 }
@@ -5691,7 +5691,7 @@ form button:hover{
 }
 .challenge-list1 p {
   font-size: 16px;
-  font-family: "Roboto", sans-serif !important;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
   color: #404040;
   margin-left: 8px;
@@ -5839,7 +5839,7 @@ form button:hover{
   position: relative;
   z-index: 2;
   padding-bottom: 80px;
-  height: 85rem;
+  height: 75rem;
   max-height: 100%;
 }
 

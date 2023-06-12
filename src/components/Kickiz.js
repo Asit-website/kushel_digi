@@ -38,7 +38,10 @@ const Kickiz = () => {
               <p className="kick-para">
                 {/* KICK- EEZ Premium, Made in America recoil pads and accessories
                 to make your shooting experience more comfortable. */}
-                A variety of shotgun and rifle recoil pads and shooting accessories are available from KICK-EEZ®. Its products use Sorbothane and are made in America. It was created using Shopify.
+                A variety of shotgun and rifle recoil pads and shooting
+                accessories are available from KICK-EEZ®. Its products use
+                Sorbothane and are made in America. It was created using
+                Shopify.
               </p>
               <div className="kick-sard flex items-center mt-10">
                 <div className="kick-fard">
@@ -101,8 +104,11 @@ const Kickiz = () => {
                 since the 1500s, Lorem Ipsum is simply dummy text of the
                 printing and typesetting industry. Lorem Ipsum has been the
                 industry's standard dummy text ever since. */}
-                Three years ago, RJ bought the business and used Shopify to create its first online store. He had a clear logo and a strong brand. The website failed to make an emotional connection with the customer or explain the problem that he solved. The website makes use of Shiphation.
-
+                Three years ago, RJ bought the business and used Shopify to
+                create its first online store. He had a clear logo and a strong
+                brand. The website failed to make an emotional connection with
+                the customer or explain the problem that he solved. The website
+                makes use of Shiphation.
               </p>
               {/* <p className="mt-10">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -125,15 +131,18 @@ const Kickiz = () => {
             </h3>
           </div>
           <div className="challenge-story2 flex">
-            <div className="challenge-box challenge-box2 ">
+            <div className="challenge-box challenge-box2 challenge-box3 ">
               <h4>Challenges</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
                 <div className="challenge-list1">
                   {/* <div className="nilust"></div> */}
                   <p>
-                  Shopify is becoming less and less tolerant of firearms. Their website was poorly designed and only converted at a rate of 1.25%. The website as it stands does not engage the audience emotionally or convey the problem that KICK-EEZ® solves.
-
+                    Shopify is becoming less and less tolerant of firearms.
+                    Their website was poorly designed and only converted at a
+                    rate of 1.25%. The website as it stands does not engage the
+                    audience emotionally or convey the problem that KICK-EEZ®
+                    solves.
                   </p>
                 </div>
                 {/* <div className="challenge-list1">
@@ -152,50 +161,47 @@ const Kickiz = () => {
                 </div> */}
               </div>
             </div>
-            <div className="challenge-box ml-3 challenge-box2">
+            <div className="challenge-box ml-3 challenge-box2 challenge-box3 ">
               <h4>Solutions</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">
-              <div className="challenge-list1">
+                <div className="challenge-list1">
                   {/* <div className="nilust"></div> */}
                   <p>
-                  -Design a new website in Figma and develop the website in BigCommerce
+                    -Design a new website in Figma and develop the website in
+                    BigCommerce
                   </p>
                 </div>
                 <div className="challenge-list1">
                   {/* <div className="nilust"></div> */}
                   <p>
-                  -Data Migration of KICK-EEZ® from Shopify to BigCommerce
+                    -Data Migration of KICK-EEZ® from Shopify to BigCommerce
+                  </p>
+                </div>
+                <div className="challenge-list1">
+                  {/* <div className="nilust"></div> */}
+                  <p>-Incorporate ShipStation, as RJ was already using it.</p>
+                </div>
+                <div className="challenge-list1">
+                  {/* <div className="nilust"></div> */}
+                  <p>
+                    -Build the material that the search engines are currently
+                    crawling.
                   </p>
                 </div>
                 <div className="challenge-list1">
                   {/* <div className="nilust"></div> */}
                   <p>
-                  -Incorporate ShipStation, as RJ was already using it.
+                    -The use of Hoth to provide SEO services We resell The
+                    Hoth's services as a white-label SEO firm.
                   </p>
                 </div>
                 <div className="challenge-list1">
                   {/* <div className="nilust"></div> */}
                   <p>
-                  -Build the material that the search engines are currently crawling.
-
-                  </p>
-                </div>
-                <div className="challenge-list1">
-                  {/* <div className="nilust"></div> */}
-                  <p>
-                  -The use of Hoth to provide SEO services We resell The Hoth's services as a white-label SEO firm.
-
-
-                  </p>
-                </div>
-                <div className="challenge-list1">
-                  {/* <div className="nilust"></div> */}
-                  <p>
-                  -To handle trade in both wholesale and retail We must ensure that all price categories and levels are included in the data conversion.
-
-
-
+                    -To handle trade in both wholesale and retail We must ensure
+                    that all price categories and levels are included in the
+                    data conversion.
                   </p>
                 </div>
               </div>
@@ -204,12 +210,15 @@ const Kickiz = () => {
         </div>
 
         <div className="goals-statgy">
-            <h2>Goasl and Strategies</h2>
-            <ul >
-              <li>Make it simpler for customers to contact the company.</li>
-              <li>Reduce customer misunderstandings regarding returns and exchanges, particularly with the choice of replacement products.</li>
-              <li>Boost the efficacy and efficiency of client service.</li>
-            </ul>
+          <h2>Goasl and Strategies</h2>
+          <ul>
+            <li>Make it simpler for customers to contact the company.</li>
+            <li>
+              Reduce customer misunderstandings regarding returns and exchanges,
+              particularly with the choice of replacement products.
+            </li>
+            <li>Boost the efficacy and efficiency of client service.</li>
+          </ul>
         </div>
 
         <div className="challenge-ziz">
@@ -227,23 +236,15 @@ const Kickiz = () => {
               </div>
               <div className="azib1-second">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, Lorem Ipsum is
-                  simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, Lorem Ipsum is
-                  simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since.
+                  With the improved site, a significant number of sales have
+                  been achieved by KICK-EEZ. The emotional connection between
+                  the customer and the company has become stronger.
                 </p>
-                <p className="mt-6">
+                {/* <p className="mt-6">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since.
-                </p>
+                </p> */}
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
                   <img className="conjun" src={conjun} alt="" />
@@ -273,98 +274,100 @@ const Kickiz = () => {
         <div className="other-project">
           <h2 className="text-center ">OTHER PROJECTS</h2>
           <Splide
-                aria-label="Our Services"
-                options={{
-                  perPage:3,
-                  perMove: 1,
-                  autoplay: true,
-                  pauseOnHover: true,
-                  type: "loop",
-                  interval: 2000,
-                  drag: true,
-                }}
-              >
-          
-             <SplideSlide>
-            <div className="other-card">
-              <div className="other-box">
-                <img src={rel1} alt="rel1" />
+            aria-label="Our Services"
+            options={{
+              perPage: 3,
+              perMove: 1,
+              autoplay: true,
+              pauseOnHover: true,
+              type: "loop",
+              interval: 2000,
+              drag: true,
+            }}
+          >
+            <SplideSlide>
+              <div className="other-card">
+                <div className="other-box">
+                  <img src={rel1} alt="rel1" />
+                </div>
+                <div className="other-tox-para">
+                  <h3>RELY INNOVATION</h3>
+                  <p>
+                    Get peace of mind. install alarms that not only notify you
+                    of danger, but also clearly instructs you on what to do
+                    next.
+                  </p>
+                  <NavLink to="/rely">
+                    <button>View</button>
+                  </NavLink>
+                </div>
               </div>
-              <div className="other-tox-para">
-                <h3>RELY INNOVATION</h3>
-                <p>
-                  Get peace of mind. install alarms that not only notify you of
-                  danger, but also clearly instructs you on what to do next.
-                </p>
-               <NavLink to="/rely"><button>View</button></NavLink>
-              </div>
-            </div>
             </SplideSlide>
             <SplideSlide>
-            <div className="other-card">
-              <div className="other-box other-box1">
-                <img src={rel2} alt="rel1" />
+              <div className="other-card">
+                <div className="other-box other-box1">
+                  <img src={rel2} alt="rel1" />
+                </div>
+                <div className="other-tox-para">
+                  <h3>PRO TRUCKS</h3>
+                  <p>
+                    Aftermarket suspension lift kits, leveling kits and
+                    accessories for 4X4 off-road truck and jeep enthusiasts
+                  </p>
+                  <NavLink to="/protrack">
+                    <button>View</button>
+                  </NavLink>
+                </div>
               </div>
-              <div className="other-tox-para">
-                <h3>PRO TRUCKS</h3>
-                <p>
-                  Aftermarket suspension lift kits,  leveling  kits and 
-                  accessories  for 4X4 off-road truck and jeep enthusiasts
-                </p>
-               <NavLink to="/protrack"><button>View</button></NavLink>
-              </div>
-            </div>
-            </SplideSlide>
-           <SplideSlide>
-            <div className="other-card">
-              <div className="other-box other-box3">
-                <img className="rel3" src={rel3} alt="rel1" />
-              </div>
-              <div className="other-tox-para">
-                <h3>SOLENOID NINJA</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                </p>
-               <NavLink to="/solenoid"><button>View</button></NavLink>
-              </div>
-            </div>
             </SplideSlide>
             <SplideSlide>
-            <div className="other-card">
-              <div className="other-box other-box3">
-                <img className="rel3" src={rel3} alt="rel1" />
+              <div className="other-card">
+                <div className="other-box other-box3">
+                  <img className="rel3" src={rel3} alt="rel1" />
+                </div>
+                <div className="other-tox-para">
+                  <h3>SOLENOID NINJA</h3>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                  </p>
+                  <NavLink to="/solenoid">
+                    <button>View</button>
+                  </NavLink>
+                </div>
               </div>
-              <div className="other-tox-para">
-                <h3>SOLENOID NINJA</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                </p>
-                <button>View</button>
-              </div>
-            </div>
             </SplideSlide>
             <SplideSlide>
-            <div className="other-card">
-              <div className="other-box other-box3">
-                <img className="rel3" src={rel3} alt="rel1" />
+              <div className="other-card">
+                <div className="other-box other-box3">
+                  <img className="rel3" src={rel3} alt="rel1" />
+                </div>
+                <div className="other-tox-para">
+                  <h3>SOLENOID NINJA</h3>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                  </p>
+                  <button>View</button>
+                </div>
               </div>
-              <div className="other-tox-para">
-                <h3>SOLENOID NINJA</h3>
-                <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                </p>
-                <button>View</button>
-              </div>
-            </div>
             </SplideSlide>
-         
-            </Splide>
-         
-         
-          
+            <SplideSlide>
+              <div className="other-card">
+                <div className="other-box other-box3">
+                  <img className="rel3" src={rel3} alt="rel1" />
+                </div>
+                <div className="other-tox-para">
+                  <h3>SOLENOID NINJA</h3>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                  </p>
+                  <button>View</button>
+                </div>
+              </div>
+            </SplideSlide>
+          </Splide>
         </div>
 
         <div className="req">
