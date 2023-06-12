@@ -203,6 +203,16 @@ const ProTrucks = () => {
           </div>
         </div>
 
+        <div className="goals-statgy">
+            <h2>Goasl and Strategies</h2>
+            <ul >
+              <li>Make it simpler for customers to contact the company.</li>
+              <li>Reduce customer misunderstandings regarding returns and exchanges, particularly with the choice of replacement products.</li>
+              <li>Boost the efficacy and efficiency of client service.</li>
+            </ul>
+        </div>
+
+
         <div className="challenge-ziz">
           <div className="challenge-ziz-sect">
             <img src={trackent} alt="trackent" />
@@ -218,23 +228,14 @@ const ProTrucks = () => {
               </div>
               <div className="azib1-second">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, Lorem Ipsum is
-                  simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, Lorem Ipsum is
-                  simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since.
+                The customer-business interaction has been enhanced through the implementation of Zoho CRM Plus and the website optimization. Customers now have the convenience of completing the onboarding form, which significantly contributes to the improvement of the business.
+
                 </p>
-                <p className="mt-6">
+                {/* <p className="mt-6">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since.
-                </p>
+                </p> */}
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
                   <img className="conjun" src={conjun} alt="" />
