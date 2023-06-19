@@ -36,7 +36,6 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     const res = await fetch("http://localhost:5000/contact1", {
       method: "POST",
       headers: {
@@ -71,7 +70,7 @@ const Contact = () => {
           <div className="first-need">
             <h2>Hi.Tell us about your project.</h2>
             <p>
-              Fill out our form below or <span>send us an email</span>.
+              Fill out our form below or <a href="mailto:info@kusheldigi.com"><span>send us an email</span>.</a>
             </p>
             <form onSubmit={handleSubmit}>
               <div className="input-group">
@@ -81,6 +80,7 @@ const Contact = () => {
                   onChange={handleChange}
                   type="text"
                   placeholder="Company name*"
+                  required
                 />   
               </div>
               <div className="input-group input-group1">
@@ -90,6 +90,7 @@ const Contact = () => {
                   onChange={handleChange}
                   type="text"
                   placeholder="Your name*"
+                  required
                 />
                 <input
                   name="email1"
@@ -98,6 +99,7 @@ const Contact = () => {
                   className="inp"
                   type="email"
                   placeholder="Email address*"
+                  required
                 />
               </div>
               <div className="input-group input-group1">
@@ -107,12 +109,14 @@ const Contact = () => {
                   onChange={handleChange}
                   type="text"
                   placeholder="Phone number*"
+                  required
                 />
                 <select
                   className="inp"
                   name="service1"
                   value={val.service1}
                   onChange={handleChange}
+                  required
                 >
                   <option>Service Required</option>
                   <option>UI/UX Design</option>
@@ -132,6 +136,7 @@ const Contact = () => {
                   onChange={handleChange}
                   cols="30"
                   rows="10"
+                  required
                 ></textarea>
               </div>
               <button>Send a Message</button>
