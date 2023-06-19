@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import website from "../images/website.png";
 import reactjs1 from "../images/reactjs.png";
 import htmls from "../images/htmls.png";
@@ -31,8 +31,8 @@ import dec5 from "../images/dec5.png";
 import dec6 from "../images/dec6.png";
 import dec7 from "../images/dec7.png";
 import dilkush from "../images/dilkush.png";
-import punto from '../images/punto.png';
-import process2 from '../images/process2.png';
+import punto from "../images/punto.png";
+import process2 from "../images/process2.png";
 import posis2 from "../images/posis2.png";
 import posis3 from "../images/posis3.png";
 import posis4 from "../images/posis4.png";
@@ -40,7 +40,7 @@ import posis5 from "../images/posis5.png";
 import posis6 from "../images/posis6.png";
 import posis7 from "../images/posis7.png";
 import posis8 from "../images/posis8.png";
-import posis10 from '../images/posis10.png';
+import posis10 from "../images/posis10.png";
 import {
   Accordion,
   AccordionItem,
@@ -49,7 +49,21 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 import ContactForm from "./common/ContactForm";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 const WebsiteDev = () => {
+  const [perPage, setPerPage] = useState(6);
+  useEffect(() => {
+    if (window.matchMedia("(max-width: 1350px)").matches) {
+      setPerPage(4);
+    }
+    if (window.matchMedia("(max-width: 850px)").matches) {
+      setPerPage(3);
+    }
+    if (window.matchMedia("(max-width: 750px)").matches) {
+      setPerPage(1);
+    }
+  }, []);
   let heading = "www.2ndAmendment.com";
   let heading1 = "www.kickeez.com";
   let heading2 = "www.protrucks.com";
@@ -78,7 +92,6 @@ const WebsiteDev = () => {
               <p className="ac">
                 Solution based Web development services to skyrocket the growth
               </p>
-              {/* <p>Faster | Better | Easier</p> */}
             </div>
             <div className="ser112">
               <img src={website} alt="" />
@@ -88,30 +101,56 @@ const WebsiteDev = () => {
         <div className="ser2 ser-vertical">
           <div className="ser21 ser23">
             <div className="home412 flex justify-center items-center">
+            <Splide
+              className=" w-full"
+                aria-label="Our Services"
+                options={{
+                  perPage,
+                  perMove: 1,
+                  autoplay: true,
+                  pauseOnHover: true,
+                  type: "loop",
+                  interval: 1600,
+                  drag: true,
+                }}
+            >
+            <SplideSlide>
               <div className="home4121">
                 <img className=" block m-auto" src={reactjs1} alt="" />
                 <p>REACT JS</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img className=" block m-auto" src={htmls} alt="" />
                 <p>HTML 5</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="w-full sis  home4121">
                 <img className="block m-auto phpos" src={phpos} alt="" />
                 {/* <p>PHP</p> */}
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="w-full sis1  home4121">
                 <img className=" block m-auto nodejs1" src={nodejs1} alt="" />
                 {/* <p>Node</p> */}
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img className="block m-auto" src={words} alt="" />
                 <p>Wordpress</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img className="block m-auto" src={vuejs1} alt="" />
                 <p>PYTHON</p>
               </div>
+              </SplideSlide>
+              </Splide>
             </div>
           </div>
         </div>
@@ -126,12 +165,13 @@ const WebsiteDev = () => {
                 Web Development Solutions <br /> To Grow The Business
               </h3>
               <p className="knowrs">
-                {/* Known for our world-class web development services, Kushel digi
-                is the best website development company for businesses looking
-                to grow their online presence and reach new audiences. */}
-                The look, structure, and functions of an internet site are created by a web design service. We provide freelance work for building and developing websites in PHP.
-All website owners should know that unless visitors have an enjoyable experience while on their website, they are typically likely to leave looking for a better option. There is a requirement for a website developer to draw in and hold on to clients.
-
+                The look, structure, and functions of an internet site are
+                created by a web design service. We provide freelance work for
+                building and developing websites in PHP. All website owners
+                should know that unless visitors have an enjoyable experience
+                while on their website, they are typically likely to leave
+                looking for a better option. There is a requirement for a
+                website developer to draw in and hold on to clients.
               </p>
               {/* <p className="knowers1">
                 We provide top-tier custom website development and application
@@ -149,10 +189,10 @@ All website owners should know that unless visitors have an enjoyable experience
         </div>
 
         <div className="experience-user">
-              <div className="experience-user-sect experience-user-sect1">
-                  <img src={punto} alt="usto" />
-              </div>
-          </div> 
+          <div className="experience-user-sect experience-user-sect1">
+            <img src={punto} alt="usto" />
+          </div>
+        </div>
 
         <div className="how-we">
           <h3>How We Works</h3>
@@ -278,10 +318,17 @@ All website owners should know that unless visitors have an enjoyable experience
         </div>
 
         <div className="development-process">
-           <h3>Our development process</h3>
-           <p>Our process ensures that an interface is seamless for the end-user to become familiar with and competent in using during the first contact they make. The agile approach makes it intuitive for users to achieve their objectives and easy to recall on subsequent visits. Our designers work with developers to make the attributes stand out by turning the usability to the max.</p>
+          <h3>Our development process</h3>
+          <p>
+            Our process ensures that an interface is seamless for the end-user
+            to become familiar with and competent in using during the first
+            contact they make. The agile approach makes it intuitive for users
+            to achieve their objectives and easy to recall on subsequent visits.
+            Our designers work with developers to make the attributes stand out
+            by turning the usability to the max.
+          </p>
 
-           <img src={process2} alt="process2" />
+          <img src={process2} alt="process2" />
         </div>
 
         <div className="home5     poty poty1">
@@ -309,38 +356,43 @@ All website owners should know that unless visitors have an enjoyable experience
           </p>
           <div className="indu-fard mt-8">
             <div className="indu-card">
-              <div className="indu-box"
-                onMouseEnter={()=> setHovered(true)}
-                onMouseLeave={()=> setHovered(false)}
+              <div
+                className="indu-box"
+                onMouseEnter={() => setHovered(true)}
+                onMouseLeave={() => setHovered(false)}
               >
                 <img src={hovered ? posis10 : dilkush} alt="" />
                 <p>Healthcare & Wellness</p>
               </div>
-              <div className="indu-box"
-                 onMouseEnter={() => setHovered2(true)}
-                onMouseLeave={()=> setHovered2(false)}
+              <div
+                className="indu-box"
+                onMouseEnter={() => setHovered2(true)}
+                onMouseLeave={() => setHovered2(false)}
               >
                 <img src={hovered2 ? posis2 : dec1} alt="" />
                 <p>Real Estate</p>
               </div>
-              <div className="indu-box"
-                  onMouseEnter={()=> setHovered3(true)}
-                  onMouseLeave={()=> setHovered3(false)}
+              <div
+                className="indu-box"
+                onMouseEnter={() => setHovered3(true)}
+                onMouseLeave={() => setHovered3(false)}
               >
                 <img src={hovered3 ? posis3 : dec2} alt="" />
                 <p>IT, Software & Internet Marketing</p>
               </div>
-              <div className="indu-box"
-                onMouseEnter={()=> setHovered4(true)}
-                onMouseLeave={()=> setHovered4(false)}
+              <div
+                className="indu-box"
+                onMouseEnter={() => setHovered4(true)}
+                onMouseLeave={() => setHovered4(false)}
               >
                 <img src={hovered4 ? posis4 : dec3} alt="" />
                 <p>Finance & Banking</p>
               </div>
             </div>
             <div className="indu-card">
-              <div className="indu-box"
-                 onMouseEnter={()=> setHovered5(true)}
+              <div
+                className="indu-box"
+                onMouseEnter={() => setHovered5(true)}
                 onMouseLeave={() => setHovered5(false)}
               >
                 <img src={hovered5 ? posis5 : dec4} alt="" />
@@ -348,23 +400,26 @@ All website owners should know that unless visitors have an enjoyable experience
                   Government & Public <br /> Sector Enterprises
                 </p>
               </div>
-              <div className="indu-box"
-                  onMouseEnter={()=> setHovered6(true)}
-                onMouseLeave={()=> setHovered6(false)}
+              <div
+                className="indu-box"
+                onMouseEnter={() => setHovered6(true)}
+                onMouseLeave={() => setHovered6(false)}
               >
                 <img src={hovered6 ? posis6 : dec5} alt="" />
                 <p>Travel & Tour</p>
               </div>
-              <div className="indu-box"
-                 onMouseEnter={()=> setHovered7(true)}
-                onMouseLeave={()=> setHovered7(false)}
+              <div
+                className="indu-box"
+                onMouseEnter={() => setHovered7(true)}
+                onMouseLeave={() => setHovered7(false)}
               >
                 <img src={hovered7 ? posis7 : dec6} alt="" />
                 <p>Retail</p>
               </div>
-              <div className="indu-box"
-                  onMouseEnter={()=> setHovered8(true)}
-                onMouseLeave={()=> setHovered8(false)}
+              <div
+                className="indu-box"
+                onMouseEnter={() => setHovered8(true)}
+                onMouseLeave={() => setHovered8(false)}
               >
                 <img src={hovered8 ? posis8 : dec7} alt="alg" />
                 <p>SPORTS ( outdoor & indoor )</p>
@@ -458,7 +513,7 @@ All website owners should know that unless visitors have an enjoyable experience
           </div>
         </div>
 
-         <ContactForm/>
+        <ContactForm />
       </div>
     </>
   );

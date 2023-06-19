@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useState,useEffect} from "react";
 import solution from "../images/solution.png";
 import ecomm from "../images/ecomm.png";
 import PortCard from "./Cards/PortCard";
@@ -8,10 +8,6 @@ import bds from "../images/bds.png";
 import jones from "../images/jones.png";
 import ContactForm from "./common/ContactForm";
 import arrow1 from "../images/arrow1.png";
-// import customized from "../images/customized.png";
-// import customized1 from "../images/customized1.png";
-// import customized2 from "../images/customized2.png";
-// import customized3 from "../images/customized3.png";
 import kushel1 from '../images/kushel1.png';
 import focus from "../images/focus.png";
 import { NavLink } from "react-router-dom";
@@ -32,8 +28,22 @@ import kushel6 from '../images/kushel6.png';
 import kushel7 from '../images/kushel7.png';
 import kushel8 from '../images/kushel8.png';
 import drugs from '../images/drugs.png';
-// import ContactForm2 from "./common/contactForm2";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
 const Services = () => {
+  const [perPage, setPerPage] = useState(5);
+  useEffect(() => {
+    if (window.matchMedia("(max-width: 1300px)").matches) {
+      setPerPage(4);
+    }
+    if (window.matchMedia("(max-width: 1000px)").matches) {
+      setPerPage(3);
+    }
+    if (window.matchMedia("(max-width: 750px)").matches) {
+      setPerPage(1);
+    }
+  }, []);
+
   let heading = "www.2ndAmendment.com";
   let heading1 = "www.kickeez.com";
   let heading2 = "www.protrucks.com";
@@ -56,6 +66,20 @@ const Services = () => {
         <div className="ser2">
           <div className="ser21">
             <div className="home412 flex justify-center items-center">
+            <Splide
+               className=" w-full"
+                aria-label="Our Services"
+                options={{
+                  perPage,
+                  perMove: 1,
+                  autoplay: true,
+                  pauseOnHover: true,
+                  type: "loop",
+                  interval: 1600,
+                  drag: true,
+                }}
+            >
+            <SplideSlide>
               <div className="home4121">
                 <img
                   className=" block m-auto"
@@ -64,6 +88,8 @@ const Services = () => {
                 />
                 <p>Shopify</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img
                   className=" block m-auto"
@@ -72,6 +98,8 @@ const Services = () => {
                 />
                 <p>Woo Commerce</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img
                   className=" block m-auto"
@@ -80,6 +108,8 @@ const Services = () => {
                 />
                 <p>Big Commerce</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img
                   className=" block m-auto"
@@ -88,6 +118,8 @@ const Services = () => {
                 />
                 <p>Magento</p>
               </div>
+              </SplideSlide>
+              <SplideSlide>
               <div className="home4121">
                 <img
                   className="block m-auto"
@@ -96,6 +128,8 @@ const Services = () => {
                 />
                 <p>Wordpress</p>
               </div>
+              </SplideSlide>
+              </Splide>
             </div>
           </div>
         </div>

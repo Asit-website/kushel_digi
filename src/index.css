@@ -1369,7 +1369,9 @@ form button {
   font-size: 17.5px;
   font-weight: 400;
 }
-
+.ser2 .home4121{
+  justify-content: center !important;
+}
 .home511 .portfolio {
   display: block;
   margin: auto;
