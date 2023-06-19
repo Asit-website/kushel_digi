@@ -1,41 +1,41 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import website from "../images/website.png";
 import phonewith from "../images/phonwith.png";
 import arrow from "../images/arrow.png";
 // import processda from "../images/processda.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import full from '../images/full.png';
-import full1 from '../images/full1.png';
-import full2 from '../images/full2.png';
-import full3 from '../images/full3.png'
-import pathji from '../images/pathji.png';
+import full from "../images/full.png";
+import full1 from "../images/full1.png";
+import full2 from "../images/full2.png";
+import full3 from "../images/full3.png";
+import pathji from "../images/pathji.png";
 import PortCard from "./Cards/PortCard";
 import a9 from "../images/a9.png";
 import pads from "../images/pads.png";
 import bds from "../images/bds.png";
 import jones from "../images/jones.png";
-import bhojan from '../images/bhojan.png';
-import arrow1 from '../images/arrow1.png'
-import arrow4 from '../images/arrow4.png'
-import ustu from '../images/ustu.png';
-import uiy from '../images/uyi.png';
-import stand from '../images/stand.png';
-import howux from '../images/howux.png';
+import bhojan from "../images/bhojan.png";
+import arrow1 from "../images/arrow1.png";
+import arrow4 from "../images/arrow4.png";
+import ustu from "../images/ustu.png";
+import uiy from "../images/uyi.png";
+import stand from "../images/stand.png";
+import howux from "../images/howux.png";
 import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
   AccordionItemPanel,
-} from 'react-accessible-accordion';
+} from "react-accessible-accordion";
 import ContactForm from "./common/ContactForm";
 const Uiux = () => {
   let heading = "www.2ndAmendment.com";
   let heading1 = "www.kickeez.com";
   let heading2 = "www.protrucks.com";
   let heading3 = "www.jonesbuilt.com";
-  const [perPage,setPerPage] = useState(3);
+  const [perPage, setPerPage] = useState(3);
   useEffect(() => {
     if (window.matchMedia("(max-width: 1100px)").matches) {
       setPerPage(1);
@@ -67,17 +67,27 @@ const Uiux = () => {
             </h2>
             <div className="para-exp">
               <p className="mt-2">
-                Engaging, intuitive, and functional UI and UX designs that help
-                your website be unique and stand out from the crowd.
-              </p>
-              <p className="mt-3">
-                Delivering exceptional UI/UX design services is at the core of
+                {/* Engaging, intuitive, and functional UI and UX designs that help
+                your website be unique and stand out from the crowd. */}
+                We have been able to streamline and improve the interaction
+                between the target customers of our clients' businesses and
+                their online presence thanks to our expertise in user experience
+                design (UX).
+                <p className="mt-3">
+                  {/* Delivering exceptional UI/UX design services is at the core of
                 everything we do here at kushel digi. Our skilled designers
                 understand that a successful website must engage and delight
                 visitors. Whether you need a new website design or help
                 optimizing the UI/UX of an existing website, our experienced
                 UI/UX designers have the skills and expertise to deliver
-                results.
+                results. */}
+                  Our designs provide a distinctive digital experience, whether
+                  they are used in a website, mobile application, email
+                  campaign, social media campaign, or even an ad banner. Our UX
+                  has made it possible for our companies to build appealing
+                  online presences, which has increased brand value and sparked
+                  customer loyalty.
+                </p>
               </p>
             </div>
             <button>
@@ -114,112 +124,150 @@ const Uiux = () => {
             why TheJointApps is the right choice for you:
           </p>
           <div className="mt-20">
-          <Splide
-                aria-label="Our Services"
-                options={{
-                  perPage,
-                  perMove: 1,
-                  autoplay: true,
-                  pauseOnHover: true,
-                  type: "loop",
-                  interval: 2000,
-                  drag: true,
-                }}
-              >
-                <SplideSlide>
+            <Splide
+              aria-label="Our Services"
+              options={{
+                perPage,
+                perMove: 1,
+                autoplay: true,
+                pauseOnHover: true,
+                type: "loop",
+                interval: 2000,
+                drag: true,
+              }}
+            >
+              <SplideSlide>
                 <div className="business-box business-box20 relative text-center cursor-pointer">
-              <div className="business-card-img">
-                <img src={full} alt="" />
-              </div>
-              <h5>Excellent User Experience</h5>
-              <p>
-              After all, UI/UX is all about creating an excellent user experience. And that’s something we excel at. With our years of experience and UI/UX best practices, we can help you create a user-friendly interface and user experience to engage and convert your target audience.
-              </p>
-            </div>
-                </SplideSlide>
-                <SplideSlide>
+                  <div className="business-card-img">
+                    <img src={full} alt="" />
+                  </div>
+                  <h5>Excellent User Experience</h5>
+                  <p>
+                    After all, UI/UX is all about creating an excellent user
+                    experience. And that’s something we excel at. With our years
+                    of experience and UI/UX best practices, we can help you
+                    create a user-friendly interface and user experience to
+                    engage and convert your target audience.
+                  </p>
+                </div>
+              </SplideSlide>
+              <SplideSlide>
                 <div className="business-box business-box20 relative text-center cursor-pointer">
-              <div className="business-card-img">
-                <img src={full1} alt="" />
-              </div>
-              <h5>Increased Engagement
-And Conversion Rates</h5>
-              <p>
-              After all, UI/UX is all about creating an excellent user experience. And that’s something we excel at. With our years of experience and UI/UX best practices, we can help you create a user-friendly interface and user experience to engage and convert your target audience.
-              </p>
-            </div>
-                </SplideSlide>
-                <SplideSlide>
+                  <div className="business-card-img">
+                    <img src={full1} alt="" />
+                  </div>
+                  <h5>Increased Engagement And Conversion Rates</h5>
+                  <p>
+                    After all, UI/UX is all about creating an excellent user
+                    experience. And that’s something we excel at. With our years
+                    of experience and UI/UX best practices, we can help you
+                    create a user-friendly interface and user experience to
+                    engage and convert your target audience.
+                  </p>
+                </div>
+              </SplideSlide>
+              <SplideSlide>
                 <div className="business-box business-box20 relative text-center cursor-pointer">
-              <div className="business-card-img">
-                <img src={full2} alt="" />
-              </div>
-              <h5>Comprehensive Design Services</h5>
-              <p>
-              In addition to UI/UX design, we also offer eCommerce design and development, wearables app design, AR/VR app design, and product design services. Whatever your UI/UX needs may be, The kushel digi has you covered.
-              </p>
-            </div>
-                </SplideSlide>
-                <SplideSlide>
+                  <div className="business-card-img">
+                    <img src={full2} alt="" />
+                  </div>
+                  <h5>Comprehensive Design Services</h5>
+                  <p>
+                    In addition to UI/UX design, we also offer eCommerce design
+                    and development, wearables app design, AR/VR app design, and
+                    product design services. Whatever your UI/UX needs may be,
+                    The kushel digi has you covered.
+                  </p>
+                </div>
+              </SplideSlide>
+              <SplideSlide>
                 <div className="business-box business-box20 relative text-center cursor-pointer">
-              <div className="business-card-img">
-                <img src={full3} alt="" />
-              </div>
-              <h5>Vast Industry Expertise</h5>
-              <p>
-              We have worked with clients in various industries, including healthcare, education, retail, and more. No matter what industry you’re in, we can help you create UI/UX designs tailored to your specific needs.
-              </p>
-            </div>
-                </SplideSlide>
-              </Splide>
-              </div>
+                  <div className="business-card-img">
+                    <img src={full3} alt="" />
+                  </div>
+                  <h5>Vast Industry Expertise</h5>
+                  <p>
+                    We have worked with clients in various industries, including
+                    healthcare, education, retail, and more. No matter what
+                    industry you’re in, we can help you create UI/UX designs
+                    tailored to your specific needs.
+                  </p>
+                </div>
+              </SplideSlide>
+            </Splide>
+          </div>
         </div>
 
         <div className="how-ux">
-           <div className="how-ux1">
-               <h2>How is UX design valuable to my <br /> business?</h2>
-               <p>Everyone wants to be customer-focused, but websites often serve splintered, internal agendas that don’t resonate with the intended audience. Here’s your opportunity to stand out. All you have to do is answer the needs of your target audience on your site. Reduce barriers on your site to increase engagement and conversion. Delight your customers more and annoy them less to improve their satisfaction with your brand. Optimize your ecommerce checkout to help them convert more easily. By definition, UX design should help your customers—while your business gains even more.</p>
-           </div>
-           <div className="how-ux2">
-              <img src={howux} alt="howux" />
-           </div>
+          <div className="how-ux1">
+            <h2>
+              How is UX design valuable to my <br /> business?
+            </h2>
+            <p>
+              Everyone wants to be customer-focused, but websites often serve
+              splintered, internal agendas that don’t resonate with the intended
+              audience. Here’s your opportunity to stand out. All you have to do
+              is answer the needs of your target audience on your site. Reduce
+              barriers on your site to increase engagement and conversion.
+              Delight your customers more and annoy them less to improve their
+              satisfaction with your brand. Optimize your ecommerce checkout to
+              help them convert more easily. By definition, UX design should
+              help your customers—while your business gains even more.
+            </p>
+          </div>
+          <div className="how-ux2">
+            <img src={howux} alt="howux" />
+          </div>
         </div>
- 
+
         <div className="deliver-p">
-            <h2>How We Deliver  UI & UX Services</h2>
-            <p>A decade in design has allowed our team to perfect the process of delivering UI and UX services. We follow established design standards, workflows, and guidelines — you get the product you need, delivered by expert designers within the set timeframe.</p>
+          <h2>How We Deliver UI & UX Services</h2>
+          <p>
+            A decade in design has allowed our team to perfect the process of
+            delivering UI and UX services. We follow established design
+            standards, workflows, and guidelines — you get the product you need,
+            delivered by expert designers within the set timeframe.
+          </p>
 
-
-            <div className="deliver-p-img">
-                <img src={pathji} alt="" />
-            </div>
-
+          <div className="deliver-p-img">
+            <img src={pathji} alt="" />
+          </div>
         </div>
 
         <div className="benifits-ui">
-            <h2>Benefits Of  Our UI & UX Services</h2>
-            <p className="when-p">When you choose our services, you get everything to realise your product idea properly, from experience of working with Fortune 500 clients to design standards that will help us deliver your product quicker and without loss in quality.</p>
+          <h2>Benefits Of Our UI & UX Services</h2>
+          <p className="when-p">
+            When you choose our services, you get everything to realise your
+            product idea properly, from experience of working with Fortune 500
+            clients to design standards that will help us deliver your product
+            quicker and without loss in quality.
+          </p>
 
-            <div className="benifits-ui-card">
-                <div className="benifits-ui-box">
-                     <div className="ui-sect">
-                         <h4>DECADE IN DESIGN</h4>
-                         <p>From basic event apps to scalable enterprise software for Fortune 500 companies, our long-standing design team can help your any idea come into being with the latest tools and tech. Our well-established process and standardised approach to design will ensure the final product looks and works as you required.</p>
-                     </div>
-                </div>
-                <div className="benifits-ui-box1">
-                     <div className="ui-sect">
-                         <h4 className="text-center">ESTABLISHED IN-HOUSE STANDARDS</h4>
-                        
-                     </div>
-                </div>
-                <div className="benifits-ui-box2">
-                     <div className="ui-sect">
-                         <h4 className="text-center">BROAD-RANGING EXPERTISE</h4>
-                        
-                     </div>
-                </div>
+          <div className="benifits-ui-card">
+            <div className="benifits-ui-box">
+              <div className="ui-sect">
+                <h4>DECADE IN DESIGN</h4>
+                <p>
+                  From basic event apps to scalable enterprise software for
+                  Fortune 500 companies, our long-standing design team can help
+                  your any idea come into being with the latest tools and tech.
+                  Our well-established process and standardised approach to
+                  design will ensure the final product looks and works as you
+                  required.
+                </p>
+              </div>
             </div>
+            <div className="benifits-ui-box1">
+              <div className="ui-sect">
+                <h4 className="text-center">ESTABLISHED IN-HOUSE STANDARDS</h4>
+              </div>
+            </div>
+            <div className="benifits-ui-box2">
+              <div className="ui-sect">
+                <h4 className="text-center">BROAD-RANGING EXPERTISE</h4>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="home5     poty poty1">
@@ -255,32 +303,44 @@ And Conversion Rates</h5>
         </div>
 
         <div className="how-did flex items-start justify-center">
-            <div className="how-did-first">
-               <img src={bhojan} alt="bhojan" />
+          <div className="how-did-first">
+            <img src={bhojan} alt="bhojan" />
+          </div>
+          <div className="how-did-second">
+            <h3>How do we work?</h3>
+            <div className="how-did-para">
+              <p>
+                We provide UX/UI and web design services that unlock your
+                product value for the customer. With over ten years of online
+                experience creating websites and themes, we bring the expertise
+                you need and adapt our team to your plan.
+              </p>
+              <p>
+                You are in the right place whether you already have a perfect
+                pixel design or you need magic for a brand new digital image.
+                Our friendly team supports you in each step of the project and
+                builds it in stages as you are in complete control and approve
+                the changes.
+              </p>
             </div>
-            <div className="how-did-second">
-                 <h3>How do we work?</h3>
-                 <div className="how-did-para">
-                 <p>
-                 We provide UX/UI and web design services that unlock your product value for the customer. With over ten years of online experience creating websites and themes, we bring the expertise you need and adapt our team to your plan.
-                 </p>
-                 <p>You are in the right place whether you already have a perfect pixel design or you need magic for a brand new digital image. Our friendly team supports you in each step of the project and builds it in stages as you are in complete control and approve the changes.</p>
-                 </div>
-                 <button>Request A Quote <img width={14} src={arrow} className="inline ml-2" alt="" /></button>
-            </div>
+            <button>
+              Request A Quote{" "}
+              <img width={14} src={arrow} className="inline ml-2" alt="" />
+            </button>
+          </div>
         </div>
 
         <div className="home9 mb-12 home278">
           <div className="home91 flex px-24">
             <div className="home911 text-center">
-              <h2 className='font-bold text-gray-700'>JUST THE FAQs</h2>
+              <h2 className="font-bold text-gray-700">JUST THE FAQs</h2>
             </div>
             <div className="home912">
               <Accordion allowZeroExpanded>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Why Choose kushel digi as my next UI/UX design partner?
+                      Why Choose kushel digi as my next UI/UX design partner?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -295,56 +355,57 @@ And Conversion Rates</h5>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What industries do you specialize in?
+                      What industries do you specialize in?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    How do you stay up-to-date with the latest UI/UX design trends?
+                      How do you stay up-to-date with the latest UI/UX design
+                      trends?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Do you keep my idea co- protected?
+                      Do you keep my idea co- protected?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What platforms do you design for?
+                      What platforms do you design for?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
                     <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur
-                      ea in ut nostrud velit in irure cillum tempor laboris
-                      sed adipisicing eu esse duis nulla non.
+                      In ad velit in ex nostrud dolore cupidatat consectetur ea
+                      in ut nostrud velit in irure cillum tempor laboris sed
+                      adipisicing eu esse duis nulla non.
                     </p>
                   </AccordionItemPanel>
                 </AccordionItem>
@@ -352,7 +413,7 @@ And Conversion Rates</h5>
             </div>
           </div>
         </div>
-        <ContactForm/>
+        <ContactForm />
       </div>
     </>
   );

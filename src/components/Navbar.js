@@ -139,15 +139,17 @@ const Navbar = () => {
             </div>
           </div>
           <div className="second-header flex items-center">
+          <a href="tel:+919045301702">
             <div className="flex items-center">
               <img src={india} alt="alt" />
               <p className="ml-2">+91-9045-301-702</p>
             </div>
+            </a>
 
-            <div className="flex items-center ml-10">
+           <a href="tel:+15855662070"> <div className="flex items-center ml-10">
               <img src="/static/images/c1.png" alt="alt" />
               <p className="ml-2">+1-585-566-2070</p>
-            </div>
+            </div> </a>
           </div>
         </header>
       </div>
