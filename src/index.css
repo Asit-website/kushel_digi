@@ -1395,7 +1395,15 @@ form button {
   font-weight: 400;
   color: #404040;
 }
-
+.big-ul{
+ list-style-type: disc;
+ margin-left: 30px;
+ margin-top: 10px;
+}
+.big-ul li{
+  font-size: 19px;
+  margin: 5px 0px;
+}
 .flex-thing p {
   color: #000000;
   /* font-family: "Value Sans Medium" !important; */
@@ -1404,14 +1412,18 @@ form button {
   text-transform: uppercase;
   margin: 0px 25px;
 }
-
+.android-fun55{
+  align-items: flex-start !important;
+}
 .flex-thing .all {
   background-color: #085881;
   color: #ffffff;
   padding: 4px 22px;
   border-radius: 20px;
 }
-
+.nda-para11{
+  margin-top: 50px;
+}
 .btn3 {
   font-size: 16px;
 }

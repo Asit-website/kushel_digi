@@ -99,20 +99,48 @@ const Quality = () => {
               <div className="first-strict">
                 <h2>Superior Quality Infrastructure</h2>
                 <p>
-                Kushel Digi has the best quality infrastructural support and system with the data servers of the highest quality where we store your data securely and safely which nullifies any chance of data loss. With our expertise you will never need waste your time thinking about the work you have provided us with instead you can work on your product enhancement.
-
+                  Kushel Digi has the best quality infrastructural support and
+                  system with the data servers of the highest quality where we
+                  store your data securely and safely which nullifies any chance
+                  of data loss. With our expertise you will never need waste
+                  your time thinking about the work you have provided us with
+                  instead you can work on your product enhancement.
                 </p>
               </div>
               <div className="second-strict">
                 <h2>Long term goals</h2>
                 <p>
-                The employees that we hire go through the toughest tests before being selected and have commendable expertise and experience in the domain they are being hired for. The selection process we carry put is one of the most efficient and transparent methods to select the perfect candidate from the rest.We constantly make sure they are aware about the current technologies and our L&D makes sure to train them if necessary, so that your product is always stands out in the market.Our R&D (Reseach and Development) team also continuously keeps on working so that the product can be as enhanced as it can.
+                  The employees that we hire go through the toughest tests
+                  before being selected and have commendable expertise and
+                  experience in the domain they are being hired for. The
+                  selection process we carry put is one of the most efficient
+                  and transparent methods to select the perfect candidate from
+                  the rest.We constantly make sure they are aware about the
+                  current technologies and our L&D makes sure to train them if
+                  necessary, so that your product is always stands out in the
+                  market.Our R&D (Reseach and Development) team also
+                  continuously keeps on working so that the product can be as
+                  enhanced as it can.
                 </p>
               </div>
             </div>
           </div>
+          <div className="qaulity-header quality-header1">
+            <h2>The finest talent for superior IT services</h2>
+            <p className="mt-2">
+              The employees that we hire go through the toughest tests before
+              being selected and have commendable expertise and experience in
+              the domain they are hired for. The selection process we use is one
+              of the most efficient and transparent methods for selecting the
+              perfect candidate from the rest. We constantly make sure they are
+              aware of the current technologies, and our L&D makes sure to train
+              them if necessary, so that your product always stands out in the
+              market. Our R&D (research and development) team also continuously
+              works so that the product can be enhanced as much as possible.
+            </p>
+          </div>
         </div>
-         <ContactForm1/>
+        <ContactForm1 />
       </div>
     </>
   );
