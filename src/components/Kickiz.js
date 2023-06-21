@@ -210,7 +210,7 @@ const Kickiz = () => {
         </div>
 
         <div className="goals-statgy">
-          <h2>Goasl and Strategies</h2>
+          <h2>Goals and Strategies</h2>
           <ul>
             <li>Make it simpler for customers to contact the company.</li>
             <li>

@@ -57,58 +57,119 @@ const Nda = () => {
           <div className="nda-header nda-header1">
             <h2>Key Clauses of an NDA:</h2>
             <div className="nda-para mt-1">
-               <ul className="nda-ul">
-                 <li>Names of parties involved in signing of the agreement</li>
-                 <li>Defining confidential and non-confidential information (like publicly available reports or information shared by others)</li>
-                 <li>Sharing the purpose behind sharing of any information to anyone else</li>
-                 <li>Getting clarification regarding exactly how the information and data shared can and cannot be used</li>
-                 <li>Setting the deadline or duration of the agreement (Minimum 2 years can be extended)</li>
-                 <li>Elimination of the complete data from the server if the customer does not want to continue later</li>
-               </ul>
+              <ul className="nda-ul">
+                <li>
+                  Names of parties involved in the signing of the agreement
+                </li>
+                <li>
+                  -Defining confidential and non-confidential information (like
+                  publicly available reports or information shared by others)
+                </li>
+                <li>
+                  -Sharing the purpose behind sharing any information with
+                  anyone else
+                </li>
+                <li>
+                  -Getting clarification regarding exactly how the information
+                  and data shared can and cannot be used
+                </li>
+                <li>
+                  -Setting the deadline or duration of the agreement (a minimum
+                  of 2 years can be extended) Elimination of the complete data
+                  from the server if the customer does not want to continue
+                  later
+                </li>
+                <li>
+                  Elimination of the complete data from the server if the
+                  customer does not want to continue later
+                </li>
+              </ul>
             </div>
           </div>
           <hr className="hr-quality hr-quality2" />
           <div className="nda-header nda-header1">
             <h2>How We Keep Your Website or Application Idea Safe</h2>
             <div className="nda-para mt-1">
-                <p>
-                We recognize your enterprise has important proprietary records, and that requires total safety. Therefore, we always place an NDA before starting a new venture. By signing this NDA, our goal is to keep away from discrepancies throughout the transition and development stages.
-Our agreements will offer total protection for confidential or private information from malicious activities or access from third parties. To keep away from conflicts and streamline the development procedure, we provide legal files associated with NDA.
-NDA maintains the confidentiality of the information or data and minimizes the chances of crucial information being leaked. We have also referred to in our agreement that whatever comes under the term  ‘confidential’ will never be revealed to any third party in any instance.
-We even encourage you to apply for your own customized NDA while we engage in the settlement. However, our legal department team will evaluate the report first to ensure all the clauses are possible for the deal. Overall, we ensure to shield disclosures of intellectual assets and safegaurd the enterprise as a whole.
-
-                </p>
+              <p>
+                We recognise your enterprise has important proprietary records,
+                and that requires total safety. Therefore, we always sign an NDA
+                before starting a new venture. By signing this NDA, our goal is
+                to avoid discrepancies throughout the transition and development
+                stages. Our agreements will offer total protection for
+                confidential or private information from malicious activities or
+                access from third parties. To keep away from conflicts and
+                streamline the development procedure, we provide legal files
+                associated with NDAs. The NDA maintains the confidentiality of
+                the information or data and minimises the chances of crucial
+                information being leaked. We have also referred to in our
+                agreement that whatever comes under the term "confidential" will
+                never be revealed to any third party in any instance. We even
+                encourage you to apply for your own customised NDA while we
+                engage in the settlement. However, our legal department team
+                will evaluate the report first to ensure all the clauses are
+                possible for the deal. Overall, we ensure to shield disclosures
+                of intellectual assets and safeguard the enterprise as a whole.
+              </p>
             </div>
           </div>
           <hr className="hr-quality hr-quality1" />
           <div className="nda-header nda-header1">
             <h2>Security Measures to Prevent Data Breach</h2>
             <div className="nda-para mt-1">
-                <p>
-                Kushel Digi will not leave any stone unturned to shield your app or website idea and private information. Our core value includes privacy to be of utmost significance.
-We comply with the strictest privacy measures in order to shield your personal and confidential data. We make sure that the sensitive information isn't leaked, shared, disclosed, or transferred to any other party except the ones includes. Moreover, we and our most relied management use the complete statistics and required business techniques to provide you with a higher interactive experience.
-We have commendable measures taken that makes sure the security of your records and information in our development centre, which includes safety, network security, and operational security.
-
-                </p>
+              <p>
+                Kushel Digi will not leave any stone unturned to shield your app
+                or website idea and private information. Our core value includes
+                privacy, which is of the utmost significance. We comply with the
+                strictest privacy measures in order to shield your personal and
+                confidential data. We make sure that the sensitive information
+                isn't leaked, shared, disclosed, or transferred to any other
+                party except the ones we include. Moreover, we and our most
+                trusted management use the complete statistics and required
+                business techniques to provide you with a more interactive
+                experience. We have taken commendable measures to ensure the
+                security of your records and information in our development
+                centre, which includes safety, network security, and operational
+                security.
+              </p>
             </div>
           </div>
           <hr className="hr-quality hr-quality1" />
           <div className="nda-header nda-header1">
             <h2>General Security</h2>
             <div className="nda-para mt-1">
-               <ul className="nda-ul">
-                 <li>Protected development area that forbids unauthorised entry</li>
-                 <li>Limiting the use of web tools and apps that are not authorised</li>
-                 <li>Regular information auditing</li>
-                 <li>Prohibition on bringing in personal electronics and removable media</li>
-                 <li>Security personnel keep an eye on the area and track of individuals and things entering and leaving the building.</li>
-                 <li>Elimination of the complete data from the server if the customer does not want to continue later</li>
-                 <li>
-                 Fire hydrant systems and fire alarms are installed in our infrastructure.
-                 </li>
-                 <li>Our employees are made to sign an NDA to prevent a data breach or leakage</li>
-                 <li> Highly secure software is used to backup source codes in a safe manner.</li>
-               </ul>
+              <ul className="nda-ul">
+                <li>
+                  Protected development area that forbids unauthorised entry
+                </li>
+                <li>
+                  Limiting the use of web tools and apps that are not authorised
+                </li>
+                <li>Regular information auditing</li>
+                <li>
+                  Prohibition on bringing in personal electronics and removable
+                  media
+                </li>
+                <li>
+                  Security personnel keep an eye on the area and track of
+                  individuals and things entering and leaving the building.
+                </li>
+                <li>
+                  Elimination of the complete data from the server if the
+                  customer does not want to continue later
+                </li>
+                <li>
+                  Fire hydrant systems and fire alarms are installed in our
+                  infrastructure.
+                </li>
+                <li>
+                  Our employees are made to sign an NDA to prevent a data breach
+                  or leakage
+                </li>
+                <li>
+                   Highly secure software is used to backup source codes in a
+                  safe manner.
+                </li>
+              </ul>
             </div>
           </div>
           <hr className="hr-quality hr-quality2" />
@@ -116,43 +177,63 @@ We have commendable measures taken that makes sure the security of your records 
           <div className="nda-header nda-header1">
             <h2>Network Security</h2>
             <div className="nda-para mt-1">
-               <ul className="nda-ul">
-                 <li>Authenticating users and implementing specific ACL policies</li>
-                 <li>On our servers, firewalls are set up to guarantee authenticated access.</li>
-                 <li>regular malware scans, and updating software to the most recent version</li>
-                 <li>Segregation of Information/data and other service networks</li>
-                 <li>Traffic separation on LAN</li>
-                 <li>Data encryption using VPN and other methods</li>
-                 <li>
-                 LAN surveillance/monitoring
-                 </li>
-                 <li>Building-based security control station (SCS) with optical and ideal uplinks</li>
-                 <li>Data encryption using VPN and other methods</li>
-                 <li>LAN surveillance/monitoring</li>
-                 <li>Building-based security control station (SCS) with optical and ideal uplinks</li>
-                 <li>Data encryption using VPN and other methods</li>
-                 <li>LAN surveillance/monitoring</li>
-                 <li>Building-based security control station (SCS) with optical and ideal uplinks</li>
-                 <li>secure network hardware or equipments</li>
-                 <li>Version Control systems</li>
-                 <li>Network-attached storage (NAS)</li>
-                 <li>To increase security, Amazon Web Service (AWS)</li>
-                 <li>SVN/GitLab</li>
-               </ul>
+              <ul className="nda-ul">
+                <li>
+                  Authenticating users and implementing specific ACL policies
+                </li>
+                <li>
+                  On our servers, firewalls are set up to guarantee
+                  authenticated access.
+                </li>
+                <li>
+                  regular malware scans, and updating software to the most
+                  recent version
+                </li>
+                <li>
+                  Segregation of Information/data and other service networks
+                </li>
+                <li>Traffic separation on LAN</li>
+                <li>Data encryption using VPN and other methods</li>
+                <li>LAN surveillance/monitoring</li>
+                <li>
+                  Building-based security control station (SCS) with optical and
+                  ideal uplinks
+                </li>
+                <li>Data encryption using VPN and other methods</li>
+                <li>LAN surveillance/monitoring</li>
+                <li>
+                  Building-based security control station (SCS) with optical and
+                  ideal uplinks
+                </li>
+                <li>Data encryption using VPN and other methods</li>
+                <li>LAN surveillance/monitoring</li>
+                <li>
+                  Building-based security control station (SCS) with optical and
+                  ideal uplinks
+                </li>
+                <li>secure network hardware or equipments</li>
+                <li>Version Control systems</li>
+                <li>Network-attached storage (NAS)</li>
+                <li>To increase security, Amazon Web Service (AWS)</li>
+                <li>SVN/GitLab</li>
+              </ul>
             </div>
           </div>
           <hr className="hr-quality hr-quality2" />
           <div className="nda-header nda-header1">
             <h2>Operational Security</h2>
             <div className="nda-para mt-1">
-               <ul className="nda-ul">
-                 <li>Our office building is fully guarded and watched over 24 hours, everyday</li>
-                 <li>physical surveillance devices are installed.</li>
-               </ul>
+              <ul className="nda-ul">
+                <li>
+                  Our office building is fully guarded and watched over 24
+                  hours, everyday
+                </li>
+                <li>physical surveillance devices are installed.</li>
+              </ul>
             </div>
           </div>
         </div>
-        <ContactForm/>
+        <ContactForm />
       </div>
     </>
   );

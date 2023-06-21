@@ -49,7 +49,7 @@ const BigCommerce = () => {
         </div>
 
         <div className="android2-app bigCommerce-app">
-          <div className="android-fun">
+          <div className="android-fun android-fun55">
             <div className="android-fun1">
               <h2>BigCommerce</h2>
               <h2>Development</h2>
@@ -62,16 +62,38 @@ const BigCommerce = () => {
             </div>
             <div className="android-fun2 bigCommerce-fun2">
               <p>
-                BigCommerce is a one-stop solution if you are looking for a
+                {/* BigCommerce is a one-stop solution if you are looking for a
                 completely functional online store to sell either digital or
-                physical products.
+                physical products. */}
+                Big-commerce development service is a type of process that defines the process of designing, developing, and maintaining a website. Kushel got it covered as we provide service to their customers. Big-commerce is an e-commerce platform that helps to perform such tasks with ease. The tools and features required to create the design of the website, develop its actions, and manage it are all being provided by big commerce platforms.
               </p>
               <p className="mt-4">
-                At Avid Brio, our goal is to exceed your expectations by
+                {/* At Avid Brio, our goal is to exceed your expectations by
                 developing the ultimate eCommerce store for you. Our BigCommerce
                 developers are experienced in providing exceptional BigCommerce
                 development services, whether it’s for a startup ecommerce store
-                or a large eCommerce Enterprise.
+                or a large eCommerce Enterprise. */}
+                It is one of the biggest markets for developing a fully flashed website with its tools. Although it has a wide variety of stuff that can be conducted on big commerce platforms. That stuff is:-
+                <ul className="big-ul">
+                  <li>Building a complete online store</li>
+                  <li>Development of themes for the brand</li>
+                  <li>Third-party apps customizations</li>
+                  <li>Payments pages</li>
+                  <li>Management</li>
+                  <li>Optimization for SEO</li>
+                  <li>Responsive designs for brand promotions</li>
+                  <li>Optimization of the performance of websites</li>
+                  <li>Support and Maintainance</li>
+                </ul>
+              </p>
+              <p className="mt-4">
+              These are all the tasks that can be performed on the big commerce website. Big-commerce websites are being used in every business as it helps to expand the business. 
+              </p>
+              <p className="mt-4">
+              Big-commerce helps build the website with the customization and configuring, including designing and layout. Developing a theme for the brand helps in a user-friendly interface and identifies the brand’s recognition. There is a tool for customization for apps that helps to create plugins and custom features. Payment pages are being made via an e-commerce website that is a secure and fast customer transaction. 
+              </p>
+              <p className="mt-4">
+              Kushel Digi Solutions are known for providing best-in-class services for customers. We have yet to start the services of e-commerce websites that help to make your name a brand name. We have numerous services that help in building our relationship with you and trying to prove that we are the best one-step digital solution provided to us.
               </p>
             </div>
           </div>

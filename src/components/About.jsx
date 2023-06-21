@@ -393,7 +393,7 @@ const About = () => {
           </div>
           <div className="office-flex mt-5">
             <div className="office-flex1">
-              <h2>Our process</h2>
+              <h2>Our Office</h2>
               <p>
                 We don’t just put thought into what we build but also how we get
                 there. Our proven website process ensures a seamless workflow
