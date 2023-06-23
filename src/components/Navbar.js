@@ -258,7 +258,7 @@ const Navbar = () => {
                                 Flutter
                             </NavLink>{" "}
                             <span>|</span>{" "}
-                            <NavLink className="sonji" to="#!">
+                            <NavLink className="sonji" to="/kotlin">
                               Kotlin
                             </NavLink>
                             <span>|</span>{" "}
