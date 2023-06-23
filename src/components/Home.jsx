@@ -1146,9 +1146,7 @@ const Home = () => {
               </div>
               <div className="para-ex">
                 <p>
-                  {/* Lorem ipsum is simply dummy text of the printing & Typesetting
-                  industry. lorem ipsum has been the industry’s standard dummy
-                  text ever since the 1500s, an unknown printer took a gallery. */}
+                 
                   We are overjoyed to have discovered Kushel Digi! They were a
                   fantastic partner in the web development process and had a
                   clear understanding of our goals and process. Team Kushel Digi
@@ -1160,7 +1158,7 @@ const Home = () => {
               </div>
             </div>
             <div className="read-sec">
-              <p>Read All 40 Reviews</p>
+             <a target="_blank" href="https://www.google.com/search?q=kushel+digi+solutions&rlz=1C1JZEV_enIN1061IN1061&oq=kus&aqs=chrome.1.69i60j69i59j69i57j46i433i512j0i131i433i512j0i512j69i65j69i60.2813j0j7&sourceid=chrome&ie=UTF-8"><p>Read All 40 Reviews</p></a>
             </div>
           </div>
         </div>

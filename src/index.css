@@ -9547,6 +9547,21 @@ filter: brightness(.6);
 }
 /* ===============level css end========================= */
 /* =========================react js css end==================== */
+
+/* ===========================accorrodian concept================= */
+.accordion__button:before{
+  display: initial !important;
+  border-bottom: none !important;
+  border-right: none !important;
+  content: "+" !important;
+  font-size: 25px !important;
+  color: #619AD3 !important;
+}
+.accordion__button[aria-expanded='true']::before, .accordion__button[aria-selected='true']::before{
+  content:"-" !important;
+  font-size: 25px !important;
+}
+/* =========================accorrodian concept end===================== */
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;

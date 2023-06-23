@@ -192,11 +192,6 @@ const JonesBuilt = () => {
                   been achieved by KICK-EEZ. The emotional connection between
                   the customer and the company has become stronger.
                 </p>
-                {/* <p className="mt-6">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since.
-                </p> */}
                 <div className="azib-tech">
                   <h3>Technologies Used</h3>
                   <img className="conjun" src={conjun} alt="" />
