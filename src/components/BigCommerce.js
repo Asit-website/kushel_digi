@@ -14,6 +14,13 @@ import caktam1 from "../images/caktam1.png";
 import caktam2 from "../images/caktam2.png";
 import caktam3 from "../images/caktam3.png";
 import ContactForm1 from "./common/ContactForm1";
+import startup from '../images/startup.png';
+import startup1 from '../images/startup1.png'
+import design from '../images/design.png';
+import migration from '../images/migration.png';
+import programming from '../images/programming.png';
+import maintanance from '../images/maintanance.png';
+import customization from '../images/customization.png';
 import {
     Accordion,
     AccordionItem,
@@ -107,19 +114,22 @@ const BigCommerce = () => {
           </h3>
           <h4>which results in better conversions and higher AOV.</h4>
           <div className="paperbox">
-            <div className="first1" id="new"
+            <div className="first1"
               onMouseEnter={()=> setHovered(true)}
               onMouseLeave={()=> setHovered(false)}
             >
-              <img src={img1} className="startup" alt="img" />
+              <img src={hovered ? startup1 : startup} className="startup" alt="img" />
               <h3>Startup</h3>
               <h5>
                 We can help you start up a BigCommerce store that is completely
                 SEO friendly, high on user experience, and easy to maintain.
               </h5>
             </div>
-            <div className="first1">
-              <img src={img2} className="startup" alt="img" />
+            <div className="first1"
+              onMouseEnter={() => setHovered2(true)}
+              onMouseLeave={()=> setHovered2(false)}
+            >
+              <img src={hovered2 ? design : img2 } className="startup" alt="img" />
               <h3>Design</h3>
               <h5>
                 Our BigCommerce design team has demonstrated its excellence in
@@ -127,8 +137,11 @@ const BigCommerce = () => {
                 features and capabilities
               </h5>
             </div>
-            <div className="first1">
-              <img src={img3} className="startup" alt="img" />
+            <div className="first1"
+               onMouseEnter={() => setHovered3(true)}
+               onMouseLeave={()=> setHovered3(false)}
+            >
+              <img src={hovered3 ? migration : img3} className="startup" alt="img" />
               <h3>Migration</h3>
               <h5>
                 We make migration to BigCommerce easy. We guarantee that no data
@@ -136,24 +149,33 @@ const BigCommerce = () => {
                 short time.
               </h5>
             </div>
-            <div className="first1">
-              <img src={img4} className="startup" alt="img" />
+            <div className="first1"
+               onMouseEnter={() => setHovered4(true)}
+               onMouseLeave={()=> setHovered4(false)}
+            >
+              <img src={hovered4 ? programming : img4} className="startup" alt="img" />
               <h3>Programming</h3>
               <h5>
                 If you need something that is out of the box we can help you
                 achieve the same with our BigCommerce expertise and knowledge
               </h5>
             </div>
-            <div className="first1">
-              <img src={img5} className="startup" alt="img" />
+            <div className="first1"
+               onMouseEnter={() => setHovered5(true)}
+               onMouseLeave={()=> setHovered5(false)}
+            >
+              <img src={hovered5 ? maintanance : img5} className="startup" alt="img" />
               <h3>Maintenance</h3>
               <h5>
                 We maintain and manage several BigCommerce stores helping them
                 with their operations and scalability
               </h5>
             </div>
-            <div className="first1">
-              <img src={img6} className="startup" alt="img" />
+            <div className="first1"
+                onMouseEnter={() => setHovered6(true)}
+                onMouseLeave={()=> setHovered6(false)}
+            >
+              <img src={hovered6 ? customization : img6} className="startup" alt="img" />
               <h3>Customization</h3>
               <h5>
                 Whether you are looking to migrate from blueprint to stencil or

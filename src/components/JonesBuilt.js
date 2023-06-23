@@ -188,35 +188,27 @@ const JonesBuilt = () => {
               </div>
               <div className="azib1-second">
                 <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, Lorem Ipsum is
-                  simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since the Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, Lorem Ipsum is
-                  simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever
-                  since.
+                  With the improved site, a significant number of sales have
+                  been achieved by KICK-EEZ. The emotional connection between
+                  the customer and the company has become stronger.
                 </p>
-                <p className="mt-6">
+                {/* <p className="mt-6">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since.
-                </p>
+                </p> */}
                 <div className="azib-tech">
-                    <h3>Technologies Used</h3>
-                    <img className="conjun" src={conjun} alt="" />
+                  <h3>Technologies Used</h3>
+                  <img className="conjun" src={conjun} alt="" />
                 </div>
               </div>
             </div>
 
-              <div className="azib-images flex items-center justify-center">
-                  <img src={azib2} alt="" />
-                  <img src={azib3} alt="" />
-                  <img src={azib4} alt="" />
-              </div>
+            <div className="azib-images flex items-center justify-center">
+              <img src={azib2} alt="" />
+              <img src={azib3} alt="" />
+              <img src={azib4} alt="" />
+            </div>
           </div>
         </div>
 

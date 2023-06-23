@@ -29,7 +29,6 @@ const Navbar = () => {
   const toggleMenu = () => {
     document.querySelector(".mob-nav2").classList.toggle("mob-nav2-active");
   };
-
   const toggleMenu1 = () => {
     document.querySelector(".mob-nav2").classList.add("mob-nav2-active");
   };
@@ -139,17 +138,20 @@ const Navbar = () => {
             </div>
           </div>
           <div className="second-header flex items-center">
-          <a href="tel:+919045301702">
-            <div className="flex items-center">
-              <img src={india} alt="alt" />
-              <p className="ml-2">+91-9045-301-702</p>
-            </div>
+            <a  href="tel://+9045301702">
+              <div className="flex items-center">
+                <img src={india} alt="alt" />
+                <p className="ml-2">+91-9045-301-702</p>
+              </div>
             </a>
 
-           <a href="tel:+15855662070"> <div className="flex items-center ml-10">
-              <img src="/static/images/c1.png" alt="alt" />
-              <p className="ml-2">+1-585-566-2070</p>
-            </div> </a>
+            <a href="tel:+15855662070">
+              {" "}
+              <div className="flex items-center ml-10">
+                <img src="/static/images/c1.png" alt="alt" />
+                <p className="ml-2">+1-585-566-2070</p>
+              </div>{" "}
+            </a>
           </div>
         </header>
       </div>
@@ -173,30 +175,26 @@ const Navbar = () => {
                     <div className="compan flex items-start justify-between">
                       <div className="first-compan mt-3 flex items-start justify-evenly">
                         <div className="second-compan mr-10">
+                          <NavLink
+                            onClick={() =>
+                              document
+                                .querySelector(".ser-nav10")
+                                .classList.toggle("ses")
+                            }
+                            to="/about"
+                          >
+                            <p className="cpmpa">Who We Are</p>
+                          </NavLink>
+                          <p className="cpmpa">Testimonials</p>
+                          <p className="cpmpa">Blog</p>
                           <NavLink to="/partner">
-                            <NavLink
-                              onClick={() =>
-                                document
-                                  .querySelector(".ser-nav10")
-                                  .classList.toggle("ses")
-                              }
-                              to="/about"
-                            >
-                              <p className="cpmpa">Who We Are</p>
-                            </NavLink>
-                            <p className="cpmpa">Testimonials</p>
-                            <p className="cpmpa">Blog</p>
                             <p className="cpmpa">Partner With us</p>
                           </NavLink>
                           <p className="cpmpa">Social Cause - NGO</p>
-                          {/* <NavLink  to="/contact">
-                              <p className="cpmpa">Contact Us</p>
-                            </NavLink> */}
                         </div>
                         <div className="second-compan mr-5">
                           <p className="cpmpa">Our Work</p>
                           <p className="cpmpa">Our Clients</p>
-                          {/* <p className="cpmpa">Testimonials</p> */}
                           <NavLink to="/career">
                             <p className="cpmpa">Careers</p>
                           </NavLink>
@@ -209,8 +207,6 @@ const Navbar = () => {
                         <div className="comapn-sect">
                           <h3>GET FREE CONSULTATION</h3>
                           <p className="wanna wannt">
-                            {/* Want to validate your idea/review  wesite? Tell us a
-                              little bit about your requirements */}
                             Empowering companies at the intersection of UX
                             design, development, & business. <br />
                             Accelerate your digital transformation with our free
@@ -227,7 +223,6 @@ const Navbar = () => {
               </li>
               <li className="mar">
                 <div
-                  // onClick={toggleService}
                   className="flex items-center cursor-pointer nb-0 navLinks"
                 >
                   <p className="sar" to="">
@@ -256,11 +251,11 @@ const Navbar = () => {
                             </NavLink>{" "}
                             <span>|</span>{" "}
                             <NavLink className="sonji" to="/fluter">
-                              Flutter
+                            React Native
                             </NavLink>{" "}
                             <span>|</span>{" "}
                             <NavLink className="sonji" to="/native">
-                              React Native
+                                Flutter
                             </NavLink>{" "}
                             <span>|</span>{" "}
                             <NavLink className="sonji" to="#!">
@@ -282,22 +277,21 @@ const Navbar = () => {
                           </NavLink>
                           <p className="yamini">
                             <NavLink className="sonji" to="#!">
+                                BigCommerce{" "}
+                            </NavLink>{" "}
+                            <span> |</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                            
                               Shopify
                             </NavLink>{" "}
                             <span> |</span>{" "}
-                            <NavLink className="sonji" to="#!">
-                              {" "}
-                              Woo Commerce{" "}
-                            </NavLink>{" "}
-                            <span> |</span>{" "}
                             <NavLink className="sonji" to="/bigComm">
-                              {" "}
-                              Big Commerce{" "}
+                              
+                               Magento{" "}
                             </NavLink>{" "}
-                            <span> |</span>
-                            <NavLink className="sonji" to="#!">
-                              {" "}
-                              Magento{" "}
+                            <span className="relative span-wo"> |</span>
+                            <NavLink className="sonji span-wo1" to="#!">
+                              WooCommerce
                             </NavLink>{" "}
                             <span> |</span>{" "}
                             <NavLink className="sonji" to="#!">
@@ -436,7 +430,9 @@ const Navbar = () => {
                       </p>
                     </div>
                     <div className="teal-contact">
-                     <NavLink className="conj-hire" to="/contact"><button className="conj">Contact Us</button></NavLink>
+                      <NavLink className="conj-hire" to="/contact">
+                        <button className="conj">Contact Us</button>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -544,7 +540,9 @@ const Navbar = () => {
                       </p>
                     </div>
                     <div className="teal-contact">
-                     <NavLink className="conj-hire" to="/contact"><button className="conj">Contact Us</button></NavLink>
+                      <NavLink className="conj-hire" to="/contact">
+                        <button className="conj">Contact Us</button>
+                      </NavLink>
                     </div>
                   </div>
                 </div>
@@ -645,16 +643,6 @@ const Navbar = () => {
                       <p onClick={toggleService1} className="sar">
                         services
                       </p>
-                      {/* <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="16"
-                        height="16"
-                        fill="currentColor"
-                        className="opg ml-2 bi bi-caret-down-fill"
-                        viewBox="0 0 16 16"
-                      >
-                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
-                      </svg> */}
                     </div>
                     <div className="ser-nav-mob hidden">
                       <div className="ser-nav1 flex flex-col">

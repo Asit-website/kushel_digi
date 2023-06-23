@@ -38,6 +38,7 @@ import Rely from "./components/Rely";
 import Ammedment from "./components/Ammedment";
 import JonesBuilt from "./components/JonesBuilt";
 import Ceo from "./components/Ceo";
+import Kotlin from "./components/Kotlin";
 
 function App() {
   return (
@@ -81,6 +82,7 @@ function App() {
           <Route path="/native" element={<Native/>}/>
           <Route path="/label" element={<Label/>}/>
           <Route path="/bigComm" element={<BigCommerce/>}/>
+          <Route path="/kotlin" element={<Kotlin/>}/>
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />
