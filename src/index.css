@@ -6,7 +6,6 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  /* font-family: "Value Sans Pro" !important; */
   font-family: 'Manrope', sans-serif !important;
 }
 /* html{
@@ -34,7 +33,6 @@ body {
 .lorem {
   font-size: 22px;
   color: #404040;
-  /* font-family: "Value Sans Pro" !important; */
 }
 .portis11111 img{
   max-width: 300px;
@@ -248,7 +246,14 @@ body {
 .tag1 span {
   margin: 0 10px;
 }
-
+.span-wo{
+  position: relative;
+  right: 10px;
+}
+.span-wo1{
+  position: relative;
+  right: 5px;
+}
 .ser-nav {
   position: fixed;
   z-index: 999;
@@ -5596,13 +5601,10 @@ form button:hover{
 .step-images .stepback {
   max-width: 540px;
   width: 100%;
-  /* height: 500px; */
 }
-
-.step-images .stepback1 {
+.step-images .stepback1  {
   max-width: 534px;
   width: 100%;
-  /* height: 500px; */
 }
 
 .challenge-story {
@@ -5936,7 +5938,7 @@ form button:hover{
   top: 10%;
 }
 .azib-images .soling1{
-  height: 730px;
+  height: 520px; /* pehle 730 tha */
   max-height: 100%;
   object-fit: cover;
   object-position: top;
@@ -9022,10 +9024,10 @@ filter: brightness(.6);
   flex-wrap: wrap;
   margin-top: 2rem;
 }
-#new {
+/* #new {
   background-color: #085881;
   color: #ffffff;
-}
+} */
 #new h3 {
   color: #ffffff;
 }
@@ -9047,13 +9049,22 @@ filter: brightness(.6);
   flex-direction: column;
   justify-content: center;
 }
-
+.first1:hover{
+  background-color: #085881;
+}
 .first1 h3 {
   font-size: 19px;
   font-family: Arial, Helvetica, sans-serif;
   color: black;
   text-align: center;
   letter-spacing: 0.1px;
+}
+.first1:hover h3{
+  color: #ffffff;
+}
+.first1:hover h5{
+  color: #ffffff;
+  opacity: .9;
 }
 .first1 h5 {
   max-width: 400px;
@@ -9245,6 +9256,294 @@ filter: brightness(.6);
  font-weight: 600;
  font-family: 'Manrope', sans-serif !important;
  margin-top: 30px;
+}
+.devlop-kotlin{
+   display: flex;
+   align-items: flex-start;
+   padding: 50px 100px;
+   justify-content: center;
+}
+.devlop-kotlin1 h2{
+  color: #202020 !important;
+  font-size: 34px;
+  font-weight: bold !important;
+ max-width: 16em;
+  width: 100%;
+  letter-spacing: .5px;
+  line-height: 46px;
+}
+.devlop-kotlin2 p{
+  color: #404040;
+  font-size: 19px;
+  font-weight: 400 !important;
+  max-width: 38em;
+  width: 100%;
+}
+.devlop-kotlin1 span{
+  color: #085881;
+}
+.kotlin-back2 .kotling{
+  max-width: 610px;
+  width: 100%;
+}
+.kotlin-back{
+  padding: 0px 0px;
+  padding-top: 60px;
+}
+.kotlin-back1{
+  padding-left: 100px;
+}
+.devlop-kotlin1{
+  margin-right: 50px;
+}
+.devlop-kotlin2{
+  margin-left: 50px;
+}
+.support-modern{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px 100px;
+  background-color: #F5F7F9;
+}
+.support-modern1{
+  width: 100%;
+}
+.support-modern1 h2{
+  font-size: 34px;
+  font-weight: 700;
+  color: #202020;
+  line-height: 46px;
+}
+.support-modern1 span{
+  color: #125F86;
+}
+.support-modern1 p{
+  color: #404040;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 12px;
+}
+.icon-kot{
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+.icon-kot svg{
+  margin-left: 8px;
+}
+.icon-kot h5{
+  color: #202020;
+  font-size: 19px;
+  font-weight: 600;
+  border-bottom: 2px solid #085881;
+}
+.support-modern2{
+  width: 100%;
+}
+.box-kotlin{
+  /* background-color: #001d4c; */
+  height: 250px;
+  max-height: 100%;
+  width: 100%;
+  /* padding-bottom: 20px; */
+  /* padding: 20px 0px; */
+}
+.box-kotlin h4{
+  margin-top: 15px;
+
+}
+.box-imhj{
+  background-color: #FFFFFF;
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #F1EEEE;
+}
+.box-imhj svg{
+  width: 35px;
+}
+.box-imhj .svg1{
+  width: 25px;
+}
+.box-kotlin1{
+  margin-left: 30px;
+}
+.box-kotlin h4{
+  color: #202020;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.box-kotlin p{
+  margin-top: 20px;
+  color: #404040;
+  font-weight: 500;
+  font-size: 15px;
+}
+.support-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 100px;
+}
+.support-img1{
+  width: 100%;
+  margin-right: 30px;
+}
+.support-img1 img{
+  max-width: 750px;
+  width: 100%;
+  /* height: 600px;
+  max-height: 100%; */
+}
+.support-img2{
+  width: 100%;
+  margin-left: 30px;
+  max-width: 34em;
+}
+.support-img2 h2{
+   font-size: 34px;
+   color: #202020 !important;
+   font-weight: 700 !important;
+   line-height: 46px;
+}
+.support-img2 span{
+  color: #085881 !important;
+}
+.support-img2 h5{
+  font-size: 19px;
+  color: #202020;
+  margin-top: 25px;
+  font-weight: 600;
+}
+.para-ts{
+  margin-top: 25px;
+}
+.para-ts p{
+  font-weight: 500;
+  font-size: 17.5px;
+  color: #404040 !important;
+}
+.box-imhj .box-top{
+  width: 25px;
+}
+.box-imhj .box-top1{
+  width: 25px;
+}
+.box-imhj .box-top2{
+  width: 25px;
+}
+.support-modern1{
+  background-color: #ffffff !important;
+}
+.why-kotlinUse{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 30px 100px;
+  padding-bottom: 60px;
+}
+.why-kotlinUse1 p{
+  max-width: 42em;
+  width: 100%;
+  font-size: 18px;
+  color: #404040;
+  font-weight: 500;
+  line-height: 29px;
+}
+.why-kotlinUse1 h2{
+  color: #202020;
+  font-size: 34px;
+  font-weight: 700;
+}
+.kotlinContent-box{
+  width: 330px;
+  max-width: 100%;
+  border: 1px solid #000000;
+  padding: 20px;
+  margin-top: 40px;
+}
+.kotlinContent-box h3{
+  color: #202020;
+  font-size: 17.5px;
+  font-weight: 700;
+}
+.kotlinContent-para p{
+  font-weight: 500;
+  font-size: 16px;
+  color: #404040;
+  margin: 18px 0px;
+}
+#onsite1{
+  color: #125F86 ;
+}
+.profis-kotlin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 100px;
+  background-color: #F7F7F7 !important;
+}
+.profis-kotlin2{
+  width: 36em;
+  max-width: 100%;
+}
+.profis-kotlin2 h2{
+    color: #202020;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 46px;
+}
+.profis-kotlin2 p{
+  color: #202020;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.profis-kotlin1 img{
+  max-width: 280px;
+  width: 100%;
+}
+.profis-kotlin1{
+  margin-right: 40px;
+}
+.profis-kotlin2{
+  margin-left: 40px;
+}
+.kotlin-platform{
+  background-color: #085881;
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.kotlin-platform1 h3{
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 600;
+}
+.kotlin-platform1 button{
+  max-width: 210px;
+  width: 100%;
+  height: 55px;
+  background-color: #FFFFFF;
+  color: #085881;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.kotlin-platform2 img{
+  max-width: 220px;
+  width: 100%;
+}
+.home967{
+  padding: 70px 0px;
 }
 /* ===============level css end========================= */
 /* =========================react js css end==================== */

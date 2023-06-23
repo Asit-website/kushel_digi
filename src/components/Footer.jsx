@@ -45,12 +45,12 @@ const Footer = () => {
           <div className="foot11 foot12">
             <h5>Quick Links</h5>
             <div className="foot10 flex flex-col">
-              <NavLink to="/service">Ecommerce Solutions</NavLink>
-              <NavLink to="/website">Website Design & Development</NavLink>
-              <NavLink to="/">Web Application Development</NavLink>
-              <NavLink to="/">UI/UX Design</NavLink>
-              <NavLink to="/mobileApp">Mobile App Development</NavLink>
-              <NavLink to="/">Digital Marketing</NavLink>
+              <NavLink to="/ecommerce-solutions-usa">Ecommerce Solutions</NavLink>
+              <NavLink to="/web-development-usa">Website Design & Development</NavLink>
+              {/* <NavLink to="/">Web Application Development</NavLink> */}
+              <NavLink to="/ui-ux-designer-usa">UI/UX Design</NavLink>
+              <NavLink to="/mobile-application-development-usa">Mobile App Development</NavLink>
+              <NavLink to="/digital-marketing-agency-usa">Digital Marketing</NavLink>
               <NavLink to="/">Graphic Design</NavLink>
             </div>
           </div>
@@ -64,7 +64,6 @@ const Footer = () => {
               <NavLink to="/terms">Terms & Conditions</NavLink>
             </div>
           </div>
-
           <div className="foot11 foot14">
             <h5>Find Us</h5>
             <div className="foot10">
@@ -84,7 +83,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
           <div className="foot11 foot15">
             <h5 className="find_us">Follow Us On</h5>
             <div className="foot10">
@@ -113,7 +111,6 @@ const Footer = () => {
                 <a target="_blank" href="https://dribbble.com/kusheldigi">
                   <img src={drible} alt="" />
                 </a>
-                {/* <img src={pint} alt="" /> */}
               </div>
               <div className="footer-india flex items-center">
                 <img src={india} alt="india" />

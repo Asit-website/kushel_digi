@@ -337,10 +337,10 @@ const WebsiteDev = () => {
               <h1 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h1>
             </div>
             <div className="home512 flex flex-wrap justify-center mt-10">
-              <PortCard heading={heading} pads={a9} />
-              <PortCard heading={heading1} pads={pads} />
-              <PortCard heading={heading2} pads={bds} />
-              <PortCard heading={heading3} pads={jones} />
+              <PortCard link = "ammed" heading={heading} pads={a9} />
+              <PortCard link = "kick" heading={heading1} pads={pads} />
+              <PortCard link = "protrack" heading={heading2} pads={bds} />
+              <PortCard link = "jones" heading={heading3} pads={jones} />
             </div>
           </div>
           <div className="home52 w-full text-center"></div>

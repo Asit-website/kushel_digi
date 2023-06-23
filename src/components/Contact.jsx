@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import cuf1 from "../images/cuf1.png";
 import cuf2 from "../images/cuf2.png";
 import cuf3 from "../images/cuf3.png";
+import { Link } from "react-router-dom";
 const Contact = () => {
   const [tab, setTab] = useState(1);
   const tabAnother = (e) => {
@@ -175,7 +176,7 @@ const Contact = () => {
                     <img src={cuf3} alt="call" />
                     <div className="loc-para">
                       <h3>CALL US</h3>
-                      <p>+1-585-566-2070, +91-9045-301-702</p>
+                      <p> <a href="tel:+15855662070"><span>+1-585-566-2070</span></a>, <a href="tel:+919045301702"><span>+91-9045-301-702</span></a></p>
                     </div>
                   </div>
                 </div>
