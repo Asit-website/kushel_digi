@@ -132,10 +132,10 @@ const Navbar = () => {
               </p>
             </div>
 
-            <div className="email">
+           <a href="mailto:info@kusheldigi.com"><div className="email">
               <img src={mail} alt="mail" />
               <p>info@kusheldigi.com</p>
-            </div>
+            </div></a>
           </div>
           <div className="second-header flex items-center">
             <a  href="tel://+9045301702">
