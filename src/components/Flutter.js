@@ -12,7 +12,6 @@ import plan2 from "../images/plan2.png";
 import plan3 from "../images/plan3.png";
 import ads1 from "../images/ads1.png";
 import gurav from '../images/gurav.png';
-import Cmpsearch from "../images/Cmpsearch.png"
 import fragment from '../images/fragment.png';
 import {
     Accordion,
@@ -36,11 +35,11 @@ const Flutter = () => {
             </p>
             <button>
               Consult our iOS Team{" "}
-              <img width={13} className="ml-1 inline" src={arrow4} alt="" />
+              <img width={13} className="ml-1 inline tuin" src={arrow4} alt="" />
             </button>
           </div>
           <div className="android-back2 fluter-back2">
-            <img className="" src={fluting} alt="androids" />
+            <img className="animate__animated animate__pulse animate__infinite" src={fluting} alt="androids" />
           </div>
         </div>
         <div className="android2-app">

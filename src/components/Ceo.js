@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import pick from "../images/pick.png";
 import pick1 from "../images/pick1.png";
 import angrag from "../images/angrag.png";
@@ -7,20 +7,20 @@ import zinda1 from "../images/zinda1.png";
 import zinda2 from "../images/zinda2.png";
 // import azib from '../images/azib.png';
 import arrow4 from "../images/arrow4.png";
-import conjun from '../images/conjun.png';
+import conjun from "../images/conjun.png";
 import { NavLink } from "react-router-dom";
 import trackent1 from "../images/trackent1.png";
-import soling1 from '../images/soling1.jpg';
-import soling2 from '../images/soling2.jpg';
-import soling3 from '../images/soling3.jpg';
-import soling4 from '../images/soling4.png';
-import soling5 from '../images/soling5.jpg';
-import soling6 from '../images/soling6.jpg';
-import wheels from '../images/wheels.png';
+import soling1 from "../images/soling1.jpg";
+import soling2 from "../images/soling2.jpg";
+import soling3 from "../images/soling3.jpg";
+import soling4 from "../images/soling4.png";
+import soling5 from "../images/soling5.jpg";
+import soling6 from "../images/soling6.jpg";
+import wheels from "../images/wheels.png";
 const Ceo = () => {
   return (
     <>
-          <div className="ser-main">
+      <div className="ser-main">
         <div className="kick-back kick-back1">
           <div className="kick-sect">
             <img src={wheels} alt="kick" />
@@ -47,12 +47,16 @@ const Ceo = () => {
               </div>
               <div className="visit-kart mt-10">
                 <p>Visit Website</p>
-               <a href="https://solenoid-ninja.com/" target='_blank'><p className="kinza">www.solenoid-ninja.com</p></a>
+                <a href="https://solenoid-ninja.com/" target="_blank">
+                  <p className="kinza">www.solenoid-ninja.com</p>
+                </a>
               </div>
             </div>
           </div>
           <div className="kick-second relative">
-            <img className=" absolute about161" src={angrag} alt="" />
+            <div className="about165">
+              <img className=" absolute about161 animate__animated animate__pulse animate__infinite" src={angrag} alt="" />
+            </div>
             <img className=" relative z-10" src={soling4} alt="" />
           </div>
         </div>
@@ -102,8 +106,16 @@ const Ceo = () => {
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
-            <img className="stepback solenoid-stepback" src={soling6} alt="stepback" />
-            <img className="stepback1 solenoid-stepback1" src={soling5} alt="stepback1" />
+            <img
+              className="stepback solenoid-stepback"
+              src={soling6}
+              alt="stepback"
+            />
+            <img
+              className="stepback1 solenoid-stepback1"
+              src={soling5}
+              alt="stepback1"
+            />
           </div>
         </div>
 
@@ -205,17 +217,17 @@ const Ceo = () => {
                   standard dummy text ever since.
                 </p>
                 <div className="azib-tech">
-                    <h3>Technologies Used</h3>
-                    <img className="conjun" src={conjun} alt="" />
+                  <h3>Technologies Used</h3>
+                  <img className="conjun" src={conjun} alt="" />
                 </div>
               </div>
             </div>
 
-              <div className="azib-images flex items-center justify-center">
-                  <img className='soling1' src={soling1} alt="" />
-                  <img className='soling1' src={soling2} alt="" />
-                  <img className='soling1' src={soling3} alt="" />
-              </div>
+            <div className="azib-images flex items-center justify-center">
+              <img className="soling1" src={soling1} alt="" />
+              <img className="soling1" src={soling2} alt="" />
+              <img className="soling1" src={soling3} alt="" />
+            </div>
           </div>
         </div>
 
@@ -240,15 +252,17 @@ const Ceo = () => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-          <NavLink to="/contact"><button>
-              Request A Call{" "}
-              <img width={13} className=" inline ml-2" src={arrow4} alt="" />
-            </button></NavLink>
+            <NavLink to="/contact">
+              <button>
+                Request A Call{" "}
+                <img width={13} className=" inline ml-2" src={arrow4} alt="" />
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Ceo
+export default Ceo;

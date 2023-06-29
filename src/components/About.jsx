@@ -10,6 +10,8 @@ import sijo1 from "../images/sijo.png";
 import link from "../images/link.png";
 import young3 from "../images/young3.png";
 import github from "../images/github.png";
+import aboutVector from '../images/aboutVector.png';
+import aboutVector1 from "../images/aboutVector1.png";
 const About = () => {
   const [tab, setTab] = useState(1);
 
@@ -93,6 +95,7 @@ const About = () => {
 
   return (
     <>
+   
       <div className="about-main">
         <div className="about-main1 relative">
           <div className="about-main11 flex justify-start items-center">
@@ -164,7 +167,11 @@ const About = () => {
               </button>
             </div>
             <div className="about32">
-              <img src="/static/images/e7.png" alt="" />
+              {/* <img src="/static/images/e7.png" alt="" /> */}
+              <div className="about_vector">
+              <img  className="aboutVector animate__animated animate__headShake animate__infinite" src={aboutVector} alt="" />
+              </div>
+              <img className="aboutVector1" src={aboutVector1} alt="" />
             </div>
           </div>
         </div>
@@ -667,6 +674,7 @@ const About = () => {
         <SmallApproach />
         <ContactForm1 />
       </div>
+      
     </>
   );
 };

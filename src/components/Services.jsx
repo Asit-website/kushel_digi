@@ -54,7 +54,7 @@ const Services = () => {
         <div className="ser1">
           <div className="ser11 px-24 pt-12 pb-4 flex items-center">
             <div className="ser111">
-              <h1 className="">Services</h1>
+              <h1 className="seru">Services</h1>
               <h1 className="blue">Ecommerce Solutions</h1>
               <p className="ac">Website & Application Development Services</p>
             </div>

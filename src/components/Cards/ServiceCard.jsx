@@ -12,26 +12,36 @@ const ServiceCard = (props) => {
                             <img src={props.app1} alt="" />
                             <h5 className="ml-4">{props.dev} <br />{props.dev1}</h5>
                         </div>
+                        <NavLink to={`${props.link1}`}>
                         <div className="s-card1 flex items-center mb-3">
                             <img width={27} height={27} src={props.android} alt="" />
                             <p className="ml-2">{props.a}</p>
                         </div>
+                        </NavLink>
+                        <NavLink to={`${props.link2}`}>
                         <div className="s-card1 flex items-center mb-3">
                             <img width={27} height={27} src={props.apple} alt="" />
                             <p className="ml-2">{props.b}</p>
                         </div>
+                        </NavLink>
+                        <NavLink to={`${props.link3}`}>
                         <div className="s-card1 flex items-center mb-3">
                             <img width={27} height={27} src={props.fluter} alt="" />
                             <p className="ml-2">{props.c}</p>
                         </div>
+                        </NavLink>
+                        <NavLink to={`${props.link4}`}>
                         <div className={`s-card1 flex items-center mb-3 ${props.class}`}>
                             <img width={27} height={27} src={props.react} alt="" />
                             <p className="ml-2">{props.d}</p>
                         </div>
+                        </NavLink>
+                        <NavLink to={`${props.link5}`}>
                         <div className={`s-card1 flex items-center mb-3 ${props.class}`}>
                             <img width={27} height={27} src={props.kotlin} alt="" />
                             <p className="ml-2">{props.e}</p>
                         </div>
+                        </NavLink>
                     </div>
                     <div className="s-card2 absolute bottom-0">
                        <NavLink to={`/${props.link}`}><button className="btn btn1 btn2">
