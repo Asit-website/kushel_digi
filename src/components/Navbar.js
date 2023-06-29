@@ -250,11 +250,11 @@ const Navbar = () => {
                               Android{" "}
                             </NavLink>{" "}
                             <span>|</span>{" "}
-                            <NavLink className="sonji" to="/fluter">
+                            <NavLink className="sonji" to="/native">
                             React Native
                             </NavLink>{" "}
                             <span>|</span>{" "}
-                            <NavLink className="sonji" to="/native">
+                            <NavLink className="sonji" to="/fluter">
                                 Flutter
                             </NavLink>{" "}
                             <span>|</span>{" "}
@@ -280,8 +280,7 @@ const Navbar = () => {
                                 BigCommerce{" "}
                             </NavLink>{" "}
                             <span> |</span>{" "}
-                            <NavLink className="sonji" to="#!">
-                            
+                            <NavLink className="sonji" to="/shopify">
                               Shopify
                             </NavLink>{" "}
                             <span> |</span>{" "}

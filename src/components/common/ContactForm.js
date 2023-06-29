@@ -109,7 +109,7 @@ const ContactForm = () => {
               </div>
             </form>
           </div>
-          <div className="w-full   loofs loofs1">
+          <div className="w-full loofs loofs1">
             <div className=" loofs-sect1">
               <h2>Would you like to talk to our experts about your project?</h2>
               <p>

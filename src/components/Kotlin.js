@@ -3,7 +3,7 @@ import arrow4 from "../images/arrow4.png";
 import koting from "../images/koting.png";
 import mobilet from "../images/mobilet.png";
 import proffessional from "../images/proffessional.png";
-import kotliny from '../images/kotliny.png';
+import kotliny from "../images/kotliny.png";
 import {
   Accordion,
   AccordionItem,
@@ -514,28 +514,31 @@ const Kotlin = () => {
 
             {tab === 2 && (
               <>
-                <h2>Kotlin for business software development</h2>
-                <div className="mt-4">
-                  <p>
-                    Being 100% compatible with the JVM, you can use Kotlin for
-                    server-side development. Write expressive yet concise code
-                    while maintaining full compatibility with Java. Kotlin is
-                    compatible with all Java libraries and frameworks, the JVM,
-                    and can integrate with the Gradle and Maven build systems.
-                  </p>
-                  <p>
-                    As well as using for back end web, you can use Kotlin code
-                    client-side, for desktop development, and native
-                    development. It also supports modern programming concepts
-                    like extension functions, higher-order functions, and
-                    lambdas.
-                  </p>
-                  <p>
-                    What’s more, adopting Kotlin doesn't cost anything, except
-                    for learning and training. Switching to Kotlin is easy:
-                    install the plugin, add it to your build files, and click
-                    convert.
-                  </p>
+                <div className="ts_file">
+                  <h2>Kotlin for business software development</h2>
+                  <div className="mt-4">
+                    <p>
+                      Being 100% compatible with the JVM, you can use Kotlin for
+                      server-side development. Write expressive yet concise code
+                      while maintaining full compatibility with Java. Kotlin is
+                      compatible with all Java libraries and frameworks, the
+                      JVM, and can integrate with the Gradle and Maven build
+                      systems.
+                    </p>
+                    <p>
+                      As well as using for back end web, you can use Kotlin code
+                      client-side, for desktop development, and native
+                      development. It also supports modern programming concepts
+                      like extension functions, higher-order functions, and
+                      lambdas.
+                    </p>
+                    <p>
+                      What’s more, adopting Kotlin doesn't cost anything, except
+                      for learning and training. Switching to Kotlin is easy:
+                      install the plugin, add it to your build files, and click
+                      convert.
+                    </p>
+                  </div>
                 </div>
               </>
             )}
@@ -596,16 +599,32 @@ const Kotlin = () => {
             <div className="kotlinContent-box">
               <h3>Contents</h3>
               <div className="kotlinContent-para">
-                <p className="onsite cursor-pointer" id="onsite1" onClick={tabAnother}>
+                <p
+                  className="onsite cursor-pointer"
+                  id="onsite1"
+                  onClick={tabAnother}
+                >
                   Why use Kotlin?
                 </p>
-                <p className="cursor-pointer" id="onsite2" onClick={tabAnother1}>
+                <p
+                  className="cursor-pointer"
+                  id="onsite2"
+                  onClick={tabAnother1}
+                >
                   Kotlin for business software de.....
                 </p>
-                <p className="cursor-pointer" id="onsite3" onClick={tabAnother2}>
+                <p
+                  className="cursor-pointer"
+                  id="onsite3"
+                  onClick={tabAnother2}
+                >
                   Advantages of Kotlin for Android
                 </p>
-                <p className="cursor-pointer" id="onsite4" onClick={tabAnother3}>
+                <p
+                  className="cursor-pointer"
+                  id="onsite4"
+                  onClick={tabAnother3}
+                >
                   Hire top Kotlin app developers
                 </p>
               </div>
@@ -649,10 +668,9 @@ const Kotlin = () => {
             </button>
           </div>
           <div className="kotlin-platform2">
-              <img src={kotliny} alt="kot" />
+            <img src={kotliny} alt="kot" />
           </div>
         </div>
-
 
         <div className="home9 home967  home278">
           <div className="home91 flex px-24">
@@ -664,7 +682,7 @@ const Kotlin = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Is Kotlin Better Than Java?
+                      Is Kotlin Better Than Java?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -679,7 +697,7 @@ const Kotlin = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What is Kotlin written in?
+                      What is Kotlin written in?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -693,7 +711,7 @@ const Kotlin = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What is kotlin good for?
+                      What is kotlin good for?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -707,7 +725,7 @@ const Kotlin = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Why is Kotlin in high demand?
+                      Why is Kotlin in high demand?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -721,7 +739,7 @@ const Kotlin = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What can you build with Kotlin?
+                      What can you build with Kotlin?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -736,6 +754,7 @@ const Kotlin = () => {
             </div>
           </div>
         </div>
+        
       </div>
     </>
   );

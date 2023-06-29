@@ -86,21 +86,36 @@
 .about-main31 {
   padding: 0rem 6rem;
 }
-
-.about31 {
-  /* margin-right: 3rem; */
-  /* width: 60%; */
-}
 .about31 h6 {
   color: #202020;
   font-size: 19px;
   font-weight: 500;
   font-family: "Manrope", sans-serif !important;
 }
-.about32 img {
+/* .about32 img {
   max-width: 580px;
   width: 100%;
+} */
+.about32{
+  position: relative;
+  margin-right: 50px;
 }
+.about_vector{
+  position: absolute;
+  width: fit-content;
+  right: -70px;
+  top: 5px;
+}
+.about32 .aboutVector{
+width: 590px;
+max-width: 590px;
+}
+.about32 .aboutVector1{
+  max-width: 478px;
+  width: 100%;
+  position: relative;
+}
+
 .about31 h3 {
   margin-bottom: 10px;
   font-weight: 700;
@@ -326,7 +341,7 @@
   position: absolute;
   top:0% ;
   left: 0;
-  width: 100%;
+  width: 100% !important;
   height: 100%;
   width: 320px;
   background: #085881;
@@ -358,6 +373,10 @@
 }
 .about72 {
   margin: 0px 15px;
+}
+.about7:hover{
+  transform: scale(1.05);
+  transition: .8s;
 }
 .about72 h4 {
   color: #000000;

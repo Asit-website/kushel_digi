@@ -22,6 +22,8 @@ import rel2 from "../images/rel2.png";
 import rel3 from "../images/rel3.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+// import "animate.css/animate.min.css";
 const Kickiz = () => {
   return (
     <>
@@ -63,13 +65,16 @@ const Kickiz = () => {
             </div>
           </div>
           <div className="kick-second relative">
-            <img className=" absolute about161" src={angrag} alt="" />
+          <div className="about165">
+            <img className="absolute about161 animate__animated animate__pulse animate__infinite" src={angrag} alt="" />
+            </div>
             <img className=" relative z-10 about162" src={pick2} alt="" />
           </div>
         </div>
 
         <div className="service-kick">
           <h2>Services Provided</h2>
+          <AnimationOnScroll animateIn="animate__pulse">
           <div className="service-kick-flex">
             <div className="service-kick-sect">
               <img src={zinda} alt="" />
@@ -84,6 +89,7 @@ const Kickiz = () => {
               <p>QA & Website Testing</p>
             </div>
           </div>
+          </AnimationOnScroll>
         </div>
 
         <div className="back-story">
@@ -131,7 +137,7 @@ const Kickiz = () => {
             </h3>
           </div>
           <div className="challenge-story2 flex">
-            <div className="challenge-box challenge-box2 challenge-box3 ">
+            <div className="challenge-box challenge-box2  ">
               <h4>Challenges</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">

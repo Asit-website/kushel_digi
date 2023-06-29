@@ -300,7 +300,7 @@ const Home = () => {
               </div>
             </div>
             <div className="home112">
-              <img src={ladki1} alt="ladki1" />
+              <img  src={ladki1} alt="ladki1" />
             </div>
           </div>
         </div>
@@ -322,8 +322,9 @@ const Home = () => {
               </p>
               <NavLink to="/contact">
                 {" "}
-                <button className="btn btn1 btb-who">
+                
                   <span className="mr-2"></span>
+                  <div className="btbs-whoing">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
@@ -337,7 +338,8 @@ const Home = () => {
                       d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
                     />
                   </svg>
-                </button>
+                  </div>
+               
               </NavLink>
             </div>
             <div className="home212 ml-14 relative">
@@ -403,6 +405,8 @@ const Home = () => {
                     d={mag}
                     e={laravel1}
                     link={"ecommerce-solutions-usa"}
+                    link1={"bigComm"}
+                    link2={"shopify"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -439,6 +443,11 @@ const Home = () => {
                     d={d}
                     e={e}
                     link={"mobile-application-development-usa"}
+                    link1={"android"}
+                    link2={"ios"}
+                    link3={"fluter"}
+                    link4={"native"}
+                    link5={"kotlin"}
                   />
                 </SplideSlide>
                 <SplideSlide>
@@ -497,14 +506,14 @@ const Home = () => {
                     <img className=' block m-auto' src="/static/images/a6.png" alt="" />
                     <p>Big Commerce</p>
                   </div> */}
-                  <img className="so" src={box3} alt="" />
+                 <NavLink to="/bigComm"><img className="so" src={box3} alt="" /></NavLink>
                 </SplideSlide>
                 <SplideSlide>
                   {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/a7.png" alt="" />
                     <p>Shopify</p>
                   </div> */}
-                  <img className="so" src={box4} alt="" />
+                 <NavLink to="/shopify"><img className="so" src={box4} alt="" /></NavLink>
                 </SplideSlide>
                 <SplideSlide>
                   {/* <div className="home4121">
@@ -525,21 +534,21 @@ const Home = () => {
                     <img className=' block m-auto' src="/static/images/b6.png" alt="" />
                     <p>Vue Js</p>
                   </div> */}
-                  <img className="so" src={box7} alt="" />
+                 <NavLink to="/native"><img className="so" src={box7} alt="" /></NavLink>
                 </SplideSlide>
                 <SplideSlide>
                   {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b7.png" alt="" />
                     <p>Php</p>
                   </div> */}
-                  <img className="so" src={box8} alt="" />
+                 <NavLink to="/fluter"><img className="so" src={box8} alt="" /></NavLink>
                 </SplideSlide>
                 <SplideSlide>
                   {/* <div className="home4121">
                     <img className=' block m-auto' src="/static/images/b8.png" alt="" />
                     <p>HTML 5</p>
                   </div> */}
-                  <img className="so" src={box9} alt="" />
+                 <NavLink to="/kotlin"><img className="so" src={box9} alt="" /></NavLink>
                 </SplideSlide>
                 <SplideSlide>
                   {/* <div className="home4121">
@@ -1172,19 +1181,19 @@ const Home = () => {
               <h1>Design Industry</h1>
             </div>
             <div className="home-year12 flex items-center justify-center flex-wrap">
-              <div className="home-year121">
+              <div className="home-year121 animate__animated animate__pulse animate__infinite">
                 <img src="/static/images/b17.png" alt="" />
               </div>
-              <div className="home-year121">
+              <div className="home-year121 animate__animated animate__pulse animate__infinite">
                 <img src="/static/images/b18.png" alt="" />
               </div>
-              <div className="home-year121">
+              <div className="home-year121 animate__animated animate__pulse animate__infinite">
                 <img src="/static/images/b19.png" alt="" />
               </div>
-              <div className="home-year121">
+              <div className="home-year121 trt">
                 <img src="/static/images/b20.png" alt="" />
               </div>
-              <div className="home-year121">
+              <div className="home-year121 trt">
                 <img src="/static/images/b21.png" alt="" />
               </div>
             </div>

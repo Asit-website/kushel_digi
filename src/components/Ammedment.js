@@ -56,7 +56,9 @@ const Ammedment = () => {
             </div>
           </div>
           <div className="kick-second relative">
-            <img className=" absolute about161" src={angrag} alt="" />
+            <div className="about165">
+            <img className=" absolute about161 animate__animated animate__pulse animate__infinite" src={angrag} alt="" />
+            </div>
             <img className=" relative z-10" src={pick2} alt="" />
           </div>
         </div>

@@ -58,7 +58,9 @@ const ProTrucks = () => {
             </div>
           </div>
           <div className="kick-second relative">
-            <img className=" absolute about161" src={angrag} alt="" />
+          <div className="about165">
+            <img className=" absolute about161 animate__animated animate__pulse animate__infinite" src={angrag} alt="" />
+            </div>
             <img className=" relative z-10" src={laptop} alt="" />
           </div>
         </div>
@@ -122,7 +124,7 @@ const ProTrucks = () => {
             </h3>
           </div>
           <div className="challenge-story2 flex">
-            <div className="challenge-box challenge-box2 challenge-box3">
+            <div className="challenge-box challenge-box2">
               <h4>Challenges</h4>
               <div className="chal"></div>
               <div className="challenge-list mt-8">

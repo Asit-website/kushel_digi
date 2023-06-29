@@ -104,7 +104,9 @@ const HireTeam = () => {
               </button>
             </div>
             <div className="second-hiring">
+              <div className="about165">
               <img className="hiredEllipse" src={hiredEllipse} alt="hiredEllipse" />
+              </div>
               <img className="hiper" src={hiper} alt="hiper" />
             </div>
           </div>
