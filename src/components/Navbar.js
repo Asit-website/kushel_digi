@@ -276,7 +276,7 @@ const Navbar = () => {
                             </div>
                           </NavLink>
                           <p className="yamini">
-                            <NavLink className="sonji" to="#!">
+                            <NavLink className="sonji" to="/bigComm">
                                 BigCommerce{" "}
                             </NavLink>{" "}
                             <span> |</span>{" "}
@@ -284,8 +284,7 @@ const Navbar = () => {
                               Shopify
                             </NavLink>{" "}
                             <span> |</span>{" "}
-                            <NavLink className="sonji" to="/bigComm">
-                              
+                            <NavLink className="sonji" to="#!">
                                Magento{" "}
                             </NavLink>{" "}
                             <span className="relative span-wo"> |</span>

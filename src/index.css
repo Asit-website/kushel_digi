@@ -26,6 +26,10 @@ body {
 .toy {
   color: red;
 }
+#kk{
+  color: rgb(8, 88, 129) !important;
+  border-bottom: 2px solid rgb(8, 88, 129) !important;
+}
 .you {
   display: none !important;
 }
@@ -4315,7 +4319,6 @@ form button:hover {
 .loofs-sect h2 {
   color: #ffffff;
   text-transform: capitalize;
-  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
   font-size: 25px;
 }
@@ -5487,12 +5490,23 @@ form button:hover {
 .about165{
   animation: move3 5s infinite;
 }
+.about166{
+  animation: move4 20s infinite;
+}
 .about161 {
   width: 120px;
   position: absolute;
   top: -31px;
   left: 80%;
   transition: all 0.5s;
+}
+@keyframes move4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 @keyframes move3 {
   0% {
@@ -10283,6 +10297,123 @@ form button:hover {
   background-color: #3c83cb;
 }
 /* ======================shopify css end=========================== */
+
+/* ================bigCommerce changes================= */
+.why_bigt{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px 100px;
+  padding-top: 100px;
+}
+.process_bigt h2{
+  color: #202020;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+  padding: 0px 100px;
+}
+.why_bigt1 h2{
+  color: #202020;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+}
+.why_bigt1{
+  margin-right: 20px;
+}
+.why_bigt1 p{
+  color: #404040;
+  font-weight: 400;
+  font-size: 19.5px;
+  width: 38.5em;
+  max-width: 100%;
+  margin-top: 12px;
+}
+.why_bigt2{
+  position: relative;
+  margin-left: 20px;
+}
+.why_bigt2 .bigtsa{
+  max-width: 500px;
+  width: 100%;
+  margin-right: 80px;
+}
+.img_bistu{
+  position: absolute;
+  left: 25%;
+  width: fit-content;
+  top: -80px;
+  z-index: -1;
+}
+.img_bistu img{
+  max-width: 420px;
+  width: 420px;
+}
+.first11{
+  max-width: 330px;
+  width: 100%;
+  margin: 12px 8px !important;
+}
+.first11 h3{
+  color: #085881;
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.first11 img{
+  width: 40px;
+  max-width: 100%;
+}
+.process_bigt{
+  background: #F5F7F9;
+  padding: 60px 0px;
+}
+.kickta_big{
+  background-color: #080E07;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.kickta_big1{
+  padding-left: 130px;
+  margin-top: 40px;
+}
+.kickta_big1{
+ padding-top: 40px;
+ padding-bottom: 40px;
+}
+.kickta_big1 img{
+  max-width: 150px;
+  width: 100%;
+}
+.kickta_big1 h2{
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 62px;
+}
+.headst_big{
+  margin-top: 50px;
+}
+.kickma-arrow{
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+.kickma-arrow img{
+  width: 28px;
+  max-width: 100%;
+  margin-left: 8px;
+}
+.kickma-arrow p{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 19px;
+}
+/* ====================bigCommerce changes end=================== */
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;
@@ -10291,6 +10422,12 @@ form button:hover {
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;
+  }
+}
+@media only screen and (max-width:1463px){
+  .img_bistu img{
+    width: 380px;
+    max-width: 380px;
   }
 }
 @media only screen and (max-width: 1458px) {
@@ -10310,7 +10447,10 @@ form button:hover {
   .business-box {
     max-height: 100%;
   }
-
+  .img_bistu img{
+    width: 330px;
+    max-width: 330px;
+  }
   .colbo img {
     max-width: 300px;
   }
@@ -10319,7 +10459,12 @@ form button:hover {
     width: 100%;
   }
 }
-
+@media only screen and (max-width:1410px){
+  .first11{
+    max-width: 300px;
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 1404px) {
   .navbar ul .sar {
     margin-left: 30px;
@@ -10358,6 +10503,10 @@ form button:hover {
   .navbar ul li p,
   .navbar ul li a {
     font-size: 13px !important;
+  }
+  .img_bistu img{
+    width: 300px;
+    max-width: 300px;
   }
   .android-offer2 img {
     max-width: 520px;

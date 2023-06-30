@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  HashRouter,
 } from "react-router-dom";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
@@ -45,12 +44,10 @@ import JonesBuilt from "./components/JonesBuilt";
 import Ceo from "./components/Ceo";
 import Kotlin from "./components/Kotlin";
 import Shopify from "./components/Shopify";
-import { motion } from "framer-motion";
 function App() {
   return (
     <>
-      <motion.div>
-        <HashRouter>
+        <Router>
           <ScrollToTop />
           <Navbar />
           <Routes>
@@ -100,8 +97,7 @@ function App() {
             <Route path="*" element={<Error />} />
           </Routes>
           <Footer />
-        </HashRouter>
-      </motion.div>
+        </Router>
     </>
   );
 }

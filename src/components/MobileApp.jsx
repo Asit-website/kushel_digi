@@ -181,14 +181,7 @@ const MobileApp = () => {
               </h3>
               <div className="deivery-date">
                 <p className="ensure ensure1">
-                  {/* Our dedicated App development professionals are known for
-                  cutting-edge technologies, most intuitive, native, and
-                  interactive apps. We believe in collaborative work to bring
-                  out the best innovative and advanced mobile apps. We deliver
-                  apps that are supported on modern platforms like android
-                  wearable, TV, or the web. */}
                   We have rapid thinking and coding skills. Our mobile developers create in any language you desire (native or cross-platform), with any customizations you require.
-
                 </p>
               </div>
               <NavLink to="/contact">
@@ -198,7 +191,7 @@ const MobileApp = () => {
               </NavLink>
             </div>
             <div className="second-delivery">
-              <div className="delivery-img">
+              <div className="delivery-img about166">
                 <img src={doubleMob} alt="doubleMob" />
               </div>
             </div>
@@ -207,7 +200,7 @@ const MobileApp = () => {
 
           <div className="experience-user">
               <div className="experience-user-sect">
-                  <img src={usto} alt="usto" />
+                  <img  src={usto} alt="usto" />
               </div>
           </div>
         <div className="help-business help-business2">
@@ -300,62 +293,6 @@ const MobileApp = () => {
             <img src={col4} alt="" />
           </div>
         </div>
-
-        {/* <div className="why-choose">
-            <h2>Why choose our custom application</h2>
-            <h2>development service?</h2>
-            <div className="chose-card chose-card1 mt-10">
-                <div className="chose-box">
-                    <img src={unlock} alt="" />
-                    <div className="chose-head">
-                        <h3>Our Strong Talent Pool</h3>
-                        <p>
-                        We have a team of highly qualified and experienced app developers with deep domain knowledge in app development.
-                        </p>
-                    </div>
-                </div>
-                <div className="chose-box">
-                    <img src={unlock1} alt="" />
-                    <div className="chose-head">
-                        <h3>Collaborative Approach</h3>
-                        <p>
-                        We believe in a client-first approach & collaborative approach & creative discussions while focusing on understanding client requirements.
-                        </p>
-                    </div>
-                </div>
-                <div className="chose-box">
-                    <img src={unlock2} alt="" />
-                    <div className="chose-head">
-                        <h3>Project Analysis, Planning <br /> & Strategy</h3>
-                        <p>
-                        Our experienced team carefully studies all the project details before development & provides a full status report at all times during the development process.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div className="chose-card mt-5">
-                <div className="chose-box">
-                    <img src={unlock3} alt="" />
-                    <div className="chose-head">
-                        <h3>Robust Architecture & <br /> Monitoring</h3>
-                        <p>
-                        We have a team of highly qualified and experienced app developers with deep domain knowledge in app development.
-                        </p>
-                    </div>
-                </div>
-                <div className="chose-box">
-                    <img src={unlock4} alt="" />
-                    <div className="chose-head">
-                        <h3>Rich Features</h3>
-                        <p>
-                        Apart from an excellent UI, our developers make powerful and feature-rich apps to trigger your business productivity manifold.
-                        </p>
-                    </div>
-                </div>
-               
-            </div>
-        </div> */}
-
         <div className="mob-app1">
           <div className="mob-app11">
             <div className="mob-app111">

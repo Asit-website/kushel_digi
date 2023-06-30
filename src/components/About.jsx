@@ -12,6 +12,7 @@ import young3 from "../images/young3.png";
 import github from "../images/github.png";
 import aboutVector from '../images/aboutVector.png';
 import aboutVector1 from "../images/aboutVector1.png";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 const About = () => {
   const [tab, setTab] = useState(1);
 
@@ -169,7 +170,7 @@ const About = () => {
             <div className="about32">
               {/* <img src="/static/images/e7.png" alt="" /> */}
               <div className="about_vector">
-              <img  className="aboutVector animate__animated animate__headShake animate__infinite" src={aboutVector} alt="" />
+              <img  className="aboutVector animate__animated animate__pulse animate__infinite" src={aboutVector} alt="" />
               </div>
               <img className="aboutVector1" src={aboutVector1} alt="" />
             </div>
@@ -229,6 +230,7 @@ const About = () => {
               <br /> keeps us on right path
             </p>
             <div className="about5">
+            <AnimationOnScroll animateIn="animate__pulse">
               <div className="about51 flex justify-between">
                 <div className="about5-card text-center">
                   <h4>WE ACT</h4>
@@ -239,6 +241,8 @@ const About = () => {
                   <p>Logical</p>
                 </div>
               </div>
+              </AnimationOnScroll>
+              <AnimationOnScroll animateIn="animate__pulse">
               <div className="about52 justify-around">
                 <div className="about5-card text-center">
                   <h4>WE SERVE</h4>
@@ -249,6 +253,8 @@ const About = () => {
                   <p>Smartlty</p>
                 </div>
               </div>
+              </AnimationOnScroll>
+              <AnimationOnScroll animateIn="animate__pulse">
               <div className="about53 justify-evenly">
                 <div className="about5-card text-center mr-4">
                   <h4>BEING</h4>
@@ -259,6 +265,7 @@ const About = () => {
                   <p>Problems</p>
                 </div>
               </div>
+              </AnimationOnScroll>
             </div>
           </div>
         </div>
