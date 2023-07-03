@@ -288,7 +288,7 @@ const Navbar = () => {
                                Magento{" "}
                             </NavLink>{" "}
                             <span className="relative span-wo"> |</span>
-                            <NavLink className="sonji span-wo1" to="#!">
+                            <NavLink className="sonji span-wo1" to="/wooCommerce">
                               WooCommerce
                             </NavLink>{" "}
                             <span> |</span>{" "}
