@@ -5487,9 +5487,9 @@ form button:hover {
   text-decoration: underline;
   margin-top: 10px;
 }
-.about165 {
+/* .about165 {
   animation: move3 5s infinite;
-}
+} */
 .about166 {
   animation: move4 20s infinite;
 }
@@ -10429,7 +10429,7 @@ form button:hover {
   position: relative;
   margin-right: 30px;
 }
-.magento_back2 .reactus1{
+.magento_back2 .reactus1 {
   border: 5px solid #ffffff !important;
 }
 .magentos {
@@ -10458,14 +10458,14 @@ form button:hover {
   width: 25em;
   max-width: 100%;
 }
-.magento_back1 button{
+.magento_back1 button {
   background-color: #ffffff;
-    width: 300px;
-    max-width: 100%;
-    height: 52px;
-    font-weight: 500;
-    font-size: 16px;
-    margin-top: 40px;
+  width: 300px;
+  max-width: 100%;
+  height: 52px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 40px;
 }
 
 @keyframes move5 {
@@ -10477,22 +10477,22 @@ form button:hover {
   }
 }
 
-.magento_service{
+.magento_service {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 90px 100px;
 }
-.magento_service1 h2{
+.magento_service1 h2 {
   color: #202020;
   font-weight: 700;
   font-size: 34px;
   line-height: 44px;
 }
-.magento_service1 span{
+.magento_service1 span {
   color: #085881;
 }
-.magento_service1 p{
+.magento_service1 p {
   font-weight: 400;
   font-size: 19px;
   color: #404040;
@@ -10501,51 +10501,51 @@ form button:hover {
   margin-top: 10px;
   line-height: 30px;
 }
-.magento_service2{
+.magento_service2 {
   position: relative;
 }
-.greenish{
+.greenish {
   width: fit-content;
 }
-.greenish img{
+.greenish img {
   position: absolute;
   max-width: 420px;
   width: 100%;
   left: 31%;
   top: -75px;
 }
-.magento_service2 .admis{
+.magento_service2 .admis {
   max-width: 530px;
   width: 100%;
   position: relative;
 }
-.magento_services{
+.magento_services {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   padding: 60px 100px;
 }
-.magento_services1{
+.magento_services1 {
   margin-right: 20px;
 }
-.magento_services2{
+.magento_services2 {
   margin-left: 20px;
 }
 
-.magento_services1 img{
+.magento_services1 img {
   max-width: 470px;
   width: 100%;
 }
-.magento_services2 h2{
+.magento_services2 h2 {
   color: #202020;
   font-weight: 700;
   font-size: 34px;
   line-height: 44px;
 }
-.magento_services2 span{
+.magento_services2 span {
   color: #085881;
 }
-.magento_services2 p{
+.magento_services2 p {
   color: #404040;
   font-weight: 500;
   font-size: 19px;
@@ -10554,104 +10554,104 @@ form button:hover {
   max-width: 100%;
   margin-top: 12px;
 }
-.magento_tech{
+.magento_tech {
   padding: 60px 100px;
 }
-.magento_tech h2{
+.magento_tech h2 {
   font-weight: 700;
   font-size: 34px;
   line-height: 44px;
   color: #202020;
   text-align: center;
 }
-.magent_navbar{
+.magent_navbar {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 20px;
 }
-.magent_navbar p{
+.magent_navbar p {
   margin: 0px 22px;
   padding: 4px 0px;
   position: relative;
   top: 1px;
   cursor: pointer;
 }
-#mobile{
+#mobile {
   font-size: 16px;
   font-weight: 400;
   color: #202020;
   opacity: 96%;
   border-bottom: 2px solid #085881;
 }
-#frontend{
+#frontend {
   font-weight: 500;
   font-size: 16px;
   color: #202020;
   opacity: 50%;
 }
-#backend{
+#backend {
   font-weight: 500;
   font-size: 16px;
   color: #202020;
   opacity: 50%;
 }
-#cms{
+#cms {
   font-weight: 500;
   font-size: 16px;
   color: #202020;
   opacity: 50%;
 }
-.magento_nag{
+.magento_nag {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   margin-top: 60px;
 }
-.magento_box{
+.magento_box {
   margin: 0px 45px;
 }
-.magento_box p{
+.magento_box p {
   text-align: center;
   font-weight: 400;
   font-size: 19px;
   color: #202020;
   margin-top: 3px;
 }
-.magento_box img{
+.magento_box img {
   display: block;
   margin: auto;
   width: 42px;
 }
-.magento_hr{
+.magento_hr {
   border-bottom: 1px solid #000000;
   opacity: 30%;
 }
-.magento_sus{
+.magento_sus {
   padding: 60px 100px;
 }
-.piloy img{
+.piloy img {
   max-width: 1200px;
   width: 100%;
   display: block;
   margin: auto;
 }
-.dedicated_dreams{
-    background-color: #002840;
-    padding: 60px 100px;
-    position: relative;
+.dedicated_dreams {
+  background-color: #002840;
+  padding: 60px 100px;
+  position: relative;
 }
-.dedicated_dreams h3{
-  color: #FFFFFF;
+.dedicated_dreams h3 {
+  color: #ffffff;
   font-weight: 400;
   font-size: 29px;
   text-align: center;
 }
-.dedicated1{
-  background-color: #007AC1;
+.dedicated1 {
+  background-color: #007ac1;
 }
-.dedicated_dreams1{
+.dedicated_dreams1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10659,7 +10659,7 @@ form button:hover {
   position: relative;
   margin-top: 100px;
 }
-.dedicated_content{
+.dedicated_content {
   display: flex;
   border: 1px solid #ffffff;
   align-items: center;
@@ -10671,30 +10671,30 @@ form button:hover {
   padding: 0px 30px;
   /* position: absolute; */
 }
-.dedicated_content1{
-  margin-right:40px;
+.dedicated_content1 {
+  margin-right: 40px;
   margin-top: 30px;
 }
-.dedicated_content1 img{
+.dedicated_content1 img {
   max-width: 140px;
   width: 100%;
 }
-.dedicated_content2{
+.dedicated_content2 {
   margin-left: 40px;
   margin-top: 30px;
 }
-.dedicated_content2 p{
-  color: #FFFFFF;
+.dedicated_content2 p {
+  color: #ffffff;
   font-weight: 500;
   font-size: 13.5px;
   max-width: 30em;
   width: 100%;
   line-height: 24px;
 }
-.dedicated1{
+.dedicated1 {
   max-width: 470px;
   width: 100%;
-  background-color: #007AC1;
+  background-color: #007ac1;
   height: 140px;
   display: flex;
   align-items: center;
@@ -10703,16 +10703,16 @@ form button:hover {
   position: absolute;
   top: -18%;
 }
-.dedicated1 p{
-  color: #FFFFFF;
+.dedicated1 p {
+  color: #ffffff;
   font-weight: 500;
   font-size: 19px;
 }
-.dedicated2{
+.dedicated2 {
   max-width: 300px;
   width: 100%;
   height: 42px;
-  background-color: #FF7700;
+  background-color: #ff7700;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10721,14 +10721,198 @@ form button:hover {
   position: absolute;
   bottom: -5%;
 }
-.dedicated2 p{
+.dedicated2 p {
   font-weight: 600;
   font-size: 11px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+.woo_comerce_dev {
+  padding: 60px 100px;
+  background-color: #f5f7f9;
+  position: relative;
+}
+.woo_comerce_dev h2 {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 46px;
+  color: #202020;
+  opacity: 96%;
+  text-align: center;
+}
+.woo_com_cards {
+  margin-top: 30px;
+}
+.who_com_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+}
+.who_com_box {
+  background-color: #ffffff;
+  height: 335px;
+  /* max-width: 350px; */
+  padding: 25px 15px;
+  margin: 0px 5px;
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+}
+.who_com_box:hover{
+  background-color: #085881;
+}
+.who_left {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #ebebeb;
+  width: 47px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.who_left h4{
+   color: #202020;
+   font-size: 27.5px;
+   font-weight: 500;
+}
+.who_com_box:hover .who_left{
+  background-color: #FFFFFF;
+}
+.who_com_box h3{
+  font-weight: 700;
+  font-size: 19.5px;
+  color: #085881;
+  line-height: 28px;
+}
+.who_com_box:hover h3{
+   color: #FFFFFF;
+}
+.who_com_box p{
+  font-weight: 400;
+  font-size: 15.5px;
+  color: #404040;
+  margin-top: 10px;
+  line-height: 26px;
+}
+.who_com_box:hover p{
+  color: #FFFFFF;
+}
+.who_cho_flex{
+  display: flex;
+}
+.who_cho_left{
+  width: 50%;
+  background-color: #002840;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 60px;
+}
+.partion{
+  padding: 60px 0px;
+}
+
+.partion h3{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 46px;
+}
+.partion p{
+  color: #FFFFFF;
+  font-size: 19.5px;
+  font-weight: 400;
+  margin-top: 15px;
+  opacity: .9;
+  line-height: 32px;
+}
+.who_cho_right{
+  width: 50%;
+}
+.partion button{
+  max-width: 230px;
+  width: 100%;
+  background-color: #FF7700;
+  height: 54px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 25px;
+  color: #FFFFFF;
+  outline: none;
+  border: none;
+}
+.who_cho_right img{
+  height: 100vh;
+  object-fit: cover;
+  object-position: right;
+  filter: brightness(.8);
+}
+.solution_test_card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.solution_test_box{
+  background-color: #FEF5F1;
+  height: 545px;
+  max-width: 580px;
+  width: 100%;
+  margin: 0px 20px;
+  padding: 20px 0px;
+  border-radius: 5px;
+}
+.solution_test_box h5{
+  color: #202020;
+  font-weight: 500;
+  font-size: 19.5px;
+  padding: 0px 25px;
+}
+.solution_test_box h1{
+  font-size: 48px;
+  font-weight: 600;
+  color: #202020;
+  padding: 0px 40px;
+}
+.soution_test_box1{
+  background-color: #E2F7FF;
+}
+.solution_test{
+  padding: 80px 100px;
+}
+.solution_test_box img{
+  max-width: 190px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+}
+.solution_test_box hr{
+  border-bottom: 1px solid #000000 !important;
+  opacity: 20%;
+}
+.solution_test_box ul{
+  list-style-type: disc;
+  padding: 10px 40px;
+}
+.solution_test_box ul li{
+  font-size: 14px;
+  color: #202020;
+  font-weight: 500;
+  color: #202020;
+}
+/* .solution_test_box ul li{
+  list-style-type: disc;
+} */
 /* ======================magento css end============================ */
+
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;
