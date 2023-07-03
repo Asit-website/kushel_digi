@@ -284,7 +284,7 @@ const Navbar = () => {
                               Shopify
                             </NavLink>{" "}
                             <span> |</span>{" "}
-                            <NavLink className="sonji" to="#!">
+                            <NavLink className="sonji" to="/magento">
                                Magento{" "}
                             </NavLink>{" "}
                             <span className="relative span-wo"> |</span>

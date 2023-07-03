@@ -44,6 +44,8 @@ import JonesBuilt from "./components/JonesBuilt";
 import Ceo from "./components/Ceo";
 import Kotlin from "./components/Kotlin";
 import Shopify from "./components/Shopify";
+import Magento from "./components/Magento";
+import WooCommerce from "./components/WooCommerce";
 function App() {
   return (
     <>
@@ -94,6 +96,8 @@ function App() {
             <Route path="/bigComm" element={<BigCommerce />} />
             <Route path="/kotlin" element={<Kotlin />} />
             <Route path="/shopify" element={<Shopify />} />
+            <Route path="/magento" element={<Magento/>}/>
+            <Route path="/wooCommerce" element={<WooCommerce/>}/>
             <Route path="*" element={<Error />} />
           </Routes>
           <Footer />

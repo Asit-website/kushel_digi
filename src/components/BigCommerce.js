@@ -46,6 +46,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import CaseStudy from "./common/CaseStudy";
 // import sideimg from "./image/Untitled-4 2.png";
 const BigCommerce = () => {
   const [hovered, setHovered] = useState(false);
@@ -459,23 +460,9 @@ const BigCommerce = () => {
           </div>
         </div>
 
-        <div className="kickta_big">
-          <div className="kickta_big1">
-            <img src={kikma} alt="kikma" />
-            <div className="headst_big">
-            <h2>the most </h2>
-            <h2>compfortable</h2>
-            <h2>recoil pads</h2>
-            </div>
-            <div className="kickma-arrow">
-                 <p>View Case study</p>
-                 <img src={kiktas} alt="kiktas" />
-            </div>
-          </div>
-          <div className="kickta_big2">
-                <img src={kinu} alt="kinu" />
-          </div>
-        </div>
+         <CaseStudy/>
+
+         
 
         <div className="home9 py-20 bigcom9">
           <div className="home91 flex px-20">
