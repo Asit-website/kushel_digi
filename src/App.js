@@ -3,7 +3,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  HashRouter,
 } from "react-router-dom";
 import Contact from "./components/Contact";
 import Home from "./components/Home";
@@ -45,12 +44,12 @@ import JonesBuilt from "./components/JonesBuilt";
 import Ceo from "./components/Ceo";
 import Kotlin from "./components/Kotlin";
 import Shopify from "./components/Shopify";
-import { motion } from "framer-motion";
+import Magento from "./components/Magento";
+import WooCommerce from "./components/WooCommerce";
 function App() {
   return (
     <>
-      <motion.div>
-        <HashRouter>
+        <Router>
           <ScrollToTop />
           <Navbar />
           <Routes>
@@ -97,11 +96,12 @@ function App() {
             <Route path="/bigComm" element={<BigCommerce />} />
             <Route path="/kotlin" element={<Kotlin />} />
             <Route path="/shopify" element={<Shopify />} />
+            <Route path="/magento" element={<Magento/>}/>
+            <Route path="/wooCommerce" element={<WooCommerce/>}/>
             <Route path="*" element={<Error />} />
           </Routes>
           <Footer />
-        </HashRouter>
-      </motion.div>
+        </Router>
     </>
   );
 }

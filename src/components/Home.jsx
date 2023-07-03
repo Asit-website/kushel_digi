@@ -36,16 +36,9 @@ import sketch1 from "../images/sketch.png";
 import illustrator from "../images/illustrator.png";
 import Photoshop from "../images/photoshop.png";
 import portfolio from "../images/portfolio.png";
-// import pads from "../images/pads.png";
-// import bds from "../images/bds.png";
-// import jones from "../images/jones.png";
-// import major from "../images/major.png";
-// import solenoid from "../images/solenoid.png";
-// import a9 from "../images/a9.png";
 import ladki1 from "../images/ladki1.png";
 import star from "../images/star.png";
 import star1 from "../images/star1.png";
-// import finch from "../images/finch.png";
 import pay1 from "../images/pay1.png";
 import pay2 from "../images/pay2.png";
 import pay3 from "../images/pay3.png";
@@ -67,7 +60,6 @@ import box16 from "../images/box16.png";
 import re from "../images/re.png";
 import re1 from "../images/re1.png";
 import arrow from "../images/arrow.png";
-import singi from "../images/singi.png";
 import { NavLink } from "react-router-dom";
 import chont1 from "../images/chont1.png";
 import chont2 from "../images/chont2.png";
@@ -83,10 +75,10 @@ import joki6 from "../images/joki6.png";
 import joki7 from "../images/joki7.png";
 import joki8 from "../images/joki8.png";
 import sync from "../images/sync.png";
-import antist from "../images/antist.png";
 import ContactForm1 from "./common/ContactForm1";
 import abita from "../images/abita.png";
 import surup from "../images/surup.png";
+import ginta from '../images/ginta.png';
 const Home = () => {
   let dev = "App";
   let dev1 = "Development";
@@ -126,21 +118,11 @@ const Home = () => {
   let tag2 = "Superior UI/UX";
   let tag3 = "Smooth Deployment";
   let tag4 = "Technologically Advanced";
-
   let seo = "SEO";
   let seo1 = "SMO";
   let seo2 = "PPC";
-
   let digital = "Digital";
   let digital1 = "Marketing";
-
-  // let heading = "www.2ndAmendment.com";
-  // let heading1 = "www.kickeez.com";
-  // let heading2 = "www.protrucks.com";
-  // let heading3 = "www.jonesbuilt.com";
-  // let heading4 = "www.Majorhospital.com";
-  // let heading5 = "www.solenoidninja.com";
-
   const [perPage, setPerPage] = useState(4);
   const [perPage1, setPerPage1] = useState(5);
   const [perPage2, setPerPage2] = useState(5);
@@ -904,7 +886,7 @@ const Home = () => {
           <div className="chain-cards">
             <div className="chain-card flex items-center justify-center">
               <div className="chain-box chain-box1 w-full">
-                <img src={chont1} alt="chont1" />
+                <img src={ginta} alt="ginta2" />
                 <h4>Tailored Solutions</h4>
                 <p>
                   We create customized solutions and develop eCommerce features
@@ -914,7 +896,6 @@ const Home = () => {
                   you to get it built.
                 </p>
               </div>
-
               <div className="chain-box chain-box1 w-full">
                 <img src={chont1} alt="chont1" />
                 <h4>
@@ -927,7 +908,7 @@ const Home = () => {
                 </p>
               </div>
               <div className="chain-box chain-box1 w-full">
-                <img src={chont2} alt="chont1" />
+                <img src={chont2} alt="chont2" />
                 <h4>High Standards</h4>
                 <p>
                   We have built an impeccable reputation and stand behind
@@ -938,16 +919,15 @@ const Home = () => {
             </div>
             <div className="chain-card flex items-center justify-center">
               <div className="chain-box chain-box1 w-full">
-                <img src={chont3} alt="chont1" />
+                <img src={chont3} alt="chont3" />
                 <h4>We Care</h4>
                 <p>
                   Customer satisfaction is our driving force – we sincerely care
                   about our clients’ success and well-being.
                 </p>
               </div>
-
               <div className="chain-box chain-box1 w-full">
-                <img src={chont4} alt="chont1" />
+                <img src={chont4} alt="chont4" />
                 <h4>Increase Profitability</h4>
                 <p>
                   Our solutions add significant value to websites and are
@@ -956,7 +936,7 @@ const Home = () => {
                 </p>
               </div>
               <div className="chain-box chain-box1 w-full">
-                <img src={chont5} alt="chont1" />
+                <img src={chont5} alt="chont5" />
                 <h4>Original, Modern Code</h4>
                 <p>
                   Our solutions add significant value to websites and are

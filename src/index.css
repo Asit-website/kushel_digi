@@ -26,6 +26,10 @@ body {
 .toy {
   color: red;
 }
+#kk {
+  color: rgb(8, 88, 129) !important;
+  border-bottom: 2px solid rgb(8, 88, 129) !important;
+}
 .you {
   display: none !important;
 }
@@ -767,11 +771,11 @@ form button {
   border-radius: 3px;
   margin-top: 22px;
 }
-.all-port{
+.all-port {
   background: rgb(255, 255, 255);
-    color: rgb(32, 32, 32);
-    padding: 4px 22px;
-    border-radius: 30px;
+  color: rgb(32, 32, 32);
+  padding: 4px 22px;
+  border-radius: 30px;
 }
 .call {
   background-color: #085881;
@@ -1499,7 +1503,7 @@ form button {
 .d-card:hover {
   background-color: #085881;
   border: 2px solid #085881;
-  transition: .5s;
+  transition: 0.5s;
   transform: scale(1.05);
 }
 
@@ -4315,7 +4319,6 @@ form button:hover {
 .loofs-sect h2 {
   color: #ffffff;
   text-transform: capitalize;
-  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
   font-size: 25px;
 }
@@ -5037,20 +5040,20 @@ form button:hover {
 .perfect-choice .splide__track {
   overflow: initial !important;
 }
-.client_testimonials .splide__arrow--next{
+.client_testimonials .splide__arrow--next {
   width: 50px;
   height: 50px;
   background: transparent !important;
   border: 1px solid #00000080 !important;
   right: 80px;
 }
-.client_testimonials .splide__arrow--prev{
+.client_testimonials .splide__arrow--prev {
   width: 50px;
   height: 50px;
   background: transparent !important;
   border: 1px solid #00000080 !important;
 }
-.client_testimonials .splide__arrow svg{
+.client_testimonials .splide__arrow svg {
   fill: #000000 !important;
 }
 .perfect-choice .splide__arrow--prev {
@@ -5419,9 +5422,9 @@ form button:hover {
   padding: 40px 25px;
   width: 100%;
 }
-.top-shopify button:hover{
-  background-color: #FFFFFF;
-  transition: all .5s;
+.top-shopify button:hover {
+  background-color: #ffffff;
+  transition: all 0.5s;
   border: none;
   color: #202020;
 }
@@ -5484,8 +5487,11 @@ form button:hover {
   text-decoration: underline;
   margin-top: 10px;
 }
-.about165{
+.about165 {
   animation: move3 5s infinite;
+}
+.about166 {
+  animation: move4 20s infinite;
 }
 .about161 {
   width: 120px;
@@ -5493,6 +5499,14 @@ form button:hover {
   top: -31px;
   left: 80%;
   transition: all 0.5s;
+}
+@keyframes move4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 @keyframes move3 {
   0% {
@@ -5729,19 +5743,19 @@ form button:hover {
 
 /* Track */
 .challenge-box3::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 10px;
 }
- 
+
 /* Handle */
 .challenge-box3::-webkit-scrollbar-thumb {
-  background: #085881; 
+  background: #085881;
   border-radius: 10px;
 }
 
 /* Handle on hover */
 .challenge-box3::-webkit-scrollbar-thumb:hover {
-  background: #ffffff; 
+  background: #ffffff;
 }
 .goals-statgy {
   padding: 50px 100px;
@@ -6247,11 +6261,11 @@ form button:hover {
   font-size: 16px;
   margin-top: 20px;
 }
-.hired-help-sect button:hover{
-   background-color: #085881;
-   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-   color: #FFFFFF;
-   transition: all .5s;
+.hired-help-sect button:hover {
+  background-color: #085881;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  color: #ffffff;
+  transition: all 0.5s;
 }
 .benifits-hire {
   background-color: #ffffff;
@@ -6266,7 +6280,7 @@ form button:hover {
   opacity: 0.9;
   /* font-family: "Value Sans Medium" !important; */
 }
-.client_testimonials .splide__track{
+.client_testimonials .splide__track {
   overflow: initial !important;
 }
 .hired-card {
@@ -6668,14 +6682,14 @@ form button:hover {
   cursor: pointer;
   font-weight: 500;
 }
-#px{
-  color: #FFFFFF;
+#px {
+  color: #ffffff;
 }
-#py{
-  color: #FFFFFF;
+#py {
+  color: #ffffff;
 }
-#pz{
-  color: #FFFFFF;
+#pz {
+  color: #ffffff;
 }
 .portfolio-web {
   padding: 60px 100px;
@@ -7387,8 +7401,8 @@ form button:hover {
   padding: 30px 25px;
   border-radius: 10px;
 }
-.chain-box:hover{
-  transition: .5s;
+.chain-box:hover {
+  transition: 0.5s;
   transform: scale(1.03);
 }
 .chain-box img {
@@ -7474,11 +7488,11 @@ form button:hover {
   font-size: 16px;
   margin-top: 40px;
 }
-.android-back1 button:hover{
+.android-back1 button:hover {
   background-color: #388fe7;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.android-back1 button:hover .tuin{
+.android-back1 button:hover .tuin {
   filter: invert(1);
 }
 .android-back2 img {
@@ -10041,7 +10055,6 @@ form button:hover {
 }
 .sgy {
   margin-top: 40px !important;
-  
 }
 .app_store_para .more_details_app {
   color: #115e86;
@@ -10071,8 +10084,8 @@ form button:hover {
   margin: auto;
   margin-top: 10px;
 }
-.about_treating{
- padding-bottom: 80px;
+.about_treating {
+  padding-bottom: 80px;
 }
 .about_website {
   display: flex;
@@ -10081,7 +10094,7 @@ form button:hover {
   margin: 0px 100px;
   z-index: 2;
   position: relative;
-  padding-top:70px;
+  padding-top: 70px;
 }
 .about_website::before {
   border-radius: 15px;
@@ -10113,17 +10126,17 @@ form button:hover {
   font-size: 15.5px;
   font-weight: 700;
 }
-.about-website2 h2{
+.about-website2 h2 {
   color: #085881;
   font-size: 34px;
   font-weight: 700;
   margin-top: 20px;
 }
-.about-website2{
+.about-website2 {
   margin-left: 70px;
   padding-bottom: 50px;
 }
-.about-website2 .testi8{
+.about-website2 .testi8 {
   font-weight: 500;
   font-size: 16px;
   color: #202020;
@@ -10132,33 +10145,33 @@ form button:hover {
   max-width: 100%;
   margin-top: 5px;
 }
-.about-website1{
+.about-website1 {
   position: relative;
   margin-right: 70px;
   margin-top: 15px;
 }
-.about-website1 .cirles{
+.about-website1 .cirles {
   position: absolute;
   right: 12px;
   z-index: -1;
   top: -20px;
   width: fit-content;
 }
-.about-website1 .cirles img{
+.about-website1 .cirles img {
   width: 100px;
 }
-.about-website1 .kiking{
+.about-website1 .kiking {
   max-width: 598px;
   width: 100%;
 }
-.about-website2 .more_details_app{
+.about-website2 .more_details_app {
   color: #115e86 !important;
-    font-size: 19px;
-    font-weight: 500;
-    margin-top: 30px;
-    border-bottom: 1px solid #115e86;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 30px;
+  border-bottom: 1px solid #115e86;
 }
-.abouse_btn button{
+.abouse_btn button {
   max-width: 170px;
   width: 100%;
   height: 45px;
@@ -10168,86 +10181,86 @@ form button:hover {
   display: block;
   margin: auto;
   margin-top: 50px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
 }
-.client_testimonials{
+.client_testimonials {
   padding: 60px 100px;
-  background-color: #ECF3F9;
+  background-color: #ecf3f9;
   position: relative;
   overflow: hidden !important;
 }
-.client_testimonials h2{
+.client_testimonials h2 {
   text-align: center;
   font-weight: 700;
   font-size: 34px;
   color: #202020;
   opacity: 96%;
 }
-.client_testimonials .splide__arrows{
+.client_testimonials .splide__arrows {
   position: absolute;
   top: -180px;
   left: 60%;
   width: fit-content;
 }
-.client_testimonials .splide__pagination{
+.client_testimonials .splide__pagination {
   display: none;
 }
-.client_testimonials .words_ji{
+.client_testimonials .words_ji {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
 }
-.clients_testi{
+.clients_testi {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   margin-left: -100px;
   margin-top: 100px;
 }
-.client_testi1{
+.client_testi1 {
   position: relative;
   margin-right: 30px;
   z-index: 2;
 }
-.client_testi1 .tinih{
+.client_testi1 .tinih {
   max-width: 390px;
   width: 100%;
   height: auto;
 }
-.client_testi1 .surgical{
+.client_testi1 .surgical {
   position: absolute;
   width: fit-content;
   top: -81px;
   left: -54px;
 }
-.client_testi1 .surgical img{
+.client_testi1 .surgical img {
   width: 95px;
   max-width: 100%;
 }
-.client_testi1 .surgical1{
+.client_testi1 .surgical1 {
   position: absolute;
   width: fit-content;
   bottom: -60px;
   right: 20px;
   z-index: -1;
 }
-.client_testi1 .surgical1 img{
+.client_testi1 .surgical1 img {
   width: 200px;
   max-width: 100%;
 }
-.client_testi2{
+.client_testi2 {
   margin-left: 30px;
   margin-top: 30px;
 }
-.client_testi2 h4{
-   font-weight: 600;
-   font-size: 28.5px;
-   color: #000000;
+.client_testi2 h4 {
+  font-weight: 600;
+  font-size: 28.5px;
+  color: #000000;
 }
-.client_testi2 p{
+.client_testi2 p {
   color: #000000;
   font-size: 16px;
   font-weight: 400;
@@ -10257,21 +10270,21 @@ form button:hover {
   line-height: 28px;
 }
 @keyframes move1 {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
   100% {
     transform: rotate(360deg);
   }
 }
-.trt{
+.trt {
   animation: move1 5s infinite;
 }
 
-.btbs-whoing{
+.btbs-whoing {
   width: 50px;
   height: 50px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 50%;
   background-color: #085881;
   display: flex;
@@ -10279,10 +10292,443 @@ form button:hover {
   justify-content: center;
   color: #fff;
 }
-.btbs-whoing:hover{
+.btbs-whoing:hover {
   background-color: #3c83cb;
 }
 /* ======================shopify css end=========================== */
+/* ================bigCommerce changes================= */
+.why_bigt {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px 100px;
+  padding-top: 100px;
+}
+.process_bigt h2 {
+  color: #202020;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+  padding: 0px 100px;
+}
+.why_bigt1 h2 {
+  color: #202020;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 46px;
+}
+.why_bigt1 {
+  margin-right: 20px;
+}
+.why_bigt1 p {
+  color: #404040;
+  font-weight: 400;
+  font-size: 19.5px;
+  width: 38.5em;
+  max-width: 100%;
+  margin-top: 12px;
+}
+.why_bigt2 {
+  position: relative;
+  margin-left: 20px;
+}
+.why_bigt2 .bigtsa {
+  max-width: 500px;
+  width: 100%;
+  margin-right: 80px;
+}
+.img_bistu {
+  position: absolute;
+  left: 25%;
+  width: fit-content;
+  top: -80px;
+  z-index: -1;
+}
+.img_bistu img {
+  max-width: 420px;
+  width: 420px;
+}
+.first11 {
+  max-width: 330px;
+  width: 100%;
+  margin: 12px 8px !important;
+}
+.first11 h3 {
+  color: #085881;
+  font-weight: 700;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.first11 img {
+  width: 40px;
+  max-width: 100%;
+}
+.process_bigt {
+  background: #f5f7f9;
+  padding: 60px 0px;
+}
+.kickta_big {
+  background-color: #080e07;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 5px;
+}
+.kickta_big1 {
+  padding-left: 130px;
+  margin-top: 40px;
+}
+.kickta_big1 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.kickta_big1 img {
+  max-width: 150px;
+  width: 100%;
+}
+.kickta_big1 h2 {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  line-height: 62px;
+}
+.headst_big {
+  margin-top: 50px;
+}
+.kickma-arrow {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+.kickma-arrow img {
+  width: 28px;
+  max-width: 100%;
+  margin-left: 8px;
+}
+.kickma-arrow p {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 19px;
+}
+/* ====================bigCommerce changes end=================== */
+
+/* ===================magento css start=========================== */
+.magento-back {
+  background-color: #085881;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 100px;
+}
+.magento_back2 .reactus {
+  max-width: 220px;
+  width: 100%;
+  border: 10px solid #ffffff;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 30px;
+}
+.magento_back2 .reactus1{
+  border: 5px solid #ffffff !important;
+}
+.magentos {
+  position: absolute;
+  width: fit-content;
+  left: -32px;
+}
+.magentos img {
+  max-width: 275px;
+  width: 275px;
+}
+.magento_back1 h2 {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-top: 14px;
+}
+.magento_back1 p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  max-width: 100%;
+  margin-top: 20px;
+  width: 25em;
+  max-width: 100%;
+}
+.magento_back1 button{
+  background-color: #ffffff;
+    width: 300px;
+    max-width: 100%;
+    height: 52px;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+@keyframes move5 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.magento_service{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 100px;
+}
+.magento_service1 h2{
+  color: #202020;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+}
+.magento_service1 span{
+  color: #085881;
+}
+.magento_service1 p{
+  font-weight: 400;
+  font-size: 19px;
+  color: #404040;
+  width: 34em;
+  max-width: 100%;
+  margin-top: 10px;
+  line-height: 30px;
+}
+.magento_service2{
+  position: relative;
+}
+.greenish{
+  width: fit-content;
+}
+.greenish img{
+  position: absolute;
+  max-width: 420px;
+  width: 100%;
+  left: 31%;
+  top: -75px;
+}
+.magento_service2 .admis{
+  max-width: 530px;
+  width: 100%;
+  position: relative;
+}
+.magento_services{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 60px 100px;
+}
+.magento_services1{
+  margin-right: 20px;
+}
+.magento_services2{
+  margin-left: 20px;
+}
+
+.magento_services1 img{
+  max-width: 470px;
+  width: 100%;
+}
+.magento_services2 h2{
+  color: #202020;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+}
+.magento_services2 span{
+  color: #085881;
+}
+.magento_services2 p{
+  color: #404040;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 30px;
+  width: 44em;
+  max-width: 100%;
+  margin-top: 12px;
+}
+.magento_tech{
+  padding: 60px 100px;
+}
+.magento_tech h2{
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  color: #202020;
+  text-align: center;
+}
+.magent_navbar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.magent_navbar p{
+  margin: 0px 22px;
+  padding: 4px 0px;
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+#mobile{
+  font-size: 16px;
+  font-weight: 400;
+  color: #202020;
+  opacity: 96%;
+  border-bottom: 2px solid #085881;
+}
+#frontend{
+  font-weight: 500;
+  font-size: 16px;
+  color: #202020;
+  opacity: 50%;
+}
+#backend{
+  font-weight: 500;
+  font-size: 16px;
+  color: #202020;
+  opacity: 50%;
+}
+#cms{
+  font-weight: 500;
+  font-size: 16px;
+  color: #202020;
+  opacity: 50%;
+}
+.magento_nag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 60px;
+}
+.magento_box{
+  margin: 0px 45px;
+}
+.magento_box p{
+  text-align: center;
+  font-weight: 400;
+  font-size: 19px;
+  color: #202020;
+  margin-top: 3px;
+}
+.magento_box img{
+  display: block;
+  margin: auto;
+  width: 42px;
+}
+.magento_hr{
+  border-bottom: 1px solid #000000;
+  opacity: 30%;
+}
+.magento_sus{
+  padding: 60px 100px;
+}
+.piloy img{
+  max-width: 1200px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.dedicated_dreams{
+    background-color: #002840;
+    padding: 60px 100px;
+    position: relative;
+}
+.dedicated_dreams h3{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 29px;
+  text-align: center;
+}
+.dedicated1{
+  background-color: #007AC1;
+}
+.dedicated_dreams1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 100px;
+}
+.dedicated_content{
+  display: flex;
+  border: 1px solid #ffffff;
+  align-items: center;
+  justify-content: center;
+  width: 780px;
+  max-width: 100%;
+  height: 380px;
+  border-radius: 10px;
+  padding: 0px 30px;
+  /* position: absolute; */
+}
+.dedicated_content1{
+  margin-right:40px;
+  margin-top: 30px;
+}
+.dedicated_content1 img{
+  max-width: 140px;
+  width: 100%;
+}
+.dedicated_content2{
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.dedicated_content2 p{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 13.5px;
+  max-width: 30em;
+  width: 100%;
+  line-height: 24px;
+}
+.dedicated1{
+  max-width: 470px;
+  width: 100%;
+  background-color: #007AC1;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  position: absolute;
+  top: -18%;
+}
+.dedicated1 p{
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 19px;
+}
+.dedicated2{
+  max-width: 300px;
+  width: 100%;
+  height: 42px;
+  background-color: #FF7700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  position: absolute;
+  bottom: -5%;
+}
+.dedicated2 p{
+  font-weight: 600;
+  font-size: 11px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* ======================magento css end============================ */
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;
@@ -10291,6 +10737,12 @@ form button:hover {
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;
+  }
+}
+@media only screen and (max-width: 1463px) {
+  .img_bistu img {
+    width: 380px;
+    max-width: 380px;
   }
 }
 @media only screen and (max-width: 1458px) {
@@ -10310,7 +10762,10 @@ form button:hover {
   .business-box {
     max-height: 100%;
   }
-
+  .img_bistu img {
+    width: 330px;
+    max-width: 330px;
+  }
   .colbo img {
     max-width: 300px;
   }
@@ -10319,7 +10774,12 @@ form button:hover {
     width: 100%;
   }
 }
-
+@media only screen and (max-width: 1410px) {
+  .first11 {
+    max-width: 300px;
+    width: 100%;
+  }
+}
 @media only screen and (max-width: 1404px) {
   .navbar ul .sar {
     margin-left: 30px;
@@ -10358,6 +10818,10 @@ form button:hover {
   .navbar ul li p,
   .navbar ul li a {
     font-size: 13px !important;
+  }
+  .img_bistu img {
+    width: 300px;
+    max-width: 300px;
   }
   .android-offer2 img {
     max-width: 520px;
