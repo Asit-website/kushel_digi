@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import arrow4 from "../images/arrow4.png";
 import shoph from "../images/shoph.png";
 import imgast from "../images/imgast.png";
@@ -21,12 +21,12 @@ import laptop2 from "../images/laptop2.png";
 import laptop3 from "../images/laptop3.png";
 import laptop4 from "../images/laptop4.png";
 import laptop5 from "../images/laptop5.png";
-import singlr from '../images/singlr.png';
-import kiking from '../images/kiking.png';
-import circle55 from '../images/circle55.png';
-import testiEllipse from '../images/testiEllipse.png';
-import testiEllipse1 from '../images/tsetiEllipse1.png';
-import tinih from '../images/tinih.png';
+import singlr from "../images/singlr.png";
+import kiking from "../images/kiking.png";
+import circle55 from "../images/circle55.png";
+import testiEllipse from "../images/testiEllipse.png";
+import testiEllipse1 from "../images/tsetiEllipse1.png";
+import tinih from "../images/tinih.png";
 import {
   Accordion,
   AccordionItem,
@@ -36,9 +36,22 @@ import {
 } from "react-accessible-accordion";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-import left from '../images/left.png';
-import right from '../images/right.png';
+import soin1 from "../images/1ax.png";
+import soin2 from "../images/2ax.png";
+import soin3 from "../images/3ax.png";
+import soin4 from "../images/4ax.png";
+import soin5 from "../images/5ax.png";
+import soin6 from "../images/6ax.png";
+import setui from "../images/setui.png";
+import ContactForm1 from "./common/ContactForm1";
+
 const Shopify = () => {
+  const [hovered, setHovered] = useState(false);
+  const [hovered2, setHovered2] = useState(false);
+  const [hovered3, setHovered3] = useState(false);
+  const [hovered4, setHovered4] = useState(false);
+  const [hovered5, setHovered5] = useState(false);
+  const [hovered6, setHovered6] = useState(false);
   return (
     <>
       <div className="ser-main">
@@ -293,8 +306,16 @@ const Shopify = () => {
             features of your store.
           </p>
           <div className="paperbox">
-            <div className="first1">
-              <img src={thirdParty} className="startup startup11" alt="img" />
+            <div
+              className="first1"
+              onMouseEnter={() => setHovered(true)}
+              onMouseLeave={() => setHovered(false)}
+            >
+              <img
+                src={hovered ? setui : soin1}
+                className="startup startup11"
+                alt="img"
+              />
               <h3>Custom Feature Additions</h3>
               <h5>
                 Need to add a Unique feature to your store? our team can develop
@@ -302,8 +323,16 @@ const Shopify = () => {
                 to delight your customers and boost conversions.
               </h5>
             </div>
-            <div className="first1">
-              <img src={thirdParty} className="startup startup11" alt="img" />
+            <div
+              className="first1"
+              onMouseEnter={() => setHovered2(true)}
+              onMouseLeave={() => setHovered2(false)}
+            >
+              <img
+                src={hovered2 ? soin2 : thirdParty}
+                className="startup startup11"
+                alt="img"
+              />
               <h3>Third-party Integrations </h3>
               <h5>
                 Connect the tools that work best for you. Integrate your ERP,
@@ -311,8 +340,16 @@ const Shopify = () => {
                 custom Shopify app that we build and tailor for you.
               </h5>
             </div>
-            <div className="first1">
-              <img src={appinstall} className="startup startup11" alt="img" />
+            <div
+              className="first1"
+              onMouseEnter={() => setHovered3(true)}
+              onMouseLeave={() => setHovered3(false)}
+            >
+              <img
+                src={hovered3 ? soin3 : appinstall}
+                className="startup startup11"
+                alt="img"
+              />
               <h3>App Installation</h3>
               <h5>
                 Our team will help you install and configure the custom apps you
@@ -320,8 +357,16 @@ const Shopify = () => {
                 always safe and secure.
               </h5>
             </div>
-            <div className="first1">
-              <img src={appConfig} className="startup startup12" alt="img" />
+            <div
+              className="first1"
+              onMouseEnter={() => setHovered4(true)}
+              onMouseLeave={() => setHovered4(false)}
+            >
+              <img
+                src={hovered4 ? soin4 : appConfig}
+                className="startup startup12"
+                alt="img"
+              />
               <h3>App Configuration</h3>
               <h5>
                 We can also help you configure and optimize any existing apps
@@ -329,8 +374,16 @@ const Shopify = () => {
                 of your ecommerce store.
               </h5>
             </div>
-            <div className="first1">
-              <img src={customTheme} className="startup startup11" alt="img" />
+            <div
+              className="first1"
+              onMouseEnter={() => setHovered5(true)}
+              onMouseLeave={() => setHovered5(false)}
+            >
+              <img
+                src={hovered5 ? soin5 : customTheme}
+                className="startup startup11"
+                alt="img"
+              />
               <h3>Custom Theme Apps</h3>
               <h5>
                 Want to make tweaks to your shopify theme? we can build a custom
@@ -338,8 +391,12 @@ const Shopify = () => {
                 themes, and import or export setting
               </h5>
             </div>
-            <div className="first1">
-              <img src={customMar} className="startup startup11" alt="img" />
+            <div
+              className="first1"
+              onMouseEnter={() => setHovered6(true)}
+              onMouseLeave={() => setHovered6(false)}
+            >
+              <img src={hovered6 ? soin6 : customMar} className="startup startup11" alt="img" />
               <h3>Custom Marketing Apps</h3>
               <h5>
                 We can also build custom Shopify apps to help you connect your
@@ -511,93 +568,150 @@ const Shopify = () => {
                 <p>APP</p>
               </div>
               <div className="app_store_para">
-                  <h2>About Mobile App <br /> Development</h2>
-                  <p>We build high quality Android and IOS mobile applications using latest app development technologies. We design innovative and unique mobile apps which help you to grow and standout your business. Our developed mobile applications are top trending and high performing in all environments.</p>
+                <h2>
+                  About Mobile App <br /> Development
+                </h2>
+                <p>
+                  We build high quality Android and IOS mobile applications
+                  using latest app development technologies. We design
+                  innovative and unique mobile apps which help you to grow and
+                  standout your business. Our developed mobile applications are
+                  top trending and high performing in all environments.
+                </p>
 
-                  <p className="sgy"> <a className="more_details_app" href="">View More Details</a></p>
+                <p className="sgy">
+                  {" "}
+                  <a className="more_details_app" href="">
+                    View More Details
+                  </a>
+                </p>
               </div>
             </div>
             <div className="work_app2">
-                <img src={singlr} alt="singlr" />
+              <img src={singlr} alt="singlr" />
             </div>
           </div>
         </div>
 
         <div className="about_treating">
-        <div className="about_website">
+          <div className="about_website">
             <div className="about-website1">
-                <div className="cirles">
-                     <img className="animate__animated animate__pulse animate__infinite" src={circle55} alt="" />
-                </div>
-                <img className="kiking" src={kiking} alt="" />
+              <div className="cirles">
+                <img
+                  className="animate__animated animate__pulse animate__infinite"
+                  src={circle55}
+                  alt=""
+                />
+              </div>
+              <img className="kiking" src={kiking} alt="" />
             </div>
             <div className="about-website2">
-                 <div className="wett">
-                     <p>Website</p>
-                 </div>
-                 <h2>About Website Development</h2>
-                 <p className="testi8">We build top notch and quality websites, our developed websites are secure, fully responsive, speed optimized and seo friendly. We design creative and eye catching websites, which help you to build online presence for your business and stand tall in competitive market.</p>
-                 <p className="sgy"> <a className="more_details_app" href="">View More Details</a></p>
+              <div className="wett">
+                <p>Website</p>
+              </div>
+              <h2>About Website Development</h2>
+              <p className="testi8">
+                We build top notch and quality websites, our developed websites
+                are secure, fully responsive, speed optimized and seo friendly.
+                We design creative and eye catching websites, which help you to
+                build online presence for your business and stand tall in
+                competitive market.
+              </p>
+              <p className="sgy">
+                {" "}
+                <a className="more_details_app" href="">
+                  View More Details
+                </a>
+              </p>
             </div>
-        </div>
+          </div>
           <div className="abouse_btn">
-              <button>Show More</button>
+            <button>Show More</button>
           </div>
         </div>
         <div className="client_testimonials">
-            <h2>Client Testimonials</h2>
-            <p className="words_ji">Words that describe our quality and keep us motivated...</p>
-            <Splide
-              className=" w-full"
-                aria-label="Our Services"
-                options={{
-                  perPage:1,
-                  perMove: 1,
-                  autoplay: true,
-                  pauseOnHover: true,
-                  type: "loop",
-                  interval: 4000,
-                  drag: true,
-                }}
-            >
+          <h2>Client Testimonials</h2>
+          <p className="words_ji">
+            Words that describe our quality and keep us motivated...
+          </p>
+          <Splide
+            className=" w-full"
+            aria-label="Our Services"
+            options={{
+              perPage: 1,
+              perMove: 1,
+              autoplay: true,
+              pauseOnHover: true,
+              type: "loop",
+              interval: 4000,
+              drag: true,
+            }}
+          >
             <SplideSlide>
-            <div className="clients_testi">
-                 <div className="client_testi1">
-                      <div className="surgical">
-                           <img className="animate__animated animate__pulse animate__infinite" src={testiEllipse} alt="testi" />
-                      </div> 
-                      <img className="tinih" src={tinih} alt="tinih" />
-                      <div className="surgical1">
-                           <img className="testiEllipse1" src={testiEllipse1} alt="test" />
-                      </div>
-                 </div>
-                 <div className="client_testi2">
-                     <h4>Fred</h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                 </div>
-            </div>
+              <div className="clients_testi">
+                <div className="client_testi1">
+                  <div className="surgical">
+                    <img
+                      className="animate__animated animate__pulse animate__infinite"
+                      src={testiEllipse}
+                      alt="testi"
+                    />
+                  </div>
+                  <img className="tinih" src={tinih} alt="tinih" />
+                  <div className="surgical1">
+                    <img
+                      className="testiEllipse1"
+                      src={testiEllipse1}
+                      alt="test"
+                    />
+                  </div>
+                </div>
+                <div className="client_testi2">
+                  <h4>Fred</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book.
+                  </p>
+                </div>
+              </div>
             </SplideSlide>
             <SplideSlide>
-            <div className="clients_testi">
-                 <div className="client_testi1">
-                      <div className="surgical">
-                           <img className="animate__animated animate__pulse animate__infinite" src={testiEllipse} alt="testi" />
-                      </div> 
-                      <img className="tinih" src={tinih} alt="tinih" />
-                      <div className="surgical1">
-                           <img className="testiEllipse1" src={testiEllipse1} alt="test" />
-                      </div>
-                 </div>
-                 <div className="client_testi2">
-                     <h4>Fred</h4>
-                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                 </div>
-            </div>
+              <div className="clients_testi">
+                <div className="client_testi1">
+                  <div className="surgical">
+                    <img
+                      className="animate__animated animate__pulse animate__infinite"
+                      src={testiEllipse}
+                      alt="testi"
+                    />
+                  </div>
+                  <img className="tinih" src={tinih} alt="tinih" />
+                  <div className="surgical1">
+                    <img
+                      className="testiEllipse1"
+                      src={testiEllipse1}
+                      alt="test"
+                    />
+                  </div>
+                </div>
+                <div className="client_testi2">
+                  <h4>Fred</h4>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book.
+                  </p>
+                </div>
+              </div>
             </SplideSlide>
-            </Splide>
-
+          </Splide>
         </div>
-
+          <ContactForm1/>
         <div className="home9 home967  home278">
           <div className="home91 flex px-24">
             <div className="home911 text-center">
@@ -608,7 +722,8 @@ const Shopify = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What is the difference between Shopify app development and Shopify mobile app development?
+                      What is the difference between Shopify app development and
+                      Shopify mobile app development?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -623,7 +738,7 @@ const Shopify = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Can I turn my Shopify store into an app?
+                      Can I turn my Shopify store into an app?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -637,7 +752,7 @@ const Shopify = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What other Shopify services do you provide?
+                      What other Shopify services do you provide?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -651,7 +766,7 @@ const Shopify = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    How much time does it take to create a Shopify app?
+                      How much time does it take to create a Shopify app?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -665,7 +780,8 @@ const Shopify = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    How long does it typically take to develop a custom Shopify app?
+                      How long does it typically take to develop a custom
+                      Shopify app?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>

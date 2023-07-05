@@ -46,6 +46,7 @@ import Kotlin from "./components/Kotlin";
 import Shopify from "./components/Shopify";
 import Magento from "./components/Magento";
 import WooCommerce from "./components/WooCommerce";
+import Php from "./components/Php";
 function App() {
   return (
     <>
@@ -98,6 +99,7 @@ function App() {
             <Route path="/shopify" element={<Shopify />} />
             <Route path="/magento" element={<Magento/>}/>
             <Route path="/wooCommerce" element={<WooCommerce/>}/>
+            <Route path="/php" element={<Php/>}/>
             <Route path="*" element={<Error />} />
           </Routes>
           <Footer />
