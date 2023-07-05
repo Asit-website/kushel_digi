@@ -55,7 +55,7 @@ function App() {
           <ScrollToTop />
           <Navbar />
           <Routes>
-            <Route  path="/" element={<Home />} />
+            <Route  path="/*" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/staff-augmentation" element={<StafArgu />} />
             <Route path="/ecommerce-solutions-usa" element={<Services />} />
@@ -68,7 +68,7 @@ function App() {
               path="/digital-marketing-agency-usa"
               element={<DigitalMarketing />}
             />
-            <Route path="/ui-ux-designer-usa" element={<Uiux />} />
+            <Route path="/ui-ux-designer-usa" element={<Uiux/>} />
             <Route path="/hire" element={<HireTeam />} />
             <Route path="/privacy" element={<Privacy />} />
             <Route path="/refund" element={<Refund />} />
