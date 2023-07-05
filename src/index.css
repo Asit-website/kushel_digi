@@ -7492,7 +7492,14 @@ form button:hover {
   background-color: #388fe7;
   color: #ffffff;
 }
-.android-back1 button:hover .tuin {
+.android-back1 button:hover img {
+  filter: invert(1);
+}
+.bigCommerce-back1 button:hover{
+  background-color: #388fe7;
+  color: #ffffff;
+}
+.bigCommerce-back1 button:hover img{
   filter: invert(1);
 }
 .android-back2 img {
@@ -9134,6 +9141,8 @@ form button:hover {
 }
 .first1:hover {
   background-color: #085881;
+  transition: all .5s;
+  transform: scale(1.02);
 }
 .first1 h3 {
   font-size: 19px;
@@ -9931,6 +9940,9 @@ form button:hover {
   margin: auto;
   margin-top: 80px;
 }
+.shopify_benifits button:hover{
+  background-color: #3c83cb;
+}
 .shopify-work {
   padding: 50px 100px;
   position: relative;
@@ -9951,6 +9963,11 @@ form button:hover {
 }
 .shpoify_work_box {
   margin: 0px 14px;
+  cursor: pointer;
+}
+.shpoify_work_box:hover{
+  transform: scale(1.05);
+  transition: all .5s;
 }
 .shpoify_work_box img {
   width: 100%;
@@ -10063,6 +10080,10 @@ form button:hover {
   margin-top: 30px;
   border-bottom: 1px solid #115e86;
 }
+.app_store_para .more_details_app:hover{
+   color: #3c83cb;
+   border-bottom: 1px solid #3c83cb;
+}
 .work_app2 img {
   max-width: 480px;
   width: 100%;
@@ -10165,11 +10186,15 @@ form button:hover {
   width: 100%;
 }
 .about-website2 .more_details_app {
-  color: #115e86 !important;
+  color: #115e86 ;
   font-size: 19px;
   font-weight: 500;
   margin-top: 30px;
   border-bottom: 1px solid #115e86;
+}
+.about-website2 .more_details_app:hover{
+  color: #3c83cb;
+  border-bottom: 1px solid #3c83cb;
 }
 .abouse_btn button {
   max-width: 170px;
@@ -10185,6 +10210,9 @@ form button:hover {
   font-weight: 500;
   font-size: 16px;
   cursor: pointer;
+}
+.abouse_btn button:hover{
+  background-color:#3c83cb;
 }
 .client_testimonials {
   padding: 60px 100px;
@@ -10467,7 +10495,13 @@ form button:hover {
   font-size: 16px;
   margin-top: 40px;
 }
-
+.magento_back1 button:hover{
+  background-color: #388fe7;
+  color: #ffffff;
+}
+.magento_back1 button:hover img{
+  filter: invert(1);
+}
 @keyframes move5 {
   0% {
     transform: rotate(0deg);
@@ -10742,7 +10776,7 @@ form button:hover {
   text-align: center;
 }
 .woo_com_cards {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .who_com_card {
   display: flex;
@@ -10762,6 +10796,8 @@ form button:hover {
 }
 .who_com_box:hover{
   background-color: #085881;
+  transform: scale(1.02);
+  transition: all .5s;
 }
 .who_left {
   position: absolute;
@@ -10913,6 +10949,332 @@ form button:hover {
 } */
 /* ======================magento css end============================ */
 
+/* =================php developemt  css start================= */
+.php-back{
+  padding: 60px 100px;
+  background-color: #085881;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.php-back1 h2{
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-top: 14px;
+}
+.php-back1 p{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  max-width: 100%;
+  margin-top: 20px;
+  width: 25em;
+  max-width: 100%;
+}
+.php-back1 button{
+  background-color: #ffffff;
+  width: 300px;
+  max-width: 100%;
+  height: 52px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 40px;
+}
+.php-back1 button:hover{
+  background-color: #388fe7;
+  color: #ffffff;
+}
+.php-back1 button:hover img{
+   filter: invert(1);
+}
+.php-back2 img{
+  max-width: 410px;
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+.php_service{
+  padding-top: 100px !important;
+}
+.benifits_php{
+  padding: 60px 0px;
+}
+.php_benifits_flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.php_ben1{
+  padding: 0px 80px;
+}
+.php_ben1 h2{
+  color: #202020;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.php_ben1 span{
+  color: #085881;
+}
+.php_ben1 button{
+  background-color: #085881;
+  max-width: 260px;
+  width: 100%;
+  height: 54px;
+  border-radius: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-top: 50px;
+}
+.main_php_para{
+  width: 38em;
+  max-width: 100%;
+}
+.main_php_para p{
+  font-weight: 400;
+  font-size: 19.5px;
+  color: #202020;
+  margin-top: 30px;
+}
+.php_ben2 img{
+  max-width: 850px;
+  width: 100%;
+}
+.php_navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 40px;
+}
+.php_navbar p{
+  font-weight: 600;
+  font-size: 15px;
+  color: #202020;
+  cursor: pointer;
+}
+#open{
+  border-bottom: 1px solid #085881;
+}
+#platform{
+  margin-left: 10px;
+  position: relative;
+  left: 10px;
+}
+#extension{
+  margin-left: 10px;
+  position: relative;
+  left: 10px;
+}
+#developer{
+  margin-left: 10px;
+  position: relative;
+  left: 10px;
+}
+.php_portfolio .our_php{
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  color: #000000;
+}
+.php_port{
+  padding: 40px 0px;
+  padding-top: 80px;
+}
+.hire_dedicated_php{
+  background-image: url("./images/phpCertified.png");
+  background-blend-mode: darken;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+  display: grid;
+  align-items: center;
+}
+.hire_dedicated_php::before{
+  background-color: #085881;
+  opacity: 0.8;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+}
+.hire_dedicated_sect h3{
+  font-weight: 600;
+  font-size: 34px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.hire_php_card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.hire_php_box{
+  width: 100%;
+  max-width: 420px;
+  background-color: #FFFFFF;
+  height: 320px;
+  max-height: 100%;
+  margin: 10px;
+  border-radius: 7px;
+  padding: 15px;
+  padding-top: 18px;
+}
+.hire_dedicated_sect button{
+  border: 1px solid #ffffff;
+  max-width: 280px;
+  width: 100%;
+  height: 54px;
+  border-radius: 30px;
+  display: block;
+  margin:  auto;
+  margin-top: 30px;
+  color: #FFFFFF;
+}
+.php_techStack{
+  padding: 60px 100px;
+}
+.php_techStack .php_heading1{
+  font-weight: 700;
+  font-size: 34px;
+  color: #202020;
+  line-height: 44px;
+  text-align: center;
+}
+.php_techStack .php_para1{
+  font-weight: 400;
+  font-size: 19px;
+  text-align: center;
+  color: #404040;
+  line-height: 28px;
+}
+
+.php_techStack_cards{
+  margin-top: 30px;
+}
+.php_techStack_card{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
+}
+.php_techStack_box{
+  display: flex;
+  align-items: flex-start;
+  width: 100%;
+}
+.php_techStack_box1{
+  width: 60%;
+}
+.php_techStack_box2{
+  width: 35%;
+}
+.tech_right{
+  margin-left: 30px;
+}
+.tech_right h4{
+  font-weight: 700;
+  font-size: 22px;
+  color: #000000;
+}
+.tech_right span{
+  font-weight: 400;
+  font-size: 19px;
+  color: #000000;
+  margin-top: 20px;
+  display: inline-block;
+}
+.tech_left img{
+   width: 100px;
+   max-width: initial !important;
+}
+.why_kushel_php{
+  padding: 80px 100px;
+  z-index: 2;
+  position: relative;
+}
+.why_kushel_php h2{
+  color: #202020;
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  opacity: 96%;
+}
+.why_me_card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.why_me_box{
+  width: 100%;
+  margin: 0px 10px;
+  height: 450px;
+  max-height: 100%;
+  max-width: 370px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+.why_me_box h3{
+  color: #202020;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+}
+.why_me_box p{
+  color: #202020;
+  opacity: 90%;
+  font-weight: 400;
+  font-size: 15.5px;
+  margin-top: 35px;
+}
+.why_me_box img{
+  max-width: 185px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.why_me_box1{
+  background-color: #FEF5F1;
+}
+.why_me_box2{
+  background-color: #E2F7FF;
+}
+.why_me_box3{
+  background-color: #FDF4CF;
+}
+.at_kushel{
+  color: #202020;
+  font-size: 19px;
+  font-weight: 300;
+  margin-top: 0;
+  opacity: 0.9;
+  text-align: center;
+}
+/* =================php development css end======================== */
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;

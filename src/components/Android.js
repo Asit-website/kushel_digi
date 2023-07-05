@@ -19,6 +19,8 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import ContactForm1 from "./common/ContactForm1";
+import { NavLink } from "react-router-dom";
 const Android = () => {
   return (
     <>
@@ -49,10 +51,11 @@ const Android = () => {
               <h2>Development</h2>
               <h2>Services</h2>
               <img className="ftp" src={androidSis} alt="" />
+              <NavLink to="/contact">
               <h5>
                 Discuss your goals with us{" "}
                 <img width={14} className="ml-1 inline" src={arrowing} alt="" />{" "}
-              </h5>
+              </h5></NavLink>
             </div>
             <div className="android-fun2">
               <p>
@@ -151,10 +154,11 @@ const Android = () => {
               Our custom android app development services are engineered to
               provide you a magnitude of Android benefits.
             </p>
+            <NavLink to="/contact">
             <h5>
               Explore Problem Solving with Android{" "}
               <img width={14} className="ml-1 inline" src={arrowing} alt="" />
-            </h5>
+            </h5></NavLink>
           </div>
           <div className="android-usa2"></div>
           <div className="android-usa3">
@@ -234,13 +238,14 @@ const Android = () => {
                       <p>industries brought <br /> on Android</p>
                     </div>
               </div>
+              <NavLink to="/contact">
               <h5 className="text-center">
                Lets Work Together
               <img width={14} className="ml-2 inline" src={arrowing} alt="" />
-            </h5>
+            </h5></NavLink>
           </div>
         </div>
-
+         <ContactForm1/>
         <div className="home9 mb-12 home278 home480 home481">
           <div className="home91 flex px-24">
             <div className="home911 text-center">

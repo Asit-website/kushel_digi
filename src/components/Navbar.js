@@ -296,6 +296,11 @@ const Navbar = () => {
                               {" "}
                               Wordpress{" "}
                             </NavLink>
+                            <span> |</span>{" "}
+                            <NavLink className="sonji" to="#!">
+                              {" "}
+                              Shift4Shop{" "}
+                            </NavLink>
                           </p>
                         </div>
                         <div className=" mt-7">
@@ -336,7 +341,7 @@ const Navbar = () => {
                             </div>
                           </NavLink>
                           <p className="yamini">
-                            <NavLink className="sonji" to="#!">
+                            <NavLink className="sonji" to="/php">
                               PHP
                             </NavLink>{" "}
                             <span>|</span>{" "}

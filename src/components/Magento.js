@@ -35,6 +35,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import ContactForm1 from "./common/ContactForm1";
 const Magento = () => {
   const [front, setFront] = useState(1);
 
@@ -472,6 +473,8 @@ const Magento = () => {
             </div>
           </div>
         </div>
+
+        <ContactForm1/>
 
         <div className="home9 py-20 bigcom9">
           <div className="home91 flex px-20">

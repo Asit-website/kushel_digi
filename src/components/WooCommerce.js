@@ -45,11 +45,11 @@ const WooCommerce = () => {
         <div className="magento-back">
           <div className="magento_back1">
             <h2>
-              Woo Commerce <br /> Development
+              WooCommerce <br /> Development
             </h2>
             <p>Get WooCommerce Development For Robust And Effective Websites</p>
             <button>
-              Consult our Woo Commerce Team
+              Consult our WooCommerce Team
               <img width={13} className="ml-1.5 inline" src={arrow4} alt="" />
             </button>
           </div>
@@ -67,12 +67,10 @@ const WooCommerce = () => {
         <div className="magento_service">
           <div className="magento_service1">
             <h2>
-              Our <span>Woo Commerce</span> <br /> development services
+              Our <span>WooCommerce</span> <br /> development services
             </h2>
             <p>
-              WooCommerce is an open-source platform used to create websites.
-              The most famous is e-commerce, as WooCommerce provides the best
-              management solution for the e-commerce website.
+            Welcome to Kushel Digi, your trusted partner in Woo Commerce development. As experts in creating exceptional e-commerce solutions, we offer a comprehensive range of services to elevate your online store. With Woo Commerce as our foundation, we provide seamless integration, customization, and plugin development, ensuring that your website stands out from the competition. Our team of skilled developers combines technical expertise with a deep understanding of user experience to deliver captivating designs and a smooth purchasing journey for your customers.
             </p>
           </div>
           <div className="magento_service2">
@@ -90,44 +88,17 @@ const WooCommerce = () => {
           <div className="magento_services2">
             <div>
               <h2>
-                Why You Should choose <span>Woo Commerce</span>
+              Why Choose <span>WooCommerce</span>  Solution? 
               </h2>
-              <h2>Solution</h2>
               <p>
-                WooCommerce is the perfect choice for developing e-commerce or
-                any other website because of its helpful features. It offers
-                features like customer match, order tracking, delivery update,
-                and much more. Moreover, half of WordPress stores are powered by
-                WooCommerce. It is quite popular in the industry, and for
-                WordPress lovers, it is one of the best ecommerce plugins. Other
-                integrated features are beneficial for the website, such as SEO
-                and other benefits for e-commerce. It is easy to access, and
-                several advantages are obtained from WooCommerce. Hyperlink
-                InfoSystem proved best for WooCommerce development by providing
-                high-quality, punctual delivery, interaction, clear and open
-                projects, and more.
+              When it comes to developing e-commerce or any other website, Woo Commerce reigns supreme. With its remarkable features, Woo Commerce offers an unrivalled management solution for online businesses. Seamlessly track orders, provide real-time delivery updates, and engage with your customers effortlessly. Not to mention, it powers half of the WordPress stores, making it the go-to choice for WordPress enthusiasts. Boost your online presence with Woo Commerce and reap the benefits of enhanced SEO and a seamless user experience. Moreover, Woo Commerce offers a wide range of plugins and extensions, allowing you to customize and enhance your store's functionality according to your specific needs. Whether you're a small business owner or an established brand, Woo Commerce empowers you to create a robust and successful online presence.
               </p>
             </div>
             <div className="mt-6">
-              <h2>
-                Why <span>Hyperlink InfoSystem</span> To Hire
-              </h2>
-              <h2>WooCommerce Developers?</h2>
+              <h2>Why Choose <span>Kushel Digi</span>  for</h2>
+              <h2>WooCommerce Development?</h2>
               <p>
-                WooCommerce provides excellent web development services.
-                Hyperlink InfoSystem has skilled WooCommerce developers.
-                WooCommerce helps develop e-commerce from planning to
-                development and deployment; our WooCommerce developers are
-                accountable for everything. WooCommerce develops a website with
-                a pleasant user experience and high functionality. Our dedicated
-                team is ready to help and support you 24/7. We believe in
-                balance, and thus whatever your business is, startup, medium,
-                and giant enterprise, we provide everyone with great quality.
-                Our WooCommerce has specialization themselves in WooCommerce
-                development, and hence any enquiring are solved by them. The
-                best part of WooCommerce development is cost-effective,
-                efficient for every industry, highly scalable, and much more.
-                Read More
+              When it comes to WooCommerce development, you need a team of experts who truly understand the intricacies of the platform. Our skilled WooCommerce developers at Hyperlink InfoSystem possess unrivalled expertise in crafting tailor-made e-commerce solutions. From meticulous planning to flawless execution, our dedicated team takes charge of every aspect of your project. We cater to businesses of all sizes, ensuring exceptional quality for startups, medium-sized enterprises, and giant corporations. With cost-effectiveness, scalability, and efficiency at the core of our approach, we are your trusted partners for Woo Commerce development.
               </p>
             </div>
           </div>
@@ -135,59 +106,51 @@ const WooCommerce = () => {
 
         <div className="woo_comerce_dev">
           <h2>Woo Commerce Development Services We Offer</h2>
+          <div className="mt-2">
+          <p className="at_kushel">At Kushel Digi, we offer a comprehensive range of Woo Commerce development </p>
+          <p className="at_kushel">services that cater to your unique needs. Our expertise includes:</p>
+          </div>
           <div className="woo_com_cards">
             <div className="who_com_card">
               <div className="who_com_box">
                 <div className="who_left">
                   <h4>1</h4>
                 </div>
-                <h3>WooCommerce APP DEVELOPMENT AND CUSTOMIZATION</h3>
+                <h3>WooCommerce App Development and Customization</h3>
                 <p>
-                  As a leading WooCommerce App Development Company, we can help
-                  you build robust and sales-driven online platforms. We perform
-                  everything from strategy to design to development for
-                  eCommerce websites.
+                Enhance your brand's reach by creating engaging mobile apps for your online store. Our team excels at developing customized Woo Commerce apps that provide seamless user experiences and drive conversions.
                 </p>
               </div>
               <div className="who_com_box">
                 <div className="who_left">
                   <h4>2</h4>
                 </div>
-                <h3>PSD TO</h3>
-                <h3>WOOCOMMERCE</h3>
-                <h3>CONVERSION</h3>
+                <h3>PSD to</h3>
+                <h3>WooCommerce</h3>
+                <h3>Conversion</h3>
                 <p>
-                  We offer premium and scalable PSD to Woocommerce conversion
-                  services. Our developers have in-depth understanding of how
-                  each Woocommerce module works and they will cater to your
-                  functionality needs without compromising the code quality.
+                Transform your PSD designs into fully functional Woo Commerce websites. Our experts meticulously convert your design files into pixel-perfect, responsive Woo Commerce themes, ensuring a seamless user experience.
                 </p>
               </div>
               <div className="who_com_box">
                 <div className="who_left">
                   <h4>3</h4>
                 </div>
-                <h3>WOOCOMMERCE</h3>
-                <h3>TEMPLATE AND THEME</h3>
-                <h3>DEVELOPMENT</h3>
+                <h3>WooCommerce</h3>
+                <h3>Template and Theme</h3>
+                <h3>Development</h3>
                 <p>
-                  We have gained forte in designing and developing engaging
-                  WooCommerce templates and themes for the eCommerce portals as
-                  per the requirements of the client. All the templates
-                  developers are SEO-friendly and user-friendly.
+                Make a lasting impression with captivating designs. Our talented designers will create visually appealing themes and templates that align with your brand's vision and elevate the user experience.
                 </p>
               </div>
               <div className="who_com_box">
                 <div className="who_left">
                   <h4>4</h4>
                 </div>
-                <h3>WOOCOMMERCE CUSTOMIZATION</h3>
+                <h3>WooCommerce</h3>
+                <h3>Customization</h3>
                 <p>
-                  Irrespective of whether our clients want to extend any
-                  functionality or improve the comprehensive eCommerce store,
-                  our WooCommerce developers have the proficiency of delivering
-                  customization services that align with their business
-                  processes and workflows.
+                Tailor your e-commerce website to reflect your brand identity. Our experts will work closely with you to create a visually stunning and intuitive online store that stands out from the competition.
                 </p>
               </div>
             </div>
@@ -196,55 +159,43 @@ const WooCommerce = () => {
                 <div className="who_left">
                   <h4>5</h4>
                 </div>
-                <h3>WOOCOMMERCE</h3>
-                <h3>PLUGIN DEVELOPMENT</h3>
-                <h3>SERVICES</h3>
+                <h3>WooCommerce</h3>
+                <h3>Plugin Development</h3>
+                {/* <h3>SERVICES</h3> */}
                 <p>
-                  Our developers create highly ingenious customized WooCommerce
-                  plugins that are designed to give attractiveness to your
-                  online eCommerce stores. We install and configure the plugins
-                  and even provide post-launch WooCommerce plug-in support.
+                Extend the functionality of your e-commerce store with custom plugins. Our developers have expertise in creating tailor-made Woo Commerce plugins that address your specific requirements and enhance your store's capabilities.
                 </p>
               </div>
               <div className="who_com_box">
                 <div className="who_left">
                   <h4>6</h4>
                 </div>
-                <h3>WOOCOMMERCE</h3>
-                <h3>INTEGRATION</h3>
+                <h3>WooCommerce</h3>
+                <h3>Integration</h3>
                 <p>
-                  We offer premium and scalable PSD to Woocommerce conversion
-                  services. Our developers have in-depth understanding of how
-                  each Woocommerce module works and they will cater to your
-                  functionality needs without compromising the code quality.
+                Integrate Woo Commerce seamlessly with other tools and systems to streamline your business operations. Whether it's payment gateways, inventory management, or CRM systems, we ensure seamless and efficient integration.
                 </p>
               </div>
               <div className="who_com_box">
                 <div className="who_left">
                   <h4>7</h4>
                 </div>
-                <h3>WOOCOMMERCE</h3>
-                <h3>MIGRATION</h3>
+                <h3>WooCommerce</h3>
+                <h3>Conversion and</h3>
+                <h3>Migration</h3>
                 <p>
-                  We have gained forte in designing and developing engaging
-                  WooCommerce templates and themes for the eCommerce portals as
-                  per the requirements of the client. All the templates
-                  developers are SEO-friendly and user-friendly.
+                Effortlessly transfer your existing online store to the powerful Woo Commerce platform. Our team ensures a smooth transition, preserving your data, and optimizing your website for maximum performance.
                 </p>
               </div>
               <div className="who_com_box">
                 <div className="who_left">
                   <h4>8</h4>
                 </div>
-                <h3>WOOCOMMERCE</h3>
-                <h3>MAINTENANCE AND</h3>
-                <h3>SUPPORT</h3>
+                <h3>WooCommerce</h3>
+                <h3>Maintenance and</h3>
+                <h3>Support</h3>
                 <p>
-                  Irrespective of whether our clients want to extend any
-                  functionality or improve the comprehensive eCommerce store,
-                  our WooCommerce developers have the proficiency of delivering
-                  customization services that align with their business
-                  processes and workflows.
+                Ensure your online store runs smoothly with our comprehensive maintenance and support services. Our team is dedicated to providing ongoing assistance, addressing any issues, and keeping your website up-to-date and secure.
                 </p>
               </div>
             </div>
@@ -259,19 +210,8 @@ const WooCommerce = () => {
                   Why Choose Kushel Digi For WooCommerce Ecommerce Development?
                 </h3>
                 <p>
-                  Kushel Digi Technologies has been developing online stores
-                  using WooCommerce technology for more than a decade now. We
-                  fully comprehend the WooCommerce API and have state-of-the-art
-                  infrastructure to ensure that the entire development process
-                  gives fruitful results for your online store. We have an
-                  experienced team of WooCommerce developers who have knowledge
-                  of vast industries in the -commerce world <br /> Our
-                  experience enables us to investigate, find, and resolve issues
-                  quickly. Even during the development process of the
-                  WooCommerce website for e-commerce stores, fashion, or jewelry
-                  we ensure to keep our clients updated at every stage. To
-                  ensure there is no communication gap, and we are meeting the
-                  expected goals of clients.
+                Choosing Kushel Digi means partnering with a seasoned team that has mastered the art of WooCommerce development. With over a decade of experience, we have successfully delivered captivating online stores for various industries. Our WooCommerce developers possess deep insights into the e-commerce world and are adept at quickly identifying and resolving any challenges. Throughout the development process, we maintain transparent communication, ensuring your goals and expectations are met every step of the way.
+
                 </p>
                 <button>START PROJECT</button>
               </div>
@@ -297,8 +237,7 @@ const WooCommerce = () => {
               />
               <h3>1. Requirement Gathering</h3>
               <h5>
-                We follow the first and foremost priority of gathering
-                requirements, resources, and information to begin our project.
+              We prioritize understanding your objectives, and gathering resources, and crucial information to initiate the project.
               </h5>
             </div>
             <div
@@ -309,8 +248,7 @@ const WooCommerce = () => {
               <img src={hovered2 ? uin1 : gatr} className="startup" alt="img" />
               <h3>2. UI/UX Design</h3>
               <h5>
-                We create catchy and charming designs with the latest tools of
-                designing to make it a best user-friendly experience.
+              Our talented designers create visually appealing and user-friendly interfaces that elevate your brand's online presence.
               </h5>
             </div>
             <div
@@ -325,8 +263,7 @@ const WooCommerce = () => {
               />
               <h3>3. Prototype</h3>
               <h5>
-                After designing, you will get your prototype, which will be sent
-                ahead for the development process for the product.
+              We provide you with a prototype, which serves as a blueprint for the development process.
               </h5>
             </div>
             <div
@@ -341,8 +278,7 @@ const WooCommerce = () => {
               />
               <h3>4. Development</h3>
               <h5>
-                Development of mobile application/web/blockchain started using
-                latest tools and technologies with transparency.
+              Using cutting-edge tools and technologies, our developers bring your e-commerce website to life with transparency and attention to detail.
               </h5>
             </div>
             <div
@@ -357,8 +293,7 @@ const WooCommerce = () => {
               />
               <h3>5. Quality Assurance</h3>
               <h5>
-                Hyperlink values quality and provides 100% bug free application
-                with no compromisation in it.
+              We leave no room for compromise when it comes to quality. Our team ensures a bug-free application that meets the highest standards.
               </h5>
             </div>
             <div
@@ -373,8 +308,7 @@ const WooCommerce = () => {
               />
               <h3>6. Deployment</h3>
               <h5>
-                After trial and following all processes, your app is ready to
-                launch on the App store or Play Store.
+              Once the development process is complete, we guide you through the launch of your app on the App Store or Play Store.
               </h5>
             </div>
             <div
@@ -389,8 +323,7 @@ const WooCommerce = () => {
               />
               <h3>7. Support & Maintenance</h3>
               <h5>
-                Our company offers you all support and the team is always ready
-                to answer every query after deployment.
+              We are committed to providing ongoing support and addressing any queries or concerns you may have post-deployment.
               </h5>
             </div>
           </div>

@@ -20,6 +20,8 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
   } from "react-accessible-accordion";
+  import ContactForm1 from "./common/ContactForm1";
+import { NavLink } from "react-router-dom";
 const Flutter = () => {
   return (
     <>
@@ -49,10 +51,11 @@ const Flutter = () => {
               <h2>Development</h2>
               <h2>Services</h2>
               <img className="ftp" src={androidSis} alt="" />
+              <NavLink to="/contact">
               <h5>
                 Discuss your goals with us{" "}
                 <img width={14} className="ml-1 inline" src={arrowing} alt="" />{" "}
-              </h5>
+              </h5></NavLink>
             </div>
             <div className="android-fun2">
               <p>
@@ -232,6 +235,8 @@ const Flutter = () => {
              <img src={gurav} alt="" />
           </div>
         </div>
+
+        <ContactForm1/>
 
         <div className="home9 mb-12 home278">
           <div className="home91 flex px-24">

@@ -11,6 +11,8 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import ContactForm1 from "./common/ContactForm1";
+import { NavLink } from "react-router-dom";
 const Kotlin = () => {
   const [tab, setTab] = useState(1);
   const tabAnother = (e) => {
@@ -96,6 +98,7 @@ const Kotlin = () => {
               Boost productivity, developer satisfaction, and safety using
               Kotlin <br /> code
             </p>
+            <NavLink to="/contact">
             <div className="icon-kot">
               <h5>Let’s work together</h5>
               <svg
@@ -111,6 +114,7 @@ const Kotlin = () => {
                 />
               </svg>
             </div>
+            </NavLink>
           </div>
           <div className="support-modern2">
             <div className="cards-kotlin">
@@ -245,6 +249,7 @@ const Kotlin = () => {
               Boost productivity, developer satisfaction, and safety using
               Kotlin <br /> code
             </p>
+            <NavLink to="/contact"> 
             <div className="icon-kot">
               <h5>Let’s work together</h5>
               <svg
@@ -260,6 +265,7 @@ const Kotlin = () => {
                 />
               </svg>
             </div>
+            </NavLink>
           </div>
           <div className="support-modern2">
             <div className="cards-kotlin">
@@ -671,6 +677,8 @@ const Kotlin = () => {
             <img src={kotliny} alt="kot" />
           </div>
         </div>
+
+        <ContactForm1/>
 
         <div className="home9 home967  home278">
           <div className="home91 flex px-24">

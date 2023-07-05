@@ -33,6 +33,8 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
+import ContactForm1 from "./common/ContactForm1";
+import { NavLink } from "react-router-dom";
 const Native = () => {
   return (
     <div className="ser-main">
@@ -59,10 +61,11 @@ const Native = () => {
           <h2>Development</h2>
           <h2>Services</h2>
           <img className="ftp" src={androidSis} alt="" />
+          <NavLink to="/contact">
           <h5>
             Discuss your goals with us{" "}
             <img width={13} className="inline ml-1" src={arrowing} alt="" />
-          </h5>
+          </h5></NavLink>
           <p>
             Our react native app developer team develop react native apps from
             scratch or add the framework to your existing application with a
@@ -284,6 +287,8 @@ const Native = () => {
              </div>
          </div>
       </div>
+
+      <ContactForm1/>
 
       <div className="home9 mb-12 mt-20 home278">
           <div className="home91 flex px-24">
