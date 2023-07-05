@@ -47,6 +47,7 @@ import Shopify from "./components/Shopify";
 import Magento from "./components/Magento";
 import WooCommerce from "./components/WooCommerce";
 import Php from "./components/Php";
+
 function App() {
   return (
     <>
@@ -54,7 +55,7 @@ function App() {
           <ScrollToTop />
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route  path="/" element={<Home />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/staff-augmentation" element={<StafArgu />} />
             <Route path="/ecommerce-solutions-usa" element={<Services />} />
