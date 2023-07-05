@@ -25,7 +25,6 @@ import keys2 from '../images/keys2.png';
 import pret from '../images/pret.png';
 import pret1 from '../images/pret1.png';
 import fantaji from '../images/fantaJi.png';
-
 import {
   Accordion,
   AccordionItem,
@@ -54,7 +53,6 @@ const Native = () => {
           <img className="" src={refant} alt="androids" />
         </div>
       </div>
-
       <div className="native-app  flex items-start justify-center">
         <div className="native-app1">
           <h2>React Native App</h2>
@@ -143,7 +141,6 @@ const Native = () => {
           </div>
         </div>
       </div>
-
       <div className="native-benifits">
         <div className="native-benifits1">
           <h2>
