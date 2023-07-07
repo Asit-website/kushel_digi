@@ -396,7 +396,11 @@ const Shopify = () => {
               onMouseEnter={() => setHovered6(true)}
               onMouseLeave={() => setHovered6(false)}
             >
-              <img src={hovered6 ? soin6 : customMar} className="startup startup11" alt="img" />
+              <img
+                src={hovered6 ? soin6 : customMar}
+                className="startup startup11"
+                alt="img"
+              />
               <h3>Custom Marketing Apps</h3>
               <h5>
                 We can also build custom Shopify apps to help you connect your
@@ -508,49 +512,49 @@ const Shopify = () => {
           <h2>How It Works?</h2>
           <div className="shpoify_work_card">
             <div className="shpoify_work_box">
-              <img src={laps} alt="laps" />
               <div className="golt">
                 <div className="goal_one">
                   <p>1</p>
                 </div>
+                <h3>Discovery</h3>
               </div>
-              <h3>Discovery</h3>
+              <img src={laps} alt="laps" />
             </div>
             <div className="shpoify_work_box">
-              <img src={laptop2} alt="laps" />
               <div className="golt">
                 <div className="goal_one">
                   <p>2</p>
                 </div>
+                <h3>Design</h3>
               </div>
-              <h3>Design</h3>
+              <img src={laptop2} alt="laps" />
             </div>
             <div className="shpoify_work_box">
-              <img src={laptop3} alt="laps" />
               <div className="golt">
                 <div className="goal_one">
                   <p>3</p>
                 </div>
+                <h3>Development</h3>
               </div>
-              <h3>Development</h3>
+              <img src={laptop3} alt="laps" />
             </div>
             <div className="shpoify_work_box">
-              <img src={laptop4} alt="laps" />
               <div className="golt">
                 <div className="goal_one">
                   <p>4</p>
                 </div>
+                <h3>Testing</h3>
               </div>
-              <h3>Testing</h3>
+              <img src={laptop4} alt="laps" />
             </div>
             <div className="shpoify_work_box">
-              <img src={laptop5} alt="laps" />
               <div className="golt">
                 <div className="goal_one">
                   <p>5</p>
                 </div>
+                <h3>Delivery</h3>
               </div>
-              <h3>Delivery</h3>
+              <img src={laptop5} alt="laps" />
             </div>
           </div>
         </div>
@@ -711,7 +715,7 @@ const Shopify = () => {
             </SplideSlide>
           </Splide>
         </div>
-          <ContactForm1/>
+        <ContactForm1 />
         <div className="home9 home967  home278">
           <div className="home91 flex px-24">
             <div className="home911 text-center">
