@@ -19,7 +19,7 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-import ContactForm1 from './common/ContactForm1';
+import ContactForm1 from "./common/ContactForm1";
 import { NavLink } from "react-router-dom";
 const Ios = () => {
   return (
@@ -27,12 +27,15 @@ const Ios = () => {
       <div className="android-back ios-back">
         <div className="android-back1 ios-back1">
           <h2>
-          iOS App <br />
-Development Company
+            iOS App <br />
+            Development Company
           </h2>
           <p>
-            Develop next-gen iOS apps that are quality tested for perfection
-            with future-forward iOS application development services.
+            {/* Develop next-gen iOS apps that are quality tested for perfection
+            with future-forward iOS application development services. */}
+            Utilise cutting-edge iOS application development services to create
+            next-generation iOS apps that have undergone rigorous quality
+            control.
           </p>
           <button>
             Consult our iOS Team{" "}
@@ -45,29 +48,41 @@ Development Company
       </div>
       <div className="android2-app">
         <div className="android-fun android-funst">
-          <div className="android-fun1">
-            <h2>Our iOS App Development</h2>
+          <div className="android-fun1 ios-fun1">
+            <h2>Our Services for Developing</h2>
             {/* <h2></h2> */}
-            <h2>Services</h2>
+            <h2>iOS Apps</h2>
             <img className="ftp" src={androidSis} alt="" />
             <NavLink to="/contact">
-            <h5>
-              Discuss your goals with us{" "}
-              <img width={14} className="ml-1 inline" src={arrowing} alt="" />{" "}
-            </h5></NavLink>
+              <h5>
+                Describe your objectives to us.
+                <img
+                  width={14}
+                  className="ml-1 inline"
+                  src={arrowing}
+                  alt=""
+                />{" "}
+              </h5>
+            </NavLink>
           </div>
           <div className="android-fun2 ios-fun2">
             <p>
-              Kushel Digi has a wealth of 12 years of experience delivering
+              {/* Kushel Digi has a wealth of 12 years of experience delivering
               tailor-made iOS app solutions that increase user engagement,
-              polish brand value, and accelerate revenue.
+              polish brand value, and accelerate revenue. */}
+              Kushel Digi can create custom iOS app solutions that boost user
+              engagement, enhance brand value, and boost income.
             </p>
             <p className="mt-4">
-              Our iOS app development agency comprises certified engineers who
+              {/* Our iOS app development agency comprises certified engineers who
               know the ins and outs of every Apple device. In addition, we
               leverage cutting-edge tools and languages like Swift, SwiftUI,
               Objective-C, XCode, CircleCI, TestFlight, Revenuecat, Bitbucket,
-              and Jira to offer various high-quality services.
+              and Jira to offer various high-quality services. */}
+              Certified developers that are familiar with every aspect of every
+              Apple product work for our iOS app development company. We also
+              use cutting-edge instruments to provide a range of high-quality
+              services.
             </p>
           </div>
         </div>
@@ -76,27 +91,42 @@ Development Company
             <div className="android-box android-box1">
               <div className="android0-img flex items-center">
                 <img src={bulb1} alt="" />
-                <h4 className="ml-3">Android App Development Consultation</h4>
+                <h4 className="ml-3">
+                  {/* Android App Development Consultation */}
+                  Ios App Development Advice
+                </h4>
               </div>
               <p>
-                Android applications come with their set of user base and
+                {/* Android applications come with their set of user base and
                 customer expectations. We help businesses align their ideas with
                 those expectations and an Android-specific user base. Our
                 consultants help you choose the best Android platform and the
-                way you can top the store.
+                way you can top the store. */}
+                Depending on their features, iOS applications are better suited
+                for a particular kind of business. Our team of iOS app
+                developers assists companies in determining whether iOS is the
+                right platform for them and which tech stack best meets their
+                requirements.
               </p>
             </div>
             <div className="android-box android-box2">
               <div className="android0-img flex items-center">
                 <img src={bulb2} alt="" />
-                <h4 className="ml-3">Custom Android Application Development</h4>
+                <h4 className="ml-3">
+                  {/* Custom Android Application Development */}
+                  Develop bespoke iOS applications.
+                </h4>
               </div>
               <p>
-                Our android application developers carry expertise in building
+                {/* Our android application developers carry expertise in building
                 robust, scalable Android solutions. We create custom Android
                 software for a range of industries across the globe. We help you
                 build a solution that presents your authentic voice in a store
-                with millions of apps.
+                with millions of apps. */}
+                Our iPhone application developers have experience developing
+                extensible, cutting-edge iOS solutions. We specialize in
+                providing unique iOS apps to both established businesses and
+                startups throughout the world.
               </p>
             </div>
           </div>
@@ -104,52 +134,55 @@ Development Company
             <div className="android-box android-box3">
               <div className="android0-img flex items-center">
                 <img src={bulb3} alt="" />
-                <h4 className="ml-3">Android UI/UX Design</h4>
+                <h4 className="ml-3">
+                  {/* Android UI/UX Design */}
+                  Design for iOS UI/UX
+                </h4>
               </div>
               <p>
-                Android is one of the most expensive ecosystems. There are a
+                {/* Android is one of the most expensive ecosystems. There are a
                 number of devices that operate in it. Our team of Android app
                 designers holds expertise in creating memorable experiences
-                across all Android devices and versions.
+                across all Android devices and versions. */}
+                The immersive and memorable designs of iOS applications are well
+                known. We match the expectations of your customers with what the
+                Apple ecosystem offers. Experience-driven design is a speciality
+                of our team of iOS app developers.
               </p>
             </div>
             <div className="android-box android-box4">
               <div className="android0-img flex items-center">
                 <img src={bulb4} alt="" />
-                <h4 className="ml-3">Android Software Testing</h4>
+                <h4 className="ml-3">
+                  {/* Android Software Testing */}
+                  Testing iOS software
+                </h4>
               </div>
               <p>
-                Our android mobile development process is engineered to be
+                {/* Our android mobile development process is engineered to be
                 security and performance-first. We ensure that your android
                 mobile application development is glitch-free and has zero lags.
                 We perform a combination of manual and automated testing
-                processes to ensure a future-ready android software development.
+                processes to ensure a future-ready android software development. */}
+                Security and performance are prioritized throughout our iPhone
+                mobile development process. By combining human testing with an
+                algorithm-driven automatic mode, we ensure that your application
+                is bug-free. and hack-proof.
               </p>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="android-offer">
+      <div className="android-offer ios-offer">
         <div className="android-offer1 ios-offer1">
           <h3>
-            Empowering Your Business Through <br />
-            Custom iOS Application <br /> Development
+            {/* Empowering Your Business Through <br />
+            Custom iOS Application <br /> Development */}
+            Boosting Your Business Through <br /> the  Development of Custom <br /> iOS  Applications
           </h3>
           <p>
-            As a full-stack iPhone App Development company we have deployed
-            hundreds of native iOS apps that witnessed skyrocketing success
-            rates and were chartbusters on the App Store. We have a highly
-            skilled team of experienced iPhone mobile app developers and our
-            primary tech stack for developing iOS solutions is Objective-C and
-            Swift. We are an iOS mobile app development company with a dedicated
-            team of iPhone app developers that provide custom iPhone application
-            development services keeping in regard the specific design and iOS
-            application development company guidelines related to all individual
-            platforms - iPad, iPhone, Apple TV, and Apple Watch. Our iOS app
-            developers have built apps for diverse use cases ranging from
-            real-time analytics to route matching, geo-tagging, video streaming,
-            and more across multiple sectors.
+          We have a talented group of seasoned iPhone mobile app developers to create iOS solutions. We offer custom iPhone application development services while taking into account the unique design and iOS application development company guidelines related to each platform, including iPad, iPhone, Apple TV, and Apple Watch. Our iOS app developers have created apps for a variety of use cases.
           </p>
         </div>
         <div className="android-offer2 ios-offer2">
@@ -159,12 +192,11 @@ Development Company
 
       <div className="android-usa">
         <div className="android-usa1 ios-usa1">
-          <h3>Use Cases That Make</h3>
-          <h3>iOS Development The First Choice</h3>
-          <h3>of SMEs and Enterprises</h3>
+          <h3>Use Cases That Lead</h3>
+          <h3>SMEs and Enterprises to Choose</h3>
+          <h3>iOS Development</h3>
           <p>
-            Our custom iOS app development services guarantee that you take
-            complete advantage of the Apple ecosystem’s offerings.
+          Your use of our bespoke iOS app development services is ensured, and you can take full advantage of everything the Apple ecosystem has to offer.
           </p>
           {/* <h5>
             Explore Problem Solving with Android{" "}
@@ -175,25 +207,25 @@ Development Company
         <div className="android-usa3">
           <div className="android-usas">
             <div className="android-usas1">
-              <div className="android-usast1">
+              <div className="android-usast1 w-full">
                 <h3>1</h3>
-                <p>Multi-platform exposure</p>
+                <p>multi-platform presence</p>
               </div>
 
-              <div className="android-usast1 android-usast2">
+              <div className="android-usast1 android-usast2 w-full">
                 <h3>2</h3>
-                <p>Greater sources of revenue</p>
+                <p>Simple integration</p>
               </div>
             </div>
             <div className="android-usas1">
-              <div className="android-usast1">
+              <div className="android-usast1 w-full">
                 <h3>3</h3>
-                <p>Multi-platform exposure</p>
+                <p>Greater revenue</p>
               </div>
 
-              <div className="android-usast1 android-usast2">
+              <div className="android-usast1 android-usast2 w-full">
                 <h3>4</h3>
-                <p>Greater sources of revenue</p>
+                <p>Increased potential for innovation</p>
               </div>
             </div>
           </div>
@@ -203,8 +235,9 @@ Development Company
         <div className="android-process ios-process flex-col items-center justify-center">
           <div className="android-process1">
             <h2 className="text-center">
-              The Process That Makes Us a Leading iPhone <br /> Application
-              Development Company
+              {/* The Process That Makes Us a Leading iPhone <br /> Application
+              Development Company */}
+              The Method We Follow to Become a Leading iPhone <br /> Application Development Company
             </h2>
           </div>
           <div className="android-process2">
@@ -213,25 +246,25 @@ Development Company
                 <div className="prot-img">
                   <img src={prot1} alt="" />
                 </div>
-                <p>Multi-platform Development</p>
+                <p>Platform-agnostic development</p>
               </div>
               <div className="prot mt-14">
                 <div className="prot-img">
                   <img src={prot2} alt="" />
                 </div>
-                <p>Quality Assurance</p>
+                <p>Quality Control</p>
               </div>
               <div className="prot mt-14">
                 <div className="prot-img">
                   <img src={prot3} alt="" />
                 </div>
-                <p>App Store Submission</p>
+                <p>Submission to an app store</p>
               </div>
               <div className="prot mt-14">
                 <div className="prot-img">
                   <img src={prot4} alt="" />
                 </div>
-                <p>Post-launch Maintenance</p>
+                <p>Maintenance foll Owing launch</p>
               </div>
             </div>
           </div>
@@ -258,10 +291,12 @@ Development Company
             </div>
           </div>
 
-         <NavLink to="/contact"><h5 className="text-center">
-            Lets Work Together
-            <img width={14} className="ml-2 inline" src={arrowing} alt="" />
-          </h5></NavLink>
+          <NavLink to="/contact">
+            <h5 className="text-center">
+              Lets Work Together
+              <img width={14} className="ml-2 inline" src={arrowing} alt="" />
+            </h5>
+          </NavLink>
         </div>
       </div>
 
@@ -272,11 +307,13 @@ Development Company
             We have worked with some of the best innovative ideas and brands in
             the world across industries.
           </p>
-         <NavLink to="/contact"><button>Lets Start</button></NavLink>
+          <NavLink to="/contact">
+            <button>Lets Start</button>
+          </NavLink>
         </div>
       </div>
 
-      <ContactForm1/>
+      <ContactForm1 />
 
       <div className="home9 mb-12 home278 home480 home481">
         <div className="home91 flex px-24">

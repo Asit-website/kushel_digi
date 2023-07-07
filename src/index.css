@@ -7527,6 +7527,9 @@ form button:hover {
   max-width: 100%;
   margin-top: 10px;
 }
+.ios-fun1 .ftp{
+  width: 142px;
+}
 .android-fun1 h5 {
   color: #085881;
   font-size: 18px;
@@ -7541,6 +7544,9 @@ form button:hover {
   color: #404040;
   width: 34em;
   max-width: 100%;
+}
+.ios-offer{
+  align-items: center !important;
 }
 /* .android-offer1{
   width: 100%;
@@ -7760,6 +7766,10 @@ form button:hover {
   display: block;
   margin: auto;
 }
+.prot-img:hover img{
+  transform: rotate(180deg);
+  transition: all .5s;
+}
 .prot p {
   text-align: center;
   color: #010c1e;
@@ -7832,7 +7842,8 @@ form button:hover {
 }
 .ios-usa2 {
   margin-left: 40px;
-  height: 250px;
+  /* height: 250px; */
+  height: 273px;
 }
 .ios-process {
   align-items: center;
@@ -9961,10 +9972,12 @@ form button:hover {
   justify-content: center;
   margin-top: 40px;
 }
-.shpoify_work_box {
+.shpoify_work_box{
   margin: 0px 14px;
   cursor: pointer;
+  position: relative;
 }
+
 .shpoify_work_box:hover{
   transform: scale(1.05);
   transition: all .5s;
@@ -9976,6 +9989,19 @@ form button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  display: none;
+  z-index: 1000;
+}
+.shpoify_work_box:hover .golt{
+  display: flex !important;
+}
+.shpoify_work_box:hover img{
+  filter: contrast(.3) drop-shadow(2px 4px 6px black);
 }
 .golt {
   margin-top: 15px;
@@ -9998,9 +10024,10 @@ form button:hover {
 }
 .shpoify_work_box h3 {
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 19px;
-  color: #202020;
+  /* color: #202020; */
+  color: #ffffff;
   opacity: 0.9;
   margin-top: 10px;
 }
