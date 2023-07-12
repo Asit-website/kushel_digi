@@ -8,7 +8,6 @@ import zinda1 from "../images/zinda1.png";
 import zinda2 from "../images/zinda2.png";
 import stepback from "../images/stepback.png";
 import stepback1 from "../images/stepback1.png";
-// import azib from '../images/azib.png';
 import arrow4 from "../images/arrow4.png";
 import conjun from '../images/conjun.png';
 import azib2 from '../images/azib2.png';
@@ -113,7 +112,7 @@ const JonesBuilt = () => {
           <div className="challenge-story1">
             <h3 className="nila">02</h3>
             <h3>
-              Challenges <br /> & Solutions
+              Challenges  & Solutions
             </h3>
           </div>
           <div className="challenge-story2 flex">
@@ -174,10 +173,16 @@ const JonesBuilt = () => {
           </div>
         </div>
 
-        <div className="challenge-ziz">
+        {/* <div className="challenge-ziz">
           <div className="challenge-ziz-sect">
             <img src={trackent2} alt="track" />
           </div>
+        </div> */}
+
+        <div className="bg-video-wrap">
+          <video src="/static/images/joni.mp4" loop muted autoPlay></video>
+          <div className="overlay"></div>
+          <img className="kini" src={trackent2} alt="" />
         </div>
 
         <div className="azib">
