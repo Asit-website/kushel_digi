@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import kick from "../images/kick.png";
 import pick from "../images/pick.png";
 import pick1 from "../images/pick1.png";
@@ -12,17 +12,17 @@ import stepback1 from "../images/stepback1.png";
 import kick5 from "../images/kick5.png";
 // import azib from '../images/azib.png';
 import arrow4 from "../images/arrow4.png";
-import conjun from '../images/conjun.png';
-import azib2 from '../images/azib2.png';
-import azib3 from '../images/azib3.png'
-import azib4 from '../images/azib4.png'
+import conjun from "../images/conjun.png";
+import azib2 from "../images/azib2.png";
+import azib3 from "../images/azib3.png";
+import azib4 from "../images/azib4.png";
 import { NavLink } from "react-router-dom";
 import trackent1 from "../images/trackent1.png";
 import trackent2 from "../images/trackent2.png";
 const Ammedment = () => {
   return (
     <>
-             <div className="ser-main">
+      <div className="ser-main">
         <div className="kick-back">
           <div className="kick-sect">
             <img src={trackent2} alt="kick" />
@@ -33,9 +33,10 @@ const Ammedment = () => {
             <div className="kick-box">
               <h4>2ND AMENDMENT</h4>
               <p className="kick-para">
-              {/* SOLENOID NINJA Premium, Made in America recoil pads and accessories
+                {/* SOLENOID NINJA Premium, Made in America recoil pads and accessories
                 to make your shooting experience more comfortable. */}
-                Get peace of mind. install alarms that not only notify you of danger, but also clearly instructs you on what to do next.
+                Get peace of mind. install alarms that not only notify you of
+                danger, but also clearly instructs you on what to do next.
               </p>
               <div className="kick-sard flex items-center mt-10">
                 <div className="kick-fard">
@@ -51,13 +52,19 @@ const Ammedment = () => {
               </div>
               <div className="visit-kart mt-10">
                 <p>Visit Website</p>
-               <a href="https://solenoid-ninja.com/" target='_blank'><p className="kinza">www.solenoid-ninja.com</p></a>
+                <a href="https://solenoid-ninja.com/" target="_blank">
+                  <p className="kinza">www.solenoid-ninja.com</p>
+                </a>
               </div>
             </div>
           </div>
           <div className="kick-second relative">
             <div className="about165">
-            <img className=" absolute about161 animate__animated animate__pulse animate__infinite" src={angrag} alt="" />
+              <img
+                className=" absolute about161 animate__animated animate__pulse animate__infinite"
+                src={angrag}
+                alt=""
+              />
             </div>
             <img className=" relative z-10" src={pick2} alt="" />
           </div>
@@ -117,7 +124,7 @@ const Ammedment = () => {
           <div className="challenge-story1">
             <h3 className="nila">02</h3>
             <h3>
-              Challenges <br /> & Solutions
+              Challenges  & Solutions
             </h3>
           </div>
           <div className="challenge-story2 flex">
@@ -178,10 +185,16 @@ const Ammedment = () => {
           </div>
         </div>
 
-        <div className="challenge-ziz">
+        {/* <div className="challenge-ziz">
           <div className="challenge-ziz-sect">
             <img src={trackent2} alt="track" />
           </div>
+        </div> */}
+
+        <div className="bg-video-wrap">
+          <video src="/static/images/ammey.mp4" loop muted autoPlay></video>
+          <div className="overlay"></div>
+          <img className="kini" src={kick5} alt="" />
         </div>
 
         <div className="azib">
@@ -211,17 +224,17 @@ const Ammedment = () => {
                   standard dummy text ever since.
                 </p>
                 <div className="azib-tech">
-                    <h3>Technologies Used</h3>
-                    <img className="conjun" src={conjun} alt="" />
+                  <h3>Technologies Used</h3>
+                  <img className="conjun" src={conjun} alt="" />
                 </div>
               </div>
             </div>
 
-              <div className="azib-images flex items-center justify-center">
-                  <img src={azib2} alt="" />
-                  <img src={azib3} alt="" />
-                  <img src={azib4} alt="" />
-              </div>
+            <div className="azib-images flex items-center justify-center">
+              <img src={azib2} alt="" />
+              <img src={azib3} alt="" />
+              <img src={azib4} alt="" />
+            </div>
           </div>
         </div>
 
@@ -246,15 +259,17 @@ const Ammedment = () => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-          <NavLink to="/contact"><button>
-              Request A Call{" "}
-              <img width={13} className=" inline ml-2" src={arrow4} alt="" />
-            </button></NavLink>
+            <NavLink to="/contact">
+              <button>
+                Request A Call{" "}
+                <img width={13} className=" inline ml-2" src={arrow4} alt="" />
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Ammedment
+export default Ammedment;

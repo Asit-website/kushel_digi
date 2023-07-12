@@ -28,8 +28,8 @@ body {
   color: red;
 }
 #kk {
-  color: rgb(8, 88, 129) !important;
-  border-bottom: 2px solid rgb(8, 88, 129) !important;
+  color: rgb(8, 88, 129) ;
+  border-bottom: 2px solid rgb(8, 88, 129) ;
 }
 .you {
   display: none !important;
@@ -37,7 +37,7 @@ body {
 
 .lorem {
   font-size: 22px;
-  color: #404040;
+  color: #33475B;
 }
 .portis11111 img {
   max-width: 300px;
@@ -103,7 +103,7 @@ body {
 }
 
 .port-card2 b {
-  color: #404040;
+  color: #33475B;
   font-weight: 600;
   font-size: 25px;
 }
@@ -417,6 +417,9 @@ body {
   cursor: pointer;
   font-size: 13px !important;
 }
+.navbar .wanna-btn{
+  border: none !important;
+}
 .comapn-sect {
   width: 100%;
   padding: 15px;
@@ -479,6 +482,7 @@ body {
   font-size: 16px;
   border-radius: 5px;
   width: 160px;
+  border: none !important;
 }
 
 .ser-nav5 {
@@ -601,20 +605,22 @@ body {
 .navbar ul li button {
   width: 190px;
   height: 50px;
-  background: #085881;
+  border: 1px solid #001D4C !important;
+  /* background: #085881; */
   cursor: pointer;
   outline: none;
   border-radius: 3px;
   border: none;
   font-size: 19px;
-  color: #ffffff;
+  /* color: #ffffff; */
   font-weight: 600;
-  /* font-family: "Value Sans Pro"; */
+  color: #001D4C ;
 }
 
 .navbar ul li .tart:hover {
   background-color: #3c83cb;
   color: #ffffff;
+  border: none !important;
 }
 .yamini .sonji {
   text-transform: initial;
@@ -695,18 +701,19 @@ body {
 .first-need h2 {
   /* font-family: "Value Sans Medium" !important; */
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 38px;
-  color: #202020;
+  color: #33475B;
   font-style: normal;
   /* text-transform: capitalize; */
 }
 
 .first-need p {
   font-weight: 500;
-  color: #666b6b;
+  /* color: #666b6b; */
   font-size: 19px;
   margin-top: 10px;
+  color: #33475B;
 }
 .first-need span {
   color: #3e73fb;
@@ -845,12 +852,12 @@ form button {
   font-weight: 600;
   font-size: 21px;
   text-transform: uppercase;
-  color: #0e2b3d;
+  color: #33475B;
 }
 .loc-section p {
   font-size: 17px;
   font-weight: 400;
-  color: #0e2b3d;
+  color: #33475B;
   text-transform: capitalize;
   margin-top: 8.5px;
 }
@@ -1029,7 +1036,7 @@ form button {
 }
 
 .staff-sect h2 {
-  color: #101010;
+  color: #33475B;
   /* font-family: "Value Sans Medium" !important; */
   line-height: 59px;
   font-size: 43px;
@@ -1050,7 +1057,8 @@ form button {
 }
 
 .staff-sect p {
-  color: #000000;
+  /* color: #000000; */
+  color: #33475B;
   font-size: 19px;
   /* font-family: "Value Sans Pro" !important; */
   font-weight: 400;
@@ -1407,10 +1415,10 @@ form button {
 
 .home511 h1 {
   font-size: 35px;
-  color: #101010;
-  font-weight: 700;
+  color: #33475B;
+  font-weight: bold;
   letter-spacing: 0.2em;
-  opacity: 0.8;
+  opacity: 0.9;
   /* font-family: "Value Sans Medium" !important; */
 }
 
@@ -1664,8 +1672,8 @@ form button {
   /* font-family: "Value Sans Bold" !important; */
   letter-spacing: 0.1em;
   font-weight: bolder;
-  color: #101010;
-  opacity: 0.8;
+  color: #33475B;
+  opacity: 0.9;
 }
 
 .home911 {
@@ -1675,14 +1683,18 @@ form button {
 .home912 {
   width: 55%;
 }
-
+.accordion p{
+  color: #33475B !important;
+}
 .accordion__button {
   background-color: transparent !important;
   font-size: 19px;
   font-weight: 500;
-  color: #404040 !important;
+  color: #33475B !important;
 }
-
+.accordion__button p{
+  color: #33475B !important;
+}
 .home278 {
   padding-top: 30px;
 }
@@ -1692,12 +1704,12 @@ form button {
 }
 
 .home9121 {
-  border-bottom: 1px solid #404040;
+  border-bottom: 1px solid #33475B;
   padding: 1px;
   cursor: pointer;
   margin-left: 40px;
   font-size: 22px;
-  color: #404040;
+  color: #33475B;
   margin-top: 10px;
 }
 
@@ -2053,7 +2065,7 @@ form button {
 }
 
 .deivery-date .ensure {
-  color: #404040;
+  color: #33475B;
   font-size: 20px;
   font-weight: 400;
   font-style: normal;
@@ -2081,13 +2093,13 @@ form button {
 
 .ser111 .seru {
   font-size: 32px;
-  color: #101010;
+  color: #33475B;
   opacity: 0.9;
   /* font-weight: 700 !important; */
 }
 
 .ser111 .ac {
-  color: #404040;
+  color: #33475B;
   font-size: 20px;
   /* font-family: "Value Sans Pro" !important; */
   margin-top: 8px;
@@ -2143,10 +2155,10 @@ form button {
 }
 
 .ser2 .home4121 p {
-  color: #070707;
+  color: #33475B;
   margin-top: 0;
   margin-left: 4px;
-  opacity: 0.8;
+  opacity: 0.9;
   font-weight: 600;
   font-size: 19px;
   text-transform: uppercase;
@@ -2218,14 +2230,14 @@ form button {
 .unified-heading {
   text-align: center;
   font-size: 35px;
-  color: #101010;
+  color: #33475B;
 }
 
 .unified-heading1 {
   text-align: center;
   font-size: 35px;
-  color: #101010;
-  font-weight: 700;
+  color: #33475B;
+  font-weight: bold;
 }
 
 .customize {
@@ -2307,9 +2319,9 @@ form button {
 .strategy h2 {
   /* font-family: "Value Sans Medium" !important; */
   font-size: 35px;
-  font-weight: 700;
-  color: #010c1e;
-  opacity: 0.7;
+  font-weight: bold;
+  color: #33475B;
+  opacity: 0.9;
   text-align: center;
   line-height: 48px;
 }
@@ -2323,7 +2335,7 @@ form button {
   font-size: 35px;
   text-align: center;
   line-height: 45px;
-  color: #101010;
+  color: #33475B;
 }
 
 .tasking-cards {
@@ -2364,8 +2376,8 @@ form button {
 
 .tasking-head p {
   margin-top: 15px;
-  color: #202020;
-  opacity: 0.7;
+  color: #33475B;
+  opacity: 0.8;
   /* font-family: "Value Sans Medium" !important; */
   font-weight: 500;
 }
@@ -2394,11 +2406,11 @@ form button {
   font-size: 35px;
   text-align: center;
   line-height: 46px;
-  color: #101010;
+  color: #33475B;
 }
 
 .bff span {
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .faltu-card {
@@ -2460,7 +2472,7 @@ form button {
 }
 
 .faltu-head h4 {
-  color: #202020;
+  color: #33475B;
   font-size: 16px;
   font-weight: 500;
   /* font-family: "Value Sans Medium" !important; */
@@ -2470,7 +2482,7 @@ form button {
 .faltu-head p {
   margin-top: 12px;
   font-size: 14px;
-  color: #202020;
+  color: #33475B;
   opacity: 0.8;
   line-height: 25px;
 }
@@ -2501,7 +2513,7 @@ form button {
 }
 
 .first-ecom h1 {
-  color: #010c1e;
+  color: #33475B;
   font-size: 27.5px;
   /* font-family: "Value Sans Medium" !important; */
   line-height: 40px;
@@ -2509,7 +2521,7 @@ form button {
 }
 
 .first-ecom p {
-  color: #404040;
+  color: #33475B !important;
   font-size: 19px;
   font-weight: 400;
   width: 33em;
@@ -2541,7 +2553,7 @@ form button {
   background-color: #3c83cb;
 }
 .poty .view {
-  color: #010c1e;
+  color: #33475B;
   font-size: 27px;
   font-weight: 500;
   width: 100%;
@@ -2594,7 +2606,7 @@ form button {
 }
 
 .discusion-form h3 {
-  color: #0e2b3d;
+  color: #33475B;
   /* font-family: "Value Sans Medium" !important; */
   text-transform: capitalize;
   font-weight: 700;
@@ -2781,8 +2793,8 @@ form button {
 
 .first-delivery h3 {
   font-size: 27.5px;
-  font-weight: 700;
-  color: #010c1e;
+  font-weight: bold;
+  color: #33475B;
   /* font-family: "Value Sans Medium" !important; */
 }
 
@@ -2817,7 +2829,7 @@ form button {
 }
 
 .help-business h3 {
-  color: #202020;
+  color: #33475B;
   font-weight: 700;
   font-size: 35px;
   text-align: center;
@@ -2891,10 +2903,10 @@ form button {
 }
 
 .mob-app111 h1 {
-  color: #202020;
+  color: #33475B;
   font-size: 34px;
   text-transform: uppercase;
-  opacity: 0.8;
+  opacity: 0.9;
   font-weight: bold;
   letter-spacing: 0.1em;
   line-height: 50px;
@@ -2906,7 +2918,7 @@ form button {
   font-size: 19px;
   width: 26em;
   font-weight: 600;
-  color: #010c1e;
+  color: #33475B !important;
 }
 
 .mob-app111211 .dara {
@@ -2935,7 +2947,7 @@ form button {
   font-size: 19px;
   text-transform: uppercase;
   /* font-family: "Value Sans Bold" !important; */
-  color: #101010;
+  color: #33475B;
   font-weight: 700;
   opacity: 0.8;
   letter-spacing: 0.1em;
@@ -3036,23 +3048,28 @@ form button {
 
 .business-box h5 {
   margin-bottom: 13px;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 21px;
   font-weight: 500 !important;
   font-family: "Manrope", sans-serif !important;
+  color: #33475B;
 }
 
 .business-box p {
   font-size: 19px;
-  color: #404040;
+  color: #33475B;
+  font-weight: 400;
 }
 
 .business-box:hover {
   background-color: #085881;
   color: white;
 }
+.business-box:hover h5{
+  color: #FFFFFF;
+}
 .business-box:hover p {
-  color: white;
+  color: #FFFFFF;
 }
 
 .business-box:hover .business-card-img {
@@ -3074,9 +3091,9 @@ form button:hover {
 }
 
 .unlock h2 {
-  color: #202020;
+  color: #33475B;
   font-size: 35px;
-  font-weight: 700;
+  font-weight: bold;
   /* font-family: "Value Sans Medium" !important; */
   text-align: center;
   line-height: 46px;
@@ -3166,18 +3183,18 @@ form button:hover {
 
 .custom-s h2 {
   font-size: 35px;
-  font-weight: 700;
-  color: #010c1e;
+  font-weight: bold;
+  color: #33475B;
   /* font-family: "Value Sans Medium" !important; */
   text-align: center;
-  opacity: 0.7;
+  opacity: 0.9;
   line-height: 48px;
 }
 
 .custom-s p {
   font-size: 19px;
   font-weight: 400;
-  color: #202020;
+  color: #33475B;
   text-align: center;
   width: 80%;
   display: block;
@@ -3200,7 +3217,7 @@ form button:hover {
 
 .custom {
   font-size: 26px;
-  color: #010c1e;
+  color: #33475B;
   font-weight: 400;
 }
 
@@ -3211,7 +3228,7 @@ form button:hover {
 }
 
 .certified h2 {
-  color: #000000;
+  color: #33475B;
   /* font-family: "Value Sans Medium" !important; */
   font-size: 41px;
   font-weight: 500;
@@ -3296,9 +3313,9 @@ form button:hover {
 }
 
 .privacy-heading h3 {
-  color: #202020;
+  color: #33475B;
   font-size: 35px;
-  font-weight: 700;
+  font-weight: bold;
   /* font-family: "Value Sans Medium" !important; */
 }
 
@@ -3306,7 +3323,7 @@ form button:hover {
   color: #202020;
   /* font-family: 'Value Sans Medium' !important; */
   font-size: 19.5px;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   text-transform: capitalize;
   line-height: 32px;
   /* font-family: "Roboto", sans-serif !important; */
@@ -3329,8 +3346,8 @@ form button:hover {
 
 .privacy-heading ul li {
   font-size: 19.5px;
-  color: #202020;
-  font-weight: 500 !important;
+  color: #33475B;
+  font-weight: 400 !important;
   text-transform: capitalize;
   line-height: 32px;
   margin: 15px 0px;
@@ -3342,7 +3359,7 @@ form button:hover {
 }
 
 .propose-head h3 {
-  color: #202020;
+  color: #33475B;
   /* font-family: "Value Sans Medium" !important; */
   font-size: 35px;
   text-transform: capitalize;
@@ -3359,8 +3376,8 @@ form button:hover {
 
 .propose-head ul li {
   font-size: 19.5px;
-  color: #202020;
-  font-weight: 500 !important;
+  color: #33475B;
+  font-weight: 400 !important;
   text-transform: capitalize;
   line-height: 32px;
   margin: 15px 0px;
@@ -3368,9 +3385,9 @@ form button:hover {
 }
 
 .propose-head p {
-  color: #202020;
+  color: #33475B;
   font-size: 19.5px;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   text-transform: capitalize;
   line-height: 32px;
   margin-top: 70px;
@@ -3433,19 +3450,20 @@ form button:hover {
 }
 
 .refund-section h3 {
-  color: #202020;
+  color: #33475B;
   font-size: 35px;
-  font-weight: 700;
+  font-weight: bold;
   /* font-family: "Value Sans Medium" !important; */
   text-transform: capitalize;
 }
 
 .refund-section p {
-  color: #202020;
+  /* color: #202020; */
+  color: #33475B;
   font-size: 19.5px;
   font-weight: 400;
   text-transform: capitalize;
-  font-weight: 500;
+  /* font-weight: 500; */
   line-height: 33px;
   width: 90%;
   /* width: 85%; */
@@ -3510,15 +3528,16 @@ form button:hover {
 .quality-section h2 {
   font-size: 35px;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
-  color: #202020;
+  font-weight: bold;
+  color: #33475B;
   line-height: 49px;
 }
 
 .quality-section p {
-  color: #202020;
+  /* color: #202020; */
   font-size: 19.5px;
-  font-weight: 500 !important;
+  color: #33475B;
+  font-weight: 400 !important;
   text-transform: capitalize;
   line-height: 32px;
   /* font-family: "Roboto", sans-serif !important; */
@@ -3553,14 +3572,14 @@ form button:hover {
 .strict h2 {
   font-size: 34px;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
-  color: #202020;
+  font-weight: bold;
+  color: #33475B;
 }
 
 .strict p {
-  color: #202020;
+  color: #33475B;
   font-size: 19.5px;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   text-transform: capitalize;
   line-height: 32px;
   /* font-family: "Roboto", sans-serif !important; */
@@ -3643,9 +3662,8 @@ form button:hover {
 
 .nda-header h2 {
   font-size: 35px;
-  /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
-  color: #202020;
+  font-weight: bold;
+  color: #33475B;
 }
 .home412 .splide__arrow--next {
   display: none !important;
@@ -3657,9 +3675,9 @@ form button:hover {
   display: none !important;
 }
 .nda-header p {
-  color: #202020;
+  color: #33475B;
   font-size: 19.5px;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   text-transform: capitalize;
   line-height: 32px;
   /* font-family: "Roboto", sans-serif !important; */
@@ -3688,9 +3706,9 @@ form button:hover {
 }
 
 .nda-ul li {
-  color: #202020;
+  color: #33475B;
   font-size: 19.5px;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   text-transform: capitalize;
   line-height: 32px;
   /* font-family: "Roboto", sans-serif !important; */
@@ -3947,7 +3965,7 @@ form button:hover {
 }
 
 .kushel-menu p {
-  color: #202020;
+  color: #33475B;
   font-size: 19px;
   font-weight: 400;
   /* font-family: "Value Sans Pro" !important; */
@@ -3970,16 +3988,16 @@ form button:hover {
 }
 
 .first-why h3 {
-  color: #101010;
+  color: #33475B;
   font-size: 35px;
-  font-weight: 500;
+  font-weight: bold;
   /* font-family: "Value Sans Medium" !important; */
-  opacity: 0.8;
+  opacity: 0.9;
   text-transform: uppercase;
 }
 
 .first-why p {
-  color: #404040;
+  color: #33475B;
   font-size: 19.5px;
   /* font-family: "Value Sans Pro" !important; */
   width: 38em;
@@ -3998,10 +4016,10 @@ form button:hover {
 }
 .latest h2 {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
-  font-weight: 700 !important;
+  font-weight: bold !important;
   line-height: 46px;
 }
 .latest .adndrosan {
@@ -4041,11 +4059,12 @@ form button:hover {
 }
 
 .offering h3 {
-  color: #101010;
+  color: #33475B;
   font-size: 36px;
-  font-family: "Value Sans Medium" !important;
-  opacity: 0.8;
+  /* font-family: "Value Sans Medium" !important; */
+  opacity: 0.9;
   text-transform: uppercase;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -4060,7 +4079,7 @@ form button:hover {
 }
 
 .offer-section .jis p {
-  color: #010c1e;
+  color: #33475B !important;
   font-size: 19px;
   text-align: center;
   opacity: 0.9;
@@ -4117,9 +4136,9 @@ form button:hover {
   background-color: #085881;
 }
 .first-partnership h3 {
-  color: #101010;
+  color: #33475B !important;
   font-size: 35px;
-  font-weight: 500;
+  font-weight: 600;
   /* font-family: "Value Sans Medium" !important; */
   text-transform: uppercase;
   line-height: 42px;
@@ -4127,14 +4146,14 @@ form button:hover {
 }
 
 .box-part h4 {
-  color: #202020;
+  color: #33475B !important;
   font-size: 19.5px;
-  font-family: "Value Sans Pro";
-  font-weight: 600;
+  /* font-family: "Value Sans Pro"; */
+  font-weight: bold;
 }
 
 .box-part p {
-  color: #404040;
+  color: #33475B;
   font-size: 15.5px;
   font-weight: 400;
   margin-top: 18px;
@@ -4148,11 +4167,11 @@ form button:hover {
   margin-top: 22px;
 }
 .box-part:hover h4 {
-  color: #ffffff;
+  color: #ffffff !important;
   opacity: 1;
 }
 .box-part:hover p {
-  color: #ffffff;
+  color: #ffffff  !important;
 }
 .box-part:hover button {
   color: #ffffff;
@@ -4163,13 +4182,13 @@ form button:hover {
 }
 
 .partnets-stories h3 {
-  color: #010c1e;
+  color: #33475B;
   font-size: 35px;
   /* font-family: "Value Sans Medium" !important; */
   text-transform: uppercase;
   line-height: 42px;
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .partner-card {
@@ -4190,16 +4209,16 @@ form button:hover {
 }
 
 .partner-box h4 {
-  color: #202020;
+  color: #33475B;
   font-size: 22px;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
 }
 
 .partner-box p {
   text-align: center;
-  color: #404040;
+  color: #33475B;
   font-size: 15.5px;
   font-weight: 400;
   line-height: 25px;
@@ -4229,18 +4248,18 @@ form button:hover {
 }
 
 .offices h3 {
-  color: #101010;
+  color: #33475B;
   font-size: 35px;
   /* font-family: "Value Sans Medium" !important; */
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: bold; /* pehle 500 tha */
   line-height: 42px;
-  opacity: 0.8;
+  opacity: 0.9;
   text-align: center;
 }
 
 .picta p {
-  color: #404040;
+  color: #33475B;
   font-size: 19px;
   font-weight: 400;
   text-align: center;
@@ -4578,16 +4597,16 @@ form button:hover {
 }
 
 .development1 h3 {
-  color: #202020;
+  color: #33475B;
   font-size: 34px;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
+  font-weight: bold;
   opacity: 0.9;
   line-height: 46px;
 }
 
 .development1 .knowrs {
-  color: #404040;
+  color: #33475B;
   font-size: 19.5px;
   /* font-family: "Montserrat", sans-serif !important; */
   font-weight: 500;
@@ -4660,7 +4679,7 @@ form button:hover {
   /* transform: scale(.5); */
 }
 .how-we h3 {
-  color: #010c1e;
+  color: #33475B;
   font-size: 19px;
   font-weight: 400;
   text-align: center;
@@ -4668,10 +4687,9 @@ form button:hover {
 
 .how-we h1 {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   font-size: 35px;
-  opacity: 0.75;
-  /* font-family: "Value Sans Medium" !important; */
+  opacity: 0.9; /* pehle 0.75 tha */
   font-weight: 700;
 }
 
@@ -4703,17 +4721,17 @@ form button:hover {
 
 .top-chose h3 {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   /* font-family: "Value Sans Medium" !important; */
   font-size: 35px;
   line-height: 46px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .top-chose .reason {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   font-size: 19px;
   font-weight: 500 !important;
   /* font-family: "Value Sans Medium" !important; */
@@ -4753,8 +4771,8 @@ form button:hover {
 }
 
 .ben-da h3 {
-  color: #202020;
-  opacity: 0.7;
+  color: #33475B;
+  opacity: 0.9; /*pehle 0.7 tha */
   text-align: center;
   font-size: 35px;
   /* font-family: "Value Sans Medium" !important; */
@@ -4764,7 +4782,7 @@ form button:hover {
 
 .ben-da p {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   font-size: 19px;
   width: 55em;
   max-width: 100%;
@@ -4806,15 +4824,15 @@ form button:hover {
 .indu-s h3 {
   font-size: 35px;
   text-align: center;
-  color: #202020;
-  opacity: 0.7;
-  /* font-family: "Value Sans Medium" !important; */
+  color: #33475B;
+  /* opacity: 0.7; */
+  opacity: 0.9;
   font-weight: 700;
   letter-spacing: 0.5px;
 }
 
 .indu-s p {
-  color: #404040;
+  color: #33475B;
   /* font-family: "Value Sans Medium" !important; */
   font-size: 19px;
   font-weight: 500;
@@ -4991,10 +5009,9 @@ form button:hover {
 
 .first-experiencedji h2 {
   font-size: 32px;
-  color: #202020;
-  opacity: 0.8;
+  color: #33475B;
+  opacity: 0.9;
   font-weight: 700;
-  /* font-family: "Value Sans Medium" !important; */
   line-height: 46px;
 }
 
@@ -5004,8 +5021,7 @@ form button:hover {
 
 .first-experiencedji p {
   font-size: 20px;
-  color: #404040;
-  /* font-family: "Roboto", sans-serif !important; */
+  color: #33475B;
   font-weight: 400;
   width: 24em;
 }
@@ -5035,9 +5051,9 @@ form button:hover {
 
 .uiux-process h2 {
   font-size: 35px;
-  opacity: 0.7;
+  opacity: 0.9;
   font-weight: 700;
-  color: #010c1e;
+  color: #33475B;
   text-align: center;
   /* font-family: "Value Sans Medium" !important; */
 }
@@ -5045,7 +5061,7 @@ form button:hover {
 .uiux-process p {
   font-size: 19px;
   /* font-family: "Roboto", sans-serif !important; */
-  color: #202020;
+  color: #33475B;
   text-align: center;
   width: 70%;
   max-width: 100%;
@@ -5069,7 +5085,7 @@ form button:hover {
 }
 
 .perfect-choice h2 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 35px;
   font-weight: 700;
@@ -5081,7 +5097,7 @@ form button:hover {
 .perfect-choice .perf-p {
   /* font-family: "Roboto", sans-serif !important; */
   font-size: 19px;
-  color: #202020;
+  color: #33475B;
   width: 60%;
   max-width: 100%;
   display: block;
@@ -5130,7 +5146,7 @@ form button:hover {
 }
 
 .deliver-p h2 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
   font-weight: 700;
@@ -5142,7 +5158,7 @@ form button:hover {
 .deliver-p p {
   font-family: "Roboto", sans-serif !important;
   font-size: 19px;
-  color: #202020;
+  color: #33475B;
   width: 58%;
   max-width: 100%;
   display: block;
@@ -5165,10 +5181,10 @@ form button:hover {
 }
 
 .benifits-ui h2 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 35px;
-  font-weight: 700;
+  font-weight: bold;
   /* font-family: "Value Sans Medium" !important; */
   text-align: center;
   line-height: 46px;
@@ -5177,7 +5193,7 @@ form button:hover {
 .benifits-ui .when-p {
   font-family: "Roboto", sans-serif !important;
   font-size: 19px;
-  color: #202020;
+  color: #33475B;
   width: 58%;
   max-width: 100%;
   display: block;
@@ -5353,8 +5369,8 @@ form button:hover {
 }
 
 .how-did-second h3 {
-  color: #202020;
-  opacity: 0.8;
+  color: #33475B;
+  opacity: 0.9;
   font-size: 35px;
   line-height: 46px;
   /* font-family: "Value Sans Medium" !important; */
@@ -5366,7 +5382,7 @@ form button:hover {
 }
 
 .how-did-second p {
-  color: #404040;
+  color: #33475B;
   font-size: 20px;
   /* font-family: "Roboto", sans-serif !important; */
   width: 32em;
@@ -5397,15 +5413,15 @@ form button:hover {
 .how-ux1 h2 {
   font-size: 35px;
   line-height: 46px;
-  color: #202020;
-  opacity: 0.8;
-  font-weight: 700;
+  color: #33475B;
+  opacity: 0.9;
+  font-weight: bold;
   /* font-family: "Value Sans Medium" !important; */
 }
 
 .how-ux1 p {
   font-size: 20.5px;
-  color: #404040;
+  color: #33475B;
   width: 32em;
   font-weight: 100%;
   margin-top: 10px;
@@ -5423,8 +5439,8 @@ form button:hover {
 }
 
 .development-process h3 {
-  color: #202020;
-  opacity: 0.8;
+  color: #33475B;
+  opacity: 0.9;
   font-size: 35px;
   text-align: center;
   font-weight: 700;
@@ -5432,7 +5448,7 @@ form button:hover {
 }
 
 .development-process p {
-  color: #404040;
+  color: #33475B;
   font-size: 20px;
   text-align: center;
   margin-top: 8px;
@@ -5593,9 +5609,9 @@ form button:hover {
 
 .service-kick h2 {
   font-size: 34px;
-  color: #202020;
-  opacity: 0.8;
-  font-weight: 700;
+  color: #33475B;
+  opacity: 0.9;
+  font-weight: bold;
   /* font-family: "Value Sans Medium" !important; */
   text-align: center;
 }
@@ -5624,7 +5640,7 @@ form button:hover {
   cursor: pointer;
 }
 .service-kick-sect p {
-  color: #404040;
+  color: #33475B;
   /* font-family: "Value Sans Medium" !important; */
   font-size: 21px;
   text-align: center;
@@ -5659,10 +5675,10 @@ form button:hover {
 
 .step-backs1 h3 {
   font-size: 34px;
-  color: #202020;
+  color: #33475B;
   font-size: 36px;
   opacity: 0.8;
-  font-weight: 700;
+  font-weight: bold;
   /* font-family: "Value Sans Medium" !important; */
 }
 
@@ -5671,10 +5687,11 @@ form button:hover {
 }
 
 .step-backs2 p {
-  color: #404040;
+  /* color: #404040; */
+  color: #33475B;
   font-size: 20.5px;
   /* font-family: "Roboto", sans-serif !important; */
-  font-weight: 500;
+  font-weight: 400;
 }
 .goals-statgy ul {
   list-style: disc;
@@ -5683,8 +5700,9 @@ form button:hover {
 }
 .goals-statgy ul li {
   list-style: disc;
-  color: #404040;
+  color: #33475B;
   font-size: 20px;
+  font-weight: 400;
 }
 .step-backs1 {
   margin-right: 60px;
@@ -5717,13 +5735,15 @@ form button:hover {
 }
 
 .challenge-story1 h3 {
-  font-size: 36px;
-  color: #202020;
+  font-size: 35px;
+  color: #33475B;
   font-size: 36px;
   opacity: 0.8;
-  font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  font-weight: bold;
+  /* font-family: "Value Sans Medium" !important; */
   line-height: 46px;
+  width: 6em;
+  max-width: 100%;
 }
 
 .challenge-story .nila {
@@ -5743,7 +5763,7 @@ form button:hover {
 .challenge-box h4 {
   font-size: 19px;
   font-weight: 700;
-  color: #202020;
+  color: #33475B;
   opacity: 0.8;
   /* font-family: "Value Sans Medium" !important; */
 }
@@ -5816,15 +5836,15 @@ form button:hover {
 }
 .goals-statgy h2 {
   font-size: 34px;
-  color: #202020;
-  opacity: 0.8;
-  font-weight: 700;
+  color: #33475B;
+  opacity: 0.9;
+  font-weight: bold;
 }
 .challenge-list1 p {
   font-size: 16px;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
-  color: #404040;
+  color: #33475B;
   margin-left: 8px;
 }
 .challenge-box:hover .challenge-list1 p {
@@ -5858,19 +5878,20 @@ form button:hover {
 }
 .client-apperication h2 {
   font-size: 36px;
-  color: #202020;
+  color: #33475B;
   font-size: 36px;
   opacity: 0.8;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   line-height: 46px;
   text-align: center;
 }
 .client-apperication p {
   text-align: center;
   margin-top: 10px !important;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-weight: 400;
+  /* color: #33475B; */
   color: #202020;
   opacity: 0.8;
   font-size: 19px;
@@ -5882,7 +5903,7 @@ form button:hover {
 .client-apperication h4 {
   text-align: center;
   margin-top: 20px;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
   font-size: 19px;
   color: #202020;
   opacity: 0.8;
@@ -5998,20 +6019,20 @@ form button:hover {
   font-size: 36px;
   color: #ffffff;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .azib1-first .azib-pa {
   font-weight: 400;
-  font-family: "Value Sans Pro" !important;
+  /* font-family: "Value Sans Pro" !important; */
 }
 
 .azib1-second p {
   color: #ffffff;
-  font-size: 21px;
-  font-family: "Roboto", sans-serif !important;
+  font-size: 20px;
+  /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400 !important;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 .azib1-first {
@@ -6036,7 +6057,7 @@ form button:hover {
   color: #ffffff;
   font-size: 34px;
   font-weight: 700;
-  font-family: "Value Sans Medium" !important;
+  /* font-family: "Value Sans Medium" !important; */
 }
 
 .azib-images {
@@ -6121,14 +6142,14 @@ form button:hover {
 }
 
 .hiring-status h3 {
-  color: #182536;
+  color: #33475B;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: bold;
   font-size: 35px;
 }
 
 .hiring-status p {
-  color: #777777;
+  color: #33475B;
   font-size: 18.5px;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 400;
@@ -6170,10 +6191,10 @@ form button:hover {
 }
 
 .first-hiring h2 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 35px;
-  font-weight: 700;
+  font-weight: bold;
   /* font-family: "Value Sans Medium" !important; */
   margin-top: 12px;
 }
@@ -6189,6 +6210,7 @@ form button:hover {
   font-size: 20px;
   color: #404040;
   margin-top: 5px;
+  color: #33475B;
 }
 
 .hired-para .hiring-second-para {
@@ -6197,6 +6219,7 @@ form button:hover {
   font-weight: 400;
   margin-top: 18px;
   letter-spacing: 0.5px;
+  color: #33475B;
 }
 
 .second-hiring .hiper {
@@ -6223,7 +6246,9 @@ form button:hover {
   color: #ffffff;
   margin-top: 40px;
 }
-
+.first-hiring button:hover{
+  background-color: #3c83cb !important;
+}
 .second-hiring .hiredEllipse {
   position: absolute;
   max-width: 160px;
@@ -6328,7 +6353,7 @@ form button:hover {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
-  color: #202020;
+  color: #33475B !important;
   opacity: 0.9;
   /* font-family: "Value Sans Medium" !important; */
 }
@@ -6379,15 +6404,15 @@ form button:hover {
 .hired-sard p {
   text-align: center;
   font-size: 15.5px;
-  color: #202020;
-  opacity: 0.8;
+  color: #33475B !important;
+  opacity: 0.9;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500 !important;
   margin-top: 12px;
 }
 
 .hired-sard:hover p {
-  color: #ffffff;
+  color: #ffffff !important;
   opacity: 1;
 }
 
@@ -6421,9 +6446,9 @@ form button:hover {
 
 .first-serve h2 {
   font-size: 35px;
-  color: #202020;
-  opacity: 0.7;
-  font-weight: 700;
+  color: #33475B !important;
+  opacity: 0.9;
+  font-weight: bold;
   /* font-family: "Value Sans Medium" !important; */
 }
 
@@ -6431,8 +6456,9 @@ form button:hover {
   color: #404040;
   font-size: 19px;
   /* font-family: "Roboto", sans-serif !important; */
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 15px;
+  color: #33475B !important;
 }
 
 .second-serve {
@@ -6504,7 +6530,7 @@ form button:hover {
 }
 
 .hire-testimonials h2 {
-  color: #202020;
+  color: #33475B !important;
   font-size: 35px;
   opacity: 0.9;
   font-weight: 700;
@@ -6514,7 +6540,7 @@ form button:hover {
 }
 
 .hire-testimonials .read-what {
-  color: #404040;
+  color: #33475B ;
   font-size: 19px;
   /* font-family: "Montserrat", sans-serif !important; */
   font-weight: 500;
@@ -6529,23 +6555,25 @@ form button:hover {
 }
 
 .hire-test h4 {
-  color: #202020;
+  /* color: #202020; */
   opacity: 0.9;
   font-size: 19px;
-  font-weight: 700;
+  font-weight: bold;
+  color: #33475B ;
   /* font-family: "Value Sans Medium" !important; */
 }
 
 .hire-test P {
-  color: #888888;
+  /* color: #888888; */
   font-size: 19px;
   /* font-family: "Roboto", sans-serif !important; */
-  font-weight: 400;
+  font-weight: 300;
   width: 60%;
   max-width: 100%;
   display: block;
   margin: auto;
   margin-top: 12px;
+  color: #33475B ;
 }
 
 .hire-testimonials .splide__arrow--prev {
@@ -6699,12 +6727,16 @@ form button:hover {
   height: 58px;
   margin-top: 30px;
   border-radius: 5px;
-  color: #202020;
+  color: #33475B;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
   font-size: 19px;
 }
-
+.portfolio-sect button:hover{
+  background-color: #3c83cb;
+  color: #FFFFFF;
+  transition: .5s;
+}
 .portfolio-nav {
   padding: 25px 100px;
   position: relative;
@@ -6834,14 +6866,15 @@ form button:hover {
   margin-left: 20px;
 } */
 .portis2 h3 {
-  color: #202020;
+  /* color: #202020; */
+  color: #33475B;
   font-size: 34px;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: bold;
 }
 
 .portis2 .kick-eez {
-  color: #202020;
+  color: #33475B;
   font-size: 20.5px;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
@@ -6867,7 +6900,7 @@ form button:hover {
 .port-usa1 .port-pat {
   font-size: 19px;
   /* font-family: "Roboto", sans-serif !important; */
-  color: #202020;
+  color: #33475B;
   font-weight: 500;
 }
 
@@ -6890,9 +6923,11 @@ form button:hover {
 }
 
 .port-serv h4 {
-  color: #202020;
-  opacity: 0.75;
+  /* color: #202020; */
+  /* opacity: 0.75; */
+  color: #33475B;
   font-size: 22px;
+  opacity: 0.9;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -6996,10 +7031,10 @@ form button:hover {
   padding-top: 100px;
 }
 .working1 h2 {
-  color: #202020;
+  color: #33475B;
   font-size: 35px;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
+  font-weight: bold;
   opacity: 0.9;
 }
 .working1 button {
@@ -7020,7 +7055,8 @@ form button:hover {
 .working1 p {
   font-size: 19.5px;
   /* font-family: "Montserrat", sans-serif; */
-  color: #404040;
+  color: #33475B;
+  font-weight: 400;
   width: 35em;
   letter-spacing: 0.5px;
   margin-top: 12px;
@@ -7065,10 +7101,9 @@ form button:hover {
   margin-top: 15px;
   font-size: 17px;
   line-height: 22px;
-  color: #444444;
+  color: #33475B ;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
-  color: #444444;
 }
 .conducting-box:hover p {
   color: #ffffff;
@@ -7078,11 +7113,11 @@ form button:hover {
   padding: 60px 100px;
 }
 .open-position h3 {
-  color: #202020;
+  color: #33475B;
   font-size: 34.5px;
   opacity: 0.9;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
+  font-weight: bold;
   text-align: center;
 }
 .position-nav {
@@ -7105,16 +7140,16 @@ form button:hover {
   justify-content: space-between;
 }
 .posify1 h4 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 26px;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
+  font-weight: bold;
 }
 .posify1 p {
   font-size: 22.5px;
   font-family: "Roboto", sans-serif !important;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   margin-top: 5px;
 }
@@ -7568,11 +7603,11 @@ form button:hover {
   justify-content: space-between;
 }
 .android-fun1 h2 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
+  font-weight: bold;
 }
 .android-fun1 .ftp {
   width: 120px;
@@ -7593,7 +7628,7 @@ form button:hover {
 .android-fun2 p {
   font-weight: 400;
   font-size: 20px;
-  color: #404040;
+  color: #33475B;
   width: 34em;
   max-width: 100%;
 }
@@ -7646,12 +7681,12 @@ form button:hover {
 .android-box h4 {
   font-size: 18.5px;
   font-weight: 700;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   /* font-family: "Value Sans Medium" !important; */
 }
 .android-box p {
-  color: #404040;
+  color: #33475B;
   /* font-family: "Roboto", sans-serif !important; */
   font-size: 18.5px;
   margin-top: 14px;
@@ -7680,7 +7715,7 @@ form button:hover {
   height: 100%;
 }
 .android-offer1 h3 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
   /* font-family: "Value Sans Medium" !important; */
@@ -7688,10 +7723,10 @@ form button:hover {
   line-height: 46px;
 }
 .android-offer1 p {
-  color: #404040;
+  color: #33475B;
   font-weight: 400;
   font-size: 19.5px;
-  color: #404040;
+  /* color: #404040; */
   width: 28em;
   max-width: 100%;
   margin-top: 30px;
@@ -7708,16 +7743,14 @@ form button:hover {
   padding: 60px 100px;
 }
 .android-usa1 h3 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34.5px;
-  font-weight: 700;
-  /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
+  font-weight: bold;
   line-height: 46px;
 }
 .android-usa1 p {
-  color: #404040;
+  color: #33475B;
   font-weight: 400;
   font-size: 19.5px;
   width: 26em;
@@ -7751,18 +7784,18 @@ form button:hover {
 }
 .android-usast1 h3 {
   text-align: center;
-  color: #001d4c;
+  color: #33475B;
   /* font-family: "Roboto", sans-serif !important; */
-  font-weight: 700;
+  font-weight: bold;
   font-size: 64px;
 }
 .android-usast1 p {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   font-weight: 500;
   /* font-family: "Value Sans Medium" !important; */
   font-size: 19px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .android-pro {
   padding: 80px 100px;
@@ -7787,16 +7820,15 @@ form button:hover {
   align-items: flex-start;
 }
 .android-process1 h2 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
   font-weight: 700;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
   line-height: 46px;
 }
 .android-process1 p {
-  color: #404040;
+  color: #33475B;
   font-size: 19.5px;
   width: 28em;
   max-width: 100%;
@@ -7859,7 +7891,7 @@ video {
 }
 .prot p {
   text-align: center;
-  color: #010c1e;
+  color: #33475B;
   /* font-family: "Value Sans Medium" !important; */
   font-weight: 700;
   font-size: 21px;
@@ -7875,12 +7907,13 @@ video {
 }
 .android-pflex h1 {
   /* font-family: "Roboto", sans-serif !important; */
-  font-weight: 700;
+  font-weight: bold;
+  color: #33475B;
   font-size: 64px;
 }
 .android-pflex p {
   font-size: 16px;
-  color: #404040;
+  color: #33475B;
   opacity: 0.85;
 }
 .android-perform h5 {
@@ -8053,11 +8086,11 @@ video {
   height: 100%;
 }
 .fluter-ad h2 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 46px;
 }
 .fluter-ad .linerar {
@@ -8070,9 +8103,9 @@ video {
   text-align: center;
   font-size: 19px;
   font-weight: 500;
-  color: #202020;
+  color: #33475B;
   width: 54em;
-  opacity: 0.8;
+  opacity: 0.9;
   display: block;
   margin: auto;
   margin-top: 20px;
@@ -8095,14 +8128,14 @@ video {
   max-height: 100%;
 }
 .fluter-ads-box h4 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 20px;
   margin-top: 18px;
 }
 .fluter-ads-box p {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 14px;
   font-weight: 500;
@@ -8330,11 +8363,11 @@ video {
   margin-top: 0px;
 }
 .native-app1 h2 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
+  font-weight: bold;
 }
 .native-app1 .ftp {
   width: 120px;
@@ -8350,7 +8383,8 @@ video {
   margin-top: 15px;
 }
 .native-app1 p {
-  color: #404040;
+  /* color: #404040; */
+  color: #33475B;
   font-size: 19px;
   font-weight: 400;
   margin-top: 20px;
@@ -8375,7 +8409,8 @@ video {
 }
 .native-box p {
   font-size: 16px;
-  color: #404040;
+  color: #33475B;
+  font-weight: 400;
 }
 .native-box3 {
   background-color: #f7ffee;
@@ -8390,10 +8425,10 @@ video {
   padding: 60px 100px;
 }
 .native-benifits1 h2 {
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 46px;
 }
 .native-benifits1 img {
@@ -8403,7 +8438,7 @@ video {
 }
 .native-benifits1 p {
   font-size: 18.5px;
-  color: #404040;
+  color: #33475B;
   font-weight: 500 !important;
   width: 36em;
   max-width: 100%;
@@ -8437,7 +8472,8 @@ video {
   margin-top: 18px;
   font-weight: 500 !important;
   font-size: 18px;
-  color: #202020;
+  /* color: #202020; */
+  color: #33475B;
   opacity: 0.9;
 }
 .native-boxs img {
@@ -8577,10 +8613,10 @@ video {
 }
 .native-why h2 {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
-  font-weight: 700 !important;
+  font-weight: bold !important;
   line-height: 46px;
 }
 .why-card {
@@ -8605,6 +8641,7 @@ video {
   text-align: center;
   margin-top: 15px;
   font-weight: 600;
+  color: #33475B !important;
   font-size: 18px;
 }
 .key-value {
@@ -8616,10 +8653,10 @@ video {
 }
 .keys-val h2 {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
-  font-weight: 700 !important;
+  font-weight: bold !important;
   line-height: 46px;
 }
 .keys-val .key-images {
@@ -8636,7 +8673,7 @@ video {
   margin-top: 40px;
 }
 .keys-val .ku-t {
-  color: #404040;
+  color: #33475B;
   font-size: 19px;
   font-weight: 500;
   width: 36em;
@@ -8680,9 +8717,9 @@ video {
 }
 .key-value-box h4 {
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 19.5px;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   margin-top: 15px;
 }
@@ -8690,7 +8727,7 @@ video {
   text-align: center;
   margin-top: 12px;
   font-size: 14px;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-weight: 500 !important;
   line-height: 24px;
@@ -8701,10 +8738,10 @@ video {
 }
 .how-native-work h2 {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
-  font-weight: 700 !important;
+  font-weight: bold !important;
   line-height: 46px;
 }
 .how-native-work .how-nat-img {
@@ -8716,7 +8753,7 @@ video {
   height: 3px;
 }
 .how-native-work .dep-nat {
-  color: #404040;
+  color: #33475B;
   font-size: 19px;
   text-align: center;
   font-weight: 500;
@@ -8756,10 +8793,10 @@ video {
   width: 100%;
 }
 .native-work-box h4 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 19.5px;
   text-align: center;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   margin-top: 10px;
 }
@@ -8775,7 +8812,7 @@ video {
 }
 .native-work-box p {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   font-size: 14px;
   font-weight: 500;
   margin-top: 15px;
@@ -8789,7 +8826,7 @@ video {
   top: 90%;
 }
 .native-steps h3 {
-  color: #000000;
+  color: #33475B;
   opacity: 0.2;
   font-weight: 500;
   font-size: 19px;
@@ -8822,10 +8859,10 @@ video {
 }
 .types-part h2 {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
-  font-weight: 700 !important;
+  font-weight: bold !important;
   line-height: 46px;
 }
 .benifit-white {
@@ -8834,7 +8871,7 @@ video {
 }
 .benifit-white h2 {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
   font-weight: 700 !important;
@@ -8898,10 +8935,10 @@ video {
 }
 .white-level-box p {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   font-size: 16px;
   font-weight: 400;
-  color: #404040;
+  /* color: #404040; */
   margin-top: 15px;
   line-height: 24px;
 }
@@ -8923,11 +8960,13 @@ video {
 .white-soni h5 {
   font-size: 19px;
   font-weight: 600 !important;
+  color: #33475B !important;
 }
 .white-soni p {
   font-size: 15px;
   font-weight: 400 !important;
   line-height: 25px;
+  color: #33475B !important;
 }
 .white-soni:hover {
   background: none;
@@ -8968,10 +9007,10 @@ video {
 }
 .why-work-with h2 {
   text-align: center;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   font-size: 34px;
-  font-weight: 700 !important;
+  font-weight: bold !important;
   line-height: 46px;
 }
 .why-work-with .tant {
@@ -9077,6 +9116,7 @@ video {
   font-weight: 600;
   text-align: center;
   margin-top: 15px;
+  color: #33475B;
 }
 .container2 {
   padding-top: 6rem !important;
@@ -9085,10 +9125,10 @@ video {
   padding: 0px 100px;
 }
 .container2 h3 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 34px;
   text-align: center;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   line-height: 46px;
 }
@@ -9181,10 +9221,10 @@ video {
   align-items: center;
   line-height: 46px;
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 34px;
   letter-spacing: 0.1px;
-  color: #202020;
+  color: #33475B;
   opacity: 0.9;
   /* padding-top: 3rem; */
   font-style: normal;
@@ -9200,10 +9240,10 @@ video {
 .paper2 h4 {
   font-size: 20px;
   text-align: center;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
   line-height: 35px;
-  color: #404040;
+  color: #33475B;
   font-style: normal;
 }
 .paperbox {
@@ -9245,7 +9285,7 @@ video {
 .first1 h3 {
   font-size: 19px;
   font-weight: 600;
-  color: #101010;
+  color: #33475B;
   text-align: center;
   letter-spacing: 0.1px;
 }
@@ -9259,11 +9299,10 @@ video {
 .first1 h5 {
   max-width: 400px;
   font-size: 17px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   text-align: center;
-  color: #ffffff;
   font-weight: 300;
-  color: #404040;
+  color: #33475B;
   margin-top: 1rem;
 }
 .startup {
@@ -9397,9 +9436,10 @@ video {
   max-width: 100%;
 }
 .other-project h2 {
-  color: #202020;
-  font-weight: 700;
+  color: #33475B;
+  font-weight: bold;
   font-size: 30px;
+  opacity: 0.9;
 }
 .other-box .rel3 {
   width: 185px;
@@ -9411,7 +9451,7 @@ video {
   z-index: 2;
 }
 .other-tox-para h3 {
-  color: #202020;
+  color: #33475B;
   font-weight: bolder;
   font-family: "Manrope", sans-serif !important;
   font-size: 19px;
@@ -9454,7 +9494,7 @@ video {
   justify-content: center;
 }
 .devlop-kotlin1 h2 {
-  color: #202020 !important;
+  color: #33475B !important;
   font-size: 34px;
   font-weight: bold !important;
   max-width: 16em;
@@ -9463,7 +9503,7 @@ video {
   line-height: 46px;
 }
 .devlop-kotlin2 p {
-  color: #404040;
+  color: #33475B;
   font-size: 19px;
   font-weight: 400 !important;
   max-width: 38em;
@@ -9501,15 +9541,15 @@ video {
 }
 .support-modern1 h2 {
   font-size: 34px;
-  font-weight: 700;
-  color: #202020;
+  font-weight: bold;
+  color: #33475B;
   line-height: 46px;
 }
 .support-modern1 span {
   color: #125f86;
 }
 .support-modern1 p {
-  color: #404040;
+  color: #33475B;
   font-size: 19px;
   font-weight: 400;
   margin-top: 12px;
@@ -9523,7 +9563,7 @@ video {
   margin-left: 8px;
 }
 .icon-kot h5 {
-  color: #202020;
+  color: #33475B;
   font-size: 19px;
   font-weight: 600;
   border-bottom: 2px solid #085881;
@@ -9563,14 +9603,14 @@ video {
   margin-left: 30px;
 }
 .box-kotlin h4 {
-  color: #202020;
-  font-weight: 700;
+  color: #33475B;
+  font-weight: bold;
   font-size: 16px;
   margin-top: 20px;
 }
 .box-kotlin p {
   margin-top: 20px;
-  color: #404040;
+  color: #33475B;
   font-weight: 500;
   font-size: 15px;
 }
@@ -9597,8 +9637,8 @@ video {
 }
 .support-img2 h2 {
   font-size: 34px;
-  color: #202020 !important;
-  font-weight: 700 !important;
+  color: #33475B !important;
+  font-weight: bold !important;
   line-height: 46px;
 }
 .support-img2 span {
@@ -9606,7 +9646,7 @@ video {
 }
 .support-img2 h5 {
   font-size: 19px;
-  color: #202020;
+  color: #33475B;
   margin-top: 25px;
   font-weight: 600;
 }
@@ -9616,7 +9656,7 @@ video {
 .para-ts p {
   font-weight: 500;
   font-size: 17.5px;
-  color: #404040 !important;
+  color: #33475B !important;
 }
 .box-imhj .box-top {
   width: 25px;
@@ -9638,14 +9678,14 @@ video {
   max-width: 42em;
   width: 100%;
   font-size: 18px;
-  color: #404040;
+  color: #33475B;
   font-weight: 500;
   line-height: 29px;
 }
 .why-kotlinUse1 h2 {
-  color: #202020;
+  color: #33475B;
   font-size: 34px;
-  font-weight: 700;
+  font-weight: bold !important;
 }
 .kotlinContent-box {
   width: 330px;
@@ -9655,9 +9695,9 @@ video {
   margin-top: 40px;
 }
 .kotlinContent-box h3 {
-  color: #202020;
+  color: #33475B !important;
   font-size: 17.5px;
-  font-weight: 700;
+  font-weight: bold;
 }
 .kotlinContent-para p {
   font-weight: 500;
@@ -9680,13 +9720,13 @@ video {
   max-width: 100%;
 }
 .profis-kotlin2 h2 {
-  color: #202020;
+  color: #33475B;
   font-size: 34px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 46px;
 }
 .profis-kotlin2 p {
-  color: #202020;
+  color: #33475B;
   font-size: 16px;
   font-weight: 400;
   margin-top: 20px;
@@ -9781,9 +9821,9 @@ video {
   margin-left: 15px;
 }
 .affordable_shopify1 h2 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 34px;
-  color: #202020;
+  color: #33475B;
   line-height: 46px;
   width: 15em;
   max-width: 100%;
@@ -9808,7 +9848,7 @@ video {
 .affordable_shopify1 p {
   font-weight: 400;
   font-size: 19px;
-  color: #404040;
+  color: #33475B;
   width: 40em;
   max-width: 100%;
   line-height: 32px;
@@ -9861,9 +9901,9 @@ video {
   margin-top: -20px;
 }
 .shopify-scalability1 h2 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 34px;
-  color: #202020;
+  color: #33475B;
   line-height: 46px;
   width: 15em;
   max-width: 100%;
@@ -9893,7 +9933,7 @@ video {
   margin-left: 10px;
   font-size: 19px;
   font-weight: 500;
-  color: #404040;
+  color: #33475B;
 }
 .scale-box4 {
   position: relative;
@@ -9910,7 +9950,7 @@ video {
   width: 38px;
 }
 .paper2 .shop_top {
-  color: #404040;
+  color: #33475B;
   font-weight: 500;
   font-size: 19px;
   text-align: center;
@@ -9925,9 +9965,9 @@ video {
   background-color: #f8f9fc;
 }
 .why_chose_shopify h2 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 34px;
-  color: #202020;
+  color: #33475B;
   line-height: 46px;
   text-align: center;
   max-width: 100%;
@@ -9957,14 +9997,14 @@ video {
   width: 41px;
 }
 .team_para h4 {
-  color: #404040;
+  color: #33475B;
   font-weight: 600;
   font-size: 25px;
   margin-left: 15px;
 }
 .team_para p {
   font-weight: 400;
-  color: #404040;
+  color: #33475B;
   font-size: 19px;
   line-height: 28px;
   margin-top: 18px;
@@ -9980,9 +10020,9 @@ video {
   width: 100%;
 }
 .shopify_benifits h2 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 34px;
-  color: #202020;
+  color: #33475B;
   text-align: center;
   opacity: 0.9;
 }
@@ -10003,7 +10043,7 @@ video {
 .shopify_benifits_box h4 {
   text-align: center;
   margin-top: 15px;
-  color: #202020;
+  color: #33475B;
   font-size: 19px;
   font-weight: 500;
 }
@@ -10047,9 +10087,9 @@ video {
   background-color: #ffffff;
 }
 .shopify-work h2 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 34px;
-  color: #202020;
+  color: #33475B;
   text-align: center;
   opacity: 0.9;
 }
@@ -10178,7 +10218,7 @@ video {
 .app_store_para p {
   font-weight: 500 !important;
   font-size: 16px;
-  color: #202020;
+  color: #33475B;
   width: 35em;
   max-width: 100%;
   line-height: 28px;
@@ -10203,13 +10243,13 @@ video {
   width: 100%;
 }
 .work_speaks .testi_p {
-  color: #202020;
+  color: #33475B;
   font-size: 34px;
   font-weight: 600;
   text-align: center;
 }
 .work_speaks .testi_s {
-  color: #202020;
+  color: #33475B;
   font-weight: 400;
   font-size: 21px;
   text-align: center;
@@ -10274,7 +10314,7 @@ video {
 .about-website2 .testi8 {
   font-weight: 500;
   font-size: 16px;
-  color: #202020;
+  color: #33475B;
   line-height: 28px;
   width: 34em;
   max-width: 100%;
@@ -10336,9 +10376,9 @@ video {
 }
 .client_testimonials h2 {
   text-align: center;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 34px;
-  color: #202020;
+  color: #33475B;
   opacity: 96%;
 }
 .client_testimonials .splide__arrows {
@@ -10354,6 +10394,7 @@ video {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+  color: #33475B;
 }
 .clients_testi {
   display: flex;
@@ -10400,10 +10441,10 @@ video {
 .client_testi2 h4 {
   font-weight: 600;
   font-size: 28.5px;
-  color: #000000;
+  color: #33475B;
 }
 .client_testi2 p {
-  color: #000000;
+  color: #33475B;
   font-size: 16px;
   font-weight: 400;
   width: 35em;
@@ -10447,23 +10488,23 @@ video {
   padding-top: 100px;
 }
 .process_bigt h2 {
-  color: #202020;
+  color: #33475B;
   font-size: 34px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 46px;
   padding: 0px 100px;
 }
 .why_bigt1 h2 {
-  color: #202020;
+  color: #33475B;
   font-size: 34px;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 46px;
 }
 .why_bigt1 {
   margin-right: 20px;
 }
 .why_bigt1 p {
-  color: #404040;
+  color: #33475B;
   font-weight: 400;
   font-size: 19.5px;
   width: 38.5em;
@@ -10632,8 +10673,8 @@ video {
   padding: 90px 100px;
 }
 .magento_service1 h2 {
-  color: #202020;
-  font-weight: 700;
+  color: #33475B;
+  font-weight: bold;
   font-size: 34px;
   line-height: 44px;
 }
@@ -10643,7 +10684,7 @@ video {
 .magento_service1 p {
   font-weight: 400;
   font-size: 19px;
-  color: #404040;
+  color: #33475B;
   width: 34em;
   max-width: 100%;
   margin-top: 10px;
@@ -10685,8 +10726,8 @@ video {
   width: 100%;
 }
 .magento_services2 h2 {
-  color: #202020;
-  font-weight: 700;
+  color: #33475B;
+  font-weight: bold;
   font-size: 34px;
   line-height: 44px;
 }
@@ -10694,8 +10735,9 @@ video {
   color: #085881;
 }
 .magento_services2 p {
-  color: #404040;
-  font-weight: 500;
+  color: #33475B;
+  font-weight: 400;
+  /* font-weight: 500; */
   font-size: 19px;
   line-height: 30px;
   width: 44em;
@@ -10706,10 +10748,10 @@ video {
   padding: 60px 100px;
 }
 .magento_tech h2 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 34px;
   line-height: 44px;
-  color: #202020;
+  color: #33475B;
   text-align: center;
 }
 .magent_navbar {
@@ -10764,7 +10806,7 @@ video {
   text-align: center;
   font-weight: 400;
   font-size: 19px;
-  color: #202020;
+  color: #33475B;
   margin-top: 3px;
 }
 .magento_box img {
@@ -10885,7 +10927,7 @@ video {
   font-weight: 500;
   font-size: 34px;
   line-height: 46px;
-  color: #202020;
+  color: #33475B;
   opacity: 96%;
   text-align: center;
 }
@@ -10927,7 +10969,7 @@ video {
   justify-content: center;
 }
 .who_left h4{
-   color: #202020;
+   color: #33475B;
    font-size: 27.5px;
    font-weight: 500;
 }
@@ -10946,7 +10988,7 @@ video {
 .who_com_box p{
   font-weight: 400;
   font-size: 15.5px;
-  color: #404040;
+  color: #33475B;
   margin-top: 10px;
   line-height: 26px;
 }
@@ -11020,7 +11062,8 @@ video {
   border-radius: 5px;
 }
 .solution_test_box h5{
-  color: #202020;
+  /* color: #202020; */
+  color: #33475B;
   font-weight: 500;
   font-size: 19.5px;
   padding: 0px 25px;
@@ -11028,7 +11071,7 @@ video {
 .solution_test_box h1{
   font-size: 48px;
   font-weight: 600;
-  color: #202020;
+  color: #33475B;
   padding: 0px 40px;
 }
 .soution_test_box1{
@@ -11056,7 +11099,7 @@ video {
   font-size: 14px;
   color: #202020;
   font-weight: 500;
-  color: #202020;
+  color: #33475B;
 }
 /* .solution_test_box ul li{
   list-style-type: disc;
@@ -11381,9 +11424,9 @@ video {
   background-color: #FDF4CF;
 }
 .at_kushel{
-  color: #202020;
+  color: #33475B;
   font-size: 19px;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 0;
   opacity: 0.9;
   text-align: center;
@@ -11817,6 +11860,7 @@ video {
   width: 2px;
   background-color: #CBD6E2;
   margin-top: 8px;
+  margin-left: 10px;
 }
 .body_right img{
   max-width: 545px;

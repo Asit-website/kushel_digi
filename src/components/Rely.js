@@ -134,7 +134,7 @@ const Rely = () => {
           <div className="challenge-story1">
             <h3 className="nila">02</h3>
             <h3>
-              Challenges <br /> & Solutions
+              Challenges  & Solutions
             </h3>
           </div>
           <div className="challenge-story2 flex">
