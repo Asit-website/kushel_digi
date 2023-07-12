@@ -11597,6 +11597,11 @@ video {
   outline: none;
   margin-top: 30px;
 }
+.your_team2 button:hover{
+  background-color: #085881;
+  border: none;
+  color: #FFFFFF;
+}
 .testimonials-card{
   display: flex;
   align-items: center;

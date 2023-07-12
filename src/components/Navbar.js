@@ -78,7 +78,7 @@ const Navbar = () => {
 
           <div className="navbar-text desk-nav">
             <ul>
-              <li className="mar">
+             <NavLink to="/about1"><li className="mar">
                 <div className="flex items-center cursor-pointer nb-0 navLinks">
                   <p className="sar" to="/about">
                     about us
@@ -132,8 +132,8 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-              </li>
-              <li className="mar">
+              </li></NavLink>
+             <NavLink to="/service1"> <li className="mar">
                 <div
                   className="flex items-center cursor-pointer nb-0 navLinks"
                 >
@@ -351,7 +351,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-              </li>
+              </li></NavLink>
               <li className="mar">
                 <div className="flex items-center cursor-pointer">
                   <p className="sar" to="">
