@@ -227,11 +227,19 @@ const Kickiz = () => {
           </ul>
         </div>
 
-        <div className="challenge-ziz">
+        {/* <div className="challenge-ziz">
           <div className="challenge-ziz-sect">
             <img src={kick5} alt="" />
           </div>
-        </div>
+        </div> */}
+
+        <div className="bg-video-wrap">
+    <video src="/static/images/rima.mp4" loop muted autoPlay>
+    </video>
+    <div className="overlay">
+    </div>
+    <img className="kini" src={kick5} alt="" />
+  </div>
 
         <div className="azib">
           <div className="azib1">

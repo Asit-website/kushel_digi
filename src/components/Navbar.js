@@ -25,101 +25,13 @@ const Navbar = () => {
   // const [flag10, setFlag10] = useState(false);
   var flag10 = false;
   var [flag11, setFlag11] = useState(false);
-
   const toggleMenu = () => {
     document.querySelector(".mob-nav2").classList.toggle("mob-nav2-active");
   };
-  const toggleMenu1 = () => {
-    document.querySelector(".mob-nav2").classList.add("mob-nav2-active");
-  };
-  const toggleService = () => {
-    // document.querySelector(".hire-nav").classList.remove("hidden");
-    // document.querySelector(".ser-nav").classList.toggle("hidden");
-    setFlag11(true);
-    clearTimeout(st);
-    // document.querySelector(".ser-nav10").classList.toggle("hidden");
-    let b1 = document.querySelector(".ser-nav");
-    if (b1.classList.contains("hidden")) {
-      b1.classList.remove("hidden");
-    }
-  };
-
-  // ====================hire dropdown logic start================
-  const toggleHire = () => {
-    // document.querySelector(".hire-nav").classList.toggle("hidden");
-    setFlag11(true);
-    clearTimeout(st);
-    // document.querySelector(".ser-nav10").classList.toggle("hidden");
-    let b1 = document.querySelector(".hire-nav");
-    if (b1.classList.contains("hidden")) {
-      b1.classList.remove("hidden");
-    }
-  };
-
-  const toggleService23 = (flag = false) => {
-    console.log(flag10);
-    // document.querySelector(".ser-nav10").classList.toggle("hidden");
-    st = setTimeout(() => {
-      let b1 = document.querySelector(".hire-nav");
-      // if(((!b1.classList.contains('hidden') && !flag10) || flag) && !flag11)
-      if ((!b1.classList.contains("hidden") && !flag10) || flag) {
-        b1.classList.add("hidden");
-      }
-    }, 400);
-  };
-  // ============================hire dropdown logic end==================
-
-  // ============service dropdown logic======================
   const toggleService1 = () => {
     console.log("yes");
     document.querySelector(".ser-nav-mob").classList.toggle("hidden");
   };
-
-  const toggleService22 = (flag = false) => {
-    console.log(flag10);
-    // document.querySelector(".ser-nav10").classList.toggle("hidden");
-
-    st = setTimeout(() => {
-      let b1 = document.querySelector(".ser-nav");
-      // if(((!b1.classList.contains('hidden') && !flag10) || flag) && !flag11)
-      if ((!b1.classList.contains("hidden") && !flag10) || flag) {
-        b1.classList.add("hidden");
-      }
-    }, 400);
-  };
-  // =====================service dropdown logic end=================
-
-  // =====================about us dropdown logic=====================
-  const toggleService2 = () => {
-    document.querySelector(".ser-nav10").classList.toggle("hidden");
-  };
-
-  // ====================about us dropdown logic end=====================
-
-  // ==============resources dropdown logic start==============
-  const toggleService3 = () => {
-    // document.querySelector(".ser-nav-resource").classList.toggle("hidden");
-    setFlag11(true);
-    clearTimeout(st);
-    let b1 = document.querySelector(".ser-nav-resource");
-    if (b1.classList.contains("hidden")) {
-      b1.classList.remove("hidden");
-    }
-  };
-
-  const toggleService24 = (flag = false) => {
-    console.log(flag10);
-    // document.querySelector(".ser-nav10").classList.toggle("hidden");
-    st = setTimeout(() => {
-      let b1 = document.querySelector(".ser-nav-resource");
-      // if(((!b1.classList.contains('hidden') && !flag10) || flag) && !flag11)
-      if ((!b1.classList.contains("hidden") && !flag10) || flag) {
-        b1.classList.add("hidden");
-      }
-    }, 400);
-  };
-
-  // ====================resources dropdown logic end=============
   return (
     <>
       <div id="header1" className="overflow-auto w-full">
@@ -166,7 +78,7 @@ const Navbar = () => {
 
           <div className="navbar-text desk-nav">
             <ul>
-              <li className="mar">
+             <NavLink to="/about1"><li className="mar">
                 <div className="flex items-center cursor-pointer nb-0 navLinks">
                   <p className="sar" to="/about">
                     about us
@@ -220,8 +132,8 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-              </li>
-              <li className="mar">
+              </li></NavLink>
+             <NavLink to="/service1"> <li className="mar">
                 <div
                   className="flex items-center cursor-pointer nb-0 navLinks"
                 >
@@ -439,7 +351,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-              </li>
+              </li></NavLink>
               <li className="mar">
                 <div className="flex items-center cursor-pointer">
                   <p className="sar" to="">

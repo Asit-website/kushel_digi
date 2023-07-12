@@ -1,22 +1,16 @@
 @font-face {
- font-family: 'Value Sans Pro';
- src: local("ValueSansPro-Regular"),
-   url("./font/ValueSansPro-Regular.ttf") format("truetype");
+ font-family: 'Proxima Nova';
+ src: local("ProximaNova-Regular"),
+   url("./font/ProximaNova-Regular.otf") format("truetype");
 }
-@font-face {
-  font-family: 'Value Sans Medium';
-  src: local("ValueSansPro-Medium"),
-    url("./font/ValueSansPro-Medium.ttf") format("truetype");
- }
-
  @font-face {
-  font-family: 'Value Sans Bold';
-  src: local("ValueSansPro-Bold"),
-    url("./font/ValueSansPro-Bold.ttf") format("truetype");
+  font-family: 'Proxima Nova Bold';
+  src: local("ProximaNova-Bold"),
+    url("./font/Proxima\ Nova\ Bold.otf") format("truetype");
  }
  
 *{
-  font-family: Value Sans Pro;
+  font-family: 'Proxima Nova';
 } 
 
 

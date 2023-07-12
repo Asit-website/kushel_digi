@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import pick from "../images/pick.png";
 import pick1 from "../images/pick1.png";
 import angrag from "../images/angrag.png";
@@ -9,22 +9,22 @@ import stepback from "../images/stepback.png";
 import stepback1 from "../images/stepback1.png";
 // import azib from '../images/azib.png';
 import arrow4 from "../images/arrow4.png";
-import conjun from '../images/conjun.png';
-import azib2 from '../images/azib2.png';
-import azib3 from '../images/azib3.png'
-import azib4 from '../images/azib4.png'
+import conjun from "../images/conjun.png";
+import azib2 from "../images/azib2.png";
+import azib3 from "../images/azib3.png";
+import azib4 from "../images/azib4.png";
 import { NavLink } from "react-router-dom";
 import trackent2 from "../images/trackent2.png";
-import relyBanner2 from '../images/relyBanner2.jpg';
-import relyBanner3 from '../images/relyBanner3.jpg';
-import relyBanner4 from '../images/relyBanner4.jpg';
-import relyBanner5 from '../images/relyBanner5.jpg';
-import relyBanner6 from '../images/relyBanner6.jpg';
-import laptop1 from '../images/laptop1.png';
+import relyBanner2 from "../images/relyBanner2.jpg";
+import relyBanner3 from "../images/relyBanner3.jpg";
+import relyBanner4 from "../images/relyBanner4.jpg";
+import relyBanner5 from "../images/relyBanner5.jpg";
+import relyBanner6 from "../images/relyBanner6.jpg";
+import laptop1 from "../images/laptop1.png";
 const Rely = () => {
   return (
     <>
-           <div className="ser-main">
+      <div className="ser-main">
         <div className="kick-back kick-back3">
           <div className="kick-sect">
             <img src={trackent2} alt="kick" />
@@ -35,9 +35,10 @@ const Rely = () => {
             <div className="kick-box">
               <h4>RELY INNOVATION</h4>
               <p className="kick-para">
-              {/* SOLENOID NINJA Premium, Made in America recoil pads and accessories
+                {/* SOLENOID NINJA Premium, Made in America recoil pads and accessories
                 to make your shooting experience more comfortable. */}
-                Get peace of mind. install alarms that not only notify you of danger, but also clearly instructs you on what to do next.
+                Get peace of mind. install alarms that not only notify you of
+                danger, but also clearly instructs you on what to do next.
               </p>
               <div className="kick-sard flex items-center mt-10">
                 <div className="kick-fard">
@@ -53,13 +54,19 @@ const Rely = () => {
               </div>
               <div className="visit-kart mt-10">
                 <p>Visit Website</p>
-               <a href="https://rely.mybigcommerce.com/" target='_blank'><p className="kinza">www.rely.mybigcommerce.com/</p></a>
+                <a href="https://rely.mybigcommerce.com/" target="_blank">
+                  <p className="kinza">www.rely.mybigcommerce.com/</p>
+                </a>
               </div>
             </div>
           </div>
           <div className="kick-second relative">
-          <div className="about165">
-            <img className=" absolute about161 animate__animated animate__pulse animate__infinite" src={angrag} alt="" />
+            <div className="about165">
+              <img
+                className=" absolute about161 animate__animated animate__pulse animate__infinite"
+                src={angrag}
+                alt=""
+              />
             </div>
             <img className=" relative z-10" src={laptop1} alt="" />
           </div>
@@ -110,8 +117,16 @@ const Rely = () => {
             </div>
           </div>
           <div className="step-images flex items-center justify-center mt-20">
-            <img className="stepback solenoid-stepback1" src={relyBanner2} alt="stepback" />
-            <img className="stepback1 solenoid-stepback1" src={relyBanner3} alt="stepback1" />
+            <img
+              className="stepback solenoid-stepback1"
+              src={relyBanner2}
+              alt="stepback"
+            />
+            <img
+              className="stepback1 solenoid-stepback1"
+              src={relyBanner3}
+              alt="stepback1"
+            />
           </div>
         </div>
 
@@ -180,10 +195,16 @@ const Rely = () => {
           </div>
         </div>
 
-        <div className="challenge-ziz">
+        {/* <div className="challenge-ziz">
           <div className="challenge-ziz-sect">
             <img src={trackent2} alt="track" />
           </div>
+        </div> */}
+
+        <div className="bg-video-wrap">
+          <video src="/static/images/rely.mp4" loop muted autoPlay></video>
+          <div className="overlay"></div>
+          <img className="kini" src={trackent2} alt="trackent2" />
         </div>
 
         <div className="azib">
@@ -213,17 +234,17 @@ const Rely = () => {
                   standard dummy text ever since.
                 </p>
                 <div className="azib-tech">
-                    <h3>Technologies Used</h3>
-                    <img className="conjun" src={conjun} alt="" />
+                  <h3>Technologies Used</h3>
+                  <img className="conjun" src={conjun} alt="" />
                 </div>
               </div>
             </div>
 
-              <div className="azib-images flex items-center justify-center">
-                  <img className='soling1' src={relyBanner4} alt="" />
-                  <img className='soling1' src={relyBanner5} alt="" />
-                  <img className='soling1' src={relyBanner6} alt="" />
-              </div>
+            <div className="azib-images flex items-center justify-center">
+              <img className="soling1" src={relyBanner4} alt="" />
+              <img className="soling1" src={relyBanner5} alt="" />
+              <img className="soling1" src={relyBanner6} alt="" />
+            </div>
           </div>
         </div>
 
@@ -248,15 +269,17 @@ const Rely = () => {
               You can send us the details of your project, and a member of our
               team will contact you shortly.
             </p>
-          <NavLink to="/contact"><button>
-              Request A Call{" "}
-              <img width={13} className=" inline ml-2" src={arrow4} alt="" />
-            </button></NavLink>
+            <NavLink to="/contact">
+              <button>
+                Request A Call{" "}
+                <img width={13} className=" inline ml-2" src={arrow4} alt="" />
+              </button>
+            </NavLink>
           </div>
         </div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Rely
+export default Rely;

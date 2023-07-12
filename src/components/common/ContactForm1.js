@@ -8,14 +8,12 @@ const ContactForm1 = () => {
     service: "",
     message: "",
   });
-
   const handleChange = (e) => {
     setValue({ ...value, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     const res = await fetch("http://localhost:5000/contact", {
       method: "POST",
       headers: {
@@ -105,7 +103,7 @@ const ContactForm1 = () => {
               <div className="contactus-form__input">
                 <button>
                   Submit{" "}
-                  <img width={14} className=" inline ml-1.5" src={Arrow} alt="" />
+                  <img width={14} className="inline ml-1.5" src={Arrow} alt="" />
                 </button>
               </div>
             </form>
