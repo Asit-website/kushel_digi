@@ -184,10 +184,16 @@ const Ceo = () => {
           </div>
         </div>
 
-        <div className="challenge-ziz">
+        {/* <div className="challenge-ziz">
           <div className="challenge-ziz-sect">
             <img src={wheels} alt="track" />
           </div>
+        </div> */}
+
+        <div className="bg-video-wrap">
+          <video src="/static/images/wheels.mp4" loop muted autoPlay></video>
+          <div className="overlay"></div>
+          <img className="kini kini1" src={wheels} alt="trackent2" />
         </div>
 
         <div className="azib">

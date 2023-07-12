@@ -47,6 +47,8 @@ import Shopify from "./components/Shopify";
 import Magento from "./components/Magento";
 import WooCommerce from "./components/WooCommerce";
 import Php from "./components/Php";
+import About1 from "./components/About1";
+import Services1 from "./components/Services1";
 
 function App() {
   return (
@@ -56,8 +58,10 @@ function App() {
           <Navbar />
           <Routes>
             <Route  path="/*" element={<Home />} />
+            <Route path="/about1" element={<About1/>}/>
             <Route path="/contact" element={<Contact />} />
             <Route path="/staff-augmentation" element={<StafArgu />} />
+            <Route path="/service1" element={<Services1/>}/>
             <Route path="/ecommerce-solutions-usa" element={<Services />} />
             <Route
               path="/mobile-application-development-usa"

@@ -6,6 +6,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  /* font-family: 'Proxima Nova' !important; */
   font-family: "Manrope", sans-serif !important;
 }
 /* html{
@@ -88,6 +89,7 @@ body {
   font-size: 16px;
   margin-left: 10px;
   font-family: "Manrope", sans-serif !important;
+
 }
 
 .noida img {
@@ -870,8 +872,9 @@ form button {
 
 .foot {
   background-image: url("./images/footer.png");
-  background-color: #085881;
+  /* background-color: #085881; */
   width: 100%;
+  background-color: #FFFFFF;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -896,7 +899,8 @@ form button {
 }
 
 .second-footer p {
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #33475B;
   font-family: "Prompt", sans-serif !important;
   font-weight: 400;
   font-size: 20px;
@@ -1057,15 +1061,14 @@ form button {
 /* ==================staff argumention css end===================== */
 
 /* =============== Home Css Start =============== */
-.home1 {
-  background-color: #e8f0f7;
-}
 .home1111 .welcome {
   font-family: "Manrope", sans-serif !important;
   font-weight: 500 !important;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 19.5px;
+  color: #33475B;
+  font-weight: 700;
 }
 .home1111 span {
   font-weight: 400 !important;
@@ -1074,19 +1077,19 @@ form button {
   font-size: 19.5px;
 }
 .home1111 h2 {
-  font-size: 44px; /* pehle 45 aur 55 tha*/
-  line-height: 54px;
+  font-size: 42px; /* pehle 45 aur 55 tha*/
+  line-height: 58px;
   font-weight: 800 !important;
-  color: #000000;
+  color: #33475B;
   margin-top: 10px;
 }
 
 .home1111 .tokin {
-  font-size: 16px;
+  font-size: 19px;
   font-weight: 400;
   margin-top: 12px;
   font-family: "Manrope", sans-serif !important;
-  color: #000000;
+  color: #33475B;
   width: 29em;
   max-width: 100%;
 }
@@ -1111,9 +1114,8 @@ form button {
 
 .home1 {
   height: 38rem;
-  background: url("../public/static/images/b16.png") no-repeat center
-    center/cover;
   position: relative;
+  z-index: 2;
 }
 
 .home1::before {
@@ -1122,8 +1124,12 @@ form button {
   width: 100%;
   position: absolute;
   top: 0;
+  bottom: 0px;
+  opacity: 40%;
   left: 0;
-  background: #3c84cb1a;
+  right: 0px;
+  background-color: #F5F5FA;
+  z-index: -1;
 }
 
 .home11 {
@@ -1185,14 +1191,13 @@ form button {
 .home211 h3 {
   font-size: 28px;
   line-height: 38px;
-  font-weight: 600;
+  font-weight: bold !important;
   margin-top: 10px;
-  /* font-family: "Value Sans Medium" !important; */
-  color: #010c1e;
+  color: #33475B !important;
 }
 
 .home211 p {
-  color: #404040;
+  color: #33475B !important;
   font-size: 19px;
   font-weight: 400;
   margin-top: 10px;
@@ -1200,6 +1205,13 @@ form button {
 .home211 img {
   width: 350px;
   max-width: 100%;
+}
+.home311 h1{
+  color: #33475B !important;
+  font-weight: bold !important;
+}
+.home311 span{
+  font-weight: 400 !important;
 }
 .android-funst {
   align-items: flex-start !important;
@@ -1419,8 +1431,9 @@ form button {
   margin: 5px 0px;
 }
 .flex-thing p {
-  color: #000000;
+  /* color: #000000; */
   /* font-family: "Value Sans Medium" !important; */
+  color: #33475B ;
   font-size: 19px;
   font-weight: 500;
   text-transform: uppercase;
@@ -1485,7 +1498,7 @@ form button {
 .home711 h1 {
   font-size: 35px;
   font-weight: bold;
-  color: #101010;
+  color: #33475B;
   opacity: 0.8;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -1530,8 +1543,9 @@ form button {
 
 .d-card11 h5 {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.2vmax;
+  color: #33475B;
 }
 
 .d-card12 p {
@@ -1547,9 +1561,9 @@ form button {
 
 .home8 h2 {
   font-size: 34px;
-  font-weight: 700;
+  font-weight: bold !important;
   /* font-family: "Value Sans Medium" !important; */
-  color: #101010;
+  color: #33475B !important;
   text-transform: uppercase;
   opacity: 0.8;
   letter-spacing: 0.1em;
@@ -1749,13 +1763,18 @@ form button {
 
 /* ===================testi start=============== */
 .testimonials {
-  padding: 60px 100px;
+  padding: 100px 100px;
   background-color: #f5f9fc;
   display: flex;
-  align-items: start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
-
+.first-testimonials{
+  margin-right: 20px;
+}
+.second-testimonials{
+  margin-left: 20px;
+}
 .first-testimonials .tas {
   color: #101010;
   opacity: 0.5;
@@ -1766,10 +1785,9 @@ form button {
 }
 
 .first-testimonials .happy {
-  color: #101010;
-  /* font-family: "Value Sans Medium" !important; */
+  color: #33475B;
   font-size: 35px;
-  font-weight: 500;
+  font-weight: bold;
   opacity: 0.8;
   text-transform: uppercase;
   margin-top: 10px;
@@ -1834,7 +1852,7 @@ form button {
 
 .first-testimonials {
   width: 100%;
-  max-width: 550px;
+  max-width: 490px; /* phele 550px tha */
 }
 
 .excellent {
@@ -1896,9 +1914,9 @@ form button {
 
 .home611 h1 {
   font-size: 35px;
-  opacity: 0.8;
-  color: #101010;
-  font-weight: 700;
+  /* opacity: 0.8; */
+  color: #33475B;
+  font-weight:bold !important;
   letter-spacing: 0.15em;
   /* font-family: "Value Sans Medium" !important; */
 }
@@ -2972,10 +2990,13 @@ form button {
 .home-year11 h1 {
   font-size: 36px;
   line-height: 48px;
-  color: #101010;
-  font-weight: 500;
+  color: #33475B;
+  font-weight: 400;
 }
-
+.ecx{  
+   font-weight: bold !important;
+   color:#33475B !important ;
+}
 .home-year11 h1 span {
   color: #3e73fb;
   font-weight: bold;
@@ -2987,7 +3008,7 @@ form button {
 }
 
 .home-year12 {
-  width: 40rem;
+  width: 36rem;
   margin-left: 2rem;
 }
 
@@ -3688,7 +3709,7 @@ form button:hover {
 
 .foot1 p {
   /* color: wheat; */
-  color: #ffffff;
+  color: #33475B;
 }
 
 .find_us {
@@ -3696,31 +3717,32 @@ form button:hover {
 }
 
 .foot1 a {
-  color: white;
+  color: #33475B;
 }
 
 .foot1 h5 {
-  color: white;
+  color: #33475B;
 }
 
 .foot1 h4 {
-  color: white;
+  color: #33475B;
 }
 
 .foot111 h4 {
   font-size: 19px;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500 !important;
-  color: #ffffff;
+  color: #33475B;
   /* text-transform: capitalize; */
 }
 
 .foot11 h5 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
   margin-bottom: 18px;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 700 !important;
+  color: #33475B;
 }
 
 .foot11 p,
@@ -3732,7 +3754,7 @@ form button:hover {
 }
 
 .foot11 {
-  width: 20%;
+  /* width: 20%; */
   margin-right: 30px;
 }
 
@@ -3771,21 +3793,21 @@ form button:hover {
   font-style: italic;
 }
 
-.foot151 {
+/* .foot151 {
   margin-bottom: 50px;
-}
+} */
 
-.foot13 {
+/* .foot13 {
   width: 15%;
 }
 
 .foot14 {
   width: 25%;
-}
+} */
 
-.foot15 {
+/* .foot15 {
   width: 18%;
-}
+} */
 
 .foot-second-header img {
   width: 40px;
@@ -3813,6 +3835,8 @@ form button:hover {
 
 .foot2 {
   border-top: 1px solid rgba(255, 255, 255, 0.466);
+  background-color: #F5F8FA;
+  padding: 20px 100px;
 }
 
 .foot1 {
@@ -3824,7 +3848,35 @@ form button:hover {
   /* width: auto !important; */
   margin: 0;
 }
-
+/* ===============footer changes css start============ */
+.foot_bottom{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.footer_icon{
+  margin-top: 10px;
+}
+.footer_icon img{
+  width: 32px;
+  margin-right: 10px;
+}
+.bottom1 h3{
+  color: #202020;
+  font-weight: 700;
+  font-size: 19.5px;
+}
+.bottom1 p{
+  color: #A5ACC6;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.bottom1 span{
+  font-style: italic;
+  font-weight: 500;
+}
+/* ===================footer changes css end============== */
 /* ========================nda css end=============================== */
 
 /* ==================our partner css start====================== */
@@ -5797,7 +5849,7 @@ form button:hover {
   transform: translate(-50%, -50%);
 }
 .challenge-ziz-sect img {
-  max-width: 350px;
+  max-width: 350px !important;
   width: 100%;
 }
 .client-apperication {
@@ -7267,9 +7319,9 @@ form button:hover {
 }
 .homeswar h3 {
   font-size: 38px;
-  color: #085881;
+  color: #33475B;
   /* font-family: "Roboto", sans-serif !important; */
-  font-weight: 500;
+  font-weight: bold;
   line-height: 45px;
 }
 .homeswar-flex {
@@ -7384,10 +7436,10 @@ form button:hover {
   background-color: #f2f6fa;
 }
 .home-chin h3 {
-  color: #1d274e;
+  color: #33475B;
   font-size: 34px;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 700;
+  font-weight: bold;
 }
 .chain-cards {
   margin-top: 30px;
@@ -7415,10 +7467,10 @@ form button:hover {
   margin-top: 35px;
 }
 .chain-box h4 {
-  color: #202020;
+  color: #33475B ;
   opacity: 0.9;
   /* font-family: "Value Sans Medium" !important; */
-  font-weight: 500;
+  font-weight: bold !important;
   font-size: 18px;
   text-align: center;
   margin-top: 12px;
@@ -7769,6 +7821,41 @@ form button:hover {
 .prot-img:hover img{
   transform: rotate(180deg);
   transition: all .5s;
+}
+.bg-video-wrap {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  background: url(https://designsupply-web.com/samplecontent/vender/codepen/20181014.png) no-repeat center center/cover;
+}
+video {
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 1;
+}
+.kini{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 3;
+}
+.kini1{
+  max-width: 500px;
+  width: 100%;
+}
+.overlay {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
+  background-size: 3px 3px;
+  z-index: 2;
 }
 .prot p {
   text-align: center;
@@ -11301,7 +11388,504 @@ form button:hover {
   opacity: 0.9;
   text-align: center;
 }
+.btbs-owingg{
+  display: flex;
+  align-items: center;
+}
+.btbs-owingg span{
+  font-weight: 600;
+  color: #1164FF;
+  font-size: 19px;
+}
+.goaltis{
+  width: 38px !important;
+  max-width: 100% !important;
+  margin-left: 10px;
+}
 /* =================php development css end======================== */
+
+/* ==========home page changes css================ */
+.technologies_home{
+  padding: 40px 100px;
+  background-color: #FFFFFF;
+}
+.technologies_home h2{
+  font-weight: 700;
+  font-size: 34px;
+  color: #33475B;
+  text-align: center;
+}
+.technology_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.technology_icon img{
+  margin: 0 42px;
+  width: 48px;
+  height: auto;
+  margin-top: 40px;
+}
+.tect_stack{
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+}
+.tect_stack1 h2{
+  color: #33475B;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 46px;
+}
+.tect_stack1{
+  margin-right: 20px;
+}
+.tect_stack2{
+  margin-left: 40px;
+}
+.tect_stack1 span{
+  font-weight: bold;
+}
+.tect_stack1 .toolinh{
+  color: #1466FF;
+  font-size: 19px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 15px;
+}
+.tect_stack1 p{
+  width: 22em;
+  max-width: 100%;
+  color: #33475B;
+  font-weight: 300;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.tect_stack2 img{
+  max-width: 850px;
+  width: 100%;
+}
+.view_all22{
+  display: block;
+  margin: auto;
+  background-color: #085881;
+  max-width: 190px;
+  width: 100%;
+  height: 54px;
+  color: #FFFFFF;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.view_all22:hover{
+  background-color: #3c83cb !important;
+  transition: .5s;
+}
+.tirVect{
+  display: inline;
+  width: 14px;
+  margin-left: 8px;
+  margin-top: -5px;
+}
+.about1-back{
+  background-image: url('./images/gintas.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding: 0px 100px;
+  position: relative;
+  z-index: 2;
+  padding-top: 90px;
+  padding-bottom: 50px;
+} 
+.about1_sect_head h2{
+  color: #FFFFFF;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 56px;
+}
+.about1_sect_head span{
+  font-weight: bold;
+}
+.about1-sect p{
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 400;
+  width: 28em;
+  max-width: 100%;
+  margin-top: 70px;
+}
+.our_client_think{
+  padding: 80px 100px;
+  background-color: #F3F7FC;
+}
+.our_client_think p{
+  color: #33475B;
+  font-weight: 400;
+  font-size: 32px;
+  text-align: center;
+  width: 28em;
+  display: block;
+  margin: auto;
+}
+.our_client_think span{
+  font-weight: bold;
+}
+.client_think{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.client_thinks{
+ margin: 0 40px;
+
+}
+.client_thinks h2{
+  color: #1365FF;
+  font-weight: bold;
+  font-size: 43px;
+  text-align: center;
+}
+.client_thinks span{
+  display: inline-block;
+  color: #33475B;
+  font-weight: 400;
+  font-size: 21px;
+}
+.your_team{
+  padding: 60px 100px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.your_team1 img{
+ max-width: 330px;
+ width: 100%;
+ margin-left: 40px;
+}
+.your_team2 h2{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 42px;
+}
+.your_team2 span{
+  color: #202020;
+  font-weight: 700;
+  font-size: 19.5px;
+}
+.your_team2 p{
+  font-weight: 400;
+  color: #33475B;
+  font-size: 19px;
+  width: 42em;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.your_team2 button{
+  border: 2px solid #085881;
+  max-width: 175px;
+  width: 100%;
+  height: 45px;
+  font-weight: bold;
+  color: #085881;
+  font-size: 19px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 30px;
+}
+.testimonials-card{
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.testimonial-box{
+ /* margin-right: 14px; */
+ background-color: #ffffff;
+ width: 100%;
+ /* max-width: 425px; */
+}
+/* .testimonial-box img{
+  max-width: 425px;
+  width: 100%;
+} */
+/* .testimonial-box1{
+  margin-left: 7px;
+} */
+.on_site{
+  padding: 15px;
+}
+.on_site h3{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 19.5px;
+  margin-top: 20px;
+}
+.on_site p{
+ color: #33475B;
+ font-weight: 400;
+ font-size: 13px;
+ margin-top: 10px;
+}
+.on_site_btn{
+  max-width: 145px;
+  width: 100%;
+  height: 35px;
+  max-height: 100%;
+  background-color: #F2F6FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.on_site_btn span{
+  color: #33475B;
+  font-size: 11px;
+  font-weight: 400;
+}
+.testimonials .splide__pagination{
+  display: block !important;
+}
+.testimonials .splide__arrows{
+  position: absolute !important;
+  top: -91px !important;
+  right: 0px !important;
+}
+.testimonials .splide__arrow--next{
+  right: 2em !important;
+}
+.testimonials .splide__arrow--prev{
+  right: 10.5em !important;
+}
+/* ===========home page changes css end================ */
+
+/* ===============service page css start================ */
+.serviting_back{
+  background-image: url('./images/servit.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-blend-mode: darken;
+  height: 66vh;
+  position: relative;
+  z-index: 2;
+}
+.serviting_sect{
+  padding: 0px 100px;
+  position: absolute;
+  top: 50%;
+  /* left: 50%; */
+  transform: translate(0%,-50%);
+}
+.serviting_back::before{
+  /* padding: 0px 100px; */
+  background: linear-gradient(91.72deg, #085881 21.83%, rgba(8, 88, 129, 0) 80.21%);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  top: 0px;
+  bottom: 0px;
+  opacity: 50%;
+}
+.serviting_sect h2{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 56px;
+}
+.serviting_sect p{
+  color: #FFFFFF;
+  font-weight: 400;
+  width: 27em;
+  max-width: 100%;
+  font-size: 18.5px;
+  margin-top: 15px;
+}
+.design_web{
+  font-weight: bold !important;
+} 
+.services_solutions{
+  padding-top: 80px;
+  background-color: #ffffff;
+}
+.services_head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 100px;
+}
+.ecom_sot{
+  border-top: 1px solid #1F678D;
+  border-left: 1px solid #1F678D;
+  border-right: 1px solid #1F678D;
+  border-bottom: 4px solid #0B60FF;
+  padding: 22px 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+#punch1{
+  background-color: #1F678D;
+  border-bottom: 4px solid #1F678D;
+}
+#punch1 h2{
+  color: #FFFFFF;
+  opacity: 50%;
+}
+#punch1 h3{
+  color: #FFFFFF;
+}
+.ecom_sot h2{
+  font-weight: bold;
+  font-size: 28.5px;
+  color: #1F678D;
+  opacity: 10%;
+  position: absolute;
+  top: 3px;
+}
+.ecom_sot h3{
+  font-size: 16px;
+  font-weight: bold;
+  color: #1F678D;
+}
+.service_body{
+  background-color: #EFF9F8;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body_left{
+  margin-right: 60px;
+}
+.body_right{
+  margin-left: 60px;
+}
+.body_left h1{
+  font-size: 45px;
+  font-weight: 400;
+  opacity: 50%;
+  color: #1F678D;
+  line-height: 48px;
+}
+.body_left h3{
+  font-weight: 400;
+  color: #1F678D;
+  font-size: 28px;
+}
+.botton_line{
+  height: 48px;
+  width: 2px;
+  background-color: #CBD6E2;
+  margin-top: 8px;
+}
+.alone_para{
+  margin-top: 8px;
+}
+.alone_pars{
+  display: flex;
+  align-items: center;
+  margin: 12px 0px;
+}
+.alone_pars p{
+  color: #33475B;
+  font-weight: 400;
+  cursor: pointer;
+}
+.alone_pat{
+  font-size: 16px;
+}
+.alone_pat1{
+  margin-left: 12px;
+  font-size: 18.5px;
+}
+.botton_line1{
+  height: 130px;
+  width: 2px;
+  background-color: #CBD6E2;
+  margin-top: 8px;
+}
+.body_right img{
+  max-width: 545px;
+  width: 100%;
+  position: relative;
+}
+.body_right button{
+ border: 1px solid #1F678D !important;
+ background-color: #FFFFFF;
+ padding: 8px 15px;
+ font-weight: 400;
+ font-size: 16px;
+ color: #1F678D;
+ cursor: pointer;
+ margin-top: 40px;
+ float: right;
+ border-radius: 4px;
+}
+.body_right button:hover{
+  background-color: #085881;
+  border: none;
+  color: #ffffff;
+}
+.service_footer{
+  background-color: #EFF9F8;
+  padding: 30px 0px;
+  text-align: center;
+}
+.service_footer p{
+  color: #33475B;
+  font-weight: 400;
+  font-size: 16.5px;
+}
+#pehla{
+  font-weight: bold;
+  color: #1F678D;
+}
+#pehla1{
+  font-weight: bold;
+  color: #1F678D;
+}
+#sub1{
+  font-weight: bold;
+  color: #1F678D;
+}
+#tub1{
+  font-weight: bold;
+  color: #1F678D;
+}
+#pub1{
+  font-weight: bold;
+  color: #1F678D;
+}
+#gub1{
+  font-weight: bold;
+  color: #1F678D;
+}
+#mub1{
+  font-weight: bold;
+  color: #1F678D;
+}
+#nub1{
+  font-weight: bold;
+  color: #1F678D;
+}
+#pun1{
+  font-weight: bold;
+  color: #1F678D;
+}
+#gun1{
+  font-weight: bold;
+  color: #1F678D;
+}
+/* ==================service page css end=========== */
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;

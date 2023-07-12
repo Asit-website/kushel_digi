@@ -10,9 +10,9 @@ import sijo1 from "../images/sijo.png";
 import link from "../images/link.png";
 import young3 from "../images/young3.png";
 import github from "../images/github.png";
-import aboutVector from '../images/aboutVector.png';
+import aboutVector from "../images/aboutVector.png";
 import aboutVector1 from "../images/aboutVector1.png";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { AnimationOnScroll } from "react-animation-on-scroll";
 const About = () => {
   const [tab, setTab] = useState(1);
 
@@ -96,7 +96,6 @@ const About = () => {
 
   return (
     <>
-   
       <div className="about-main">
         <div className="about-main1 relative">
           <div className="about-main11 flex justify-start items-center">
@@ -170,7 +169,11 @@ const About = () => {
             <div className="about32">
               {/* <img src="/static/images/e7.png" alt="" /> */}
               <div className="about_vector">
-              <img  className="aboutVector animate__animated animate__pulse animate__infinite" src={aboutVector} alt="" />
+                <img
+                  className="aboutVector animate__animated animate__pulse animate__infinite"
+                  src={aboutVector}
+                  alt=""
+                />
               </div>
               <img className="aboutVector1" src={aboutVector1} alt="" />
             </div>
@@ -230,41 +233,41 @@ const About = () => {
               <br /> keeps us on right path
             </p>
             <div className="about5">
-            <AnimationOnScroll animateIn="animate__pulse">
-              <div className="about51 flex justify-between">
-                <div className="about5-card text-center">
-                  <h4>WE ACT</h4>
-                  <p>Emotional</p>
+              <AnimationOnScroll animateIn="animate__pulse">
+                <div className="about51 flex justify-between">
+                  <div className="about5-card text-center">
+                    <h4>WE ACT</h4>
+                    <p>Emotional</p>
+                  </div>
+                  <div className="about5-card text-center">
+                    <h4>THINK</h4>
+                    <p>Logical</p>
+                  </div>
                 </div>
-                <div className="about5-card text-center">
-                  <h4>THINK</h4>
-                  <p>Logical</p>
-                </div>
-              </div>
               </AnimationOnScroll>
               <AnimationOnScroll animateIn="animate__pulse">
-              <div className="about52 justify-around">
-                <div className="about5-card text-center">
-                  <h4>WE SERVE</h4>
-                  <p>People</p>
+                <div className="about52 justify-around">
+                  <div className="about5-card text-center">
+                    <h4>WE SERVE</h4>
+                    <p>People</p>
+                  </div>
+                  <div className="about5-card text-center">
+                    <h4>WORKING</h4>
+                    <p>Smartlty</p>
+                  </div>
                 </div>
-                <div className="about5-card text-center">
-                  <h4>WORKING</h4>
-                  <p>Smartlty</p>
-                </div>
-              </div>
               </AnimationOnScroll>
               <AnimationOnScroll animateIn="animate__pulse">
-              <div className="about53 justify-evenly">
-                <div className="about5-card text-center mr-4">
-                  <h4>BEING</h4>
-                  <p>Ethical & Humble</p>
+                <div className="about53 justify-evenly">
+                  <div className="about5-card text-center mr-4">
+                    <h4>BEING</h4>
+                    <p>Ethical & Humble</p>
+                  </div>
+                  <div className="about5-card text-center ml-4">
+                    <h4>SOLVE</h4>
+                    <p>Problems</p>
+                  </div>
                 </div>
-                <div className="about5-card text-center ml-4">
-                  <h4>SOLVE</h4>
-                  <p>Problems</p>
-                </div>
-              </div>
               </AnimationOnScroll>
             </div>
           </div>
@@ -668,10 +671,12 @@ const About = () => {
             <div className="about-11">
               <h3>Join the Kushel digi team!</h3>
               <p>
-                Innovate with the latest technologies & get to work
-                on some of the coolest projects you can imagine.
+                Innovate with the latest technologies & get to work on some of
+                the coolest projects you can imagine.
               </p>
-             <NavLink to="/career"><button>Apply Now</button></NavLink>
+              <NavLink to="/career">
+                <button>Apply Now</button>
+              </NavLink>
             </div>
             <div className="about-10">
               <img className="sersa" src="/static/images/e17.png" alt="" />
@@ -680,8 +685,12 @@ const About = () => {
         </div>
         <SmallApproach />
         <ContactForm1 />
+        <div className="bg-video-wrap">
+          <video src="/static/images/rima.mp4" loop muted autoPlay></video>
+          <div className="overlay"></div>
+          <h1>Fullscreen video background</h1>
+        </div>
       </div>
-      
     </>
   );
 };

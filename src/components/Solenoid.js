@@ -184,10 +184,16 @@ const Solenoid = () => {
           </div>
         </div>
 
-        <div className="challenge-ziz">
+        {/* <div className="challenge-ziz">
           <div className="challenge-ziz-sect">
             <img src={trackent1} alt="track" />
           </div>
+        </div> */}
+
+        <div className="bg-video-wrap">
+          <video src="/static/images/say.mp4" loop muted autoPlay></video>
+          <div className="overlay"></div>
+          <img className="kini" src={trackent1} alt="trackent2" />
         </div>
 
         <div className="azib">

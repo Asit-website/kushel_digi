@@ -36,6 +36,7 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
   } from "react-accessible-accordion";
+import { NavLink } from "react-router-dom";
 const Php = () => {
   const [hovered, setHovered] = useState(false);
   const [hovered2, setHovered2] = useState(false);
@@ -453,7 +454,7 @@ const Php = () => {
                 </h4>
               </div>
             </div>
-            <button>HIRE Dedicated PHP team</button>
+           <NavLink to="/hire"><button>HIRE Dedicated PHP team</button></NavLink>
           </div>
         </div>
 

@@ -215,11 +215,20 @@ const ProTrucks = () => {
         </div>
 
 
-        <div className="challenge-ziz">
+        {/* <div className="challenge-ziz">
           <div className="challenge-ziz-sect">
             <img src={trackent} alt="trackent" />
           </div>
-        </div>
+        </div> */}
+
+        <div className="bg-video-wrap">
+    <video src="/static/images/proty.mp4" loop muted autoPlay>
+    </video>
+    <div className="overlay">
+    </div>
+    <img className="kini" src={trackent} alt="" />
+  </div>
+
 
         <div className="azib">
           <div className="azib1">
