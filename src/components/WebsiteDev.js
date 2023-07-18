@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import website from "../images/website.png";
 import reactjs1 from "../images/reactjs.png";
 import htmls from "../images/htmls.png";
@@ -41,6 +41,10 @@ import posis6 from "../images/posis6.png";
 import posis7 from "../images/posis7.png";
 import posis8 from "../images/posis8.png";
 import posis10 from "../images/posis10.png";
+import tweb from "../images/tewb.png";
+import thir1 from "../images/thir1.png";
+import webMinar from "../images/webMinar.png";
+import thir2 from '../images/thir2.png';
 import {
   Accordion,
   AccordionItem,
@@ -73,6 +77,10 @@ const WebsiteDev = () => {
     setStart(!start);
   };
 
+  // const setTab = () =>{
+  //   document.getElementById("img").src=`${thir2}`
+  // }
+
   const [hovered, setHovered] = useState(false);
   const [hovered2, setHovered2] = useState(false);
   const [hovered3, setHovered3] = useState(false);
@@ -81,6 +89,51 @@ const WebsiteDev = () => {
   const [hovered6, setHovered6] = useState(false);
   const [hovered7, setHovered7] = useState(false);
   const [hovered8, setHovered8] = useState(false);
+
+  const [tab,setTab] = useState(1);
+
+  const ChangeImage1 = () =>{
+      setTab(1);
+     document.getElementById("img1").src=`${thir2}`;
+     document.getElementById("img2").src=`${thir1}`;
+     document.getElementById("img3").src=`${thir1}`;
+     document.getElementById("img4").src=`${thir1}`;
+     document.getElementById("img5").src=`${thir1}`;
+  }
+  const ChangeImage2 = () =>{
+    setTab(2);
+    document.getElementById("img1").src=`${thir1}`;
+     document.getElementById("img2").src=`${thir2}`;
+     document.getElementById("img3").src=`${thir1}`;
+     document.getElementById("img4").src=`${thir1}`;
+     document.getElementById("img5").src=`${thir1}`;
+  }
+  const ChangeImage3 = () =>{
+     setTab(3);
+    document.getElementById("img1").src=`${thir1}`;
+     document.getElementById("img2").src=`${thir1}`;
+     document.getElementById("img3").src=`${thir2}`;
+     document.getElementById("img4").src=`${thir1}`;
+     document.getElementById("img5").src=`${thir1}`;
+  }
+
+  const ChangeImage4 = () =>{
+    setTab(4);
+    document.getElementById("img1").src=`${thir1}`;
+    document.getElementById("img2").src=`${thir1}`;
+    document.getElementById("img3").src=`${thir1}`;
+    document.getElementById("img4").src=`${thir2}`;
+    document.getElementById("img5").src=`${thir1}`;
+  }
+
+  const ChangeImage5 = () =>{
+    setTab(5);
+    document.getElementById("img1").src=`${thir1}`;
+    document.getElementById("img2").src=`${thir1}`;
+    document.getElementById("img3").src=`${thir1}`;
+    document.getElementById("img4").src=`${thir1}`;
+    document.getElementById("img5").src=`${thir2}`;
+  }
   return (
     <>
       <div className="ser-main">
@@ -101,8 +154,8 @@ const WebsiteDev = () => {
         <div className="ser2 ser-vertical">
           <div className="ser21 ser23">
             <div className="home412 flex justify-center items-center">
-            <Splide
-              className=" w-full"
+              <Splide
+                className=" w-full"
                 aria-label="Our Services"
                 options={{
                   perPage,
@@ -113,50 +166,55 @@ const WebsiteDev = () => {
                   interval: 1600,
                   drag: true,
                 }}
-            >
-            <SplideSlide>
-              <div className="home4121">
-                <img className=" block m-auto" src={reactjs1} alt="" />
-                <p>REACT JS</p>
-              </div>
-              </SplideSlide>
-              <SplideSlide>
-              <div className="home4121">
-                <img className=" block m-auto" src={htmls} alt="" />
-                <p>HTML 5</p>
-              </div>
-              </SplideSlide>
-              <SplideSlide>
-              <div className="w-full sis  home4121">
-                <img className="block m-auto phpos" src={phpos} alt="" />
-                {/* <p>PHP</p> */}
-              </div>
-              </SplideSlide>
-              <SplideSlide>
-              <div className="w-full sis1  home4121">
-                <img className=" block m-auto nodejs1" src={nodejs1} alt="" />
-                {/* <p>Node</p> */}
-              </div>
-              </SplideSlide>
-              <SplideSlide>
-              <div className="home4121">
-                <img className="block m-auto" src={words} alt="" />
-                <p>Wordpress</p>
-              </div>
-              </SplideSlide>
-              <SplideSlide>
-              <div className="home4121">
-                <img className="block m-auto" src={vuejs1} alt="" />
-                <p>PYTHON</p>
-              </div>
-              </SplideSlide>
+              >
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=" block m-auto" src={reactjs1} alt="" />
+                    <p>REACT JS</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className=" block m-auto" src={htmls} alt="" />
+                    <p>HTML 5</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="w-full sis  home4121">
+                    <img className="block m-auto phpos" src={phpos} alt="" />
+                    {/* <p>PHP</p> */}
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="w-full sis1  home4121">
+                    <img
+                      className=" block m-auto nodejs1"
+                      src={nodejs1}
+                      alt=""
+                    />
+                    {/* <p>Node</p> */}
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className="block m-auto" src={words} alt="" />
+                    <p>Wordpress</p>
+                  </div>
+                </SplideSlide>
+                <SplideSlide>
+                  <div className="home4121">
+                    <img className="block m-auto" src={vuejs1} alt="" />
+                    <p>PYTHON</p>
+                  </div>
+                </SplideSlide>
               </Splide>
             </div>
           </div>
         </div>
         <div className="developments">
           <marquee behavior="scroll" direction="right" scrollamount="20">
-            <img className="dev1" src={developments} alt="developments" />
+            <img className="dev1" src={tweb} alt="developments" />
+            {/* <h1 className="seema">Website design & Development</h1> */}
           </marquee>
 
           <div className="development">
@@ -186,6 +244,167 @@ const WebsiteDev = () => {
               <img src={mobileJi} alt="mobileji" />
             </div>
           </div>
+        </div>
+
+        <div className="why_website">
+          <h2>Why website designing?</h2>
+          <div className="thir_button_flex">
+            <div onClick={ChangeImage1} className="thir_img">
+              <p>Customized design</p>
+              <img id="img1" src={thir2} alt="thir1" />
+            </div>
+            <div onClick={ChangeImage2} className="thir_img">
+              <p>Professionalism</p>
+              <img id="img2" src={thir1} alt="thir1" />
+            </div>
+            <div onClick={ChangeImage3} className="thir_img">
+              <p>Contact & Graphics</p>
+              <img id="img3" src={thir1} alt="thir1" />
+            </div>
+            <div onClick={ChangeImage4} className="thir_img">
+              <p>SEO Service</p>
+              <img  id="img4" src={thir1} alt="thir1" />
+            </div>
+            <div onClick={ChangeImage5} className="thir_img">
+              <p>Website Maintenance</p>
+              <img id="img5" src={thir1} alt="thir1" />
+            </div>
+          </div>
+            
+          <div className="body_website">
+            {
+              tab === 1 && (
+                <>
+                <div className="left_website">
+              <div className="left_web_para">
+                <p>
+                  Your website is representative of your company or
+                  organization's spirit. It should retain the uniqueness of your
+                  brand. To ensure the same, it is best to get a customized
+                  design that a website design company can create for you.
+                </p>
+              </div>
+
+              <div className="left_span">
+                   <span className="left_hire">Here are the benefits of customized website design:</span>
+                   <span>It supports and establishes your brand</span>
+                   <span>It optimized the customer experience</span>
+                   <span>It helps increase SEO optimization</span>
+                   <span>It gives better control over website hosting</span>
+                   <span>It gives better control over website hosting</span>
+              </div>
+            </div>
+                </>
+              )
+            }
+
+            {
+              tab === 2 && (
+                <>
+                <div className="left_website">
+              <div className="left_web_para">
+                <p>
+                  Your website is representative of your company or
+                  organization's spirit. It should retain the uniqueness of your
+                  brand. To ensure the same, it is best to get a customized
+                  design that a website design company can create for you.
+                </p>
+              </div>
+
+              <div className="left_span">
+                   <span className="left_hire">Here are the benefits of customized website design:</span>
+                   <span>It supports and establishes your brand</span>
+                   <span>It optimized the customer experience</span>
+                   <span>It helps increase SEO optimization</span>
+                   <span>It gives better control over website hosting</span>
+                   <span>It gives better control over website hosting</span>
+              </div>
+            </div>
+                </>
+              )
+            }
+          
+            {
+              tab === 3 && (
+                <>
+                <div className="left_website">
+              <div className="left_web_para">
+                <p>
+                  Your website is representative of your company or
+                  organization's spirit. It should retain the uniqueness of your
+                  brand. To ensure the same, it is best to get a customized
+                  design that a website design company can create for you.
+                </p>
+              </div>
+
+              <div className="left_span">
+                   <span className="left_hire">Here are the benefits of customized website design:</span>
+                   <span>It supports and establishes your brand</span>
+                   <span>It optimized the customer experience</span>
+                   <span>It helps increase SEO optimization</span>
+                   <span>It gives better control over website hosting</span>
+                   <span>It gives better control over website hosting</span>
+              </div>
+            </div>
+                </>
+              )
+            }
+
+            {
+              tab === 4 && (
+                <>
+                <div className="left_website">
+              <div className="left_web_para">
+                <p>
+                  Your website is representative of your company or
+                  organization's spirit. It should retain the uniqueness of your
+                  brand. To ensure the same, it is best to get a customized
+                  design that a website design company can create for you.
+                </p>
+              </div>
+
+              <div className="left_span">
+                   <span className="left_hire">Here are the benefits of customized website design:</span>
+                   <span>It supports and establishes your brand</span>
+                   <span>It optimized the customer experience</span>
+                   <span>It helps increase SEO optimization</span>
+                   <span>It gives better control over website hosting</span>
+                   <span>It gives better control over website hosting</span>
+              </div>
+            </div>
+                </>
+              )
+            }
+            {
+              tab === 5 && (
+                <>
+                <div className="left_website">
+              <div className="left_web_para">
+                <p>
+                  Your website is representative of your company or
+                  organization's spirit. It should retain the uniqueness of your
+                  brand. To ensure the same, it is best to get a customized
+                  design that a website design company can create for you.
+                </p>
+              </div>
+
+              <div className="left_span">
+                   <span className="left_hire">Here are the benefits of customized website design:</span>
+                   <span>It supports and establishes your brand</span>
+                   <span>It optimized the customer experience</span>
+                   <span>It helps increase SEO optimization</span>
+                   <span>It gives better control over website hosting</span>
+                   <span>It gives better control over website hosting</span>
+              </div>
+            </div>
+                </>
+              )
+            }
+            <div className="right_website">
+                <img src={webMinar} alt="webMinar" />
+            </div>
+          </div>
+
         </div>
 
         <div className="experience-user">
@@ -337,10 +556,10 @@ const WebsiteDev = () => {
               <h1 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h1>
             </div>
             <div className="home512 flex flex-wrap justify-center mt-10">
-              <PortCard link = "ammed" heading={heading} pads={a9} />
-              <PortCard link = "kick" heading={heading1} pads={pads} />
-              <PortCard link = "protrack" heading={heading2} pads={bds} />
-              <PortCard link = "jones" heading={heading3} pads={jones} />
+              <PortCard link="ammed" heading={heading} pads={a9} />
+              <PortCard link="kick" heading={heading1} pads={pads} />
+              <PortCard link="protrack" heading={heading2} pads={bds} />
+              <PortCard link="jones" heading={heading3} pads={jones} />
             </div>
           </div>
           <div className="home52 w-full text-center"></div>

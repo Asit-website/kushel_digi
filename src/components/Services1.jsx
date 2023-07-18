@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import gitas from "../images/gitas.png";
 import ravia from "../images/ravia.png";
 import vectorsIm from "../images/vectorsIm.png";
+import { NavLink } from "react-router-dom";
 const Services1 = () => {
   const [fat, setFat] = useState(1);
 
@@ -68,8 +69,7 @@ const Services1 = () => {
       }, 50);
     }
   };
-  const tabAnother2 = (e) => {
-    e.preventDefault();
+  const tabAnother2 = () => {
     setFat(2);
     document.getElementById("punch1").style.background = "none";
     document.getElementById("punch2").style.background = "#1F678D";
@@ -125,8 +125,7 @@ const Services1 = () => {
       }, 50);
     }
   };
-  const tabAnother3 = (e) => {
-    e.preventDefault();
+  const tabAnother3 = () => {
     setFat(3);
 
     if (rat === 1) {
@@ -184,7 +183,7 @@ const Services1 = () => {
 
 
   };
-  const tabAnother4 = (e) => {
+  const tabAnother4 = () => {
     setFat(4);
     document.getElementById("punch1").style.background = "none";
     document.getElementById("punch2").style.background = "none";
@@ -236,7 +235,7 @@ const Services1 = () => {
       }, 50);
     }
   };
-  const tabAnother5 = (e) => {
+  const tabAnother5 = () => {
     setFat(5);
     document.getElementById("punch1").style.background = "none";
     document.getElementById("punch2").style.background = "none";
@@ -419,7 +418,6 @@ const Services1 = () => {
   // ========================subMenu1 end===============
 
   // ===================subMenu2=====================
-
   const subMenu11 = () => {
     setSat(1);
 
@@ -551,7 +549,9 @@ const Services1 = () => {
     document.getElementById("sub1111").style.fontWeight = "400";
     document.getElementById("sub11111").style.fontWeight = "bold";
   };
+  // ===================subMenu2 end=======================
 
+  // =====================subMenu3 start==========================
   const subMenu111 = () => {
     setRat(1);
     document.getElementById("pub1").style.color = "#1F678D";
@@ -682,7 +682,10 @@ const Services1 = () => {
     document.getElementById("gub1111").style.fontWeight = "400";
     document.getElementById("gub11111").style.fontWeight = "bold";
   };
+  // =========================subMenu3 end============================
 
+  
+// ================================subMenu4 start======================
   const subMenu1111 = () => {
     setLat(1);
     document.getElementById("mub1").style.color = "#1F678D";
@@ -787,9 +790,9 @@ const Services1 = () => {
     document.getElementById("nub1111").style.fontWeight = "bold";
     
   };
-  // ===================subMenu2 end=======================
+// ===================================subMenu4 end========================
 
-
+// =======================================subMenu5 start===================
   const subMenu11111 = () => {
     setPat(1);
     document.getElementById("pun1").style.color = "#1F678D";
@@ -868,6 +871,9 @@ const Services1 = () => {
    
     
   };
+// =======================================subMenu6 end=======================
+
+
   return (
     <>
       <div className="ser-main">
@@ -960,7 +966,7 @@ const Services1 = () => {
                   <>
                     <div className="body_right">
                       <img src={vectorsIm} alt="gitas" />
-                      <button>Shopify</button>
+                     <NavLink to="/shopify"><button>Shopify</button></NavLink>
                     </div>
                   </>
                 )}
@@ -968,7 +974,7 @@ const Services1 = () => {
                   <>
                     <div className="body_right">
                       <img src={vectorsIm} alt="gitas" />
-                      <button>WooCommerce</button>
+                     <NavLink to="/wooCommerce"><button>WooCommerce</button></NavLink>
                     </div>
                   </>
                 )}
@@ -976,7 +982,7 @@ const Services1 = () => {
                   <>
                     <div className="body_right">
                       <img src={vectorsIm} alt="gitas" />
-                      <button>BigCommerce</button>
+                     <NavLink to="/bigComm"><button>BigCommerce</button></NavLink>
                     </div>
                   </>
                 )}
@@ -984,7 +990,7 @@ const Services1 = () => {
                   <>
                     <div className="body_right">
                       <img src={vectorsIm} alt="gitas" />
-                      <button>Magento</button>
+                     <NavLink to="/magento"><button>Magento</button></NavLink>
                     </div>
                   </>
                 )}
@@ -1105,7 +1111,7 @@ const Services1 = () => {
                   <>
                     <div className="body_right">
                       <img src={vectorsIm} alt="gitas" />
-                      <button>i Phone</button>
+                     <NavLink to="/ios"><button>i Phone</button></NavLink>
                     </div>
                   </>
                 )}
@@ -1114,7 +1120,7 @@ const Services1 = () => {
                   <>
                     <div className="body_right">
                       <img src={vectorsIm} alt="gitas" />
-                      <button>Android</button>
+                     <NavLink to="/android"><button>Android</button></NavLink>
                     </div>
                   </>
                 )}
@@ -1123,7 +1129,7 @@ const Services1 = () => {
                   <>
                     <div className="body_right">
                       <img src={vectorsIm} alt="gitas" />
-                      <button>React Native</button>
+                     <NavLink to="/native"><button>React Native</button></NavLink>
                     </div>
                   </>
                 )}
@@ -1132,7 +1138,7 @@ const Services1 = () => {
                   <>
                     <div className="body_right">
                       <img src={vectorsIm} alt="gitas" />
-                      <button>Fluter</button>
+                     <NavLink to="/fluter"><button>Fluter</button></NavLink>
                     </div>
                   </>
                 )}
@@ -1141,7 +1147,7 @@ const Services1 = () => {
                   <>
                     <div className="body_right">
                       <img src={vectorsIm} alt="gitas" />
-                      <button>Kotlin</button>
+                     <NavLink to="/kotlin"><button>Kotlin</button></NavLink>
                     </div>
                   </>
                 )}
@@ -1266,7 +1272,7 @@ const Services1 = () => {
                   <>
                     <div className="body_right">
                       <img src={vectorsIm} alt="gitas" />
-                      <button>PHP</button>
+                      <NavLink to="/php"><button>PHP</button></NavLink>
                     </div>
                   </>
                 )}

@@ -123,7 +123,7 @@ const Portfolio = () => {
               if you want to be included. We offer the best services, as any of
               our clients would attest.
             </p>
-            <button>Discuss Your Project</button>
+           <NavLink to="/contact"><button>Discuss Your Project</button></NavLink>
           </div>
         </div>
         <div className="portfolio-nav">

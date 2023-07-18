@@ -24,6 +24,14 @@ body {
   justify-content: space-between;
   padding: 12px 100px;
 }
+.seema{
+  font-weight: bold;
+  opacity: 10%;
+  color: #000000;
+  letter-spacing: 4%;
+  font-size: 48px;
+  text-transform: uppercase;
+}
 .toy {
   color: red;
 }
@@ -582,6 +590,7 @@ body {
 .navbar ul li .tart:hover {
   color: none !important;
   border-bottom: none !important;
+  transition: all .5s;
 }
 .navbar ul li a:hover svg {
   color: #0c62ff !important;
@@ -2757,8 +2766,9 @@ form button {
 }
 
 .mobile-app .app {
-  max-width: 830px;
+  /* max-width: 830px; */
   width: 100%;
+  max-width: 660px;
   display: block;
   margin: auto;
   margin-top: 60px;
@@ -3803,10 +3813,13 @@ form button:hover {
 }
 
 .foot151 img {
-  margin-right: 15px;
-  width: 15px;
+  margin-right: 16px;
+  width: 16px;
 }
-
+.foot151 img:hover{
+   transform: scale(.8);
+   transition: .5s;
+}
 .foot15 h5 {
   font-style: italic;
 }
@@ -3881,7 +3894,7 @@ form button:hover {
 }
 .bottom1 h3{
   color: #202020;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 19.5px;
 }
 .bottom1 p{
@@ -4472,13 +4485,14 @@ form button:hover {
 .juy p {
   width: 24em;
   font-size: 19px;
-  color: #404040;
+  color: #33475B;
+  font-weight: 400;
 }
 
 .juy h3 {
-  font-weight: 700;
+  font-weight: bold;
   font-size: 19px;
-  color: #404040;
+  color: #33475B;
   font-style: normal;
   width: 24em;
   margin-top: 20px;
@@ -4590,10 +4604,11 @@ form button:hover {
 }
 
 .developments .dev1 {
-  max-width: 1150px;
+  max-width: 870px;
   display: block;
   margin: auto;
   width: 100%;
+  margin-top: 30px;
 }
 
 .development1 h3 {
@@ -4947,7 +4962,15 @@ form button:hover {
   margin-top: 40px;
   border-radius: 2px;
 }
-
+.loofs-sect1 button:hover{
+  background-color: #3c83cb;
+  transition: .5s;
+  color: #ffffff;
+  border: none;
+}
+.loofs-sect1 button:hover img{
+  filter: invert(1);
+}
 /* =======================our partner css end========================== */
 .kick-back {
   background-image: url("./images/kick1.png");
@@ -6974,7 +6997,10 @@ form button:hover {
   border-radius: 4px;
   margin-top: 35px;
 }
-
+.portis2 button:hover{
+  background-color: #085881;
+  transition: all .5s;
+}
 /* =================portfolio css end============================== */
 
 /* =======================carer with us css start===================== */
@@ -8025,6 +8051,10 @@ video {
   color: #ffffff;
   font-size: 18px;
   font-weight: 400;
+}
+.ios-kickstart button:hover{
+  background-color: #085881;
+  transform-origin: .5S;
 }
 .ios-kickstart button:hover {
   background-color: #3c83cb;
@@ -10556,6 +10586,7 @@ video {
   align-items: flex-start;
   justify-content: space-between;
   padding-top: 5px;
+  /* padding: 40px 0px; */
 }
 .kickta_big1 {
   padding-left: 130px;
@@ -10575,6 +10606,16 @@ video {
   font-size: 52px;
   text-transform: uppercase;
   line-height: 62px;
+}
+.kakiji{
+  position: relative;
+}
+.kickta_big2 img{
+   /* position: fixed;
+   bottom: 0px;
+   max-width: 1000px;
+   width: 100%;
+   right: 0px; */
 }
 .headst_big {
   margin-top: 50px;
@@ -11108,12 +11149,17 @@ video {
 
 /* =================php developemt  css start================= */
 .php-back{
-  padding: 60px 100px;
+  padding: 0px 100px;
+  /* height: 65vh; */
   background-color: #085881;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.php-back1{
+  padding-top: 80px;
+  padding-bottom: 90px;
 }
 .php-back1 h2{
   color: #ffffff;
@@ -11128,26 +11174,402 @@ video {
   font-weight: 400;
   letter-spacing: 0.5px;
   max-width: 100%;
-  margin-top: 20px;
-  width: 25em;
+  margin-top: 25px;
+  width: 29em;
   max-width: 100%;
+  border-left: 1px solid #FFFFFF;
+  padding: 0px 12px;
 }
 .php-back1 button{
-  background-color: #ffffff;
-  width: 300px;
-  max-width: 100%;
-  height: 52px;
-  font-weight: 500;
-  font-size: 16px;
-  margin-top: 40px;
+  background-color: transparent;
+  max-width: 250px;
+  width: 100%;
+  height: 65px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 45px;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+  color: #FFFFFF;
 }
 .php-back1 button:hover{
   background-color: #388fe7;
   color: #ffffff;
+  border: none;
+  transition: all .5s;
 }
 .php-back1 button:hover img{
    filter: invert(1);
 }
+
+  /* ============form css start=============== */
+  .exam_form{
+    background-color: #FFFFFF;
+    width: 650px;
+    max-width: 100%;
+    border-radius: 30px;
+    padding: 40px;
+    position: absolute;
+    top: 50px;
+    right: 95px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+  }
+  .exam_form h3{
+    color: #33475B;
+    font-weight: bold;
+    font-size: 34px;
+  }
+  .exam_form p{
+    color: #33475B;
+    font-weight: 400;
+    font-size: 19px;
+    margin-top: 10px;
+  }
+  .exam_form form{
+    width: 100%;
+    margin-top: 30px;
+  }
+  .exam_form label{
+    display: block;
+    color: #33475B;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .exam_form input{
+    border: 2px solid #085881;
+    color: #33475B;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 14px;
+    opacity: 50%;
+    border-radius: 3px;
+  }
+  .exam_form textarea{
+    height: 160px;
+    max-height: 100%;
+    resize: none;
+    border: 2px solid #085881;
+    color: #33475B;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 14px;
+    opacity: 50%;
+    border-radius: 3px;
+  }
+  .form_exam_btn button{
+    float: right;
+    max-width: 160px;
+    width: 100%;
+    height: 65px;
+    border-radius: 30px;
+    margin-top: 35px;
+  }
+  .pgp_service{
+     padding: 60px 0px;
+     background-color: #F3F7FC;
+  }  
+  .pgp_card{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+     padding: 40px 100px;
+  }
+  .pgp_box{
+    margin-right: 90px;
+  }
+  .pgp_box h1{
+    color: #33475B;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+  }
+  .pgp_box p{
+    text-align: center;
+    color: #33475B;
+    font-weight: 400;
+    font-size: 19px;
+  }
+  .hire_kui{
+    background-color: #F3F7FC;
+    padding-top: 100px;
+    padding-bottom: 45px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hire_line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hg1{
+    max-width: 300px;
+    width: 100%;
+    border-bottom:2px solid #33475B ;
+  }
+  .hg2{
+    /* max-width: 400px; */
+    width: 100%;
+    border-bottom:2px solid #33475B ;
+  }
+  .hire_line h1{
+    color: #33475B;
+    font-size: 32px;
+    font-weight: 400;
+    width: 100%;
+    white-space: nowrap;
+    margin: 0 15px;
+  }
+  .hire_line span{
+    color: #33475B;
+    font-weight: bold;
+  }
+  .hire_py{
+    padding: 0px 100px;
+    background-color: #F3F7FC;
+  }
+  .hire_py p{
+    font-size: 22px;
+    color: #33475B;
+    font-weight: 400;
+    margin-top: 30px;
+  }
+  .migartion_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 50px;
+    margin-top: 80px;
+  }
+  .migration_box{
+    background-color: #ffffff;
+    border-left: 6px solid #1265FF;
+    position: relative;
+    padding: 50px 20px;
+    margin: 0 30px;
+    height: 340px;
+    max-height: 100%;
+    max-width: 410px;
+    width: 100%;
+    /* padding-bottom: 70px; */
+  }
+  .migartion_card .splide__track{
+    overflow: initial !important;
+  }
+  .migartion_card .splide__pagination{
+    display: none !important;
+  }
+   .mig2 h1{
+    color: #33475B;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+   }
+   .mig2 p{
+    color: #33475B;
+    font-weight: 400;
+    font-size: 19px;
+    margin-top: 25px;
+   }
+  .mig1{
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #3C83CB33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mig1 h4{
+    color: #33475B;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .get_in_php{
+    background-color: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 40px;
+  }
+  .get_mig{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .get_mig1{
+    border-bottom: 2px solid #085881;
+    width: 100%;
+  }
+  .get_mig2{
+    border-bottom: 2px solid #085881;
+    width: 100%;
+  }
+  .get_mig button{
+    max-width: 420px;
+    width: 100%;
+    background-color: #085881;
+    height: 58px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 18.5px;
+    border-radius: 30px;
+    margin: 0px 45px;
+  }
+  .engag_mod{
+    padding: 0px 100px;
+    margin-top: 70px;
+  }
+  .engag_mod h1{
+    color: #33475B;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .engag_php_card{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .engag_php_box{
+    border: 2px dashed #1265FF ;
+    margin: 0 12px;
+    padding: 30px 12px;
+    height: 470px;
+    max-height: 100%;
+  }
+  .engag_php_box h2{
+    text-align: center;
+    font-size: 26px;
+    color: #33475B;
+    font-weight: bold;
+  }
+  .engag_php_box img{
+    display: block;
+    margin: auto;
+    max-width: 120px;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .engag_php_box p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    color: #33475B;
+    margin-top: 35px;
+  }
+  .why_pnt{
+    background-color: #101214;
+    padding: 0px 100px;
+    padding-top: 140px;
+    padding-bottom: 80px;
+  }
+  .why_pnt1{
+    border: 2px solid #1265FF;
+    position: relative;
+    padding: 30px 80px;
+  }
+  .why_php_h{
+    max-width: 300px;
+    width: 100%;
+    position: absolute;
+    top: -65px;
+    background-color: #101214;
+     padding: 0px 15px;
+  }
+  .why_php_h span{
+    color: #1265FF;
+  }
+  .why_php_h h1{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 31.5px;
+  }
+  .why_pnt1 p{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 80px;
+    padding: 0px 15px;
+  }
+  .pnt_card{
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 15px;
+    margin-top: 45px;
+    justify-content: space-between;
+  }
+  .pnt_card2{
+    width: 40%;
+    max-width: 100%;
+  }
+  .frenta{
+    display: flex;
+    align-items: center;
+    margin: 25px 0px;
+  }
+  .frenta img{
+    width: 20px;
+  }
+  .frenta h4{
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 18.5px;
+    font-weight: 400;
+  }
+  .hire_steps_php h1{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .hire_steps_php p{
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: 400;
+    margin-top: 25px;
+  }
+  .hire_phpStep_card{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 70px;
+  }
+  .hire_phpStep_box{
+    max-width: 330px;
+    width: 100%;
+    padding: 20px;
+    background-color: #1E1E20;
+    height: 350px;
+    max-height: 100%;
+    border-top: 6px solid #1668FF;
+    margin-right: 22px;
+  }
+  .hire_phpStep_box h1{
+    color: #575757;
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+  }
+  .hire_phpStep_box p{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .why_pnt2{
+    margin-top: 100px;
+  }
+  .hire_steps_php p{
+    margin-top: 35px;
+    color: #ffffff;
+    font-size: 18.5px;
+    font-weight: 400;
+  }
+  /* ===================form css end============== */
+
 .php-back2 img{
   max-width: 410px;
   width: 100%;
@@ -11310,9 +11732,9 @@ video {
   padding: 60px 100px;
 }
 .php_techStack .php_heading1{
-  font-weight: 700;
+  font-weight: bold;
   font-size: 34px;
-  color: #202020;
+  color: #33475B;
   line-height: 44px;
   text-align: center;
 }
@@ -11320,7 +11742,7 @@ video {
   font-weight: 400;
   font-size: 19px;
   text-align: center;
-  color: #404040;
+  color: #33475B;
   line-height: 28px;
 }
 
@@ -11349,14 +11771,14 @@ video {
   margin-left: 30px;
 }
 .tech_right h4{
-  font-weight: 700;
+  font-weight: bold;
   font-size: 22px;
-  color: #000000;
+  color: #33475B;
 }
 .tech_right span{
   font-weight: 400;
   font-size: 19px;
-  color: #000000;
+  color: #33475B;
   margin-top: 20px;
   display: inline-block;
 }
@@ -11641,9 +12063,10 @@ video {
   margin-top: 30px;
 }
 .your_team2 button:hover{
-  background-color: #085881;
+  background-color: #3c83cb;
   border: none;
   color: #FFFFFF;
+  transition: all .5s;
 }
 .testimonials-card{
   display: flex;
@@ -11935,9 +12358,443 @@ video {
   color: #1F678D;
 }
 /* ==================service page css end=========== */
+
+/* ==============website developemt page css end================== */
+.why_website{
+  padding: 50px 100px;
+}
+.why_website h2{
+  text-align: center;
+  font-size: 35px;
+  color: #33475B;
+  font-weight: bold;
+}
+.thir_button_flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.thir_img{
+  position: relative;
+  cursor: pointer;
+  margin: 0px 2px;
+}
+.thir_img img{
+  max-width: 185px;
+  width: 100%;
+}
+.thir_img p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  white-space: nowrap;
+ color: #FFFFFF;
+ font-size: 13px;
+}
+.body_website{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 70px;
+}
+.left_website{
+  margin-right: 30px;
+}
+.right_website{
+  margin-left: 30px;
+}
+.left_web_para{
+  width: 33em;
+  max-width: 100%;
+}
+.left_web_para p{
+  font-size: 19px;
+  color: #33475B;
+  font-weight: 400;
+}
+.left_span span{
+  display: block;
+}
+.left_span .left_hire{
+  color: #085881;
+  font-size: 19.5px;
+  font-weight: bold;
+}
+.left_span span{
+  color: #33475B;
+  font-weight: 400;
+  font-size: 19.5px;
+  margin: 20px 0px;
+}
+.right_website img{
+    max-width: 620px;
+    width: 100%;
+}
+/* =================website development page css end================ */
+
+/* ===================solution page css start==================== */
+.solution_back{
+  background-image: url("./images/ecomSol.png");
+  background-blend-mode: darken;
+  width: 100%;
+  /* height: 70vh; */
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 60px 100px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.solution_back::before{
+  content: "";
+  background-color: #000000;
+  opacity: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+.solution_back1 h1{
+  color: #FFFFFF;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 48px;
+}
+.solution_back1 p{
+  color: #FFFFFF;
+  font-size: 18.5px;
+  font-weight: 400;
+  width: 28em;
+  max-width: 100%;
+  opacity: .95;
+  line-height: 30px;
+  margin-top: 18px;
+  border-left: 1px solid #FFFFFF;
+  padding: 0px 15px;
+}
+.solution_back1 button{
+  max-width: 245px;
+  width: 100%;
+  height: 64px;
+  max-height: 100%;
+  border-radius: 30px;
+  border: 1px solid #FFFFFF;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 19px;
+  margin-top: 40px;
+  color: #FFFFFF;
+}
+.solution_back2{
+  margin-right: 110px;
+}
+.solution_back2 img{
+  max-width: 565px;
+  width: 100%;
+}
+.influence_some{
+  background-color: #085881;
+  padding: 0px 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+.indo{
+  width: fit-content;
+  position: absolute;
+  top: 100px;
+}
+.influence_left img{
+  max-width: 375px;
+  width: 100%;
+}
+.influence_right{
+  padding-top: 110px;
+  padding-bottom: 150px;
+  margin-right: 100px;
+}
+.influence_right h2{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 26px;
+}
+.influence_right p{
+  color: #FFFFFF;
+  font-size: 18.5px;
+  font-weight: 400;
+  width: 44em;
+  line-height: 30px;
+  max-width: 100%;
+  opacity: .95;
+  margin-top: 20px;
+}
+.our_ecommerce{
+ padding-top: 120px;
+ padding-bottom: 60px;
+  background-color: #F8F7F6;
+}
+.our_commerce1{
+  padding: 0px 100px;
+}
+.our_ecommerce .business-card{
+  padding: 0px 40px;
+  margin-top: 60px;
+}
+.our_ecommerce .business-box{
+  max-width: 20.5vw;
+  width: 100%;
+  height: 260px;
+  max-height: 100%;
+  margin-top: 30px;
+  /* padding: 0px 40px; */
+}
+.our_ecommerce .business-card-img{
+  border: 1px solid #33475B;
+}
+.our_ecommerce .business-box h5{
+  font-size: 19px;
+  font-weight: bold;
+}
+.our_ecommerce .business-box p{
+  font-size: 16px;
+}
+.our_commerce1 h1{
+  font-size: 26px;
+  font-weight: bold;
+  color: #33475B;
+}
+.our_commerce1 p{
+  font-size: 18.5px;
+  width: 49em;
+  line-height: 30px;
+  margin-top: 25px;
+  font-weight: 400;
+  color: #33475B;
+}
+.skyRoket{
+  background-image: url('./images/ty2.png');
+  width: 100%;
+  height: 45vh;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.skyRoket_sect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.skyRoket_sect h2{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 26px;
+  font-weight: 400;
+}
+.skyRoket span{
+  font-weight: bold;
+}
+.skyRoket_sect h3{
+  color: #085881;
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 15px;
+}
+.skyRoket button{
+  max-width: 245px;
+  width: 100%;
+  height: 64px;
+  border: 1px solid #FFFFFF;
+  border-radius: 30px;
+ 
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18.5px;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+}
+.bff1 h2{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 26px;
+}
+.bff1 h4{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 19px;
+  opacity: 100% !important;
+}
+.bff1 p{
+  font-weight: 400;
+  color: #33475B;
+  font-size: 16px;
+}
+.faltu-sard1{
+  padding: 40px 15px;
+}
+.solution_expertise{
+  padding: 60px 100px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.solution_expertise1{
+  width: 25em;
+  max-width: 100%;
+}
+.solution_expertise1 h1{
+  font-weight: bold;
+  font-size: 26px;
+  color: #33475B;
+  border-bottom: 3px solid #085881;
+  display: inline;
+}
+.solution_expertise1 p{
+  color: #33475B;
+  font-weight: 400;
+  font-size: 18.5px;
+  margin-top: 18px;
+}
+.compliance_fact{
+  display: flex;
+  align-items: flex-start;
+}
+.compliance_fact_box{
+  max-width: 450px;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #b3cfde;;
+}
+.compliance_fact_box1{
+  border-right: 1px solid #b3cfde;;
+}
+.compliance_fact_box3{
+  border-bottom:none;
+  border-right: 1px solid #b3cfde;;
+}
+.compliance_fact_box4{
+  border-bottom:none;
+}
+.compliance_fact_box h2{
+  color: #085881;
+  font-weight: bold;
+  font-size: 26px;
+}
+.compliance_fact_box p{
+  color: #33475B;
+  font-weight: 400;
+  font-size: 19px;
+  margin-top: 12px;
+}
+.ecoome_sol_port .ecommi{
+  max-width: 730px;
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.boost{
+    background-image: url('./images/boost.png'); 
+    width: 100%;
+    height: 45vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+    z-index: 2;
+}
+.boost::before{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #085881;
+  z-index: -1;
+  opacity: 90%;
+}
+.boost_sect{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.boost_sect h1{
+  color: #FFFFFF;
+  font-size: 26px;
+  font-weight: bold;
+}
+.boost_sect p{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18.5px;
+  text-align: center;
+  margin-top: 15px;
+}
+.boost_sect button{
+  max-width: 245px;
+  width: 100%;
+  background: transparent;
+  border-radius: 30px;
+  border: 1px solid #FFFFFF;
+  height: 62px;
+  color: #FFFFFF;
+  display: block;
+  margin: auto;
+  margin-top: 42px;
+  font-weight: bold;
+  font-size: 18.5px;
+}
+.boost_sect button:hover{
+  background-color: #3c83cb;
+  transition: .5s;
+  border: none;
+}
+.e_nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.e_nav p{
+  margin: 0px 20px;
+  margin-top: 40px;
+}
+.big_pint{
+  padding: 0px 100px;
+  margin-top: 40px;
+}
+.big_pint p{
+  color: #202020;
+  font-weight: 400;
+  font-size: 22px;
+}
+.big_pint h1{
+  color: #33475B;
+  font-size: 42px;
+  font-weight: bold;
+}
+/* ==========================solution page css end============================= */
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;
+  }
+  .influence_right{
+    margin-right: 0px;
   }
 }
 @media only screen and (max-width: 1500px) {
