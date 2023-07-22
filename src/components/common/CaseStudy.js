@@ -16,7 +16,7 @@ const CaseStudy = () => {
           autoplay: true,
           pauseOnHover: true,
           type: "loop",
-          interval: 2000,
+          interval: 2200,
           drag: true,
         }}
       >

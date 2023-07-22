@@ -50,6 +50,8 @@ import Php from "./components/Php";
 import About1 from "./components/About1";
 import Services1 from "./components/Services1";
 import Solution from "./components/Solution";
+import PhpHire from "./components/PhpHire";
+import ReactNativeHire from "./components/ReactNativeHire";
 
 function App() {
   return (
@@ -106,8 +108,13 @@ function App() {
             <Route path="/magento" element={<Magento/>}/>
             <Route path="/wooCommerce" element={<WooCommerce/>}/>
             <Route path="/php" element={<Php/>}/>
+
             <Route path="/solution" element={<Solution/>}/>
             <Route path="*" element={<Error />} />
+
+            {/* =============hire pages route=========== */}
+            <Route path="/phpHire" element={<PhpHire/>}/>
+            <Route path="/nativeHire" element={<ReactNativeHire/>}/>
           </Routes>
           <Footer />
         </Router>

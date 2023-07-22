@@ -352,13 +352,16 @@ const Navbar = () => {
                   </div>
                 </div>
               </li></NavLink>
-              <li className="mar">
+
+            <NavLink to="/solution"><li className="mar">
                 <div className="flex items-center cursor-pointer">
                   <p className="sar" to="">
                     Solutions
                   </p>
                 </div>
-              </li>
+              </li></NavLink>
+
+
               <li className="mar">
                 <div className="flex items-center cursor-pointer">
                   <NavLink className="sar" to="/portfolio">
@@ -382,7 +385,7 @@ const Navbar = () => {
                       </div>
                       <ul>
                         <li>
-                          <NavLink to="#!">PHP Developer</NavLink>
+                          <NavLink to="/phpHire">PHP Developer</NavLink>
                         </li>
                         <li>
                           <NavLink to="#!">Laravel Web Developer</NavLink>

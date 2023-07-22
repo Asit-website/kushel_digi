@@ -4,6 +4,8 @@ import influ from "../images/influ.png";
 import penda from "../images/penda.png";
 import ecommi from '../images/ecoomi.png';
 import CaseStudy from "./common/CaseStudy";
+import ContactForm1 from './common/ContactForm1';
+import { NavLink } from "react-router-dom";
 const Solution = () => {
   return (
     <>
@@ -337,10 +339,12 @@ const Solution = () => {
                 <h1>Boost Your E-commerce Business Experience With Kushel Digi</h1>
                 <p>Build power-packed eCommerce apps & connect with global customers.</p>
                 <div className="boost_button">
-                    <button>Get in Touch</button>
+                   <NavLink to="/contact"><button>Get in Touch</button></NavLink>
                 </div>
             </div>
         </div>
+
+       <ContactForm1/>
 
        
       </div>
