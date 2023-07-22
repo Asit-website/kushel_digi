@@ -417,7 +417,7 @@ const Navbar = () => {
                           <NavLink to="#!">Flutter Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="#!">React Native Developer</NavLink>
+                          <NavLink to="/nativeHire">React Native Developer</NavLink>
                         </li>
                         <li>
                           <NavLink to="#!">Kotlin Developer</NavLink>
