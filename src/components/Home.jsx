@@ -283,7 +283,7 @@ const Home = () => {
                   Transforming your business <br /> with technology
                 </h2>
                 {/* <p className="tokin">We take the time to thoughtfully understand your brand voice and vision to deliver unmatched UX focused website design and development.</p> */}
-                <p className="tokin">Specialized in ECommerce transformation</p>
+                <p className="tokin">Specialized in Ecommerce transformation</p>
               </div>
               {/* <div className="home1112 absolute">
                 <ul className="flex flex-row">
@@ -1223,7 +1223,7 @@ const Home = () => {
           </div>
         </div>
         <div className="home9 mb-12">
-          <div className="home91 flex px-20">
+          <div className="home91 flex px-24">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">JUST THE FAQs</h2>
             </div>

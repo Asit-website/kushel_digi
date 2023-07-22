@@ -685,11 +685,6 @@ const About = () => {
         </div>
         <SmallApproach />
         <ContactForm1 />
-        <div className="bg-video-wrap">
-          <video src="/static/images/rima.mp4" loop muted autoPlay></video>
-          <div className="overlay"></div>
-          <h1>Fullscreen video background</h1>
-        </div>
       </div>
     </>
   );

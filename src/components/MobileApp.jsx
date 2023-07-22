@@ -16,6 +16,7 @@ import col2 from "../images/col2.png";
 import col3 from "../images/col3.png";
 import col4 from "../images/col4.png";
 import usto from '../images/usto.png';
+import mobileApi from '../images/mobileapi.png';
 import {
   Accordion,
   AccordionItem,
@@ -172,7 +173,8 @@ const MobileApp = () => {
         </div> */}
         <div className="mobile-app">
           <marquee behavior="scroll" direction="right" scrollamount="20">
-            <img className="app" src={app} alt="app" />
+            {/* <img className="app" src={app} alt="app" /> */}
+            <img className="app" src={mobileApi} alt="" />
           </marquee>
           <div className="deliver">
             <div className="first-delivery">

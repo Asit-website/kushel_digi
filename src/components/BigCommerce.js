@@ -465,7 +465,7 @@ const BigCommerce = () => {
          <ContactForm1 />
 
         <div className="home9 py-20 bigcom9">
-          <div className="home91 flex px-20">
+          <div className="home91 flex px-24">
             <div className="home911 text-center">
               <h2 className="font-bold text-gray-700">JUST THE FAQs</h2>
             </div>

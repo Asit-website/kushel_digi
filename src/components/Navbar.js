@@ -352,13 +352,16 @@ const Navbar = () => {
                   </div>
                 </div>
               </li></NavLink>
-              <li className="mar">
+
+            <NavLink to="/solution"><li className="mar">
                 <div className="flex items-center cursor-pointer">
                   <p className="sar" to="">
                     Solutions
                   </p>
                 </div>
-              </li>
+              </li></NavLink>
+
+
               <li className="mar">
                 <div className="flex items-center cursor-pointer">
                   <NavLink className="sar" to="/portfolio">
@@ -367,7 +370,7 @@ const Navbar = () => {
                 </div>
               </li>
 
-              <li className="mar" style={{ position: "relative" }}>
+            <NavLink to="/hire"><li className="mar" style={{ position: "relative" }}>
                 <div className="flex items-center cursor-pointer nb-0 navLinks">
                   <p className="sar" to="">
                     Hire
@@ -382,19 +385,19 @@ const Navbar = () => {
                       </div>
                       <ul>
                         <li>
-                          <NavLink to="/hire">PHP Developer</NavLink>
+                          <NavLink to="/phpHire">PHP Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">Laravel Web Developer</NavLink>
+                          <NavLink to="#!">Laravel Web Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">Node Js Developer</NavLink>
+                          <NavLink to="#!">Node Js Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">React Js Developer</NavLink>
+                          <NavLink to="#!">React Js Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">Wordpress Developer</NavLink>
+                          <NavLink to="#!">Wordpress Developer</NavLink>
                         </li>
                       </ul>
                     </div>
@@ -405,22 +408,22 @@ const Navbar = () => {
                       </div>
                       <ul>
                         <li>
-                          <NavLink to="/hire">Android Developer</NavLink>
+                          <NavLink to="#!">Android Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">IOS Developer</NavLink>
+                          <NavLink to="#!">IOS Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">Flutter Developer</NavLink>
+                          <NavLink to="#!">Flutter Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">React Native Developer</NavLink>
+                          <NavLink to="/nativeHire">React Native Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">Kotlin Developer</NavLink>
+                          <NavLink to="#!">Kotlin Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">Swift Developer</NavLink>
+                          <NavLink to="#!">Swift Developer</NavLink>
                         </li>
                       </ul>
                     </div>
@@ -431,15 +434,15 @@ const Navbar = () => {
                       </div>
                       <ul className=" relative left-3">
                         <li>
-                          <NavLink to="/hire">Website Designer</NavLink>
+                          <NavLink to="#!">Website Designer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">
+                          <NavLink to="#!">
                             UI/UX Designer (3 Year +) EXP.{" "}
                           </NavLink>
                         </li>
                         <li>
-                          <NavLink to="/hire">
+                          <NavLink to="#!">
                             Graphic Designer (3Year +) EXP.
                           </NavLink>
                         </li>
@@ -461,7 +464,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-              </li>
+              </li></NavLink>
               <li className="mar">
                 <div className="flex items-center cursor-pointer nb-0 navLinks">
                   <p className="sar" to="">
