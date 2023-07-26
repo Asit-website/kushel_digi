@@ -720,6 +720,337 @@ max-width: 590px;
 .nb-0 {
   padding: 27px 0px;
 }
+
+
+.section78878{
+  padding: 80px 0px;
+}
+.section78878
+.heading{
+  color: #33475B;
+  font-size: 32px;
+  /* margin-top: 93px; */
+  font-weight: bold;
+  line-height: 44px;
+  letter-spacing: 4.4px;
+  opacity: 80%;
+  text-align: center;
+}
+.first{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 48px;
+  margin-right: 226px;
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.hd-1{
+  
+  color: #33475B;
+  font-size: 24px;
+  font-weight: 700;
+
+}
+.hd-2{
+  color: white;
+  font-size: 24px;
+  position: relative;
+  animation-name: text2;
+  animation-delay: 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
+}
+@keyframes text2{
+  100%{
+      color: #33475B;
+      font-size: 24px;
+      font-weight: 700;
+
+  }
+}
+.hd-3{
+  color: white;
+  font-size: 24px;
+  position: relative;
+  animation-name: text3;
+  animation-delay: 2.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
+
+}
+@keyframes text3{
+  100%{
+      color: #33475B;
+      font-size: 24px;
+      font-weight: 700;
+
+  }
+}
+.hd-4{
+  color: white;
+  font-size: 24px;
+  position: relative;
+  animation-name: text4;
+  animation-delay: 3.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
+
+}
+@keyframes text4{
+  100%{
+      color: #33475B;
+      font-size: 24px;
+      font-weight: 700;
+
+  }
+}
+.hd-5{
+  color: white;
+  font-size: 24px;
+  position: relative;
+  animation-name: text5;
+  animation-delay: 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  
+  
+
+}
+@keyframes text5{
+  100%{
+      color: #33475B;
+      font-size: 24px;
+      font-weight: 700;
+
+  }
+}
+.hr1
+{
+  margin-top: -14px;
+  position: relative;
+  animation-name: line1;
+  animation-duration: 9s;
+  
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  /* width: 1200px; */
+  margin-left: 68px;
+  width: 1300px;
+  color: #085881;
+
+}
+
+@keyframes line1 {
+ 0%{
+  width: 10px;
+ 
+ }
+
+ 100%{
+  width: 1300px;
+  
+  }
+ 
+ 
+}
+.space{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 48px;
+  margin-right: 278px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.background-2{
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  animation-name: rd-1;
+  animation-delay: 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes rd-1{
+  100%{
+      height: 17px;
+  width: 17px;
+  background-color: #085881;
+  border-radius: 50%;
+
+  }
+}
+.background-3{
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  animation-name: rd-2;
+  animation-delay: 2.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes rd-2{
+  100%{
+      height: 17px;
+  width: 17px;
+  background-color: #085881;
+  border-radius: 50%;
+
+  }
+}
+.background-4{
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  animation-name: rd-3;
+  animation-delay: 3.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes rd-3{
+  100%{
+      height: 17px;
+  width: 17px;
+  background-color: #085881;
+  border-radius: 50%;
+
+  }
+}
+.background-5{
+  height: 17px;
+  width: 17px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+  animation-name: rd-4;
+  animation-delay: 4.7s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes rd-4{
+  100%{
+      height: 17px;
+  width: 17px;
+  background-color: #085881;
+  border-radius: 50%;
+
+  }
+}
+
+
+
+
+.section-list{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 56px;
+  margin-right: 158px;
+  
+}
+.list1{
+  height: 190px;
+  border-left: 3px solid white;
+  position: relative;
+  animation-name: border;
+  animation-delay: 7s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-top: 10px;
+}
+@keyframes border{
+  from{
+      height: 0px;
+  }
+  to{
+      height: 190px;
+      border-color: #085881;
+  }
+}
+.list2{
+  border-left: 3px solid white;
+  position: relative;
+  animation-name: border-2;
+  animation-delay: 7s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  height: 120px;
+  margin-top: 10px;
+}
+@keyframes border-2{
+  from{
+      height: 0px;
+  }
+  to{
+      height: 120px;
+      border-color: #085881;
+  }
+}
+
+.list1 ul li,
+.list2 ul li{
+  list-style: none;
+  color: white;
+  font-family: Proxima Nova;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 31px;
+  margin-top: 38px;
+  margin-left: 23px;
+  position: relative;
+  animation-name: list-item;
+  animation-delay: 9s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+/* .section-2{
+  margin-left: 53px;
+} */
+
+@keyframes list-item{
+  100%{
+list-style: none;
+color: #202020;
+margin-left: 23px;
+font-family: Proxima Nova;
+font-size: 19px;
+font-weight: 400;
+line-height: 31px;
+margin-top: 38px;
+
+  }
+  
+}
+
+.li-2{
+  margin-left: 35px;
+}
+.li-3{
+  /* margin-left: 16px; */
+  margin-left: 25px;
+
+}
+
+.li-5{
+  margin-right: -31px;
+  margin-left: 83px;
+  position: relative;
+  left: 9px;
+}
 @media only screen and (max-width: 1484px) {
   .about32 img {
     max-width: 525px;

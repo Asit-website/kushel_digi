@@ -52,6 +52,7 @@ import Services1 from "./components/Services1";
 import Solution from "./components/Solution";
 import PhpHire from "./components/PhpHire";
 import ReactNativeHire from "./components/ReactNativeHire";
+import NodeJsHire from "./components/NodeJsHire";
 
 function App() {
   return (
@@ -115,6 +116,7 @@ function App() {
             {/* =============hire pages route=========== */}
             <Route path="/phpHire" element={<PhpHire/>}/>
             <Route path="/nativeHire" element={<ReactNativeHire/>}/>
+            <Route path="/nodeJsHire" element={<NodeJsHire/>}/>
           </Routes>
           <Footer />
         </Router>

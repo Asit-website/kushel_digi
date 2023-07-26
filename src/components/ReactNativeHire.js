@@ -534,7 +534,7 @@ const ReactNativeHire = () => {
                 </div>
             </div>
 
-            <ContactForm1 />
+            {/* <ContactForm1 /> */}
         </div>
     )
 }

@@ -272,12 +272,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        {/* <div className="about-main6">
-                    <div className="about-main61">
-                        <h1 className='text-center'>Be Fair With Today to build</h1>
-                    </div>
-                </div> */}
-        <div className="about-main7">
+        
+        {/* <div className="about-main7">
           <h1 className="text-center">Meet Our Team</h1>
           <div className="about-main71 flex  justify-center">
             <div className="about72">
@@ -319,7 +315,7 @@ const About = () => {
                       >
                         <img className="linkj" src={link} alt="link" />
                       </a>
-                      {/* <a target="_blank" href="https://www.instagram.com/up15_wale_guptaji/"><img className="linkj" src={young3} alt="young3" /></a> */}
+                    
                     </div>
                   </div>
                 </div>
@@ -377,7 +373,9 @@ const About = () => {
               <p>Administrative assistant</p>
             </div>
           </div>
-        </div>
+        </div> */}
+
+        
         <div className="about-main6">
           <div className="about-main61">
             <img src="/static/images/e12.png" alt="" />

@@ -35,6 +35,7 @@ import engag3 from "../images/engag3.png";
 import frema from "../images/frema.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import golita from '../images/golita.png';
 import {
   Accordion,
   AccordionItem,
@@ -374,8 +375,16 @@ const PhpHire = () => {
             </div>
           </div>
         </div>
+
+        <div className="confused">
+            <h2>Confused If PHP Is Right For You?</h2>
+            <p>PHP is one of the most popular web development languages. Right from a simple script to complex web apps, the language has a variety of use cases across the software spectrum.</p>
+            <div className="confused_card">
+                 <img src={golita} alt="" />
+            </div>
+        </div>
        
-        <div className="process_bigt">
+        {/* <div className="process_bigt">
           <h2>Process We Follow</h2>
           <div className="paperbox">
             <div
@@ -487,7 +496,7 @@ const PhpHire = () => {
               </h5>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="php_portfolio">
           <div className="php_port">

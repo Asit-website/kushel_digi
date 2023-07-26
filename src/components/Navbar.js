@@ -97,16 +97,16 @@ const Navbar = () => {
                           >
                             <p className="cpmpa">Who We Are</p>
                           </NavLink>
-                          <p className="cpmpa">Testimonials</p>
-                          <p className="cpmpa">Blog</p>
+                          {/* <p className="cpmpa">Testimonials</p> */}
+                          {/* <p className="cpmpa">Blog</p> */}
                           <NavLink to="/partner">
                             <p className="cpmpa">Partner With us</p>
                           </NavLink>
-                          <p className="cpmpa">Social Cause - NGO</p>
+                          {/* <p className="cpmpa">Social Cause - NGO</p> */}
                         </div>
                         <div className="second-compan mr-5">
-                          <p className="cpmpa">Our Work</p>
-                          <p className="cpmpa">Our Clients</p>
+                          {/* <p className="cpmpa">Our Work</p>
+                          <p className="cpmpa">Our Clients</p> */}
                           <NavLink to="/career">
                             <p className="cpmpa">Careers</p>
                           </NavLink>
@@ -155,7 +155,7 @@ const Navbar = () => {
                           </NavLink>
                           <p className="yamini">
                             <NavLink className="sonji" to="/ios">
-                              i Phone
+                              iOs
                             </NavLink>{" "}
                             <span>|</span>{" "}
                             <NavLink className="sonji" to="/android">
@@ -173,10 +173,10 @@ const Navbar = () => {
                             <NavLink className="sonji" to="/kotlin">
                               Kotlin
                             </NavLink>
-                            <span>|</span>{" "}
-                            <NavLink className="sonji" to="#!">
+                            {/* <span>|</span>{" "} */}
+                            {/* <NavLink className="sonji" to="#!">
                               Swift
-                            </NavLink>
+                            </NavLink> */}
                           </p>
                         </div>
                         <div className=" mt-7">
@@ -203,8 +203,8 @@ const Navbar = () => {
                             <NavLink className="sonji span-wo1" to="/wooCommerce">
                               WooCommerce
                             </NavLink>{" "}
-                            <span> |</span>{" "}
-                            <NavLink className="sonji" to="#!">
+                            {/* <span> |</span>{" "} */}
+                            {/* <NavLink className="sonji" to="#!">
                               {" "}
                               Wordpress{" "}
                             </NavLink>
@@ -212,7 +212,7 @@ const Navbar = () => {
                             <NavLink className="sonji" to="#!">
                               {" "}
                               Shift4Shop{" "}
-                            </NavLink>
+                            </NavLink> */}
                           </p>
                         </div>
                         <div className=" mt-7">
@@ -220,7 +220,7 @@ const Navbar = () => {
                             <img src={mon3} alt="" />
                             <h4>Graphic Design</h4>
                           </div>
-                          <p className="yamini">
+                          {/* <p className="yamini">
                             <NavLink className="sonji" to="#!">
                               Adobe illustrator
                             </NavLink>{" "}
@@ -241,7 +241,7 @@ const Navbar = () => {
                             <NavLink className="sonji" to="#!">
                               Premium Pro
                             </NavLink>
-                          </p>
+                          </p> */}
                         </div>
                       </div>
                       <div className="tag1 ml-10">
@@ -256,7 +256,7 @@ const Navbar = () => {
                             <NavLink className="sonji" to="/php">
                               PHP
                             </NavLink>{" "}
-                            <span>|</span>{" "}
+                            {/* <span>|</span>{" "}
                             <NavLink className="sonji" to="#!">
                               React.js
                             </NavLink>{" "}
@@ -275,7 +275,7 @@ const Navbar = () => {
                             <span>|</span>{" "}
                             <NavLink className="sonji" to="#!">
                               Node.js
-                            </NavLink>
+                            </NavLink> */}
                           </p>
                         </div>
                         <div className="w-full mt-7">
@@ -286,7 +286,7 @@ const Navbar = () => {
                               <h4>UI/UX Design</h4>
                             </div>
                           </NavLink>
-                          <p className="yamini">
+                          {/* <p className="yamini">
                             <NavLink className="sonji" to="#!">
                               Figma
                             </NavLink>{" "}
@@ -302,7 +302,7 @@ const Navbar = () => {
                             <NavLink className="sonji" to="#!">
                               Affinity
                             </NavLink>
-                          </p>
+                          </p> */}
                         </div>
                         <div className="w-full mt-7">
                           <NavLink to="/digital-marketing-agency-usa">
@@ -311,7 +311,7 @@ const Navbar = () => {
                               <h4>Digital Marketing</h4>
                             </div>
                           </NavLink>
-                          <p className="yamini uppercase">
+                          {/* <p className="yamini uppercase">
                             <NavLink className="sonji" to="#!">
                               SEO
                             </NavLink>{" "}
@@ -323,7 +323,7 @@ const Navbar = () => {
                             <NavLink className="sonji" to="#!">
                               PPC
                             </NavLink>
-                          </p>
+                          </p> */}
                         </div>
                         <div className="w-full mt-7">
                           <NavLink to="/staff-augmentation">
@@ -391,7 +391,7 @@ const Navbar = () => {
                           <NavLink to="#!">Laravel Web Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="#!">Node Js Developer</NavLink>
+                          <NavLink to="/nodeJsHire">Node Js Developer</NavLink>
                         </li>
                         <li>
                           <NavLink to="#!">React Js Developer</NavLink>
@@ -419,12 +419,12 @@ const Navbar = () => {
                         <li>
                           <NavLink to="/nativeHire">React Native Developer</NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                           <NavLink to="#!">Kotlin Developer</NavLink>
                         </li>
                         <li>
                           <NavLink to="#!">Swift Developer</NavLink>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                     <div className="hire-nav__container">
