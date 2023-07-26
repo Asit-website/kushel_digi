@@ -15,6 +15,7 @@ import {
 
 import "react-accessible-accordion/dist/fancy-example.css";
 import react from "../images/react.png";
+import Ellipse from '../images/Ellipse.png';
 import kotlin from "../images/kotlin.png";
 import apple from "../images/apple.png";
 import fluter from "../images/fluter.png";
@@ -161,7 +162,7 @@ const Home = () => {
   const tabAnother = (e) => {
     e.preventDefault();
     setTab(1);
-    document.getElementById("one").style.background = "#085881";
+    document.getElementById("one").style.background = "#0142E1";
     document.getElementById("two").style.background = "none";
     document.getElementById("three").style.background = "none";
     document.getElementById("fourth").style.background = "none";
@@ -186,7 +187,7 @@ const Home = () => {
     e.preventDefault();
     setTab(2);
     document.getElementById("one").style.background = "none";
-    document.getElementById("two").style.background = "#085881";
+    document.getElementById("two").style.background = "#0142E1";
     document.getElementById("three").style.background = "none";
     document.getElementById("fourth").style.background = "none";
 
@@ -212,7 +213,7 @@ const Home = () => {
 
     document.getElementById("one").style.background = "none";
     document.getElementById("two").style.background = "none";
-    document.getElementById("three").style.background = "#085881";
+    document.getElementById("three").style.background = "#0142E1";
     document.getElementById("fourth").style.background = "none";
 
     document.getElementById("one").style.padding = "0px 0px";
@@ -238,7 +239,7 @@ const Home = () => {
     document.getElementById("one").style.background = "none";
     document.getElementById("two").style.background = "none";
     document.getElementById("three").style.background = "none";
-    document.getElementById("fourth").style.background = "#085881";
+    document.getElementById("fourth").style.background = "#0142E1";
 
     document.getElementById("one").style.padding = "0px 0px";
     document.getElementById("two").style.padding = "0px 0px";
@@ -276,14 +277,14 @@ const Home = () => {
             <div className="home111">
               <div className="home1111">
                 <p className="welcome">
-                  Welcome to <span>Kushel Digi</span>
+                  <span>Welcome</span> to Kushel Digi
                 </p>
                 <h2 className="mt-0 mb-2">
                   {/* Creating E-Commerce <br /> Experiences */}
-                  Transforming your business <br /> with technology
+                  Transforming your business <br /> with <span className="tect">technology</span>
                 </h2>
                 {/* <p className="tokin">We take the time to thoughtfully understand your brand voice and vision to deliver unmatched UX focused website design and development.</p> */}
-                <p className="tokin">Specialized in Ecommerce transformation</p>
+                <p className="tokin">Specialized in e-Commerce transformation</p>
               </div>
               {/* <div className="home1112 absolute">
                 <ul className="flex flex-row">
@@ -587,7 +588,7 @@ const Home = () => {
         <div className="tect_stack">
           <div className="tect_stack1">
             <h2>
-              Easy to use, <span>built</span> on <br /> <span>powerful</span>{" "}
+              Easy to use, <span className="onn1">built</span> <span className="onn2">on</span>  <br /> <span className="onn1">powerful</span>{" "}
               technology
             </h2>
             <span className="toolinh">TOOLS & TECHNOLOGY</span>
@@ -598,8 +599,17 @@ const Home = () => {
           </div>
           <div className="tect_stack2">
             <img src={verity} alt="verity" />
+                
           </div>
         </div>
+
+
+    
+
+
+
+
+         
         {/* pehle mb-12 tha */}
         <div className="home5 pb-10  bg-gray-100">
           <div className="home51 px-24">
@@ -777,6 +787,22 @@ const Home = () => {
                         </a>
                       </div>
                     </div>
+                    <div className="homeswar-card homeswar-card1">
+                      <div className="homeswar-sect">
+                        <h5>SOLENOID NINJA</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/solenoid">
+                          <button>Details</button>
+                        </NavLink>
+                        <a target="_blank" href="https://solenoid-ninja.com/">
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -877,6 +903,25 @@ const Home = () => {
                         </a>
                       </div>
                     </div>
+                    <div className="homeswar-card homeswar-card2">
+                      <div className="homeswar-sect">
+                        <h5>PROTRUCKS</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/protrack">
+                          <button>Details</button>
+                        </NavLink>
+                        <a
+                          target="_blank"
+                          href="https://www.protrucksandcars.net/"
+                        >
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -884,7 +929,7 @@ const Home = () => {
           </div>
           <div className="home52 w-full text-center">
             <NavLink to="/portfolio">
-              <button className="btn btn1 m-auto btn3">
+              <button className="btn btn1 btn100 m-auto btn3">
                 <span className="mr-2">View our all portfolio</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -969,7 +1014,76 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="home6 mb-16 py-14">
+
+
+
+        <div className="section78878">
+          <div className="section-heading">
+            <h1 className="heading">OUR WORKING PROCESS</h1>
+            <div>
+              <div className="first">
+                <h1 className="hd-1">Explore</h1>
+                <h1 className="hd-2">Research</h1>
+                <h1 className="hd-3">Analysis</h1>
+                <h1 className="hd-4">Design</h1>
+                <h1 className="hd-5">Testing</h1>
+              </div>
+              <div className="ani">
+                <span className="space">
+                  <span className="background-1">
+                    <img src={Ellipse} alt="" />
+                  </span>
+                  <span className="background-2" />
+                  <span className="background-3" />
+                  <span className="background-4" />
+                  <span className="background-5" />
+                </span>
+                <hr className="hr1" />
+              </div>
+            </div>
+            <div className="section-2">
+              <div className="section-list">
+                <div className="list1 li-1">
+                  <ul>
+                    <li>Define Product</li>
+                    <li>Define Goals</li>
+                    <li>Define Challenges</li>
+                  </ul>
+                </div>
+                <div className="list1 li-2">
+                  <ul>
+                    <li>User Personas</li>
+                    <li>User Scenarios</li>
+                    <li>Competitor Analysis</li>
+                  </ul>
+                </div>
+                <div className="list2 li-3">
+                  <ul>
+                    <li>Architecture Flowchart</li>
+                    <li>User Journeys</li>
+                  </ul>
+                </div>
+                <div className="list1 li-4">
+                  <ul>
+                    <li>Wireframing</li>
+                    <li>Mockups</li>
+                    <li>Prototyping</li>
+                  </ul>
+                </div>
+                <div className="list2 li-5">
+                  <ul>
+                    <li>A/B Testing</li>
+                    <li>Usability Testing</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        {/* <div className="home6 mb-16 py-14">
           <div className="home61 px-24">
             <div className="home611 mb-8 text-center">
               <h1 className="font-bold text-gray-700">Our Working Process</h1>
@@ -984,7 +1098,10 @@ const Home = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+
+
         <div className="home7 mb-20">
           <div className="home71 px-44">
             <div className="home711 text-center mb-4">
@@ -1089,7 +1206,9 @@ const Home = () => {
             VIEW ALL <img className="tirVect" src={tirVect} alt="tirVect" />
           </button>
         </div>
-        <div className="testimonials">
+
+
+        {/* <div className="testimonials">
           <div className="first-testimonials">
             <h3 className="tas">testimonials</h3>
             <h2 className="happy">OUR HAPPY CLIENT SAY</h2>
@@ -1162,9 +1281,9 @@ const Home = () => {
               </Splide>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="your_team">
+        {/* <div className="your_team">
           <div className="your_team1">
             <img src={yourTeam} alt="yourTeam" />
           </div>
@@ -1186,7 +1305,7 @@ const Home = () => {
               <button>Contact Us</button>
             </NavLink>
           </div>
-        </div>
+        </div> */}
 
         <div className="home-year">
           <div className="home-year1 flex items-center">

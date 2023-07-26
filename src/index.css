@@ -341,7 +341,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 250px;
   max-width: 100%;
   position: relative;
   z-index: 2;
@@ -450,7 +450,7 @@ body {
 }
 .compan {
   /* pehle 400px */
-  height: 350px;
+  height: 250px;
   max-height: 100%;
   width: 680px;
   max-width: 100%;
@@ -1079,18 +1079,15 @@ form button {
 
 /* =============== Home Css Start =============== */
 .home1111 .welcome {
-  font-family: "Manrope", sans-serif !important;
-  font-weight: 500 !important;
+  font-weight: 400 !important;
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 19.5px;
   color: #33475B;
-  font-weight: 700;
 }
 .home1111 span {
-  font-weight: 400 !important;
-  font-family: "Manrope", sans-serif !important;
-  color: #3c83cb !important;
+  font-weight: bold !important;
+  color: #0042E4 !important;
   font-size: 19.5px;
 }
 .home1111 h2 {
@@ -1100,7 +1097,14 @@ form button {
   color: #33475B;
   margin-top: 10px;
 }
-
+.home1111 .tect{
+  /* font-size: 42px; */
+  font-size: 42px; /* pehle 45 aur 55 tha*/
+  line-height: 58px;
+  font-weight: 800 !important;
+  color: #33475B;
+  margin-top: 10px;
+}
 .home1111 .tokin {
   font-size: 19px;
   font-weight: 400;
@@ -1197,7 +1201,7 @@ form button {
 .home211 h5 {
   font-size: 20px;
   font-weight: 500;
-  color: #085881;
+  color: #0142E1;
   /* font-family: "Value Sans Medium" !important; */
 }
 
@@ -1243,7 +1247,7 @@ form button {
 }
 
 .btn1 {
-  background-color: #085881;
+  background-color: #0142E1;
   color: white;
   width: 285px;
   height: 70px;
@@ -1253,7 +1257,20 @@ form button {
   margin-top: 35px;
   letter-spacing: 0.5px;
 }
-
+.home312 .splide__arrow{
+  background-color: #0142E1 !important;
+}
+.home312 .splide__pagination__page.is-active{
+   background:#0142E1 !important ;
+}
+.onn1{
+  color: #0142E1;
+  font-weight: bold !important;
+}
+.onn3{
+  color: #0142E1;
+  font-weight: 300 !important;
+}
 .btn1:hover {
   background-color: #3c83cb;
 }
@@ -1460,7 +1477,7 @@ form button {
   align-items: flex-start !important;
 }
 .flex-thing .all {
-  background-color: #085881;
+  background-color: #0142E1;
   color: #ffffff;
   padding: 4px 22px;
   border-radius: 20px;
@@ -1531,8 +1548,8 @@ form button {
 }
 
 .d-card:hover {
-  background-color: #085881;
-  border: 2px solid #085881;
+  background-color: #272850;
+  border: 2px solid #3C83CB;
   transition: 0.5s;
   transform: scale(1.05);
 }
@@ -1591,7 +1608,7 @@ form button {
   font-weight: 500;
   /* font-family: "Value Sans Medium" !important; */
   font-size: 30px;
-  opacity: 0.1;
+  opacity: 0.3;
 }
 
 .home8-img {
@@ -4254,7 +4271,23 @@ form button:hover {
   padding: 12px 20px;
   padding-bottom: 20px;
 }
-
+.confused{
+  padding: 50px 100px;
+}
+.confused h2{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 34px;
+}
+.confused p{
+  color: #33475B;
+  font-weight: 400;
+  font-size: 19px;
+  margin-top: 15px;
+}
+.confused_card img{
+  margin-top: 60px;
+}
 .offices {
   padding: 70px 100px;
   background-color: #ffffff;
@@ -6361,6 +6394,9 @@ form button:hover {
   color: #ffffff;
   transition: all 0.5s;
 }
+.hired-help-sect button:hover img{
+  filter: invert(1);
+}
 .benifits-hire {
   background-color: #ffffff;
   padding: 80px 100px;
@@ -7374,7 +7410,7 @@ form button:hover {
 }
 .homeswar h3 {
   font-size: 38px;
-  color: #33475B;
+  color: #0142E1;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: bold;
   line-height: 45px;
@@ -7446,10 +7482,13 @@ form button:hover {
   width: 120px;
   max-width: 100%;
   height: 42px;
-  color: #085881;
-  font-family: "Roboto", sans-serif !important;
+  color: #0142E1;
   font-size: 15.5px;
-  font-weight: 500;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.btn100{
+  height: 56px;
   border-radius: 5px;
 }
 .homeswar-sect1 p {
@@ -7488,7 +7527,7 @@ form button:hover {
 }
 .home-chin {
   padding: 80px 100px;
-  background-color: #f2f6fa;
+  background-color: #F3F3FF;
 }
 .home-chin h3 {
   color: #33475B;
@@ -7522,7 +7561,7 @@ form button:hover {
   margin-top: 35px;
 }
 .chain-box h4 {
-  color: #33475B ;
+  color: #0142E1;
   opacity: 0.9;
   /* font-family: "Value Sans Medium" !important; */
   font-weight: bold !important;
@@ -7541,7 +7580,7 @@ form button:hover {
   margin-top: 8px;
 }
 .chain-box:hover {
-  background: linear-gradient(180deg, #3c83cb 0%, #085881 100%);
+  background-color: #272850;
 }
 .chain-box:hover h4 {
   color: #ffffff;
@@ -11881,12 +11920,28 @@ video {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  z-index: 2;
+  padding: 15px 0px;
+  margin-top: 30px;
+}
+.technology_icon::before{
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: 0px;
+  bottom: 0px;
+  width: 46%;
+  display: block;
+  margin: auto;
+  height: 100%;
+  background-image: url('./images/imagTech.png');
 }
 .technology_icon img{
   margin: 0 42px;
   width: 48px;
   height: auto;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 .tect_stack{
   background-color: #FFFFFF;
@@ -11911,9 +11966,9 @@ video {
   font-weight: bold;
 }
 .tect_stack1 .toolinh{
-  color: #1466FF;
+  color: #33475B;
   font-size: 19px;
-  font-weight: bold;
+  font-weight: 500;
   display: inline-block;
   margin-top: 15px;
 }
@@ -11932,7 +11987,7 @@ video {
 .view_all22{
   display: block;
   margin: auto;
-  background-color: #085881;
+  background-color: #0142E1;
   max-width: 190px;
   width: 100%;
   height: 54px;

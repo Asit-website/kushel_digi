@@ -259,14 +259,7 @@ const HireTeam = () => {
                 <img src={hovered6 ? posis6 : dec5} alt="" />
                 <p>Travel & Tour</p>
               </div>
-              {/* <div className="indu-box">
-                <img src={dec6} alt="" />
-                <p>Retail</p>
-              </div> */}
-              {/* <div className="indu-box">
-                <img src={dec7} alt="" />
-                <p>SPORTS ( outdoor & indoor )</p>
-              </div> */}
+              
             </div>
             <div className="indu-card indu-card1">
             
@@ -296,7 +289,7 @@ const HireTeam = () => {
             </div>
         </div>
      
-         <div className="hire-testimonials">
+         {/* <div className="hire-testimonials">
              <h2>Testimonials</h2>
              <p className="read-what">Read what our client says about us!</p>
              <Splide
@@ -325,7 +318,8 @@ const HireTeam = () => {
                 </SplideSlide>
               </Splide>
            
-         </div>
+         </div> */}
+
         <div className="demo-hire">
             <div className="demo-hire-sect">
                 <h2>Apply for services right now, to learn more about our work or schedule an appointment.</h2>
