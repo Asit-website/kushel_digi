@@ -144,7 +144,7 @@ const Career = () => {
               <div className="pstif">
             <div className="posify">
               <div className="posify1">
-                <h4>React Native Developer</h4>
+                <h4>ui ux designer</h4>
                 <p>
                   Bachelors/Master’s degree in Computer Science, Engineering <br /> or
                   a related subject <span>Read More</span>
@@ -163,7 +163,7 @@ const Career = () => {
               <div className="pstif">
             <div className="posify">
               <div className="posify1">
-                <h4>Sr. iOS Developer</h4>
+                <h4>Digital Marketing</h4>
                 <p>
                   Bachelors/Master’s degree in Computer Science, Engineering <br /> or
                   a related subject <span>Read More</span>

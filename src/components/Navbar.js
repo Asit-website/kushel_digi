@@ -18,6 +18,11 @@ import ent3 from "../images/ent3.svg";
 import ent4 from "../images/ent4.svg";
 import ent5 from "../images/ent5.svg";
 
+import tiim1 from '../images/tiim1.png';
+import tiim2 from '../images/tiim2.png';
+import tiim3 from '../images/tiim3.png';
+import tiim4 from '../images/tiim4.png';
+
 var st;
 
 const Navbar = () => {
@@ -78,7 +83,7 @@ const Navbar = () => {
 
           <div className="navbar-text desk-nav">
             <ul>
-             <NavLink to="/about1"><li className="mar">
+           <li className="mar">
                 <div className="flex items-center cursor-pointer nb-0 navLinks">
                   <p className="sar" to="/about">
                     about us
@@ -95,12 +100,18 @@ const Navbar = () => {
                             }
                             to="/about"
                           >
+                            <div className="flex items-center">
+                            <img src={tiim1} alt="tiim1" />
                             <p className="cpmpa">Who We Are</p>
+                            </div>
                           </NavLink>
                           {/* <p className="cpmpa">Testimonials</p> */}
                           {/* <p className="cpmpa">Blog</p> */}
                           <NavLink to="/partner">
+                            <div className="flex items-center">
+                            <img src={tiim2} alt="" />
                             <p className="cpmpa">Partner With us</p>
+                            </div>
                           </NavLink>
                           {/* <p className="cpmpa">Social Cause - NGO</p> */}
                         </div>
@@ -108,10 +119,16 @@ const Navbar = () => {
                           {/* <p className="cpmpa">Our Work</p>
                           <p className="cpmpa">Our Clients</p> */}
                           <NavLink to="/career">
+                            <div className="flex items-center">
+                            <img src={tiim3} alt="" />
                             <p className="cpmpa">Careers</p>
+                            </div>
                           </NavLink>
                           <NavLink to="/hire">
+                            <div className="flex items-center">
+                            <img src={tiim4} alt="" />
                             <p className="cpmpa">Hire team</p>
+                            </div>
                           </NavLink>
                         </div>
                       </div>
@@ -132,8 +149,8 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-              </li></NavLink>
-             <NavLink to="/service1"> <li className="mar">
+              </li>
+             <li className="mar">
                 <div
                   className="flex items-center cursor-pointer nb-0 navLinks"
                 >
@@ -216,10 +233,12 @@ const Navbar = () => {
                           </p>
                         </div>
                         <div className=" mt-7">
+                        <NavLink to="/graphic">
                           <div className="flex items-center">
                             <img src={mon3} alt="" />
                             <h4>Graphic Design</h4>
                           </div>
+                          </NavLink>
                           {/* <p className="yamini">
                             <NavLink className="sonji" to="#!">
                               Adobe illustrator
@@ -351,7 +370,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-              </li></NavLink>
+              </li>
 
             <NavLink to="/solution"><li className="mar">
                 <div className="flex items-center cursor-pointer">
@@ -408,7 +427,7 @@ const Navbar = () => {
                       </div>
                       <ul>
                         <li>
-                          <NavLink to="#!">Android Developer</NavLink>
+                          <NavLink to="/androidHire">Android Developer</NavLink>
                         </li>
                         <li>
                           <NavLink to="#!">IOS Developer</NavLink>

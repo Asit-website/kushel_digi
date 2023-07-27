@@ -237,7 +237,7 @@ const Ios = () => {
             <h2 className="text-center">
               {/* The Process That Makes Us a Leading iPhone <br /> Application
               Development Company */}
-              The Method We Follow to Become a Leading iPhone <br /> Application Development Company
+              The Method We Follow to Become a Leading ios <br /> Application Development Company
             </h2>
           </div>
           <div className="android-process2">
@@ -264,7 +264,7 @@ const Ios = () => {
                 <div className="prot-img">
                   <img src={prot4} alt="" />
                 </div>
-                <p>Maintenance foll Owing launch</p>
+                <p>Maintenance following launch</p>
               </div>
             </div>
           </div>
@@ -274,19 +274,19 @@ const Ios = () => {
             <div className="android-pflex">
               <h1>250+</h1>
               <p>
-                Android developers <br /> in-house
+                ios developers <br /> in-house
               </p>
             </div>
             <div className="android-pflex">
               <h1>500+</h1>
               <p>
-                Android projects <br /> in-house
+                ios projects <br /> in-house
               </p>
             </div>
             <div className="android-pflex">
               <h1>30+</h1>
               <p>
-                industries brought <br /> on Android
+                industries brought <br /> on ios
               </p>
             </div>
           </div>

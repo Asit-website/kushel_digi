@@ -34,7 +34,7 @@ import {
 import arrow1 from "../images/arrow1.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import pantra from "../images/pantra.png";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 
 const OurPartner = () => {
   const [hovered, setHovered] = useState(false);
@@ -397,7 +397,7 @@ const OurPartner = () => {
               }}
             >
               <SplideSlide>
-                <div className="card-part flex items-center justify-center">
+                <div className="card-part flex items-start justify-center">
                   <div
                     className="box-part"
                     onMouseEnter={() => setHovered(true)}
@@ -405,10 +405,8 @@ const OurPartner = () => {
                   >
                     <h4>Solution Partners</h4>
                     <p>
-                      Lorem ipsum is simply dummy text of the printing
-                      Typesetting industry. lorem ipsum has been the industry’s
-                      standard dummy text ever since the 1500s, an unknown
-                      printer took a gallery.
+                      The greatest e-commerce partners in India work together with Kushel Digi. The delivery of e-commerce solutions is a speciality of our Solution Partners. We create future-oriented solutions together.
+
                     </p>
                     <button>
                       Download Brouchers{" "}
@@ -427,10 +425,7 @@ const OurPartner = () => {
                   >
                     <h4>Distributors</h4>
                     <p>
-                      Lorem ipsum is simply dummy text of the printing
-                      Typesetting industry. lorem ipsum has been the industry’s
-                      standard dummy text ever since the 1500s, an unknown
-                      printer took a gallery.
+                      Improve Business Automation with Our adaptable platform designed with distributors in mind, and it can be used to meet supplier and supply chain requirements. We provide our customers with 24/7 help, a library of self-service materials, and a strong community where they can ask any question and get an answer.
                     </p>
                     <button>
                       {" "}
@@ -450,10 +445,8 @@ const OurPartner = () => {
                   >
                     <h4>Master Agents</h4>
                     <p>
-                      Lorem ipsum is simply dummy text of the printing
-                      Typesetting industry. lorem ipsum has been the industry’s
-                      standard dummy text ever since the 1500s, an unknown
-                      printer took a gallery.
+                      We have master agents who can reach a wider audience and interact with more customers to help businesses scale more quickly.
+                      Tools that people can utilise to carry out their operations in an e-commerce environment.
                     </p>
                     <button>
                       {" "}
@@ -469,7 +462,7 @@ const OurPartner = () => {
                 </div>
               </SplideSlide>
               <SplideSlide>
-                <div className="card-part flex items-center justify-center">
+                <div className="card-part flex items-start justify-center">
                   <div
                     className="box-part"
                     onMouseEnter={() => setHovered4(true)}
@@ -477,10 +470,8 @@ const OurPartner = () => {
                   >
                     <h4>Solution Partners</h4>
                     <p>
-                      Lorem ipsum is simply dummy text of the printing
-                      Typesetting industry. lorem ipsum has been the industry’s
-                      standard dummy text ever since the 1500s, an unknown
-                      printer took a gallery.
+                      The greatest e-commerce partners in India work together with Kushel Digi. The delivery of e-commerce solutions is a speciality of our Solution Partners. We create future-oriented solutions together.
+
                     </p>
                     <button>
                       Download Brouchers{" "}
@@ -499,10 +490,7 @@ const OurPartner = () => {
                   >
                     <h4>Distributors</h4>
                     <p>
-                      Lorem ipsum is simply dummy text of the printing
-                      Typesetting industry. lorem ipsum has been the industry’s
-                      standard dummy text ever since the 1500s, an unknown
-                      printer took a gallery.
+                      Improve Business Automation with Our adaptable platform designed with distributors in mind, and it can be used to meet supplier and supply chain requirements. We provide our customers with 24/7 help, a library of self-service materials, and a strong community where they can ask any question and get an answer.
                     </p>
                     <button>
                       {" "}
@@ -522,10 +510,9 @@ const OurPartner = () => {
                   >
                     <h4>Master Agents</h4>
                     <p>
-                      Lorem ipsum is simply dummy text of the printing
-                      Typesetting industry. lorem ipsum has been the industry’s
-                      standard dummy text ever since the 1500s, an unknown
-                      printer took a gallery.
+                      We have master agents who can reach a wider audience and interact with more customers to help businesses scale more quickly.
+                      Tools that people can utilise to carry out their operations in an e-commerce environment.
+
                     </p>
                     <button>
                       {" "}
@@ -584,7 +571,7 @@ const OurPartner = () => {
         </div>
         {/* How It Works Section End*/}
 
-        <div id="parting" ref={ref3} className="partnets-stories">
+        {/* <div id="parting" ref={ref3} className="partnets-stories">
           <h3>PARTNERS STORIES</h3>
           <div className="partner-card">
             <div className="partner-box">
@@ -630,7 +617,7 @@ const OurPartner = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div id="off" ref={ref6} className="offices">
           <h3>Our Offices</h3>
