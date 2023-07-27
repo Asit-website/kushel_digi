@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState,useEffect } from 'react';
 import kes1 from '../images/kes1.png';
 import kes2 from '../images/kes2.png';
 import kes3 from '../images/kes3.png';
 import kes4 from '../images/kes4.png';
 import sidhaTandi from '../images/sidhaTandi.png';
-import bulbing from '../images/bulbing.png';
-import piktu from '../images/picktu.png';
-import fiktu from '../images/fiktu.png';
+import bulbset from '../images/bulbset.png';
+import mingi1 from '../images/minigi1.png';
+import mingi2 from '../images/mingi2.png';
 import gt1 from '../images/gt1.png';
 import gt3 from '../images/gt3.png';
 import gtt2 from '../images/gtt2.png';
@@ -20,7 +20,6 @@ import nativeSer6 from '../images/nativeSer6.png';
 import nativeSer7 from '../images/nativeSer7.png';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-
 import {
     Accordion,
     AccordionItem,
@@ -28,8 +27,7 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from "react-accessible-accordion";
-const IosHire = () => {
-
+const FluterHire = () => {
     const [tab, setTab] = useState(1);
     const [perPage, setPerPage] = useState(3);
     useEffect(() => {
@@ -74,10 +72,10 @@ const IosHire = () => {
             <div className="ser-main">
                 <div className="php-back">
                     <div className="php-back1 native_back1">
-                        <h2>iOS App Development Company</h2>
-                        {/* <h2>Native App Development Company</h2> */}
+                        <h2>Elevate your brand's visibility with Flutter</h2>
+                        <h2>App Development Company</h2>
                         <p>
-                            We are the go-to iOS app development company for businesses belonging to multiple business sizes and across the globe.
+                            We are a reputable provider of Flutter app development services, dominating the market with the right cross-platform capabilities.
                         </p>
                         <button>Hire Developer</button>
                     </div>
@@ -142,25 +140,25 @@ const IosHire = () => {
                     </div>
                     <div className="key_features2">
                         <div className='key_features_head'>
-                            <h2>iOS App Development Services</h2>
-                            <p>Kushel Digi is the iPhone app development company that carries an extensive expertise around building iOS solutions that help businesses meet their ROI targets. We know the nitty-gritties of integrating next-gen technology stack with your product in a way that ensures your business is prepared for the future.Our team of iOS app developers are subject matter experts of building robust software that runs seamlessly across different Apple platforms and OS versions. We combine innovation with your customer needs perfectly, giving your customers an unmatched digital experience. We are the digital service provider that delivers change-proof iOS app development services.</p>
+                            <h2>Empower your business with our Flutter App Development services</h2>
+                            <p>Kushel Digi is a leading flutter app development company that holds an empowering team of Flutter app developers to build robust and feature-rich applications to inspire not only our clients but also investors. We work on industry niches and are always thrilled to take up versatile projects. Hire our dedicated flutter developers to create a cross-platform app that successfully transforms your digital presence to full throttle.</p>
                         </div>
                         <div className='key_tanda'>
                             <div className="key_tanda1">
                                 <img src={sidhaTandi} alt="" />
                                 <div className='tandi_nav'>
-                                    <p onClick={tabAnother1} id='pex1'>iOS app development consultation </p>
-                                    <p onClick={tabAnother2} id='pex2'>iOS app UI/UX</p>
-                                    <p onClick={tabAnother3} id='pex3'>Custom iOS app development</p>
-                                    <p onClick={tabAnother4} id='pex4'>iOS software testing</p>
+                                    <p onClick={tabAnother1} id='pex1'>Flutter App Development Consultation</p>
+                                    <p onClick={tabAnother2} id='pex2'>Flutter App UI/UX</p>
+                                    <p onClick={tabAnother3} id='pex3'>Custom Flutter App Development</p>
+                                    <p onClick={tabAnother4} id='pex4'>Flutter Software Testing</p>
                                 </div>
                             </div>
                             <div className="key_tanda2">
                                 {
                                     tab === 1 && (
                                         <div className='key_imgTand'>
-                                            <p>The competition in the iOS space is all time high and so is the demand for new applications. Amidst the new growing demand from digital consumers, it’s important for businesses to launch the right product. Our team of business consultants help you with that.</p>
-                                            <img className='float-right' src={bulbing} alt="adimanus" />
+                                            <p>To achieve outstanding results, work with our flutter app developers. We approach every project with a personalized and case-by-case basis. DianApps is renowned for its professionalism, commitment, and tailored solutions that address certain business needs.</p>
+                                            <img className='float-right' src={bulbset} alt="adimanus" />
                                         </div>
                                     )
                                 }
@@ -168,8 +166,8 @@ const IosHire = () => {
                                 {
                                     tab === 2 && (
                                         <div className='key_imgTand'>
-                                            <p>The competition in the iOS space is all time high and so is the demand for new applications. Amidst the new growing demand from digital consumers, it’s important for businesses to launch the right product. Our team of business consultants help you with that.</p>
-                                            <img className='float-right' src={bulbing} alt="adimanus" />
+                                            <p>To achieve outstanding results, work with our flutter app developers. We approach every project with a personalized and case-by-case basis. DianApps is renowned for its professionalism, commitment, and tailored solutions that address certain business needs.</p>
+                                            <img className='float-right' src={bulbset} alt="adimanus" />
                                         </div>
                                     )
                                 }
@@ -177,8 +175,8 @@ const IosHire = () => {
                                 {
                                     tab === 3 && (
                                         <div className='key_imgTand'>
-                                            <p>The competition in the iOS space is all time high and so is the demand for new applications. Amidst the new growing demand from digital consumers, it’s important for businesses to launch the right product. Our team of business consultants help you with that.</p>
-                                            <img className='float-right' src={bulbing} alt="adimanus" />
+                                            <p>To achieve outstanding results, work with our flutter app developers. We approach every project with a personalized and case-by-case basis. DianApps is renowned for its professionalism, commitment, and tailored solutions that address certain business needs.</p>
+                                            <img className='float-right' src={bulbset} alt="adimanus" />
                                         </div>
                                     )
                                 }
@@ -186,8 +184,8 @@ const IosHire = () => {
                                 {
                                     tab === 4 && (
                                         <div className='key_imgTand'>
-                                            <p>The competition in the iOS space is all time high and so is the demand for new applications. Amidst the new growing demand from digital consumers, it’s important for businesses to launch the right product. Our team of business consultants help you with that.</p>
-                                            <img className='float-right' src={bulbing} alt="adimanus" />
+                                            <p>To achieve outstanding results, work with our flutter app developers. We approach every project with a personalized and case-by-case basis. DianApps is renowned for its professionalism, commitment, and tailored solutions that address certain business needs.</p>
+                                            <img className='float-right' src={bulbset} alt="adimanus" />
                                         </div>
                                     )
                                 }
@@ -196,7 +194,7 @@ const IosHire = () => {
                     </div>
                 </div>
 
-                {/* =================process ayega============ */}
+                {/* ==============yaha par our process lagega========== */}
 
                 <div className="android_teck">
                     <h1>T E C H N O L O G I E S</h1>
@@ -206,13 +204,13 @@ const IosHire = () => {
                         <div className='ty_py ty_py11'>
                             <div className="ty_py1">
                                 <div className="koiy_img">
-                                    <img src={piktu} alt="" />
+                                    <img src={mingi1} alt="" />
                                 </div>
                                 <p>Swift</p>
                             </div>
                             <div className="ty_py1">
                                 <div className="koiy_img">
-                                    <img src={fiktu} alt="" />
+                                    <img src={mingi2} alt="" />
                                 </div>
                                 <p>objective-C</p>
                             </div>
@@ -460,4 +458,4 @@ const IosHire = () => {
     )
 }
 
-export default IosHire
+export default FluterHire;

@@ -11391,6 +11391,9 @@ video {
     width: 100%;
     /* padding-bottom: 70px; */
   }
+  .migration_box1{
+    height: 450px !important;
+  }
   .migartion_card .splide__track{
     overflow: initial !important;
   }
@@ -13976,6 +13979,118 @@ video {
   font-weight: bold !important;
   font-size: 26px;
   width: 100% !important;
+}
+.hg11{
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.technical_sunt h2{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 34px;
+  text-align: center;
+}
+.technical_sunt span{
+  font-weight: bold;
+}
+.technical_sunt{
+  background-color: #0B1926;
+  padding: 100px 100px;
+}
+
+.nodes_ben h2{
+  color: #33475B;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+.nodes_ben .strug{
+  color: #33475B;
+  font-size: 18.5px;
+  font-weight: 400;
+  text-align: center;
+}
+.node-cards{
+  margin-top: 80px;
+}
+
+.node-card{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.node-box{
+  width: 100%;
+  margin: 0px 10px;
+  border: 2px solid #E3E3E3;
+  border-radius: 10px;
+  height: 480px;
+  padding: 20px;
+  position: relative;
+}
+.nodung-head{
+  margin-top: 30px;
+}
+.nodung-head h3{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 26px;
+}
+.nodung-head p{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 18.5px;
+}
+.node_img{
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -48px;
+}
+.node_img img{
+  width: 40px;
+  height: 40px;
+}
+.nodes_ben{
+  padding: 60px 100px;
+}
+.node_bents{
+  margin-top: 30px;
+}
+.node_bent{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.node_benta{
+  margin: 30px 15px;
+  width: 100%;
+  max-width: 400px;
+}
+.head_brnta{
+  border-bottom: 3px solid #0C61FF;
+  padding: 10px 0px;
+}
+.head_brnta h3{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 24px;
+}
+.node_benta p{
+  color: #33475B;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 15px;
+}
+.boost_secty p{
+  width: 41em ;
+  max-width: 100%;
 }
 /* ======================graphic design css end================== */
 @media only screen and (max-width: 1500px) {

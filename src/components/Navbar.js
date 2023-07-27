@@ -410,7 +410,7 @@ const Navbar = () => {
                           <NavLink to="#!">Laravel Web Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="/nodeJsHire">Node Js Developer</NavLink>
+                          <NavLink to="/nodeHire">Node Js Developer</NavLink>
                         </li>
                         <li>
                           <NavLink to="#!">React Js Developer</NavLink>
@@ -430,10 +430,10 @@ const Navbar = () => {
                           <NavLink to="/androidHire">Android Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="#!">IOS Developer</NavLink>
+                          <NavLink to="/iosHire">IOS Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="#!">Flutter Developer</NavLink>
+                          <NavLink to="/fluterHire">Flutter Developer</NavLink>
                         </li>
                         <li>
                           <NavLink to="/nativeHire">React Native Developer</NavLink>
