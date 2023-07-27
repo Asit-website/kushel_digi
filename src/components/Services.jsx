@@ -406,7 +406,7 @@ const Services = () => {
             </button>
           </div>
         </div>
-        <Certified />
+        {/* <Certified /> */}
         <div className="home9 mb-12 home278 home480 home481">
           <div className="home91 flex px-24">
             <div className="home911 text-center">

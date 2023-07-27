@@ -646,7 +646,7 @@ const WebsiteDev = () => {
             </div>
           </div>
         </div>
-        <Certified />
+        {/* <Certified /> */}
 
         <div className="home9 mb-12 home278">
           <div className="home91 flex px-24">

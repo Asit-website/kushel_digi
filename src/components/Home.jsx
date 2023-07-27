@@ -43,6 +43,7 @@ import star1 from "../images/star1.png";
 import pay1 from "../images/pay1.png";
 import pay2 from "../images/pay2.png";
 import pay3 from "../images/pay3.png";
+import '../components/css/app1.css';
 // import box2 from "../images/box2.png";
 // import box3 from "../images/box3.png";
 // import box4 from "../images/box4.png";
@@ -94,7 +95,18 @@ import yourTeam from "../images/yourTeam.png";
 import testu from "../images/testu.png";
 import testu1 from "../images/testu1.png";
 import prongta from '../images/prongta.png';
+import worh1 from '../images/worh1.png';
+import worh2 from '../images/worh2.png';
+import worh3 from '../images/worh3.png';
+import worh4 from '../images/worh4.png';
+import worh5 from '../images/worh5.png';
+
 const Home = () => {
+  const [hovered, setHovered] = useState(false);
+  const [hovered2, setHovered2] = useState(false);
+  const [hovered3, setHovered3] = useState(false);
+  const [hovered4, setHovered4] = useState(false);
+  const [hovered5, setHovered5] = useState(false);
   let dev = "App";
   let dev1 = "Development";
   let dev2 = "Web";
@@ -305,11 +317,26 @@ const Home = () => {
         <div className="technologies_home">
           <h2>Technologies</h2>
           <div className="technology_icon">
-            <img src={taf1} alt="" />
-            <img src={taf2} alt="" />
-            <img src={taf3} alt="" />
-            <img src={taf4} alt="" />
-            <img src={taf5} alt="" />
+            <img className="cursor-pointer" src={hovered ? worh1 : taf1} alt=""
+              onMouseEnter={() => setHovered(true)}
+              onMouseLeave={() => setHovered(false)}
+            />
+            <img className=" cursor-pointer" src={hovered2 ? worh2 : taf2} alt=""
+              onMouseEnter={() => setHovered2(true)}
+              onMouseLeave={() => setHovered2(false)}
+            />
+            <img className=" cursor-pointer" src={hovered3 ? worh3 : taf3} alt=""
+              onMouseEnter={() => setHovered3(true)}
+              onMouseLeave={() => setHovered3(false)}
+            />
+            <img className=" cursor-pointer" src={hovered4 ? worh4 : taf4} alt=""
+              onMouseEnter={() => setHovered4(true)}
+              onMouseLeave={() => setHovered4(false)}
+            />
+            <img className=" cursor-pointer" src={hovered5 ? worh5 : taf5} alt=""
+              onMouseEnter={() => setHovered5(true)}
+              onMouseLeave={() => setHovered5(false)}
+            />
           </div>
         </div>
 
@@ -585,7 +612,7 @@ const Home = () => {
           </NavLink>
         </div> */}
 
-        <div className="tect_stack">
+        {/* <div className="tect_stack">
           <div className="tect_stack1">
             <h2>
               Easy to use, <span className="onn1">built</span> <span className="onn2">on</span>  <br /> <span className="onn1">powerful</span>{" "}
@@ -601,15 +628,53 @@ const Home = () => {
             <img src={verity} alt="verity" />
                 
           </div>
+        </div> */}
+
+        <div>
+          <div className="contanier">
+            <div className="contanier-box">
+              <div className="contanier-first">
+                <h1 className="main">
+                  Easy to use,
+                  <span className="change">
+                    <b className="bold">built </b> on
+                    <b className="bold"> powerful </b>
+                  </span>
+                  technology
+                </h1>
+                <h2 className="sub-heading">TOOLS &amp; TECHNOLOGY</h2>
+                <p className="paragraph">
+                  The right technology implemented across the right platforms can
+                  translate to a consistent and user friendly experience
+                </p>
+              </div>
+              <div className="contanier-second">
+                <div className="image-section">
+                  <div className="image-section-1">
+                    <div className="img1" />
+                    <div className="img2" />
+                    <div className="img3" />
+                    <div className="img4" />
+                  </div>
+                  <div className="image-section-2">
+                    <div className="img5" />
+                    <div className="img6" />
+                    <div className="img7" />
+                    <div className="img8" />
+                  </div>
+                  <div className="image-section-3">
+                    <div className="img9" />
+                    <div className="img10" />
+                    <div className="img11" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
 
-    
 
-
-
-
-         
         {/* pehle mb-12 tha */}
         <div className="home5 pb-10  bg-gray-100">
           <div className="home51 px-24">

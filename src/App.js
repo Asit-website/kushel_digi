@@ -53,6 +53,9 @@ import Solution from "./components/Solution";
 import PhpHire from "./components/PhpHire";
 import ReactNativeHire from "./components/ReactNativeHire";
 import NodeJsHire from "./components/NodeJsHire";
+import GraphicDesign from "./components/GraphicDesign";
+import AndroidHire from "./components/AndroidHire";
+import IosHire from "./components/IosHire";
 
 function App() {
   return (
@@ -62,10 +65,10 @@ function App() {
           <Navbar />
           <Routes>
             <Route  path="/" element={<Home />} />
-            <Route path="/about1" element={<About1/>}/>
+            {/* <Route path="/about1" element={<About1/>}/> */}
             <Route path="/contact" element={<Contact />} />
             <Route path="/staff-augmentation" element={<StafArgu />} />
-            <Route path="/service1" element={<Services1/>}/>
+            {/* <Route path="/service1" element={<Services1/>}/> */}
             <Route path="/ecommerce-solutions-usa" element={<Services />} />
             <Route
               path="/mobile-application-development-usa"
@@ -111,12 +114,15 @@ function App() {
             <Route path="/php" element={<Php/>}/>
 
             <Route path="/solution" element={<Solution/>}/>
+            <Route path="/graphic" element={<GraphicDesign/>}/>
             <Route path="*" element={<Error />} />
 
             {/* =============hire pages route=========== */}
             <Route path="/phpHire" element={<PhpHire/>}/>
             <Route path="/nativeHire" element={<ReactNativeHire/>}/>
             <Route path="/nodeJsHire" element={<NodeJsHire/>}/>
+            <Route path="/androidHire" element={<AndroidHire/>}/>
+            <Route path="/iosHire" element={<IosHire/>}/>
           </Routes>
           <Footer />
         </Router>

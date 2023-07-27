@@ -295,7 +295,8 @@ const MobileApp = () => {
             <img src={col4} alt="" />
           </div>
         </div>
-        <div className="mob-app1">
+
+        {/* <div className="mob-app1">
           <div className="mob-app11">
             <div className="mob-app111">
               <h1>explore our portfolio</h1>
@@ -320,9 +321,9 @@ const MobileApp = () => {
               </Splide>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <Certified />
+        {/* <Certified /> */}
 
         <div className="home9 mb-12 home278">
           <div className="home91 flex px-24">

@@ -385,7 +385,9 @@ body {
   font-weight: 400 !important;
   opacity: 0.8;
   color: #202020;
-  margin: 22px 0px;
+  /* margin: 22px 0px; */
+  margin: 12px 0px;
+  margin-left: 6px;
 }
 .wanna-btn:hover {
   color: #000000 !important;
@@ -776,7 +778,7 @@ select {
 }
 
 form button {
-  background-color: #085881;
+  background-color: #0142E1;
   cursor: pointer;
   outline: none;
   font-weight: 600;
@@ -1101,7 +1103,7 @@ form button {
   /* font-size: 42px; */
   font-size: 42px; /* pehle 45 aur 55 tha*/
   line-height: 58px;
-  font-weight: 800 !important;
+  font-weight: bold !important;
   color: #33475B;
   margin-top: 10px;
 }
@@ -10447,7 +10449,7 @@ video {
 .client_testimonials .splide__arrows {
   position: absolute;
   top: -180px;
-  left: 60%;
+  left: 65%;
   width: fit-content;
 }
 .client_testimonials .splide__pagination {
@@ -10463,7 +10465,8 @@ video {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin-left: -100px;
+
+  /* margin-left: -100px; */
   margin-top: 100px;
 }
 .client_testi1 {
@@ -11940,8 +11943,12 @@ video {
 .technology_icon img{
   margin: 0 42px;
   width: 48px;
-  height: auto;
+  height: 48px;
   /* margin-top: 40px; */
+}
+.technology_icon img:hover img{
+  transform: scale(1.2) !important;
+  transition: all .5s;
 }
 .tect_stack{
   background-color: #FFFFFF;
@@ -12781,6 +12788,7 @@ video {
   color: #FFFFFF;
   font-size: 26px;
   font-weight: bold;
+  text-align: center;
 }
 .boost_sect p{
   color: #FFFFFF;
@@ -13546,6 +13554,430 @@ video {
   overflow: initial !important;
 }
 /* ==========================native development end=================== */
+
+/* =====================================graphic design css start=========================================== */
+
+.graphic_back{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(91.72deg, #085881 21.83%, #085881 80.21%);
+  padding: 100px 100px;
+}
+.graphic_back1 h2{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 26px;
+}
+.graphic_back1 p{
+  color: #FFFFFF;
+  font-size: 18.5px;
+  font-weight: 400;
+  width: 30em;
+  opacity: .96;
+  border-left: 1px solid #FFFFFF;
+  padding: 0px 15px;
+  letter-spacing: .5px;
+  margin-top: 25px;
+}
+.graphic_back1 button{
+  background-color: #FFFFFF;
+  max-width: 310px;
+  width: 100%;
+  height: 54px;
+  margin-top: 34px;
+  color: #202020;
+  font-size: 16px;
+}
+.graphic_back1 svg{
+  display: inline;
+  margin-left: 5px;
+}
+.graphic_back2 img{
+  max-width: 310px;
+  width: 100%;
+  margin-right: 80px;
+}
+.get_graphic{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 100px;
+  background-color: #202020;
+}
+.graphic11 h3{
+  color: #FFFFFF;
+  font-size: 19px;
+  font-weight: 400;
+  letter-spacing: .5px;
+}
+.graphic11 h2{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 26px;
+  margin-top: 10px;
+}
+.graphic11 p{
+  color: #FFFFFF;
+  font-size: 18.5px;
+  font-weight: 400;
+  width: 39em;
+  max-width: 100%;
+  line-height: 30px;
+}
+.whether56{
+  margin-top: 15px;
+}
+.graphic_end_img img{
+  max-width: 290px;
+  width: 100%;
+  margin-right: 80px;
+}
+.design_services{
+  padding: 60px 100px;
+  background-color: #0B1926;
+}
+.design_services h2{
+  color: #FFFFFF;
+  font-size: 26px;
+  border-bottom: 3px solid #FFFFFF;
+  display: inline-block;
+  margin-left: 12px;
+}
+.design_cant{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.design_box{
+  margin: 30px 12px;
+  width: 100%;
+}
+.arts-head h3{
+  color: #FFFFFF;
+  font-size: 26px;
+  font-weight: bold;
+}
+.arts-head P{
+  color: #FFFFFF;
+  font-size: 18.5px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+.arts-head{
+  padding: 20px 0px;
+  border-bottom: 4.5px solid #2B435C;
+  padding-bottom: 40px;
+  /* height: 400px; */
+
+}
+.design_cants{
+  margin-top: 40px;
+}
+.gret-outcome{
+  padding: 0px 100px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #0B1926;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.gret-outcome1 h1{
+  font-size: 26px;
+  color: #fff;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+.gret-outcome1 p{
+  color: #FFFFFF;
+  font-size: 26px;
+  font-weight: bold;
+}
+.gret-outcome2 button{
+  max-width: 100%;
+  width: 180px;
+  background-color: #085881;
+  height: 58px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 3px;
+}
+.what_makes{
+  padding: 80px 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.what_makes1{
+  padding: 0px 100px;
+}
+.make-head h2{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 26px;
+}
+.make-head p{
+  color: #33475B;
+  font-size: 18.5px;
+  font-weight: 400;
+  width: 30em;
+  max-width: 100%;
+  margin-top: 18px;
+  line-height: 30px;
+}
+.make-head button{
+  width: 180px;
+  max-width: 100%;
+  background-color: #085881;
+  height: 58px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 3px;
+  margin-top: 30px;
+}
+.what_img img{
+  max-width: 670px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.boost_sect1{
+ position: initial;
+ transform: translate(0px,0px);
+ top: 0px;
+ left: 0px;
+}
+.boost_sect1 p{
+  width: 59em;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+.boost1{
+  display: grid;
+  align-content: center;
+  padding: 0px 100px;
+  background-image: url('./images/movi.png');
+}
+.boost1 button{
+  max-width: 230px;
+  width: 100%;
+}
+.hire_apps{
+  padding: 60px 100px;
+}
+.hire_apps h2{
+  text-align: center;
+  font-weight: bold;
+  font-size: 26px;
+  color: #33475B;
+}
+.hire_apps .actsy{
+  text-align: center;
+  font-weight: 400;
+  font-size: 18.5px;
+  color: #33475B;
+  width: 50em;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 12px;
+}
+.nty-card{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.nty-box{
+  width: 100%;
+  margin: 30px 20px;
+  max-width: 370px;
+  width: 100%;
+}
+.nty_head{
+  display: flex;
+  align-items: flex-start;
+}
+.nty_head h3{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 22px;
+  margin-left: 5px;
+}
+.parst-ty{
+  padding: 0px 25px;
+}
+.parst-ty p{
+  font-size: 16px;
+  color: #33475B;
+  font-weight: 400;
+  margin-top: 12px;
+  line-height: 26px;
+}
+.nty-cards{
+  margin-top: 30px;
+}
+.android_teck{
+  padding: 70px 100px;
+  background-color: #101214;
+}
+.android_teck h1{
+  color: #FFFFFF;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+.tect_nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tect_nav p{
+  color: #fff;
+  margin: 0px 20px;
+  font-weight: 400;
+  font-size: 19px;
+  position: relative;
+  top: 13px;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.android_tect_card{
+  max-width: 969px;
+  width: 100%;
+  border: 1px solid #333333;
+  display: block;
+  margin: auto;
+  padding: 40px 90px;
+  border-radius: 20px;
+  height: 350px;
+  margin-top: 30px;
+}
+.ty_py{
+  display: flex;
+  align-items: center;
+  /* margin: 0px 30px; */
+}
+.ty_py1{
+  margin: 0px 30px;
+  margin-top: 50px;
+}
+.koiy_img{
+  background-color: #222222;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  display: block;
+  margin: auto;
+  position: relative;
+}
+.koiy_img img{
+  width: 25px;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.ty_py1 p{
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18.5px;
+  text-align: center;
+  margin-top: 14px;
+}
+#first{
+  border-bottom: 3px solid #0142E1;
+}
+.hr_ty{
+  margin: 0px 20px;
+  margin-top: 12px !important;
+}
+.android_appli{
+  background-color: #000000;
+  padding: 60px 100px;
+}
+.android_appli h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 26px;
+}
+.apli-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.apli-box{
+  width: 100%;
+  background-color: #1E1E20;
+  margin: 0px 15px;
+  padding: 20px 18px;
+  padding-top: 40px;
+  border-top: 5px solid #1668FF;
+  height: 320px;
+}
+.apli-box img{
+  width: 40px;
+  display: block;
+  margin: auto;
+}
+.gt_head h2{
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 19px;
+  margin-top: 25px;
+}
+.gt_head p{
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 15.5px;
+  margin-top: 20px;
+}
+.ttr{
+  width: 130px;
+  height: 2.5px;
+  background-color: #0142E1;
+  display: block;
+  margin: auto;
+}
+.ty_py11{
+  justify-content: center;
+}
+.why_chose_ios{
+  background-color: #0B1926;
+  padding: 80px 100px;
+}
+.why_chose_ios h1{
+  font-size:26px ;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.why_chose_ios .why_chst{
+  color: #FFFFFF;
+  font-size: 19px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.boost_sect2 h1{
+  font-weight: 400 !important;
+}
+.boost_sect2 p{
+  font-weight: bold !important;
+  font-size: 26px;
+  width: 100% !important;
+}
+/* ======================graphic design css end================== */
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;
