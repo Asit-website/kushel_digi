@@ -56,6 +56,8 @@ import NodeJsHire from "./components/NodeJsHire";
 import GraphicDesign from "./components/GraphicDesign";
 import AndroidHire from "./components/AndroidHire";
 import IosHire from "./components/IosHire";
+import FluterHire from "./components/FluterHire";
+import HireNodeJs from "./components/HireNodeJs";
 
 function App() {
   return (
@@ -120,9 +122,11 @@ function App() {
             {/* =============hire pages route=========== */}
             <Route path="/phpHire" element={<PhpHire/>}/>
             <Route path="/nativeHire" element={<ReactNativeHire/>}/>
-            <Route path="/nodeJsHire" element={<NodeJsHire/>}/>
+            
             <Route path="/androidHire" element={<AndroidHire/>}/>
             <Route path="/iosHire" element={<IosHire/>}/>
+            <Route path="/fluterHire" element={<FluterHire/>}/>
+            <Route path="/nodeHire" element={<HireNodeJs/>}/>
           </Routes>
           <Footer />
         </Router>
