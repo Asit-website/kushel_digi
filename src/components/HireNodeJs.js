@@ -319,7 +319,7 @@ const HireNodeJs = () => {
                 </div>
             </div>
 
-            <div className="kushel_cant">
+            {/* <div className="kushel_cant">
                 <h1>Why Choose Kushel Digi Node.js Developers?</h1>
                 <p>We are a reputed Node JS development company driven by the motivation to provide
                     breakthrough Node JS development services.</p>
@@ -334,7 +334,7 @@ const HireNodeJs = () => {
                          </div>
                          </div>
                     </div>
-            </div>
+            </div> */}
 
 
 
