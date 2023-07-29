@@ -413,7 +413,7 @@ const Navbar = () => {
                           <NavLink to="/nodeHire">Node Js Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="#!">React Js Developer</NavLink>
+                          <NavLink to="/reactHire">React Js Developer</NavLink>
                         </li>
                         <li>
                           <NavLink to="#!">Wordpress Developer</NavLink>

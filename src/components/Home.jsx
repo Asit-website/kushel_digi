@@ -707,6 +707,229 @@ const Home = () => {
             {tab === 1 && (
               <div className="homeswar mt-14">
                 <h4>We create success stories.</h4>
+                <h3>Our Portfolios</h3>
+                <div className="homeswar-side mt-5">
+                  <div className="homeswar-flex">
+                    <div className="homeswar-card">
+                      <div className="homeswar-sect">
+                        <h5>KICKEEZ</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/kick">
+                          <button>Details</button>
+                        </NavLink>
+
+                        <a target="_blank" href="https://kickeezproducts.com/">
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card1">
+                      <div className="homeswar-sect">
+                        <h5>SOLENOID NINJA</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/solenoid">
+                          <button>Details</button>
+                        </NavLink>
+                        <a target="_blank" href="https://solenoid-ninja.com/">
+                          {" "}
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card2">
+                      <div className="homeswar-sect">
+                        <h5>PROTRUCKS</h5>
+                        <p>
+                          custom design / custom <br /> development
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/protrack">
+                          <button>Details</button>
+                        </NavLink>
+                        <a
+                          target="_blank"
+                          href="https://www.protrucksandcars.net/"
+                        >
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="homeswar-flex">
+                    <div className="homeswar-card homeswar-card6">
+                      <div className="homeswar-sect">
+                        <h5>GRANNY’S FINEST</h5>
+                        <p>
+                          Made by the best & worn <br /> by thegreatest
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/ammed">
+                          <button>Details</button>
+                        </NavLink>
+                        <p>visit site</p>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card7">
+                      <div className="homeswar-sect">
+                        <h5>MAJOR SAVING ON INFLUENCER</h5>
+                        {/* <p>
+                          custom design / custom <br /> development
+                        </p> */}
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/rely">
+                          <button>Details</button>
+                        </NavLink>
+                        <a href="https://rely.mybigcommerce.com/?ctk=22b4785d-b154-406a-a998-f45dea313933">
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card8">
+                      <div className="homeswar-sect">
+                        <h5>PAIN RELIEVING APPAREL</h5>
+                        <p>
+                          medicine infused fabrics
+                        </p>
+                        <p>Activates on skin contact</p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/jones">
+                          <button>Details</button>
+                        </NavLink>
+                        <p>visit site</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+            {tab === 2 && (
+              <div className="homeswar mt-14">
+                <h4>We create success stories.</h4>
+                <h3>Website Design Portfolio</h3>
+                <div className="homeswar-side mt-5">
+                  <div className="homeswar-flex">
+                    <div className="homeswar-card homeswar-card9 ">
+                      <div className="homeswar-sect">
+                        <h5>SUMMER-READY SKIN</h5>
+                        <p>
+                          Hydrate and plumb with the <br />
+                          super serum duo
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/kick">
+                          <button>Details</button>
+                        </NavLink>
+
+                        <a target="_blank" href="https://kickeezproducts.com/">
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card10">
+                      <div className="homeswar-sect">
+                        <h5>
+                          CREATE THE REMARKABLE <br /> DIMENSIONS WITH MPM
+                        </h5>
+                        <p>
+                          Connecting people across the globe.
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/solenoid">
+                          <button>Details</button>
+                        </NavLink>
+                        <a target="_blank" href="https://solenoid-ninja.com/">
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card11">
+                      <div className="homeswar-sect">
+                        <h5>DOLIWALA EVENTS & WEDDING</h5>
+                        <p>
+                          Solution for all weddings and corporate events management and entertainment.
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/solenoid">
+                          <button>Details</button>
+                        </NavLink>
+                        <a target="_blank" href="https://solenoid-ninja.com/">
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="homeswar-flex">
+                    <div className="homeswar-card homeswar-card12 ">
+                      <div className="homeswar-sect">
+                        <h5>SPINNING</h5>
+                        <p>
+                          Bring the studioexperience homewith <br /> the original indoor cycling brand.
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/kick">
+                          <button>Details</button>
+                        </NavLink>
+
+                        <a target="_blank" href="https://kickeezproducts.com/">
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card13">
+                      <div className="homeswar-sect">
+                        <h5>MIX IT UP</h5>
+                        <p>
+                          Find your look for your iphone 14
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/solenoid">
+                          <button>Details</button>
+                        </NavLink>
+                        <a target="_blank" href="https://solenoid-ninja.com/">
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="homeswar-card homeswar-card14">
+                      <div className="homeswar-sect">
+                        <h5>DISCOVER YOUR BETTER</h5>
+                        <p>
+                          With a daily routine customized to your <br /> wellness goals.
+                        </p>
+                      </div>
+                      <div className="homeswar-sect1">
+                        <NavLink to="/solenoid">
+                          <button>Details</button>
+                        </NavLink>
+                        <a target="_blank" href="https://solenoid-ninja.com/">
+                          <p>visit site</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            )}
+            {tab === 3 && (
+              <div className="homeswar mt-14">
+                <h4>We create success stories.</h4>
                 <h3>BigCommerce Portfolio</h3>
                 <div className="homeswar-side mt-5">
                   <div className="homeswar-flex">
@@ -769,14 +992,17 @@ const Home = () => {
                       <div className="homeswar-sect">
                         <h5>2ND AMENDMENT</h5>
                         <p>
-                          custom design / custom <br /> development
+                        custom design / custom development
                         </p>
                       </div>
                       <div className="homeswar-sect1">
                         <NavLink to="/ammed">
                           <button>Details</button>
                         </NavLink>
-                        <p>visit site</p>
+
+                        <a target="_blank" href="https://kickeezproducts.com/">
+                          <p>visit site</p>
+                        </a>
                       </div>
                     </div>
                     <div className="homeswar-card homeswar-card4">
@@ -790,7 +1016,8 @@ const Home = () => {
                         <NavLink to="/rely">
                           <button>Details</button>
                         </NavLink>
-                        <a href="https://rely.mybigcommerce.com/?ctk=22b4785d-b154-406a-a998-f45dea313933">
+                        <a target="_blank" href="https://solenoid-ninja.com/">
+                          {" "}
                           <p>visit site</p>
                         </a>
                       </div>
@@ -806,123 +1033,12 @@ const Home = () => {
                         <NavLink to="/jones">
                           <button>Details</button>
                         </NavLink>
-                        <p>visit site</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-            {tab === 2 && (
-              <div className="homeswar mt-14">
-                <h4>We create success stories.</h4>
-                <h3>BigCommerce Portfolio</h3>
-                <div className="homeswar-side mt-5">
-                  <div className="homeswar-flex">
-                    <div className="homeswar-card">
-                      <div className="homeswar-sect">
-                        <h5>KICKEEZ</h5>
-                        <p>
-                          custom design / custom <br /> development
-                        </p>
-                      </div>
-                      <div className="homeswar-sect1">
-                        <NavLink to="/kick">
-                          <button>Details</button>
-                        </NavLink>
-
-                        <a target="_blank" href="https://kickeezproducts.com/">
+                        <a
+                          target="_blank"
+                          href="https://www.protrucksandcars.net/"
+                        >
                           <p>visit site</p>
                         </a>
-                      </div>
-                    </div>
-                    <div className="homeswar-card homeswar-card1">
-                      <div className="homeswar-sect">
-                        <h5>SOLENOID NINJA</h5>
-                        <p>
-                          custom design / custom <br /> development
-                        </p>
-                      </div>
-                      <div className="homeswar-sect1">
-                        <NavLink to="/solenoid">
-                          <button>Details</button>
-                        </NavLink>
-                        <a target="_blank" href="https://solenoid-ninja.com/">
-                          <p>visit site</p>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="homeswar-card homeswar-card1">
-                      <div className="homeswar-sect">
-                        <h5>SOLENOID NINJA</h5>
-                        <p>
-                          custom design / custom <br /> development
-                        </p>
-                      </div>
-                      <div className="homeswar-sect1">
-                        <NavLink to="/solenoid">
-                          <button>Details</button>
-                        </NavLink>
-                        <a target="_blank" href="https://solenoid-ninja.com/">
-                          <p>visit site</p>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-            {tab === 3 && (
-              <div className="homeswar mt-14">
-                <h4>We create success stories.</h4>
-                <h3>BigCommerce Portfolio</h3>
-                <div className="homeswar-side mt-5">
-                  <div className="homeswar-flex">
-                    <div className="homeswar-card">
-                      <div className="homeswar-sect">
-                        <h5>KICKEEZ</h5>
-                        <p>
-                          custom design / custom <br /> development
-                        </p>
-                      </div>
-                      <div className="homeswar-sect1">
-                        <NavLink to="/kick">
-                          <button>Details</button>
-                        </NavLink>
-                        <a target="_blank" href="https://kickeezproducts.com/">
-                          <p>visit site</p>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="homeswar-card homeswar-card1">
-                      <div className="homeswar-sect">
-                        <h5>SOLENOID NINJA</h5>
-                        <p>
-                          custom design / custom <br /> development
-                        </p>
-                      </div>
-                      <div className="homeswar-sect1">
-                        <NavLink to="/solenoid">
-                          <button>Details</button>
-                        </NavLink>
-                        <a target="_blank" href="https://solenoid-ninja.com/">
-                          <p>visit site</p>
-                        </a>
-                      </div>
-                    </div>
-                    <div className="homeswar-card homeswar-card3">
-                      <div className="homeswar-sect">
-                        <h5>2ND AMENDMENT</h5>
-                        <p>
-                          custom design / custom <br /> development
-                        </p>
-                      </div>
-                      <div className="homeswar-sect1">
-                        <NavLink to="/ammed">
-                          <button>Details</button>
-                        </NavLink>
-
-                        <p>visit site</p>
                       </div>
                     </div>
                   </div>
@@ -1079,9 +1195,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-
-
+        
         <div className="section78878">
           <div className="section-heading">
             <h1 className="heading">OUR WORKING PROCESS</h1>

@@ -4,7 +4,6 @@ import ContactForm1 from "./common/ContactForm1";
 import { NavLink } from "react-router-dom";
 import SmallApproach from "./common/SmallApproach";
 import asit from "../images/asit.png";
-import chirag from "../images/chirag.png";
 import arrow from "../images/arrow.png";
 import sijo1 from "../images/sijo.png";
 import link from "../images/link.png";
@@ -13,6 +12,11 @@ import github from "../images/github.png";
 import aboutVector from "../images/aboutVector.png";
 import aboutVector1 from "../images/aboutVector1.png";
 import { AnimationOnScroll } from "react-animation-on-scroll";
+import shubhamGupta from '../images/shubhamGupta.png';
+import chiragNegi from '../images/chiragNegi.png';
+import asitMandal from '../images/asitMandal.png';
+import akashNegi from '../images/akashNegi.jpg';
+import surbhi from '../images/surbhi.png';
 const About = () => {
   const [tab, setTab] = useState(1);
 
@@ -273,12 +277,13 @@ const About = () => {
           </div>
         </div>
         
-        {/* <div className="about-main7">
+        <div className="about-main7">
           <h1 className="text-center">Meet Our Team</h1>
-          <div className="about-main71 flex  justify-center">
+          <div className="about-main71 flex flex-wrap  justify-center">
+
             <div className="about72">
               <div className="about7 relative">
-                <img src="/static/images/e11.png" alt="" />
+                <img src={shubhamGupta} alt="" />
                 <div className="absolute flex flex-col">
                   <div className="chief">
                     <h2 className="text-center">CHIEF</h2>
@@ -325,30 +330,7 @@ const About = () => {
             </div>
             <div className="about72">
               <div className="about7 relative w-full">
-                <img src={asit} alt="asit" />
-                <div className="absolute flex flex-col">
-                  <div className="chief">
-                    <h2 className="text-center">DEVELOPER</h2>
-                    <div className="flex linkj1  items-center justify-center">
-                      <a
-                        target="_blank"
-                        href="https://www.linkedin.com/in/asit-mandal-059152214/"
-                      >
-                        <img className="linkj" src={link} alt="link" />
-                      </a>
-                      <a target="_blank" href="https://github.com/Asit-website">
-                        <img className="linkj" src={github} alt="young3" />
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <h4>Asit Mandal</h4>
-              <p>Developer</p>
-            </div>
-            <div className="about72">
-              <div className="about7 relative w-full">
-                <img src={chirag} alt="chirag" />
+                <img src={chiragNegi} alt="chirag" />
                 <div className="absolute flex flex-col">
                   <div className="chief">
                     <h2 className="text-center">MANAGER</h2>
@@ -372,8 +354,83 @@ const About = () => {
               <h4>Chirag Negi</h4>
               <p>Administrative assistant</p>
             </div>
+            <div className="about72">
+              <div className="about7 relative w-full">
+                <img src={asitMandal} alt="asit" />
+                <div className="absolute flex flex-col">
+                  <div className="chief">
+                    <h2 className="text-center">DEVELOPER</h2>
+                    <div className="flex linkj1  items-center justify-center">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/asit-mandal-059152214/"
+                      >
+                        <img className="linkj" src={link} alt="link" />
+                      </a>
+                      <a target="_blank" href="https://github.com/Asit-website">
+                        <img className="linkj" src={github} alt="young3" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h4>Asit Mandal</h4>
+              <p>Developer</p>
+            </div>
+                {/* ===============next 4 here=============== */}
+
+            <div className="about72">
+              <div className="about7 relative">
+                <img src={akashNegi} alt="" />
+                <div className="absolute flex flex-col">
+                  <div className="chief">
+                    <h2 className="text-center">ECOMMERCE SPECIALIST</h2>
+                    <div className="flex linkj1  items-center justify-center">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/akash-negi-6a89a2199/"
+                      >
+                        <img className="linkj" src={link} alt="link" />
+                      </a>
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/art_beast_creative/"
+                      >
+                        <img className="linkj" src={young3} alt="young3" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h4>Akash Negi</h4>
+              <p>UI / UX Designer</p>
+            </div>
+            <div className="about72">
+              <div className="about7 relative w-full">
+                <img src={surbhi} alt="asit" />
+                <div className="absolute flex flex-col">
+                  <div className="chief">
+                    <h2 className="text-center">DEVELOPER</h2>
+                    <div className="flex linkj1  items-center justify-center">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/surbhi-rajwanshi-89b829209"
+                      >
+                        <img className="linkj" src={link} alt="link" />
+                      </a>
+                      {/* <a target="_blank" href="https://github.com/Asit-website">
+                        <img className="linkj" src={github} alt="young3" />
+                      </a> */}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h4>Surbhi Rajwanshi</h4>
+              <p>Developer</p>
+            </div>
+           
           </div>
-        </div> */}
+        </div>
 
         
         <div className="about-main6">

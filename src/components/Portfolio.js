@@ -12,6 +12,11 @@ import trackent from "../images/trackent.png";
 import trackent1 from "../images/trackent1.png";
 import trackent2 from "../images/trackent2.png";
 import wheels from '../images/wheels.png';
+import grantifitts from '../images/grantifitts.png';
+import worlich from '../images/woorlich.png';
+import bulter from '../images/bulter.png';
+import skini from '../images/skini.png';
+import wresti from '../images/wresti.png';
 const Portfolio = () => {
   const [fab, setFab] = useState(1);
   const taf1 = (e) => {
@@ -123,10 +128,10 @@ const Portfolio = () => {
               if you want to be included. We offer the best services, as any of
               our clients would attest.
             </p>
-           <NavLink to="/contact"><button>Discuss Your Project</button></NavLink>
+            <NavLink to="/contact"><button>Discuss Your Project</button></NavLink>
           </div>
         </div>
-        <div className="portfolio-nav">
+        {/* <div className="portfolio-nav">
           <p id="pw" onClick={taf1} className="all-port">
             ALL
           </p>
@@ -139,25 +144,22 @@ const Portfolio = () => {
           <p id="pz" onClick={taf4}>
             MOBILE APPLICATION
           </p>
-        </div>
+        </div> */}
         <div className="portfolio-web">
-          {/* =================1st============= */}
-          {fab === 1 && (
-            <>
-              <div className="portis">
-                <div className="portis1">
-                  <div className="portis1-sect">
-                    <img src={kick5} alt="" />
-                  </div>
-                </div>
-                <div className="portis2">
-                  <h3>KICK-EEZ</h3>
-                  <p className="kick-eez">
-                    KICK- EEZ Premium, Made in America recoil pads and
-                    accessories to make your shooting experience more
-                    comfortable.
-                  </p>
-                  <div className="port-usa">
+          <div className="portis">
+            <div className="portis1">
+              <div className="portis1-sect">
+                <img src={kick5} alt="" />
+              </div>
+            </div>
+            <div className="portis2">
+              <h3>KICK-EEZ</h3>
+              <p className="kick-eez">
+                KICK- EEZ Premium, Made in America recoil pads and
+                accessories to make your shooting experience more
+                comfortable.
+              </p>
+              {/* <div className="port-usa">
                     <div className="port-usa1">
                       <img src={porta} alt="" />
                       <p className="port-pat">Industry</p>
@@ -168,38 +170,38 @@ const Portfolio = () => {
                       <p className="port-pat">Country</p>
                       <p className="reg1">USA</p>
                     </div>
+                  </div> */}
+              <div className="port-serv">
+                <h4>Service We Provide</h4>
+                <div className="portfolio-serv">
+                  <div className="porting-serv">
+                    <img src={foc1} alt="" />
+                    <p>Design</p>
                   </div>
-                  <div className="port-serv">
-                    <h4>Service We Provide</h4>
-                    <div className="portfolio-serv">
-                      <div className="porting-serv">
-                        <img src={foc1} alt="" />
-                        <p>Design</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc2} alt="" />
-                        <p>Development</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc3} alt="" />
-                        <p>Testing</p>
-                      </div>
-                    </div>
+                  <div className="porting-serv">
+                    <img src={foc2} alt="" />
+                    <p>Development</p>
                   </div>
-                  <NavLink to="/kick">
-                    <button>View More</button>
-                  </NavLink>
+                  <div className="porting-serv">
+                    <img src={foc3} alt="" />
+                    <p>Testing</p>
+                  </div>
                 </div>
               </div>
-              {/* =============2nd================ */}
-              <div className="portis mt-12">
-                <div className="portis2 pong1">
-                  <h3>PRO TRUCKS</h3>
-                  <p className="kick-eez">
-                    Aftermarket suspension lift kits, leveling kits and
-                    accessories for 4X4 off-road truck and jeep enthusiasts
-                  </p>
-                  <div className="port-usa">
+              <NavLink to="/kick">
+                <button>View More</button>
+              </NavLink>
+            </div>
+          </div>
+          {/* =============2nd================ */}
+          <div className="portis mt-12">
+            <div className="portis2 pong1">
+              <h3>PRO TRUCKS</h3>
+              <p className="kick-eez">
+                Aftermarket suspension lift kits, leveling kits and
+                accessories for 4X4 off-road truck and jeep enthusiasts
+              </p>
+              {/* <div className="port-usa">
                     <div className="port-usa1">
                       <img src={porta} alt="" />
                       <p className="port-pat">Industry</p>
@@ -210,48 +212,48 @@ const Portfolio = () => {
                       <p className="port-pat">Country</p>
                       <p className="reg1">USA</p>
                     </div>
+                  </div> */}
+              <div className="port-serv">
+                <h4>Service We Provide</h4>
+                <div className="portfolio-serv">
+                  <div className="porting-serv">
+                    <img src={foc1} alt="" />
+                    <p>Design</p>
                   </div>
-                  <div className="port-serv">
-                    <h4>Service We Provide</h4>
-                    <div className="portfolio-serv">
-                      <div className="porting-serv">
-                        <img src={foc1} alt="" />
-                        <p>Design</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc2} alt="" />
-                        <p>Development</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc3} alt="" />
-                        <p>Testing</p>
-                      </div>
-                    </div>
+                  <div className="porting-serv">
+                    <img src={foc2} alt="" />
+                    <p>Development</p>
                   </div>
-                 <NavLink to="/protrack"><button>View More</button></NavLink>
-                </div>
-                <div className="portis1 portis11 pong2">
-                  <div className="portis1-sect">
-                    <img src={trackent} alt="" />
+                  <div className="porting-serv">
+                    <img src={foc3} alt="" />
+                    <p>Testing</p>
                   </div>
                 </div>
               </div>
+              <NavLink to="/protrack"><button>View More</button></NavLink>
+            </div>
+            <div className="portis1 portis11 pong2">
+              <div className="portis1-sect">
+                <img src={trackent} alt="" />
+              </div>
+            </div>
+          </div>
 
-              {/* ================3rd================= */}
-              <div className="portis mt-12">
-                <div className="portis1 portis111">
-                  <div className="portis1-sect">
-                    <img src={trackent2} alt="trackent2" />
-                  </div>
-                </div>
-                <div className="portis2">
-                  <h3>RELY INNOVATION</h3>
-                  <p className="kick-eez">
-                    Get peace of mind. install alarms that not only notify you
-                    of danger, but also clearly instructs you on what to do
-                    next.
-                  </p>
-                  <div className="port-usa">
+          {/* ================3rd================= */}
+          <div className="portis mt-12">
+            <div className="portis1 portis111">
+              <div className="portis1-sect">
+                <img src={trackent2} alt="trackent2" />
+              </div>
+            </div>
+            <div className="portis2">
+              <h3>RELY INNOVATION</h3>
+              <p className="kick-eez">
+                Get peace of mind. install alarms that not only notify you
+                of danger, but also clearly instructs you on what to do
+                next.
+              </p>
+              {/* <div className="port-usa">
                     <div className="port-usa1">
                       <img src={porta} alt="" />
                       <p className="port-pat">Industry</p>
@@ -262,37 +264,38 @@ const Portfolio = () => {
                       <p className="port-pat">Country</p>
                       <p className="reg1">USA</p>
                     </div>
+                  </div> */}
+              <div className="port-serv">
+                <h4>Service We Provide</h4>
+                <div className="portfolio-serv">
+                  <div className="porting-serv">
+                    <img src={foc1} alt="" />
+                    <p>Design</p>
                   </div>
-                  <div className="port-serv">
-                    <h4>Service We Provide</h4>
-                    <div className="portfolio-serv">
-                      <div className="porting-serv">
-                        <img src={foc1} alt="" />
-                        <p>Design</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc2} alt="" />
-                        <p>Development</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc3} alt="" />
-                        <p>Testing</p>
-                      </div>
-                    </div>
+                  <div className="porting-serv">
+                    <img src={foc2} alt="" />
+                    <p>Development</p>
                   </div>
-                 <NavLink to="/rely"><button>View More</button></NavLink>
+                  <div className="porting-serv">
+                    <img src={foc3} alt="" />
+                    <p>Testing</p>
+                  </div>
                 </div>
               </div>
+              <NavLink to="/rely"><button>View More</button></NavLink>
+            </div>
+          </div>
 
-              {/* =============4th================ */}
-              <div className="portis mt-12">
-                <div className="portis2 pong1">
-                  <h3>CEO WHEELS</h3>
-                  <p className="kick-eez">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                  </p>
-                  <div className="port-usa">
+          {/* =============4th================ */}
+          <div className="portis mt-12">
+            <div className="portis2 pong1">
+              <h3>CEO WHEELS</h3>
+              <p className="kick-eez">
+                CEO Wheels is a brick and mortar custom wheel
+                shop. They have four locations and will be
+                opening a fifth soon.
+              </p>
+              {/* <div className="port-usa">
                     <div className="port-usa1">
                       <img src={porta} alt="" />
                       <p className="port-pat">Industry</p>
@@ -303,47 +306,46 @@ const Portfolio = () => {
                       <p className="port-pat">Country</p>
                       <p className="reg1">USA</p>
                     </div>
+                  </div> */}
+              <div className="port-serv">
+                <h4>Service We Provide</h4>
+                <div className="portfolio-serv">
+                  <div className="porting-serv">
+                    <img src={foc1} alt="" />
+                    <p>Design</p>
                   </div>
-                  <div className="port-serv">
-                    <h4>Service We Provide</h4>
-                    <div className="portfolio-serv">
-                      <div className="porting-serv">
-                        <img src={foc1} alt="" />
-                        <p>Design</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc2} alt="" />
-                        <p>Development</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc3} alt="" />
-                        <p>Testing</p>
-                      </div>
-                    </div>
+                  <div className="porting-serv">
+                    <img src={foc2} alt="" />
+                    <p>Development</p>
                   </div>
-                 <NavLink to="/ceo"><button>View More</button></NavLink>
-                </div>
-                <div className="portis1 portis1111 pong2">
-                  <div className="portis1-sect">
-                    <img src={wheels} alt="cent" />
+                  <div className="porting-serv">
+                    <img src={foc3} alt="" />
+                    <p>Testing</p>
                   </div>
                 </div>
               </div>
+              <NavLink to="/ceo"><button>View More</button></NavLink>
+            </div>
+            <div className="portis1 portis1111 pong2">
+              <div className="portis1-sect">
+                <img src={wheels} alt="cent" />
+              </div>
+            </div>
+          </div>
 
-              {/* ================5th================= */}
-              <div className="portis mt-12">
-                <div className="portis1 portis11111">
-                  <div className="portis1-sect">
-                    <img src={trackent1} alt="trackent1" />
-                  </div>
-                </div>
-                <div className="portis2">
-                  <h3>SOLENOID NINJA</h3>
-                  <p className="kick-eez">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                  </p>
-                  <div className="port-usa">
+          {/* ================5th================= */}
+          <div className="portis mt-12">
+            <div className="portis1 portis11111">
+              <div className="portis1-sect">
+                <img src={trackent1} alt="trackent1" />
+              </div>
+            </div>
+            <div className="portis2">
+              <h3>SOLENOID NINJA</h3>
+              <p className="kick-eez">
+                Due to high volatility in the materials market we are currently experiencing longer than normal lead times.
+              </p>
+              {/* <div className="port-usa">
                     <div className="port-usa1">
                       <img src={porta} alt="" />
                       <p className="port-pat">Industry</p>
@@ -354,235 +356,76 @@ const Portfolio = () => {
                       <p className="port-pat">Country</p>
                       <p className="reg1">USA</p>
                     </div>
+                  </div> */}
+              <div className="port-serv">
+                <h4>Service We Provide</h4>
+                <div className="portfolio-serv">
+                  <div className="porting-serv">
+                    <img src={foc1} alt="" />
+                    <p>Design</p>
                   </div>
-                  <div className="port-serv">
-                    <h4>Service We Provide</h4>
-                    <div className="portfolio-serv">
-                      <div className="porting-serv">
-                        <img src={foc1} alt="" />
-                        <p>Design</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc2} alt="" />
-                        <p>Development</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc3} alt="" />
-                        <p>Testing</p>
-                      </div>
-                    </div>
+                  <div className="porting-serv">
+                    <img src={foc2} alt="" />
+                    <p>Development</p>
                   </div>
-                 <NavLink to="/solenoid"><button>View More</button></NavLink>
-                </div>
-              </div>
-            </>
-          )}
-          {fab === 2 && (
-            <>
-              <div className="portis">
-                <div className="portis1">
-                  <div className="portis1-sect">
-                    <img src={kick5} alt="" />
-                  </div>
-                </div>
-                <div className="portis2">
-                  <h3>KICK-EEZ</h3>
-                  <p className="kick-eez">
-                    KICK- EEZ Premium, Made in America recoil pads and
-                    accessories to make your shooting experience more
-                    comfortable.
-                  </p>
-                  <div className="port-usa">
-                    <div className="port-usa1">
-                      <img src={porta} alt="" />
-                      <p className="port-pat">Industry</p>
-                      <p className="reg">E-commerce</p>
-                    </div>
-                    <div className="port-usa1">
-                      <img src={portlo} alt="" />
-                      <p className="port-pat">Country</p>
-                      <p className="reg1">USA</p>
-                    </div>
-                  </div>
-                  <div className="port-serv">
-                    <h4>Service We Provide</h4>
-                    <div className="portfolio-serv">
-                      <div className="porting-serv">
-                        <img src={foc1} alt="" />
-                        <p>Design</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc2} alt="" />
-                        <p>Development</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc3} alt="" />
-                        <p>Testing</p>
-                      </div>
-                    </div>
-                  </div>
-                 <NavLink to="/kick"><button>View More</button></NavLink>
-                </div>
-              </div>
-              {/* =============2nd================ */}
-              <div className="portis mt-12">
-                <div className="portis2 pong1">
-                  <h3>PRO TRUCKS</h3>
-                  <p className="kick-eez">
-                    Aftermarket suspension lift kits, leveling kits and
-                    accessories for 4X4 off-road truck and jeep enthusiasts
-                  </p>
-                  <div className="port-usa">
-                    <div className="port-usa1">
-                      <img src={porta} alt="" />
-                      <p className="port-pat">Industry</p>
-                      <p className="reg">E-commerce</p>
-                    </div>
-                    <div className="port-usa1">
-                      <img src={portlo} alt="" />
-                      <p className="port-pat">Country</p>
-                      <p className="reg1">USA</p>
-                    </div>
-                  </div>
-                  <div className="port-serv">
-                    <h4>Service We Provide</h4>
-                    <div className="portfolio-serv">
-                      <div className="porting-serv">
-                        <img src={foc1} alt="" />
-                        <p>Design</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc2} alt="" />
-                        <p>Development</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc3} alt="" />
-                        <p>Testing</p>
-                      </div>
-                    </div>
-                  </div>
-                <NavLink to="/protrack"><button>View More</button></NavLink>
-                </div>
-                <div className="portis1 portis11 pong2">
-                  <div className="portis1-sect">
-                    <img src={trackent} alt="" />
+                  <div className="porting-serv">
+                    <img src={foc3} alt="" />
+                    <p>Testing</p>
                   </div>
                 </div>
               </div>
-            </>
-          )}
+              <NavLink to="/solenoid"><button>View More</button></NavLink>
+            </div>
+          </div>
 
-          {fab === 3 && (
-            <>
-              <div className="portis">
-                <div className="portis1 portis111">
-                  <div className="portis1-sect">
-                    <img src={trackent2} alt="" />
-                  </div>
-                </div>
-                <div className="portis2">
-                  <h3>RELY INNOVATION</h3>
-                  <p className="kick-eez">
-                    Get peace of mind. install alarms that not only notify you
-                    of danger, but also clearly instructs you on what to do
-                    next.
-                  </p>
-                  <div className="port-usa">
-                    <div className="port-usa1">
-                      <img src={porta} alt="" />
-                      <p className="port-pat">Industry</p>
-                      <p className="reg">E-commerce</p>
-                    </div>
-                    <div className="port-usa1">
-                      <img src={portlo} alt="" />
-                      <p className="port-pat">Country</p>
-                      <p className="reg1">USA</p>
-                    </div>
-                  </div>
-                  <div className="port-serv">
-                    <h4>Service We Provide</h4>
-                    <div className="portfolio-serv">
-                      <div className="porting-serv">
-                        <img src={foc1} alt="" />
-                        <p>Design</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc2} alt="" />
-                        <p>Development</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc3} alt="" />
-                        <p>Testing</p>
-                      </div>
-                    </div>
-                  </div>
-                <NavLink to="/rely"><button>View More</button></NavLink>
-                </div>
-              </div>
+          {/* ================6th========================= */}
 
-              {/* =============4th================ */}
-              <div className="portis mt-12">
-                <div className="portis2 pong1">
-                  <h3>CEO WHEELS</h3>
-                  <p className="kick-eez">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                  </p>
-                  <div className="port-usa">
-                    <div className="port-usa1">
-                      <img src={porta} alt="" />
-                      <p className="port-pat">Industry</p>
-                      <p className="reg">E-commerce</p>
-                    </div>
-                    <div className="port-usa1">
-                      <img src={portlo} alt="" />
-                      <p className="port-pat">Country</p>
-                      <p className="reg1">USA</p>
-                    </div>
+          <div className="portis mt-12">
+            <div className="portis2 pong1">
+              <h3>GRANNY’S FINEST</h3>
+              <p className="kick-eez">
+                Made by the best & worn by thegreatest
+              </p>
+              <div className="port-serv">
+                <h4>Service We Provide</h4>
+                <div className="portfolio-serv">
+                  <div className="porting-serv">
+                    <img src={foc1} alt="" />
+                    <p>Design</p>
                   </div>
-                  <div className="port-serv">
-                    <h4>Service We Provide</h4>
-                    <div className="portfolio-serv">
-                      <div className="porting-serv">
-                        <img src={foc1} alt="" />
-                        <p>Design</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc2} alt="" />
-                        <p>Development</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc3} alt="" />
-                        <p>Testing</p>
-                      </div>
-                    </div>
+                  <div className="porting-serv">
+                    <img src={foc2} alt="" />
+                    <p>Development</p>
                   </div>
-                 <NavLink to="/ceo"><button>View More</button></NavLink>
-                </div>
-                <div className="portis1 portis1111 pong2">
-                  <div className="portis1-sect">
-                    <img src={cent} alt="cent" />
+                  <div className="porting-serv">
+                    <img src={foc3} alt="" />
+                    <p>Testing</p>
                   </div>
                 </div>
               </div>
-            </>
-          )}
+              <button>View More</button>
+            </div>
+            <div className="portis1 portisi pong2">
+              <div className="portis1-sect protisi-fect">
+                <img src={grantifitts} alt="cent" />
+              </div>
+            </div>
+          </div>
 
-          {fab === 4 && (
-            <>
-              <div className="portis">
-                <div className="portis1 portis11111">
-                  <div className="portis1-sect">
-                    <img src={trackent1} alt="" />
-                  </div>
-                </div>
-                <div className="portis2">
-                  <h3>SOLENOID NINJA</h3>
-                  <p className="kick-eez">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                  </p>
-                  <div className="port-usa">
+          {/* ==================7th=================== */}
+
+          <div className="portis mt-12">
+            <div className="portis1 portisi1">
+              <div className="portis1-sect ">
+                <img src={worlich} alt="trackent1" />
+              </div>
+            </div>
+            <div className="portis2">
+              <h3>SPECK</h3>
+              <p className="kick-eez">
+                Find your look for your iphone 14
+              </p>
+              {/* <div className="port-usa">
                     <div className="port-usa1">
                       <img src={porta} alt="" />
                       <p className="port-pat">Industry</p>
@@ -593,31 +436,143 @@ const Portfolio = () => {
                       <p className="port-pat">Country</p>
                       <p className="reg1">USA</p>
                     </div>
+                  </div> */}
+              <div className="port-serv">
+                <h4>Service We Provide</h4>
+                <div className="portfolio-serv">
+                  <div className="porting-serv">
+                    <img src={foc1} alt="" />
+                    <p>Design</p>
                   </div>
-                  <div className="port-serv">
-                    <h4>Service We Provide</h4>
-                    <div className="portfolio-serv">
-                      <div className="porting-serv">
-                        <img src={foc1} alt="" />
-                        <p>Design</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc2} alt="" />
-                        <p>Development</p>
-                      </div>
-                      <div className="porting-serv">
-                        <img src={foc3} alt="" />
-                        <p>Testing</p>
-                      </div>
-                    </div>
+                  <div className="porting-serv">
+                    <img src={foc2} alt="" />
+                    <p>Development</p>
                   </div>
-                 <NavLink to="/solenoid"><button>View More</button></NavLink>
+                  <div className="porting-serv">
+                    <img src={foc3} alt="" />
+                    <p>Testing</p>
+                  </div>
                 </div>
               </div>
-            </>
-          )}
+              <NavLink to="/solenoid"><button>View More</button></NavLink>
+            </div>
+          </div>
+
+          {/* =====================8th=================== */}
+
+          <div className="portis mt-12">
+            <div className="portis2 pong1">
+              <h3>BULLETPROOF</h3>
+              <p className="kick-eez">
+                With a daily routine customized to your wellness goals
+              </p>
+              <div className="port-serv">
+                <h4>Service We Provide</h4>
+                <div className="portfolio-serv">
+                  <div className="porting-serv">
+                    <img src={foc1} alt="" />
+                    <p>Design</p>
+                  </div>
+                  <div className="porting-serv">
+                    <img src={foc2} alt="" />
+                    <p>Development</p>
+                  </div>
+                  <div className="porting-serv">
+                    <img src={foc3} alt="" />
+                    <p>Testing</p>
+                  </div>
+                </div>
+              </div>
+              <button>View More</button>
+            </div>
+            <div className="portis1 portisi2 pong2">
+              <div className="portis1-sect protisi-fect">
+                <img src={bulter} alt="cent" />
+              </div>
+            </div>
+          </div>
+
+          {/* =====================9th====================== */}
+
+          <div className="portis mt-12">
+            <div className="portis1 portisi3">
+              <div className="portis1-sect ">
+                <img src={skini} alt="trackent1" />
+              </div>
+            </div>
+            <div className="portis2">
+              <h3>SKKN</h3>
+              <p className="kick-eez">
+                Summer-Ready Skin
+              </p>
+              {/* <div className="port-usa">
+                    <div className="port-usa1">
+                      <img src={porta} alt="" />
+                      <p className="port-pat">Industry</p>
+                      <p className="reg">E-commerce</p>
+                    </div>
+                    <div className="port-usa1">
+                      <img src={portlo} alt="" />
+                      <p className="port-pat">Country</p>
+                      <p className="reg1">USA</p>
+                    </div>
+                  </div> */}
+              <div className="port-serv">
+                <h4>Service We Provide</h4>
+                <div className="portfolio-serv">
+                  <div className="porting-serv">
+                    <img src={foc1} alt="" />
+                    <p>Design</p>
+                  </div>
+                  <div className="porting-serv">
+                    <img src={foc2} alt="" />
+                    <p>Development</p>
+                  </div>
+                  <div className="porting-serv">
+                    <img src={foc3} alt="" />
+                    <p>Testing</p>
+                  </div>
+                </div>
+              </div>
+              <NavLink to="/solenoid"><button>View More</button></NavLink>
+            </div>
+          </div>
+
+          {/* ======================10th=============================== */}
+
+          <div className="portis mt-12">
+            <div className="portis2 pong1">
+              <h3>WOOLRICH</h3>
+              <p className="kick-eez">
+                Fall/Winter 2023
+              </p>
+              <div className="port-serv">
+                <h4>Service We Provide</h4>
+                <div className="portfolio-serv">
+                  <div className="porting-serv">
+                    <img src={foc1} alt="" />
+                    <p>Design</p>
+                  </div>
+                  <div className="porting-serv">
+                    <img src={foc2} alt="" />
+                    <p>Development</p>
+                  </div>
+                  <div className="porting-serv">
+                    <img src={foc3} alt="" />
+                    <p>Testing</p>
+                  </div>
+                </div>
+              </div>
+              <button>View More</button>
+            </div>
+            <div className="portis1 portisi2 pong2">
+              <div className="portis1-sect protisi-fect">
+                <img src={wresti} alt="cent" />
+              </div>
+            </div>
+          </div>
+
         </div>
-
         <ContactForm1 />
       </div>
     </>

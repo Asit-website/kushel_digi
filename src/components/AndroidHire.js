@@ -370,7 +370,7 @@ const AndroidHire = () => {
 
                 <div className="android_teck">
                     <h1>T E C H N O L O G I E S</h1>
-                     <div className='ttr'></div>
+                    <div className='ttr'></div>
                     <div className="android_tect_card">
                         <div className="tects-nav">
                             <div className="tect_nav">
@@ -548,77 +548,77 @@ const AndroidHire = () => {
                 </div>
 
                 <div className="home9 mb-12 home278">
-          <div className="home91 flex px-24">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">JUST THE FAQs</h2>
-            </div>
-            <div className="home912">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    What is React Native used for?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Exercitation in fugiat est ut ad ea cupidatat ut in
-                      cupidatat occaecat ut occaecat consequat est minim minim
-                      esse tempor laborum consequat esse adipisicing eu
-                      reprehenderit enim.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Why choose React Native for app development?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur ea
-                      in ut nostrud velit in irure cillum tempor laboris sed
-                      adipisicing eu esse duis nulla non.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Why is React Native so popular among other app development frameworks?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur ea
-                      in ut nostrud velit in irure cillum tempor laboris sed
-                      adipisicing eu esse duis nulla non.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    What are the benefits of choosing React Native app development company?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur ea
-                      in ut nostrud velit in irure cillum tempor laboris sed
-                      adipisicing eu esse duis nulla non.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              
-              </Accordion>
-              {/* <div className="home9121 font-semibold w-fit">
+                    <div className="home91 flex px-24">
+                        <div className="home911 text-center">
+                            <h2 className="font-bold text-gray-700">JUST THE FAQs</h2>
+                        </div>
+                        <div className="home912">
+                            <Accordion allowZeroExpanded>
+                                <AccordionItem>
+                                    <AccordionItemHeading>
+                                        <AccordionItemButton>
+                                            What is React Native used for?
+                                        </AccordionItemButton>
+                                    </AccordionItemHeading>
+                                    <AccordionItemPanel>
+                                        <p>
+                                            Exercitation in fugiat est ut ad ea cupidatat ut in
+                                            cupidatat occaecat ut occaecat consequat est minim minim
+                                            esse tempor laborum consequat esse adipisicing eu
+                                            reprehenderit enim.
+                                        </p>
+                                    </AccordionItemPanel>
+                                </AccordionItem>
+                                <AccordionItem>
+                                    <AccordionItemHeading>
+                                        <AccordionItemButton>
+                                            Why choose React Native for app development?
+                                        </AccordionItemButton>
+                                    </AccordionItemHeading>
+                                    <AccordionItemPanel>
+                                        <p>
+                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
+                                            in ut nostrud velit in irure cillum tempor laboris sed
+                                            adipisicing eu esse duis nulla non.
+                                        </p>
+                                    </AccordionItemPanel>
+                                </AccordionItem>
+                                <AccordionItem>
+                                    <AccordionItemHeading>
+                                        <AccordionItemButton>
+                                            Why is React Native so popular among other app development frameworks?
+                                        </AccordionItemButton>
+                                    </AccordionItemHeading>
+                                    <AccordionItemPanel>
+                                        <p>
+                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
+                                            in ut nostrud velit in irure cillum tempor laboris sed
+                                            adipisicing eu esse duis nulla non.
+                                        </p>
+                                    </AccordionItemPanel>
+                                </AccordionItem>
+                                <AccordionItem>
+                                    <AccordionItemHeading>
+                                        <AccordionItemButton>
+                                            What are the benefits of choosing React Native app development company?
+                                        </AccordionItemButton>
+                                    </AccordionItemHeading>
+                                    <AccordionItemPanel>
+                                        <p>
+                                            In ad velit in ex nostrud dolore cupidatat consectetur ea
+                                            in ut nostrud velit in irure cillum tempor laboris sed
+                                            adipisicing eu esse duis nulla non.
+                                        </p>
+                                    </AccordionItemPanel>
+                                </AccordionItem>
+
+                            </Accordion>
+                            {/* <div className="home9121 font-semibold w-fit">
                 See All FAQs
               </div> */}
-            </div>
-          </div>
-        </div>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>
