@@ -52,12 +52,14 @@ import Services1 from "./components/Services1";
 import Solution from "./components/Solution";
 import PhpHire from "./components/PhpHire";
 import ReactNativeHire from "./components/ReactNativeHire";
-import NodeJsHire from "./components/NodeJsHire";
 import GraphicDesign from "./components/GraphicDesign";
 import AndroidHire from "./components/AndroidHire";
 import IosHire from "./components/IosHire";
 import FluterHire from "./components/FluterHire";
 import HireNodeJs from "./components/HireNodeJs";
+import ReactJsHire from "./components/ReactJsHire";
+import LaravelHire from "./components/LaravelHire";
+import HireWordpress from "./components/HireWordpress";
 
 function App() {
   return (
@@ -127,6 +129,9 @@ function App() {
             <Route path="/iosHire" element={<IosHire/>}/>
             <Route path="/fluterHire" element={<FluterHire/>}/>
             <Route path="/nodeHire" element={<HireNodeJs/>}/>
+            <Route path="/reactHire" element={<ReactJsHire/>}/>
+            <Route path="/laravelHire" element={<LaravelHire/>}/>
+            <Route path="/wordpressHire" element={<HireWordpress/>}/>
           </Routes>
           <Footer />
         </Router>

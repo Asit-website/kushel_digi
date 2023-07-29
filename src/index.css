@@ -6845,7 +6845,7 @@ form button:hover {
   margin-right: 20px;
   width: 100%;
   background-image: url("./images/kiku.png");
-  height: 550px;
+  height: 487px;
   max-height: 100%;
   background-position: center;
   background-size: cover;
@@ -6858,7 +6858,7 @@ form button:hover {
 .portis1::before {
   content: "";
   background-color: #085881;
-  opacity: 0.5;
+  opacity: 0.7;
   position: absolute;
   top: 0;
   left: 0;
@@ -6901,19 +6901,43 @@ form button:hover {
 .portis11111 {
   background-image: url("./images/solnide.png");
 }
-
+.portisi{
+  background-image: url("./images/granty.png");
+}
 .portis1-sect {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+.portisi1{
+  background-image: url("./images/mob44.png");
+}
+.portisi1 img{
+  max-width: 155px;
+  width: 100%;
+}
+.portisi2{
+  background-image: url("./images/bulterFree.png");
+}
+.portisi2::before{
+  opacity: .8;
+}
+.portisi3{
+  background-image: url('./images/farking.png');
+}
+.portisi3 img{
+  max-width: 110px;
+  width: 100%;
+}
 .portis2 {
   margin-left: 20px;
   width: 100%;
 }
-
+.protisi-fect img{
+  max-width: 250px;
+  width: 100%;
+}
 /* .pong1{
   margin-right: 20px;
 }
@@ -7466,6 +7490,57 @@ form button:hover {
 }
 .homeswar-card5 {
   background-image: url("./images/kitz6.png");
+}
+.homeswar-card6{
+  background-image: url('./images/wr1.png');
+}
+.homeswar-card7{
+  background-image: url('./images/wr2.png');
+}
+.homeswar-card8{
+  background-image: url('./images/wr3.png');
+}
+.homeswar-card9{
+  background-image: url('./images/wr4.png'), linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.homeswar-card9::before{
+  background: transparent;
+  opacity: 1;
+}
+.homeswar-card10{
+  background: url('./images/wr5.png'),  linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.homeswar-card10::before{
+  background: transparent;
+  opacity: 1;
+}
+.homeswar-card11{
+  background: url('./images/wr6.png') ,linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.homeswar-card11::before{
+  background: transparent;
+  opacity: 1;
+}
+.homeswar-card12{
+  background: url('./images/wr7.png') ,linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.homeswar-card12::before{
+  background: transparent;
+  opacity: 1;
+}
+.homeswar-card13{
+  background: url('./images/wr8.png') ,linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.homeswar-card13::before{
+  background: transparent;
+  opacity: 1;
+}
+.homeswar-card14{
+  background: url('./images/wr9.png') ,linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+}
+.homeswar-card14::before{
+  background: transparent;
+  opacity: 1;
 }
 .homeswar-sect {
   position: absolute;
@@ -10624,6 +10699,15 @@ video {
   padding-top: 5px;
   /* padding: 40px 0px; */
 }
+
+.kickta_big11{
+ background-image: url('./images/trimpi.png');
+ height: 600px;
+ background-color: transparent !important;
+ position: relative;
+ /* display: initial !important; */
+}
+
 .kickta_big1 {
   padding-left: 130px;
   margin-top: 40px;
@@ -14091,6 +14175,79 @@ video {
 .boost_secty p{
   width: 41em ;
   max-width: 100%;
+}
+.kushel_cant{
+  padding: 0px 100px;
+  padding-top: 60px;
+  padding-bottom: 0px;
+  background-color: #33475B;
+  margin-bottom: 120px;
+}
+.kushel_cant h1{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+.kushel_cant .we_are{
+  font-size: 19px;
+  font-weight: 400;
+  text-align: center;
+  color: #ffffff;
+}
+.sing{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+.dedicated_singat{
+  width: 100%;
+  max-width: 440px;
+  margin: 15px 10px;
+  background-color: #FFFFFF;
+  padding: 18px;
+  height: 280px;
+  max-height: 100%;
+  border-radius: 20px;
+}
+.singi_img{
+  display: flex;
+  align-items: center;
+}
+.singi_img img{
+  width: 32px;
+}
+.singi_img h4{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 23px;
+  margin-left: 12px;
+
+}
+.singata-para p{
+  color: #33475B;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.why_pnt23{
+  margin-top: 0px !important;
+}
+.why_pnt1111{
+  padding-top: 120px !important;
+}
+.hg19{
+  width: 100% !important;
+  max-width: 100% !important;
+}
+.hire-kutta .migration_box{
+  height: 440px !important;
+  max-height: 100%;
+}
+.why_pnt11 p{
+  margin-top: 115px !important;
 }
 /* ======================graphic design css end================== */
 @media only screen and (max-width: 1500px) {
