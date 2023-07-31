@@ -722,18 +722,16 @@ max-width: 590px;
 }
 
 
-.section78878{
-  padding: 80px 0px;
-}
-.section78878
+/* =========================tumhara css=============== */
+
 .heading{
   color: #33475B;
   font-size: 32px;
-  /* margin-top: 93px; */
-  font-weight: bold;
+  margin-top: 93px;
+  font-weight: 700;
   line-height: 44px;
   letter-spacing: 4.4px;
-  opacity: 80%;
+  
   text-align: center;
 }
 .first{
@@ -837,9 +835,8 @@ max-width: 590px;
   
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  /* width: 1200px; */
+  width: 1350px;
   margin-left: 68px;
-  width: 1300px;
   color: #085881;
 
 }
@@ -851,7 +848,7 @@ max-width: 590px;
  }
 
  100%{
-  width: 1300px;
+  width: 1350px;
   
   }
  
@@ -958,6 +955,26 @@ max-width: 590px;
   margin-right: 158px;
   
 }
+.list11{
+  height: 190px;
+  border-left: 3px solid white;
+  position: relative;
+  animation-name: border11;
+  animation-delay: 7s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-top: 6px;
+}
+@keyframes border11{
+  from{
+      height: 0px;
+  }
+  to{
+      height: 190px;
+      border-color: #085881;
+  }
+}
 .list1{
   height: 190px;
   border-left: 3px solid white;
@@ -967,7 +984,8 @@ max-width: 590px;
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-  margin-top: 10px;
+  margin-top: 6px;
+  left: 4px;
 }
 @keyframes border{
   from{
@@ -987,7 +1005,8 @@ max-width: 590px;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   height: 120px;
-  margin-top: 10px;
+  margin-top: 6px;
+  left: 7px;
 }
 @keyframes border-2{
   from{
@@ -998,32 +1017,79 @@ max-width: 590px;
       border-color: #085881;
   }
 }
+.list21{
+  border-left: 3px solid white;
+  position: relative;
+  animation-name: border-21;
+  animation-delay: 7s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  height: 120px;
+  margin-top: 6px;
+  left: 9px;
+}
+@keyframes border-21{
+  from{
+      height: 0px;
+  }
+  to{
+      height: 120px;
+      border-color: #085881;
+  }
+}
+.list3{
+  border-left: 3px solid white;
+  position: relative;
+  animation-name: border-3;
+  animation-delay: 7s;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  height: 120px;
+  margin-top: 6px;
+  left: 1px;
+}
+@keyframes border-3{
+  from{
+      height: 0px;
+  }
+  to{
+      height: 120px;
+      border-color: #085881;
+  }
+}
 
-.list1 ul li,
-.list2 ul li{
-  list-style: none;
+
+
+
+
+.section-2 li{
+  /* list-style: none; */
   color: white;
+  list-style-type: disc;
   font-family: Proxima Nova;
   font-size: 19px;
   font-weight: 400;
   line-height: 31px;
   margin-top: 38px;
-  margin-left: 23px;
+  
+margin-left: 23px;
   position: relative;
   animation-name: list-item;
   animation-delay: 9s;
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  position: relative;
+right: 8px;
+bottom: 4px;
 }
 
-/* .section-2{
-  margin-left: 53px;
-} */
 
 @keyframes list-item{
   100%{
-list-style: none;
+
 color: #202020;
 margin-left: 23px;
 font-family: Proxima Nova;
@@ -1031,53 +1097,23 @@ font-size: 19px;
 font-weight: 400;
 line-height: 31px;
 margin-top: 38px;
-
+position: relative;
+right: 8px;
+bottom: 4px;
   }
   
 }
 
 .li-2{
-  margin-left: 35px;
+  margin-left: 32px;
 }
 .li-3{
-  /* margin-left: 16px; */
-  margin-left: 25px;
+  margin-left: 16px;
 
 }
 
 .li-5{
   margin-right: -31px;
   margin-left: 83px;
-  position: relative;
-  left: 9px;
-}
-@media only screen and (max-width: 1484px) {
-  .about32 img {
-    max-width: 525px;
-    width: 100%;
-  }
-  .about31 {
-    margin-right: 1.5rem;
-  }
-  .about32 {
-    margin-left: 1.5rem;
-  }
-}
 
-@media only screen and (max-width: 1400px) {
-  .about31 p {
-    width: 28em;
-  }
-}
-
-@media only screen and (max-width: 1167px) {
-  .about-main31 {
-    flex-direction: column-reverse;
-  }
-  .about32 {
-    margin-left: 0px;
-  }
-  .about31 p {
-    width: 100% !important;
-  }
 }

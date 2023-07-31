@@ -1129,6 +1129,8 @@ const Home = () => {
             </NavLink>
           </div>
         </div>
+
+
         <div className="home-chin">
           <h3 className="text-center">Why Choose Us</h3>
           <div className="chain-cards">
@@ -1222,7 +1224,7 @@ const Home = () => {
             </div>
             <div className="section-2">
               <div className="section-list">
-                <div className="list1 li-1">
+                <div className="list11 li-1">
                   <ul>
                     <li>Define Product</li>
                     <li>Define Goals</li>
@@ -1249,7 +1251,7 @@ const Home = () => {
                     <li>Prototyping</li>
                   </ul>
                 </div>
-                <div className="list2 li-5">
+                <div className="list21 li-5">
                   <ul>
                     <li>A/B Testing</li>
                     <li>Usability Testing</li>
