@@ -32,6 +32,11 @@ import som8 from "../images/som8.png";
 import { NavLink } from 'react-router-dom';
 import ContactForm1 from "./common/ContactForm1";
 import phpya from '../images/phpya.png';
+import travisHead from '../images/travisHead.png';
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
+import kiktas from '../images/kiktas.png';
+import sulua from '../images/sulua.png';
 import {
     Accordion,
     AccordionItem,
@@ -431,7 +436,87 @@ const Php = () => {
                     <div className="php_port">
                         <h2 className="our_php">Our PHP Web Development Portfolio</h2>
                     </div>
-                    <CaseStudy />
+                    <div className="gting">
+          <Splide
+            className="w-full"
+            aria-label="Our Services"
+            options={{
+              perPage: 1,
+              perMove: 1,
+              autoplay: true,
+              pauseOnHover: true,
+              type: "loop",
+              interval: 2200,
+              drag: true,
+            }}
+          >
+            <SplideSlide>
+              <div className="kickta_big kickta_php">
+                <div className="kickta_big1 kickta_phpt">
+                  <img src={travisHead} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>Pain Relieving</h2>
+                    <h2>apparel</h2>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="kickta_big kickta_php1">
+                <div className="kickta_big1 kickta_phpt1">
+                  <img src={sulua} alt="kikma" />
+                  <div className="headst_big headst_bigttt">
+                    <h2>Deliver awesome,</h2>
+                    <h2>robust, reliable websites</h2>
+                    <h2>with Sulu CMS</h2>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+
+            <SplideSlide>
+              <div className="kickta_big kickta_php2">
+                <div className="kickta_big1 kickta_phpt2">
+                  <img src={sulua} alt="kikma" />
+                  <div className="headst_big headst_bigttt">
+                    <h2>data and experience</h2>
+                    <h2>management plat</h2>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+          </Splide>
+        </div>
                 </div>
 
                 <div className="hire_dedicated_php">

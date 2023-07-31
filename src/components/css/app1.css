@@ -99,6 +99,48 @@
       right: 28px;
       background-size: 92px;
       background-repeat: no-repeat;
+      transition: 2s;
+      animation-name: img-2;
+      animation-duration: 5s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      animation-fill-mode: forwards; 
+      animation-timing-function: ease-in-out;
+
+  }
+  @keyframes img-2{
+    25%{
+      background-image: url("../../images/new5.png");
+      width: 92px;
+      height: 94px;
+      position: relative;
+      top: 71px;
+      right: 28px;
+      background-size: 92px;
+      background-repeat: no-repeat;
+  
+    }
+    50%{
+      background-image: url("../../images/html.png");
+      width: 92px;
+      height: 94px;
+      position: relative;
+      top: 71px;
+      right: 28px;
+      background-size: 92px;
+      background-repeat: no-repeat;
+    }
+    75%{
+      background-image: url("../../images/new5.png");
+      width: 92px;
+      height: 94px;
+      position: relative;
+      top: 71px;
+      right: 28px;
+      background-size: 92px;
+      background-repeat: no-repeat;
+    }
   }
   .img3{
     background-image: url('../../images/aaa2.png');
@@ -111,8 +153,9 @@
       background-repeat: no-repeat;
     
   }
-  .img4{
-    background-image: url('../../images/aaa3.png');
+ 
+    .img4{
+      background-image: url('../../images/aaa3.png');
       width: 118px;
     height: 116px;
     position: relative;
@@ -120,8 +163,51 @@
       right: 184px;
       background-size: 118px;
       background-repeat: no-repeat;
+   
+      animation-name: img-4;
+      animation-duration: 5s;
+      animation-direction: alternate-reverse;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      animation-fill-mode: forwards; 
+      animation-timing-function: ease-in-out;
     
     }
+    @keyframes img-4{
+      25%{
+        background-image: url("../../images//new6.png");
+        width: 118px;
+        height: 116px;
+        position: relative;
+          top: 41px;
+          right: 184px;
+          background-size: 118px;
+          background-repeat: no-repeat;
+    
+      }
+      50%{
+        background-image: url("../../images/big-commerce.png");
+        width: 118px;
+    height: 116px;
+    position: relative;
+      top: 41px;
+      right: 184px;
+      background-size: 118px;
+      background-repeat: no-repeat;
+      }
+      75%{
+        background-image: url("../../images/new6.png");
+        width: 118px;
+    height: 116px;
+    position: relative;
+      top: 41px;
+      right: 184px;
+      background-size: 118px;
+      background-repeat: no-repeat;
+      }
+    
+    }
+
     .img7{
       background-image: url('../../images/aaa6.png');
       width: 170px;
@@ -131,211 +217,290 @@
       background-size: 170px;
       background-repeat: no-repeat;
     }
+ 
+
+
   .img5{
     background-image: url('../../images/aaa4.png');
-      width: 170px;
-      height: 172px;
-      position: relative;
-      right: 137px;
-      background-size: 173px;
-      background-repeat: no-repeat;
-      transition: 2s;
-      animation-name: img-5;
-      animation-duration: 5s;
-      animation-direction: alternate-reverse;
-      animation-iteration-count: 1;
-      animation-play-state: running;
-      animation-fill-mode: forwards; 
-      animation-timing-function: ease-in-out;
-  }
-  @keyframes img-5{
-    25%{
-      background-image: url("../../images/aaa5.png");
-      width: 170px;
-      height: 172px;
-      position: relative;
-      right: 137px;
-      background-size: 173px;
-      background-repeat: no-repeat;
-  
-    }
-    55%{
-      background-image: url("../../images/aaa10.png");
-      width: 170px;
-      height: 172px;
-      position: relative;
-      right: 137px;
-      background-size: 173px;
-      background-repeat: no-repeat;
-    }
-    85%{
-      background-image: url("../../images/aaa7.png");
-      width: 170px;
-      height: 172px;
-      position: relative;
-      right: 137px;
-      background-size: 173px;
-      background-repeat: no-repeat;
-  
-    }
-  }
-  .img6{
-    background-image: url('../../images/aaa5.png');
-      width: 170px;
+    width: 170px;
     height: 172px;
     position: relative;
-    right: 64px;
-    background-size: 170px;
-      background-repeat: no-repeat;
-      transition: 2s;
-      animation-name: img-6;
-      animation-duration: 5s;
-      animation-direction: alternate-reverse;
-      animation-iteration-count: 1;
-      animation-play-state: running;
-      animation-fill-mode: forwards; 
-      animation-timing-function: ease-in-out;
-   
-  
-  }
-  @keyframes img-6{
-    25%{
-      background-image: url("../../images/aaa10.png");
-      width: 170px;
-    height: 172px;
-    position: relative;
-    right: 64px;
-    background-size: 170px;
-      background-repeat: no-repeat;
-  
-    }
-    55%{
-      background-image: url("../../images/aaa7.png");
-      width: 170px;
-      height: 172px;
-      position: relative;
-      right: 64px;
-      background-size: 170px;
-        background-repeat: no-repeat;
-    }
-    85%{
-      background-image: url("../../images/aaa4.png");
-      width: 170px;
-      height: 172px;
-      position: relative;
-      right: 64px;
-      background-size: 170px;
-        background-repeat: no-repeat;
-    }
-  }
-  .img8{
-    background-image: url('../../images/aaa7.png');
-      width: 170px;
-    height: 172px;
-    position: relative;
-      left: 14px;
-      bottom: 85px;
-      background-size: 170px;
-      background-repeat: no-repeat;
-      transition: 2s;
-      animation-name: img-8;
-      animation-duration: 5s;
-      animation-direction: alternate-reverse;
-      animation-iteration-count: 1;
-      animation-play-state: running;
-      animation-fill-mode: forwards; 
-      animation-timing-function: ease-in-out;
-    
-  
-  }
-  @keyframes img-8{
-    25%{
-      background-image: url("../../images/aaa4.png");
-      width: 170px;
-    height: 172px;
-    position: relative;
-      left: 14px;
-      bottom: 85px;
-      background-size: 170px;
-      background-repeat: no-repeat;
-  
-    }
-    55%{
-      background-image: url("../../images/aaa5.png");
-      width: 170px;
-    height: 172px;
-    position: relative;
-      left: 14px;
-      bottom: 85px;
-      background-size: 170px;
-      background-repeat: no-repeat;
-    }
-    85%{
-      background-image: url("../../images/aaa10.png");
-      width: 170px;
-    height: 172px;
-    position: relative;
-      left: 14px;
-      bottom: 85px;
-      background-size: 170px;
-      background-repeat: no-repeat;
-  
-    }
-  }
-  .img11{
-    background-image: url('../../images/aaa10.png');
-     width: 170px;
-    height: 172px;
-    position: relative;
-    left: 13px;
-    background-size: 179px;
+    right: 137px;
+    background-size: 173px;
     background-repeat: no-repeat;
     transition: 2s;
-      animation-name: img-11;
-      animation-duration: 5s;
-      animation-direction: alternate-reverse;
-      animation-iteration-count: 1;
-      animation-play-state: running;
-      animation-fill-mode: forwards; 
-      animation-timing-function: ease-in-out;
+    animation-name: img-5;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+}
+@keyframes img-5{
+  25%{
+    background-image: url("../../images/aaa10.png");
+    width: 170px;
+    height: 172px;
+    position: relative;
+    right: 137px;
+    background-size: 173px;
+    background-repeat: no-repeat;
+
   }
-  @keyframes img-11{
-    25%{
-      background-image: url("../../images/aaa7.png");
-      width: 170px;
+  55%{
+    background-image: url("../../images/aaa7.png");
+    width: 170px;
     height: 172px;
     position: relative;
-    left: 13px;
-    background-size: 179px;
+    right: 137px;
+    background-size: 173px;
     background-repeat: no-repeat;
-  
-    }
-    55%{
-      background-image: url("../../images/aaa4.png");
-      width: 170px;
+  }
+  85%{
+    background-image: url("../../images/aaa5.png");
+    width: 170px;
     height: 172px;
     position: relative;
-    left: 13px;
-    background-size: 179px;
+    right: 137px;
+    background-size: 173px;
     background-repeat: no-repeat;
-    }
-    85%{
-      background-image: url("../../images/aaa5.png");
-      width: 170px;
-      height: 172px;
-      position: relative;
-      left: 13px;
-      background-size: 179px;
+
+  }
+  95%{
+    background-image: url("../../images/jk.png");
+    width: 170px;
+    height: 172px;
+    position: relative;
+    right: 137px;
+    background-size: 173px;
+    background-repeat: no-repeat;
+  }
+}
+.img6{
+  background-image: url('../../images/aaa5.png');
+    width: 170px;
+  height: 172px;
+  position: relative;
+  right: 64px;
+  background-size: 170px;
+    background-repeat: no-repeat;
+    transition: 2s;
+    animation-name: img-6;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+ 
+
+}
+@keyframes img-6{
+  25%{
+    background-image: url("../../images/aaa7.png");
+    width: 170px;
+  height: 172px;
+  position: relative;
+  right: 64px;
+  background-size: 170px;
+    background-repeat: no-repeat;
+
+  }
+  55%{
+    background-image: url("../../images/aaa5.png");
+    width: 170px;
+    height: 172px;
+    position: relative;
+    right: 64px;
+    background-size: 170px;
       background-repeat: no-repeat;
+  }
+  85%{
+    background-image: url("../../images/aaa4.png");
+    width: 170px;
+    height: 172px;
+    position: relative;
+    right: 64px;
+    background-size: 170px;
+      background-repeat: no-repeat;
+
+  }
+  95%{
+    background-image: url("../../images/box15.png");
+    width: 170px;
+    height: 172px;
+    position: relative;
+    right: 64px;
+    background-size: 170px;
+      background-repeat: no-repeat;
+
+  }
+
+
+}
+.img8{
+  background-image: url('../../images/aaa7.png');
+    width: 170px;
+  height: 172px;
+  position: relative;
+    left: 14px;
+    bottom: 85px;
+    background-size: 170px;
+    background-repeat: no-repeat;
+    transition: 2s;
+    animation-name: img-8;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+  
+
+}
+@keyframes img-8{
+  25%{
+    background-image: url("../../images/aaa4.png");
+    width: 170px;
+  height: 172px;
+  position: relative;
+    left: 14px;
+    bottom: 85px;
+    background-size: 170px;
+    background-repeat: no-repeat;
+
+  }
+  55%{
+    background-image: url("../../images/aaa10.png");
+    width: 170px;
+  height: 172px;
+  position: relative;
+    left: 14px;
+    bottom: 85px;
+    background-size: 170px;
+    background-repeat: no-repeat;
+  }
+  85%{
+    background-image: url("../../images/aaa6.png");
+    width: 170px;
+  height: 172px;
+  position: relative;
+    left: 14px;
+    bottom: 85px;
+    background-size: 170px;
+    background-repeat: no-repeat;
+
+  }
+  95%{
+    background-image: url("../../images/new3.png");
+    width: 170px;
+  height: 172px;
+  position: relative;
+    left: 14px;
+    bottom: 85px;
+    background-size: 170px;
+    background-repeat: no-repeat;
+
+  }
+}
+.img11{
+  background-image: url('../../images/aaa10.png');
+   width: 170px;
+  height: 172px;
+  position: relative;
+  left: 13px;
+  background-size: 179px;
+  background-repeat: no-repeat;
+  transition: 2s;
+    animation-name: img-11;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+}
+@keyframes img-11{
+  25%{
+    background-image: url("../../images/aaa5.png");
+    width: 170px;
+  height: 172px;
+  position: relative;
+  left: 13px;
+  background-size: 179px;
+  background-repeat: no-repeat;
+
+  }
+  55%{
+    background-image: url("../../images/aaa4.png");
+    width: 170px;
+  height: 172px;
+  position: relative;
+  left: 13px;
+  background-size: 179px;
+  background-repeat: no-repeat;
+  }
+  85%{
+    background-image: url("../../images/aaa10.png");
+    width: 170px;
+    height: 172px;
+    position: relative;
+    left: 13px;
+    background-size: 179px;
+    background-repeat: no-repeat;
+
+  }
+  95%{
+    background-image: url("../../images/new4.png");
+    width: 170px;
+    height: 172px;
+    position: relative;
+    left: 13px;
+    background-size: 179px;
+    background-repeat: no-repeat;
+
+  }
+}
+
+
+
+
+.img9{
+  background-image: url('../../images/aaa8.png');
+    width: 110px;
+    height: 116px;
+    height: 112px;
+    position: relative;
+    right: 26px;
+    top: 51px;
+    background-size: 114px;
+    background-repeat: no-repeat;
+    
+    animation-name: img-9;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+  
+  }
+  @keyframes img-9{
+    25%{
+      background-image: url("../../images/new7.png");
+      width: 110px;
+    height: 116px;
+    height: 112px;
+    position: relative;
+    right: 26px;
+    top: 51px;
+    background-size: 114px;
+    background-repeat: no-repeat;
   
     }
-  }
-  
-  
-  
-  
-  .img9{
-    background-image: url('../../images/aaa8.png');
+    50%{
+      background-image: url("../../images/aaa8.png");
       width: 110px;
       height: 116px;
       height: 112px;
@@ -344,14 +509,68 @@
       top: 51px;
       background-size: 114px;
       background-repeat: no-repeat;
+    }
+    75%{
+      background-image: url("../../images/new7.png");
+      width: 110px;
+    height: 116px;
+    height: 112px;
+    position: relative;
+    right: 26px;
+    top: 51px;
+    background-size: 114px;
+    background-repeat: no-repeat;
+    }
+  
   }
-  .img10{
-    background-image: url('../../images/aaa9.png');
+
+.img10{
+  background-image: url('../../images/aaa9.png');
+  width: 156px;
+  position: relative;
+  top: 51px;
+  right: 50px;
+  background-size: 160px;
+  background-repeat: no-repeat;
+ 
+  transition: 2s;
+    animation-name: img-10;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes img-10{
+  25%{
+    background-image: url("../../images/css.png");
+    width: 156px;
+  position: relative;
+  top: 51px;
+  right: 50px;
+  background-size: 160px;
+  background-repeat: no-repeat;
+
+  }
+  50%{
+    background-image: url("../../images/aaa9.png");
     width: 156px;
     position: relative;
     top: 51px;
     right: 50px;
     background-size: 160px;
     background-repeat: no-repeat;
-  
   }
+  75%{
+    background-image: url("../../images/css.png");
+    width: 156px;
+    position: relative;
+    top: 51px;
+    right: 50px;
+    background-size: 160px;
+    background-repeat: no-repeat;
+  }
+
+}

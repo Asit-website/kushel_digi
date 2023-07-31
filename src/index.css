@@ -10705,9 +10705,58 @@ video {
  height: 600px;
  background-color: transparent !important;
  position: relative;
+ display: block;
  /* display: initial !important; */
 }
 
+.kickta_big22{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_big111{
+  background-image: url('./images/trickti.png');
+ height: 600px;
+ background-color: transparent !important;
+ position: relative;
+ display: block;
+}
+.kickta_big222{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.headst_big p{
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 24px;
+  margin-top: 5px;
+}
+.kickta_big1111{
+  background-image: url('./images/prety.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_big2222{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_big2222 .travisi{
+  max-width: 350px !important;
+  width: 100% !important;
+}
 .kickta_big1 {
   padding-left: 130px;
   margin-top: 40px;
@@ -10730,12 +10779,184 @@ video {
 .kakiji{
   position: relative;
 }
-.kickta_big2 img{
-   /* position: fixed;
-   bottom: 0px;
-   max-width: 1000px;
-   width: 100%;
-   right: 0px; */
+.kickta_bigs{
+  background-image: url('./images/pisityu.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_bigst1{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_bigs1{
+  background-image: url('./images/skinut.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_bigst2{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_bigst2 img{
+  width: 120px;
+}
+.kickta_bigs2{
+  background-image: url('./images/tilli.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_bigst3{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_bigst3 .trryr{
+  max-width: 220px;
+}
+.kickta_bigs3{
+  background-image: url('./images/ptits1.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_bigst4{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_mag{
+  background-image: url('./images/mjk.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_magst{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_magst img{
+  max-width: 210px;
+  width: 100%;
+}
+.kickta_mag1{
+  background-image: url('./images/tryingh.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_magst1{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_mag2{
+  background-image: url('./images/lonka.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_magst2{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_php{
+  background-image: url('./images/phiu1.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_phpt{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_phpt img{
+  max-width: 170px;
+  width: 100%;
+}
+.kickta_php1{
+  background-image: url('./images/phiu2.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_phpt1{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_phpt1 img{
+  max-width: 100px;
+  width: 100%;
+}
+.kickta_php2{
+  background-image: url('./images/phiu3.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+}
+.kickta_phpt2{
+  position: absolute !important;
+  top: 50%  !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.kickta_phpt2 img{
+  max-width: 100px;
+  width: 100%;
+}
+.headst_big h2{
+  font-size: 40px;
+  line-height: 54px;
+}
+.gting .splide__pagination{
+  display: none !important;
 }
 .headst_big {
   margin-top: 50px;
@@ -12936,7 +13157,7 @@ video {
 .php_port h2{
   color: #33475B !important;
   font-size: 34px !important;
-  font-weight: 400 !important;
+  font-weight: bold !important;
 }
 .php_port span{
   font-weight: bold !important;

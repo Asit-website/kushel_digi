@@ -27,6 +27,10 @@ import circle55 from "../images/circle55.png";
 import testiEllipse from "../images/testiEllipse.png";
 import testiEllipse1 from "../images/tsetiEllipse1.png";
 import tinih from "../images/tinih.png";
+import skknt from '../images/skknt.png';
+import kiktas from '../images/kiktas.png';
+// import tilli from '../images/tilli.png';
+import skinniuy from '../images/skinniu.png'
 import {
   Accordion,
   AccordionItem,
@@ -44,7 +48,8 @@ import soin5 from "../images/5ax.png";
 import soin6 from "../images/6ax.png";
 import setui from "../images/setui.png";
 import ContactForm1 from "./common/ContactForm1";
-
+import nuting from '../images/nutig.png';
+import skyo from '../images/skyo.png'
 const Shopify = () => {
   const [hovered, setHovered] = useState(false);
   const [hovered2, setHovered2] = useState(false);
@@ -506,6 +511,112 @@ const Shopify = () => {
             </div>
           </div>
           <button>Develop A Shopify App</button>
+        </div>
+
+        <div className="gting">
+          <Splide
+            className="w-full"
+            aria-label="Our Services"
+            options={{
+              perPage: 1,
+              perMove: 1,
+              autoplay: true,
+              pauseOnHover: true,
+              type: "loop",
+              interval: 2200,
+              drag: true,
+            }}
+          >
+            <SplideSlide>
+              <div className="kickta_big kickta_bigs">
+                <div className="kickta_big1 kickta_bigst1">
+                  <img src={nuting} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>Pain Relieving</h2>
+                    <h2>apparel</h2>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="kickta_big kickta_bigs1">
+                <div className="kickta_big1 kickta_bigst2">
+                  <img src={skknt} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>summer-ready <br /> skin</h2>
+                    {/* <p>Find your look for your iPhone 14</p> */}
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+
+            <SplideSlide>
+              <div className="kickta_big kickta_bigs2">
+                <div className="kickta_big1 kickta_bigst3">
+                  <img className="trryr" src={skinniuy} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>The classic matte</h2>
+                    <h2>palette</h2>
+                    <p className="mt-2">Your everyday palette</p>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+
+            <SplideSlide>
+              <div className="kickta_big kickta_bigs3">
+                <div className="kickta_big1 kickta_bigst4">
+                  <img className="trryr" src={skyo} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>Discover your</h2>
+                    <h2>better</h2>
+                    <p className="mt-2">With a daily routine customized to your wellness goals</p>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+          
+          </Splide>
         </div>
 
         <div className="shopify-work">

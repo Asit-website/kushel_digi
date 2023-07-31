@@ -27,7 +27,10 @@ import uin5 from "../images/uin5.png";
 import uin6 from "../images/uin6.png";
 import piloy from "../images/piloy.png";
 import magh from "../images/magh.png";
-import CaseStudy from "./common/CaseStudy";
+import wrappet from '../images/wrappert.png'
+// import CaseStudy from "./common/CaseStudy";
+import sigmat from '../images/sigmat.png';
+import ghiradel from '../images/ghiradel.png';
 import {
   Accordion,
   AccordionItem,
@@ -36,6 +39,10 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 import ContactForm1 from "./common/ContactForm1";
+import kiktas from '../images/kiktas.png';
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+import "@splidejs/react-splide/css";
+
 const Magento = () => {
   const [front, setFront] = useState(1);
 
@@ -447,7 +454,93 @@ const Magento = () => {
           </div>
         </div>
 
-        <CaseStudy />
+        {/* <CaseStudy /> */}
+
+        <div className="gting">
+          <Splide
+            className="w-full"
+            aria-label="Our Services"
+            options={{
+              perPage: 1,
+              perMove: 1,
+              autoplay: true,
+              pauseOnHover: true,
+              type: "loop",
+              interval: 2200,
+              drag: true,
+            }}
+          >
+            <SplideSlide>
+              <div className="kickta_big kickta_mag">
+                <div className="kickta_big1 kickta_magst">
+                  <img src={sigmat} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>Semi-annual</h2>
+                    <h2>sale</h2>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+
+            <SplideSlide>
+              <div className="kickta_big kickta_mag1">
+                <div className="kickta_big1 kickta_magst1">
+                  <img src={wrappet} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>Try on 5 frames without</h2>
+                    <h2>leaving home</h2>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+
+
+            <SplideSlide>
+              <div className="kickta_big kickta_mag2">
+                <div className="kickta_big1 kickta_magst2">
+                  <img src={ghiradel} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>Customize your‘S</h2>
+                    <h2>mores with</h2>
+                    <h2>ghirardelli</h2>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+            
+          
+          </Splide>
+        </div>
 
         <div className="dedicated_dreams">
           <h3>Dedicated Dreams.</h3>

@@ -6,7 +6,7 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 const CaseStudy = () => {
   return (
-      <div>
+      <div className="gting">
       <Splide
         className="w-full"
         aria-label="Our Services"
