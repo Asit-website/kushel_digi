@@ -42,6 +42,8 @@ import uin6 from '../images/uin6.png';
 import worlich22 from '../images/worlich22.png';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import spiti from '../images/spiti.png';
+import travisi from '../images/travisi.png';
 import {
   Accordion,
   AccordionItem,
@@ -463,68 +465,111 @@ const BigCommerce = () => {
           </div>
         </div>
 
-         {/* <CaseStudy/> */}
+        {/* <CaseStudy/> */}
 
-         <div>
-      <Splide
-        className="w-full"
-        aria-label="Our Services"
-        options={{
-          perPage: 1,
-          perMove: 1,
-          autoplay: true,
-          pauseOnHover: true,
-          type: "loop",
-          interval: 2200,
-          drag: true,
-        }}
-      >
-      <SplideSlide>
-        <div className="kickta_big">
-          <div className="kickta_big1">
-            <img src={kikma} alt="kikma" />
-            <div className="headst_big">
-              <h2>the most </h2>
-              <h2>compfortable</h2>
-              <h2>recoil pads</h2>
-            </div>
-            <div className="kickma-arrow">
-              <p>View Case study</p>
-              <img src={kiktas} alt="kiktas" />
-            </div>
-          </div>
-          <div className="kickta_big2">
-             <div className="kakiji">
-            <img src={kinu} alt="kinu" />
-            </div>
-          </div>
-        </div>
-        </SplideSlide>
-        <SplideSlide>
-        <div className="kickta_big kickta_big11">
-          <div className="kickta_big1">
-            <img src={worlich22} alt="kikma" />
-            <div className="headst_big">
-              <h2>Fall/winter</h2>
-              <h2>2023</h2>
-              {/* <h2>recoil pads</h2> */}
-            </div>
-            <div className="kickma-arrow">
-              <p>View Case study</p>
-              <img src={kiktas} alt="kiktas" />
-            </div>
-          </div>
-          {/* <div className="kickta_big2">
+        <div className="gting">
+          <Splide
+            className="w-full"
+            aria-label="Our Services"
+            options={{
+              perPage: 1,
+              perMove: 1,
+              autoplay: true,
+              pauseOnHover: true,
+              type: "loop",
+              interval: 2200,
+              drag: true,
+            }}
+          >
+            <SplideSlide>
+              <div className="kickta_big">
+                <div className="kickta_big1">
+                  <img src={kikma} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>the most </h2>
+                    <h2>compfortable</h2>
+                    <h2>recoil pads</h2>
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Case study</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                <div className="kickta_big2">
+                  <div className="kakiji">
+                    <img src={kinu} alt="kinu" />
+                  </div>
+                </div>
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="kickta_big kickta_big11">
+                <div className="kickta_big1 kickta_big22">
+                  <img src={worlich22} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>Fall/winter</h2>
+                    <h2>2023</h2>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
             <div className="kakiji">
             <img src={kinu} alt="kinu" />
             </div>
           </div> */}
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="kickta_big kickta_big111">
+                <div className="kickta_big1 kickta_big222">
+                  <img src={spiti} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>Mix it up</h2>
+                    <p>Find your look for your iPhone 14</p>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+            <SplideSlide>
+              <div className="kickta_big kickta_big1111">
+                <div className="kickta_big1 kickta_big2222">
+                  <img className="travisi" src={travisi} alt="kikma" />
+                  <div className="headst_big">
+                    <h2>SHORT RESPONSE</h2>
+                    <p>New colors have arrived in your</p>
+                    <p>favorite short styles of the season.</p>
+                    {/* <h2>recoil pads</h2> */}
+                  </div>
+                  <div className="kickma-arrow">
+                    <p>View Website</p>
+                    <img src={kiktas} alt="kiktas" />
+                  </div>
+                </div>
+                {/* <div className="kickta_big2">
+            <div className="kakiji">
+            <img src={kinu} alt="kinu" />
+            </div>
+          </div> */}
+              </div>
+            </SplideSlide>
+          </Splide>
         </div>
-        </SplideSlide>
-      </Splide>
-      </div>
 
-         <ContactForm1 />
+        <ContactForm1 />
 
         <div className="home9 py-20 bigcom9">
           <div className="home91 flex px-24">
@@ -580,7 +625,7 @@ const BigCommerce = () => {
             </div>
           </div>
         </div>
-        
+
       </div>
     </>
   );
