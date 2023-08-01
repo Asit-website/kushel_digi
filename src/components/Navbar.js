@@ -101,7 +101,7 @@ const Navbar = () => {
                             to="/about"
                           >
                             <div className="flex items-center">
-                            <img src={tiim1} alt="tiim1" />
+                            <img className="timi11" src={tiim1} alt="tiim1" />
                             <p className="cpmpa">Who We Are</p>
                             </div>
                           </NavLink>
@@ -109,7 +109,7 @@ const Navbar = () => {
                           {/* <p className="cpmpa">Blog</p> */}
                           <NavLink to="/partner">
                             <div className="flex items-center">
-                            <img src={tiim2} alt="" />
+                            <img className="timi11" src={tiim2} alt="" />
                             <p className="cpmpa">Partner With us</p>
                             </div>
                           </NavLink>
@@ -120,13 +120,13 @@ const Navbar = () => {
                           <p className="cpmpa">Our Clients</p> */}
                           <NavLink to="/career">
                             <div className="flex items-center">
-                            <img src={tiim3} alt="" />
+                            <img className="timi11" src={tiim3} alt="" />
                             <p className="cpmpa">Careers</p>
                             </div>
                           </NavLink>
                           <NavLink to="/hire">
                             <div className="flex items-center">
-                            <img src={tiim4} alt="" />
+                            <img className="timi11" src={tiim4} alt="" />
                             <p className="cpmpa">Hire team</p>
                             </div>
                           </NavLink>
@@ -407,7 +407,7 @@ const Navbar = () => {
                           <NavLink to="/phpHire">PHP Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="#!">Laravel Web Developer</NavLink>
+                          <NavLink to="/laravelHire">Laravel Web Developer</NavLink>
                         </li>
                         <li>
                           <NavLink to="/nodeHire">Node Js Developer</NavLink>
@@ -416,7 +416,7 @@ const Navbar = () => {
                           <NavLink to="/reactHire">React Js Developer</NavLink>
                         </li>
                         <li>
-                          <NavLink to="#!">Wordpress Developer</NavLink>
+                          <NavLink to="/wordpressHire">Wordpress Developer</NavLink>
                         </li>
                       </ul>
                     </div>
@@ -451,7 +451,7 @@ const Navbar = () => {
                         <img src={ent5} alt="" />
                         <h3>Hire a Designer</h3>
                       </div>
-                      <ul className=" relative left-3">
+                      {/* <ul className=" relative left-3">
                         <li>
                           <NavLink to="#!">Website Designer</NavLink>
                         </li>
@@ -465,7 +465,7 @@ const Navbar = () => {
                             Graphic Designer (3Year +) EXP.
                           </NavLink>
                         </li>
-                      </ul>
+                      </ul> */}
                     </div>
                   </div>
                   <div className="teal flex items-center justify-between">
