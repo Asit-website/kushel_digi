@@ -48,6 +48,12 @@ const Services = () => {
   let heading1 = "www.kickeez.com";
   let heading2 = "www.protrucks.com";
   let heading3 = "www.jonesbuilt.com";
+
+  let para1 = "Get peace of mind. install alarms that not only notify you of danger, but also clearly instructs you on what to do next."
+
+  let para2 = "KICK- EEZ Premium, Made in America recoil pads and accessories to make your shooting"
+  let para3 = "The company works extensively on trucks and jeeps."
+  let para4 = "Get peace of mind. install alarms that not only notify you of danger"
   return (
     <>
       <div className="ser-main">
@@ -381,14 +387,14 @@ const Services = () => {
               </p>
             </div>
             <div className="home512 flex flex-wrap justify-center mt-14">
-              <PortCard heading={heading} pads={a9} />
-              <PortCard heading={heading1} pads={pads} />
-              <PortCard heading={heading2} pads={bds} />
-              <PortCard heading={heading3} pads={jones} />
+              <PortCard heading={heading} pads={a9} para = {para1} />
+              <PortCard heading={heading1} pads={pads} para ={para2} />
+              <PortCard heading={heading2} pads={bds} para ={para3} />
+              <PortCard heading={heading3} pads={jones} para={para4} />
             </div>
           </div>
           <div className="home52 w-full text-center">
-            <button className="btn btn1 m-auto btn3">
+          <NavLink to="/portfolio"><button className="btn btn1 m-auto btn3">
               <span className="mr-2">View All Projects</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -403,7 +409,7 @@ const Services = () => {
                   d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
                 />
               </svg>
-            </button>
+            </button></NavLink>
           </div>
         </div>
         {/* <Certified /> */}

@@ -387,7 +387,7 @@ body {
   color: #202020;
   /* margin: 22px 0px; */
   margin: 12px 0px;
-  margin-left: 6px;
+  margin-left: 10px;
 }
 .wanna-btn:hover {
   color: #000000 !important;
@@ -14470,7 +14470,36 @@ video {
 .why_pnt11 p{
   margin-top: 115px !important;
 }
+.timi11{
+  width: 24px;
+}
 /* ======================graphic design css end================== */
+
+/* =========================portfolio internal page changes============ */
+.pick222{
+  max-width: 700px;
+  width: 100%;
+}
+.kick-start22{
+  background-color: rgba(32, 32, 32, 1) !important;
+  justify-content: space-between;
+  padding: 0px 100px;
+  padding-top: 100px;
+}
+.kick-second222{
+  width: auto !important;
+}
+.kick-first222{
+  width: auto !important;
+  padding-bottom: 100px;
+}
+.kick_mart{
+  max-width: 325px;
+  width: 100%;
+  object-fit: cover;
+}
+/* ============================portfolio internal page changes end============ */
+
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;

@@ -14,7 +14,7 @@ const PortCard = (props) => {
                 </div>
                 <div className="port-card2 p-4 bg-white">
                     <b className="font-semibold text-xl">{props.heading}</b>
-                    <p className='text-xl mt-2 lorem'>Lorem Ipsum is simply dummy</p>
+                    <p className='text-xl mt-2 lorem'>{props.para}</p>
                 </div>
             </div>
         </>

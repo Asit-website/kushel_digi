@@ -90,49 +90,49 @@ const WebsiteDev = () => {
   const [hovered7, setHovered7] = useState(false);
   const [hovered8, setHovered8] = useState(false);
 
-  const [tab,setTab] = useState(1);
+  const [tab, setTab] = useState(1);
 
-  const ChangeImage1 = () =>{
-      setTab(1);
-     document.getElementById("img1").src=`${thir2}`;
-     document.getElementById("img2").src=`${thir1}`;
-     document.getElementById("img3").src=`${thir1}`;
-     document.getElementById("img4").src=`${thir1}`;
-     document.getElementById("img5").src=`${thir1}`;
+  const ChangeImage1 = () => {
+    setTab(1);
+    document.getElementById("img1").src = `${thir2}`;
+    document.getElementById("img2").src = `${thir1}`;
+    document.getElementById("img3").src = `${thir1}`;
+    document.getElementById("img4").src = `${thir1}`;
+    document.getElementById("img5").src = `${thir1}`;
   }
-  const ChangeImage2 = () =>{
+  const ChangeImage2 = () => {
     setTab(2);
-    document.getElementById("img1").src=`${thir1}`;
-     document.getElementById("img2").src=`${thir2}`;
-     document.getElementById("img3").src=`${thir1}`;
-     document.getElementById("img4").src=`${thir1}`;
-     document.getElementById("img5").src=`${thir1}`;
+    document.getElementById("img1").src = `${thir1}`;
+    document.getElementById("img2").src = `${thir2}`;
+    document.getElementById("img3").src = `${thir1}`;
+    document.getElementById("img4").src = `${thir1}`;
+    document.getElementById("img5").src = `${thir1}`;
   }
-  const ChangeImage3 = () =>{
-     setTab(3);
-    document.getElementById("img1").src=`${thir1}`;
-     document.getElementById("img2").src=`${thir1}`;
-     document.getElementById("img3").src=`${thir2}`;
-     document.getElementById("img4").src=`${thir1}`;
-     document.getElementById("img5").src=`${thir1}`;
+  const ChangeImage3 = () => {
+    setTab(3);
+    document.getElementById("img1").src = `${thir1}`;
+    document.getElementById("img2").src = `${thir1}`;
+    document.getElementById("img3").src = `${thir2}`;
+    document.getElementById("img4").src = `${thir1}`;
+    document.getElementById("img5").src = `${thir1}`;
   }
 
-  const ChangeImage4 = () =>{
+  const ChangeImage4 = () => {
     setTab(4);
-    document.getElementById("img1").src=`${thir1}`;
-    document.getElementById("img2").src=`${thir1}`;
-    document.getElementById("img3").src=`${thir1}`;
-    document.getElementById("img4").src=`${thir2}`;
-    document.getElementById("img5").src=`${thir1}`;
+    document.getElementById("img1").src = `${thir1}`;
+    document.getElementById("img2").src = `${thir1}`;
+    document.getElementById("img3").src = `${thir1}`;
+    document.getElementById("img4").src = `${thir2}`;
+    document.getElementById("img5").src = `${thir1}`;
   }
 
-  const ChangeImage5 = () =>{
+  const ChangeImage5 = () => {
     setTab(5);
-    document.getElementById("img1").src=`${thir1}`;
-    document.getElementById("img2").src=`${thir1}`;
-    document.getElementById("img3").src=`${thir1}`;
-    document.getElementById("img4").src=`${thir1}`;
-    document.getElementById("img5").src=`${thir2}`;
+    document.getElementById("img1").src = `${thir1}`;
+    document.getElementById("img2").src = `${thir1}`;
+    document.getElementById("img3").src = `${thir1}`;
+    document.getElementById("img4").src = `${thir1}`;
+    document.getElementById("img5").src = `${thir2}`;
   }
   return (
     <>
@@ -263,37 +263,37 @@ const WebsiteDev = () => {
             </div>
             <div onClick={ChangeImage4} className="thir_img">
               <p>SEO Service</p>
-              <img  id="img4" src={thir1} alt="thir1" />
+              <img id="img4" src={thir1} alt="thir1" />
             </div>
             <div onClick={ChangeImage5} className="thir_img">
               <p>Website Maintenance</p>
               <img id="img5" src={thir1} alt="thir1" />
             </div>
           </div>
-            
+
           <div className="body_website">
             {
               tab === 1 && (
                 <>
-                <div className="left_website">
-              <div className="left_web_para">
-                <p>
-                  Your website is representative of your company or
-                  organization's spirit. It should retain the uniqueness of your
-                  brand. To ensure the same, it is best to get a customized
-                  design that a website design company can create for you.
-                </p>
-              </div>
+                  <div className="left_website">
+                    <div className="left_web_para">
+                      <p>
+                        Your website is representative of your company or
+                        organization's spirit. It should retain the uniqueness of your
+                        brand. To ensure the same, it is best to get a customized
+                        design that a website design company can create for you.
+                      </p>
+                    </div>
 
-              <div className="left_span">
-                   <span className="left_hire">Here are the benefits of customized website design:</span>
-                   <span>It supports and establishes your brand</span>
-                   <span>It optimized the customer experience</span>
-                   <span>It helps increase SEO optimization</span>
-                   <span>It gives better control over website hosting</span>
-                   <span>It gives better control over website hosting</span>
-              </div>
-            </div>
+                    <div className="left_span">
+                      <span className="left_hire">Here are the benefits of customized website design:</span>
+                      <span>It supports and establishes your brand</span>
+                      <span>It optimized the customer experience</span>
+                      <span>It helps increase SEO optimization</span>
+                      <span>It gives better control over website hosting</span>
+                      <span>It gives better control over website hosting</span>
+                    </div>
+                  </div>
                 </>
               )
             }
@@ -301,51 +301,51 @@ const WebsiteDev = () => {
             {
               tab === 2 && (
                 <>
-                <div className="left_website">
-              <div className="left_web_para">
-                <p>
-                  Your website is representative of your company or
-                  organization's spirit. It should retain the uniqueness of your
-                  brand. To ensure the same, it is best to get a customized
-                  design that a website design company can create for you.
-                </p>
-              </div>
+                  <div className="left_website">
+                    <div className="left_web_para">
+                      <p>
+                        Your website is representative of your company or
+                        organization's spirit. It should retain the uniqueness of your
+                        brand. To ensure the same, it is best to get a customized
+                        design that a website design company can create for you.
+                      </p>
+                    </div>
 
-              <div className="left_span">
-                   <span className="left_hire">Here are the benefits of customized website design:</span>
-                   <span>It supports and establishes your brand</span>
-                   <span>It optimized the customer experience</span>
-                   <span>It helps increase SEO optimization</span>
-                   <span>It gives better control over website hosting</span>
-                   <span>It gives better control over website hosting</span>
-              </div>
-            </div>
+                    <div className="left_span">
+                      <span className="left_hire">Here are the benefits of customized website design:</span>
+                      <span>It supports and establishes your brand</span>
+                      <span>It optimized the customer experience</span>
+                      <span>It helps increase SEO optimization</span>
+                      <span>It gives better control over website hosting</span>
+                      <span>It gives better control over website hosting</span>
+                    </div>
+                  </div>
                 </>
               )
             }
-          
+
             {
               tab === 3 && (
                 <>
-                <div className="left_website">
-              <div className="left_web_para">
-                <p>
-                  Your website is representative of your company or
-                  organization's spirit. It should retain the uniqueness of your
-                  brand. To ensure the same, it is best to get a customized
-                  design that a website design company can create for you.
-                </p>
-              </div>
+                  <div className="left_website">
+                    <div className="left_web_para">
+                      <p>
+                        Your website is representative of your company or
+                        organization's spirit. It should retain the uniqueness of your
+                        brand. To ensure the same, it is best to get a customized
+                        design that a website design company can create for you.
+                      </p>
+                    </div>
 
-              <div className="left_span">
-                   <span className="left_hire">Here are the benefits of customized website design:</span>
-                   <span>It supports and establishes your brand</span>
-                   <span>It optimized the customer experience</span>
-                   <span>It helps increase SEO optimization</span>
-                   <span>It gives better control over website hosting</span>
-                   <span>It gives better control over website hosting</span>
-              </div>
-            </div>
+                    <div className="left_span">
+                      <span className="left_hire">Here are the benefits of customized website design:</span>
+                      <span>It supports and establishes your brand</span>
+                      <span>It optimized the customer experience</span>
+                      <span>It helps increase SEO optimization</span>
+                      <span>It gives better control over website hosting</span>
+                      <span>It gives better control over website hosting</span>
+                    </div>
+                  </div>
                 </>
               )
             }
@@ -353,55 +353,55 @@ const WebsiteDev = () => {
             {
               tab === 4 && (
                 <>
-                <div className="left_website">
-              <div className="left_web_para">
-                <p>
-                  Your website is representative of your company or
-                  organization's spirit. It should retain the uniqueness of your
-                  brand. To ensure the same, it is best to get a customized
-                  design that a website design company can create for you.
-                </p>
-              </div>
+                  <div className="left_website">
+                    <div className="left_web_para">
+                      <p>
+                        Your website is representative of your company or
+                        organization's spirit. It should retain the uniqueness of your
+                        brand. To ensure the same, it is best to get a customized
+                        design that a website design company can create for you.
+                      </p>
+                    </div>
 
-              <div className="left_span">
-                   <span className="left_hire">Here are the benefits of customized website design:</span>
-                   <span>It supports and establishes your brand</span>
-                   <span>It optimized the customer experience</span>
-                   <span>It helps increase SEO optimization</span>
-                   <span>It gives better control over website hosting</span>
-                   <span>It gives better control over website hosting</span>
-              </div>
-            </div>
+                    <div className="left_span">
+                      <span className="left_hire">Here are the benefits of customized website design:</span>
+                      <span>It supports and establishes your brand</span>
+                      <span>It optimized the customer experience</span>
+                      <span>It helps increase SEO optimization</span>
+                      <span>It gives better control over website hosting</span>
+                      <span>It gives better control over website hosting</span>
+                    </div>
+                  </div>
                 </>
               )
             }
             {
               tab === 5 && (
                 <>
-                <div className="left_website">
-              <div className="left_web_para">
-                <p>
-                  Your website is representative of your company or
-                  organization's spirit. It should retain the uniqueness of your
-                  brand. To ensure the same, it is best to get a customized
-                  design that a website design company can create for you.
-                </p>
-              </div>
+                  <div className="left_website">
+                    <div className="left_web_para">
+                      <p>
+                        Your website is representative of your company or
+                        organization's spirit. It should retain the uniqueness of your
+                        brand. To ensure the same, it is best to get a customized
+                        design that a website design company can create for you.
+                      </p>
+                    </div>
 
-              <div className="left_span">
-                   <span className="left_hire">Here are the benefits of customized website design:</span>
-                   <span>It supports and establishes your brand</span>
-                   <span>It optimized the customer experience</span>
-                   <span>It helps increase SEO optimization</span>
-                   <span>It gives better control over website hosting</span>
-                   <span>It gives better control over website hosting</span>
-              </div>
-            </div>
+                    <div className="left_span">
+                      <span className="left_hire">Here are the benefits of customized website design:</span>
+                      <span>It supports and establishes your brand</span>
+                      <span>It optimized the customer experience</span>
+                      <span>It helps increase SEO optimization</span>
+                      <span>It gives better control over website hosting</span>
+                      <span>It gives better control over website hosting</span>
+                    </div>
+                  </div>
                 </>
               )
             }
             <div className="right_website">
-                <img src={webMinar} alt="webMinar" />
+              <img src={webMinar} alt="webMinar" />
             </div>
           </div>
 
@@ -555,11 +555,123 @@ const WebsiteDev = () => {
             <div className="home511 text-center ">
               <h1 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h1>
             </div>
-            <div className="home512 flex flex-wrap justify-center mt-10">
+            {/* <div className="home512 flex flex-wrap justify-center mt-10">
               <PortCard link="ammed" heading={heading} pads={a9} />
               <PortCard link="kick" heading={heading1} pads={pads} />
               <PortCard link="protrack" heading={heading2} pads={bds} />
               <PortCard link="jones" heading={heading3} pads={jones} />
+            </div> */}
+
+            <div className="homeswar mt-14">
+              <h4>We create success stories.</h4>
+              <h3>Website Development Portfolio</h3>
+              <div className="homeswar-side mt-5">
+                <div className="homeswar-flex">
+                  <div className="homeswar-card homeswar-card9 ">
+                    <div className="homeswar-sect">
+                      <h5>SUMMER-READY SKIN</h5>
+                      <p>
+                        Hydrate and plumb with the <br />
+                        super serum duo
+                      </p>
+                    </div>
+                    <div className="homeswar-sect1">
+
+                      <button>Details</button>
+
+
+                      <a target="_blank" href="https://kickeezproducts.com/">
+                        <p>visit site</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="homeswar-card homeswar-card10">
+                    <div className="homeswar-sect">
+                      <h5>
+                        CREATE THE REMARKABLE <br /> DIMENSIONS WITH MPM
+                      </h5>
+                      <p>
+                        Connecting people across the globe.
+                      </p>
+                    </div>
+                    <div className="homeswar-sect1">
+
+                      <button>Details</button>
+
+                      <a target="_blank" href="https://solenoid-ninja.com/">
+                        <p>visit site</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="homeswar-card homeswar-card11">
+                    <div className="homeswar-sect">
+                      <h5>DOLIWALA EVENTS & WEDDING</h5>
+                      <p>
+                        Solution for all weddings and corporate events management and entertainment.
+                      </p>
+                    </div>
+                    <div className="homeswar-sect1">
+
+                      <button>Details</button>
+
+                      <a target="_blank" href="https://solenoid-ninja.com/">
+                        <p>visit site</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="homeswar-flex">
+                  <div className="homeswar-card homeswar-card12 ">
+                    <div className="homeswar-sect">
+                      <h5>SPINNING</h5>
+                      <p>
+                        Bring the studioexperience homewith <br /> the original indoor cycling brand.
+                      </p>
+                    </div>
+                    <div className="homeswar-sect1">
+
+                      <button>Details</button>
+
+
+                      <a target="_blank" href="https://kickeezproducts.com/">
+                        <p>visit site</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="homeswar-card homeswar-card13">
+                    <div className="homeswar-sect">
+                      <h5>MIX IT UP</h5>
+                      <p>
+                        Find your look for your iphone 14
+                      </p>
+                    </div>
+                    <div className="homeswar-sect1">
+
+                      <button>Details</button>
+
+                      <a target="_blank" href="https://solenoid-ninja.com/">
+                        <p>visit site</p>
+                      </a>
+                    </div>
+                  </div>
+                  <div className="homeswar-card homeswar-card14">
+                    <div className="homeswar-sect">
+                      <h5>DISCOVER YOUR BETTER</h5>
+                      <p>
+                        With a daily routine customized to your <br /> wellness goals.
+                      </p>
+                    </div>
+                    <div className="homeswar-sect1">
+
+                      <button>Details</button>
+
+                      <a target="_blank" href="https://solenoid-ninja.com/">
+                        <p>visit site</p>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="home52 w-full text-center"></div>
