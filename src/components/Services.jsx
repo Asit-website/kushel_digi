@@ -54,6 +54,8 @@ const Services = () => {
   let para2 = "KICK- EEZ Premium, Made in America recoil pads and accessories to make your shooting"
   let para3 = "The company works extensively on trucks and jeeps."
   let para4 = "Get peace of mind. install alarms that not only notify you of danger"
+
+  
   return (
     <>
       <div className="ser-main">
@@ -387,10 +389,10 @@ const Services = () => {
               </p>
             </div>
             <div className="home512 flex flex-wrap justify-center mt-14">
-              <PortCard heading={heading} pads={a9} para = {para1} />
-              <PortCard heading={heading1} pads={pads} para ={para2} />
-              <PortCard heading={heading2} pads={bds} para ={para3} />
-              <PortCard heading={heading3} pads={jones} para={para4} />
+              <PortCard heading={heading} pads={a9} para = {para1} link ="#"  />
+              <PortCard heading={heading1} pads={pads} para ={para2} link="https://kickeezproducts.com/" />
+              <PortCard heading={heading2} pads={bds} para ={para3} link="#" />
+              <PortCard heading={heading3} pads={jones} para={para4} link = "#" />
             </div>
           </div>
           <div className="home52 w-full text-center">
