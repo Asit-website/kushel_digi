@@ -728,12 +728,13 @@ max-width: 590px;
 }
 .heading{
   color: #33475B;
-  font-size: 32px;
+  font-size: 34px;
   margin-top: 93px;
   font-weight: 700;
   line-height: 44px;
   letter-spacing: 4.4px;
-  
+  position: relative;
+  top: -22px;
   text-align: center;
 }
 .first{
@@ -1088,11 +1089,18 @@ right: 8px;
 bottom: 4px;
 }
 
-
+/* .section-2 ul li::after{
+  content: "\2022";
+  color: #085881;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+} */
 @keyframes list-item{
   100%{
 
-color: #202020;
+color: #085881 ;
 margin-left: 23px;
 font-family: Proxima Nova;
 font-size: 19px;

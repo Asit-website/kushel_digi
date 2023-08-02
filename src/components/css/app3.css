@@ -1,0 +1,283 @@
+.asit .heading{   
+    line-height: 56px; 
+    text-transform: uppercase;
+    text-align: center;
+    color: #33475b;
+    font-size: 1.75rem;
+    font-weight: 700;
+    opacity: .9;
+}
+
+.asit .contant-1{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.asit .pra1{
+    color: #33475b;
+  
+    font-size: .94rem;
+    font-weight: 400;
+    max-width: 12rem;
+    opacity: .9;
+    text-align: center;
+    width: 30%;
+}
+.asit .pra2{
+    font-size: 0.99rem;
+    font-weight: 400;
+    max-width: 19rem;
+    opacity: .9;
+    text-align: center;
+    width: 30%;
+}
+.asit .pra3{
+    
+    font-size: .94rem;
+    font-weight: 400;
+    max-width: 12rem;
+    opacity: .9;
+    text-align: center;
+    width: 30%;
+}
+.asit .contant-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+    position: relative;
+    width: 100%;
+}
+
+
+.asit .contant-3{
+    justify-content: space-evenly;
+    margin-top: 2rem!important;
+    width: 100%;
+    display: flex;
+  
+}
+.asit .pra-2{
+    color: #33475b;
+   
+    font-size: .94rem;
+    font-weight: 400;
+    max-width: 12rem;
+    opacity: .9;
+    text-align: center;
+    width: 30%;
+}
+.asit .contant-2 .icon-1{
+  background-image: url('../../images/icon111.png');
+    width: 71px;
+    height: 71px;
+    background-size: 68px;
+    background-repeat: no-repeat;
+    position: relative;
+    animation-name: icon-1;
+    animation-delay: 1s;
+    animation-duration: 0.2s;
+ 
+    animation-iteration-count: 1;
+  
+    animation-fill-mode: forwards; 
+}
+ 
+@keyframes icon-1{
+
+    100%{
+      background-image: url("../../images/icon11.png");
+      
+      width: 71px;
+      height: 71px;
+      background-size: 68px;
+      background-repeat: no-repeat;
+  
+    }
+}
+.asit .contant-2 .icon-2{
+    background-image: url('../../images/icon22.png');
+    width: 71px;
+    height: 71px;
+    background-size: 68px;
+    background-repeat: no-repeat;
+    position: relative;
+    animation-name: icon-2;
+    animation-delay: 1.8s;
+    animation-duration: 0.2s;
+ 
+    animation-iteration-count: 1;
+  
+    animation-fill-mode: forwards; 
+}
+@keyframes icon-2{
+
+    100%{
+      background-image: url("../../images/icon12.png");
+      
+      width: 71px;
+      height: 71px;
+      background-size: 68px;
+      background-repeat: no-repeat;
+  
+    }
+}
+.asit .contant-2 .icon-3{
+    width: 71px;
+    background-image: url('../../images/icon33.png');
+    height: 71px;
+    background-size: 68px;
+    background-repeat: no-repeat;
+    position: relative;
+    animation-name: icon-3;
+    animation-delay: 2.5s;
+    animation-duration: 0.2s;
+ 
+    animation-iteration-count: 1;
+  
+    animation-fill-mode: forwards; 
+}
+@keyframes icon-3{
+
+    100%{
+      background-image: url("../../images/icon13.png");
+      
+      width: 71px;
+      height: 71px;
+      background-size: 68px;
+      background-repeat: no-repeat;
+  
+    }
+}
+.asit .contant-2 .icon-4{
+    width: 71px;
+    background-image: url('../../images/icon4.png');
+    height: 71px;
+    background-size: 68px;
+    background-repeat: no-repeat;
+    position: relative;
+    animation-name: icon-4;
+    animation-delay: 3.4s;
+    animation-duration: 0.2s;
+ 
+    animation-iteration-count: 1;
+  
+    animation-fill-mode: forwards; 
+}
+@keyframes icon-4{
+
+    100%{
+      background-image: url("../../images/icon14.png");
+      
+      width: 71px;
+      height: 71px;
+      background-size: 68px;
+      background-repeat: no-repeat;
+  
+    }
+}
+.asit .contant-2 .icon-5{
+    width: 71px;
+    height: 71px;
+    background-image: url('../../images/icon5.png');
+    background-size: 68px;
+    background-repeat: no-repeat;
+    position: relative;
+    animation-name: icon-5;
+    animation-delay: 4.6s;
+    animation-duration: 0.2s;
+ 
+    animation-iteration-count: 1;
+  
+    animation-fill-mode: forwards; 
+}
+@keyframes icon-5{
+
+    100%{
+      background-image: url("../../images/icon12.png");
+      
+      width: 71px;
+      height: 71px;
+      background-size: 68px;
+      background-repeat: no-repeat;
+  
+    }
+}
+.asit .line{
+    position: relative;
+    top: 58px;
+ 
+    animation-name: line100;
+    animation-duration: 9s;
+    margin-left: 8px;
+    
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes line100{
+    0%{
+        width: 1%;
+       background-color: #085881;
+       }
+    
+       100%{
+        width: 99%;
+        background-color: #085881;
+        }
+
+}
+/* 
+
+.img2{
+ 
+
+    width: 92px;
+    height: 94px;
+    position: relative;
+    top: 71px;
+    right: 28px;
+    background-size: 92px;
+    background-repeat: no-repeat;
+    animation-name: img-2;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes img-2{
+  25%{
+    background-image: url("img/new5.png");
+    width: 92px;
+    height: 94px;
+    position: relative;
+    top: 71px;
+    right: 28px;
+    background-size: 92px;
+    background-repeat: no-repeat;
+
+  }
+  50%{
+    background-image: url("img/html.png");
+    width: 92px;
+    height: 94px;
+    position: relative;
+    top: 71px;
+    right: 28px;
+    background-size: 92px;
+    background-repeat: no-repeat;
+  }
+  75%{
+    background-image: url("img/new5.png");
+    width: 92px;
+    height: 94px;
+    position: relative;
+    top: 71px;
+    right: 28px;
+    background-size: 92px;
+    background-repeat: no-repeat;
+  }
+
+} */
