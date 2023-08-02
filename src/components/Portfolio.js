@@ -282,7 +282,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-              <NavLink to="/rely"><button>View More</button></NavLink>
+              <button>View More</button>
             </div>
           </div>
 
@@ -324,7 +324,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-              <NavLink to="/ceo"><button>View More</button></NavLink>
+              <button>View More</button>
             </div>
             <div className="portis1 portis1111 pong2">
               <div className="portis1-sect">
@@ -374,7 +374,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-              <NavLink to="/solenoid"><button>View More</button></NavLink>
+              <button>View More</button>
             </div>
           </div>
 
@@ -454,7 +454,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-              <NavLink to="/solenoid"><button>View More</button></NavLink>
+              <button>View More</button>
             </div>
           </div>
 
@@ -534,7 +534,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-              <NavLink to="/solenoid"><button>View More</button></NavLink>
+              <button>View More</button>
             </div>
           </div>
 

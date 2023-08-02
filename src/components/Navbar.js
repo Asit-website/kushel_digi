@@ -22,7 +22,10 @@ import tiim1 from '../images/tiim1.png';
 import tiim2 from '../images/tiim2.png';
 import tiim3 from '../images/tiim3.png';
 import tiim4 from '../images/tiim4.png';
-
+import letter1 from '../images/letter1.png';
+import letter2 from '../images/letter2.png';
+import letter3 from '../images/letter3.png';
+import letter4 from '../images/letter4.png';
 var st;
 
 const Navbar = () => {
@@ -83,74 +86,16 @@ const Navbar = () => {
 
           <div className="navbar-text desk-nav">
             <ul>
-           <li className="mar">
-                <div className="flex items-center cursor-pointer nb-0 navLinks">
-                  <p className="sar" to="/about">
-                    about us
-                  </p>
-                  <div className="ser-nav10 hidden megaMenu">
-                    <div className="compan flex items-start justify-between">
-                      <div className="first-compan mt-3 flex items-start justify-evenly">
-                        <div className="second-compan mr-10">
-                          <NavLink
-                            onClick={() =>
-                              document
-                                .querySelector(".ser-nav10")
-                                .classList.toggle("ses")
-                            }
-                            to="/about"
-                          >
-                            <div className="flex items-center">
-                            <img className="timi11" src={tiim1} alt="tiim1" />
-                            <p className="cpmpa">Who We Are</p>
-                            </div>
-                          </NavLink>
-                          {/* <p className="cpmpa">Testimonials</p> */}
-                          {/* <p className="cpmpa">Blog</p> */}
-                          <NavLink to="/partner">
-                            <div className="flex items-center">
-                            <img className="timi11" src={tiim2} alt="" />
-                            <p className="cpmpa">Partner With us</p>
-                            </div>
-                          </NavLink>
-                          {/* <p className="cpmpa">Social Cause - NGO</p> */}
-                        </div>
-                        <div className="second-compan mr-5">
-                          {/* <p className="cpmpa">Our Work</p>
-                          <p className="cpmpa">Our Clients</p> */}
-                          <NavLink to="/career">
-                            <div className="flex items-center">
-                            <img className="timi11" src={tiim3} alt="" />
-                            <p className="cpmpa">Careers</p>
-                            </div>
-                          </NavLink>
-                          <NavLink to="/hire">
-                            <div className="flex items-center">
-                            <img className="timi11" src={tiim4} alt="" />
-                            <p className="cpmpa">Hire team</p>
-                            </div>
-                          </NavLink>
-                        </div>
-                      </div>
-                      <div className="second-compan1">
-                        <div className="comapn-sect">
-                          <h3>GET FREE CONSULTATION</h3>
-                          <p className="wanna wannt">
-                            Empowering companies at the intersection of UX
-                            design, development, & business. <br />
-                            Accelerate your digital transformation with our free
-                            consultation
-                          </p>
-                          <NavLink to="/contact">
-                            <button className="wanna-btn">Contact Us</button>
-                          </NavLink>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+
+            <li className="mar">
+                <div className="flex items-center cursor-pointer">
+                  <NavLink className="sar" to="/">
+                    Home
+                  </NavLink>
                 </div>
               </li>
-             <li className="mar">
+
+              <li className="mar">
                 <div
                   className="flex items-center cursor-pointer nb-0 navLinks"
                 >
@@ -371,6 +316,74 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
+           <li className="mar">
+                <div className="flex items-center cursor-pointer nb-0 navLinks">
+                  <p className="sar" to="/about">
+                    about us
+                  </p>
+                  <div className="ser-nav10 hidden megaMenu">
+                    <div className="compan flex items-start justify-between">
+                      <div className="first-compan mt-3 flex items-start justify-evenly">
+                        <div className="second-compan mr-10">
+                          <NavLink
+                            onClick={() =>
+                              document
+                                .querySelector(".ser-nav10")
+                                .classList.toggle("ses")
+                            }
+                            to="/about"
+                          >
+                            <div className="flex items-center">
+                            <img className="timi11" src={letter1} alt="tiim1" />
+                            <p className="cpmpa">Who We Are</p>
+                            </div>
+                          </NavLink>
+                          {/* <p className="cpmpa">Testimonials</p> */}
+                          {/* <p className="cpmpa">Blog</p> */}
+                          <NavLink to="/partner">
+                            <div className="flex items-center">
+                            <img className="timi11 timi23" src={letter2} alt="" />
+                            <p className="cpmpa">Partner With us</p>
+                            </div>
+                          </NavLink>
+                          {/* <p className="cpmpa">Social Cause - NGO</p> */}
+                        </div>
+                        <div className="second-compan mr-5">
+                          {/* <p className="cpmpa">Our Work</p>
+                          <p className="cpmpa">Our Clients</p> */}
+                          <NavLink to="/career">
+                            <div className="flex items-center">
+                            <img  className="timi11" src={letter3} alt="" />
+                            <p className="cpmpa">Careers</p>
+                            </div>
+                          </NavLink>
+                          <NavLink to="/hire">
+                            <div className="flex items-center">
+                            <img className="timi11" src={letter4} alt="" />
+                            <p className="cpmpa">Hire team</p>
+                            </div>
+                          </NavLink>
+                        </div>
+                      </div>
+                      <div className="second-compan1">
+                        <div className="comapn-sect">
+                          <h3>GET FREE CONSULTATION</h3>
+                          <p className="wanna wannt">
+                            Empowering companies at the intersection of UX
+                            design, development, & business. <br />
+                            Accelerate your digital transformation with our free
+                            consultation
+                          </p>
+                          <NavLink to="/contact">
+                            <button className="wanna-btn">Contact Us</button>
+                          </NavLink>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            
 
             <NavLink to="/solution"><li className="mar">
                 <div className="flex items-center cursor-pointer">
@@ -395,7 +408,8 @@ const Navbar = () => {
                     Hire
                   </p>
                 </div>
-                <div className="hire-nav hidden megaMenu">
+               
+                <div className="hire-nav  hidden megaMenu">
                   <div className="hire-nav__containers ">
                     <div className="hire-nav__container">
                       <div className="hire-nav__container__header">
@@ -446,12 +460,12 @@ const Navbar = () => {
                         </li> */}
                       </ul>
                     </div>
-                    <div className="hire-nav__container">
+                    {/* <div className="hire-nav__container">
                       <div className="hire-nav__container__header">
                         <img src={ent5} alt="" />
                         <h3>Hire a Designer</h3>
                       </div>
-                      {/* <ul className=" relative left-3">
+                      <ul className=" relative left-3">
                         <li>
                           <NavLink to="#!">Website Designer</NavLink>
                         </li>
@@ -465,31 +479,33 @@ const Navbar = () => {
                             Graphic Designer (3Year +) EXP.
                           </NavLink>
                         </li>
-                      </ul> */}
-                    </div>
+                      </ul>
+                    </div> */}
                   </div>
                   <div className="teal flex items-center justify-between">
                     <div className="tael-head">
                       <h3>GET FREE CONSULTATION</h3>
-                      <p className="want">
+                      <p className="want want676">
                         Want to validate your mobile app idea? Tell us a little
                         bit <br /> about your requirements
                       </p>
                     </div>
                     <div className="teal-contact">
                       <NavLink className="conj-hire" to="/contact">
-                        <button className="conj">Contact Us</button>
+                        <button className="conj conjjt">Contact Us</button>
                       </NavLink>
                     </div>
                   </div>
                 </div>
               </li></NavLink>
-              <li className="mar">
+
+              
+              {/* <li className="mar">
                 <div className="flex items-center cursor-pointer nb-0 navLinks">
                   <p className="sar" to="">
                     Resources
                   </p>
-                  {/* <svg
+                  <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="15"
                       height="15"
@@ -501,7 +517,7 @@ const Navbar = () => {
                         fillRule="evenodd"
                         d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
                       />
-                    </svg> */}
+                    </svg>
                 </div>
                 <div className="ser-nav-resource hidden megaMenu">
                   <div className="resource flex items-center px-5 py-5">
@@ -531,7 +547,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 </div>
-              </li>
+              </li> */}
               <li className="mar">
                 <NavLink className="bts-naba" to="/contact">
                   <button className="sar tart">Contact Us</button>

@@ -85,6 +85,7 @@ body {
 }
 .home-year {
   padding-bottom: 60px;
+  padding-top: 40px;
 }
 .home-year11 span {
   font-weight: 700;
@@ -415,7 +416,7 @@ body {
   color: #202020 !important;
   opacity: 0.9 !important;
   position: absolute;
-  top: 90%;
+  top: 77%; /* phele 90% tha */
   left: 50%;
   transform: translate(-50%, -50%);
   width: 150px !important;
@@ -439,6 +440,7 @@ body {
   /* font-family: "Poppins", sans-serif !important; */
   font-weight: 700;
   font-size: 14px;
+  margin-top: 15px;
 }
 
 .comapn-sect .wanna {
@@ -448,7 +450,7 @@ body {
   opacity: 1 !important;
   /* font-family: "Poppins", sans-serif !important; */
   text-transform: none;
-  margin-top: 10px;
+  margin-top: 8px;
 }
 .compan {
   /* pehle 400px */
@@ -1319,6 +1321,7 @@ form button {
   font-weight: 400;
   margin: auto;
   color: #010c1e;
+  letter-spacing: 4.4px;
 }
 
 .home312 {
@@ -1532,11 +1535,13 @@ form button {
 }
 
 .home711 h1 {
-  font-size: 35px;
+  font-size: 34px;
   font-weight: bold;
   color: #33475B;
-  opacity: 0.8;
-  letter-spacing: 0.15em;
+  opacity: 1;
+  letter-spacing: 4.4px;
+  /* letter-spacing: 0.15em; */
+  letter-spacing: 4.4px;
   text-transform: uppercase;
   line-height: 48px;
   /* font-family: "Value Sans Medium" !important; */
@@ -1601,8 +1606,8 @@ form button {
   /* font-family: "Value Sans Medium" !important; */
   color: #33475B !important;
   text-transform: uppercase;
-  opacity: 0.8;
-  letter-spacing: 0.1em;
+  opacity: 1;
+  letter-spacing: 4.4px;
 }
 
 .home8 p {
@@ -1962,7 +1967,7 @@ form button {
 }
 
 .home7 {
-  padding: 30px 0px;
+  padding: 100px 0px;
 }
 
 .home612 p {
@@ -6760,7 +6765,6 @@ form button:hover {
 }
 
 .portfolio-sect span {
-  font-family: "Value Sans Medium" !important;
   font-weight: 500;
 }
 
@@ -7431,6 +7435,7 @@ form button:hover {
   font-size: 22px;
   color: #202020;
   opacity: 0.9;
+  margin-left: 15px;
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: 500;
 }
@@ -7440,6 +7445,7 @@ form button:hover {
   /* font-family: "Roboto", sans-serif !important; */
   font-weight: bold;
   line-height: 45px;
+  margin-left: 15px;
 }
 .homeswar-flex {
   display: flex;
@@ -7611,6 +7617,8 @@ form button:hover {
   font-size: 34px;
   /* font-family: "Value Sans Medium" !important; */
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4.4px;
 }
 .chain-cards {
   margin-top: 30px;
@@ -11729,6 +11737,7 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
   }
   .mig1 h4{
     color: #33475B;
@@ -11753,6 +11762,9 @@ video {
   .get_mig2{
     border-bottom: 2px solid #085881;
     width: 100%;
+  }
+  .timi23{
+    width: 30px !important;
   }
   .get_mig button{
     max-width: 420px;
@@ -12851,6 +12863,10 @@ video {
   margin-top: 40px;
   color: #FFFFFF;
 }
+.solution_back1 button:hover{
+  background-color: #ffffff;
+  color: #202020;
+}
 .solution_back2{
   margin-right: 110px;
 }
@@ -12976,13 +12992,16 @@ video {
   height: 64px;
   border: 1px solid #FFFFFF;
   border-radius: 30px;
- 
   color: #ffffff;
   font-weight: bold;
   font-size: 18.5px;
   display: block;
   margin: auto;
   margin-top: 40px;
+}
+.skyRoket button:hover{
+  background-color: #ffffff;
+  color: #202020;
 }
 .bff1 h2{
   color: #33475B;

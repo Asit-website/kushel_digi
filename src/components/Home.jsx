@@ -44,6 +44,7 @@ import pay1 from "../images/pay1.png";
 import pay2 from "../images/pay2.png";
 import pay3 from "../images/pay3.png";
 import '../components/css/app1.css';
+import abouyt from '../images/abouyt.png';
 // import box2 from "../images/box2.png";
 // import box3 from "../images/box3.png";
 // import box4 from "../images/box4.png";
@@ -177,22 +178,22 @@ const Home = () => {
     document.getElementById("one").style.background = "#0142E1";
     document.getElementById("two").style.background = "none";
     document.getElementById("three").style.background = "none";
-    document.getElementById("fourth").style.background = "none";
+    // document.getElementById("fourth").style.background = "none";
 
     document.getElementById("one").style.padding = "5px 22px";
     document.getElementById("two").style.padding = "0px 0px";
     document.getElementById("three").style.padding = "0px 0px";
-    document.getElementById("fourth").style.padding = "0px 0px";
+    // document.getElementById("fourth").style.padding = "0px 0px";
 
     document.getElementById("one").style.color = "#ffffff";
     document.getElementById("two").style.color = "#33475B";
     document.getElementById("three").style.color = "#33475B";
-    document.getElementById("fourth").style.color = "#33475B";
+    // document.getElementById("fourth").style.color = "#33475B";
 
     document.getElementById("one").style.borderRadius = "20px";
     document.getElementById("two").style.borderRadius = "0px";
     document.getElementById("three").style.borderRadius = "0px";
-    document.getElementById("fourth").style.borderRadius = "0px";
+    // document.getElementById("fourth").style.borderRadius = "0px";
   };
 
   const tabAnother1 = (e) => {
@@ -201,22 +202,22 @@ const Home = () => {
     document.getElementById("one").style.background = "none";
     document.getElementById("two").style.background = "#0142E1";
     document.getElementById("three").style.background = "none";
-    document.getElementById("fourth").style.background = "none";
+    // document.getElementById("fourth").style.background = "none";
 
     document.getElementById("one").style.padding = "0px 0px";
     document.getElementById("two").style.padding = "5px 22px";
     document.getElementById("three").style.padding = "0px 0px";
-    document.getElementById("fourth").style.padding = "0px 0px";
+    // document.getElementById("fourth").style.padding = "0px 0px";
 
     document.getElementById("one").style.color = "#33475B";
     document.getElementById("two").style.color = "#ffffff";
     document.getElementById("three").style.color = "#33475B";
-    document.getElementById("fourth").style.color = "#33475B";
+    // document.getElementById("fourth").style.color = "#33475B";
 
     document.getElementById("one").style.borderRadius = "0px";
     document.getElementById("two").style.borderRadius = "20px";
     document.getElementById("three").style.borderRadius = "0px";
-    document.getElementById("fourth").style.borderRadius = "0px";
+    // document.getElementById("fourth").style.borderRadius = "0px";
   };
 
   const tabAnother2 = (e) => {
@@ -226,48 +227,48 @@ const Home = () => {
     document.getElementById("one").style.background = "none";
     document.getElementById("two").style.background = "none";
     document.getElementById("three").style.background = "#0142E1";
-    document.getElementById("fourth").style.background = "none";
+    // document.getElementById("fourth").style.background = "none";
 
     document.getElementById("one").style.padding = "0px 0px";
     document.getElementById("two").style.padding = "0px 0px";
     document.getElementById("three").style.padding = "5px 22px";
-    document.getElementById("fourth").style.padding = "0px 0px";
+    // document.getElementById("fourth").style.padding = "0px 0px";
 
     document.getElementById("one").style.color = "#33475B";
     document.getElementById("two").style.color = "#33475B";
     document.getElementById("three").style.color = "#ffffff";
-    document.getElementById("fourth").style.color = "#33475B";
+    // document.getElementById("fourth").style.color = "#33475B";
 
     document.getElementById("one").style.borderRadius = "0px";
     document.getElementById("two").style.borderRadius = "0px";
     document.getElementById("three").style.borderRadius = "20px";
-    document.getElementById("fourth").style.borderRadius = "0px";
+    // document.getElementById("fourth").style.borderRadius = "0px";
   };
 
-  const tabAnother3 = (e) => {
-    e.preventDefault();
-    setTab(4);
+  // const tabAnother3 = (e) => {
+  //   e.preventDefault();
+  //   setTab(4);
 
-    document.getElementById("one").style.background = "none";
-    document.getElementById("two").style.background = "none";
-    document.getElementById("three").style.background = "none";
-    document.getElementById("fourth").style.background = "#0142E1";
+  //   document.getElementById("one").style.background = "none";
+  //   document.getElementById("two").style.background = "none";
+  //   document.getElementById("three").style.background = "none";
+  //   document.getElementById("fourth").style.background = "#0142E1";
 
-    document.getElementById("one").style.padding = "0px 0px";
-    document.getElementById("two").style.padding = "0px 0px";
-    document.getElementById("three").style.padding = "0px 0px";
-    document.getElementById("fourth").style.padding = "5px 22px";
+  //   document.getElementById("one").style.padding = "0px 0px";
+  //   document.getElementById("two").style.padding = "0px 0px";
+  //   document.getElementById("three").style.padding = "0px 0px";
+  //   document.getElementById("fourth").style.padding = "5px 22px";
 
-    document.getElementById("one").style.color = "#33475B";
-    document.getElementById("two").style.color = "#33475B";
-    document.getElementById("three").style.color = "#33475B";
-    document.getElementById("fourth").style.color = "#ffffff";
+  //   document.getElementById("one").style.color = "#33475B";
+  //   document.getElementById("two").style.color = "#33475B";
+  //   document.getElementById("three").style.color = "#33475B";
+  //   document.getElementById("fourth").style.color = "#ffffff";
 
-    document.getElementById("one").style.borderRadius = "0px";
-    document.getElementById("two").style.borderRadius = "0px";
-    document.getElementById("three").style.borderRadius = "0px";
-    document.getElementById("fourth").style.borderRadius = "20px";
-  };
+  //   document.getElementById("one").style.borderRadius = "0px";
+  //   document.getElementById("two").style.borderRadius = "0px";
+  //   document.getElementById("three").style.borderRadius = "0px";
+  //   document.getElementById("fourth").style.borderRadius = "20px";
+  // };
 
   const headings =
     "We create responsive e-commerce websites that are suitable for viewing on any mobile phone.";
@@ -343,7 +344,7 @@ const Home = () => {
         <div className="home2 mb-8">
           <div className="home21 px-24 flex">
             <div className="home211 mr-14">
-              <img src={abita} alt="about" />
+              <img src={abouyt} alt="about" />
               <h5 className="text-blue-500 mt-16">Who are we?</h5>
               <h3 className="mb-2">
                 {/* We are your digital partner for innovative design and reliable
@@ -700,9 +701,9 @@ const Home = () => {
               <p id="three" onClick={tabAnother2} className=" cursor-pointer">
                 E-COMMERCE SOLUTION
               </p>
-              <p id="fourth" onClick={tabAnother3} className=" cursor-pointer">
+              {/* <p id="fourth" onClick={tabAnother3} className=" cursor-pointer">
                 MOBILE APPLICATION
-              </p>
+              </p> */}
             </div>
             {tab === 1 && (
               <div className="homeswar mt-14">
@@ -1045,7 +1046,7 @@ const Home = () => {
                 </div>
               </div>
             )}
-            {tab === 4 && (
+            {/* {tab === 4 && (
               <div className="homeswar mt-14">
                 <h4>We create success stories.</h4>
                 <h3>BigCommerce Portfolio</h3>
@@ -1106,7 +1107,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            )}
+            )} */}
           </div>
           <div className="home52 w-full text-center">
             <NavLink to="/portfolio">
@@ -1383,9 +1384,9 @@ const Home = () => {
               </SplideSlide> */}
             </Splide>
           </div>
-          <button className="view_all22">
+          {/* <button className="view_all22">
             VIEW ALL <img className="tirVect" src={tirVect} alt="tirVect" />
-          </button>
+          </button> */}
         </div>
 
 

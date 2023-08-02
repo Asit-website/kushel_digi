@@ -24,6 +24,7 @@ import ent8 from "../images/ent8.png";
 import ent9 from "../images/ent9.png";
 import ent10 from "../images/ent10.png";
 import josh from "../images/josh.png";
+import '../components/css/app3.css';
 import {
   Accordion,
   AccordionItem,
@@ -532,7 +533,7 @@ const OurPartner = () => {
         </div>
 
         {/* How It Works Section Start*/}
-        <div id="howIt" ref={ref4} className="howItWorks">
+        {/* <div id="howIt" ref={ref4} className="howItWorks">
           <h1>How It Works</h1>
           <div className="howItWorks-text__top">
             <p>
@@ -568,7 +569,63 @@ const OurPartner = () => {
               <br /> support framework.
             </p>
           </div>
-        </div>
+        </div> */}
+
+        <div className="asit">
+  <h1 className="heading">HOW IT WORKS</h1>
+  <div className="contant-1">
+    <p className="pra1">
+      Join the programme by clicking on the ‘Become a Partner’ button
+    </p>
+    <p className="pra2">
+      Receive extensive resources - from marketing &amp; product collaterals to
+      training and certification.
+    </p>
+    <p className="pra3">
+      Enjoy incremental rewards as you advance through different partner levels.
+    </p>
+  </div>
+  <hr className="line" />
+  <div className="contant-2">
+    <div
+      className="icon-1"
+      // style={{ backgroundImage: 'url("../images/icon111.png")' }}
+    />
+    <div
+      className="icon-2"
+      // style={{ backgroundImage: 'url("img/icon22.png")' }}
+    />
+    <div
+      className="icon-3"
+      // style={{ backgroundImage: 'url("img/icon33.png")' }}
+    />
+    <div
+      className="icon-4"
+      // style={{ backgroundImage: 'url("img/icon4.png")' }}
+    />
+    <div
+      className="icon-5"
+      // style={{ backgroundImage: 'url("img/icon5.png")' }}
+    />
+    {/* <img src="img/icon1.png" alt="" class="icon-1">
+          <img src="img/icon2.png" alt="" class="icon-2">
+          <img src="img/icon3.png" alt="" class="icon-3">
+          <img src="img/icon4.png" alt="" class="icon-4">
+          <img src="img/icon5.png" alt="" class="icon-5"> */}
+  </div>
+  <div className="contant">
+    <div className="contant-3">
+      <p className="pra-2">
+        Hit the ground running with the help of our structured onboarding and
+        orientation process.
+      </p>
+      <p className="pra-2">
+        Co-create value leveraging our ongoing engagement and support framework.
+      </p>
+    </div>
+  </div>
+</div>
+
         {/* How It Works Section End*/}
 
         {/* <div id="parting" ref={ref3} className="partnets-stories">

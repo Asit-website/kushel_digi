@@ -1628,13 +1628,25 @@
   border-radius: 0px 2px 2px 2px;
   top: 4rem;
   padding: 0px;
-  left: -36rem;
+  /* left: -36rem; */
+  left: -24rem;
+  max-width: 460px;
+  width: 480px;
+  /* max-width: 100%; */
+}
+.tael-head .want676{
+  font-size: 11px !important;
+}
+.conjjt{
+  width: 100px !important;
+  height: 35px !important;
+  font-size: 13px !important;
 }
 
 .hire-nav__containers {
   display: flex;
   justify-content: space-between;
-  padding: 0 1rem 1rem 0rem;
+  /* padding: 0 1rem 1rem 0rem; */
 }
 
 .hire-nav__container {
