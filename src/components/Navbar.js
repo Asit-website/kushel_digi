@@ -22,7 +22,10 @@ import tiim1 from '../images/tiim1.png';
 import tiim2 from '../images/tiim2.png';
 import tiim3 from '../images/tiim3.png';
 import tiim4 from '../images/tiim4.png';
-
+import letter1 from '../images/letter1.png';
+import letter2 from '../images/letter2.png';
+import letter3 from '../images/letter3.png';
+import letter4 from '../images/letter4.png';
 var st;
 
 const Navbar = () => {
@@ -331,7 +334,7 @@ const Navbar = () => {
                             to="/about"
                           >
                             <div className="flex items-center">
-                            <img className="timi11" src={tiim1} alt="tiim1" />
+                            <img className="timi11" src={letter1} alt="tiim1" />
                             <p className="cpmpa">Who We Are</p>
                             </div>
                           </NavLink>
@@ -339,7 +342,7 @@ const Navbar = () => {
                           {/* <p className="cpmpa">Blog</p> */}
                           <NavLink to="/partner">
                             <div className="flex items-center">
-                            <img className="timi11" src={tiim2} alt="" />
+                            <img className="timi11 timi23" src={letter2} alt="" />
                             <p className="cpmpa">Partner With us</p>
                             </div>
                           </NavLink>
@@ -350,13 +353,13 @@ const Navbar = () => {
                           <p className="cpmpa">Our Clients</p> */}
                           <NavLink to="/career">
                             <div className="flex items-center">
-                            <img className="timi11" src={tiim3} alt="" />
+                            <img  className="timi11" src={letter3} alt="" />
                             <p className="cpmpa">Careers</p>
                             </div>
                           </NavLink>
                           <NavLink to="/hire">
                             <div className="flex items-center">
-                            <img className="timi11" src={tiim4} alt="" />
+                            <img className="timi11" src={letter4} alt="" />
                             <p className="cpmpa">Hire team</p>
                             </div>
                           </NavLink>

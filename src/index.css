@@ -11737,6 +11737,7 @@ video {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
   }
   .mig1 h4{
     color: #33475B;
@@ -11761,6 +11762,9 @@ video {
   .get_mig2{
     border-bottom: 2px solid #085881;
     width: 100%;
+  }
+  .timi23{
+    width: 30px !important;
   }
   .get_mig button{
     max-width: 420px;

@@ -54,6 +54,7 @@ import nativeSer5 from '../images/nativeSer5.png';
 import nativeSer6 from '../images/nativeSer6.png';
 import nativeSer7 from '../images/nativeSer7.png';
 import { NavLink } from "react-router-dom";
+import ServiceCommon from "./common/ServiceCommon";
 const PhpHire = () => {
 
   const [perPage, setPerPage] = useState(3);
@@ -245,7 +246,7 @@ const PhpHire = () => {
               <SplideSlide>
                 <div className="migration_box">
                   <div className="mig1">
-                    <h4>4</h4>
+                    <h4>5</h4>
                   </div>
                   <div className="mig2">
                     <h1>PHP CMS development</h1>
@@ -607,7 +608,7 @@ const PhpHire = () => {
 
        
 
-        <div className="php_techStack">
+        {/* <div className="php_techStack">
           <h2 className="php_heading1">Our PHP development tech stack </h2>
           <div className="mt-3">
             <p className="php_para1">
@@ -690,13 +691,13 @@ const PhpHire = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
        
         {/* <ContactForm1 /> */}
 
 
-        <div className="others_nat_serv">
+        {/* <div className="others_nat_serv">
                 <h3 className='ot_ser'>Other Services</h3>
                 <hr className='ot_line' />
                 <div className="nat_card">
@@ -722,7 +723,7 @@ const PhpHire = () => {
                                 <div className="nat_heading">
                                     <h3>E-commerce Solutions</h3>
                                     <p>Teams at fast-growing companies use Superside to get quality graphic design done at scale. </p>
-                                    <span>Read More</span>
+                                   <NavLink to="/ecommerce-solutions-usa"><span>Read More</span></NavLink>
                                 </div>
                             </div>
                         </SplideSlide>
@@ -736,7 +737,7 @@ const PhpHire = () => {
                                     <p>redesign, rebuild and redefine user
                                         experiences and craft interactions like no
                                         other with our best-in-class design services.</p>
-                                    <span>Read More</span>
+                                   <NavLink to="/ui-ux-designer-usa"><span>Read More</span></NavLink>
                                 </div>
                             </div>
                         </SplideSlide>
@@ -748,7 +749,7 @@ const PhpHire = () => {
                                 <div className="nat_heading">
                                     <h3>Mobile App Development</h3>
                                     <p>We design custom dynamic mobile apps using cutting-edge technologies to help you transform your business.</p>
-                                    <span>Read More</span>
+                                   <NavLink to="/mobile-application-development-usa"><span>Read More</span></NavLink>
                                 </div>
                             </div>
                         </SplideSlide>
@@ -761,7 +762,7 @@ const PhpHire = () => {
                                 <div className="nat_heading">
                                     <h3>Web Development</h3>
                                     <p>Our web professionals create strong, durable, and bespoke websites that set you apart from the competition.</p>
-                                    <span>Read More</span>
+                                   <NavLink to="/web-development-usa"><span>Read More</span></NavLink>
                                 </div>
                             </div>
                         </SplideSlide>
@@ -773,7 +774,7 @@ const PhpHire = () => {
                                 <div className="nat_heading">
                                     <h3>Graphic Design</h3>
                                     <p>Teams at fast-growing companies use Superside to get quality graphic design done at scale.</p>
-                                    <span>Read More</span>
+                                  <NavLink to="/graphic"><span>Read More</span></NavLink>
                                 </div>
                             </div>
                         </SplideSlide>
@@ -785,7 +786,7 @@ const PhpHire = () => {
                                 <div className="nat_heading">
                                     <h3>Digital Marketing</h3>
                                     <p>Drive sustainable growth, increase customer acquisition, and high website traffic with our online tools.</p>
-                                    <span>Read More</span>
+                                   <NavLink to="/digital-marketing-agency-usa"><span>Read More</span></NavLink>
                                 </div>
                             </div>
                         </SplideSlide>
@@ -804,7 +805,9 @@ const PhpHire = () => {
                     </Splide>
 
                 </div>
-            </div>
+            </div> */}
+
+            <ServiceCommon/>
 
         <div className="home9 py-20 bigcom9">
           <div className="home91 flex px-24">

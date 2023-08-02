@@ -44,6 +44,7 @@ import pay1 from "../images/pay1.png";
 import pay2 from "../images/pay2.png";
 import pay3 from "../images/pay3.png";
 import '../components/css/app1.css';
+import abouyt from '../images/abouyt.png';
 // import box2 from "../images/box2.png";
 // import box3 from "../images/box3.png";
 // import box4 from "../images/box4.png";
@@ -343,7 +344,7 @@ const Home = () => {
         <div className="home2 mb-8">
           <div className="home21 px-24 flex">
             <div className="home211 mr-14">
-              <img src={abita} alt="about" />
+              <img src={abouyt} alt="about" />
               <h5 className="text-blue-500 mt-16">Who are we?</h5>
               <h3 className="mb-2">
                 {/* We are your digital partner for innovative design and reliable
