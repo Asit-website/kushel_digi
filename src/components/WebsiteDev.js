@@ -580,7 +580,7 @@ const WebsiteDev = () => {
                       <button>Details</button>
 
 
-                      <a target="_blank" href="https://kickeezproducts.com/">
+                      <a target="_blank" href="https://skknbykim.com/">
                         <p>visit site</p>
                       </a>
                     </div>
@@ -598,7 +598,7 @@ const WebsiteDev = () => {
 
                       <button>Details</button>
 
-                      <a target="_blank" href="https://solenoid-ninja.com/">
+                      <a target="_blank" href="https://mpmoverseas.com/">
                         <p>visit site</p>
                       </a>
                     </div>
@@ -614,7 +614,7 @@ const WebsiteDev = () => {
 
                       <button>Details</button>
 
-                      <a target="_blank" href="https://solenoid-ninja.com/">
+                      <a target="_blank" href="https://www.doliwala.com/">
                         <p>visit site</p>
                       </a>
                     </div>
@@ -633,7 +633,7 @@ const WebsiteDev = () => {
                       <button>Details</button>
 
 
-                      <a target="_blank" href="https://kickeezproducts.com/">
+                      <a target="_blank" href="https://spinning.com/">
                         <p>visit site</p>
                       </a>
                     </div>
@@ -649,7 +649,7 @@ const WebsiteDev = () => {
 
                       <button>Details</button>
 
-                      <a target="_blank" href="https://solenoid-ninja.com/">
+                      <a target="_blank" href="https://speckproducts.com/">
                         <p>visit site</p>
                       </a>
                     </div>
@@ -665,7 +665,7 @@ const WebsiteDev = () => {
 
                       <button>Details</button>
 
-                      <a target="_blank" href="https://solenoid-ninja.com/">
+                      <a target="_blank" href="https://www.bulletproof.com/">
                         <p>visit site</p>
                       </a>
                     </div>

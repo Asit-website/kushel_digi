@@ -122,9 +122,8 @@ const Magento = () => {
               If you want to develop your website with the help of field
               experts, just tell us.
             </p>
-            <button>
-              Consult our Magento Team
-              <img width={13} className="ml-1.5 inline" src={arrow4} alt="" />
+            <button className="lets_talking">
+              LET’S TALK
             </button>
           </div>
           <div className="magento_back2 relative">
@@ -537,8 +536,8 @@ const Magento = () => {
           </div> */}
               </div>
             </SplideSlide>
-            
-          
+
+
           </Splide>
         </div>
 
@@ -567,7 +566,7 @@ const Magento = () => {
           </div>
         </div>
 
-        <ContactForm1/>
+        <ContactForm1 />
 
         <div className="home9 py-20 bigcom9">
           <div className="home91 flex px-20">
@@ -579,7 +578,7 @@ const Magento = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    How many team members will you assign to my Magento project? Please define their roles.
+                      How many team members will you assign to my Magento project? Please define their roles.
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -594,7 +593,7 @@ const Magento = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Who will be my Point of Contact in case I hire Magento development services from Elsner Technologies Pvt. Ltd.?
+                      Who will be my Point of Contact in case I hire Magento development services from Elsner Technologies Pvt. Ltd.?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -608,7 +607,7 @@ const Magento = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    Will we get the sole ownership of the source files once the project gets over?
+                      Will we get the sole ownership of the source files once the project gets over?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -622,7 +621,7 @@ const Magento = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                    What is the support period provided by your company?
+                      What is the support period provided by your company?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>

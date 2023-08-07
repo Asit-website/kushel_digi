@@ -736,9 +736,9 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/solenoid">
-                          <button>Details</button>
-                        </NavLink>
+
+                        <button>Details</button>
+
                         <a target="_blank" href="https://solenoid-ninja.com/">
                           {" "}
                           <p>visit site</p>
@@ -758,7 +758,7 @@ const Home = () => {
                         </NavLink>
                         <a
                           target="_blank"
-                          href="https://www.protrucksandcars.net/"
+                          href="#!"
                         >
                           <p>visit site</p>
                         </a>
@@ -774,10 +774,10 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/ammed">
-                          <button>Details</button>
-                        </NavLink>
-                        <p>visit site</p>
+
+                        <button>Details</button>
+
+                        <a target="_blank" href="https://www.grannysfinest.com/"><p>visit site</p></a>
                       </div>
                     </div>
                     <div className="homeswar-card homeswar-card7">
@@ -788,10 +788,10 @@ const Home = () => {
                         </p> */}
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/rely">
-                          <button>Details</button>
-                        </NavLink>
-                        <a href="https://rely.mybigcommerce.com/?ctk=22b4785d-b154-406a-a998-f45dea313933">
+
+                        <button>Details</button>
+
+                        <a target="_blank" href="https://www.sigmabeauty.com/">
                           <p>visit site</p>
                         </a>
                       </div>
@@ -805,10 +805,10 @@ const Home = () => {
                         <p>Activates on skin contact</p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/jones">
-                          <button>Details</button>
-                        </NavLink>
-                        <p>visit site</p>
+
+                        <button>Details</button>
+
+                        <a target="_blank" href="https://nufabrx.com/"><p>visit site</p></a>
                       </div>
                     </div>
                   </div>
@@ -830,11 +830,9 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/kick">
-                          <button>Details</button>
-                        </NavLink>
 
-                        <a target="_blank" href="https://kickeezproducts.com/">
+                        <button>Details</button>
+                        <a target="_blank" href="https://skknbykim.com/">
                           <p>visit site</p>
                         </a>
                       </div>
@@ -849,10 +847,10 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/solenoid">
-                          <button>Details</button>
-                        </NavLink>
-                        <a target="_blank" href="https://solenoid-ninja.com/">
+
+                        <button>Details</button>
+
+                        <a target="_blank" href="https://mpmoverseas.com/">
                           <p>visit site</p>
                         </a>
                       </div>
@@ -865,10 +863,10 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/solenoid">
-                          <button>Details</button>
-                        </NavLink>
-                        <a target="_blank" href="https://solenoid-ninja.com/">
+
+                        <button>Details</button>
+
+                        <a target="_blank" href="https://www.doliwala.com/">
                           <p>visit site</p>
                         </a>
                       </div>
@@ -883,11 +881,11 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/kick">
-                          <button>Details</button>
-                        </NavLink>
 
-                        <a target="_blank" href="https://kickeezproducts.com/">
+                        <button>Details</button>
+
+
+                        <a target="_blank" href="https://spinning.com/">
                           <p>visit site</p>
                         </a>
                       </div>
@@ -900,10 +898,10 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/solenoid">
-                          <button>Details</button>
-                        </NavLink>
-                        <a target="_blank" href="https://solenoid-ninja.com/">
+
+                        <button>Details</button>
+
+                        <a target="_blank" href="https://speckproducts.com/">
                           <p>visit site</p>
                         </a>
                       </div>
@@ -916,10 +914,10 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/solenoid">
-                          <button>Details</button>
-                        </NavLink>
-                        <a target="_blank" href="https://solenoid-ninja.com/">
+
+                        <button>Details</button>
+
+                        <a target="_blank" href="https://www.bulletproof.com/">
                           <p>visit site</p>
                         </a>
                       </div>
@@ -959,9 +957,9 @@ const Home = () => {
                         </p>
                       </div>
                       <div className="homeswar-sect1">
-                        <NavLink to="/solenoid">
-                          <button>Details</button>
-                        </NavLink>
+
+                        <button>Details</button>
+
                         <a target="_blank" href="https://solenoid-ninja.com/">
                           {" "}
                           <p>visit site</p>
@@ -993,7 +991,7 @@ const Home = () => {
                       <div className="homeswar-sect">
                         <h5>2ND AMENDMENT</h5>
                         <p>
-                        custom design / custom development
+                          custom design / custom development
                         </p>
                       </div>
                       <div className="homeswar-sect1">
@@ -1001,7 +999,7 @@ const Home = () => {
                           <button>Details</button>
                         </NavLink>
 
-                        <a target="_blank" href="https://kickeezproducts.com/">
+                        <a target="_blank" href="#!">
                           <p>visit site</p>
                         </a>
                       </div>
@@ -1017,7 +1015,7 @@ const Home = () => {
                         <NavLink to="/rely">
                           <button>Details</button>
                         </NavLink>
-                        <a target="_blank" href="https://solenoid-ninja.com/">
+                        <a target="_blank" href="#!">
                           {" "}
                           <p>visit site</p>
                         </a>
@@ -1036,7 +1034,7 @@ const Home = () => {
                         </NavLink>
                         <a
                           target="_blank"
-                          href="https://www.protrucksandcars.net/"
+                          href="#!"
                         >
                           <p>visit site</p>
                         </a>
@@ -1198,7 +1196,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-        
+
         <div className="section78878">
           <div className="section-heading">
             <h1 className="heading">OUR WORKING PROCESS</h1>
