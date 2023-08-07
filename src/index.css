@@ -11917,7 +11917,9 @@ video {
 .gting .splide__pagination {
   display: none !important;
 }
-
+.gting .splide__arrows{
+  display: none !important;
+}
 .headst_big {
   margin-top: 50px;
 }
@@ -11952,27 +11954,38 @@ video {
 }
 
 .magento_back2 .reactus {
-  max-width: 220px;
+  /* max-width: 220px; */
+  /* border: 10px solid #ffffff;
+  border-radius: 50%; */
+  max-width: 100px;
   width: 100%;
-  border: 10px solid #ffffff;
-  border-radius: 50%;
   position: relative;
   margin-right: 30px;
+  right: 385px;
+  top: 36px;
 }
+
 
 .magento_back2 .reactus1 {
   border: 5px solid #ffffff !important;
 }
 
 .magentos {
-  position: absolute;
+  /* position: absolute;
   width: fit-content;
-  left: -32px;
+  left: -32px; */
+  position: absolute;
+    width: fit-content;
+    right: 0px;
+    bottom: -106px;
+
 }
 
 .magentos img {
-  max-width: 275px;
-  width: 275px;
+  /* max-width: 275px;
+  width: 275px; */
+  max-width: 466px;
+  width: 466px;
 }
 
 .magento_back1 h2 {
@@ -12043,12 +12056,13 @@ video {
 
 .magento_service1 p {
   font-weight: 400;
-  font-size: 19px;
+  font-size: 18px;
   color: #33475B;
-  width: 34em;
+  width: 36em;
   max-width: 100%;
   margin-top: 10px;
-  line-height: 30px;
+ 
+  line-height: 27px;
 }
 
 .magento_service2 {
@@ -12068,9 +12082,9 @@ video {
 }
 
 .magento_service2 .admis {
-  max-width: 530px;
-  width: 100%;
+  max-width: 682px;
   position: relative;
+  right: -69px;
 }
 
 .magento_services {
@@ -16884,6 +16898,9 @@ video {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: auto;
+  height: auto;
+  border: no;
 }
 #hello .second{
   background-color: #F8F8F8;

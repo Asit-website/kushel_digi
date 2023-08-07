@@ -1,4 +1,23 @@
 import React, { useState } from "react";
+import sss1 from "../images/sa1.png";
+import ss4 from "../images/sa4.png";
+import ss5 from "../images/sa5.png";
+import sss2 from "../images/sa2.png";
+import nn1 from "../images/n1.png";
+import nn2 from "../images/n2.png";
+import nn3 from "../images/n3.png";
+import nn4 from "../images/n4.png";
+import nn5 from "../images/n5.png";
+import nn6 from "../images/n6.png";
+import nn7 from "../images/n7.png";
+import nn8 from "../images/n8.png";
+import nn9 from "../images/n9.png";
+import g11 from "../images/g1.png";
+import g12 from "../images/g2.png";
+import g13 from "../images/g3.png";
+import g14 from "../images/g4.png";
+import g15 from "../images/g5.png";
+import g16 from "../images/g6.png";
 import arrow4 from "../images/arrow4.png";
 import reactus from "../images/reactus.png";
 import magentos from "../images/magentos.png";
@@ -27,10 +46,10 @@ import uin5 from "../images/uin5.png";
 import uin6 from "../images/uin6.png";
 import piloy from "../images/piloy.png";
 import magh from "../images/magh.png";
-import wrappet from '../images/wrappert.png'
+import wrappet from "../images/wrappert.png";
 // import CaseStudy from "./common/CaseStudy";
-import sigmat from '../images/sigmat.png';
-import ghiradel from '../images/ghiradel.png';
+import sigmat from "../images/sigmat.png";
+import ghiradel from "../images/ghiradel.png";
 import {
   Accordion,
   AccordionItem,
@@ -39,7 +58,7 @@ import {
   AccordionItemPanel,
 } from "react-accessible-accordion";
 import ContactForm1 from "./common/ContactForm1";
-import kiktas from '../images/kiktas.png';
+import kiktas from "../images/kiktas.png";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
@@ -122,18 +141,23 @@ const Magento = () => {
               If you want to develop your website with the help of field
               experts, just tell us.
             </p>
-            <button className="lets_talking">
-              LET’S TALK
-            </button>
+            <button className="lets_talking">LET’S TALK</button>
           </div>
           <div className="magento_back2 relative">
+            <div className="magentos">
+              <img src={sss1} alt="reactus" />
+            </div>
+            <img className="reactus" src={sss2} alt="magentos" />
+          </div>
+
+          {/* <div className="magento_back2 relative">
             <div className="magentos">
               <img className="reacting animate__animated animate__pulse animate__infinite" src={reactus} alt="reactus" />
             </div>
             <img className="reactus" src={magentos} alt="magentos" />
-          </div>
+          </div> */}
         </div>
-        <div className="magento_service">
+        {/* <div className="magento_service">
           <div className="magento_service1">
             <h2>
               Our <span>Magento</span> development <br /> services
@@ -150,7 +174,105 @@ const Magento = () => {
             </div>
             <img className="admis" src={admis} alt="admis" />
           </div>
+        </div> */}
+
+        {/* new_s*/}
+        <div className="magento_service">
+          <div className="magento_service1">
+            <h2>
+              <span>Magento</span> Development
+            </h2>
+            <p>
+              Magento provides you a bundle of features and extensions that are
+              flexible enough to be modulated according to your business layout
+              and needs. Altogether, you get to experiment with Magento and
+              develop a solution for your ecommerce needs. Magento helps in the
+              growth of new technologies and innovation and that’s what makes it
+              the most sought-after technology. Our development team integrates
+              a number of extensions like payment gateway, store management,
+              retail management and other store management related platforms
+              into one. Magento is one of the most sought after solutions when
+              it comes to content management system owing to its robust and SEO
+              friendly features along with customizable specifications and we
+              prove to be an efficient website development company.
+            </p>
+            <button className="newbtn">Let’s Get Started</button>
+          </div>
+          <div className="magento_service2">
+            <img className="admis" src={ss4} alt="admis" />
+          </div>
         </div>
+
+        <div className="megento_new">
+          <div className="megento_new1">
+            <h1>Our Magento Solutions</h1>
+          </div>
+          <div className="news_cards">
+          <div className="megento_new2">
+            <div className="megento_new3">
+              <img className="g1-img" src={g11} alt="" />
+              <h1>Magento Enterprise Edition</h1>
+              <p>
+                This is an expensive solution and is often used by large
+                enterprises for building their online stores. It comes with a
+                lot of technical assistance and ecommerce features.
+              </p>
+            </div>
+            <div className="megento_new3">
+              <img className="g1-img" src={g12} alt="" />
+              <h1> Magento Community Edition</h1>
+              <p>
+                This is a free version offered by Magento but is filled with a
+                lot of features that one can make use of to build an online
+                store
+              </p>
+            </div>
+            <div className="megento_new3">
+              <img className="g1-img" src={g13} alt="" />
+              <h1> Magento Extension Development</h1>
+              <p>
+                Our developers are pretty well versed with Magento development
+                services and that is why we provide the best services in terms
+                of Magento in the market.
+              </p>
+            </div>
+          </div>
+          <div className="megento_new4">
+            <div className="megento_new3">
+              <img className="g1-img" src={g14} alt="" />
+              <h1>Magento Theme Development</h1>
+              <p>
+                Because of first impression matters, hence choosing an appealing
+                theme for your website is indispensable. Thus, we at Bliss help
+                you choose and customize a theme for your website.
+              </p>
+            </div>
+            <div className="megento_new3">
+              <img className="g1-img" src={g15} alt="" />
+              <h1> Magento Customization</h1>
+              <p>
+                Once the theme is chosen, it is upon us to customize it
+                according to your requirements and make it look like it is
+                crafted just for you and your enterprise.
+              </p>
+            </div>
+            <div className="megento_new3">
+              <img className="g1-img" src={g16} alt="" />
+              <h1>Magento Commerce</h1>
+              <p>
+                With Magento, we serve you in developing the most dynamic and
+                flexible e-commerce website ever.
+              </p>
+            </div>
+          </div>
+           <div className="megento_new_ptn">
+           <button>Let’s Get Started</button>
+
+           </div>
+          </div>
+        </div>
+
+          {/* end */}
         <div className="magento_services">
           <div className="magento_services1">
             <img src={misad} alt="misad" />
@@ -188,7 +310,163 @@ const Magento = () => {
             </p>
           </div>
         </div>
+               {/* new.s */}
+                {/* <div className="todaynew">
+                  <div className="todaynew1 ">
+                       <h1>
+                       Magento Development Services
+                       </h1>
+                  </div>
+                  <div className="todaynew2">
+                    <div className="todaynew3">
+                      <h1>heelo</h1>
+                    </div>
+                    <div className="todaynew3">
+                    <h1>heelo</h1>
+                    </div>
+                    <div className="todaynew3">
+                    <h1>heelo</h1>
+                    </div>
+                  </div>
+                  <div className="todaynew4">
+                    <div className="todaynew3">
+                    <h1>heelo</h1>
+                    </div>
+                    <div className="todaynew3">
+                    <h1>heelo</h1>
+                    </div>
+                    <div className="todaynew3">
+                    <h1>heelo</h1>
+                    </div>
+                  </div>
 
+
+                </div> */}
+
+
+
+
+
+
+
+
+               <div className="php_portfolio">
+                    <div className="php_port">
+                        <h2 className="our_php">Why Choose<span>Kushel Digi Magento</span>  <br />
+Development Services?  </h2>
+                    </div>
+                 </div>
+
+        <div className="megento_old">
+       
+          <div className="old_cards">
+          <div className="megento_old2">
+            <div className="megento_old3">
+              <img className="n1-img" src={nn1} alt="" />
+              <h1>Expertise and experience</h1>
+              <p>
+              With nearly 10 years of experience, our
+dedicated developers have extensive
+knowledge of developing and customizing
+Magento extensions and solutions.
+              </p>
+            </div>
+            <div className="megento_old3">
+              <img className="n1-img" src={nn2} alt="" />
+              <h1>Customized solutions</h1>
+              <p>
+              Every business is unique. We develop
+customized Magento solutions to increase
+your efficiency, profitability, and
+customer satisfaction.
+              </p>
+            </div>
+            <div className="megento_old3">
+              <img className="n1-img" src={nn3} alt="" />
+              <h1> Comprehensive services</h1>
+              <p>
+              We offer a wide range of Magento
+development solutions, including
+Magento development & customization,
+Magento web development UK, US, etc.
+              </p>
+            </div>
+          </div>
+          <div className="megento_old4">
+            <div className="megento_old3">
+              <img className="n1-img" src={nn4} alt="" />
+              <h1>Quality and reliability</h1>
+              <p>
+              We’re committed to delivering high-
+quality, reliable solutions to clients. Our
+team follows Magento coding standards
+to ensure all solutions are robust,
+scalable, and secure.
+              </p>
+            </div>
+            <div className="megento_old3">
+              <img className="n1-img" src={nn5} alt="" />
+              <h1> Transparency and communication</h1>
+              <p>
+              We offer regular updates and progress
+reports to ensure you’re informed and
+involved throughout the Magento
+development process.
+              </p>
+            </div>
+            <div className="megento_old3">
+              <img className="n1-img" src={nn6} alt="" />
+              <h1>Security</h1>
+              <p>
+              Your website security is well protected by
+us - a professional Magento development
+agency. No data loss or hacker attacks to
+worry about.
+              </p>
+            </div>
+          </div>
+          <div className="megento_old5">
+
+            <div className="megento_old3">
+              <img className="n1-img" src={nn5} alt="" />
+              <h1>Quality assurance</h1>
+              <p>
+            We place a strong emphasis on quality
+assurance, using rigorous testing and
+quality control processes to ensure that
+all projects meet the highest standards.
+              </p>
+            </div>
+            <div className="megento_old3">
+              <img className="n1-img" src={nn6} alt="" />
+              <h1> Flexible pricing</h1>
+              <p>
+           Stop worrying about budget, because we
+have different Magento website
+development packages that suit your
+needs.
+              </p>
+            </div>
+            <div className="megento_old3">
+              <img className="n1-img" src={nn7} alt="" />
+              <h1>Dedicated support</h1>
+              <p>
+          Mageplaza is a dedicated USA Magento
+development company offering you 16
+hours/day support to ensure the best
+performance out of your store.
+              </p>
+            </div>
+          </div>
+          </div>
+        </div>
+
+
+
+
+
+
+{/* 
         <div className="magento_tech">
           <h2>Technologies We Work On</h2>
           <div className="magento_nav">
@@ -331,9 +609,9 @@ const Magento = () => {
               </div>
             </>
           )}
-        </div>
+        </div> */}
 
-        <div className="process_bigt">
+        {/* <div className="process_bigt">
           <h2>Process We Follow</h2>
           <div className="paperbox">
             <div
@@ -445,16 +723,20 @@ const Magento = () => {
               </h5>
             </div>
           </div>
-        </div>
-
+        </div> */}
+{/* 
         <div className="magento_sus">
           <div className="piloy">
             <img src={piloy} alt="piloy" />
           </div>
-        </div>
+        </div> */}
 
         {/* <CaseStudy /> */}
-
+        <div className="php_portfolio">
+                    <div className="php_port">
+                        <h2 className="our_php">Our <span>Megento</span>  Web Development <span>Portfolio</span> </h2>
+                    </div>
+                 </div>
         <div className="gting">
           <Splide
             className="w-full"
@@ -513,7 +795,6 @@ const Magento = () => {
               </div>
             </SplideSlide>
 
-
             <SplideSlide>
               <div className="kickta_big kickta_mag2">
                 <div className="kickta_big1 kickta_magst2">
@@ -536,8 +817,6 @@ const Magento = () => {
           </div> */}
               </div>
             </SplideSlide>
-
-
           </Splide>
         </div>
 
@@ -565,6 +844,24 @@ const Magento = () => {
             </div>
           </div>
         </div>
+           
+          {/* new_s  */}
+          <div className="main_section_ss">
+             <div className="section_ss">
+               <div  className="section_ss1">
+                 <img src={ss5} alt=""  className="section_ss1_img"/>
+               </div>
+               <div className="section_ss2">
+               <h1>Run your <br />
+                business efficiently <br />
+             with Magento</h1>
+                  <button>Let’s Connect</button>
+               </div>
+             </div>
+          </div>
+
+
+
 
         <ContactForm1 />
 
@@ -578,7 +875,8 @@ const Magento = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                      How many team members will you assign to my Magento project? Please define their roles.
+                      How many team members will you assign to my Magento
+                      project? Please define their roles.
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -593,7 +891,8 @@ const Magento = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                      Who will be my Point of Contact in case I hire Magento development services from Elsner Technologies Pvt. Ltd.?
+                      Who will be my Point of Contact in case I hire Magento
+                      development services from Elsner Technologies Pvt. Ltd.?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
@@ -607,7 +906,8 @@ const Magento = () => {
                 <AccordionItem>
                   <AccordionItemHeading>
                     <AccordionItemButton>
-                      Will we get the sole ownership of the source files once the project gets over?
+                      Will we get the sole ownership of the source files once
+                      the project gets over?
                     </AccordionItemButton>
                   </AccordionItemHeading>
                   <AccordionItemPanel>
