@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import arrow4 from "../images/arrow4.png";
-import shoph from "../images/shoph.png";
+// import arrow4 from "../images/arrow4.png";
 import imgast from "../images/imgast.png";
 import lyt from "../images/lyt.png";
 import appConfig from "../images/appConfig.png";
@@ -8,7 +7,7 @@ import appinstall from "../images/appinstall.png";
 import customMar from "../images/customMar.png";
 import customTheme from "../images/cutsomtheme.png";
 import thirdParty from "../images/thirdParty.png";
-import teen1 from "../images/teen1.png";
+// import teen1 from "../images/teen1.png";
 import teen2 from "../images/teen2.png";
 import teen3 from "../images/teen3.png";
 import teen4 from "../images/teen4.png";
@@ -29,8 +28,26 @@ import testiEllipse1 from "../images/tsetiEllipse1.png";
 import tinih from "../images/tinih.png";
 import skknt from '../images/skknt.png';
 import kiktas from '../images/kiktas.png';
+import hinghing from '../images/hingingh.png';
+import greenish from '../images/greenish.png';
 // import tilli from '../images/tilli.png';
-import skinniuy from '../images/skinniu.png'
+import skinniuy from '../images/skinniu.png';
+import laras1 from '../images/laras1.png';
+import laras2 from '../images/laras2.png';
+import laras3 from '../images/laras3.png';
+import laras4 from '../images/laras4.png';
+import ikk1 from '../images/icon-1.png';
+import ikk2 from '../images/icon-2.png';
+import ikk3 from '../images/icon-3.png';
+import ikk4 from '../images/icon-4.png';
+import ikk5 from '../images/icon-5.png';
+import ikk6 from '../images/icon-6.png';
+import ikk7 from '../images/icon-7.png';
+import ikk8 from '../images/icon-8.png';
+import ikk9 from '../images/icon-9.png';
+import ikk10 from '../images/icon-10.png';
+import ikk11 from '../images/icon-11.png';
+import ikk12 from '../images/icon-12.png';
 import {
   Accordion,
   AccordionItem,
@@ -49,7 +66,9 @@ import soin6 from "../images/6ax.png";
 import setui from "../images/setui.png";
 import ContactForm1 from "./common/ContactForm1";
 import nuting from '../images/nutig.png';
-import skyo from '../images/skyo.png'
+import skyo from '../images/skyo.png';
+import shopifu from '../images/shopfiu.png';
+import '../components/css/app5.css';
 const Shopify = () => {
   const [hovered, setHovered] = useState(false);
   const [hovered2, setHovered2] = useState(false);
@@ -69,13 +88,12 @@ const Shopify = () => {
               We provide high quality Shopify Development services to provide
               you best Ecommerce solution for your shopping cart.
             </p>
-            <button>
-              Consult our Shopify Team
-              <img width={13} className="ml-1.5 inline" src={arrow4} alt="" />
+            <button className="lets_talking">
+              LET’S TALK
             </button>
           </div>
           <div className="bigCommerce-back2 shopify-back2">
-            <img className="bigcompt" src={shoph} alt="androids" />
+            <img className="bigcompt" src={shopifu} alt="androids" />
           </div>
         </div>
 
@@ -119,21 +137,27 @@ const Shopify = () => {
               </p>
             </div>
           </div>
-          <div className="affordable-shopify2">
+          {/* <div className="affordable-shopify2">
             <img src={imgast} alt="imgast" />
+          </div> */}
+          <div className="magento_service2">
+            <div className="greenish1">
+              <img src={greenish} alt="greenish1" />
+            </div>
+            <img className="admis" src={hinghing} alt="admis" />
           </div>
         </div>
 
-        <div className="top-shopify">
+        {/* <div className="top-shopify">
           <h2>HOW TO HIRE TOP DEVELOPERS WITH KUSHEL DIGI SOLUTIONS?</h2>
           <p>
             Hire Top Class Developers on different basis as per your
             requirements and budget.
           </p>
           <button>Let’s Talk</button>
-        </div>
+        </div> */}
 
-        <div className="shopify-scalability">
+        {/* <div className="shopify-scalability">
           <div className="shopify-scalability1">
             <h2>
               Best <span>scalability</span> features for Shopify stores
@@ -300,10 +324,88 @@ const Shopify = () => {
           <div className="shopify-scalability2">
             <img src={lyt} alt="lyt" />
           </div>
+        </div> */}
+
+
+        <div className="why_chose_shopify">
+          <h2>Why choose our <span>Shopify</span>  development company</h2>
+          <p className="php_specializied">
+            Kushel Digi is a PHP-specialized software house with over 20 mid-to-senior PHP Developers. We are trusted by enterprises of all sizes to do just about anything your business needs to grow and create a reliable, secure, maintainable, and feature-ready application. Our experts solve many of the pain points you need to touch on when developing an app with PHP, from handling development lifecycle and design, to building, shipping releases as well as support and maintenance.
+          </p>
+          <div className="proffessional_shopify_cards">
+            <div className="proffessional_shopify_card">
+              <div className="proffessional_shopify_box">
+                <div className="team_box">
+                  <img src={laras1} alt="" />
+                  <div className="team_para">
+                    <h4>Professional team</h4>
+                    <hr />
+                    <p>
+                      Kushel Digi is a team with comprehensive expertise in
+                      building custom software for various platforms and
+                      domains. We treat every project with attention to
+                      technical details and help our clients achieve their
+                      business goals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="proffessional_shopify_box tr7">
+                <div className="team_box">
+                  <img src={laras2} alt="" />
+                  <div className="team_para">
+                    <h4>Considerable Shopify expertise</h4>
+                    <hr />
+                    <p>
+                      Over the years, we’ve gained considerable expertise in
+                      building custom web and mobile apps for the e-commerce
+                      industry, headless development, and development with major
+                      platforms like BigCommerce, Magento, and all kinds of
+                      Shopify apps: public and custom.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="proffessional_shopify_card">
+              <div className="proffessional_shopify_box">
+                <div className="team_box">
+                  <img className="teen3" src={laras3} alt="" />
+                  <div className="team_para">
+                    <h4>Business-focused mindset</h4>
+                    <hr />
+                    <p>
+                      Our clients are our source of gaining unique expertise,
+                      new skills, and inspiration to move forward. Working on
+                      new projects, we foster collaboration with customers to
+                      help them improve their business strategies and achieve
+                      their business goals.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="proffessional_shopify_box tr7">
+                <div className="team_box">
+                  <img src={laras4} alt="" />
+                  <div className="team_para">
+                    <h4>Focus on end users</h4>
+                    <hr />
+                    <p>
+                      We strive to build projects that bring value not only to
+                      their creators but to end users as well. To build projects
+                      with high impact, we precisely analyze the target audience
+                      and their needs, conduct user research, and run various
+                      hypotheses to find valuable insights.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="paper2">
-          <h2>Our Shopify App Development Services</h2>
+          <h2>Our <span>Shopify</span>  App Development Services</h2>
           <p className="shop_top">
             Shopify apps connect third-party tools and processes to your
             ecommerce store, allowing you to complete a task or increase your
@@ -416,102 +518,232 @@ const Shopify = () => {
           </div>
         </div>
 
-        <div className="why_chose_shopify">
-          <h2>Why choose our Shopify development company</h2>
-          <div className="proffessional_shopify_cards">
-            <div className="proffessional_shopify_card">
-              <div className="proffessional_shopify_box">
-                <div className="team_box">
-                  <img src={teen2} alt="" />
-                  <div className="team_para">
-                    <h4>Professional team</h4>
-                    <p>
-                      Kushel Digi is a team with comprehensive expertise in
-                      building custom software for various platforms and
-                      domains. We treat every project with attention to
-                      technical details and help our clients achieve their
-                      business goals.
-                    </p>
+
+        <div className="main-box">
+          <div className="box111">
+            <h1 className="heading-1">
+              Key Benefits Of <samp className="blue">Shopify </samp> Development
+            </h1>
+          </div>
+          <div className="box-2">
+            <div className="content">
+              <div className="content-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2"> SIMPLE AND EASY INSTALLATION</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk1} alt="" className="icon1" />
+                    </div>
                   </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Incredibly easy to use and configure, even for a non-technical
+                    person.
+                  </p>
                 </div>
               </div>
-              <div className="proffessional_shopify_box tr7">
-                <div className="team_box">
-                  <img src={teen1} alt="" />
-                  <div className="team_para">
-                    <h4>Considerable Shopify expertise</h4>
-                    <p>
-                      Over the years, we’ve gained considerable expertise in
-                      building custom web and mobile apps for the e-commerce
-                      industry, headless development, and development with major
-                      platforms like BigCommerce, Magento, and all kinds of
-                      Shopify apps: public and custom.
-                    </p>
+              <div className="content-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2"> HOSTED SERVER</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk2} alt="" className="icon2" />
+                    </div>
                   </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Shopify provides a secure &amp; affordable Hosted server for your
+                    eCommerce store, making it easy to manage business.
+                  </p>
+                </div>
+              </div>
+              <div className="content-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2">
+                        {" "}
+                        ATTRACTIVE &amp; MOBILE FRIENDLY UI
+                      </h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk3} alt="" className="icon3" />
+                    </div>
+                  </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Shopify provides a secure &amp; affordable Hosted server for your
+                    eCommerce store, making it easy to manage business.
+                  </p>
+                </div>
+              </div>
+              <div className="content-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2"> RICH-FEATURED</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk4} alt="" className="icon4" />
+                    </div>
+                  </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Boost your sales success and increase your company's productivity.
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="proffessional_shopify_card">
-              <div className="proffessional_shopify_box">
-                <div className="team_box">
-                  <img className="teen3" src={teen3} alt="" />
-                  <div className="team_para">
-                    <h4>Business-focused mindset</h4>
-                    <p>
-                      Our clients are our source of gaining unique expertise,
-                      new skills, and inspiration to move forward. Working on
-                      new projects, we foster collaboration with customers to
-                      help them improve their business strategies and achieve
-                      their business goals.
-                    </p>
+          </div>
+          <div className="box-3">
+            <div className="content-2">
+              <div className="content-2-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2"> EASY NAVIGATION</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk5} alt="" className="icon5" />
+                    </div>
                   </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Provides easy navigation to keep your potential users interested.
+                  </p>
                 </div>
               </div>
-              <div className="proffessional_shopify_box tr7">
-                <div className="team_box">
-                  <img src={teen4} alt="" />
-                  <div className="team_para">
-                    <h4>Focus on end users</h4>
-                    <p>
-                      We strive to build projects that bring value not only to
-                      their creators but to end users as well. To build projects
-                      with high impact, we precisely analyze the target audience
-                      and their needs, conduct user research, and run various
-                      hypotheses to find valuable insights.
-                    </p>
+              <div className="content-2-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2"> MULTI-STORE FACILITIES</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk6} alt="" className="icon6" />
+                    </div>
                   </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Manages multiple storefronts for various brands from a single place.
+                  </p>
+                </div>
+              </div>
+              <div className="content-2-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2"> SHOPIFY APPS</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk7} alt="" className="icon7" />
+                    </div>
+                  </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Shopify Apps Store has 4,000+ certified apps making it easier to
+                    customize your store.
+                  </p>
+                </div>
+              </div>
+              <div className="content-2-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2">SECURED ADMIN PANEL</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk8} alt="" className="icon8" />
+                    </div>
+                  </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Implements well-established security standards and safety factors.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="box-4">
+            <div className="content-3">
+              <div className="content-3-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2">VARIED PRODUCTS CATALOGS</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk9} alt="" className="icon9" />
+                    </div>
+                  </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Makes it easy to manage a variety of product catalogs.
+                  </p>
+                </div>
+              </div>
+              <div className="content-3-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2">THIRD-PARTY INTEGRATION</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk10} alt="" className="icon10" />
+                    </div>
+                  </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Expands the scope of custom integrations available to an online
+                    business.
+                  </p>
+                </div>
+              </div>
+              <div className="content-3-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2">SEO-FRIENDLY</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk11} alt="" className="icon11" />
+                    </div>
+                  </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    Better SEO functionality and execution to draw more traffic.
+                  </p>
+                </div>
+              </div>
+              <div className="content-3-1">
+                <div className="inner-box">
+                  <div className="inner-box-1">
+                    <div className="box-content-1">
+                      <h1 className="heading-2">API INTEGRATION</h1>
+                    </div>
+                    <div className="box-content-2">
+                      <img src={ikk12} alt="" className="icon12" />
+                    </div>
+                  </div>
+                  <hr className="hr-1" />
+                  <p className="pra-1">
+                    API framework allows you to integrate web services and Third-party
+                    CRM, ERP &amp; POS systems.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="shopify_benifits">
-          <h2>Benefits of Custom Shopify Application Development</h2>
-          <div className="shopify_benifits_card">
-            <div className="shopify_benifits_box">
-              <img src={toning1} alt="tomning" />
-              <h4>Feature-Rich App</h4>
-            </div>
-            <div className="shopify_benifits_box">
-              <img src={toning2} alt="tomning" />
-              <h4>Workflow Management</h4>
-            </div>
-            <div className="shopify_benifits_box">
-              <img className="toning3" src={toning3} alt="tomning" />
-              <h4>
-                Higher Conversation <br /> Rates
-              </h4>
-            </div>
-            <div className="shopify_benifits_box">
-              <img className="toning4" src={toning4} alt="tomning" />
-              <h4>
-                Security And <br /> Reliability
-              </h4>
-            </div>
-          </div>
-          <button>Develop A Shopify App</button>
-        </div>
+
+
+
+       
 
         <div className="gting">
           <Splide
@@ -615,8 +847,36 @@ const Shopify = () => {
           </div> */}
               </div>
             </SplideSlide>
-          
+
           </Splide>
+        </div>
+
+
+        <div className="shopify_benifits">
+          <h2>Benefits of Custom Shopify Application Development</h2>
+          <div className="shopify_benifits_card">
+            <div className="shopify_benifits_box">
+              <img src={toning1} alt="tomning" />
+              <h4>Feature-Rich App</h4>
+            </div>
+            <div className="shopify_benifits_box">
+              <img src={toning2} alt="tomning" />
+              <h4>Workflow Management</h4>
+            </div>
+            <div className="shopify_benifits_box">
+              <img className="toning3" src={toning3} alt="tomning" />
+              <h4>
+                Higher Conversation <br /> Rates
+              </h4>
+            </div>
+            <div className="shopify_benifits_box">
+              <img className="toning4" src={toning4} alt="tomning" />
+              <h4>
+                Security And <br /> Reliability
+              </h4>
+            </div>
+          </div>
+          <button>Develop A Shopify App</button>
         </div>
 
         <div className="shopify-work">
@@ -670,7 +930,7 @@ const Shopify = () => {
           </div>
         </div>
 
-        <div className="work_speaks">
+        {/* <div className="work_speaks">
           <h2 className="testi_p">Our Work Speaks</h2>
           <p className="testi_s">
             Our Work Speaks Kushel Digi provide top notch Web and Mobile App
@@ -706,9 +966,9 @@ const Shopify = () => {
               <img src={singlr} alt="singlr" />
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="about_treating">
+        {/* <div className="about_treating">
           <div className="about_website">
             <div className="about-website1">
               <div className="cirles">
@@ -743,8 +1003,8 @@ const Shopify = () => {
           <div className="abouse_btn">
             <button>Show More</button>
           </div>
-        </div>
-        <div className="client_testimonials">
+        </div> */}
+        {/* <div className="client_testimonials">
           <h2>Client Testimonials</h2>
           <p className="words_ji">
             Words that describe our quality and keep us motivated...
@@ -825,7 +1085,7 @@ const Shopify = () => {
               </div>
             </SplideSlide>
           </Splide>
-        </div>
+        </div> */}
         <ContactForm1 />
         <div className="home9 home967  home278">
           <div className="home91 flex px-24">

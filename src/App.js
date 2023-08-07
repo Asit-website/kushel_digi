@@ -60,6 +60,7 @@ import HireNodeJs from "./components/HireNodeJs";
 import ReactJsHire from "./components/ReactJsHire";
 import LaravelHire from "./components/LaravelHire";
 import HireWordpress from "./components/HireWordpress";
+import HowWork from "./components/HowWork";
 
 function App() {
   return (
@@ -132,6 +133,8 @@ function App() {
             <Route path="/reactHire" element={<ReactJsHire/>}/>
             <Route path="/laravelHire" element={<LaravelHire/>}/>
             <Route path="/wordpressHire" element={<HireWordpress/>}/>
+
+            <Route path="/howWork" element={<HowWork/>}/>
           </Routes>
           <Footer />
         </Router>

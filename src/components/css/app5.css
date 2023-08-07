@@ -1,0 +1,330 @@
+.blue{
+    color: #1265FF;
+    font-family: Proxima Nova;
+    font-size: 32px;
+   
+}
+.main-box{
+    padding-bottom: 100px;
+    padding-top: 40px;
+}
+.box{
+    text-align: center;
+    padding: 100px;
+    width: auto !important;
+    background: none !important;
+    height: auto !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    cursor: initial !important;
+}
+.box:hover{
+    background: none !important;
+}
+.box1111 h1{
+    text-align: center;
+}
+.heading-1{
+    color: #33475B;
+    font-family: Proxima Nova;
+    font-size: 32px;
+    text-align: center;
+}
+.box-2{
+    padding: 0px 100px;
+    margin-top: 50px;
+}
+.content{
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   padding: 0px 0px;
+}
+.content-1{
+    border-radius: 9px;
+    border: 1px solid #33475B;
+    width: 250px;
+    height: 247px;
+    margin: 0px 40px;
+}
+.icon1:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+.icon2:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+.icon3:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+.icon4:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+.icon5:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+.icon6:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+.icon7:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+.icon8:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+.icon9:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+.icon10:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+.icon11:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+
+
+.icon12:hover{
+    animation-name: a1;
+animation-duration: 1s;
+animation-iteration-count: 1;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+   
+}
+ @keyframes a1{
+    50%{
+        transform: rotate(100deg);
+    }
+ }
+.box-3{
+    padding: 50px 100px;
+}
+.content-2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.content-2-1{
+    border-radius: 9px;
+    border: 1px solid #33475B;
+    /* opacity: 0.5; */
+    width: 250px;
+    height: 247px;
+    margin: 0px 40px;
+}
+
+.box-4{
+    padding: 0px 100px;
+}
+.content-3{
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+}
+.content-3-1{
+    border-radius: 9px;
+    border: 1px solid #33475B;
+    /* opacity: 0.5; */
+    width: 250px;
+    height: 247px;
+    margin: 0px 40px;
+}
+.inner-box{
+    padding: 15px;
+    padding-top: 30px;
+}
+.inner-box-1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.hr-1{
+    width: 48px;
+    border-color: #0039FF;
+    margin-top: 5px;
+
+}
+.pra-1{
+    color: #33475B;
+    font-family: Proxima Nova;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+
+}
+.heading-2{
+    color: #33475B;
+    font-family: Proxima Nova;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+.icon1{
+    width: 30px;
+animation-name: an1;
+animation-duration: 2s;
+animation-iteration-count: 4;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+}
+.icon2{
+    width: 30px;
+animation-name: an1;
+animation-duration: 2s;
+animation-iteration-count: 4;
+animation-fill-mode: forwards; 
+animation-timing-function: ease-in-out;
+}
+.icon3{
+    width: 30px;
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+    }
+.icon4{
+    width: 30px;
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+    }
+.icon5{
+    width: 30px;
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+    }
+.icon6{
+    width: 30px;
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+    }
+.icon7{
+    width: 30px;
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+    }
+.icon8{
+    width: 30px;
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+    }
+.icon9{
+    width: 30px;
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+    }
+.icon10{
+    width: 30px;
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+    }
+.icon11{
+    width: 30px;
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+    }    
+.icon12{
+    width: 30px;
+    animation-name: an1;
+    animation-duration: 2s;
+    animation-iteration-count: 4;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes  an1{
+        50%{
+            transform: rotate(100deg);
+        }
+    } 

@@ -1,0 +1,153 @@
+* {
+    font-family: "Manrope", sans-serif !important;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+    align-items: center;
+}
+
+.content-1 {
+    /* margin-right: 126px; */
+}
+
+.con {
+    position: absolute;
+    width: fit-content;
+    top: 0px;
+    bottom: 0px;
+    z-index: 1;
+    right: -10px;
+}
+
+.hr111 {
+    font-family: Proxima Nova;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    color: #33475B;
+    line-height: 46px;
+}
+
+.pr1 {
+    font-family: Proxima Nova;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 15px;
+    width: 40em;
+    max-width: 100%;
+    color: #33475B;
+    line-height: 30px;
+}
+
+.pr2 {
+    font-family: Proxima Nova;
+    font-size: 19px;
+    font-style: normal;
+    line-height: 30px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 23px;
+    width: 40em;
+    max-width: 100%;
+    color: #33475B;
+}
+
+.img {
+    max-width: 420px;
+    width: 100%;
+    z-index: 4;
+    position: relative;
+    top: 9px;
+}
+
+.img-2 {
+    max-width: 310px;
+    width: 100%;
+}
+
+.content-2 {
+    position: relative;
+}
+
+.hr2 {
+    font-family: Proxima Nova;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.pr3 {
+    font-family: Proxima Nova;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 15px;
+    color: #33475B;
+    width: 32em;
+    max-width: 100%;
+}
+
+.contanier-1 {
+    padding: 60px 100px;
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    padding: 47px;
+}
+
+.hr3 {
+    font-family: Proxima Nova;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+}
+
+.icon1 {
+    width: 75px;
+
+}
+
+.icon2 {
+    width: 75px;
+
+}
+
+.content-1-1 {
+    display: flex;
+    justify-content: center;
+    /* margin-right: 25px; */
+    width: 100%;
+}
+
+.content-1-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-2-1 {
+    display: flex;
+    justify-content: center;
+    /* margin-right: -10px; */
+    width: 100%;
+}
+
+.content-2-2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hee {
+    margin-left: 14px;
+}

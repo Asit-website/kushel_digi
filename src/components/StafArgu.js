@@ -7,6 +7,13 @@ import pro from "../images/process.png";
 import check from "../images/check.png";
 import market from '../images/market.png';
 import arrow1 from '../images/arrow1.png';
+import backImg from '../images/back-img.png';
+import sideImg from '../images/side-img.png';
+import '../components/css/app4.css';
+import ik1 from '../images/ik1.png';
+import ik2 from '../images/ik2.png';
+import ik3 from '../images/ik3.png';
+import ik4 from '../images/ik4.png';
 import {
   Accordion,
   AccordionItem,
@@ -91,7 +98,93 @@ const StafArgu = () => {
         </div>
       </div>
 
-      <div className="benifits">
+      <div className="main-contanier">
+  <div className="contanier">
+    <div className="content">
+      <div className="content-1">
+        <h1 className="hr111">What is staff augmentation?</h1>
+        <p className="pr1">
+          Staff augmentation is the process of adding talent to your existing
+          team through a third party. This could be anything from 10 engineers
+          joining 10 different teams, to a single developer with niche
+          expertise.
+        </p>
+        <p className="pr2">
+          Staff augmentation removes the overhead associated with sourcing,
+          recruiting, training and retaining talent. It can help you meet short
+          and long term technology goals with added flexibility and instant
+          access to a high-quality talent pool.
+        </p>
+      </div>
+      <div className="content-2">
+        <div className="con">
+          <img src={backImg} alt="" className="img-2" />
+        </div>
+        <img src={sideImg} alt="" className="img" />
+      </div>
+    </div>
+  </div>
+  <div className="contanier-1">
+    <h1 className="hr3">Benefits of staff augmentation</h1>
+    <div className="content1">
+      <div className="content-1-1">
+        <div>
+          <img src={ik1} alt="" className="icon1" />
+        </div>
+        <div className="hee">
+          <h1 className="hr2">Streamline communications</h1>
+          <p className="pr3">
+            Our developers align with your work hours, provide and listen to
+            feedback, and have exceptional communication skills.
+          </p>
+        </div>
+      </div>
+      <div className="content-1-2">
+        <div>
+          {" "}
+          <img src={ik2} alt="" className="icon2" />
+        </div>
+        <div className="hee">
+          <h1 className="hr2">Create healthy teams</h1>
+          <p className="pr3">
+            We grill developers on their soft and behavioral skills to ensure
+            seamless integration and positive culture-fit alignment.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div className="content1">
+      <div className="content-2-1">
+        <div>
+          <img src={ik3} alt="" className="icon1" />
+        </div>
+        <div className="hee">
+          <h1 className="hr2">Skip recruitment delays</h1>
+          <p className="pr3">
+            Hiring the right talent is time-consuming. We assemble the right
+            team of experts and onboard them in record time.
+          </p>
+        </div>
+      </div>
+      <div className="content-2-2">
+        <div>
+          {" "}
+          <img src={ik4} alt="" className="icon2" />
+        </div>
+        <div className="hee">
+          <h1 className="hr2">Access high-quality, pre-vetted talent</h1>
+          <p className="pr3">
+            We’ve already done the rigorous testing for technical, logical, and
+            soft-skill abilities so you don’t have to.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      {/* <div className="benifits">
         <div className="benifits1">
           <h2>
             BENEFITS
@@ -133,12 +226,12 @@ const StafArgu = () => {
 
 
       <div className="staff-process">
-        {/* <h3 className="aug">STAFF AUGMENTATION</h3> */}
+        <h3 className="aug">STAFF AUGMENTATION</h3>
         <h2 className="pro">THE PROCESS</h2>
         <div className="process-img">
           <img src={pro} alt="process" />
         </div>
-      </div>
+      </div> */}
 
       
       {/* <div className="staff-service">

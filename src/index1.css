@@ -41,7 +41,7 @@
   cursor: pointer;
 }
 .box:hover {
-  background-color: #085881;
+  background-color: #1265FF;
 }
 .box:hover .sard h3 {
   color: #ffffff;
