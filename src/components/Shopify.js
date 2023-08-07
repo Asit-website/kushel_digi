@@ -112,7 +112,7 @@ const Shopify = () => {
               Technology, we always follow the best coding standards to come up
               with a secure and responsive Shopify-based eCommerce Website.
             </p>
-            <div className="goal-shopify">
+            {/* <div className="goal-shopify">
               <p>
                 Discuss your goals with us{" "}
                 <svg
@@ -135,7 +135,7 @@ const Shopify = () => {
                   </defs>
                 </svg>{" "}
               </p>
-            </div>
+            </div> */}
           </div>
           {/* <div className="affordable-shopify2">
             <img src={imgast} alt="imgast" />
