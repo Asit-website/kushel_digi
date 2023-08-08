@@ -324,7 +324,7 @@ const Magento = () => {
           <div className="server_merging">
           <div className="server_mergs">
             <div className="server_meg">
-              <img src={poli1} alt="" />
+              <img src={poli1} alt=""  className="p22"/>
               <h3>Consulting</h3>
               <p>Our consulting services go integrally
                 with the development policies at
@@ -335,67 +335,63 @@ const Magento = () => {
                 transformation and design of your
                 business site.</p>
             </div>
-            <div className="server_meg">
-              <img src={poli2} alt="" />
+            <div className="server_meg_2">
+              <img src={poli2} alt=""  className="p22" />
               <h3>Customization</h3>
-              <p>Our consulting services go integrally
-                with the development policies at
-                Atharva. We provide this as a
-                standalone service and with our
-                development team. You get the best
-                Magento assistance with the
-                transformation and design of your
-                business site.</p>
+              <p>We work on different levels to shape
+superior business solutions that will
+help our clients to win the market. As
+per your business needs, we deliver
+extensions and themes at cost-
+effective prices. Our team configures
+out-of-the-box Magento services with
+trusted third-party plugins.</p>
             </div>
-            <div className="server_meg">
-              <img src={poli3} alt="" />
+            <div className="server_meg_3">
+              <img src={poli3} alt=""  className="p22"/>
               <h3>UX And UI Design</h3>
-              <p>Our consulting services go integrally
-                with the development policies at
-                Atharva. We provide this as a
-                standalone service and with our
-                development team. You get the best
-                Magento assistance with the
-                transformation and design of your
-                business site.</p>
+              <p>In any business, the most effective
+customer-facing component is its
+website and it is responsible for the
+conversions and business revenue.
+We apply the best practices to
+building a meaningful user
+experience for better brand visibility.</p>
             </div>
           </div>
           <div className="server_mergs">
-            <div className="server_meg">
-              <img src={poli4} alt="" />
+            <div className="server_meg_4">
+              <img src={poli4} alt=""  className="p22" />
               <h3>PWA Development</h3>
-              <p>Our consulting services go integrally
-                with the development policies at
-                Atharva. We provide this as a
-                standalone service and with our
-                development team. You get the best
-                Magento assistance with the
-                transformation and design of your
-                business site.</p>
+              <p>We create superior PWA solutions for
+the Magento websites of our clients.
+PWAs are more profitable for your
+businesses. You can reach out with a
+superior eCommerce website and
+these opportunities are opened up by
+Magento PWA.</p>
             </div>
-            <div className="server_meg">
-              <img src={poli5} alt="" />
+            <div className="server_meg_5">
+              <img src={poli5} alt=""  className="p22" />
               <h3>Migration</h3>
-              <p>Our consulting services go integrally
-                with the development policies at
-                Atharva. We provide this as a
-                standalone service and with our
-                development team. You get the best
-                Magento assistance with the
-                transformation and design of your
-                business site.</p>
+              <p>As our developers help you to migrate
+to a new version from the earlier
+Magento releases or even to another
+e-commerce platform, we help you to
+transfer data and do much more. We
+help to deliver a better version post-
+migration.</p>
             </div>
-            <div className="server_meg">
-              <img src={poli6} alt="" />
+            <div className="server_meg_6">
+              <img src={poli6} alt=""  className="p22" />
               <h3>Integration</h3>
-              <p>Our consulting services go integrally
-                with the development policies at
-                Atharva. We provide this as a
-                standalone service and with our
-                development team. You get the best
-                Magento assistance with the
-                transformation and design of your
-                business site.</p>
+              <p>Our team effectively automates the
+back-office processes with
+integration into the IT infrastructure.
+We create integration solutions with
+external APIs and our team helps to
+map the data flow to eradicate the
+manual data entry.</p>
             </div>
           </div>
           </div>
