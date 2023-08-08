@@ -12231,6 +12231,7 @@ video {
   background-color: #002840;
   padding: 60px 100px;
   position: relative;
+  padding-bottom: 95px;
 }
 
 .dedicated_dreams h3 {
@@ -12241,7 +12242,7 @@ video {
 }
 
 .dedicated1 {
-  background-color: #007ac1;
+  background-color: #F36324 !important;
 }
 
 .dedicated_dreams1 {
@@ -12283,22 +12284,22 @@ video {
 
 .dedicated_content2 p {
   color: #ffffff;
-  font-weight: 500;
-  font-size: 13.5px;
-  max-width: 30em;
+  font-weight: 400;
+  font-size: 18px;
+  max-width: 25em;
   width: 100%;
-  line-height: 24px;
+  line-height: 30px;
 }
 
 .dedicated1 {
-  max-width: 470px;
+  max-width: 545px;
   width: 100%;
   background-color: #007ac1;
-  height: 140px;
+  height: 135px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 20px;
+  border-radius: 15px;
   position: absolute;
   top: -18%;
 }
@@ -12312,13 +12313,13 @@ video {
 .dedicated2 {
   max-width: 300px;
   width: 100%;
-  height: 42px;
-  background-color: #ff7700;
+  height: 45px;
+  background-color: #1265FF;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-radius: 30px;
+  border-radius: 5px;
   position: absolute;
   bottom: -5%;
 }
@@ -16861,8 +16862,7 @@ video {
   display: flex;
   justify-content: space-between;
   padding: 60px 100px;
-
-
+  align-items: center;
 }
 #hello .content1{
   display: initial !important;
@@ -16900,7 +16900,7 @@ video {
   align-items: center;
   width: auto;
   height: auto;
-  border: no;
+  border: none !important;
 }
 #hello .second{
   background-color: #F8F8F8;
@@ -16975,6 +16975,7 @@ video {
   padding-left: 100px;
   padding-bottom: 60px;
   text-align: center;
+  display: block;
 }
 #add .heading-3{
   color: #33475B;
