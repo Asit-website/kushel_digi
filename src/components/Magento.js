@@ -50,6 +50,12 @@ import wrappet from "../images/wrappert.png";
 // import CaseStudy from "./common/CaseStudy";
 import sigmat from "../images/sigmat.png";
 import ghiradel from "../images/ghiradel.png";
+import poli1 from '../images/poli1.png';
+import poli2 from '../images/poli2.png';
+import poli3 from '../images/poli3.png';
+import poli4 from '../images/poli4.png';
+import poli5 from '../images/poli5.png';
+import poli6 from '../images/poli6.png';
 import {
   Accordion,
   AccordionItem,
@@ -208,71 +214,71 @@ const Magento = () => {
             <h1>Our Magento Solutions</h1>
           </div>
           <div className="news_cards">
-          <div className="megento_new2">
-            <div className="megento_new3">
-              <img className="g1-img" src={g11} alt="" />
-              <h1>Magento Enterprise Edition</h1>
-              <p>
-                This is an expensive solution and is often used by large
-                enterprises for building their online stores. It comes with a
-                lot of technical assistance and ecommerce features.
-              </p>
+            <div className="megento_new2">
+              <div className="megento_new3">
+                <img className="g1-img" src={g11} alt="" />
+                <h1>Magento Enterprise Edition</h1>
+                <p>
+                  This is an expensive solution and is often used by large
+                  enterprises for building their online stores. It comes with a
+                  lot of technical assistance and ecommerce features.
+                </p>
+              </div>
+              <div className="megento_new3">
+                <img className="g1-img" src={g12} alt="" />
+                <h1> Magento Community Edition</h1>
+                <p>
+                  This is a free version offered by Magento but is filled with a
+                  lot of features that one can make use of to build an online
+                  store
+                </p>
+              </div>
+              <div className="megento_new3">
+                <img className="g1-img" src={g13} alt="" />
+                <h1> Magento Extension Development</h1>
+                <p>
+                  Our developers are pretty well versed with Magento development
+                  services and that is why we provide the best services in terms
+                  of Magento in the market.
+                </p>
+              </div>
             </div>
-            <div className="megento_new3">
-              <img className="g1-img" src={g12} alt="" />
-              <h1> Magento Community Edition</h1>
-              <p>
-                This is a free version offered by Magento but is filled with a
-                lot of features that one can make use of to build an online
-                store
-              </p>
+            <div className="megento_new4">
+              <div className="megento_new3">
+                <img className="g1-img" src={g14} alt="" />
+                <h1>Magento Theme Development</h1>
+                <p>
+                  Because of first impression matters, hence choosing an appealing
+                  theme for your website is indispensable. Thus, we at Bliss help
+                  you choose and customize a theme for your website.
+                </p>
+              </div>
+              <div className="megento_new3">
+                <img className="g1-img" src={g15} alt="" />
+                <h1> Magento Customization</h1>
+                <p>
+                  Once the theme is chosen, it is upon us to customize it
+                  according to your requirements and make it look like it is
+                  crafted just for you and your enterprise.
+                </p>
+              </div>
+              <div className="megento_new3">
+                <img className="g1-img" src={g16} alt="" />
+                <h1>Magento Commerce</h1>
+                <p>
+                  With Magento, we serve you in developing the most dynamic and
+                  flexible e-commerce website ever.
+                </p>
+              </div>
             </div>
-            <div className="megento_new3">
-              <img className="g1-img" src={g13} alt="" />
-              <h1> Magento Extension Development</h1>
-              <p>
-                Our developers are pretty well versed with Magento development
-                services and that is why we provide the best services in terms
-                of Magento in the market.
-              </p>
-            </div>
-          </div>
-          <div className="megento_new4">
-            <div className="megento_new3">
-              <img className="g1-img" src={g14} alt="" />
-              <h1>Magento Theme Development</h1>
-              <p>
-                Because of first impression matters, hence choosing an appealing
-                theme for your website is indispensable. Thus, we at Bliss help
-                you choose and customize a theme for your website.
-              </p>
-            </div>
-            <div className="megento_new3">
-              <img className="g1-img" src={g15} alt="" />
-              <h1> Magento Customization</h1>
-              <p>
-                Once the theme is chosen, it is upon us to customize it
-                according to your requirements and make it look like it is
-                crafted just for you and your enterprise.
-              </p>
-            </div>
-            <div className="megento_new3">
-              <img className="g1-img" src={g16} alt="" />
-              <h1>Magento Commerce</h1>
-              <p>
-                With Magento, we serve you in developing the most dynamic and
-                flexible e-commerce website ever.
-              </p>
-            </div>
-          </div>
-           <div className="megento_new_ptn">
-           <button>Let’s Get Started</button>
+            <div className="megento_new_ptn">
+              <button>Let’s Get Started</button>
 
-           </div>
+            </div>
           </div>
         </div>
 
-          {/* end */}
+        {/* end */}
         <div className="magento_services">
           <div className="magento_services1">
             <img src={misad} alt="misad" />
@@ -310,154 +316,199 @@ const Magento = () => {
             </p>
           </div>
         </div>
-               {/* new.s */}
-                {/* <div className="todaynew">
-                  <div className="todaynew1 ">
-                       <h1>
-                       Magento Development Services
-                       </h1>
-                  </div>
-                  <div className="todaynew2">
-                    <div className="todaynew3">
-                      <h1>heelo</h1>
-                    </div>
-                    <div className="todaynew3">
-                    <h1>heelo</h1>
-                    </div>
-                    <div className="todaynew3">
-                    <h1>heelo</h1>
-                    </div>
-                  </div>
-                  <div className="todaynew4">
-                    <div className="todaynew3">
-                    <h1>heelo</h1>
-                    </div>
-                    <div className="todaynew3">
-                    <h1>heelo</h1>
-                    </div>
-                    <div className="todaynew3">
-                    <h1>heelo</h1>
-                    </div>
-                  </div>
+        {/* new.s */}
 
 
-                </div> */}
+        <div className="server_megy">
+          <h1>Magento Development Services</h1>
+          <div className="server_merging">
+          <div className="server_mergs">
+            <div className="server_meg">
+              <img src={poli1} alt="" />
+              <h3>Consulting</h3>
+              <p>Our consulting services go integrally
+                with the development policies at
+                Atharva. We provide this as a
+                standalone service and with our
+                development team. You get the best
+                Magento assistance with the
+                transformation and design of your
+                business site.</p>
+            </div>
+            <div className="server_meg">
+              <img src={poli2} alt="" />
+              <h3>Customization</h3>
+              <p>Our consulting services go integrally
+                with the development policies at
+                Atharva. We provide this as a
+                standalone service and with our
+                development team. You get the best
+                Magento assistance with the
+                transformation and design of your
+                business site.</p>
+            </div>
+            <div className="server_meg">
+              <img src={poli3} alt="" />
+              <h3>UX And UI Design</h3>
+              <p>Our consulting services go integrally
+                with the development policies at
+                Atharva. We provide this as a
+                standalone service and with our
+                development team. You get the best
+                Magento assistance with the
+                transformation and design of your
+                business site.</p>
+            </div>
+          </div>
+          <div className="server_mergs">
+            <div className="server_meg">
+              <img src={poli4} alt="" />
+              <h3>PWA Development</h3>
+              <p>Our consulting services go integrally
+                with the development policies at
+                Atharva. We provide this as a
+                standalone service and with our
+                development team. You get the best
+                Magento assistance with the
+                transformation and design of your
+                business site.</p>
+            </div>
+            <div className="server_meg">
+              <img src={poli5} alt="" />
+              <h3>Migration</h3>
+              <p>Our consulting services go integrally
+                with the development policies at
+                Atharva. We provide this as a
+                standalone service and with our
+                development team. You get the best
+                Magento assistance with the
+                transformation and design of your
+                business site.</p>
+            </div>
+            <div className="server_meg">
+              <img src={poli6} alt="" />
+              <h3>Integration</h3>
+              <p>Our consulting services go integrally
+                with the development policies at
+                Atharva. We provide this as a
+                standalone service and with our
+                development team. You get the best
+                Magento assistance with the
+                transformation and design of your
+                business site.</p>
+            </div>
+          </div>
+          </div>
+        </div>
 
-
-
-
-
-
-
-
-               <div className="php_portfolio">
-                    <div className="php_port">
-                        <h2 className="our_php">Why Choose<span>Kushel Digi Magento</span>  <br />
-Development Services?  </h2>
-                    </div>
-                 </div>
+        <div className="php_portfolio">
+          <div className="php_port">
+            <h2 className="our_php">Why Choose<span>Kushel Digi Magento</span>  <br />
+              Development Services?  </h2>
+          </div>
+        </div>
 
         <div className="megento_old">
-       
-          <div className="old_cards">
-          <div className="megento_old2">
-            <div className="megento_old3">
-              <img className="n1-img" src={nn1} alt="" />
-              <h1>Expertise and experience</h1>
-              <p>
-              With nearly 10 years of experience, our
-dedicated developers have extensive
-knowledge of developing and customizing
-Magento extensions and solutions.
-              </p>
-            </div>
-            <div className="megento_old3">
-              <img className="n1-img" src={nn2} alt="" />
-              <h1>Customized solutions</h1>
-              <p>
-              Every business is unique. We develop
-customized Magento solutions to increase
-your efficiency, profitability, and
-customer satisfaction.
-              </p>
-            </div>
-            <div className="megento_old3">
-              <img className="n1-img" src={nn3} alt="" />
-              <h1> Comprehensive services</h1>
-              <p>
-              We offer a wide range of Magento
-development solutions, including
-Magento development & customization,
-Magento web development UK, US, etc.
-              </p>
-            </div>
-          </div>
-          <div className="megento_old4">
-            <div className="megento_old3">
-              <img className="n1-img" src={nn4} alt="" />
-              <h1>Quality and reliability</h1>
-              <p>
-              We’re committed to delivering high-
-quality, reliable solutions to clients. Our
-team follows Magento coding standards
-to ensure all solutions are robust,
-scalable, and secure.
-              </p>
-            </div>
-            <div className="megento_old3">
-              <img className="n1-img" src={nn5} alt="" />
-              <h1> Transparency and communication</h1>
-              <p>
-              We offer regular updates and progress
-reports to ensure you’re informed and
-involved throughout the Magento
-development process.
-              </p>
-            </div>
-            <div className="megento_old3">
-              <img className="n1-img" src={nn6} alt="" />
-              <h1>Security</h1>
-              <p>
-              Your website security is well protected by
-us - a professional Magento development
-agency. No data loss or hacker attacks to
-worry about.
-              </p>
-            </div>
-          </div>
-          <div className="megento_old5">
 
-            <div className="megento_old3">
-              <img className="n1-img" src={nn5} alt="" />
-              <h1>Quality assurance</h1>
-              <p>
-            We place a strong emphasis on quality
-assurance, using rigorous testing and
-quality control processes to ensure that
-all projects meet the highest standards.
-              </p>
+          <div className="old_cards">
+            <div className="megento_old2">
+              <div className="megento_old3">
+                <img className="n1-img" src={nn1} alt="" />
+                <h1>Expertise and experience</h1>
+                <p>
+                  With nearly 10 years of experience, our
+                  dedicated developers have extensive
+                  knowledge of developing and customizing
+                  Magento extensions and solutions.
+                </p>
+              </div>
+              <div className="megento_old3">
+                <img className="n1-img" src={nn2} alt="" />
+                <h1>Customized solutions</h1>
+                <p>
+                  Every business is unique. We develop
+                  customized Magento solutions to increase
+                  your efficiency, profitability, and
+                  customer satisfaction.
+                </p>
+              </div>
+              <div className="megento_old3">
+                <img className="n1-img" src={nn3} alt="" />
+                <h1> Comprehensive services</h1>
+                <p>
+                  We offer a wide range of Magento
+                  development solutions, including
+                  Magento development & customization,
+                  Magento web development UK, US, etc.
+                </p>
+              </div>
             </div>
-            <div className="megento_old3">
-              <img className="n1-img" src={nn6} alt="" />
-              <h1> Flexible pricing</h1>
-              <p>
-           Stop worrying about budget, because we
-have different Magento website
-development packages that suit your
-needs.
-              </p>
+            <div className="megento_old4">
+              <div className="megento_old3">
+                <img className="n1-img" src={nn4} alt="" />
+                <h1>Quality and reliability</h1>
+                <p>
+                  We’re committed to delivering high-
+                  quality, reliable solutions to clients. Our
+                  team follows Magento coding standards
+                  to ensure all solutions are robust,
+                  scalable, and secure.
+                </p>
+              </div>
+              <div className="megento_old3">
+                <img className="n1-img" src={nn5} alt="" />
+                <h1> Transparency and communication</h1>
+                <p>
+                  We offer regular updates and progress
+                  reports to ensure you’re informed and
+                  involved throughout the Magento
+                  development process.
+                </p>
+              </div>
+              <div className="megento_old3">
+                <img className="n1-img" src={nn6} alt="" />
+                <h1>Security</h1>
+                <p>
+                  Your website security is well protected by
+                  us - a professional Magento development
+                  agency. No data loss or hacker attacks to
+                  worry about.
+                </p>
+              </div>
             </div>
-            <div className="megento_old3">
-              <img className="n1-img" src={nn7} alt="" />
-              <h1>Dedicated support</h1>
-              <p>
-          Mageplaza is a dedicated USA Magento
-development company offering you 16
-hours/day support to ensure the best
-performance out of your store.
-              </p>
+            <div className="megento_old5">
+
+              <div className="megento_old3">
+                <img className="n1-img" src={nn5} alt="" />
+                <h1>Quality assurance</h1>
+                <p>
+                  We place a strong emphasis on quality
+                  assurance, using rigorous testing and
+                  quality control processes to ensure that
+                  all projects meet the highest standards.
+                </p>
+              </div>
+              <div className="megento_old3">
+                <img className="n1-img" src={nn6} alt="" />
+                <h1> Flexible pricing</h1>
+                <p>
+                  Stop worrying about budget, because we
+                  have different Magento website
+                  development packages that suit your
+                  needs.
+                </p>
+              </div>
+              <div className="megento_old3">
+                <img className="n1-img" src={nn7} alt="" />
+                <h1>Dedicated support</h1>
+                <p>
+                  Mageplaza is a dedicated USA Magento
+                  development company offering you 16
+                  hours/day support to ensure the best
+                  performance out of your store.
+                </p>
+              </div>
             </div>
-          </div>
           </div>
         </div>
 
@@ -466,7 +517,7 @@ performance out of your store.
 
 
 
-{/* 
+        {/* 
         <div className="magento_tech">
           <h2>Technologies We Work On</h2>
           <div className="magento_nav">
@@ -724,7 +775,7 @@ performance out of your store.
             </div>
           </div>
         </div> */}
-{/* 
+        {/* 
         <div className="magento_sus">
           <div className="piloy">
             <img src={piloy} alt="piloy" />
@@ -733,10 +784,10 @@ performance out of your store.
 
         {/* <CaseStudy /> */}
         <div className="php_portfolio">
-                    <div className="php_port">
-                        <h2 className="our_php">Our <span>Megento</span>  Web Development <span>Portfolio</span> </h2>
-                    </div>
-                 </div>
+          <div className="php_port">
+            <h2 className="our_php">Our <span>Megento</span>  Web Development <span>Portfolio</span> </h2>
+          </div>
+        </div>
         <div className="gting">
           <Splide
             className="w-full"
@@ -844,21 +895,21 @@ performance out of your store.
             </div>
           </div>
         </div>
-           
-          {/* new_s  */}
-          <div className="main_section_ss">
-             <div className="section_ss">
-               <div  className="section_ss1">
-                 <img src={ss5} alt=""  className="section_ss1_img"/>
-               </div>
-               <div className="section_ss2">
-               <h1>Run your <br />
+
+        {/* new_s  */}
+        <div className="main_section_ss">
+          <div className="section_ss">
+            <div className="section_ss1">
+              <img src={ss5} alt="" className="section_ss1_img" />
+            </div>
+            <div className="section_ss2">
+              <h1>Run your <br />
                 business efficiently <br />
-             with Magento</h1>
-                  <button>Let’s Connect</button>
-               </div>
-             </div>
+                with Magento</h1>
+              <button>Let’s Connect</button>
+            </div>
           </div>
+        </div>
 
 
 
