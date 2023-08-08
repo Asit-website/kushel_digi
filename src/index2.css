@@ -831,7 +831,7 @@ max-width: 590px;
 }
 .hr1
 {
-  margin-top: -14px;
+  margin-top: -12px;
   position: relative;
   animation-name: line1;
   animation-duration: 9s;
@@ -851,7 +851,7 @@ max-width: 590px;
  }
 
  100%{
-  width: 1350px;
+  width: 1450px;
   
   }
  
@@ -1077,7 +1077,7 @@ max-width: 590px;
   line-height: 31px;
   margin-top: 38px;
   
-margin-left: 23px;
+margin-left: 24.9px;
   position: relative;
   animation-name: list-item;
   animation-delay: 9s;
@@ -1101,7 +1101,7 @@ bottom: 4px;
   100%{
 
 color: #085881 ;
-margin-left: 23px;
+margin-left: 24.9px;
 font-family: Proxima Nova;
 font-size: 19px;
 font-weight: 400;

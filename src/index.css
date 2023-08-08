@@ -3024,9 +3024,9 @@ form button {
   text-align: center;
   margin-bottom: 65px;
   font-style: normal;
-  /* font-family: "Value Sans Medium" !important; */
   opacity: 0.9;
 }
+
 
 .business-card {
   display: flex;
@@ -16339,9 +16339,28 @@ video {
   font-size: 16px;
 }
 .ecommerce_right img{
-  max-width: 580px;
+  max-width: 500px;
   width: 100%;
-}
+  animation-name: oo1;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-fill-mode:  forwards; 
+    animation-timing-function: ease-in-out;
+    }
+    
+    @keyframes  oo1{
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+
+
+
+
+
+
+
 .meet_theCom{
   padding: 0px 100px;
   padding-top: 100px;
