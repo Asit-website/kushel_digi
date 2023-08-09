@@ -144,7 +144,7 @@ const Shopify = () => {
             <div className="greenish1">
               <img src={greenish} alt="greenish1" />
             </div>
-            <img className="admis" src={hinghing} alt="admis" />
+            <img className="admis admis22" src={hinghing} alt="admis" />
           </div>
         </div>
 

@@ -12056,12 +12056,11 @@ video {
 
 .magento_service1 p {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 18.5px;
   color: #33475B;
   width: 36em;
   max-width: 100%;
   margin-top: 10px;
- 
   line-height: 27px;
 }
 
@@ -12082,11 +12081,16 @@ video {
 }
 
 .magento_service2 .admis {
-  max-width: 682px;
+  /* max-width: 682px; */
   position: relative;
-  right: -69px;
+  max-width: 600px;
+  width: 100%;
+  /* right: -69px; */
 }
-
+.magento_service2 .admis22{
+  max-width: 560px;
+  width: 100%;
+}
 .magento_services {
   display: flex;
   align-items: flex-start;
@@ -15557,7 +15561,9 @@ video {
   border-radius: 3px;
   margin-top: 30px;
 }
-
+.make-head button:hover{
+  background-color: #3c83cb;
+}
 .what_img img {
   max-width: 670px;
   width: 100%;
