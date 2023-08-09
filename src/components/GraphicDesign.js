@@ -206,7 +206,7 @@ const GraphicDesign = () => {
                 </div>
 
 
-                <div className="client_testimonials">
+                {/* <div className="client_testimonials">
                     <h2> Trusted by 250+ fast-</h2>
                     <h2> growing companies and</h2>
                     <h2> enterprises</h2>
@@ -289,7 +289,7 @@ const GraphicDesign = () => {
                             </div>
                         </SplideSlide>
                     </Splide>
-                </div>
+                </div> */}
 
                 <div className="what_makes">
                     <div className="what_makes1">

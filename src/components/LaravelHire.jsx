@@ -234,33 +234,21 @@ const LaravelHire = () => {
                                 <h2>Fix cost and time</h2>
                                 <img src={engag1} alt="" />
                                 <p>
-                                    We estimate the scope of the after gathering a complete
-                                    understanding of the clear requirements and the hours it would
-                                    take for development and deployment. Once we have gathered the
-                                    data, we share a fixed cost and time estimate with you of when
-                                    we will deliver the project.
+                                After we have acknowledged your business approach, we curate the hours required for the development and implementation of your app. Once we have acquired the data, we will provide you with a set cost and time estimate for when we will complete the job.
                                 </p>
                             </div>
                             <div className="engag_php_box">
                                 <h2>On Site</h2>
                                 <img src={engag2} alt="" />
                                 <p>
-                                    We send our resources to your place of operation to work
-                                    alongside your team on the project. This model suits
-                                    businesses that have a skilled team but require an expert to
-                                    take care of certain aspects of the project. It’s
-                                    cost-effective, risk-free, fast, and 100% transparent.
+                                We dispatch resources to your location to collaborate on the project with your team. This strategy is appropriate for firms that have a qualified workforce but need an expert to handle particular areas of the project. It's inexpensive, risk-free, quick, and completely transparent.
                                 </p>
                             </div>
                             <div className="engag_php_box">
                                 <h2>Time and Model</h2>
                                 <img src={engag3} alt="" />
                                 <p>
-                                    We use the Time & Material Model when the software is in the
-                                    range of medium to high complexity. Here, we charge you for
-                                    the number and time of resources that we have employed to
-                                    develop your software, on an hourly level. This model best
-                                    suits businesses that require constant updates.
+                                When the app is of medium to high complexity, we employ the Time & Material Model. On an hourly basis, we charge you for the quantity and duration of resources used to build your app. This strategy is best suited for organizations that demand frequent changes.
                                 </p>
                             </div>
                         </div>

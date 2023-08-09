@@ -233,34 +233,20 @@ const HireWordpress = () => {
                                 <h2>Fix cost and time</h2>
                                 <img src={engag1} alt="" />
                                 <p>
-                                    We estimate the scope of the after gathering a complete
-                                    understanding of the clear requirements and the hours it would
-                                    take for development and deployment. Once we have gathered the
-                                    data, we share a fixed cost and time estimate with you of when
-                                    we will deliver the project.
+                                After we have acknowledged your business approach, we curate the hours required for the development and implementation of your app. Once we have acquired the data, we will provide you with a set cost and time estimate for when we will complete the job.
                                 </p>
                             </div>
                             <div className="engag_php_box">
                                 <h2>On Site</h2>
                                 <img src={engag2} alt="" />
                                 <p>
-                                    We send our resources to your place of operation to work
-                                    alongside your team on the project. This model suits
-                                    businesses that have a skilled team but require an expert to
-                                    take care of certain aspects of the project. It’s
-                                    cost-effective, risk-free, fast, and 100% transparent.
-                                </p>
+                                We dispatch resources to your location to collaborate on the project with your team. This strategy is appropriate for firms that have a qualified workforce but need an expert to handle particular areas of the project. It's inexpensive, risk-free, quick, and completely transparent.                                </p>
                             </div>
                             <div className="engag_php_box">
                                 <h2>Time and Model</h2>
                                 <img src={engag3} alt="" />
                                 <p>
-                                    We use the Time & Material Model when the software is in the
-                                    range of medium to high complexity. Here, we charge you for
-                                    the number and time of resources that we have employed to
-                                    develop your software, on an hourly level. This model best
-                                    suits businesses that require constant updates.
-                                </p>
+                                When the app is of medium to high complexity, we employ the Time & Material Model. On an hourly basis, we charge you for the quantity and duration of resources used to build your app. This strategy is best suited for organizations that demand frequent changes.                                </p>
                             </div>
                         </div>
                     </div>
@@ -276,9 +262,8 @@ const HireWordpress = () => {
                             </h1>
                         </div>
                         <p>
-                            Hire professional Laravel Developers from Kushel Digi to transform your company ideas into dependable and lucrative software solutions.
-                            Let's have a look at some of the reasons why you should engage our developers for your project:
-                        </p>
+                        Kushel Digi is a trusted name in the WordPress development space. At very competitive pricing you can hire our expert
+WordPress developers who will deliver web development projects according to your specific requirements with precision.                         </p>
                         <div className="pnt_card">
                             <div className="pnt_card1">
                                 <div className="frenta">
@@ -324,10 +309,9 @@ const HireWordpress = () => {
                     </div>
                     <div className="why_pnt2">
                         <div className="hire_steps_php">
-                            <h1>Hire Laravel Developers From kushel Digi In 4 Steps</h1>
+                            <h1>Hire Wordpress Developers From kushel Digi In 4 Steps</h1>
                             <p>
-                                Hiring a PHP developer from DianApps is simple. Follow 4 easy
-                                steps to employ a team for your innovative web application.
+                            To hire a team for your next digital project, simply follow these four simple steps of Kushel Digi to get started with an amazing experience.
                             </p>
                         </div>
                         <div className="hire_phpStep_card">
@@ -344,12 +328,12 @@ const HireWordpress = () => {
                             <div className="hire_phpStep_box">
                                 <h1>03</h1>
                                 <p>
-                                    Take interview of the <br /> Laravel team
+                                    Take interview of the <br /> Wordpress team
                                 </p>
                             </div>
                             <div className="hire_phpStep_box">
                                 <h1>04</h1>
-                                <p>Hire the Laravel developers</p>
+                                <p>Hire the Wordpress developers</p>
                             </div>
                         </div>
                     </div>

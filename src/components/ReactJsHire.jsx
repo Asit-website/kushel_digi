@@ -145,13 +145,7 @@ const ReactJsHire = () => {
                     </div>
                     <div className="hire_py">
                         <p>
-                            Our PHP developers specialise in end-to-end development services
-                            which includes consultancy, PHP web app development, continuous
-                            maintenance, and the upgradation of software. We are skilled to
-                            take your project to the next level with the right mix of
-                            strategy, toolset, and development approach.Hire PHP developers
-                            from DianApps to experience unmatched quality offering which is
-                            built for success, with the future in mind.
+                        ReactJS has been cultivated to be an influential and successful library because of its unmatchable versatility and attributes. This open-source framework allows React JS developers to create high-end apps. With Kushel Digi creative and logical ReactJS development team, get a chance to accelerate your business objectives.Our hired ReactJS developers assure effective app solutions that offer higher company conversions, whether it's a dynamic content website, eCommerce front-store, streaming app, or an IoT-based management app development.
                         </p>
                     </div>
                     <div className="migartion_card">
@@ -279,33 +273,21 @@ const ReactJsHire = () => {
                                 <h2>Fix cost and time</h2>
                                 <img src={engag1} alt="" />
                                 <p>
-                                    We estimate the scope of the after gathering a complete
-                                    understanding of the clear requirements and the hours it would
-                                    take for development and deployment. Once we have gathered the
-                                    data, we share a fixed cost and time estimate with you of when
-                                    we will deliver the project.
+                                After we have acknowledged your business approach, we curate the hours required for the development and implementation of your app. Once we have acquired the data, we will provide you with a set cost and time estimate for when we will complete the job.
                                 </p>
                             </div>
                             <div className="engag_php_box">
                                 <h2>On Site</h2>
                                 <img src={engag2} alt="" />
                                 <p>
-                                    We send our resources to your place of operation to work
-                                    alongside your team on the project. This model suits
-                                    businesses that have a skilled team but require an expert to
-                                    take care of certain aspects of the project. It’s
-                                    cost-effective, risk-free, fast, and 100% transparent.
+                                We dispatch resources to your location to collaborate on the project with your team. This strategy is appropriate for firms that have a qualified workforce but need an expert to handle particular areas of the project. It's inexpensive, risk-free, quick, and completely transparent.
                                 </p>
                             </div>
                             <div className="engag_php_box">
                                 <h2>Time and Model</h2>
                                 <img src={engag3} alt="" />
                                 <p>
-                                    We use the Time & Material Model when the software is in the
-                                    range of medium to high complexity. Here, we charge you for
-                                    the number and time of resources that we have employed to
-                                    develop your software, on an hourly level. This model best
-                                    suits businesses that require constant updates.
+                                When the app is of medium to high complexity, we employ the Time & Material Model. On an hourly basis, we charge you for the quantity and duration of resources used to build your app. This strategy is best suited for organizations that demand frequent changes.
                                 </p>
                             </div>
                         </div>
@@ -372,9 +354,7 @@ const ReactJsHire = () => {
                         <div className="hire_steps_php">
                             <h1>Hire ReactJS Developers From kushel Digi  In 4 Steps</h1>
                             <p>
-                                Hiring a PHP developer from DianApps is simple. Follow 4 easy
-                                steps to employ a team for your innovative web application.
-                            </p>
+                            To hire a team for your next digital project, simply follow these four simple steps of Kushel Digi to get started with an amazing experience.                            </p>
                         </div>
                         <div className="hire_phpStep_card">
                             <div className="hire_phpStep_box">
@@ -390,12 +370,12 @@ const ReactJsHire = () => {
                             <div className="hire_phpStep_box">
                                 <h1>03</h1>
                                 <p>
-                                    Take interview of the <br /> PHP team
+                                    Take interview of the <br /> ReactJS team
                                 </p>
                             </div>
                             <div className="hire_phpStep_box">
                                 <h1>04</h1>
-                                <p>Hire the PHP developers</p>
+                                <p>Hire the ReactJS <br />  developers</p>
                             </div>
                         </div>
                     </div>

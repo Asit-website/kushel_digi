@@ -17,7 +17,7 @@ import nativeSer7 from '../images/nativeSer7.png';
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import ContactForm1 from './common/ContactForm1';
-
+import '../components/css/app6.css';
 import img14 from "../images/earthpap.png";
 import img15 from "../images/Group 1000006826.png";
 import img16 from "../images/shot.png";
@@ -204,6 +204,94 @@ const ReactNativeHire = () => {
                     </div>
                 </div>
             </div>
+                {/* surbhi */}
+                {/* <div className="main">
+  <div className="container">
+    <div className="five-create">
+      <p className="intutive">
+        Our Process to Create Intuitive React Native Apps
+      </p>
+      <p className="leverage">
+        Unlock your true potential, leverage the best of technology, and create
+        apps based on modern algorithms with our React Native development
+        experts.
+      </p>
+    </div>
+    <div className="triple-mainbox">
+      <div className="discover-box-1">
+        <div
+          className="line---"
+          style={{ backgroundImage: 'url("img/blank.png")' }}
+        />
+        <p className="discover-1">Discover</p>
+        <p className="project-1">
+          There goes a lot in the back to turn your project into a success
+          story.
+        </p>
+      </div>
+      <div className="div-1">
+        <hr className="horzt-1" />
+      </div>
+      <div className="discover-box-2">
+        <div
+          className="img--"
+          style={{ backgroundImage: 'url("img/blank.png")' }}
+        />
+        <p className="discover-2">Define</p>
+        <p className="project-2">
+          Determining the scope of how we can convert your idea into reality.
+        </p>
+      </div>
+      <div className="div-2">
+        <hr className="horzt-2" />
+      </div>
+      <div className="discover-box-3">
+        <div
+          className="img---"
+          style={{ backgroundImage: 'url("img/blank.png")' }}
+        />
+        <p className="discover-3">Design</p>
+        <p className="project-3">Offering you break through app prototypes</p>
+      </div>
+    </div>
+    <div className="double-mainbox">
+      <div className="discover-box-4">
+        <div
+          className="img----"
+          style={{ backgroundImage: 'url("img/blank.png")' }}
+        />
+        <p className="discover-4">Analyze &amp; Deliver</p>
+        <p className="project-4">
+          Stable and secure application served at your table as per the
+          deadlines
+        </p>
+      </div>
+      <div className="div-7">
+        <hr className="horzt-4" />
+      </div>
+      <div className="discover-box-5">
+        <div
+          className="img-----"
+          style={{ backgroundImage: 'url("img/blank.png")' }}
+        />
+        <p className="discover-5">Develop</p>
+        <p className="project-5">
+          We’d commence development with a - milestone based plan of action.
+        </p>
+      </div>
+      <div className="div-8">
+        <hr className="horzt-5" />
+      </div>
+    </div>
+    <hr className="vertical" />
+  </div>
+</div> */}
+
+
+
+
+
+
             {/* ============third banega=============== */}
             {/* <div className="five-create">
         <p className="intutive">
