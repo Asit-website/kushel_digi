@@ -415,9 +415,10 @@
   }
   .discover {
     color: #f5f5f5;
-    line-height: 60px;
+    line-height: 30px;
     font-size: 20px;
     font-weight: 500;
+    margin-top: 15px;
   }
   .double-mainbox {
     display: flex;
