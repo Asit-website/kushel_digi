@@ -473,12 +473,12 @@ const BigCommerce = () => {
             aria-label="Our Services"
             options={{
               perPage: 1,
-              perMove: 1,
-              autoplay: true,
-              pauseOnHover: true,
-              type: "loop",
-              interval: 2200,
-              drag: true,
+              // perMove: 1,
+              // autoplay: true,
+              // pauseOnHover: true,
+              // type: "loop",
+              // interval: 2200,
+              // drag: true,
             }}
           >
             <SplideSlide>
@@ -495,11 +495,11 @@ const BigCommerce = () => {
                     <img src={kiktas} alt="kiktas" />
                   </div>
                 </div>
-                <div className="kickta_big2">
+                {/* <div className="kickta_big2">
                   <div className="kakiji">
                     <img src={kinu} alt="kinu" />
                   </div>
-                </div>
+                </div> */}
               </div>
             </SplideSlide>
             <SplideSlide>

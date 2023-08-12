@@ -68,6 +68,12 @@ import ContactForm1 from "./common/ContactForm1";
 import nuting from '../images/nutig.png';
 import skyo from '../images/skyo.png';
 import shopifu from '../images/shopfiu.png';
+import seeting1 from '../images/seeting1.png';
+import seeting2 from '../images/seeting2.png';
+import seeting3 from '../images/seeting3.png';
+import seeting4 from '../images/seeting4.png';
+import seeting5 from '../images/seeting5.png';
+import seeting6 from '../images/seeting6.png';
 import '../components/css/app5.css';
 const Shopify = () => {
   const [hovered, setHovered] = useState(false);
@@ -419,7 +425,7 @@ const Shopify = () => {
               onMouseLeave={() => setHovered(false)}
             >
               <img
-                src={hovered ? setui : soin1}
+                src={hovered ? setui : seeting1}
                 className="startup startup11"
                 alt="img"
               />
@@ -436,7 +442,7 @@ const Shopify = () => {
               onMouseLeave={() => setHovered2(false)}
             >
               <img
-                src={hovered2 ? soin2 : thirdParty}
+                src={hovered2 ? soin2 : seeting2}
                 className="startup startup11"
                 alt="img"
               />
@@ -453,7 +459,7 @@ const Shopify = () => {
               onMouseLeave={() => setHovered3(false)}
             >
               <img
-                src={hovered3 ? soin3 : appinstall}
+                src={hovered3 ? soin3 : seeting3}
                 className="startup startup11"
                 alt="img"
               />
@@ -470,7 +476,7 @@ const Shopify = () => {
               onMouseLeave={() => setHovered4(false)}
             >
               <img
-                src={hovered4 ? soin4 : appConfig}
+                src={hovered4 ? soin4 : seeting4}
                 className="startup startup12"
                 alt="img"
               />
@@ -487,7 +493,7 @@ const Shopify = () => {
               onMouseLeave={() => setHovered5(false)}
             >
               <img
-                src={hovered5 ? soin5 : customTheme}
+                src={hovered5 ? soin5 : seeting5}
                 className="startup startup11"
                 alt="img"
               />
@@ -504,7 +510,7 @@ const Shopify = () => {
               onMouseLeave={() => setHovered6(false)}
             >
               <img
-                src={hovered6 ? soin6 : customMar}
+                src={hovered6 ? soin6 : seeting6}
                 className="startup startup11"
                 alt="img"
               />
@@ -740,14 +746,14 @@ const Shopify = () => {
           </div>
         </div>
 
-      
+
 
         <div className="php_portfolio">
-                    <div className="php_port">
-                        <h2 className="our_php">Our <span>Shopify</span>  Web Development <span>Portfolio</span> </h2>
-                    </div>
-                    </div>
-       
+          <div className="php_port">
+            <h2 className="our_php">Our <span>Shopify</span>  Web Development <span>Portfolio</span> </h2>
+          </div>
+        </div>
+
 
         <div className="gting">
           <Splide

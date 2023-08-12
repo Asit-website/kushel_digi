@@ -5,18 +5,14 @@ import kes3 from '../images/kes3.png';
 import kes4 from '../images/kes4.png';
 import sidhaTandi from '../images/sidhaTandi.png';
 import adimanus from '../images/adimanus.png';
-import CaseStudy from './common/CaseStudy';
-import nativeSer1 from '../images/nativeSer1.png';
-import nativeSer2 from '../images/nativeSer2.png';
-import nativeSer3 from '../images/nativeSer3.png';
-// import nativeSer4 from '../images/nativeSer4.png';
-import nativeSer5 from '../images/nativeSer5.png';
-import nativeSer6 from '../images/nativeSer6.png';
-import nativeSer7 from '../images/nativeSer7.png';
 
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/react-splide/css";
-import ContactForm1 from './common/ContactForm1';
+// import nativeSer1 from '../images/nativeSer1.png';
+// import nativeSer2 from '../images/nativeSer2.png';
+// import nativeSer3 from '../images/nativeSer3.png';
+// import nativeSer4 from '../images/nativeSer4.png';
+// import nativeSer5 from '../images/nativeSer5.png';
+// import nativeSer6 from '../images/nativeSer6.png';
+// import nativeSer7 from '../images/nativeSer7.png';
 
 import img14 from "../images/earthpap.png";
 import img15 from "../images/Group 1000006826.png";
@@ -31,6 +27,7 @@ import {
     AccordionItemPanel,
 } from "react-accessible-accordion";
 import ServiceCommon from './common/ServiceCommon';
+// import '../components/css/app6.css';
 
 const ReactNativeHire = () => {
 
@@ -50,32 +47,32 @@ const ReactNativeHire = () => {
 
     const tabAnother1 = () => {
         setTab(1);
-        document.getElementById("pex1").style.color="#0C61FF";
-        document.getElementById("pex2").style.color="#33475B";
-        document.getElementById("pex3").style.color="#33475B";
-        document.getElementById("pex4").style.color="#33475B";
+        document.getElementById("pex1").style.color = "#0C61FF";
+        document.getElementById("pex2").style.color = "#33475B";
+        document.getElementById("pex3").style.color = "#33475B";
+        document.getElementById("pex4").style.color = "#33475B";
     }
     const tabAnother2 = () => {
         setTab(2);
-        document.getElementById("pex1").style.color="#33475B";
-        document.getElementById("pex2").style.color="#0C61FF";
-        document.getElementById("pex3").style.color="#33475B";
-        document.getElementById("pex4").style.color="#33475B";
+        document.getElementById("pex1").style.color = "#33475B";
+        document.getElementById("pex2").style.color = "#0C61FF";
+        document.getElementById("pex3").style.color = "#33475B";
+        document.getElementById("pex4").style.color = "#33475B";
     }
     const tabAnother3 = () => {
         setTab(3);
-        document.getElementById("pex1").style.color="#33475B";
-        document.getElementById("pex2").style.color="#33475B";
-        document.getElementById("pex3").style.color="#0C61FF";
-        document.getElementById("pex4").style.color="#33475B";
-        
+        document.getElementById("pex1").style.color = "#33475B";
+        document.getElementById("pex2").style.color = "#33475B";
+        document.getElementById("pex3").style.color = "#0C61FF";
+        document.getElementById("pex4").style.color = "#33475B";
+
     }
     const tabAnother4 = () => {
         setTab(4);
-        document.getElementById("pex1").style.color="#33475B";
-        document.getElementById("pex2").style.color="#33475B";
-        document.getElementById("pex3").style.color="#33475B";
-        document.getElementById("pex4").style.color="#0C61FF";
+        document.getElementById("pex1").style.color = "#33475B";
+        document.getElementById("pex2").style.color = "#33475B";
+        document.getElementById("pex3").style.color = "#33475B";
+        document.getElementById("pex4").style.color = "#0C61FF";
     }
 
 
@@ -205,63 +202,63 @@ const ReactNativeHire = () => {
                 </div>
             </div>
             {/* ============third banega=============== */}
-            {/* <div className="five-create">
-        <p className="intutive">
-          Our Process to Create Intuitive React Native Apps
-        </p>
-        <p className="leverage">
-          Unlock your true potential, leverage the best of technology, and
-          create apps based on modern algorithms with our React Native
-          development experts.
-        </p>
-        <div className="triple-mainbox">
-          <div className="discover-box">
-            <div className="line">
-              <img src={img14} id="delo"></img>
+            <div className="five-create">
+                <p className="intutive">
+                    Our Process to Create Intuitive React Native Apps
+                </p>
+                <p className="leverage">
+                    Unlock your true potential, leverage the best of technology, and
+                    create apps based on modern algorithms with our React Native
+                    development experts.
+                </p>
+                <div className="triple-mainbox">
+                    <div className="discover-box">
+                        <div className="line">
+                            <img src={img14} id="delo"></img>
+                        </div>
+                        <p className="discover">Discover</p>
+                        <p className="project">
+                            There goes a lot in the back to turn your project into a success
+                            story.
+                        </p>
+                    </div>
+                    <hr className="horzt" />
+                    <div className="discover-box">
+                        <img src={img15} id="delo"></img>
+                        <p className="discover">Define</p>
+                        <p className="project">
+                            Determining the scope of how we can convert your idea into
+                            reality.
+                        </p>
+                    </div>
+                    <hr className="horzt" />
+                    <div className="discover-box">
+                        <img src={img16} id="delo"></img>
+                        <p className="discover">Design</p>
+                        <p className="project">Offering you breakthrough app prototypes</p>
+                    </div>
+                </div>
+                <div className="double-mainbox">
+                    <div className="discover-box">
+                        <img src={img18} id="delo"></img>
+                        <p className="discover">Analyze & Deliver</p>
+                        <p className="project">
+                            Stable and secure application served at your table as per the
+                            deadlines
+                        </p>
+                    </div>
+                    <hr className="horzt" />
+                    <div className="discover-box">
+                        <img src={img19} id="delo"></img>
+                        <p className="discover">Develop</p>
+                        <p className="project" id="important">
+                            We’d commence development with a - milestone based plan of action.
+                        </p>
+                    </div>
+                    <hr id="line2" />
+                    <hr id="vertical" />
+                </div>
             </div>
-            <p className="discover">Discover</p>
-            <p className="project">
-              There goes a lot in the back to turn your project into a success
-              story.
-            </p>
-          </div>
-          <hr className="horzt" />
-          <div className="discover-box">
-            <img src={img15} id="delo"></img>
-            <p className="discover">Define</p>
-            <p className="project">
-              Determining the scope of how we can convert your idea into
-              reality.
-            </p>
-          </div>
-          <hr className="horzt" />
-          <div className="discover-box">
-            <img src={img16} id="delo"></img>
-            <p className="discover">Design</p>
-            <p className="project">Offering you breakthrough app prototypes</p>
-          </div>
-        </div>
-        <div className="double-mainbox">
-          <div className="discover-box">
-            <img src={img18} id="delo"></img>
-            <p className="discover">Analyze & Deliver</p>
-            <p className="project">
-              Stable and secure application served at your table as per the
-              deadlines
-            </p>
-          </div>
-          <hr className="horzt" />
-          <div className="discover-box">
-            <img src={img19} id="delo"></img>
-            <p className="discover">Develop</p>
-            <p className="project" id="important">
-              We’d commence development with a - milestone based plan of action.
-            </p>
-          </div>
-          <hr id="line2" />
-          <hr id="vertical" />
-        </div>
-      </div> */}
             {/* ================third end=============== */}
             <div className="why_kushel_native">
                 <div className='native_think'>
@@ -301,13 +298,6 @@ const ReactNativeHire = () => {
                         <button>Hire React Native App Developers</button>
                     </div>
                 </div>
-            </div>
-
-            <div className="php_portfolio">
-                <div className="php_port">
-                    <h2 className="our_php">Our <span>React Native</span>  Web Development <span>Portfolio</span></h2>
-                </div>
-                <CaseStudy />
             </div>
 
             <div className="why_pnt">
@@ -432,80 +422,80 @@ const ReactNativeHire = () => {
                 </div>
             </div> */}
 
-            <ServiceCommon/>
+            <ServiceCommon />
 
             <div className="home9 mb-12 home278">
-          <div className="home91 flex px-24">
-            <div className="home911 text-center">
-              <h2 className="font-bold text-gray-700">JUST THE FAQs</h2>
-            </div>
-            <div className="home912">
-              <Accordion allowZeroExpanded>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    What is React Native used for?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      Exercitation in fugiat est ut ad ea cupidatat ut in
-                      cupidatat occaecat ut occaecat consequat est minim minim
-                      esse tempor laborum consequat esse adipisicing eu
-                      reprehenderit enim.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Why choose React Native for app development?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur ea
-                      in ut nostrud velit in irure cillum tempor laboris sed
-                      adipisicing eu esse duis nulla non.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    Why is React Native so popular among other app development frameworks?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur ea
-                      in ut nostrud velit in irure cillum tempor laboris sed
-                      adipisicing eu esse duis nulla non.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-                <AccordionItem>
-                  <AccordionItemHeading>
-                    <AccordionItemButton>
-                    What are the benefits of choosing React Native app development company?
-                    </AccordionItemButton>
-                  </AccordionItemHeading>
-                  <AccordionItemPanel>
-                    <p>
-                      In ad velit in ex nostrud dolore cupidatat consectetur ea
-                      in ut nostrud velit in irure cillum tempor laboris sed
-                      adipisicing eu esse duis nulla non.
-                    </p>
-                  </AccordionItemPanel>
-                </AccordionItem>
-              
-              </Accordion>
-              {/* <div className="home9121 font-semibold w-fit">
+                <div className="home91 flex px-24">
+                    <div className="home911 text-center">
+                        <h2 className="font-bold text-gray-700">JUST THE FAQs</h2>
+                    </div>
+                    <div className="home912">
+                        <Accordion allowZeroExpanded>
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        What is React Native used for?
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <p>
+                                        Exercitation in fugiat est ut ad ea cupidatat ut in
+                                        cupidatat occaecat ut occaecat consequat est minim minim
+                                        esse tempor laborum consequat esse adipisicing eu
+                                        reprehenderit enim.
+                                    </p>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        Why choose React Native for app development?
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <p>
+                                        In ad velit in ex nostrud dolore cupidatat consectetur ea
+                                        in ut nostrud velit in irure cillum tempor laboris sed
+                                        adipisicing eu esse duis nulla non.
+                                    </p>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        Why is React Native so popular among other app development frameworks?
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <p>
+                                        In ad velit in ex nostrud dolore cupidatat consectetur ea
+                                        in ut nostrud velit in irure cillum tempor laboris sed
+                                        adipisicing eu esse duis nulla non.
+                                    </p>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+                            <AccordionItem>
+                                <AccordionItemHeading>
+                                    <AccordionItemButton>
+                                        What are the benefits of choosing React Native app development company?
+                                    </AccordionItemButton>
+                                </AccordionItemHeading>
+                                <AccordionItemPanel>
+                                    <p>
+                                        In ad velit in ex nostrud dolore cupidatat consectetur ea
+                                        in ut nostrud velit in irure cillum tempor laboris sed
+                                        adipisicing eu esse duis nulla non.
+                                    </p>
+                                </AccordionItemPanel>
+                            </AccordionItem>
+
+                        </Accordion>
+                        {/* <div className="home9121 font-semibold w-fit">
                 See All FAQs
               </div> */}
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
 
 
             {/* <ContactForm1 /> */}

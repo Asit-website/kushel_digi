@@ -126,6 +126,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+
         <div className="ser2">
           <div className="ser21">
             <div className="home412 flex justify-center items-center">
@@ -196,6 +197,7 @@ const Services = () => {
             </div>
           </div>
         </div>
+
         <div className="ecommerce-solution ecomm346">
           <marquee behavior="scroll" direction="right" scrollamount="20">
             <img className="solution" src={solution} alt="solution" />
@@ -203,23 +205,11 @@ const Services = () => {
 
           <div className="ecomm">
             <div className="first-ecom">
-              {/* <button className="serv">ECOMMERCE SOLUTIONS AND SERVICES</button> */}
               <h1 className="mt-8">Top <span>eCommerce</span>  Business</h1>
               <h1>Solution Providers</h1>
               <p>
-                {/* Ecommerce solutions at Designs Raptor encompass every technical
-                assistance ensuring that our clients attain higher traffic and
-                sales. Our Online Ecommerce Solutions can be customized to meet
-                the unique demands and various industry verticals of our clients
-                from across the globe. */}
                 We continuously align our operations with ever-changing, tech-savvy, and cross-channel consumers. Our e-commerce solutions make things available at the right place, at the right time, and at the right price.
-
               </p>
-              <NavLink to="/contact">
-                <button className="com">
-                  Contact Us <img className="tih" src={arrow1} alt="" />
-                </button>
-              </NavLink>
             </div>
             <div className="second-ecom">
               <img src={lohta} alt="ecom" />
@@ -422,7 +412,7 @@ const Services = () => {
             <div className="suris_tech_left">
               <h1>Not sure where to start?</h1>
               <p>Make your next online project go smoothly with our battle-tested eCommerce development services.</p>
-              <button>LET’S TALK</button>
+             <NavLink to="/contact"><button>LET’S TALK</button></NavLink>
             </div>
             <div className="suris_tech_right">
               <img src={fourPeople} alt="fourPeople" />
@@ -457,7 +447,7 @@ const Services = () => {
           <div className="theCom_right">
             <h1>Meet our people</h1>
             <p>In kushel digi, we keep our minds free from any boundaries so that they can imagine and conceive great ideas which can be loved by your clients. We know the value of your trust which you put on us and kushel digi always do its best to safeguard that trust by going beyond than client’s expectation.</p>
-            <button>ABOUT US</button>
+           <NavLink to="/about"><button>ABOUT US</button></NavLink>
           </div>
         </div>
 
@@ -476,7 +466,7 @@ const Services = () => {
                     <div className="tellUs_left">
                       <span>Tell us more</span>
                       <p>Fill out a quick form describing your needs. You can always add details later on and we’ll reply within a day!</p>
-                      <button>GET IN TOUCH</button>
+                     <NavLink to="/contact"><button>GET IN TOUCH</button></NavLink>
                     </div>
                   </div>
                   <div className="tellUs">
@@ -718,7 +708,7 @@ const Services = () => {
           </div>
         </div> */}
 
-        <div className="home5     poty poty1">
+        <div className="home5 poty poty1">
           <div className="home51 px-24 ">
             <div className="home511 text-center ">
               <h1 className="font-bold mb-2 mt-4">OUR PORTFOLIO</h1>

@@ -1,0 +1,658 @@
+.container {
+  background-color: #33475b;
+}
+
+.five-create {
+  text-align: center;
+}
+
+.intutive {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding-top: 3rem;
+  color: white;
+}
+
+.leverage {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  padding-top: 27px;
+  color: white;
+  max-width: 72%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.horzt-1 {
+  bottom: 35px;
+  width: 180px;
+  margin-top: 2rem;
+  border-color: #33475b;
+  position: relative;
+  animation-name: aani-1;
+  animation-delay: 0.6s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes aani-1 {
+  from {
+    width: 180px;
+    border-color: #33475b;
+  }
+
+  to {
+    width: 180px;
+    border-color: white;
+
+  }
+}
+
+
+
+.horzt-2 {
+
+  width: 180px;
+  bottom: 35px;
+  margin-top: 2rem;
+  border-color: #33475b;
+  position: relative;
+  animation-name: aani-2;
+  animation-delay: 2.2s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes aani-2 {
+  from {
+    width: 180px;
+    border-color: #33475b;
+  }
+
+  to {
+    width: 180px;
+    border-color: white;
+  }
+}
+
+.triple-mainbox {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 100px;
+  padding-left: 138px;
+  padding-right: 133px;
+}
+
+.discover-box-1 {
+  text-align: center;
+  display: flex;
+  max-width: 435px;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.discover-box-2 {
+  text-align: center;
+  display: flex;
+  max-width: 435px;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.div-1 {
+
+  max-width: 435px;
+
+
+}
+
+.div-2 {
+
+
+  max-width: 435px;
+
+}
+
+.discover-box-3 {
+  text-align: center;
+  display: flex;
+  max-width: 435px;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+.line--- {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 120px;
+  bottom: 20px;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  transition: 2s;
+  animation-name: img-1;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+
+}
+
+@keyframes img-1 {
+  100% {
+    background-image: url('../../images/patal1.png');
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+    background-size: 38px;
+    background-repeat: no-repeat;
+
+  }
+}
+
+.img-- {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 120px;
+  bottom: 20px;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  transition: 2s;
+  animation-name: img-2;
+  animation-delay: 1.6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes img-2 {
+  100% {
+    background-image: url('../../images/patal3.png');
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 120px;
+    bottom: 20px;
+    background-size: 38px;
+    background-repeat: no-repeat;
+
+  }
+}
+
+.img--- {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 68px;
+  bottom: 20px;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  transition: 2s;
+  animation-name: img-3;
+  animation-delay: 3.4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes img-3 {
+  100% {
+    background-image: url('../../images/patal2.png');
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 68px;
+    bottom: 20px;
+    background-size: 38px;
+    background-repeat: no-repeat;
+
+  }
+}
+
+.discover-1 {
+  color: #33475b;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  animation-name: heading-1;
+  animation-delay: 0.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes heading-1 {
+  100% {
+    color: white;
+
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+}
+
+.project-1 {
+  color: #33475b;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  animation-name: text1;
+  animation-delay: 0.4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text1 {
+  100% {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.discover-2 {
+  color: #33475b;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  animation-name: heading-2;
+  animation-delay: 1.8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes heading-2 {
+  100% {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.project-2 {
+  color: #33475b;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  animation-name: text2;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text2 {
+  100% {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.project-3 {
+  color: #33475b;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  animation-name: text3;
+  animation-delay: 3.8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text3 {
+  100% {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.discover-3 {
+  color: #33475b;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  animation-name: heading-3;
+  animation-delay: 3.6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes heading-3 {
+  100% {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.double-mainbox {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 323px;
+  margin-right: 119px;
+}
+
+
+.discover-box-4 {
+  text-align: center;
+  display: flex;
+  max-width: 435px;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.div-7 {
+  max-width: 435px;
+}
+
+.discover-box-5 {
+  text-align: center;
+  display: flex;
+  max-width: 435px;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.div-8 {
+  max-width: 435px;
+
+}
+
+.horzt-4 {
+  width: 180px;
+  border-color: #33475b;
+  position: relative;
+  animation-name: aani-3;
+  animation-delay: 6.6s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes aani-3 {
+  from {
+    width: 180px;
+    border-color: #33475b;
+  }
+
+  to {
+    width: 180px;
+    border-color: white;
+  }
+}
+
+.horzt-5 {
+  width: 100px;
+  top: 64px;
+  border-color: #33475b;
+  position: relative;
+  animation-name: aani-4;
+  animation-delay: 5s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes aani-4 {
+  from {
+    width: 100px;
+    border-color: #33475b;
+    top: 64px;
+  }
+
+  to {
+    width: 100px;
+    border-color: white;
+    top: 64px;
+  }
+}
+
+.img----- {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 129px;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  transition: 2s;
+  animation-name: img-4;
+  animation-delay: 6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes img-4 {
+  100% {
+    background-image: url('../../images/patal5.png');
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 129px;
+    background-size: 38px;
+    background-repeat: no-repeat;
+
+  }
+}
+
+.img---- {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  left: 147px;
+  background-size: 38px;
+  background-repeat: no-repeat;
+  transition: 2s;
+  animation-name: img-5;
+  animation-delay: 7.6s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes img-5 {
+  100% {
+    background-image: url('../../images/patal4.png');
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 147px;
+    background-size: 38px;
+    background-repeat: no-repeat;
+
+  }
+}
+
+.discover-5 {
+  color: #33475b;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  animation-name: heading-5;
+  animation-delay: 6.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes heading-5 {
+  100% {
+    color: white;
+
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+
+.project-5 {
+  color: #33475b;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  animation-name: text5;
+  animation-delay: 6.4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text5 {
+  100% {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.project-4 {
+  color: #33475b;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: center;
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  animation-name: text4;
+  animation-delay: 8.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes text4 {
+  100% {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+
+    letter-spacing: 0em;
+    text-align: center;
+    max-width: 100%;
+    font-family: "Poppins", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.discover-4 {
+  color: #33475b;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  animation-name: heading-4;
+  animation-delay: 8s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes heading-4 {
+  100% {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.vertical {
+  border-color: #33475b;
+  bottom: 206px;
+  height: 180px;
+  width: 1px;
+  position: relative;
+  animation-name: hr-line;
+  animation-delay: 4s;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  left: 91%;
+
+}
+
+@keyframes hr-line {
+  from {
+    width: 1px;
+    height: 180px;
+    border-color: #33475b;
+
+    left: 91%;
+
+    bottom: 206px;
+
+  }
+
+  to {
+    width: 1px;
+    height: 180px;
+    border-color: white;
+    bottom: 24px;
+    left: 91%;
+
+    bottom: 206px;
+
+  }
+}

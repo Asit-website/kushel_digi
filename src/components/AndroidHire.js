@@ -22,7 +22,10 @@ import nativeSer7 from '../images/nativeSer7.png';
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
-
+import framework1 from '../images/framework1.png';
+import framework2 from '../images/framework2.png';
+import assisment1 from '../images/Assisment1.png';
+import assisment2 from '../images/Assisment2.png'
 import {
     Accordion,
     AccordionItem,
@@ -381,21 +384,64 @@ const AndroidHire = () => {
                             </div>
                             <hr className='hr_ty' />
                         </div>
+                        {
+                            fat === 1 && (
+                                <div className='ty_py'>
+                                    <div className="ty_py1">
+                                        <div className="koiy_img">
+                                            <img src={koiy} alt="" />
+                                        </div>
+                                        <p>Native (Java/kotlin)</p>
+                                    </div>
+                                    <div className="ty_py1">
+                                        <div className="koiy_img">
+                                            <img src={koiy1} alt="" />
+                                        </div>
+                                        <p>React Native</p>
+                                    </div>
+                                </div>
+                            )
+                        }
 
-                        <div className='ty_py'>
-                            <div className="ty_py1">
-                                <div className="koiy_img">
-                                    <img src={koiy} alt="" />
+                        {
+                            fat === 2 && (
+                                <div className='ty_py'>
+                                    <div className="ty_py1">
+                                        <div className="koiy_img">
+                                            <img src={framework1} alt="" />
+                                        </div>
+                                        <p>Android Studio</p>
+                                    </div>
+                                    <div className="ty_py1">
+                                        <div className="koiy_img">
+                                            <img src={framework2} alt="" />
+                                        </div>
+                                        <p>Google Assistant SDK</p>
+                                    </div>
                                 </div>
-                                <p>Native (Java/kotlin)</p>
-                            </div>
-                            <div className="ty_py1">
-                                <div className="koiy_img">
-                                    <img src={koiy1} alt="" />
+                            )
+                        }
+
+                        {
+                            fat === 3 && (
+                                <div className='ty_py'>
+                                    <div className="ty_py1">
+                                        <div className="koiy_img">
+                                            <img src={assisment1} alt="" />
+                                        </div>
+                                        <p>Google Cloud Platform</p>
+                                    </div>
+                                    <div className="ty_py1">
+                                        <div className="koiy_img">
+                                            <img src={assisment2} alt="" />
+                                        </div>
+                                        <p>AWS</p>
+                                    </div>
                                 </div>
-                                <p>React Native</p>
-                            </div>
-                        </div>
+                            )
+                        }
+
+
                     </div>
                 </div>
 
@@ -438,7 +484,7 @@ const AndroidHire = () => {
                 </div>
 
 
-                 <ServiceCommon/>
+                <ServiceCommon />
                 <div className="home9 mb-12 home278">
                     <div className="home91 flex px-24">
                         <div className="home911 text-center">

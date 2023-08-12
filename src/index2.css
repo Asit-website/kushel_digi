@@ -948,9 +948,6 @@ max-width: 590px;
   }
 }
 
-
-
-
 .section-list{
   display: flex;
   justify-content: space-between;
@@ -1130,5 +1127,343 @@ bottom: 4px;
 
 
 /* ==================diksha====================== */
+
+.staff-paper {
+  /* background-color: aqua; */
+  display: flex;
+}
+.local-left {
+  padding: 9rem 0rem 0rem 6rem;
+  width: 50%;
+  /* background-color: aqua; */
+}
+.local-right {
+  width: 50%;
+  /* background-color: bisque; */
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 0rem;
+}
+.velly {
+  font-size: 33px;
+  color: #33475b;
+  padding-top: 20px;
+  padding-left: 4rem;
+  text-align: left;
+  /* line-height: 35px; */
+  font-weight: bold;
+  width: 16em;
+  max-width: 100%;
+  /* max-width: 70%; */
+}
+
+.dove-bb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ccc; */
+  width: 100%;
+}
+.jorry {
+  width: 180px;
+  height: 35px;
+  opacity: 0.5;
+}
+.dark-line {
+  width: 2px;
+  height: 70px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.kick {
+  width: 210px;
+  height: 80px;
+  opacity: 0.5;
+}
+.Dment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-right: 3%; */
+  margin-top: 30px;
+}
+.guns {
+  width: 170px;
+  height: 40px;
+  opacity: 0.5;
+}
+.nijia {
+  width: 170px;
+  height: 35px;
+  margin-left: 4%;
+  opacity: 0.5;
+}
+.trunks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 6%;
+  margin-top: 40px;
+}
+.rely {
+  width: 70px;
+  height: 50px;
+  opacity: 0.5;
+  margin-right: 8%;
+}
+.pro {
+  width: 70px;
+  height: 70px;
+  margin-left: 6%;
+  opacity: 0.5;
+}
+/* ************************************************ */
+.group-main {
+  width: 100%;
+}
+.looft {
+  width: 100%;
+  background-image: url("./images/Rectangle\ 18297\ \(2\).png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact {
+  max-width: 45%;
+  padding: 5rem 6rem;
+  /* padding: 2rem 0rem 3rem 6rem; */
+}
+.in-house {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  width: 14em;
+  max-width: 100%;
+  line-height: 46px;
+}
+.bord {
+  margin-top: 2.5rem;
+  max-width: 270px;
+  width: 100%;
+  height: 64px;
+  font-size: 18px;
+  color: #33475b;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: white;
+}
+.bord:hover{
+  background-color: #3c83cb;
+  transition: all .5s;
+  color: #fff;
+}
+/* *************************************** */
+.teach-team {
+  align-items: center;
+  background-image: url("./images/Group\ 1000007384.jpg");
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 800px;
+  text-align: center;
+}
+.glory {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 6rem;
+  color: #33475b;
+}
+
+.strick {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 26px;
+  letter-spacing: 0em;
+  max-width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #33475b;
+  padding-top: 10px;
+  opacity: 0.8;
+}
+.bbbc {
+  margin-bottom: 4rem;
+}
+.p-allo {
+  display: flex;
+  font-weight: 700;
+  margin-left: 43%;
+  /* padding-top: 30px; */
+}
+.allo {
+  margin-right: 10%;
+  line-height: 25px;
+  font-size: 18px;
+  color: #33475b;
+}
+.local-img {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -40%;
+}
+.local-img > img {
+  width: 80%;
+}
+.tik_untik{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+.status {
+  padding-top: 4rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #33475b;
+}
+.apple {
+  margin-top: 40px;
+  padding: 20px 70px 20px 70px;
+  background-color: #1265ff;
+  color: white;
+  border-radius: 2px;
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+}
+.apple:hover{
+  background-color: #3c83cb;
+}
+
+/* ***************************************************** */
+.our-hightlight {
+  display: flex;
+  margin-bottom: 4rem;
+}
+.safolo-left {
+  width: 50%;
+  padding: 0rem 0rem 0rem 8rem;
+  /* background-color: aqua; */
+}
+.seamless {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: left;
+  max-width: 60%;
+  color: #33475b;
+}
+.phone-box {
+  width: 40px;
+  height: 40px;
+}
+#group-men {
+  width: 450px;
+  height: 420px;
+  margin-top: 30px;
+}
+.safolo-right {
+  width: 50%;
+  display: flex;
+}
+.circle-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dotted {
+  border: 1.2px dotted #33475b;
+  height: 141px;
+  width: 1px;
+  /* margin-left: 20px; */
+}
+.ylo {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.tile {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #33475b;
+}
+.toggle {
+  color: #33475b;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: left;
+  padding-top: 15px;
+}
+.discover-main {
+  margin-left: 3rem;
+  padding-right: 8rem;
+  /* margin-top: 1rem; */
+}
+.doveloper-main {
+  margin-left: 3rem;
+  padding-right: 8rem;
+  margin-top: 1rem;
+}
+.onbord-main {
+  margin-top: 2.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  padding-right: 8rem;
+}
+.line_btn {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 2rem;
+}
+.scale {
+  /* margin-top: 3rem; */
+  padding: 20px 60px 20px 60px;
+  background-color: #1265ff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.scale:hover{
+  background-color: #3c83cb;
+}
+#short {
+  width: 40px;
+  height: 1px;
+  /* margin-top: 30px; */
+  border: 1.2px dotted #33475b;
+}
+#horn {
+  width: 20px;
+  height: 1px;
+  margin-left: 20px;
+  border: 1.2px dotted #33475b;
+}
 
 

@@ -1608,7 +1608,8 @@ form button {
 }
 
 .port-card1 button:hover {
-  background-color: #3c83cb !important;
+  background-color: #0142E1 !important;
+  transition: .5s;
 }
 
 .home52 {
@@ -11612,12 +11613,21 @@ video {
 }
 
 .kickta_big {
-  background-color: #080e07;
+  /* background-color: #080e07;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding-top: 5px;
+  padding-top: 5px; */
   /* padding: 40px 0px; */
+
+  background-image: url('./images/ticketi.png');
+  height: 600px;
+  background-color: transparent !important;
+  position: relative;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .kickta_big11 {
@@ -11686,12 +11696,16 @@ video {
 
 .kickta_big1 {
   padding-left: 130px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .kickta_big1 {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }
 
 .kickta_big1 img {
@@ -16014,8 +16028,13 @@ video {
   height: 280px;
   max-height: 100%;
   border-radius: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
 }
-
+.dedicated_singat:hover{
+  transform: scale(1.1);
+  transition: .5s;
+}
 .singi_img {
   display: flex;
   align-items: center;
@@ -16152,7 +16171,9 @@ video {
   font-weight: bold;
   margin-top: 40px;
 }
-
+.left_selling button:hover{
+  background-color: #3c83cb;
+}
 .sell_hard {
   display: flex;
   align-items: center;
@@ -16315,6 +16336,10 @@ video {
   font-size: 18px;
   margin-top: 40px;
 }
+.suris_tech_left button:hover{
+  background-color: #3c83cb;
+  border: none;
+}
 .Ecommerce_sent{
   padding: 60px 100px;
   display: flex;
@@ -16399,6 +16424,9 @@ video {
   cursor: pointer;
   margin-top: 40px;
 }
+.theCom_right button:hover{
+  background-color: #3c83cb;
+}
 .theCom_left{
   position: relative;
 }
@@ -16476,6 +16504,11 @@ video {
   color: #085881;
   background-color: #FFFFFF;
   margin-top: 20px;
+}
+.tellUs_left button:hover{
+  background-color: #3c83cb;
+  color: #ffffff;
+  transition: .5s;
 }
 .fantars{
   margin-top: 70px;
@@ -17050,6 +17083,133 @@ font-weight: 700;
   padding-top: 60px !important;
   padding-bottom: 100px !important;
 }
+
+/* ====================wordpress service page css start====================== */
+.wordpress-back{
+  background-color: #085881;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 65px 100px;
+}
+.word_press_head h1{
+   color: #FFFFFF;
+   font-size: 34px;
+   font-weight: bold;
+   line-height: 46px;
+}
+.word_press_head span{
+  font-weight: 400;
+}
+.word_press_para{
+  margin-top: 15px;
+}
+.word_press_para p{
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 18.5px;
+   width: 36em;
+   max-width: 100%;
+}
+.wordpress-back2 img{
+  max-width: 545px;
+  width: 100%;
+  object-fit: cover;
+}
+.wordpress-back1 button{
+  max-width: 270px;
+  width: 100%;
+  height: 64px;
+  color: #33475B;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #FFFFFF;
+  margin-top: 40px;
+}
+.wordpress-back1 button:hover{
+  transition: .5s;
+  background-color: #0E52FC;
+  color: #fff;
+}
+.wordpress_about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url('./images/pseudo11.png');
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 80px 100px;
+  
+  padding-bottom: 100px;
+}
+.wordpress_about_left h1{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 46px;
+}
+.wordpress_about_left span{
+  color: #0E52FC;
+}
+.wordpress-paras p{
+  font-size: 18.5px;
+  color: #33475B;
+  font-weight: 400;
+  width: 37em;
+  max-width: 100%;
+  margin-top: 14px;
+}
+.wordpress_about_right img{
+  max-width: 600px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+}
+.wordpress_about_right img::before{
+  position: absolute;
+  top: 0px;
+  background-color: #085881;
+  z-index: -1;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+.wordpress_about_left button{
+  max-width: 270px;
+  width: 100%;
+  height: 64px;
+  max-height: 100%;
+  background-color: #1265FF;
+  outline: none;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 30px;
+}
+.wordpress_serv{
+  padding: 50px 100px;
+  background-color: #ffffff;
+}
+.wordpress_serv h1{
+  color: #33475B;
+  font-weight: bold;
+  font-size: 34px;
+  text-align: center;
+}
+.wordpress_serv span{
+  color: #0E52FC;
+}
+.word_parat p{
+  color: #33475B;
+  font-size: 18.5px;
+  font-weight: 400;
+  text-align: center;
+}
+/* ===========================wordpress service page css end======================== */
 @media only screen and (max-width: 1500px) {
   .home112 {
     width: auto;

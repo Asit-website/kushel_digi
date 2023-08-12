@@ -61,6 +61,7 @@ import ReactJsHire from "./components/ReactJsHire";
 import LaravelHire from "./components/LaravelHire";
 import HireWordpress from "./components/HireWordpress";
 import HowWork from "./components/HowWork";
+import WordPress from "./components/WordPress";
 
 function App() {
   return (
@@ -120,6 +121,7 @@ function App() {
 
             <Route path="/solution" element={<Solution/>}/>
             <Route path="/graphic" element={<GraphicDesign/>}/>
+            <Route path="/wordpress" element={<WordPress/>}/>
             <Route path="*" element={<Error />} />
 
             {/* =============hire pages route=========== */}

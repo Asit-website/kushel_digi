@@ -52,13 +52,13 @@ const Navbar = () => {
               </p>
             </div>
 
-           <a href="mailto:info@kusheldigi.com"><div className="email">
+            <a href="mailto:info@kusheldigi.com"><div className="email">
               <img src={mail} alt="mail" />
               <p>info@kusheldigi.com</p>
             </div></a>
           </div>
           <div className="second-header flex items-center">
-            <a  href="tel://+9045301702">
+            <a href="tel://+9045301702">
               <div className="flex items-center">
                 <img src={india} alt="alt" />
                 <p className="ml-2">+91-9045-301-702</p>
@@ -87,7 +87,7 @@ const Navbar = () => {
           <div className="navbar-text desk-nav">
             <ul>
 
-            <li className="mar">
+              <li className="mar">
                 <div className="flex items-center cursor-pointer">
                   <NavLink className="sar" to="/">
                     Home
@@ -125,11 +125,11 @@ const Navbar = () => {
                             </NavLink>{" "}
                             <span>|</span>{" "}
                             <NavLink className="sonji" to="/native">
-                            React Native
+                              React Native
                             </NavLink>{" "}
                             <span>|</span>{" "}
                             <NavLink className="sonji" to="/fluter">
-                                Flutter
+                              Flutter
                             </NavLink>{" "}
                             <span>|</span>{" "}
                             <NavLink className="sonji" to="/kotlin">
@@ -151,7 +151,7 @@ const Navbar = () => {
                           </NavLink>
                           <p className="yamini">
                             <NavLink className="sonji" to="/bigComm">
-                                BigCommerce{" "}
+                              BigCommerce{" "}
                             </NavLink>{" "}
                             <span> |</span>{" "}
                             <NavLink className="sonji" to="/shopify">
@@ -159,7 +159,7 @@ const Navbar = () => {
                             </NavLink>{" "}
                             <span> |</span>{" "}
                             <NavLink className="sonji" to="/magento">
-                               Magento{" "}
+                              Magento{" "}
                             </NavLink>{" "}
                             <span className="relative span-wo"> |</span>
                             <NavLink className="sonji span-wo1" to="/wooCommerce">
@@ -178,11 +178,11 @@ const Navbar = () => {
                           </p>
                         </div>
                         <div className=" mt-7">
-                        <NavLink to="/graphic">
-                          <div className="flex items-center">
-                            <img src={mon3} alt="" />
-                            <h4>Graphic Design</h4>
-                          </div>
+                          <NavLink to="/graphic">
+                            <div className="flex items-center">
+                              <img src={mon3} alt="" />
+                              <h4>Graphic Design</h4>
+                            </div>
                           </NavLink>
                           {/* <p className="yamini">
                             <NavLink className="sonji" to="#!">
@@ -316,7 +316,9 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
-           <li className="mar">
+
+              
+              <li className="mar">
                 <div className="flex items-center cursor-pointer nb-0 navLinks">
                   <p className="sar" to="/about">
                     about us
@@ -334,16 +336,16 @@ const Navbar = () => {
                             to="/about"
                           >
                             <div className="flex items-center">
-                            <img className="timi11" src={letter1} alt="tiim1" />
-                            <p className="cpmpa">Who We Are</p>
+                              <img className="timi11" src={letter1} alt="tiim1" />
+                              <p className="cpmpa">Who We Are</p>
                             </div>
                           </NavLink>
                           {/* <p className="cpmpa">Testimonials</p> */}
                           {/* <p className="cpmpa">Blog</p> */}
                           <NavLink to="/partner">
                             <div className="flex items-center">
-                            <img className="timi11 timi23" src={letter2} alt="" />
-                            <p className="cpmpa">Partner With us</p>
+                              <img className="timi11 timi23" src={letter2} alt="" />
+                              <p className="cpmpa">Partner With us</p>
                             </div>
                           </NavLink>
                           {/* <p className="cpmpa">Social Cause - NGO</p> */}
@@ -353,14 +355,14 @@ const Navbar = () => {
                           <p className="cpmpa">Our Clients</p> */}
                           <NavLink to="/career">
                             <div className="flex items-center">
-                            <img  className="timi11" src={letter3} alt="" />
-                            <p className="cpmpa">Careers</p>
+                              <img className="timi11" src={letter3} alt="" />
+                              <p className="cpmpa">Careers</p>
                             </div>
                           </NavLink>
                           <NavLink to="/hire">
                             <div className="flex items-center">
-                            <img className="timi11" src={letter4} alt="" />
-                            <p className="cpmpa">Hire team</p>
+                              <img className="timi11" src={letter4} alt="" />
+                              <p className="cpmpa">Hire team</p>
                             </div>
                           </NavLink>
                         </div>
@@ -383,9 +385,8 @@ const Navbar = () => {
                   </div>
                 </div>
               </li>
-            
 
-            <NavLink to="/solution"><li className="mar">
+              <NavLink to="/solution"><li className="mar">
                 <div className="flex items-center cursor-pointer">
                   <p className="sar" to="">
                     Solutions
@@ -402,13 +403,13 @@ const Navbar = () => {
                 </div>
               </li>
 
-            <NavLink to="/hire"><li className="mar" style={{ position: "relative" }}>
+              <NavLink to="/hire"><li className="mar" style={{ position: "relative" }}>
                 <div className="flex items-center cursor-pointer nb-0 navLinks">
                   <p className="sar" to="">
                     Hire
                   </p>
                 </div>
-               
+
                 <div className="hire-nav  hidden megaMenu">
                   <div className="hire-nav__containers ">
                     <div className="hire-nav__container">
@@ -499,7 +500,7 @@ const Navbar = () => {
                 </div>
               </li></NavLink>
 
-              
+
               {/* <li className="mar">
                 <div className="flex items-center cursor-pointer nb-0 navLinks">
                   <p className="sar" to="">
