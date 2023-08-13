@@ -227,7 +227,7 @@ animation-timing-function: ease-in-out;
     line-height: 23px;
 }
 .icon1{
-    width: 30px;
+    width: 60px;
 animation-name: an1;
 animation-duration: 2s;
 animation-iteration-count: 4;
@@ -235,7 +235,7 @@ animation-fill-mode: forwards;
 animation-timing-function: ease-in-out;
 }
 .icon2{
-    width: 30px;
+    width: 60px;
 animation-name: an1;
 animation-duration: 2s;
 animation-iteration-count: 4;
@@ -243,7 +243,7 @@ animation-fill-mode: forwards;
 animation-timing-function: ease-in-out;
 }
 .icon3{
-    width: 30px;
+    width: 60px;
     animation-name: an1;
     animation-duration: 2s;
     animation-iteration-count: 4;
@@ -251,7 +251,7 @@ animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     }
 .icon4{
-    width: 30px;
+    width: 60px;
     animation-name: an1;
     animation-duration: 2s;
     animation-iteration-count: 4;
@@ -307,7 +307,8 @@ animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     }
 .icon11{
-    width: 30px;
+    height: 30px !important;
+    width: 30px !important;
     animation-name: an1;
     animation-duration: 2s;
     animation-iteration-count: 4;

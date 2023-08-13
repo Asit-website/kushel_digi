@@ -145,7 +145,7 @@ const StafArgu = () => {
             <div className="content1">
               <div className="content-1-1 content45">
                 <div>
-                  <img src={ik1} alt="" className="icon1 icon11" />
+                  <img src={ik1} alt="" className="icon1 " />
                 </div>
                 <div className="hee">
                   <h1 className="hr2">Streamline communications</h1>
@@ -158,7 +158,7 @@ const StafArgu = () => {
               <div className="content-1-2 content45">
                 <div>
                   {" "}
-                  <img src={ik2} alt="" className="icon2 icon22" />
+                  <img src={ik2} alt="" className="icon2 " />
                 </div>
                 <div className="hee">
                   <h1 className="hr2">Create healthy teams</h1>
@@ -172,7 +172,7 @@ const StafArgu = () => {
             <div className="content1">
               <div className="content-2-1 content-2-2442 content45">
                 <div>
-                  <img src={clockIn} alt="" className="icon1 icon11" />
+                  <img src={clockIn} alt="" className="icon1 " />
                 </div>
                 <div className="hee">
                   <h1 className="hr2">Skip recruitment delays</h1>
@@ -185,7 +185,7 @@ const StafArgu = () => {
               <div className="content-2-2 content45">
                 <div>
                   {" "}
-                  <img src={ik4} alt="" className="icon2 icon22" />
+                  <img src={ik4} alt="" className="icon2" />
                 </div>
                 <div className="hee">
                   <h1 className="hr2">Access high-quality, pre-vetted talent</h1>

@@ -351,7 +351,7 @@ const Home = () => {
                 Web, Mobile, and Marketing solutions. */}
                 {/* We are your go-to digital partner for trustworthy Web, mobile,
                 and marketing solutions and cutting-edge design. */}
-                Welcome to our Ecommerce Website Development Company!
+                Welcome to our eCommerce Website Development Company!
               </h3>
               <p className="mb-3">
                 We specialize in creating customized online stores that are

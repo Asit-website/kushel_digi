@@ -2195,4 +2195,76 @@ animation-timing-function: ease-in-out;
   align-items: start;
 }
 
-.todaynew3 {}
+.wordPressji_cards{
+  margin-top: 50px;
+}
+.wordPressji_card{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.word_parat{
+  margin-top: 15px;
+}
+.wordPressji_box{
+  border-radius: 20px;
+border: 1px solid #000;
+width: 350px;
+height: 335px;
+margin-left: 30px;
+margin-top: 25px;
+padding: 15px;
+
+}
+.wordPressji_box img{
+  width: 178px;
+  margin-left: 80px;
+}
+
+.wordPressji_box  p{
+
+  color: #33475B;
+  text-align: center;
+  
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.wordPressji_box  h3{
+  color: #33475B;
+text-align: center;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 38.8px;
+margin-bottom:11px;
+margin-top: -28px;
+}
+
+.word_benefits .head{
+  color: #33475B;
+  font-family: Proxima Nova;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 65px;
+}
+.word_benefits .pra{
+  color: #33475B;
+font-family: Proxima Nova;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px;
+}
+
+.word_benefits{
+  padding: 60px 100px;
+  
+}
+/* .word_benefits{
+
+} */
