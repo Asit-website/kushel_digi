@@ -61,79 +61,119 @@ const WordPress = () => {
                         <div className="wordPressji_card">
                             <div className="wordPressji_box">
                                 <img src={svgSlider} alt="" />
-                                <div className="svgSlider_head">
+                           
                                     <h3>Modern UX/UI Design</h3>
                                     <p>We do exceptional custom designs and we can also modify themes of your choice.</p>
-                                </div>
+                             
                             </div>
                             <div className="wordPressji_box">
                                 <img src={svgSlider1} alt="" />
-                                <div className="svgSlider_head">
+                                
                                     <h3>Plugins and Functionality</h3>
                                     <p>Our experts can equip your website with the best plugins on the market, and we can even develop a custom option to cater to your specific needs.</p>
-                                </div>
+                              
                             </div>
                             <div className="wordPressji_box">
                                 <img src={svgSlider2} alt="" />
-                                <div className="svgSlider_head">
+                              
                                     <h3>Websites of Any Kind</h3>
                                     <p>Thanks to WordPress’ immense scalability, we can turn all kinds of projects into reality, be it online stores or high-traffic enterprise websites.</p>
-                                </div>
+                             
                             </div>
                         </div>
                         <div className="wordPressji_card">
                             <div className="wordPressji_box">
                                 <img src={svgSlider3} alt="" />
-                                <div className="svgSlider_head">
+                                
                                     <h3>Speed and Performance</h3>
                                     <p>We know that there is no one-size-fits-all
                                         solution when it comes to caching, so we
                                         determine and implement the appropriate approach based on your unique situation.</p>
-                                </div>
+                              
                             </div>
                             <div className="wordPressji_box">
                                 <img src={svgSlider4} alt="" />
-                                <div className="svgSlider_head">
+                             
                                     <h3>Worldwide Website</h3>
                                     <p>Our professionals can build you a multilingual site to make your business appealing to international audiences.</p>
-                                </div>
+                               
                             </div>
                             <div className="wordPressji_box">
                                 <img src={svgSlider5} alt="" />
-                                <div className="svgSlider_head">
+                                
                                     <h3>Accessibility</h3>
                                     <p>Our developers place a high priority on
                                         accessibility, meaning that we will build you a website that can be effortlessly used and enjoyed by absolutely everyone.</p>
-                                </div>
+                         
                             </div>
                         </div>
                         <div className="wordPressji_card">
                             <div className="wordPressji_box">
                                 <img src={svgSlider6} alt="" />
-                                <div className="svgSlider_head">
+                           
                                     <h3>Responsive Design</h3>
                                     <p>We’ll make sure your website runs smoothly on any type of device.</p>
-                                </div>
+                             
                             </div>
                             <div className="wordPressji_box">
                                 <img src={svgSlider7} alt="" />
-                                <div className="svgSlider_head">
+                                
                                     <h3>Multi-User Capacity</h3>
                                     <p>Our experts will ensure that you have complete control over your site by generating different accounts with specific permission for user
                                         access.</p>
-                                </div>
+                          
                             </div>
                             <div className="wordPressji_box">
                                 <img src={svgSlider8} alt="" />
-                                <div className="svgSlider_head">
+                               
                                     <h3>Complete Customization</h3>
                                     <p>Vipe Studio’s professionals will maximize your website’s potential by introducing you to WordPress’ versatile customization options.</p>
-                                </div>
+                         
                             </div>
                         </div>
                     </div>
                 </div>
+                <div className='word_benefits'>
+                         <h1 className='head '>Benefits of <span>WordPress</span> Development Services</h1>
+                         <p className='pra'>Best WordPress Developers that astonish our clients with refinement and superiority</p>
+                         <div className='word_benefits_main_section'>
+                             <div className='word_benefits_section'>
+                                 <div className='word_benefits_box'>
+                                     <h1>Execution Architecture</h1>
+                                     <p>We cautiously model each web application to guarantee elite and low framework costs.</p>
+                                 </div>
+                                 <div className='word_benefits_box'>
+                                 <h1>Imaginative UI/UX Design</h1>
+                                 <p>We offer imaginative and UI/UX planning and web application plan models.</p>
+
+                                 </div>
+                             </div>
+                             <div className='word_benefits_section'>
+                                 <div className='word_benefits_box'>
+                                     <h1>Exceptionally Scalable</h1>
+                                     <p>We cautiously model each web platform to guarantee high adaptability, in an upward direction just as on a level plane.</p>
+                                 </div>
+                                 <div className='word_benefits_box'>
+                                 <h1>Imaginative UI/UX Design</h1>
+                                 <p>We offer coordinated web advancement to meet your particular business needs.</p>
+
+                                 </div>
+                             </div>
+                             <div className='word_benefits_section'>
+                                 <div className='word_benefits_box'>
+                                     <h1>Psychology Driven</h1>
+                                     <p>We offer UI/UX configuration dependent on client brain science to construct habit-forming web applications and dashboards.</p>
+                                 </div>
+                                 <div className='word_benefits_box'>
+                                 <h1>Failproof</h1>
+                                 <p>Each web application is worked with big business-grade security and through numerous testing.</p>
+
+                                 </div>
+                             </div>
+                         </div>
+                </div>
             </div>
+            
         </>
     )
 }
