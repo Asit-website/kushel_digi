@@ -138,7 +138,7 @@ const WordPress = () => {
                          <p className='pra'>Best WordPress Developers that astonish our clients with refinement and superiority</p>
                          <div className='word_benefits_main_section'>
                              <div className='word_benefits_section'>
-                                 <div className='word_benefits_box'>
+                                 <div className='word_benefits_box'>git
                                      <h1>Execution Architecture</h1>
                                      <p>We cautiously model each web application to guarantee elite and low framework costs.</p>
                                  </div>
